@@ -322,7 +322,7 @@ public class LCO_Validator implements ModelValidator
 				if (invoice == null)
 					continue;
 				String sql = 
-					  "SELECT i.C_Tax_ID, NVL(SUM(i.TaxBaseAmt),0) TaxBaseAmt, NVL(SUM(i.TaxAmt),0) TaxAmt, t.Name, t.Rate, t.IsSalesTax "
+					  "SELECT i.C_Tax_ID, NVL(SUM(i.TaxBaseAmt),0) AS TaxBaseAmt, NVL(SUM(i.TaxAmt),0) AS TaxAmt, t.Name, t.Rate, t.IsSalesTax "
 					 + " FROM LCO_InvoiceWithholding i, C_Tax t "
 					+ " WHERE i.C_Invoice_ID = ? AND i.IsCalcOnPayment = 'Y' AND i.IsActive = 'Y' "
 					  + " AND i.C_Tax_ID = t.C_Tax_ID "
@@ -436,7 +436,7 @@ public class LCO_Validator implements ModelValidator
 		BigDecimal sumit = new BigDecimal(0);
 		
 		String sql = 
-			  "SELECT C_Tax_ID, NVL(SUM(TaxBaseAmt),0) TaxBaseAmt, NVL(SUM(TaxAmt),0) TaxAmt "
+			  "SELECT C_Tax_ID, NVL(SUM(TaxBaseAmt),0) AS TaxBaseAmt, NVL(SUM(TaxAmt),0) AS TaxAmt "
 			 + " FROM LCO_InvoiceWithholding "
 			+ " WHERE C_Invoice_ID = ? AND IsCalcOnPayment = 'N' AND IsActive = 'Y' "
 			+ "GROUP BY C_Tax_ID";
