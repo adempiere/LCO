@@ -267,9 +267,31 @@ public class LCO_Validator implements ModelValidator
 		String msg;
 
 		if (po.get_TableName().equals(X_C_Invoice.Table_Name) && timing == TIMING_BEFORE_PREPARE) {
-			MInvoice inv = (MInvoice)po;
+			MInvoice inv = (MInvoice) po;
 			if (inv.get_Value("WithholdingAmt") == null) {
-				return "@WithholdingNotGenerated@";
+				// 20070803 - globalqss - Carlos Ruiz
+				// Withholding must be generated for generated sales invoices
+				// in sales invoices the withholdings can be edited in payment receipt
+				// Not generate if the auto-generation comes from a POS Order (it's supposed the money was received)
+				if (!inv.isSOTrx()) {
+					// purchase invoice - must generate withholding
+					return "@WithholdingNotGenerated@";
+				} else {
+					// sales order
+					if (inv.getC_Order_ID() > 0) {
+						MOrder ord = new MOrder (inv.getCtx(), inv.getC_Order_ID(), inv.get_TrxName());
+						MDocType dt = new MDocType (inv.getCtx(), ord.getC_DocTypeTarget_ID(), inv.get_TrxName());
+						if (dt.getDocBaseType().equals(MDocType.DOCBASETYPE_SalesOrder)
+								&& dt.getDocSubTypeSO().equals(MDocType.DOCSUBTYPESO_POSOrder)) {
+							// is a POS Order don't generate
+							inv.set_CustomColumn("WithholdingAmt", new BigDecimal(0));
+						} else {
+							// is not a POS Order, generate withholdings
+							LCO_MInvoice lcoinv = new LCO_MInvoice(inv.getCtx(), inv.getC_Invoice_ID(), inv.get_TrxName());
+							lcoinv.recalcWithholdings();
+						}						
+					}
+				}
 			}
 		}
 
