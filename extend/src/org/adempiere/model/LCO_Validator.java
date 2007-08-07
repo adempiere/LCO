@@ -95,6 +95,7 @@ public class LCO_Validator implements ModelValidator
 				return msg;
 		}
 
+		// when invoiceline is changed clear the withholding amount on invoice
 		if (po.get_TableName().equals(X_C_InvoiceLine.Table_Name) &&
 				(type == ModelValidator.TYPE_BEFORE_NEW ||
 				 type == ModelValidator.TYPE_BEFORE_CHANGE ||
@@ -107,22 +108,7 @@ public class LCO_Validator implements ModelValidator
 				return msg;
 		}
 
-		if (po.get_TableName().equals(X_LCO_InvoiceWithholding.Table_Name) &&
-				(type == ModelValidator.TYPE_BEFORE_NEW ||
-				 type == ModelValidator.TYPE_BEFORE_CHANGE ||
-				 type == ModelValidator.TYPE_BEFORE_DELETE
-				)
-			)
-		{
-			if (type == ModelValidator.TYPE_BEFORE_NEW ||
-				type == ModelValidator.TYPE_BEFORE_CHANGE)
-				fillFields((X_LCO_InvoiceWithholding) po);
-			
-			msg = recalcInvoiceWithholdingAmt((X_LCO_InvoiceWithholding) po);
-			if (msg != null)
-				return msg;
-		}
-
+		// when invoicewithholding is changed fill proper fields and recalculate the withholding amount on invoice
 		if (po.get_TableName().equals(X_LCO_InvoiceWithholding.Table_Name) &&
 				(type == ModelValidator.TYPE_BEFORE_NEW ||
 				 type == ModelValidator.TYPE_BEFORE_CHANGE ||
@@ -266,6 +252,7 @@ public class LCO_Validator implements ModelValidator
 		log.info(po.get_TableName() + " Timing: "+timing);
 		String msg;
 
+		// before preparing invoice validate if withholdings has been generated
 		if (po.get_TableName().equals(X_C_Invoice.Table_Name) && timing == TIMING_BEFORE_PREPARE) {
 			MInvoice inv = (MInvoice) po;
 			if (inv.get_Value("WithholdingAmt") == null) {
@@ -295,18 +282,21 @@ public class LCO_Validator implements ModelValidator
 			}
 		}
 
+		// after preparing invoice move invoice withholdings to taxes and recalc grandtotal of invoice
 		if (po.get_TableName().equals(X_C_Invoice.Table_Name) && timing == TIMING_AFTER_PREPARE) {
 			msg = translateWithholdingToTaxes((MInvoice) po);
 			if (msg != null)
 				return msg;
 		}
 
+		// after completing the invoice fix the dates on withholdings and mark the invoice withholdings as processed
 		if (po.get_TableName().equals(X_C_Invoice.Table_Name) && timing == TIMING_AFTER_COMPLETE) {
 			msg = completeInvoiceWithholding((MInvoice) po);
 			if (msg != null)
 				return msg;
 		}
 
+		// before posting the allocation - post the payment withholdings vs writeoff amount  
 		if (po.get_TableName().equals(X_C_AllocationHdr.Table_Name) && timing == TIMING_BEFORE_POST) {
 			msg = accountingForInvoiceWithholdingOnPayment((MAllocationHdr) po);
 			if (msg != null)
