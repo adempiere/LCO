@@ -309,6 +309,8 @@ public class LCO_Validator implements ModelValidator
 	private String accountingForInvoiceWithholdingOnPayment(MAllocationHdr ah) {
 		// Accounting like Doc_Allocation
 		// (Write off) vs (invoice withholding where iscalconpayment=Y)
+		// 20070807 - globalqss - instead of adding a new WriteOff post, find the
+		//  current WriteOff and subtract from the posting
 		
 		Doc doc = ah.getDoc();
 		
@@ -391,20 +393,52 @@ public class LCO_Validator implements ModelValidator
 				{
 					pstmt = null;
 				}
+				
 				//	Write off		DR
 				if (Env.ZERO.compareTo(tottax) != 0)
 				{
-					DocLine line = new DocLine(alloc_line, doc);
-					FactLine fl = null;
-					if (invoice.isSOTrx()) {
-						fl = fact.createLine (line, doc.getAccount(Doc.ACCTTYPE_WriteOff, as),
-								as.getC_Currency_ID(), null, tottax);
-					} else {
-						fl = fact.createLine (line, doc.getAccount(Doc.ACCTTYPE_WriteOff, as),
-								as.getC_Currency_ID(), tottax, null);
+					// First try to find the WriteOff posting record
+					FactLine[] factlines = fact.getLines();
+					boolean foundflwriteoff = false;
+					for (int ifl = 0; ifl < factlines.length; ifl++) {
+						FactLine fl = factlines[ifl];
+						if (fl.getAccount().equals(doc.getAccount(Doc.ACCTTYPE_WriteOff, as))) {
+							foundflwriteoff = true;
+							// old balance = DB - CR
+							BigDecimal balamt = fl.getAmtSourceDr().subtract(fl.getAmtSourceCr());
+							// new balance = old balance +/- tottax
+							BigDecimal newbalamt = Env.ZERO;
+							if (invoice.isSOTrx())
+								newbalamt = balamt.subtract(tottax);
+							else
+								newbalamt = balamt.add(tottax);
+							if (Env.ZERO.compareTo(newbalamt) == 0) {
+								// both zeros, remove the line
+								fact.remove(fl);
+							} else if (Env.ZERO.compareTo(newbalamt) > 0) {
+								fl.setAmtSource(fl.getC_Currency_ID(), Env.ZERO, newbalamt);
+							} else {
+								fl.setAmtSource(fl.getC_Currency_ID(), newbalamt, Env.ZERO);
+							}
+							break;
+						}
 					}
-					if (fl != null)
-						fl.setAD_Org_ID(ah.getAD_Org_ID());
+
+					if (! foundflwriteoff) {
+						// Create a new line
+						DocLine line = new DocLine(alloc_line, doc);
+						FactLine fl = null;
+						if (invoice.isSOTrx()) {
+							fl = fact.createLine (line, doc.getAccount(Doc.ACCTTYPE_WriteOff, as),
+									as.getC_Currency_ID(), null, tottax);
+						} else {
+							fl = fact.createLine (line, doc.getAccount(Doc.ACCTTYPE_WriteOff, as),
+									as.getC_Currency_ID(), tottax, null);
+						}
+						if (fl != null)
+							fl.setAD_Org_ID(ah.getAD_Org_ID());
+					}
+				
 				}
 				
 			}
