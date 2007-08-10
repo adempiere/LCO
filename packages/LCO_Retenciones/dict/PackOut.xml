@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- edited with XMLSpy v2007 sp2 (http://www.altova.com) by freeware (freeware) -->
-<adempiereAD Name="LCO_Retenciones" Version="1.0" CompVer="all" DataBase="1.0" Description="Localization for Colombian Taxes" creator="info@globalqss.com" creatorcontact="info@globalqss.com" createddate="2007-05-09 06:28:47.0" updateddate="2007-05-09 06:29:11.0" PackOutVer="005">
+<adempiereAD Name="LCO_Retenciones" Version="1.0" CompVer="all" DataBase="1.0" Description="Localization for Colombian Taxes" creator="info@globalqss.com" creatorcontact="info@globalqss.com" createddate="2007-05-09 06:28:47.0" updateddate="2007-08-09 22:20:25.0" PackOutVer="005">
 	<!-- Oracle scripts for database object creation -->
 	<SQLStatement DBType="Oracle" statement="CREATE TABLE LCO_ISIC
 (
@@ -1267,655 +1266,73 @@ ADD COLUMN withholdingamt NUMERIC"/>
 			</drow>
 		</dtable>
 	</data>
-	<!-- Update Translations es_MX on menu, window, tabs, reference, field group, reflist, message, process -->
-	<data>
-		<dtable name="AD_Tab_Trl">
-			<drow name="" key1name="AD_Tab_ID" lookupkey1name="(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Cash Journal' and t.name='Withholding')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Retención"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="CommitWarning" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Tab_ID" lookupkey1name="(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Invoice (Customer)' and t.name='Withholding')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Retención"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="CommitWarning" class="String" value="Tome nota que los cambios en Retenciones se perderán si genera retenciones nuevamente después de esta modificación."/>
-			</drow>
-			<drow name="" key1name="AD_Tab_ID" lookupkey1name="(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Invoice (Vendor)' and t.name='Withholding')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Retención"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="CommitWarning" class="String" value="Tome nota que los cambios en Retenciones se perderán si genera retenciones nuevamente después de esta modificación."/>
-			</drow>
-			<drow name="" key1name="AD_Tab_ID" lookupkey1name="(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='ISIC' and t.name='ISIC')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="CIIU"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="CommitWarning" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Tab_ID" lookupkey1name="(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Payment' and t.name='Withholding')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Retención"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="CommitWarning" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Tab_ID" lookupkey1name="(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Tax Payer Type' and t.name='Tax Payer Type')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Tipo Contribuyente"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="CommitWarning" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Tab_ID" lookupkey1name="(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Withholding Category' and t.name='Withholding Category')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Categoría Retención"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="CommitWarning" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Tab_ID" lookupkey1name="(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Withholding Type' and t.name='Withholding Calc')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Cálculo Retención"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="CommitWarning" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Tab_ID" lookupkey1name="(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Withholding Type' and t.name='Withholding Rule')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Regla Retención"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="CommitWarning" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Tab_ID" lookupkey1name="(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Withholding Type' and t.name='Withholding Rule Conf')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Configuración Regla Retención"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="CommitWarning" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Tab_ID" lookupkey1name="(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Withholding Type' and t.name='Withholding Type')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Tipo Retención"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="CommitWarning" class="String" value=""/>
-			</drow>
-		</dtable>
-	</data>
-	<data>
-		<dtable name="AD_Menu_Trl">
-			<drow name="" key1name="AD_Menu_ID" lookupkey1name="(SELECT AD_Menu_ID FROM AD_Menu m WHERE m.name='Colombian Taxes' and m.action IS NULL)" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Impuestos Colombia"/>
-				<dcolumn name="Description" class="String"/>
-			</drow>
-			<drow name="" key1name="AD_Menu_ID" lookupkey1name="(SELECT AD_Menu_ID FROM AD_Menu m WHERE m.name='ISIC' and m.action='W')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="CIIU"/>
-				<dcolumn name="Description" class="String"/>
-			</drow>
-			<drow name="" key1name="AD_Menu_ID" lookupkey1name="(SELECT AD_Menu_ID FROM AD_Menu m WHERE m.name='Tax Payer Type' and m.action='W')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Tipo Contribuyente"/>
-				<dcolumn name="Description" class="String"/>
-			</drow>
-			<drow name="" key1name="AD_Menu_ID" lookupkey1name="(SELECT AD_Menu_ID FROM AD_Menu m WHERE m.name='Withholding Category' and m.action='W')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Categoría Retención"/>
-				<dcolumn name="Description" class="String"/>
-			</drow>
-			<drow name="" key1name="AD_Menu_ID" lookupkey1name="(SELECT AD_Menu_ID FROM AD_Menu m WHERE m.name='Withholding Type' and m.action='W')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Tipo Retención"/>
-				<dcolumn name="Description" class="String"/>
-			</drow>
-		</dtable>
-	</data>
-	<data>
-		<dtable name="AD_Window_Trl">
-			<drow name="" key1name="AD_Window_ID" lookupkey1name="(SELECT AD_window_ID FROM AD_window w WHERE w.name='ISIC')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="CIIU"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String"/>
-			</drow>
-			<drow name="" key1name="AD_Window_ID" lookupkey1name="(SELECT AD_window_ID FROM AD_window w WHERE w.name='Tax Payer Type')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Tipo Contribuyente"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String"/>
-			</drow>
-			<drow name="" key1name="AD_Window_ID" lookupkey1name="(SELECT AD_window_ID FROM AD_window w WHERE w.name='Withholding Category')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Categoría Retención"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String"/>
-			</drow>
-			<drow name="" key1name="AD_Window_ID" lookupkey1name="(SELECT AD_window_ID FROM AD_window w WHERE w.name='Withholding Type')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Tipo Retención"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String"/>
-			</drow>
-		</dtable>
-	</data>
-	<data>
-		<dtable name="AD_FieldGroup_Trl">
-			<drow name="" key1name="AD_FieldGroup_ID" lookupkey1name="(SELECT AD_FieldGroup_ID FROM AD_FieldGroup w WHERE w.name='Calculation')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Cálculo"/>
-			</drow>
-			<drow name="" key1name="AD_FieldGroup_ID" lookupkey1name="(SELECT AD_FieldGroup_ID FROM AD_FieldGroup w WHERE w.name='Rules')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Reglas"/>
-			</drow>
-			<drow name="" key1name="AD_FieldGroup_ID" lookupkey1name="(SELECT AD_FieldGroup_ID FROM AD_FieldGroup w WHERE w.name='Withholding')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Retención"/>
-			</drow>
-		</dtable>
-	</data>
-	<data>
-		<dtable name="AD_Reference_Trl">
-			<drow name="" key1name="AD_Reference_ID" lookupkey1name="(SELECT AD_reference_ID FROM AD_reference w WHERE w.name='LCO_ISIC_ID')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="LCO_ISIC_ID"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Reference_ID" lookupkey1name="(SELECT AD_reference_ID FROM AD_reference w WHERE w.name='LCO_TaxPayerType_ID')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="LCO_TaxPayerType_ID"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Reference_ID" lookupkey1name="(SELECT AD_reference_ID FROM AD_reference w WHERE w.name='LCO_WithholdingType BaseType')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="LCO_WithholdingType BaseType"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-			</drow>
-		</dtable>
-	</data>
-	<data>
-		<dtable name="AD_Ref_List_Trl">
-			<drow name="" key1name="AD_Ref_List_ID" lookupkey1name="(SELECT AD_ref_list_ID FROM AD_reference r, ad_ref_list rl WHERE r.ad_reference_id=rl.ad_reference_id and r.name='LCO_WithholdingType BaseType' and rl.name='Document')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Documento"/>
-				<dcolumn name="Description" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Ref_List_ID" lookupkey1name="(SELECT AD_ref_list_ID FROM AD_reference r, ad_ref_list rl WHERE r.ad_reference_id=rl.ad_reference_id and r.name='LCO_WithholdingType BaseType' and rl.name='Line')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Línea"/>
-				<dcolumn name="Description" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Ref_List_ID" lookupkey1name="(SELECT AD_ref_list_ID FROM AD_reference r, ad_ref_list rl WHERE r.ad_reference_id=rl.ad_reference_id and r.name='LCO_WithholdingType BaseType' and rl.name='Tax')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Impuesto"/>
-				<dcolumn name="Description" class="String" value=""/>
-			</drow>
-		</dtable>
-	</data>
-	<data>
-		<dtable name="AD_Message_Trl">
-			<drow name="" key1name="AD_Message_ID" lookupkey1name="(SELECT AD_message_ID FROM AD_message w WHERE w.value='WithholdingNotGenerated')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="MsgText" class="String" value="No se han generado retenciones"/>
-				<dcolumn name="MsgTip" class="String" value=""/>
-			</drow>
-		</dtable>
-	</data>
-	<data>
-		<dtable name="AD_Process_Trl">
-			<drow name="" key1name="AD_Process_ID" lookupkey1name="(SELECT AD_process_ID FROM AD_process w WHERE w.value='LCO_GenerateWithholding')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Genera Retenciones"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-			</drow>
-		</dtable>
-	</data>
-	<!-- Spanish es_MX Translation for elements -->
-	<data>
-		<dtable name="AD_Element_Trl">
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='C_BaseTax_ID')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Impuesto Base"/>
-				<dcolumn name="PrintName" class="String" value="Impuesto Base"/>
-				<dcolumn name="Description" class="String"/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='BaseType')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Tipo Base"/>
-				<dcolumn name="PrintName" class="String" value="Tipo Base"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='GenerateWithholding')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Genera Retención"/>
-				<dcolumn name="PrintName" class="String" value="Genera Retención"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_InvoiceWithholding_ID')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Retención Factura"/>
-				<dcolumn name="PrintName" class="String" value="Retención Factura"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsCalcOnInvoice')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Aplicable en Factura"/>
-				<dcolumn name="PrintName" class="String" value="Aplicable en Factura"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsCalcOnPayment')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Aplicable en Pago"/>
-				<dcolumn name="PrintName" class="String" value="Aplicable en Pago"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsModifiableOnPayment')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Modificable en Pago"/>
-				<dcolumn name="PrintName" class="String" value="Modificable en Pago"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsUseBPISIC')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Usa CIIU Socio"/>
-				<dcolumn name="PrintName" class="String" value="Usa CIIU Socio"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsUseBPTaxPayerType')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Usa Tipo Contribuyente Socio"/>
-				<dcolumn name="PrintName" class="String" value="Usa Tipo Contribuyente Socio"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsUseOrgISIC')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Usa CIIU Organización"/>
-				<dcolumn name="PrintName" class="String" value="Usa CIIU Organización"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsUseOrgTaxPayerType')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Usa Tipo Contribuyente Organización"/>
-				<dcolumn name="PrintName" class="String" value="Usa Tipo Contribuyente Organización"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsUseWithholdingCategory')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Usa Categoría Retención"/>
-				<dcolumn name="PrintName" class="String" value="Usa Categoría Retención"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsWithholding')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Es Retención"/>
-				<dcolumn name="PrintName" class="String" value="Es Retención"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_ISIC_ID')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="CIIU"/>
-				<dcolumn name="PrintName" class="String" value="CIIU"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_BP_ISIC_ID')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="CIIU Socio Negocio"/>
-				<dcolumn name="PrintName" class="String" value="CIIU Socio Negocio"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_Org_ISIC_ID')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="CIIU Organización"/>
-				<dcolumn name="PrintName" class="String" value="CIIU Organización"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_TaxPayerType_ID')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Tipo Contribuyente"/>
-				<dcolumn name="PrintName" class="String" value="Tipo Contribuyente"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_BP_TaxPayerType_ID')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Tipo Contribuyente Socio"/>
-				<dcolumn name="PrintName" class="String" value="Tipo Contribuyente Socio"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_Org_TaxPayerType_ID')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Tipo Contribuyente Organización"/>
-				<dcolumn name="PrintName" class="String" value="Tipo Contribuyente Organización"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='WithholdingAmt')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Cantidad Retención"/>
-				<dcolumn name="PrintName" class="String" value="Cantidad Retención"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_WithholdingCalc_ID')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Cálculo Retención"/>
-				<dcolumn name="PrintName" class="String" value="Cálculo Retención"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_WithholdingCategory_ID')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Categoría Retención"/>
-				<dcolumn name="PrintName" class="String" value="Categoría Retención"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_WithholdingRule_ID')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Regla Retención"/>
-				<dcolumn name="PrintName" class="String" value="Regla Retención"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-			<drow name="" key1name="AD_Element_ID" lookupkey1name="(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_WithholdingType_ID')" key2name="AD_Language" lookupkey2name="'es_MX'">
-				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
-				<dcolumn name="AD_Language" class="String" value="es_MX"/>
-				<dcolumn name="IsTranslated" class="Yes-No" value="Y"/>
-				<dcolumn name="Name" class="String" value="Tipo Retención"/>
-				<dcolumn name="PrintName" class="String" value="Tipo Retención"/>
-				<dcolumn name="Description" class="String" value=""/>
-				<dcolumn name="Help" class="String" value=""/>
-				<dcolumn name="PO_Name" class="String" value=""/>
-				<dcolumn name="PO_PrintName" class="String" value=""/>
-				<dcolumn name="PO_Description" class="String" value=""/>
-				<dcolumn name="PO_Help" class="String" value=""/>
-			</drow>
-		</dtable>
-	</data>
+	<!-- Update Translations es_% on menu, window, tabs, reference, field group, reflist, message, process -->
+	<!-- Update AD_Tab_Trl -->
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Tab_Trl SET IsTranslated='Y', Name='Retención' WHERE AD_Tab_ID=(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Cash Journal' and t.name='Withholding') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Tab_Trl SET IsTranslated='Y', Name='Retención' WHERE AD_Tab_ID=(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Invoice (Customer)' and t.name='Withholding') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Tab_Trl SET IsTranslated='Y', Name='Retención' WHERE AD_Tab_ID=(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Invoice (Vendor)' and t.name='Withholding') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Tab_Trl SET IsTranslated='Y', Name='CIIU' WHERE AD_Tab_ID=(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='ISIC' and t.name='ISIC') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Tab_Trl SET IsTranslated='Y', Name='Retención' WHERE AD_Tab_ID=(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Payment' and t.name='Withholding') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Tab_Trl SET IsTranslated='Y', Name='Tipo Contribuyente' WHERE AD_Tab_ID=(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Tax Payer Type' and t.name='Tax Payer Type') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Tab_Trl SET IsTranslated='Y', Name='Categoría Retención' WHERE AD_Tab_ID=(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Withholding Category' and t.name='Withholding Category') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Tab_Trl SET IsTranslated='Y', Name='Cálculo Retención' WHERE AD_Tab_ID=(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Withholding Type' and t.name='Withholding Calc') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Tab_Trl SET IsTranslated='Y', Name='Regla Retención' WHERE AD_Tab_ID=(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Withholding Type' and t.name='Withholding Rule') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Tab_Trl SET IsTranslated='Y', Name='Configuración Regla Retención' WHERE AD_Tab_ID=(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Withholding Type' and t.name='Withholding Rule Conf') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Tab_Trl SET IsTranslated='Y', Name='Tipo Retención' WHERE AD_Tab_ID=(SELECT AD_Tab_ID FROM AD_Tab t, AD_Window w WHERE t.ad_window_id = w.ad_window_id and w.name='Withholding Type' and t.name='Withholding Type') AND AD_Language LIKE 'es_%'"/>
+	<!-- Update AD_Menu_Trl -->
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Menu_Trl SET IsTranslated='Y', Name='Impuestos Colombia' WHERE AD_Menu_ID=(SELECT AD_Menu_ID FROM AD_Menu m WHERE m.name='Colombian Taxes' and m.action IS NULL) AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Menu_Trl SET IsTranslated='Y', Name='CIIU' WHERE AD_Menu_ID=(SELECT AD_Menu_ID FROM AD_Menu m WHERE m.name='ISIC' and m.action='W') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Menu_Trl SET IsTranslated='Y', Name='Tipo Contribuyente' WHERE AD_Menu_ID=(SELECT AD_Menu_ID FROM AD_Menu m WHERE m.name='Tax Payer Type' and m.action='W') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Menu_Trl SET IsTranslated='Y', Name='Categoría Retención' WHERE AD_Menu_ID=(SELECT AD_Menu_ID FROM AD_Menu m WHERE m.name='Withholding Category' and m.action='W') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Menu_Trl SET IsTranslated='Y', Name='Tipo Retención' WHERE AD_Menu_ID=(SELECT AD_Menu_ID FROM AD_Menu m WHERE m.name='Withholding Type' and m.action='W') AND AD_Language LIKE 'es_%'"/>
+	<!-- Update AD_Window_Trl -->
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Window_Trl SET IsTranslated='Y', Name='CIIU' WHERE AD_Window_ID=(SELECT AD_window_ID FROM AD_window w WHERE w.name='ISIC') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Window_Trl SET IsTranslated='Y', Name='Tipo Contribuyente' WHERE AD_Window_ID=(SELECT AD_window_ID FROM AD_window w WHERE w.name='Tax Payer Type') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Window_Trl SET IsTranslated='Y', Name='Categoría Retención' WHERE AD_Window_ID=(SELECT AD_window_ID FROM AD_window w WHERE w.name='Withholding Category') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Window_Trl SET IsTranslated='Y', Name='Tipo Retención' WHERE AD_Window_ID=(SELECT AD_window_ID FROM AD_window w WHERE w.name='Withholding Type') AND AD_Language LIKE 'es_%'"/>
+	<!-- Update AD_FieldGroup_Trl -->
+	<SQLStatement DBType="ALL" statement="UPDATE AD_FieldGroup_Trl SET IsTranslated='Y', Name='Cálculo' WHERE AD_FieldGroup_ID=(SELECT AD_FieldGroup_ID FROM AD_FieldGroup w WHERE w.name='Calculation') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_FieldGroup_Trl SET IsTranslated='Y', Name='Reglas' WHERE AD_FieldGroup_ID=(SELECT AD_FieldGroup_ID FROM AD_FieldGroup w WHERE w.name='Rules') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_FieldGroup_Trl SET IsTranslated='Y', Name='Retención' WHERE AD_FieldGroup_ID=(SELECT AD_FieldGroup_ID FROM AD_FieldGroup w WHERE w.name='Withholding') AND AD_Language LIKE 'es_%'"/>
+	<!-- Update AD_Reference_Trl -->
+	<!--
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Reference_Trl SET IsTranslated='Y', Name='LCO_ISIC_ID' WHERE AD_Reference_ID=(SELECT AD_reference_ID FROM AD_reference w WHERE w.name='LCO_ISIC_ID') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Reference_Trl SET IsTranslated='Y', Name='LCO_TaxPayerType_ID' WHERE AD_Reference_ID=(SELECT AD_reference_ID FROM AD_reference w WHERE w.name='LCO_TaxPayerType_ID') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Reference_Trl SET IsTranslated='Y', Name='LCO_WithholdingType BaseType' WHERE AD_Reference_ID=(SELECT AD_reference_ID FROM AD_reference w WHERE w.name='LCO_WithholdingType BaseType') AND AD_Language LIKE 'es_%'"/>
+	-->
+	<!-- Update AD_Ref_List_Trl -->
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Ref_List_Trl SET IsTranslated='Y', Name='Documento' WHERE AD_Ref_List_ID=(SELECT AD_ref_list_ID FROM AD_reference r, ad_ref_list rl WHERE r.ad_reference_id=rl.ad_reference_id and r.name='LCO_WithholdingType BaseType' and rl.name='Document') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Ref_List_Trl SET IsTranslated='Y', Name='Línea' WHERE AD_Ref_List_ID=(SELECT AD_ref_list_ID FROM AD_reference r, ad_ref_list rl WHERE r.ad_reference_id=rl.ad_reference_id and r.name='LCO_WithholdingType BaseType' and rl.name='Line') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Ref_List_Trl SET IsTranslated='Y', Name='Impuesto' WHERE AD_Ref_List_ID=(SELECT AD_ref_list_ID FROM AD_reference r, ad_ref_list rl WHERE r.ad_reference_id=rl.ad_reference_id and r.name='LCO_WithholdingType BaseType' and rl.name='Tax') AND AD_Language LIKE 'es_%'"/>
+	<!-- Update AD_Message_Trl -->
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Message_Trl SET IsTranslated='Y', MsgText='No se han generado retenciones' WHERE AD_Message_ID=(SELECT AD_message_ID FROM AD_message w WHERE w.value='WithholdingNotGenerated') AND AD_Language LIKE 'es_%'"/>
+	<!-- Update AD_Process_Trl -->
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Process_Trl SET IsTranslated='Y', Name='Genera Retenciones' WHERE AD_Process_ID=(SELECT AD_process_ID FROM AD_process w WHERE w.value='LCO_GenerateWithholding') AND AD_Language LIKE 'es_%'"/>
+	<!-- Update AD_Element_Trl -->
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Impuesto Base', PrintName='Impuesto Base' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='C_BaseTax_ID') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Tipo Base', PrintName='Tipo Base' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='BaseType') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Genera Retención', PrintName='Genera Retención' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='GenerateWithholding') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Retención Factura', PrintName='Retención Factura' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_InvoiceWithholding_ID') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Aplicable en Factura', PrintName='Aplicable en Factura' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsCalcOnInvoice') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Aplicable en Pago', PrintName='Aplicable en Pago' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsModifiableOnPayment') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Modificable en Pago', PrintName='Modificable en Pago' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsUseBPISIC') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Usa CIIU Socio', PrintName='Usa CIIU Socio' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsUseBPISIC') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Usa Tipo Contribuyente Socio', PrintName='Usa Tipo Contribuyente Socio' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsUseBPTaxPayerType') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Usa CIIU Organización', PrintName='Usa CIIU Organización' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsUseOrgISIC') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Usa Tipo Contribuyente Organización', PrintName='Usa Tipo Contribuyente Organización' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsUseOrgTaxPayerType') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Usa Categoría Retención', PrintName='Usa Categoría Retención' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsUseWithholdingCategory') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Es Retención', PrintName='Es Retención' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='IsWithholding') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='CIIU', PrintName='CIIU' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_ISIC_ID') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='CIIU Socio Negocio', PrintName='CIIU Socio Negocio' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_BP_ISIC_ID') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='CIIU Organización', PrintName='CIIU Organización' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_Org_ISIC_ID') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Tipo Contribuyente', PrintName='Tipo Contribuyente' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_TaxPayerType_ID') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Tipo Contribuyente Socio', PrintName='Tipo Contribuyente Socio' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_BP_TaxPayerType_ID') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Tipo Contribuyente Organización', PrintName='Tipo Contribuyente Organización' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_Org_TaxPayerType_ID') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Cantidad Retención', PrintName='Cantidad Retención' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='WithholdingAmt') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Cálculo Retención', PrintName='Cálculo Retención' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_WithholdingCalc_ID') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Categoría Retención', PrintName='Categoría Retención' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_WithholdingCategory_ID') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Regla Retención', PrintName='Regla Retención' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_WithholdingRule_ID') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Element_Trl SET IsTranslated='Y', Name='Tipo Retención', PrintName='Tipo Retención' WHERE AD_Element_ID=(SELECT AD_Element_ID FROM AD_Element WHERE ColumnName='LCO_WithholdingType_ID') AND AD_Language LIKE 'es_%'"/>
 	<!-- update model validator on clients -->
 	<SQLStatement DBType="Oracle" statement="UPDATE AD_Client
    SET ModelValidationClasses =
