@@ -274,7 +274,7 @@ public class LCO_MInvoice extends MInvoice
 							tax.getRate().compareTo(Env.ZERO) != 0) {
 						// insert new withholding record
 						// with: type, tax, base amt, percent, tax amt, trx date, acct date, rule
-						X_LCO_InvoiceWithholding iwh = new X_LCO_InvoiceWithholding(getCtx(), 0, get_TrxName());
+						MLCOInvoiceWithholding iwh = new MLCOInvoiceWithholding(getCtx(), 0, get_TrxName());
 						iwh.setAD_Org_ID(getAD_Org_ID());
 						iwh.setC_Invoice_ID(getC_Invoice_ID());
 						iwh.setDateAcct(getDateAcct());
@@ -298,7 +298,7 @@ public class LCO_MInvoice extends MInvoice
 				} // while each applicable rule
 
 			} // while type
-			recalcWithholdingAmount();
+			LCO_MInvoice.updateHeaderWithholding(getC_Invoice_ID(), get_TrxName());
 			save();
 
 			rst.close();
@@ -313,25 +313,22 @@ public class LCO_MInvoice extends MInvoice
 		return noins;
 	}
 	
-	public void recalcWithholdingAmount() throws SQLException {
-		BigDecimal totwith = new BigDecimal("0");
+	/**
+	 *	Update Withholding in Header
+	 *	@return true if header updated with withholding
+	 */
+	public static boolean updateHeaderWithholding(int C_Invoice_ID, String trxName)
+	{
+		//	Update Invoice Header
+		String sql = 
+			"UPDATE C_Invoice "
+			+ " SET WithholdingAmt="
+				+ "(SELECT COALESCE(SUM(TaxAmt),0) FROM LCO_InvoiceWithholding iw WHERE iw.IsActive = 'Y' " +
+						"AND iw.IsCalcOnPayment = 'N' AND C_Invoice.C_Invoice_ID=iw.C_Invoice_ID) "
+			+ "WHERE C_Invoice_ID=?";
+		int no = DB.executeUpdate(sql, C_Invoice_ID, trxName);
 
-		String sqllwh = 
-			"SELECT NVL(SUM(TaxAmt),0) "
-			+ "  FROM LCO_InvoiceWithholding "
-			+ " WHERE C_Invoice_ID = ? "
-			+ "   AND IsCalcOnPayment = 'N'"
-			+ "   AND IsActive = 'Y'";
-		PreparedStatement pstmtlwh = DB.prepareStatement(sqllwh, get_TrxName());
-		pstmtlwh.setInt(1, getC_Invoice_ID());
-		ResultSet rslwh = pstmtlwh.executeQuery();
-		if (rslwh.next())
-			totwith = rslwh.getBigDecimal(1);
-		rslwh.close();
-		pstmtlwh.close();
-
-		log.info("Total Withholding: "+totwith);
-		set_CustomColumn("WithholdingAmt", totwith);
-	}	
+		return no == 1;
+	}	//	updateHeaderWithholding
 
 }	//	LCO_MInvoice

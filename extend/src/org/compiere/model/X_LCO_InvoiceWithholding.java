@@ -26,7 +26,7 @@ import java.math.*;
 import org.compiere.util.*;
 /** Generated Model for LCO_InvoiceWithholding
  *  @author Adempiere (generated) 
- *  @version Release 3.2.0 - $Id: X_LCO_InvoiceWithholding.java,v 1.3 2007/05/09 10:43:45 cruiz Exp $ */
+ *  @version Release 3.2.0 - $Id: GenerateModel.java,v 1.1 2007/07/27 00:30:35 cruiz Exp $ */
 public class X_LCO_InvoiceWithholding extends PO
 {
 /** Standard Constructor
@@ -41,6 +41,7 @@ super (ctx, LCO_InvoiceWithholding_ID, trxName);
 {
 setC_Invoice_ID (0);
 setIsTaxIncluded (false);	// N
+setLCO_InvoiceWithholding_ID (0);
 setLCO_WithholdingType_ID (0);
 setProcessed (false);
 setTaxAmt (Env.ZERO);
@@ -57,7 +58,7 @@ public X_LCO_InvoiceWithholding (Properties ctx, ResultSet rs, String trxName)
 {
 super (ctx, rs, trxName);
 }
-/** AD_Table_ID=1000009 */
+/** AD_Table_ID=1000007 */
 public static final int Table_ID=MTable.getTable_ID("LCO_InvoiceWithholding");
 
 /** TableName=LCO_InvoiceWithholding */
@@ -90,6 +91,24 @@ public String toString()
 StringBuffer sb = new StringBuffer ("X_LCO_InvoiceWithholding[").append(get_ID()).append("]");
 return sb.toString();
 }
+/** Set Allocation Line.
+@param C_AllocationLine_ID Allocation Line */
+public void setC_AllocationLine_ID (int C_AllocationLine_ID)
+{
+if (C_AllocationLine_ID <= 0) set_Value ("C_AllocationLine_ID", null);
+ else 
+set_Value ("C_AllocationLine_ID", Integer.valueOf(C_AllocationLine_ID));
+}
+/** Get Allocation Line.
+@return Allocation Line */
+public int getC_AllocationLine_ID() 
+{
+Integer ii = (Integer)get_Value("C_AllocationLine_ID");
+if (ii == null) return 0;
+return ii.intValue();
+}
+/** Column name C_AllocationLine_ID */
+public static final String COLUMNNAME_C_AllocationLine_ID = "C_AllocationLine_ID";
 /** Set Invoice.
 @param C_Invoice_ID Invoice Identifier */
 public void setC_Invoice_ID (int C_Invoice_ID)
@@ -197,8 +216,7 @@ public static final String COLUMNNAME_IsTaxIncluded = "IsTaxIncluded";
 @param LCO_InvoiceWithholding_ID Invoice Withholding */
 public void setLCO_InvoiceWithholding_ID (int LCO_InvoiceWithholding_ID)
 {
-if (LCO_InvoiceWithholding_ID <= 0) set_ValueNoCheck ("LCO_InvoiceWithholding_ID", null);
- else 
+if (LCO_InvoiceWithholding_ID < 1) throw new IllegalArgumentException ("LCO_InvoiceWithholding_ID is mandatory.");
 set_ValueNoCheck ("LCO_InvoiceWithholding_ID", Integer.valueOf(LCO_InvoiceWithholding_ID));
 }
 /** Get Invoice Withholding.

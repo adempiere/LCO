@@ -67,10 +67,10 @@ public class LCO_Validator implements ModelValidator
 		//	Tables to be monitored
 		engine.addModelChange(X_C_Invoice.Table_Name, this);
 		engine.addModelChange(X_C_InvoiceLine.Table_Name, this);
-		engine.addModelChange(X_LCO_InvoiceWithholding.Table_Name, this);
 
 		//	Documents to be monitored
 		engine.addDocValidate(X_C_Invoice.Table_Name, this);
+		engine.addDocValidate(X_C_Payment.Table_Name, this);
 		engine.addDocValidate(X_C_AllocationHdr.Table_Name, this);
 
 	}	//	initialize
@@ -96,6 +96,7 @@ public class LCO_Validator implements ModelValidator
 		}
 
 		// when invoiceline is changed clear the withholding amount on invoice
+		// in order to force a regeneration
 		if (po.get_TableName().equals(X_C_InvoiceLine.Table_Name) &&
 				(type == ModelValidator.TYPE_BEFORE_NEW ||
 				 type == ModelValidator.TYPE_BEFORE_CHANGE ||
@@ -108,51 +109,9 @@ public class LCO_Validator implements ModelValidator
 				return msg;
 		}
 
-		// when invoicewithholding is changed fill proper fields and recalculate the withholding amount on invoice
-		if (po.get_TableName().equals(X_LCO_InvoiceWithholding.Table_Name) &&
-				(type == ModelValidator.TYPE_BEFORE_NEW ||
-				 type == ModelValidator.TYPE_BEFORE_CHANGE ||
-				 type == ModelValidator.TYPE_BEFORE_DELETE
-				)
-			)
-		{
-			if (type == ModelValidator.TYPE_BEFORE_NEW ||
-				type == ModelValidator.TYPE_BEFORE_CHANGE)
-				fillFields((X_LCO_InvoiceWithholding) po);
-			
-			msg = recalcInvoiceWithholdingAmt((X_LCO_InvoiceWithholding) po);
-			if (msg != null)
-				return msg;
-		}
-
 		return null;
 	}	//	modelChange
 	
-	private void fillFields(X_LCO_InvoiceWithholding iwh) {
-		
-		if (iwh.getLCO_WithholdingRule_ID() > 0) {
-
-			// Fill isCalcOnPayment according to rule
-			X_LCO_WithholdingRule wr = new X_LCO_WithholdingRule(iwh.getCtx(), iwh.getLCO_WithholdingRule_ID(), iwh.get_TrxName());
-			X_LCO_WithholdingCalc wc = new X_LCO_WithholdingCalc(iwh.getCtx(), wr.getLCO_WithholdingCalc_ID(), iwh.get_TrxName());
-			iwh.setIsCalcOnPayment( ! wc.isCalcOnInvoice() );
-
-		} else {
-
-			// Fill isCalcOnPayment according to isSOTrx on type
-			X_LCO_WithholdingType wt = new X_LCO_WithholdingType (iwh.getCtx(), iwh.getLCO_WithholdingType_ID(), iwh.get_TrxName());
-			// set on payment for sales, and on invoice for purchases
-			iwh.setIsCalcOnPayment(wt.isSOTrx());
-
-		}
-
-		// Fill DateTrx and DateAcct for isCalcOnInvoice according to the invoice
-		MInvoice inv = new MInvoice(iwh.getCtx(), iwh.getC_Invoice_ID(), iwh.get_TrxName());
-		iwh.setDateAcct(inv.getDateAcct());
-		iwh.setDateTrx(inv.getDateInvoiced());
-		
-	}
-
 	private String clearInvoiceWithholdingAmtFromInvoice(MInvoice inv) {
 		// Clear invoice withholding amount
 		
@@ -224,20 +183,6 @@ public class LCO_Validator implements ModelValidator
 		return thereAreCalc;
 	}
 
-	private String recalcInvoiceWithholdingAmt(X_LCO_InvoiceWithholding invwh) {
-		LCO_MInvoice inv = new LCO_MInvoice(invwh.getCtx(), invwh.getC_Invoice_ID(), invwh.get_TrxName());
-
-		try {
-			inv.recalcWithholdingAmount();
-			inv.save();
-		} catch (SQLException e) {
-			log.log(Level.SEVERE, "Error recalculating invoice withholding amount", e);
-			return "Error recalculating invoice withholding amount";
-		}
-		
-		return null;
-	}
-
 	/**
 	 *	Validate Document.
 	 *	Called as first step of DocAction.prepareIt 
@@ -265,6 +210,7 @@ public class LCO_Validator implements ModelValidator
 					return "@WithholdingNotGenerated@";
 				} else {
 					// sales order
+					boolean calc = false;
 					if (inv.getC_Order_ID() > 0) {
 						MOrder ord = new MOrder (inv.getCtx(), inv.getC_Order_ID(), inv.get_TrxName());
 						MDocType dt = new MDocType (inv.getCtx(), ord.getC_DocTypeTarget_ID(), inv.get_TrxName());
@@ -272,11 +218,17 @@ public class LCO_Validator implements ModelValidator
 								&& dt.getDocSubTypeSO().equals(MDocType.DOCSUBTYPESO_POSOrder)) {
 							// is a POS Order don't generate
 							inv.set_CustomColumn("WithholdingAmt", new BigDecimal(0));
+							calc = false;
 						} else {
-							// is not a POS Order, generate withholdings
-							LCO_MInvoice lcoinv = new LCO_MInvoice(inv.getCtx(), inv.getC_Invoice_ID(), inv.get_TrxName());
-							lcoinv.recalcWithholdings();
-						}						
+							calc = true;
+						}
+					} else {
+						calc = true;
+					}
+					if (calc) {
+						// is not a POS Order, generate withholdings
+						LCO_MInvoice lcoinv = new LCO_MInvoice(inv.getCtx(), inv.getC_Invoice_ID(), inv.get_TrxName());
+						lcoinv.recalcWithholdings();
 					}
 				}
 			}
@@ -296,6 +248,20 @@ public class LCO_Validator implements ModelValidator
 				return msg;
 		}
 
+		// before completing the payment - validate that writeoff amount must be greater than sum of payment withholdings  
+		if (po.get_TableName().equals(X_C_Payment.Table_Name) && timing == TIMING_BEFORE_COMPLETE) {
+			msg = validateWriteOffVsPaymentWithholdings((MPayment) po);
+			if (msg != null)
+				return msg;
+		}
+
+		// after completing the allocation - complete the payment withholdings  
+		if (po.get_TableName().equals(X_C_AllocationHdr.Table_Name) && timing == TIMING_AFTER_COMPLETE) {
+			msg = completePaymentWithholdings((MAllocationHdr) po);
+			if (msg != null)
+				return msg;
+		}
+
 		// before posting the allocation - post the payment withholdings vs writeoff amount  
 		if (po.get_TableName().equals(X_C_AllocationHdr.Table_Name) && timing == TIMING_BEFORE_POST) {
 			msg = accountingForInvoiceWithholdingOnPayment((MAllocationHdr) po);
@@ -305,7 +271,105 @@ public class LCO_Validator implements ModelValidator
 
 		return null;
 	}	//	docValidate
-	
+
+	private String validateWriteOffVsPaymentWithholdings(MPayment pay) {
+		if (pay.getC_Invoice_ID() > 0) {
+			// validate vs invoice of payment
+			BigDecimal wo = pay.getWriteOffAmt();
+			BigDecimal sumwhamt = Env.ZERO;
+			sumwhamt = DB.getSQLValueBD(
+					pay.get_TrxName(),
+					"SELECT COALESCE (SUM (TaxAmt), 0) " +
+					"FROM LCO_InvoiceWithholding " +
+					"WHERE C_Invoice_ID = ? AND " +
+					"IsActive = 'Y' AND " +
+					"IsCalcOnPayment = 'Y' AND " +
+					"Processed = 'N' AND " +
+					"C_AllocationLine_ID IS NULL",
+					pay.getC_Invoice_ID());
+			if (sumwhamt == null)
+				sumwhamt = Env.ZERO;
+			if (wo.compareTo(sumwhamt) < 0)
+				return "Write-Off Amount must be equal or greater than Withholdings";
+		} else {
+			// validate every C_PaymentAllocate
+			String sql = 
+				"SELECT C_PaymentAllocate_ID " +
+				"FROM C_PaymentAllocate " +
+				"WHERE C_Payment_ID = ?";
+			PreparedStatement pstmt = DB.prepareStatement(sql, pay.get_TrxName());
+			try {
+				pstmt.setInt(1, pay.getC_Payment_ID());
+				ResultSet rs = pstmt.executeQuery();
+				while (rs.next()) {
+					int palid = rs.getInt(1);
+					MPaymentAllocate pal = new MPaymentAllocate(pay.getCtx(), palid, pay.get_TrxName());
+					BigDecimal wo = pal.getWriteOffAmt();
+					BigDecimal sumwhamt = Env.ZERO;
+					sumwhamt = DB.getSQLValueBD(
+							pay.get_TrxName(),
+							"SELECT COALESCE (SUM (TaxAmt), 0) " +
+							"FROM LCO_InvoiceWithholding " +
+							"WHERE C_Invoice_ID = ? AND " +
+							"IsActive = 'Y' AND " +
+							"IsCalcOnPayment = 'Y' AND " +
+							"Processed = 'N' AND " +
+							"C_AllocationLine_ID IS NULL",
+							pal.getC_Invoice_ID());
+					if (sumwhamt == null)
+						sumwhamt = Env.ZERO;
+					if (wo.compareTo(sumwhamt) < 0)
+						return "Write-Off Amount must be equal or greater than Withholdings";
+				}
+				rs.close();
+				pstmt.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+				return e.getLocalizedMessage();
+			}
+		}
+
+		return null;
+	}
+
+	private String completePaymentWithholdings(MAllocationHdr ah) {
+		MAllocationLine[] als = ah.getLines(true);
+		for (int i = 0; i < als.length; i++) {
+			MAllocationLine al = als[i];
+			if (al.getC_Invoice_ID() > 0) {
+				String sql = 
+					"SELECT LCO_InvoiceWithholding_ID " +
+					"FROM LCO_InvoiceWithholding " +
+					"WHERE C_Invoice_ID = ? AND " +
+					"IsActive = 'Y' AND " +
+					"IsCalcOnPayment = 'Y' AND " +
+					"Processed = 'N' AND " +
+					"C_AllocationLine_ID IS NULL";
+				PreparedStatement pstmt = DB.prepareStatement(sql, ah.get_TrxName());
+				try {
+					pstmt.setInt(1, al.getC_Invoice_ID());
+					ResultSet rs = pstmt.executeQuery();
+					while (rs.next()) {
+						int iwhid = rs.getInt(1);
+						MLCOInvoiceWithholding iwh = new MLCOInvoiceWithholding(
+								ah.getCtx(), iwhid, ah.get_TrxName());
+						iwh.setC_AllocationLine_ID(al.getC_AllocationLine_ID());
+						iwh.setDateAcct(ah.getDateAcct());
+						iwh.setDateTrx(ah.getDateTrx());
+						iwh.setProcessed(true);
+						iwh.save();
+					}
+					rs.close();
+					pstmt.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+					return e.getLocalizedMessage();
+				}
+			}
+		}
+		return null;
+	}
+
 	private String accountingForInvoiceWithholdingOnPayment(MAllocationHdr ah) {
 		// Accounting like Doc_Allocation
 		// (Write off) vs (invoice withholding where iscalconpayment=Y)
@@ -338,14 +402,19 @@ public class LCO_Validator implements ModelValidator
 				String sql = 
 					  "SELECT i.C_Tax_ID, NVL(SUM(i.TaxBaseAmt),0) AS TaxBaseAmt, NVL(SUM(i.TaxAmt),0) AS TaxAmt, t.Name, t.Rate, t.IsSalesTax "
 					 + " FROM LCO_InvoiceWithholding i, C_Tax t "
-					+ " WHERE i.C_Invoice_ID = ? AND i.IsCalcOnPayment = 'Y' AND i.IsActive = 'Y' "
-					  + " AND i.C_Tax_ID = t.C_Tax_ID "
-					+ "GROUP BY i.C_Tax_ID, t.NAME, t.Rate, t.IsSalesTax";
+					+ " WHERE i.C_Invoice_ID = ? AND " +
+							 "i.IsCalcOnPayment = 'Y' AND " +
+							 "i.IsActive = 'Y' AND " +
+							 "i.Processed = 'Y' AND " +
+							 "i.C_AllocationLine_ID = ? AND " +
+							 "i.C_Tax_ID = t.C_Tax_ID "
+					+ "GROUP BY i.C_Tax_ID, t.Name, t.Rate, t.IsSalesTax";
 				PreparedStatement pstmt = null;
 				try
 				{
 					pstmt = DB.prepareStatement(sql, ah.get_TrxName());
 					pstmt.setInt(1, invoice.getC_Invoice_ID());
+					pstmt.setInt(2, alloc_line.getC_AllocationLine_ID());
 					ResultSet rs = pstmt.executeQuery();
 					while (rs.next()) {
 						int tax_ID = rs.getInt(1);
@@ -416,8 +485,10 @@ public class LCO_Validator implements ModelValidator
 								// both zeros, remove the line
 								fact.remove(fl);
 							} else if (Env.ZERO.compareTo(newbalamt) > 0) {
+								fl.setAmtAcct(fl.getC_Currency_ID(), Env.ZERO, newbalamt);
 								fl.setAmtSource(fl.getC_Currency_ID(), Env.ZERO, newbalamt);
 							} else {
+								fl.setAmtAcct(fl.getC_Currency_ID(), newbalamt, Env.ZERO);
 								fl.setAmtSource(fl.getC_Currency_ID(), newbalamt, Env.ZERO);
 							}
 							break;

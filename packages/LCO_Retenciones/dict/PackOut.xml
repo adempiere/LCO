@@ -203,6 +203,7 @@
   UPDATEDBY                  NUMBER(10)         NOT NULL,
   C_TAX_ID                   NUMBER(10),
   LCO_INVOICEWITHHOLDING_ID  NUMBER(10)         NOT NULL,
+  C_ALLOCATIONLINE_ID        NUMBER(10),
   CHECK (isactive IN ('Y','N')),
   CHECK (iscalconpayment IN ('Y','N')),
   CHECK (istaxincluded IN ('Y','N')),
@@ -221,7 +222,10 @@
  REFERENCES LCO_WITHHOLDINGTYPE (LCO_WITHHOLDINGTYPE_ID),
   CONSTRAINT TAX_INVOICEWITHHOLDING 
  FOREIGN KEY (C_TAX_ID) 
- REFERENCES C_TAX (C_TAX_ID)
+ REFERENCES C_TAX (C_TAX_ID),
+  CONSTRAINT ALLOCATIONLINE_INVOICEWITHHOL
+ FOREIGN KEY (C_ALLOCATIONLINE_ID) 
+ REFERENCES C_ALLOCATIONLINE (C_ALLOCATIONLINE_ID)
 )"/>
 	<SQLStatement DBType="Oracle" statement="ALTER TABLE C_BPARTNER 
 ADD lco_taxpayertype_id NUMBER(10) 
@@ -465,7 +469,10 @@ ADD withholdingamt NUMBER"/>
  REFERENCES LCO_WITHHOLDINGTYPE (LCO_WITHHOLDINGTYPE_ID),
  CONSTRAINT TAX_INVOICEWITHHOLDING 
  FOREIGN KEY (C_TAX_ID) 
- REFERENCES C_TAX (C_TAX_ID)
+ REFERENCES C_TAX (C_TAX_ID),
+  CONSTRAINT ALLOCATIONLINE_INVOICEWITHHOL
+ FOREIGN KEY (C_ALLOCATIONLINE_ID) 
+ REFERENCES C_ALLOCATIONLINE (C_ALLOCATIONLINE_ID)
 ) "/>
 	<SQLStatement DBType="PostgreSQL" statement="ALTER TABLE C_BPARTNER 
 ADD COLUMN lco_taxpayertype_id NUMERIC(10,0),
@@ -671,6 +678,7 @@ ADD COLUMN withholdingamt NUMERIC"/>
 		<column ADColumnNameID="TaxBaseAmt" ADProcessNameID="" ADElementNameID="Tax base Amount" ADReferenceNameID="Amount" ADReferenceNameValueID="" ADTableNameID="LCO_InvoiceWithholding" ADValRuleNameID="" Callout="org.adempiere.model.LCO_CalloutWithholding.recalc_taxamt" ColumnSQL="" ColumnName="TaxBaseAmt" DefaultValue="" Description="Base for calculating the tax amount" EntityType="U" FieldLength="22" Help="The Tax Base Amount indicates the base amount used for calculating the tax amount." isAlwaysUpdateable="false" isIdentifier="false" isKey="false" isMandatory="true" isParent="false" isSelectionColumn="false" isActive="true" isTranslated="false" isUpdateable="true" Name="Tax base Amount" getIsSyncDatabase="N" ReadOnlyLogic="" SeqNo="0" VFormat="" ValueMax="" ValueMin="" Version="1"/>
 		<column ADColumnNameID="Updated" ADProcessNameID="" ADElementNameID="Updated" ADReferenceNameID="Date+Time" ADReferenceNameValueID="" ADTableNameID="LCO_InvoiceWithholding" ADValRuleNameID="" Callout="" ColumnSQL="" ColumnName="Updated" DefaultValue="" Description="Date this record was updated" EntityType="U" FieldLength="7" Help="The Updated field indicates the date that this record was updated." isAlwaysUpdateable="false" isIdentifier="false" isKey="false" isMandatory="true" isParent="false" isSelectionColumn="false" isActive="true" isTranslated="false" isUpdateable="false" Name="Updated" getIsSyncDatabase="N" ReadOnlyLogic="" SeqNo="0" VFormat="" ValueMax="" ValueMin="" Version="1"/>
 		<column ADColumnNameID="AD_Org_ID" ADProcessNameID="" ADElementNameID="Organization" ADReferenceNameID="Table Direct" ADReferenceNameValueID="" ADTableNameID="LCO_InvoiceWithholding" ADValRuleNameID="AD_Org Security validation" Callout="" ColumnSQL="" ColumnName="AD_Org_ID" DefaultValue="@AD_Org_ID@" Description="Organizational entity within client" EntityType="U" FieldLength="22" Help="An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations." isAlwaysUpdateable="false" isIdentifier="false" isKey="false" isMandatory="true" isParent="false" isSelectionColumn="false" isActive="true" isTranslated="false" isUpdateable="false" Name="Organization" getIsSyncDatabase="N" ReadOnlyLogic="" SeqNo="0" VFormat="" ValueMax="" ValueMin="" Version="1"/>
+		<column ADColumnNameID="C_AllocationLine_ID" ADProcessNameID="" ADElementNameID="Allocation Line" ADReferenceNameID="Table Direct" ADReferenceNameValueID="" ADTableNameID="LCO_InvoiceWithholding" ADValRuleNameID="" Callout="" ColumnSQL="" ColumnName="C_AllocationLine_ID" DefaultValue="" Description="Allocation Line" EntityType="U" FieldLength="22" Help="Allocation of Cash/Payment to Invoice" isAlwaysUpdateable="false" isIdentifier="false" isKey="false" isMandatory="false" isParent="false" isSelectionColumn="false" isActive="true" isTranslated="false" isUpdateable="true" Name="Allocation Line" getIsSyncDatabase="N" ReadOnlyLogic="" SeqNo="0" VFormat="" ValueMax="" ValueMin="" Version="1"/>
 	</table>
 	<table Name="Sales Order Line" ADTableNameID="C_OrderLine" EntityType="D">
 		<column ADColumnNameID="C_Tax_ID" ADProcessNameID="" ADElementNameID="Tax" ADReferenceNameID="Table Direct" ADReferenceNameValueID="" ADTableNameID="C_OrderLine" ADValRuleNameID="LCO_Not Withholding Taxes" Callout="" ColumnSQL="" ColumnName="C_Tax_ID" DefaultValue="" Description="Tax identifier" EntityType="U" FieldLength="22" Help="The Tax indicates the type of tax used in document line." isAlwaysUpdateable="false" isIdentifier="false" isKey="false" isMandatory="true" isParent="false" isSelectionColumn="false" isActive="true" isTranslated="false" isUpdateable="true" Name="Tax" getIsSyncDatabase="N" ReadOnlyLogic="" SeqNo="0" VFormat="" ValueMax="" ValueMin="" Version="1"/>

@@ -98,7 +98,7 @@ public class LCO_CalloutWithholding extends CalloutEngine
 			MTax tax = new MTax(ctx, taxint, null);
 			percent = tax.getRate();
 		}
-		mTab.setValue(X_LCO_InvoiceWithholding.COLUMNNAME_Percent, percent);
+		mTab.setValue(MLCOInvoiceWithholding.COLUMNNAME_Percent, percent);
 
 		return recalc_taxamt(ctx, WindowNo, mTab, mField, value, oldValue);
 	}	//	fillPercentFromTax
@@ -109,13 +109,13 @@ public class LCO_CalloutWithholding extends CalloutEngine
 	{
 		log.info("");
 
-		BigDecimal percent = (BigDecimal) mTab.getValue(X_LCO_InvoiceWithholding.COLUMNNAME_Percent);
-		BigDecimal taxbaseamt = (BigDecimal) mTab.getValue(X_LCO_InvoiceWithholding.COLUMNNAME_TaxBaseAmt);
+		BigDecimal percent = (BigDecimal) mTab.getValue(MLCOInvoiceWithholding.COLUMNNAME_Percent);
+		BigDecimal taxbaseamt = (BigDecimal) mTab.getValue(MLCOInvoiceWithholding.COLUMNNAME_TaxBaseAmt);
 
 		BigDecimal taxamt = null;
 		if (percent != null && taxbaseamt != null)
 			taxamt = percent.multiply(taxbaseamt).divide(Env.ONEHUNDRED);
-		mTab.setValue(X_LCO_InvoiceWithholding.COLUMNNAME_TaxAmt, taxamt);
+		mTab.setValue(MLCOInvoiceWithholding.COLUMNNAME_TaxAmt, taxamt);
 
 		return "";
 	}	//	fillPercentFromTax
