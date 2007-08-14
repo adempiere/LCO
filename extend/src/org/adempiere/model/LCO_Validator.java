@@ -197,14 +197,81 @@ public class LCO_Validator implements ModelValidator
 		log.info(po.get_TableName() + " Timing: "+timing);
 		String msg;
 
+		// before preparing a reversal invoice add the invoice withholding taxes
+		if (po.get_TableName().equals(X_C_Invoice.Table_Name)
+				&& timing == TIMING_BEFORE_PREPARE) {
+			MInvoice inv = (MInvoice) po;
+			if (inv.getDescription().startsWith("{->")
+					&& inv.getDescription().endsWith(")")) {
+				// is a reversal invoice - add the invoice withholding taxes
+				// from the original invoice
+				String desc = inv.getDescription();
+				String reversedocno = desc.substring(3, desc.length() - 1); // it depends on {-> starting of description HARDCODED
+				int invid = DB.getSQLValue(inv.get_TrxName(), 
+						"SELECT C_Invoice_ID FROM C_Invoice WHERE DocumentNo = ? AND AD_Client_ID = " + inv.getAD_Client_ID() + 
+						" AND AD_Org_ID = " + inv.getAD_Org_ID() +
+						" AND C_BPartner_ID = " + inv.getC_BPartner_ID() +
+						" AND Processed = 'Y'",
+						reversedocno);
+				if (invid > 0) {
+					MInvoice invreverted = new MInvoice(inv.getCtx(), invid, inv.get_TrxName());
+					String sql = 
+						  "SELECT LCO_InvoiceWithholding_ID "
+						 + " FROM LCO_InvoiceWithholding "
+						+ " WHERE C_Invoice_ID = ? "
+						+ " ORDER BY LCO_InvoiceWithholding_ID";
+					PreparedStatement pstmt = null;
+					try
+					{
+						pstmt = DB.prepareStatement(sql, inv.get_TrxName());
+						pstmt.setInt(1, invreverted.getC_Invoice_ID());
+						ResultSet rs = pstmt.executeQuery();
+						while (rs.next()) {
+							MLCOInvoiceWithholding iwh = new MLCOInvoiceWithholding(inv.getCtx(), rs.getInt(1), inv.get_TrxName());
+							MLCOInvoiceWithholding newiwh = new MLCOInvoiceWithholding(inv.getCtx(), 0, inv.get_TrxName());
+							newiwh.setC_Invoice_ID(inv.getC_Invoice_ID());
+							newiwh.setLCO_WithholdingType_ID(iwh.getLCO_WithholdingType_ID());
+							newiwh.setPercent(iwh.getPercent());
+							newiwh.setTaxAmt(iwh.getTaxAmt().negate());
+							newiwh.setTaxBaseAmt(iwh.getTaxBaseAmt().negate());
+							newiwh.setC_Tax_ID(iwh.getC_Tax_ID());
+							newiwh.save();
+						}
+
+						rs.close();
+						pstmt.close();
+						pstmt = null;
+					}
+					catch (Exception e)
+					{
+						log.log(Level.SEVERE, sql, e);
+						return "Error creating LCO_InvoiceWithholding for reversal invoice";
+					}
+					try
+					{
+						if (pstmt != null)
+							pstmt.close();
+						pstmt = null;
+					}
+					catch (Exception e)
+					{
+						pstmt = null;
+					}
+				}
+			}
+		}
+
 		// before preparing invoice validate if withholdings has been generated
-		if (po.get_TableName().equals(X_C_Invoice.Table_Name) && timing == TIMING_BEFORE_PREPARE) {
+		if (po.get_TableName().equals(X_C_Invoice.Table_Name)
+				&& timing == TIMING_BEFORE_PREPARE) {
 			MInvoice inv = (MInvoice) po;
 			if (inv.get_Value("WithholdingAmt") == null) {
 				// 20070803 - globalqss - Carlos Ruiz
 				// Withholding must be generated for generated sales invoices
-				// in sales invoices the withholdings can be edited in payment receipt
-				// Not generate if the auto-generation comes from a POS Order (it's supposed the money was received)
+				// in sales invoices the withholdings can be edited in payment
+				// receipt
+				// Not generate if the auto-generation comes from a POS Order
+				// (it's supposed the money was received)
 				if (!inv.isSOTrx()) {
 					// purchase invoice - must generate withholding
 					return "@WithholdingNotGenerated@";
@@ -212,8 +279,8 @@ public class LCO_Validator implements ModelValidator
 					// sales order
 					boolean calc = false;
 					if (inv.getC_Order_ID() > 0) {
-						MOrder ord = new MOrder (inv.getCtx(), inv.getC_Order_ID(), inv.get_TrxName());
-						MDocType dt = new MDocType (inv.getCtx(), ord.getC_DocTypeTarget_ID(), inv.get_TrxName());
+						MOrder ord = new MOrder(inv.getCtx(), inv.getC_Order_ID(), inv.get_TrxName());
+						MDocType dt = new MDocType(inv.getCtx(), ord.getC_DocTypeTarget_ID(), inv.get_TrxName());
 						if (dt.getDocBaseType().equals(MDocType.DOCBASETYPE_SalesOrder)
 								&& dt.getDocSubTypeSO().equals(MDocType.DOCSUBTYPESO_POSOrder)) {
 							// is a POS Order don't generate
