@@ -201,7 +201,8 @@ public class LCO_Validator implements ModelValidator
 		if (po.get_TableName().equals(X_C_Invoice.Table_Name)
 				&& timing == TIMING_BEFORE_PREPARE) {
 			MInvoice inv = (MInvoice) po;
-			if (inv.getDescription().startsWith("{->")
+			if (inv.getDescription() != null 
+					&& inv.getDescription().startsWith("{->")
 					&& inv.getDescription().endsWith(")")) {
 				// is a reversal invoice - add the invoice withholding taxes
 				// from the original invoice
