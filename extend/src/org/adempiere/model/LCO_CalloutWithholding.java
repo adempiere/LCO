@@ -138,6 +138,8 @@ public class LCO_CalloutWithholding extends CalloutEngine
 				+ "  FROM LCO_InvoiceWithholding "
 				+ " WHERE C_Invoice_ID = ? "
 				+ "   AND IsCalcOnPayment = 'Y'"
+				+ "   AND Processed = 'N'"
+				+ "   AND C_AllocationLine_ID IS NULL"
 				+ "   AND IsActive = 'Y'";
 
 		try
