@@ -108,6 +108,17 @@ public class LCO_CalloutWithholding extends CalloutEngine
 			GridTab mTab, GridField mField, Object value, Object oldValue)
 	{
 		log.info("");
+		
+		// don't recalculate if callout called from field TaxBaseAmt and didn't change 
+		if (mField.getColumnName().equals("TaxBaseAmt") && value != null && oldValue != null) {
+			BigDecimal newtaxbaseamt = (BigDecimal) value;
+			BigDecimal oldtaxbaseamt = (BigDecimal) oldValue;
+			if (newtaxbaseamt.compareTo(oldtaxbaseamt) == 0) {
+				// the field hasn't changed, don't recalc
+				return "";
+			}
+		
+		}
 
 		BigDecimal percent = (BigDecimal) mTab.getValue(MLCOInvoiceWithholding.COLUMNNAME_Percent);
 		BigDecimal taxbaseamt = (BigDecimal) mTab.getValue(MLCOInvoiceWithholding.COLUMNNAME_TaxBaseAmt);
