@@ -514,9 +514,18 @@ ADD COLUMN withholdingamt NUMERIC"/>
 			</drow>
 		</dtable>
 		<dtable name="AD_Message">
-			<drow name="" key1name="Value" lookupkey1name="'WithholdingNotGenerated'" key2name="" lookupkey2name="">
-				<dcolumn name="Value" class="String" value="WithholdingNotGenerated"/>
+			<drow name="" key1name="Value" lookupkey1name="'LCO_WithholdingNotGenerated'" key2name="" lookupkey2name="">
+				<dcolumn name="Value" class="String" value="LCO_WithholdingNotGenerated"/>
 				<dcolumn name="MsgText" class="String" value="Withholding Not Generated"/>
+				<dcolumn name="MsgType" class="String" value="I"/>
+				<dcolumn name="EntityType" class="String" value="U"/>
+				<dcolumn name="MsgTip" class="String" value=""/>
+			</drow>
+		</dtable>
+		<dtable name="AD_Message">
+			<drow name="" key1name="Value" lookupkey1name="'LCO_WriteOffLowerThanWithholdings'" key2name="" lookupkey2name="">
+				<dcolumn name="Value" class="String" value="LCO_WriteOffLowerThanWithholdings"/>
+				<dcolumn name="MsgText" class="String" value="Write-Off Amount must be equal or greater than Withholdings"/>
 				<dcolumn name="MsgType" class="String" value="I"/>
 				<dcolumn name="EntityType" class="String" value="U"/>
 				<dcolumn name="MsgTip" class="String" value=""/>
@@ -1313,7 +1322,8 @@ ADD COLUMN withholdingamt NUMERIC"/>
 	<SQLStatement DBType="ALL" statement="UPDATE AD_Ref_List_Trl SET IsTranslated='Y', Name='Línea' WHERE AD_Ref_List_ID=(SELECT AD_ref_list_ID FROM AD_reference r, ad_ref_list rl WHERE r.ad_reference_id=rl.ad_reference_id and r.name='LCO_WithholdingType BaseType' and rl.name='Line') AND AD_Language LIKE 'es_%'"/>
 	<SQLStatement DBType="ALL" statement="UPDATE AD_Ref_List_Trl SET IsTranslated='Y', Name='Impuesto' WHERE AD_Ref_List_ID=(SELECT AD_ref_list_ID FROM AD_reference r, ad_ref_list rl WHERE r.ad_reference_id=rl.ad_reference_id and r.name='LCO_WithholdingType BaseType' and rl.name='Tax') AND AD_Language LIKE 'es_%'"/>
 	<!-- Update AD_Message_Trl -->
-	<SQLStatement DBType="ALL" statement="UPDATE AD_Message_Trl SET IsTranslated='Y', MsgText='No se han generado retenciones' WHERE AD_Message_ID=(SELECT AD_message_ID FROM AD_message w WHERE w.value='WithholdingNotGenerated') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Message_Trl SET IsTranslated='Y', MsgText='No se han generado retenciones' WHERE AD_Message_ID=(SELECT AD_message_ID FROM AD_message w WHERE w.value='LCO_WithholdingNotGenerated') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Message_Trl SET IsTranslated='Y', MsgText='El valor del ajuste debe ser mayor o igual que las retenciones' WHERE AD_Message_ID=(SELECT AD_message_ID FROM AD_message w WHERE w.value='LCO_WriteOffLowerThanWithholdings') AND AD_Language LIKE 'es_%'"/>
 	<!-- Update AD_Process_Trl -->
 	<SQLStatement DBType="ALL" statement="UPDATE AD_Process_Trl SET IsTranslated='Y', Name='Genera Retenciones' WHERE AD_Process_ID=(SELECT AD_process_ID FROM AD_process w WHERE w.value='LCO_GenerateWithholding') AND AD_Language LIKE 'es_%'"/>
 	<!-- Update AD_Element_Trl -->

@@ -275,7 +275,7 @@ public class LCO_Validator implements ModelValidator
 				// (it's supposed the money was received)
 				if (!inv.isSOTrx()) {
 					// purchase invoice - must generate withholding
-					return "@WithholdingNotGenerated@";
+					return "@LCO_WithholdingNotGenerated@";
 				} else {
 					// sales order
 					boolean calc = false;
@@ -358,7 +358,7 @@ public class LCO_Validator implements ModelValidator
 			if (sumwhamt == null)
 				sumwhamt = Env.ZERO;
 			if (wo.compareTo(sumwhamt) < 0)
-				return "Write-Off Amount must be equal or greater than Withholdings";
+				return "@LCO_WriteOffLowerThanWithholdings@";
 		} else {
 			// validate every C_PaymentAllocate
 			String sql = 
@@ -387,7 +387,7 @@ public class LCO_Validator implements ModelValidator
 					if (sumwhamt == null)
 						sumwhamt = Env.ZERO;
 					if (wo.compareTo(sumwhamt) < 0)
-						return "Write-Off Amount must be equal or greater than Withholdings";
+						return "@LCO_WriteOffLowerThanWithholdings@";
 				}
 				rs.close();
 				pstmt.close();
