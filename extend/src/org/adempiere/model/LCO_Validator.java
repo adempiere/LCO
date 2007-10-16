@@ -267,34 +267,17 @@ public class LCO_Validator implements ModelValidator
 				&& timing == TIMING_BEFORE_PREPARE) {
 			MInvoice inv = (MInvoice) po;
 			if (inv.get_Value("WithholdingAmt") == null) {
-				// 20070803 - globalqss - Carlos Ruiz
-				// Withholding must be generated for generated sales invoices
-				// in sales invoices the withholdings can be edited in payment
-				// receipt
-				// Not generate if the auto-generation comes from a POS Order
-				// (it's supposed the money was received)
-				if (!inv.isSOTrx()) {
-					// purchase invoice - must generate withholding
-					return "@LCO_WithholdingNotGenerated@";
-				} else {
-					// sales order
-					boolean calc = false;
-					if (inv.getC_Order_ID() > 0) {
-						MOrder ord = new MOrder(inv.getCtx(), inv.getC_Order_ID(), inv.get_TrxName());
-						MDocType dt = new MDocType(inv.getCtx(), ord.getC_DocTypeTarget_ID(), inv.get_TrxName());
-						if (dt.getDocBaseType().equals(MDocType.DOCBASETYPE_SalesOrder)
-								&& dt.getDocSubTypeSO().equals(MDocType.DOCSUBTYPESO_POSOrder)) {
-							// is a POS Order don't generate
-							inv.set_CustomColumn("WithholdingAmt", new BigDecimal(0));
-							calc = false;
-						} else {
-							calc = true;
-						}
-					} else {
-						calc = true;
+				MDocType dt = new MDocType(inv.getCtx(), inv.getC_DocTypeTarget_ID(), inv.get_TrxName());
+				String genwh = dt.get_ValueAsString("GenerateWithholding");
+				if (genwh != null) {
+
+					if (genwh.equals("Y")) {
+						// document type configured to compel generation of withholdings
+						return "@LCO_WithholdingNotGenerated@";
 					}
-					if (calc) {
-						// is not a POS Order, generate withholdings
+					
+					if (genwh.equals("A")) {
+						// document type configured to generate withholdings automatically
 						LCO_MInvoice lcoinv = new LCO_MInvoice(inv.getCtx(), inv.getC_Invoice_ID(), inv.get_TrxName());
 						lcoinv.recalcWithholdings();
 					}
@@ -620,49 +603,76 @@ public class LCO_Validator implements ModelValidator
 	private String translateWithholdingToTaxes(MInvoice inv) {
 		BigDecimal sumit = new BigDecimal(0);
 		
-		String sql = 
-			  "SELECT C_Tax_ID, NVL(SUM(TaxBaseAmt),0) AS TaxBaseAmt, NVL(SUM(TaxAmt),0) AS TaxAmt "
-			 + " FROM LCO_InvoiceWithholding "
-			+ " WHERE C_Invoice_ID = ? AND IsCalcOnPayment = 'N' AND IsActive = 'Y' "
-			+ "GROUP BY C_Tax_ID";
-		PreparedStatement pstmt = null;
-		try
-		{
-			pstmt = DB.prepareStatement(sql, inv.get_TrxName());
-			pstmt.setInt(1, inv.getC_Invoice_ID());
-			ResultSet rs = pstmt.executeQuery();
-			while (rs.next()) {
-				MInvoiceTax it = new MInvoiceTax(inv.getCtx(), 0, inv.get_TrxName());
-				it.setC_Invoice_ID(inv.getC_Invoice_ID());
-				it.setC_Tax_ID(rs.getInt(1));
-				it.setTaxBaseAmt(rs.getBigDecimal(2));
-				it.setTaxAmt(rs.getBigDecimal(3).negate());
-				sumit = sumit.add(rs.getBigDecimal(3));
-				it.save();
+		MDocType dt = new MDocType(inv.getCtx(), inv.getC_DocTypeTarget_ID(), inv.get_TrxName());
+		String genwh = dt.get_ValueAsString("GenerateWithholding");
+		if (genwh == null || genwh.equals("N")) {
+			// document configured to not manage withholdings - delete any
+			String sqldel = "DELETE FROM LCO_InvoiceWithholding "
+				+ " WHERE C_Invoice_ID = ?";
+			try
+			{
+				// Delete previous records generated
+				PreparedStatement pstmtdel = DB.prepareStatement(sqldel,
+						ResultSet.TYPE_FORWARD_ONLY,
+						ResultSet.CONCUR_UPDATABLE, inv.get_TrxName());
+				pstmtdel.setInt(1, inv.getC_Invoice_ID());
+				int nodel = pstmtdel.executeUpdate();
+				log.config("LCO_InvoiceWithholding deleted="+nodel);
+				pstmtdel.close();
 			}
-			inv.set_CustomColumn("WithholdingAmt", sumit);
-			// Subtract to invoice grand total the value of withholdings
-			BigDecimal gt = inv.getGrandTotal();
-			inv.setGrandTotal(gt.subtract(sumit));
+			catch (Exception e)
+			{
+				log.log(Level.SEVERE, sqldel, e);
+				return "Error creating C_InvoiceTax from LCO_InvoiceWithholding";
+			}
+			inv.set_CustomColumn("WithholdingAmt", Env.ZERO);
+			
+		} else {
+			// translate withholding to taxes
+			String sql = 
+				  "SELECT C_Tax_ID, NVL(SUM(TaxBaseAmt),0) AS TaxBaseAmt, NVL(SUM(TaxAmt),0) AS TaxAmt "
+				 + " FROM LCO_InvoiceWithholding "
+				+ " WHERE C_Invoice_ID = ? AND IsCalcOnPayment = 'N' AND IsActive = 'Y' "
+				+ "GROUP BY C_Tax_ID";
+			PreparedStatement pstmt = null;
+			try
+			{
+				pstmt = DB.prepareStatement(sql, inv.get_TrxName());
+				pstmt.setInt(1, inv.getC_Invoice_ID());
+				ResultSet rs = pstmt.executeQuery();
+				while (rs.next()) {
+					MInvoiceTax it = new MInvoiceTax(inv.getCtx(), 0, inv.get_TrxName());
+					it.setC_Invoice_ID(inv.getC_Invoice_ID());
+					it.setC_Tax_ID(rs.getInt(1));
+					it.setTaxBaseAmt(rs.getBigDecimal(2));
+					it.setTaxAmt(rs.getBigDecimal(3).negate());
+					sumit = sumit.add(rs.getBigDecimal(3));
+					it.save();
+				}
+				inv.set_CustomColumn("WithholdingAmt", sumit);
+				// Subtract to invoice grand total the value of withholdings
+				BigDecimal gt = inv.getGrandTotal();
+				inv.setGrandTotal(gt.subtract(sumit));
 
-			rs.close();
-			pstmt.close();
-			pstmt = null;
-		}
-		catch (Exception e)
-		{
-			log.log(Level.SEVERE, sql, e);
-			return "Error creating C_InvoiceTax from LCO_InvoiceWithholding";
-		}
-		try
-		{
-			if (pstmt != null)
+				rs.close();
 				pstmt.close();
-			pstmt = null;
-		}
-		catch (Exception e)
-		{
-			pstmt = null;
+				pstmt = null;
+			}
+			catch (Exception e)
+			{
+				log.log(Level.SEVERE, sql, e);
+				return "Error creating C_InvoiceTax from LCO_InvoiceWithholding";
+			}
+			try
+			{
+				if (pstmt != null)
+					pstmt.close();
+				pstmt = null;
+			}
+			catch (Exception e)
+			{
+				pstmt = null;
+			}
 		}
 
 		return null;

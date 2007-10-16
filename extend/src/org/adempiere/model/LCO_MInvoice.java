@@ -38,6 +38,12 @@ public class LCO_MInvoice extends MInvoice
 	}
 
 	public int recalcWithholdings() {
+		
+		MDocType dt = new MDocType(getCtx(), getC_DocTypeTarget_ID(), get_TrxName());
+		String genwh = dt.get_ValueAsString("GenerateWithholding");
+		if (genwh == null || genwh.equals("N"))
+			return 0;
+		
 		int noins = 0;
 		log.info("");
 		BigDecimal totwith = new BigDecimal("0");

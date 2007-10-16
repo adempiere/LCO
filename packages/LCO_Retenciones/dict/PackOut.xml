@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<adempiereAD Name="LCO_Retenciones" Version="1.0" CompVer="all" DataBase="1.0" Description="Localization for Colombian Taxes" creator="info@globalqss.com" creatorcontact="info@globalqss.com" createddate="2007-05-09 06:28:47.0" updateddate="2007-08-09 22:20:25.0" PackOutVer="005">
+<adempiereAD Name="LCO_Retenciones" Version="1.1" CompVer="all" DataBase="1.1" Description="Localization for Colombian Taxes" creator="info@globalqss.com" creatorcontact="info@globalqss.com" createddate="2007-05-09 06:28:47.0" updateddate="2007-09-05 00:44:27.0" PackOutVer="005">
 	<!-- Oracle scripts for database object creation -->
 	<SQLStatement DBType="Oracle" statement="CREATE TABLE LCO_ISIC
 (
@@ -248,6 +248,8 @@ ADD iswithholding CHAR(1) DEFAULT 'N' CHECK (iswithholding IN ('Y','N'))"/>
 	<SQLStatement DBType="Oracle" statement="ALTER TABLE C_INVOICE
 ADD generatewithholding CHAR(1)
 ADD withholdingamt NUMBER"/>
+	<SQLStatement DBType="Oracle" statement="ALTER TABLE C_DOCTYPE
+ADD generatewithholding CHAR(1)"/>
 	<!-- PostgreSQL scripts for database object creation -->
 	<SQLStatement DBType="PostgreSQL" statement="CREATE TABLE LCO_ISIC
  (
@@ -495,6 +497,8 @@ ADD COLUMN iswithholding CHAR(1) DEFAULT 'N' CHECK (iswithholding IN ('Y','N'))"
 	<SQLStatement DBType="PostgreSQL" statement="ALTER TABLE C_INVOICE
 ADD COLUMN generatewithholding CHAR(1),
 ADD COLUMN withholdingamt NUMERIC"/>
+	<SQLStatement DBType="PostgreSQL" statement="ALTER TABLE C_DOCTYPE
+ADD COLUMN generatewithholding CHAR(1)"/>
 	<!-- dictionary objects -->
 	<dynvalrule Name="LCO_Not Withholding Taxes" EntityType="U" Description="" isActive="true" Type="S" Code="NOT EXISTS (SELECT 1 FROM C_TaxCategory WHERE C_TaxCategory.C_TaxCategory_ID=C_Tax.C_TaxCategory_ID AND IsWithholding='Y')"/>
 	<dynvalrule Name="LCO_Withholding Taxes" EntityType="U" Description="" isActive="true" Type="S" Code="EXISTS (SELECT 1 FROM C_TaxCategory WHERE C_TaxCategory.C_TaxCategory_ID=C_Tax.C_TaxCategory_ID AND IsWithholding='Y')"/>
@@ -709,6 +713,14 @@ ADD COLUMN withholdingamt NUMERIC"/>
 	<table Name="Charge" ADTableNameID="C_Charge" EntityType="D">
 		<column ADColumnNameID="LCO_WithholdingCategory_ID" ADProcessNameID="" ADElementNameID="Withholding Category" ADReferenceNameID="Table Direct" ADReferenceNameValueID="" ADTableNameID="C_Charge" ADValRuleNameID="" Callout="" ColumnSQL="" ColumnName="LCO_WithholdingCategory_ID" DefaultValue="" Description="" EntityType="U" FieldLength="10" Help="" isAlwaysUpdateable="false" isIdentifier="false" isKey="false" isMandatory="false" isParent="false" isSelectionColumn="false" isActive="true" isTranslated="false" isUpdateable="true" Name="Withholding Category" getIsSyncDatabase="N" ReadOnlyLogic="" SeqNo="0" VFormat="" ValueMax="" ValueMin="" Version="0"/>
 	</table>
+	<table Name="Document Type" ADTableNameID="C_DocType" EntityType="D">
+		<reference name="LCO_GenerateWithdHolding on DocType" Description="" EntityType="U" Help="" Name="LCO_GenerateWithdHolding on DocType" isActive="true" VFormat="" ValidationType="L">
+			<referencelist ADReflistNameID="Yes" ADRefenceNameID="LCO_GenerateWithdHolding on DocType" Description="" EntityType="U" Name="Yes" isActive="true" Value="Y"/>
+			<referencelist ADReflistNameID="No" ADRefenceNameID="LCO_GenerateWithdHolding on DocType" Description="" EntityType="U" Name="No" isActive="true" Value="N"/>
+			<referencelist ADReflistNameID="Auto" ADRefenceNameID="LCO_GenerateWithdHolding on DocType" Description="" EntityType="U" Name="Auto" isActive="true" Value="A"/>
+		</reference>
+		<column ADColumnNameID="GenerateWithholding" ADProcessNameID="Generate Withholding" ADElementNameID="Generate Withholding" ADReferenceNameID="List" ADReferenceNameValueID="LCO_GenerateWithdHolding on DocType" ADTableNameID="C_DocType" ADValRuleNameID="" Callout="" ColumnSQL="" ColumnName="GenerateWithholding" DefaultValue="N" Description="" EntityType="U" FieldLength="1" Help="" isAlwaysUpdateable="false" isIdentifier="false" isKey="false" isMandatory="false" isParent="false" isSelectionColumn="false" isActive="true" isTranslated="false" isUpdateable="true" Name="Generate Withholding" getIsSyncDatabase="N" ReadOnlyLogic="" SeqNo="0" VFormat="" ValueMax="" ValueMin="" Version="0"/>
+	</table>
 	<table Name="Invoice" ADTableNameID="C_Invoice" EntityType="D">
 		<column ADColumnNameID="WithholdingAmt" ADProcessNameID="" ADElementNameID="Withholding Amount" ADReferenceNameID="Amount" ADReferenceNameValueID="" ADTableNameID="C_Invoice" ADValRuleNameID="" Callout="" ColumnSQL="" ColumnName="WithholdingAmt" DefaultValue="" Description="" EntityType="U" FieldLength="22" Help="" isAlwaysUpdateable="false" isIdentifier="false" isKey="false" isMandatory="false" isParent="false" isSelectionColumn="false" isActive="true" isTranslated="false" isUpdateable="true" Name="Withholding Amount" getIsSyncDatabase="N" ReadOnlyLogic="" SeqNo="0" VFormat="" ValueMax="" ValueMin="" Version="0"/>
 		<process Name="Generate Withholding" ADWorkflowNameID="" ADProcessNameID="Generate Withholding" ADPrintFormatNameID="" ADReportViewNameID="" AccessLevel="3" Classname="org.adempiere.process.LCO_GenerateWithholding" Description="" EntityType="U" Help="" isBetaFunctionality="false" isDirectPrint="false" isReport="false" isActive="true" ProcedureName="" StatisticCount="0" StatisticSeconds="0" Value="LCO_GenerateWithholding" WorkflowValue=""/>
@@ -745,6 +757,11 @@ ADD COLUMN withholdingamt NUMERIC"/>
 	<window ADWindowNameID="Tax Category" EntityType="D">
 		<tab Name="Tax Category" EntityType="D">
 			<field ADColumnNameID="IsWithholding" ADTableNameID="C_TaxCategory" ADFieldGroupNameID="" ADFieldNameID="Is Withholding" ADTabNameID="Tax Category" ADWindowNameID="Tax Category" EntityType="U" Name="Is Withholding" SameLine="true" isCentrallyMaintained="true" Displayed="true" isActive="true" isEncrypted="false" isFieldOnly="false" isHeading="false" isReadOnly="false" SeqNo="90" DisplayLength="1" Description="" Help="" SortNo="0" DisplayLogic="" ObscureType=""/>
+		</tab>
+	</window>
+	<window ADWindowNameID="Document Type" EntityType="D">
+		<tab Name="Document Type" EntityType="D">
+			<field ADColumnNameID="GenerateWithholding" ADTableNameID="C_DocType" ADFieldGroupNameID="" ADFieldNameID="Generate Withholding" ADTabNameID="Document Type" ADWindowNameID="Document Type" EntityType="U" Name="Generate Withholding" SameLine="false" isCentrallyMaintained="true" Displayed="true" isActive="true" isEncrypted="false" isFieldOnly="false" isHeading="false" isReadOnly="false" SeqNo="280" DisplayLength="1" Description="" Help="" SortNo="0" DisplayLogic="@DocBaseType@='API' | @DocBaseType@='APC' | @DocBaseType@='ARI' | @DocBaseType@='ARC'" ObscureType=""/>
 		</tab>
 	</window>
 	<window ADWindowNameID="Invoice (Customer)" EntityType="D">
@@ -1321,6 +1338,9 @@ ADD COLUMN withholdingamt NUMERIC"/>
 	<SQLStatement DBType="ALL" statement="UPDATE AD_Ref_List_Trl SET IsTranslated='Y', Name='Documento' WHERE AD_Ref_List_ID=(SELECT AD_ref_list_ID FROM AD_reference r, ad_ref_list rl WHERE r.ad_reference_id=rl.ad_reference_id and r.name='LCO_WithholdingType BaseType' and rl.name='Document') AND AD_Language LIKE 'es_%'"/>
 	<SQLStatement DBType="ALL" statement="UPDATE AD_Ref_List_Trl SET IsTranslated='Y', Name='Línea' WHERE AD_Ref_List_ID=(SELECT AD_ref_list_ID FROM AD_reference r, ad_ref_list rl WHERE r.ad_reference_id=rl.ad_reference_id and r.name='LCO_WithholdingType BaseType' and rl.name='Line') AND AD_Language LIKE 'es_%'"/>
 	<SQLStatement DBType="ALL" statement="UPDATE AD_Ref_List_Trl SET IsTranslated='Y', Name='Impuesto' WHERE AD_Ref_List_ID=(SELECT AD_ref_list_ID FROM AD_reference r, ad_ref_list rl WHERE r.ad_reference_id=rl.ad_reference_id and r.name='LCO_WithholdingType BaseType' and rl.name='Tax') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Ref_List_Trl SET IsTranslated='Y', Name='Si' WHERE AD_Ref_List_ID=(SELECT AD_ref_list_ID FROM AD_reference r, ad_ref_list rl WHERE r.ad_reference_id=rl.ad_reference_id and r.name='LCO_GenerateWithdHolding on DocType' and rl.name='Yes') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Ref_List_Trl SET IsTranslated='Y', Name='No' WHERE AD_Ref_List_ID=(SELECT AD_ref_list_ID FROM AD_reference r, ad_ref_list rl WHERE r.ad_reference_id=rl.ad_reference_id and r.name='LCO_GenerateWithdHolding on DocType' and rl.name='No') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Ref_List_Trl SET IsTranslated='Y', Name='Auto' WHERE AD_Ref_List_ID=(SELECT AD_ref_list_ID FROM AD_reference r, ad_ref_list rl WHERE r.ad_reference_id=rl.ad_reference_id and r.name='LCO_GenerateWithdHolding on DocType' and rl.name='Auto') AND AD_Language LIKE 'es_%'"/>
 	<!-- Update AD_Message_Trl -->
 	<SQLStatement DBType="ALL" statement="UPDATE AD_Message_Trl SET IsTranslated='Y', MsgText='No se han generado retenciones' WHERE AD_Message_ID=(SELECT AD_message_ID FROM AD_message w WHERE w.value='LCO_WithholdingNotGenerated') AND AD_Language LIKE 'es_%'"/>
 	<SQLStatement DBType="ALL" statement="UPDATE AD_Message_Trl SET IsTranslated='Y', MsgText='El valor del ajuste debe ser mayor o igual que las retenciones' WHERE AD_Message_ID=(SELECT AD_message_ID FROM AD_message w WHERE w.value='LCO_WriteOffLowerThanWithholdings') AND AD_Language LIKE 'es_%'"/>
@@ -1434,6 +1454,10 @@ ADD COLUMN withholdingamt NUMERIC"/>
              ELSE    Callout || ';org.adempiere.model.LCO_CalloutWithholding.fillWriteOff;org.compiere.model.CalloutPaymentAllocate.amounts'
           END
  WHERE AD_Column_ID = 14328 /* Payment Allocate Invoice */"/>
+	<!-- set generate withholding on document types -->
+	<SQLStatement DBType="ALL" statement="UPDATE C_DOCTYPE SET GenerateWithholding = 'Y' WHERE DocBaseType IN ('API','APC') AND GenerateWithholding IS NULL"/>
+	<SQLStatement DBType="ALL" statement="UPDATE C_DOCTYPE SET GenerateWithholding = 'A' WHERE DocBaseType IN ('ARI','ARC') AND GenerateWithholding IS NULL"/>
+	<SQLStatement DBType="ALL" statement="UPDATE C_DOCTYPE SET GenerateWithholding = 'N' WHERE GenerateWithholding IS NULL"/>
 	<!-- repeat here the tables to update the maintenance window -->
 	<table Name="ISIC" ADTableNameID="LCO_ISIC" ADWindowNameID="ISIC" POWindowNameID="" ADValRuleNameID="" AccessLevel="2" Description="Industrial International Uniform Classification" EntityType="U" Help="" ImportTable="N" isChangeLog="false" isActive="true" isDeleteable="true" isHighVolume="true" isSecurityEnabled="false" isView="false" LoadSeq="" ReplicationType="L" TableName="LCO_ISIC"/>
 	<table Name="Tax Payer Type" ADTableNameID="LCO_TaxPayerType" ADWindowNameID="Tax Payer Type" POWindowNameID="" ADValRuleNameID="" AccessLevel="2" Description="Tax Payer Type" EntityType="U" Help="" ImportTable="N" isChangeLog="false" isActive="true" isDeleteable="true" isHighVolume="false" isSecurityEnabled="false" isView="false" LoadSeq="" ReplicationType="L" TableName="LCO_TaxPayerType"/>
