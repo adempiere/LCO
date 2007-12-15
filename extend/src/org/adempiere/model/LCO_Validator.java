@@ -33,7 +33,7 @@ import org.compiere.util.*;
 
 
 /**
- *	Validator Example Implementation
+ *	Validator or Localization Colombia (Withholdings)
  *	
  *  @author Carlos Ruiz - globalqss - Quality Systems & Solutions - http://globalqss.com 
  *	@version $Id: LCO_Validator.java,v 1.4 2007/05/13 06:53:26 cruiz Exp $
@@ -286,7 +286,7 @@ public class LCO_Validator implements ModelValidator
 		}
 
 		// after preparing invoice move invoice withholdings to taxes and recalc grandtotal of invoice
-		if (po.get_TableName().equals(X_C_Invoice.Table_Name) && timing == TIMING_AFTER_PREPARE) {
+		if (po.get_TableName().equals(X_C_Invoice.Table_Name) && timing == TIMING_BEFORE_COMPLETE) {
 			msg = translateWithholdingToTaxes((MInvoice) po);
 			if (msg != null)
 				return msg;
@@ -647,7 +647,12 @@ public class LCO_Validator implements ModelValidator
 					it.setTaxBaseAmt(rs.getBigDecimal(2));
 					it.setTaxAmt(rs.getBigDecimal(3).negate());
 					sumit = sumit.add(rs.getBigDecimal(3));
-					it.save();
+					if (!it.save()) {
+						rs.close();
+						pstmt.close();
+						pstmt = null;
+						return "Error creating C_InvoiceTax from LCO_InvoiceWithholding";
+					}
 				}
 				inv.set_CustomColumn("WithholdingAmt", sumit);
 				// Subtract to invoice grand total the value of withholdings
