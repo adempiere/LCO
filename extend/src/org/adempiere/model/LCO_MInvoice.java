@@ -127,7 +127,7 @@ public class LCO_MInvoice extends MInvoice
 				if (wrc.isUseOrgTaxPayerType())
 					sqlr.append(" AND LCO_Org_TaxPayerType_ID = ? ");
 
-				// Add categories of lines
+				// Add withholding categories of lines
 				if (wrc.isUseWithholdingCategory()) {
 					// look the conf fields
 					String sqlwcs =
@@ -135,7 +135,7 @@ public class LCO_MInvoice extends MInvoice
 						+ "  FROM C_InvoiceLine il "
 						+ "  LEFT OUTER JOIN M_Product p ON (il.M_Product_ID = p.M_Product_ID) "
 						+ "  LEFT OUTER JOIN C_Charge c ON (il.C_Charge_ID = c.C_Charge_ID) "
-						+ "  WHERE C_Invoice_ID = ? ";
+						+ "  WHERE C_Invoice_ID = ? AND il.IsActive='Y'";
 					PreparedStatement pstmtwcs = DB.prepareStatement(sqlwcs, get_TrxName());
 					pstmtwcs.setInt(1, getC_Invoice_ID());
 					ResultSet rswcs = pstmtwcs.executeQuery();
@@ -159,6 +159,40 @@ public class LCO_MInvoice extends MInvoice
 						sqlr.append(") ");
 					rswcs.close();
 					pstmtwcs.close();
+				}
+
+				// Add tax categories of lines
+				if (wrc.isUseProductTaxCategory()) {
+					// look the conf fields
+					String sqlwct =
+						"SELECT DISTINCT COALESCE (p.C_TaxCategory_ID, COALESCE (c.C_TaxCategory_ID, 0)) "
+						+ "  FROM C_InvoiceLine il "
+						+ "  LEFT OUTER JOIN M_Product p ON (il.M_Product_ID = p.M_Product_ID) "
+						+ "  LEFT OUTER JOIN C_Charge c ON (il.C_Charge_ID = c.C_Charge_ID) "
+						+ "  WHERE C_Invoice_ID = ? AND il.IsActive='Y'";
+					PreparedStatement pstmtwct = DB.prepareStatement(sqlwct, get_TrxName());
+					pstmtwct.setInt(1, getC_Invoice_ID());
+					ResultSet rswct = pstmtwct.executeQuery();
+					int i = 0;
+					int wcid = 0;
+					boolean addedlines = false;
+					while (rswct.next()) {
+						wcid = rswct.getInt(1);
+						if (wcid > 0) {
+							if (i == 0) {
+								sqlr.append(" AND C_TaxCategory_ID IN (");
+								addedlines = true;
+							} else {
+								sqlr.append(",");
+							}
+							sqlr.append(wcid);
+							i++;
+						}	
+					}
+					if (addedlines)
+						sqlr.append(") ");
+					rswct.close();
+					pstmtwct.close();
 				}
 
 				PreparedStatement pstmtr = DB.prepareStatement(sqlr.toString(), get_TrxName());
@@ -214,26 +248,84 @@ public class LCO_MInvoice extends MInvoice
 					} else if (wc.getBaseType().equals(X_LCO_WithholdingCalc.BASETYPE_Document)) {
 						base = getTotalLines();
 					} else if (wc.getBaseType().equals(X_LCO_WithholdingCalc.BASETYPE_Line)) {
-						// base = lines of the category
-						String sqllca = 
-							"SELECT SUM (LineNetAmt) "
-							+ "  FROM C_InvoiceLine il "
-							+ " WHERE C_Invoice_ID = ? "
-							+ "   AND (   EXISTS ( "
-							+ "              SELECT 1 "
-							+ "                FROM M_Product p "
-							+ "               WHERE il.M_Product_ID = p.M_Product_ID "
-							+ "                 AND p.LCO_WithholdingCategory_ID = ?) "
-							+ "        OR EXISTS ( "
-							+ "              SELECT 1 "
-							+ "                FROM C_Charge c "
-							+ "               WHERE il.C_Charge_ID = c.C_Charge_ID "
-							+ "                 AND c.LCO_WithholdingCategory_ID = ?) "
-							+ "       ) ";
+						String sqllca; 
+						if (wrc.isUseWithholdingCategory() && wrc.isUseProductTaxCategory()) {
+							// base = lines of the withholding category and tax category
+							sqllca = 
+								"SELECT SUM (LineNetAmt) "
+								+ "  FROM C_InvoiceLine il "
+								+ " WHERE IsActive='Y' AND C_Invoice_ID = ? "
+								+ "   AND (   EXISTS ( "
+								+ "              SELECT 1 "
+								+ "                FROM M_Product p "
+								+ "               WHERE il.M_Product_ID = p.M_Product_ID "
+								+ "                 AND p.C_TaxCategory_ID = ? "
+								+ "                 AND p.LCO_WithholdingCategory_ID = ?) "
+								+ "        OR EXISTS ( "
+								+ "              SELECT 1 "
+								+ "                FROM C_Charge c "
+								+ "               WHERE il.C_Charge_ID = c.C_Charge_ID "
+								+ "                 AND c.C_TaxCategory_ID = ? "
+								+ "                 AND c.LCO_WithholdingCategory_ID = ?) "
+								+ "       ) ";
+						} else if (wrc.isUseWithholdingCategory()) {
+							// base = lines of the withholding category
+							sqllca = 
+								"SELECT SUM (LineNetAmt) "
+								+ "  FROM C_InvoiceLine il "
+								+ " WHERE IsActive='Y' AND C_Invoice_ID = ? "
+								+ "   AND (   EXISTS ( "
+								+ "              SELECT 1 "
+								+ "                FROM M_Product p "
+								+ "               WHERE il.M_Product_ID = p.M_Product_ID "
+								+ "                 AND p.LCO_WithholdingCategory_ID = ?) "
+								+ "        OR EXISTS ( "
+								+ "              SELECT 1 "
+								+ "                FROM C_Charge c "
+								+ "               WHERE il.C_Charge_ID = c.C_Charge_ID "
+								+ "                 AND c.LCO_WithholdingCategory_ID = ?) "
+								+ "       ) ";
+						} else if (wrc.isUseProductTaxCategory()) {
+							// base = lines of the product tax category
+							sqllca = 
+								"SELECT SUM (LineNetAmt) "
+								+ "  FROM C_InvoiceLine il "
+								+ " WHERE IsActive='Y' AND C_Invoice_ID = ? "
+								+ "   AND (   EXISTS ( "
+								+ "              SELECT 1 "
+								+ "                FROM M_Product p "
+								+ "               WHERE il.M_Product_ID = p.M_Product_ID "
+								+ "                 AND p.C_TaxCategory_ID = ?) "
+								+ "        OR EXISTS ( "
+								+ "              SELECT 1 "
+								+ "                FROM C_Charge c "
+								+ "               WHERE il.C_Charge_ID = c.C_Charge_ID "
+								+ "                 AND c.C_TaxCategory_ID = ?) "
+								+ "       ) ";
+						} else {
+							// base = all lines
+							sqllca = 
+								"SELECT SUM (LineNetAmt) "
+								+ "  FROM C_InvoiceLine il "
+								+ " WHERE IsActive='Y' AND C_Invoice_ID = ? ";
+						}
+						
 						PreparedStatement pstmtlca = DB.prepareStatement(sqllca, get_TrxName());
 						pstmtlca.setInt(1, getC_Invoice_ID());
-						pstmtlca.setInt(2, wr.getLCO_WithholdingCategory_ID());
-						pstmtlca.setInt(3, wr.getLCO_WithholdingCategory_ID());
+						if (wrc.isUseWithholdingCategory() && wrc.isUseProductTaxCategory()) {
+							pstmtlca.setInt(2, wr.getC_TaxCategory_ID());
+							pstmtlca.setInt(3, wr.getLCO_WithholdingCategory_ID());
+							pstmtlca.setInt(4, wr.getC_TaxCategory_ID());
+							pstmtlca.setInt(5, wr.getLCO_WithholdingCategory_ID());
+						} else if (wrc.isUseWithholdingCategory()) {
+							pstmtlca.setInt(2, wr.getLCO_WithholdingCategory_ID());
+							pstmtlca.setInt(3, wr.getLCO_WithholdingCategory_ID());
+						} else if (wrc.isUseProductTaxCategory()) {
+							pstmtlca.setInt(2, wr.getC_TaxCategory_ID());
+							pstmtlca.setInt(3, wr.getC_TaxCategory_ID());
+						} else {
+							;  // nothing
+						}
 						ResultSet rslca = pstmtlca.executeQuery();
 						if (rslca.next())
 							base = rslca.getBigDecimal(1);
@@ -245,7 +337,7 @@ public class LCO_MInvoice extends MInvoice
 							// base = value of specific tax
 							String sqlbst = "SELECT SUM(TaxAmt) "
 								+ " FROM C_InvoiceTax "
-								+ " WHERE C_Invoice_ID = ? "
+								+ " WHERE IsActive='Y' AND C_Invoice_ID = ? "
 								+ "   AND C_Tax_ID = ?";
 							PreparedStatement pstmtbst = DB.prepareStatement(sqlbst, get_TrxName());
 							pstmtbst.setInt(1, getC_Invoice_ID());
@@ -260,7 +352,7 @@ public class LCO_MInvoice extends MInvoice
 							// base = value of all taxes
 							String sqlbsat = "SELECT SUM(TaxAmt) "
 								+ " FROM C_InvoiceTax "
-								+ " WHERE C_Invoice_ID = ? ";
+								+ " WHERE IsActive='Y' AND C_Invoice_ID = ? ";
 							PreparedStatement pstmtbsat = DB.prepareStatement(sqlbsat, get_TrxName());
 							pstmtbsat.setInt(1, getC_Invoice_ID());
 							ResultSet rsbsat = pstmtbsat.executeQuery();

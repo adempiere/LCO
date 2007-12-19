@@ -623,7 +623,7 @@ public class LCO_Validator implements ModelValidator
 			catch (Exception e)
 			{
 				log.log(Level.SEVERE, sqldel, e);
-				return "Error creating C_InvoiceTax from LCO_InvoiceWithholding";
+				return "Error creating C_InvoiceTax from LCO_InvoiceWithholding -delete";
 			}
 			inv.set_CustomColumn("WithholdingAmt", Env.ZERO);
 			
@@ -642,6 +642,7 @@ public class LCO_Validator implements ModelValidator
 				ResultSet rs = pstmt.executeQuery();
 				while (rs.next()) {
 					MInvoiceTax it = new MInvoiceTax(inv.getCtx(), 0, inv.get_TrxName());
+					it.setAD_Org_ID(inv.getAD_Org_ID());
 					it.setC_Invoice_ID(inv.getC_Invoice_ID());
 					it.setC_Tax_ID(rs.getInt(1));
 					it.setTaxBaseAmt(rs.getBigDecimal(2));
@@ -651,7 +652,7 @@ public class LCO_Validator implements ModelValidator
 						rs.close();
 						pstmt.close();
 						pstmt = null;
-						return "Error creating C_InvoiceTax from LCO_InvoiceWithholding";
+						return "Error creating C_InvoiceTax from LCO_InvoiceWithholding - save InvoiceTax";
 					}
 				}
 				inv.set_CustomColumn("WithholdingAmt", sumit);
@@ -666,7 +667,7 @@ public class LCO_Validator implements ModelValidator
 			catch (Exception e)
 			{
 				log.log(Level.SEVERE, sql, e);
-				return "Error creating C_InvoiceTax from LCO_InvoiceWithholding";
+				return "Error creating C_InvoiceTax from LCO_InvoiceWithholding - select InvoiceTax";
 			}
 			try
 			{

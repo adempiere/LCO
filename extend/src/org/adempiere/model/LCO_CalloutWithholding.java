@@ -50,7 +50,7 @@ public class LCO_CalloutWithholding extends CalloutEngine
 		log.info("");
 		int wht_id = ((Integer) mTab.getValue("LCO_WithholdingType_ID")).intValue();
 		
-		String sql = "SELECT IsUseBPISIC, IsUseBPTaxPayerType, IsUseOrgISIC, IsUseOrgTaxPayerType, IsUseWithholdingCategory "
+		String sql = "SELECT IsUseBPISIC, IsUseBPTaxPayerType, IsUseOrgISIC, IsUseOrgTaxPayerType, IsUseWithholdingCategory, IsUseProductTaxCategory "
 			           + "FROM LCO_WithholdingRuleConf WHERE LCO_WithholdingType_ID=?";		//	#1
 
 		try
@@ -65,12 +65,14 @@ public class LCO_CalloutWithholding extends CalloutEngine
 				mTab.setValue("IsUseOrgISIC", rs.getString("IsUseOrgISIC"));
 				mTab.setValue("IsUseOrgTaxPayerType", rs.getString("IsUseOrgTaxPayerType"));
 				mTab.setValue("IsUseWithholdingCategory", rs.getString("IsUseWithholdingCategory"));
+				mTab.setValue("IsUseProductTaxCategory", rs.getString("IsUseProductTaxCategory"));
 			} else {
 				mTab.setValue("IsUseBPISIC", "N");
 				mTab.setValue("IsUseBPTaxPayerType", "N");
 				mTab.setValue("IsUseOrgISIC", "N");
 				mTab.setValue("IsUseOrgTaxPayerType", "N");
 				mTab.setValue("IsUseWithholdingCategory", "N");
+				mTab.setValue("IsUseProductTaxCategory", "N");
 				log.warning("Rule not configured for withholding type");
 			}
 			rs.close();

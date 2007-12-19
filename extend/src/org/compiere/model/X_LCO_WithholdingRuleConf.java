@@ -26,7 +26,7 @@ import java.math.*;
 import org.compiere.util.*;
 /** Generated Model for LCO_WithholdingRuleConf
  *  @author Adempiere (generated) 
- *  @version Release 3.2.0 - $Id: X_LCO_WithholdingRuleConf.java,v 1.3 2007/05/09 10:43:46 cruiz Exp $ */
+ *  @version Release 3.2.0 - $Id$ */
 public class X_LCO_WithholdingRuleConf extends PO
 {
 /** Standard Constructor
@@ -52,7 +52,7 @@ public X_LCO_WithholdingRuleConf (Properties ctx, ResultSet rs, String trxName)
 {
 super (ctx, rs, trxName);
 }
-/** AD_Table_ID=1000008 */
+/** AD_Table_ID=1000005 */
 public static final int Table_ID=MTable.getTable_ID("LCO_WithholdingRuleConf");
 
 /** TableName=LCO_WithholdingRuleConf */
@@ -165,6 +165,26 @@ return false;
 }
 /** Column name IsUseOrgTaxPayerType */
 public static final String COLUMNNAME_IsUseOrgTaxPayerType = "IsUseOrgTaxPayerType";
+/** Set Is Use Product Tax Category.
+@param IsUseProductTaxCategory Is Use Product Tax Category */
+public void setIsUseProductTaxCategory (boolean IsUseProductTaxCategory)
+{
+set_Value ("IsUseProductTaxCategory", Boolean.valueOf(IsUseProductTaxCategory));
+}
+/** Get Is Use Product Tax Category.
+@return Is Use Product Tax Category */
+public boolean isUseProductTaxCategory() 
+{
+Object oo = get_Value("IsUseProductTaxCategory");
+if (oo != null) 
+{
+ if (oo instanceof Boolean) return ((Boolean)oo).booleanValue();
+ return "Y".equals(oo);
+}
+return false;
+}
+/** Column name IsUseProductTaxCategory */
+public static final String COLUMNNAME_IsUseProductTaxCategory = "IsUseProductTaxCategory";
 /** Set Is Use Withholding Category.
 @param IsUseWithholdingCategory Is Use Withholding Category */
 public void setIsUseWithholdingCategory (boolean IsUseWithholdingCategory)
