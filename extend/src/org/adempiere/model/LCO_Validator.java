@@ -115,7 +115,7 @@ public class LCO_Validator implements ModelValidator
 	private String clearInvoiceWithholdingAmtFromInvoice(MInvoice inv) {
 		// Clear invoice withholding amount
 		
-		if (inv.is_ValueChanged("AD_Org_ID") || inv.is_ValueChanged("C_BPartner_ID")) {
+		if (inv.is_ValueChanged("AD_Org_ID") || inv.is_ValueChanged("C_BPartner_ID") || inv.is_ValueChanged("C_DocTypeTarget_ID")) {
 			
 			boolean thereAreCalc;
 			try {
@@ -157,12 +157,14 @@ public class LCO_Validator implements ModelValidator
 		if (thereAreCalc) {
 			if (curWithholdingAmt != null) {
 				inv.set_CustomColumn("WithholdingAmt", null);
-				inv.save();
+				if (!inv.save())
+					return "Error saving C_Invoice clearInvoiceWithholdingAmtFromInvoiceLine";
 			}
 		} else {
 			if (curWithholdingAmt == null) {
 				inv.set_CustomColumn("WithholdingAmt", Env.ZERO);
-				inv.save();
+				if (!inv.save())
+					return "Error saving C_Invoice clearInvoiceWithholdingAmtFromInvoiceLine";
 			}
 		}
 		return null;
@@ -236,7 +238,8 @@ public class LCO_Validator implements ModelValidator
 							newiwh.setTaxAmt(iwh.getTaxAmt().negate());
 							newiwh.setTaxBaseAmt(iwh.getTaxBaseAmt().negate());
 							newiwh.setC_Tax_ID(iwh.getC_Tax_ID());
-							newiwh.save();
+							if (!newiwh.save())
+								return "Error saving LCO_InvoiceWithholding docValidate";
 						}
 
 						rs.close();
@@ -316,6 +319,16 @@ public class LCO_Validator implements ModelValidator
 		// before posting the allocation - post the payment withholdings vs writeoff amount  
 		if (po.get_TableName().equals(X_C_AllocationHdr.Table_Name) && timing == TIMING_BEFORE_POST) {
 			msg = accountingForInvoiceWithholdingOnPayment((MAllocationHdr) po);
+			if (msg != null)
+				return msg;
+		}
+
+		// after completing the allocation - complete the payment withholdings  
+		if (po.get_TableName().equals(X_C_AllocationHdr.Table_Name)
+				&& (timing == TIMING_AFTER_VOID || 
+					timing == TIMING_AFTER_REVERSECORRECT || 
+					timing == TIMING_AFTER_REVERSEACCRUAL)) {
+			msg = reversePaymentWithholdings((MAllocationHdr) po);
 			if (msg != null)
 				return msg;
 		}
@@ -408,7 +421,46 @@ public class LCO_Validator implements ModelValidator
 						iwh.setDateAcct(ah.getDateAcct());
 						iwh.setDateTrx(ah.getDateTrx());
 						iwh.setProcessed(true);
-						iwh.save();
+						if (!iwh.save())
+							return "Error saving LCO_InvoiceWithholding completePaymentWithholdings";
+					}
+					rs.close();
+					pstmt.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+					return e.getLocalizedMessage();
+				}
+			}
+		}
+		return null;
+	}
+
+	private String reversePaymentWithholdings(MAllocationHdr ah) {
+		MAllocationLine[] als = ah.getLines(true);
+		for (int i = 0; i < als.length; i++) {
+			MAllocationLine al = als[i];
+			if (al.getC_Invoice_ID() > 0) {
+				String sql = 
+					"SELECT LCO_InvoiceWithholding_ID " +
+					"FROM LCO_InvoiceWithholding " +
+					"WHERE C_Invoice_ID = ? AND " +
+					"IsActive = 'Y' AND " +
+					"IsCalcOnPayment = 'Y' AND " +
+					"Processed = 'Y' AND " +
+					"C_AllocationLine_ID = ?";
+				PreparedStatement pstmt = DB.prepareStatement(sql, ah.get_TrxName());
+				try {
+					pstmt.setInt(1, al.getC_Invoice_ID());
+					pstmt.setInt(2, al.getC_AllocationLine_ID());
+					ResultSet rs = pstmt.executeQuery();
+					while (rs.next()) {
+						int iwhid = rs.getInt(1);
+						MLCOInvoiceWithholding iwh = new MLCOInvoiceWithholding(
+								ah.getCtx(), iwhid, ah.get_TrxName());
+						iwh.setC_AllocationLine_ID(0);
+						iwh.setProcessed(false);
+						if (!iwh.save())
+							return "Error saving LCO_InvoiceWithholding reversePaymentWithholdings";
 					}
 					rs.close();
 					pstmt.close();

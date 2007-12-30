@@ -370,6 +370,13 @@ public class LCO_MInvoice extends MInvoice
 							base.compareTo(wc.getThresholdmin()) >= 0 &&
 							tax.getRate() != null &&
 							tax.getRate().compareTo(Env.ZERO) != 0) {
+						
+						// change sign of base if credit memo
+						if (dt.getDocBaseType().equals(MDocType.DOCBASETYPE_APCreditMemo) ||
+							dt.getDocBaseType().equals(MDocType.DOCBASETYPE_ARCreditMemo)) {
+							base = base.negate();
+						}
+						
 						// insert new withholding record
 						// with: type, tax, base amt, percent, tax amt, trx date, acct date, rule
 						MLCOInvoiceWithholding iwh = new MLCOInvoiceWithholding(getCtx(), 0, get_TrxName());
