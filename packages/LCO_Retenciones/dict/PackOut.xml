@@ -776,7 +776,7 @@ ADD COLUMN generatewithholding CHAR(1)"/>
 	</window>
 	<window ADWindowNameID="Document Type" EntityType="D">
 		<tab Name="Document Type" EntityType="D">
-			<field ADColumnNameID="GenerateWithholding" ADTableNameID="C_DocType" ADFieldGroupNameID="" ADFieldNameID="Generate Withholding" ADTabNameID="Document Type" ADWindowNameID="Document Type" EntityType="U" Name="Generate Withholding" SameLine="false" isCentrallyMaintained="true" Displayed="true" isActive="true" isEncrypted="false" isFieldOnly="false" isHeading="false" isReadOnly="false" SeqNo="280" DisplayLength="1" Description="" Help="" SortNo="0" DisplayLogic="@DocBaseType@='API' | @DocBaseType@='APC' | @DocBaseType@='ARI' | @DocBaseType@='ARC'" ObscureType=""/>
+			<field ADColumnNameID="GenerateWithholding" ADTableNameID="C_DocType" ADFieldGroupNameID="" ADFieldNameID="Generate Withholding" ADTabNameID="Document Type" ADWindowNameID="Document Type" EntityType="U" Name="Generate Withholding" SameLine="false" isCentrallyMaintained="true" Displayed="true" isActive="true" isEncrypted="false" isFieldOnly="false" isHeading="false" isReadOnly="false" SeqNo="310" DisplayLength="1" Description="" Help="" SortNo="0" DisplayLogic="@DocBaseType@='API' | @DocBaseType@='APC' | @DocBaseType@='ARI' | @DocBaseType@='ARC'" ObscureType=""/>
 		</tab>
 	</window>
 	<window ADWindowNameID="Invoice (Customer)" EntityType="D">
