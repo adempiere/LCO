@@ -1,4 +1,4 @@
-ALTER TABLE adempiereqss.LCO_WITHHOLDINGRULECONF
+ALTER TABLE LCO_WITHHOLDINGRULECONF
  ADD (isuseproducttaxcategory  CHAR(1)
 DEFAULT 'N' NOT NULL CHECK (isuseproducttaxcategory IN ('Y',
    'N')));
