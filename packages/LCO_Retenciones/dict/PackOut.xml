@@ -424,7 +424,7 @@ ADD generatewithholding CHAR(1)"/>
  UPDATED                     TIMESTAMP              NOT NULL,
  UPDATEDBY                   NUMERIC(10,0)        NOT NULL,
  VALIDFROM                   TIMESTAMP,
- C_TAXCATEGORY_ID  NUMBER(10),
+ C_TAXCATEGORY_ID  NUMERIC(10,0),
  CHECK (isactive IN ('Y','N')),
  CHECK (isdefault IN ('Y','N')),
  CONSTRAINT LCO_WITHHOLDINGRULE_KEY
