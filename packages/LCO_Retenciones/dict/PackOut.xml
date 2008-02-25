@@ -465,6 +465,7 @@ ADD generatewithholding CHAR(1)"/>
  UPDATEDBY                  NUMERIC(10,0)         NOT NULL,
  C_TAX_ID                   NUMERIC(10,0),
  LCO_INVOICEWITHHOLDING_ID  NUMERIC(10,0)         NOT NULL,
+ C_ALLOCATIONLINE_ID        NUMERIC(10,0),
  CHECK (isactive IN ('Y','N')),
  CHECK (iscalconpayment IN ('Y','N')),
  CHECK (istaxincluded IN ('Y','N')),
