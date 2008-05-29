@@ -67,6 +67,21 @@ y cambiar las ocurrencias de GardenWorld por un valor apropiado dependiendo de s
 
 ---------------------------
 
+NOTA IMPORTANTE:
+Después de importar paquetes con 2pack es recomendable (algunas veces necesario) correr cuatro procesos:
+
+1 - En la ventana Lenguaje (Language) seleccionar los lenguaje del sistema (debe ser es_CO si siguió las instrucciones aquí)
+Cuando tenga el registro del lenguaje seleccionado en pantalla oprimir el botón "Mantenimiento del lenguaje" (Language Maintenance)
+Y seleccionar "Adicionar traducciones faltantes" (Add missing translations)
+
+2 - Proceso "Sincronizar Terminología" (Synchronize Terminology)
+
+3 - Proceso "Comprobar Secuencia" (Sequence Check)
+
+4 - Proceso "Actualización de Rol" (Role Access Update) - tener en cuenta que se debe dejar el rol en blanco para que los tome todos.
+
+---------------------------
+
 
 Para mayor información puede acudir libremente al soporte en los foros de Adempiere:
 https://sourceforge.net/forum/forum.php?forum_id=623063
