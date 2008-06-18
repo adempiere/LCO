@@ -19,8 +19,8 @@ package org.compiere.model;
 import java.sql.ResultSet;
 import java.util.Properties;
 
-import org.adempiere.model.LCO_MInvoice;
 import org.compiere.util.CLogger;
+import org.globalqss.model.LCO_MInvoice;
 
 /**
  *	Invoice Withholding Model

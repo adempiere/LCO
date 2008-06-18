@@ -19,10 +19,10 @@ package org.adempiere.process;
 
 import java.util.logging.Level;
 
-import org.adempiere.model.LCO_MInvoice;
 import org.compiere.process.ProcessInfoParameter;
 import org.compiere.process.SvrProcess;
 import org.compiere.util.AdempiereUserError;
+import org.globalqss.model.LCO_MInvoice;
 
 /**
  *	LCO_GenerateWithholding
