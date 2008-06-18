@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: Adempiere ERP & CRM Smart Business Solution                        *
+ * Product: Adempiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 1999-2006 ComPiere, Inc. All Rights Reserved.                *
  * This program is free software; you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -16,13 +16,26 @@
  *****************************************************************************/
 package org.adempiere.model;
 
-import java.math.*;
-import java.sql.*;
-import java.util.*;
-import java.util.logging.*;
+import java.math.BigDecimal;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.Properties;
+import java.util.logging.Level;
 
-import org.compiere.model.*;
-import org.compiere.util.*;
+import org.compiere.model.MBPartner;
+import org.compiere.model.MDocType;
+import org.compiere.model.MInvoice;
+import org.compiere.model.MLCOInvoiceWithholding;
+import org.compiere.model.MOrgInfo;
+import org.compiere.model.MPriceList;
+import org.compiere.model.MTax;
+import org.compiere.model.X_LCO_WithholdingCalc;
+import org.compiere.model.X_LCO_WithholdingRule;
+import org.compiere.model.X_LCO_WithholdingRuleConf;
+import org.compiere.model.X_LCO_WithholdingType;
+import org.compiere.util.DB;
+import org.compiere.util.Env;
 
 /**
  *	LCO_MInvoice

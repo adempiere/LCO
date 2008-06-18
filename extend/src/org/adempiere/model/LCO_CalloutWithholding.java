@@ -17,12 +17,19 @@
 package org.adempiere.model;
 
 import java.math.BigDecimal;
-import java.sql.*;
-import java.util.*;
-import org.compiere.model.*;
-import java.util.logging.*;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.Properties;
+import java.util.logging.Level;
 
-import org.compiere.util.*;
+import org.compiere.model.CalloutEngine;
+import org.compiere.model.GridField;
+import org.compiere.model.GridTab;
+import org.compiere.model.MLCOInvoiceWithholding;
+import org.compiere.model.MTax;
+import org.compiere.util.DB;
+import org.compiere.util.Env;
 
 /**
  *	LCO_CalloutWithholding

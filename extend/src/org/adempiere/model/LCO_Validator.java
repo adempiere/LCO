@@ -16,20 +16,38 @@
  *****************************************************************************/
 package org.adempiere.model;
 
-import java.math.*;
+import java.math.BigDecimal;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.logging.Level;
 
-import org.compiere.acct.Fact;
-import org.compiere.acct.FactLine;
 import org.compiere.acct.Doc;
 import org.compiere.acct.DocLine;
 import org.compiere.acct.DocTax;
-import org.compiere.model.*;
-import org.compiere.util.*;
+import org.compiere.acct.Fact;
+import org.compiere.acct.FactLine;
+import org.compiere.model.MAcctSchema;
+import org.compiere.model.MAllocationHdr;
+import org.compiere.model.MAllocationLine;
+import org.compiere.model.MBPartner;
+import org.compiere.model.MClient;
+import org.compiere.model.MDocType;
+import org.compiere.model.MInvoice;
+import org.compiere.model.MInvoiceLine;
+import org.compiere.model.MInvoiceTax;
+import org.compiere.model.MLCOInvoiceWithholding;
+import org.compiere.model.MPayment;
+import org.compiere.model.MPaymentAllocate;
+import org.compiere.model.ModelValidationEngine;
+import org.compiere.model.ModelValidator;
+import org.compiere.model.PO;
+import org.compiere.util.CLogger;
+import org.compiere.util.DB;
+import org.compiere.util.Env;
+import org.globalqss.util.LCO_Utils;
+
 
 
 /**
@@ -42,7 +60,7 @@ public class LCO_Validator implements ModelValidator
 {
 	/**
 	 *	Constructor.
-	 *	The class is instanciated when logging in and client is selected/known
+	 *	The class is instantiated when logging in and client is selected/known
 	 */
 	public LCO_Validator ()
 	{
@@ -65,13 +83,14 @@ public class LCO_Validator implements ModelValidator
 		log.info(client.toString());
 
 		//	Tables to be monitored
-		engine.addModelChange(X_C_Invoice.Table_Name, this);
-		engine.addModelChange(X_C_InvoiceLine.Table_Name, this);
+		engine.addModelChange(MInvoice.Table_Name, this);
+		engine.addModelChange(MInvoiceLine.Table_Name, this);
+		engine.addModelChange(MBPartner.Table_Name, this);
 
 		//	Documents to be monitored
-		engine.addDocValidate(X_C_Invoice.Table_Name, this);
-		engine.addDocValidate(X_C_Payment.Table_Name, this);
-		engine.addDocValidate(X_C_AllocationHdr.Table_Name, this);
+		engine.addDocValidate(MInvoice.Table_Name, this);
+		engine.addDocValidate(MPayment.Table_Name, this);
+		engine.addDocValidate(MAllocationHdr.Table_Name, this);
 
 	}	//	initialize
 
@@ -89,7 +108,7 @@ public class LCO_Validator implements ModelValidator
 		log.info(po.get_TableName() + " Type: "+type);
 		String msg;
 
-		if (po.get_TableName().equals(X_C_Invoice.Table_Name) && type == ModelValidator.TYPE_BEFORE_CHANGE) {
+		if (po.get_TableName().equals(MInvoice.Table_Name) && type == ModelValidator.TYPE_BEFORE_CHANGE) {
 			msg = clearInvoiceWithholdingAmtFromInvoice((MInvoice) po);
 			if (msg != null)
 				return msg;
@@ -97,7 +116,7 @@ public class LCO_Validator implements ModelValidator
 
 		// when invoiceline is changed clear the withholding amount on invoice
 		// in order to force a regeneration
-		if (po.get_TableName().equals(X_C_InvoiceLine.Table_Name) &&
+		if (po.get_TableName().equals(MInvoiceLine.Table_Name) &&
 				(type == ModelValidator.TYPE_BEFORE_NEW ||
 				 type == ModelValidator.TYPE_BEFORE_CHANGE ||
 				 type == ModelValidator.TYPE_BEFORE_DELETE
@@ -109,13 +128,35 @@ public class LCO_Validator implements ModelValidator
 				return msg;
 		}
 
+		// Check Digit based on TaxID
+		if (po.get_TableName().equals(MBPartner.Table_Name) && ( type == TYPE_BEFORE_NEW || type == TYPE_BEFORE_CHANGE))
+		{
+			MBPartner bpartner = (MBPartner)po;
+			msg = mcheckTaxIdDigit(bpartner);
+			if (msg != null)
+				return msg;
+			log.info(po.toString());
+		}
+
+		// Fill name
+		if (po.get_TableName().equals(MBPartner.Table_Name) && ( type == TYPE_BEFORE_NEW || type == TYPE_BEFORE_CHANGE))
+		{
+			MBPartner bpartner = (MBPartner)po;
+			msg = mfillName(bpartner);
+			if (msg != null)
+				return msg;
+			log.info(po.toString());
+		}
+		
 		return null;
 	}	//	modelChange
 	
 	private String clearInvoiceWithholdingAmtFromInvoice(MInvoice inv) {
 		// Clear invoice withholding amount
 		
-		if (inv.is_ValueChanged("AD_Org_ID") || inv.is_ValueChanged("C_BPartner_ID") || inv.is_ValueChanged("C_DocTypeTarget_ID")) {
+		if (inv.is_ValueChanged("AD_Org_ID")
+				|| inv.is_ValueChanged(MInvoice.COLUMNNAME_C_BPartner_ID)
+				|| inv.is_ValueChanged(MInvoice.COLUMNNAME_C_DocTypeTarget_ID)) {
 			
 			boolean thereAreCalc;
 			try {
@@ -200,7 +241,7 @@ public class LCO_Validator implements ModelValidator
 		String msg;
 
 		// before preparing a reversal invoice add the invoice withholding taxes
-		if (po.get_TableName().equals(X_C_Invoice.Table_Name)
+		if (po.get_TableName().equals(MInvoice.Table_Name)
 				&& timing == TIMING_BEFORE_PREPARE) {
 			MInvoice inv = (MInvoice) po;
 			/* @TODO: Change this to IsReversal & Reversal_ID on 3.5 */
@@ -269,7 +310,7 @@ public class LCO_Validator implements ModelValidator
 		}
 
 		// before preparing invoice validate if withholdings has been generated
-		if (po.get_TableName().equals(X_C_Invoice.Table_Name)
+		if (po.get_TableName().equals(MInvoice.Table_Name)
 				&& timing == TIMING_BEFORE_PREPARE) {
 			MInvoice inv = (MInvoice) po;
 			/* @TODO: Change this to IsReversal & Reversal_ID on 3.5 */
@@ -299,42 +340,42 @@ public class LCO_Validator implements ModelValidator
 		}
 
 		// after preparing invoice move invoice withholdings to taxes and recalc grandtotal of invoice
-		if (po.get_TableName().equals(X_C_Invoice.Table_Name) && timing == TIMING_BEFORE_COMPLETE) {
+		if (po.get_TableName().equals(MInvoice.Table_Name) && timing == TIMING_BEFORE_COMPLETE) {
 			msg = translateWithholdingToTaxes((MInvoice) po);
 			if (msg != null)
 				return msg;
 		}
 
 		// after completing the invoice fix the dates on withholdings and mark the invoice withholdings as processed
-		if (po.get_TableName().equals(X_C_Invoice.Table_Name) && timing == TIMING_AFTER_COMPLETE) {
+		if (po.get_TableName().equals(MInvoice.Table_Name) && timing == TIMING_AFTER_COMPLETE) {
 			msg = completeInvoiceWithholding((MInvoice) po);
 			if (msg != null)
 				return msg;
 		}
 
 		// before completing the payment - validate that writeoff amount must be greater than sum of payment withholdings  
-		if (po.get_TableName().equals(X_C_Payment.Table_Name) && timing == TIMING_BEFORE_COMPLETE) {
+		if (po.get_TableName().equals(MPayment.Table_Name) && timing == TIMING_BEFORE_COMPLETE) {
 			msg = validateWriteOffVsPaymentWithholdings((MPayment) po);
 			if (msg != null)
 				return msg;
 		}
 
 		// after completing the allocation - complete the payment withholdings  
-		if (po.get_TableName().equals(X_C_AllocationHdr.Table_Name) && timing == TIMING_AFTER_COMPLETE) {
+		if (po.get_TableName().equals(MAllocationHdr.Table_Name) && timing == TIMING_AFTER_COMPLETE) {
 			msg = completePaymentWithholdings((MAllocationHdr) po);
 			if (msg != null)
 				return msg;
 		}
 
 		// before posting the allocation - post the payment withholdings vs writeoff amount  
-		if (po.get_TableName().equals(X_C_AllocationHdr.Table_Name) && timing == TIMING_BEFORE_POST) {
+		if (po.get_TableName().equals(MAllocationHdr.Table_Name) && timing == TIMING_BEFORE_POST) {
 			msg = accountingForInvoiceWithholdingOnPayment((MAllocationHdr) po);
 			if (msg != null)
 				return msg;
 		}
 
 		// after completing the allocation - complete the payment withholdings  
-		if (po.get_TableName().equals(X_C_AllocationHdr.Table_Name)
+		if (po.get_TableName().equals(MAllocationHdr.Table_Name)
 				&& (timing == TIMING_AFTER_VOID || 
 					timing == TIMING_AFTER_REVERSECORRECT || 
 					timing == TIMING_AFTER_REVERSEACCRUAL)) {
@@ -780,5 +821,67 @@ public class LCO_Validator implements ModelValidator
 		StringBuffer sb = new StringBuffer ("LCO_Validator");
 		return sb.toString ();
 	}	//	toString
+	
+	/**
+	 *	Check Digit based on TaxID.
+	 */
+	private String mcheckTaxIdDigit (MBPartner bpartner)
+	{
+		String taxid = bpartner.getTaxID();
+
+		if (taxid == null)
+			return "No se ha indicado identificación";
+		int isdigitchecked = DB.getSQLValue(null, "SELECT 1 FROM LCO_TaxIdType WHERE LCO_TaxIdType_ID=? AND IsDigitChecked = 'Y' ", (Integer) bpartner.get_Value("LCO_TaxIdType_ID"));
+		if (isdigitchecked == 1 && bpartner.get_Value("TaxIdDigit") == null)
+			return "No se ha indicado dígito";
+		int taxIDDigit;
+		try {
+			taxIDDigit = Integer.parseInt((String) bpartner.get_Value("TaxIdDigit"));
+		} catch (NumberFormatException e) {
+			return "Número no válido";
+		}
+		int correctDigit = LCO_Utils.calculateDigitDian(taxid.trim());
+		if (correctDigit != taxIDDigit)
+			return "Verifique el digito de chequeo";
+		
+		log.info(bpartner.toString());
+		return null;
+	}	//	mcheckTaxIdDigit
+
+	/**
+	 * 	Fill Name based on First and Last Names
+	 *	@param bpartner bpartner
+	 *	@return error message or null
+	 */
+	public String mfillName (MBPartner bpartner)
+	{
+		log.info("");
+		String filledName = null;
+
+		if ((Boolean)(bpartner.get_Value("IsJuridical")))
+			return "";
+		
+		if (bpartner.get_Value("FirstName1") == null)
+			return "Debe indicar primer nombre";
+		
+		if (bpartner.get_Value("LastName1") == null)
+			return "Debe indicar primer apellido";
+		
+		// TODO: Configurable si es apellidos+nombres o nombres+apellidos
+		filledName = bpartner.get_ValueAsString("LastName1").trim();
+		if (bpartner.get_Value("LastName2") != null)
+			filledName = filledName + " " + bpartner.get_ValueAsString("LastName2").trim();
+		
+		if (filledName != null)
+		//	filledName = filledName + ", "; -- Separa apellidos y nombres con coma
+			filledName = filledName + " ";
+		
+		filledName = filledName + bpartner.get_ValueAsString("FirstName1").trim();
+		if (bpartner.get_Value("FirstName2") != null)
+			filledName = filledName + " " + bpartner.get_ValueAsString("FirstName2").trim();
+		
+		bpartner.setName(filledName);
+		return "";
+	}	//	mfillName
 	
 }	//	LCO_Validator
