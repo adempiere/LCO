@@ -14,13 +14,17 @@
  * ComPiere, Inc., 2620 Augustine Dr. #245, Santa Clara, CA 95054, USA        *
  * or via info@compiere.org or http://www.compiere.org/license.html           *
  *****************************************************************************/
-package org.compiere.model;
+package org.globalqss.model;
 
 import java.sql.ResultSet;
 import java.util.Properties;
 
+import org.compiere.model.MInvoice;
+import org.compiere.model.X_LCO_InvoiceWithholding;
+import org.compiere.model.X_LCO_WithholdingCalc;
+import org.compiere.model.X_LCO_WithholdingRule;
+import org.compiere.model.X_LCO_WithholdingType;
 import org.compiere.util.CLogger;
-import org.globalqss.model.LCO_MInvoice;
 
 /**
  *	Invoice Withholding Model
