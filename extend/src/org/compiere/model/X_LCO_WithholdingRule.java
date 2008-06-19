@@ -92,9 +92,7 @@ public class X_LCO_WithholdingRule extends PO implements I_LCO_WithholdingRule, 
     }
 
 	/** Set Tax Category.
-		@param C_TaxCategory_ID 
-		Tax Category
-	  */
+		@param C_TaxCategory_ID Tax Category	  */
 	public void setC_TaxCategory_ID (int C_TaxCategory_ID)
 	{
 		if (C_TaxCategory_ID < 1) 
@@ -104,8 +102,7 @@ public class X_LCO_WithholdingRule extends PO implements I_LCO_WithholdingRule, 
 	}
 
 	/** Get Tax Category.
-		@return Tax Category
-	  */
+		@return Tax Category	  */
 	public int getC_TaxCategory_ID () 
 	{
 		Integer ii = (Integer)get_Value(COLUMNNAME_C_TaxCategory_ID);

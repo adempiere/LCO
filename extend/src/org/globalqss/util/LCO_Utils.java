@@ -37,13 +37,15 @@ public class LCO_Utils
 		//Variable para realizar las operaciones
 		int iOperacion = 0;
 		int posini = 0;
-		int posfin = 0;
 	
 		//Ciclo para multiplicar cada uno de los digitos del NIT con el vector
 		for (int i = 0; i < strNit.trim().length() ; i++) {
 			posini = strNit.trim().length() - (i + 1);
-			posfin = posini + 1;
-			iOperacion = iOperacion + Integer.parseInt(strNit.substring(posini, posfin)) * iNrosPrimos[i];
+			try {
+				iOperacion = iOperacion + Integer.parseInt(strNit.substring(posini, posini + 1)) * iNrosPrimos[i];
+			} catch (NumberFormatException e) {
+				return -1;
+			}
 		}
 	
 		//Obtener el residuo de la operacion

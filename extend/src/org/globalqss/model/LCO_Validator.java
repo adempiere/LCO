@@ -42,12 +42,12 @@ import org.compiere.model.MPaymentAllocate;
 import org.compiere.model.ModelValidationEngine;
 import org.compiere.model.ModelValidator;
 import org.compiere.model.PO;
+import org.compiere.model.X_LCO_TaxIdType;
 import org.compiere.util.CLogger;
 import org.compiere.util.DB;
 import org.compiere.util.Env;
+import org.compiere.util.Msg;
 import org.globalqss.util.LCO_Utils;
-
-
 
 /**
  *	Validator or Localization Colombia (Withholdings)
@@ -78,8 +78,13 @@ public class LCO_Validator implements ModelValidator
 	 */
 	public void initialize (ModelValidationEngine engine, MClient client)
 	{
-		m_AD_Client_ID = client.getAD_Client_ID();
-		log.info(client.toString());
+		if (client != null)
+			m_AD_Client_ID = client.getAD_Client_ID();
+		else 
+			m_AD_Client_ID = Env.getAD_Client_ID(Env.getCtx());
+		log.info("" + m_AD_Client_ID);
+		if (m_AD_Client_ID == 0)
+			return;
 
 		//	Tables to be monitored
 		engine.addModelChange(MInvoice.Table_Name, this);
@@ -134,17 +139,10 @@ public class LCO_Validator implements ModelValidator
 			msg = mcheckTaxIdDigit(bpartner);
 			if (msg != null)
 				return msg;
-			log.info(po.toString());
-		}
 
-		// Fill name
-		if (po.get_TableName().equals(MBPartner.Table_Name) && ( type == TYPE_BEFORE_NEW || type == TYPE_BEFORE_CHANGE))
-		{
-			MBPartner bpartner = (MBPartner)po;
 			msg = mfillName(bpartner);
 			if (msg != null)
 				return msg;
-			log.info(po.toString());
 		}
 		
 		return null;
@@ -325,7 +323,7 @@ public class LCO_Validator implements ModelValidator
 
 						if (genwh.equals("Y")) {
 							// document type configured to compel generation of withholdings
-							return "@LCO_WithholdingNotGenerated@";
+							return Msg.getMsg(inv.getCtx(), "LCO_WithholdingNotGenerated");
 						}
 						
 						if (genwh.equals("A")) {
@@ -404,7 +402,7 @@ public class LCO_Validator implements ModelValidator
 			if (sumwhamt == null)
 				sumwhamt = Env.ZERO;
 			if (wo.compareTo(sumwhamt) < 0)
-				return "@LCO_WriteOffLowerThanWithholdings@";
+				return Msg.getMsg(pay.getCtx(), "LCO_WriteOffLowerThanWithholdings");
 		} else {
 			// validate every C_PaymentAllocate
 			String sql = 
@@ -433,7 +431,7 @@ public class LCO_Validator implements ModelValidator
 					if (sumwhamt == null)
 						sumwhamt = Env.ZERO;
 					if (wo.compareTo(sumwhamt) < 0)
-						return "@LCO_WriteOffLowerThanWithholdings@";
+						return Msg.getMsg(pay.getCtx(), "LCO_WriteOffLowerThanWithholdings");
 				}
 				rs.close();
 				pstmt.close();
@@ -826,22 +824,43 @@ public class LCO_Validator implements ModelValidator
 	 */
 	private String mcheckTaxIdDigit (MBPartner bpartner)
 	{
-		String taxid = bpartner.getTaxID();
-
-		if (taxid == null)
-			return "No se ha indicado identificación";
-		int isdigitchecked = DB.getSQLValue(null, "SELECT 1 FROM LCO_TaxIdType WHERE LCO_TaxIdType_ID=? AND IsDigitChecked = 'Y' ", (Integer) bpartner.get_Value("LCO_TaxIdType_ID"));
-		if (isdigitchecked == 1 && bpartner.get_Value("TaxIdDigit") == null)
-			return "No se ha indicado dígito";
-		int taxIDDigit;
-		try {
-			taxIDDigit = Integer.parseInt((String) bpartner.get_Value("TaxIdDigit"));
-		} catch (NumberFormatException e) {
-			return "Número no válido";
+		Integer taxidtype_I = (Integer) bpartner.get_Value("LCO_TaxIdType_ID");
+		
+		if (taxidtype_I == null)
+			return Msg.getMsg(bpartner.getCtx(), "LCO_TaxIDTypeRequired");
+		
+		X_LCO_TaxIdType taxidtype = new X_LCO_TaxIdType(bpartner.getCtx(), taxidtype_I.intValue(), bpartner.get_TrxName());
+		
+		Boolean isJuridical = (Boolean) bpartner.get_Value("IsJuridical");
+		if (!isJuridical.booleanValue()) {
+			bpartner.set_ValueOfColumn("TaxIdDigit", null);
+			return null;
 		}
-		int correctDigit = LCO_Utils.calculateDigitDian(taxid.trim());
-		if (correctDigit != taxIDDigit)
-			return "Verifique el digito de chequeo";
+			
+		// Is Juridical
+		String taxid = bpartner.getTaxID();
+		if (taxid == null)
+			return Msg.getMsg(bpartner.getCtx(), "LCO_NoTaxID");
+
+		int correctDigit = LCO_Utils.calculateDigitDian(taxid);
+		if (correctDigit == -1) // Error on the Tax ID - possibly invalid characters
+			return Msg.getMsg(bpartner.getCtx(), "LCO_NotValidID");
+
+		String taxIDDigit = (String) bpartner.get_Value("TaxIdDigit");
+		if (taxidtype.isDigitChecked()) {
+			if (taxIDDigit == null || taxIDDigit.trim().length() == 0)
+				return Msg.getMsg(bpartner.getCtx(), "LCO_NoDigit"); // No Tax ID Digit
+			int taxIDDigit_int;
+			try {
+				taxIDDigit_int = Integer.parseInt(taxIDDigit);
+			} catch (NumberFormatException e) {
+				return Msg.getMsg(bpartner.getCtx(), "LCO_NotANumber");  // Error on the check digit
+			}
+			if (correctDigit != taxIDDigit_int)
+				return Msg.getMsg(bpartner.getCtx(), "LCO_VerifyCheckDigit");
+		} else {
+			bpartner.set_ValueOfColumn("TaxIdDigit", correctDigit);
+		}
 		
 		log.info(bpartner.toString());
 		return null;
@@ -855,32 +874,31 @@ public class LCO_Validator implements ModelValidator
 	public String mfillName (MBPartner bpartner)
 	{
 		log.info("");
+		if (! ((Boolean)bpartner.get_Value("IsDetailedNames")).booleanValue())
+			return null;
+
 		String filledName = null;
 
-		if ((Boolean)(bpartner.get_Value("IsJuridical")))
-			return "";
-		
 		if (bpartner.get_Value("FirstName1") == null)
-			return "Debe indicar primer nombre";
-		
+			return Msg.getMsg(bpartner.getCtx(), "LCO_FirstName1Required");
+
 		if (bpartner.get_Value("LastName1") == null)
-			return "Debe indicar primer apellido";
-		
-		// TODO: Configurable si es apellidos+nombres o nombres+apellidos
-		filledName = bpartner.get_ValueAsString("LastName1").trim();
-		if (bpartner.get_Value("LastName2") != null)
-			filledName = filledName + " " + bpartner.get_ValueAsString("LastName2").trim();
+			return Msg.getMsg(bpartner.getCtx(), "LCO_LastName1Required");
+
+		filledName = bpartner.get_ValueAsString("FirstName1").trim();
+		if (bpartner.get_Value("FirstName2") != null)
+			filledName = filledName + " " + bpartner.get_ValueAsString("FirstName2").trim();
 		
 		if (filledName != null)
 		//	filledName = filledName + ", "; -- Separa apellidos y nombres con coma
 			filledName = filledName + " ";
 		
-		filledName = filledName + bpartner.get_ValueAsString("FirstName1").trim();
-		if (bpartner.get_Value("FirstName2") != null)
-			filledName = filledName + " " + bpartner.get_ValueAsString("FirstName2").trim();
-		
+		filledName = filledName + bpartner.get_ValueAsString("LastName1").trim();
+		if (bpartner.get_Value("LastName2") != null)
+			filledName = filledName + " " + bpartner.get_ValueAsString("LastName2").trim();
+
 		bpartner.setName(filledName);
-		return "";
+		return null;
 	}	//	mfillName
 	
 }	//	LCO_Validator

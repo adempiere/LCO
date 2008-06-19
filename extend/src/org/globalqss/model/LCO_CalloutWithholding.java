@@ -146,7 +146,6 @@ public class LCO_CalloutWithholding extends CalloutEngine
 		log.info("");
 		if (isCalloutActive())
 			return "";
-		setCalloutActive(true);
 		Integer invInt = (Integer) value;
 		int inv_id = 0;
 		if (value != null)
@@ -178,11 +177,9 @@ public class LCO_CalloutWithholding extends CalloutEngine
 		catch (SQLException e)
 		{
 			log.log(Level.SEVERE, sql, e);
-			setCalloutActive(false);
 			return e.getLocalizedMessage();
 		}
 
-		setCalloutActive(false);
 		return "";
 	}	//	fillWriteOff
 

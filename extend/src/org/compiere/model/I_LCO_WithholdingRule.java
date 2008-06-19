@@ -60,14 +60,10 @@ public interface I_LCO_WithholdingRule
     /** Column name C_TaxCategory_ID */
     public static final String COLUMNNAME_C_TaxCategory_ID = "C_TaxCategory_ID";
 
-	/** Set Tax Category.
-	  * Tax Category
-	  */
+	/** Set Tax Category	  */
 	public void setC_TaxCategory_ID (int C_TaxCategory_ID);
 
-	/** Get Tax Category.
-	  * Tax Category
-	  */
+	/** Get Tax Category	  */
 	public int getC_TaxCategory_ID();
 
 	public I_C_TaxCategory getC_TaxCategory() throws Exception;

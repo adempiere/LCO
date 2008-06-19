@@ -48,6 +48,7 @@ public class X_LCO_InvoiceWithholding extends PO implements I_LCO_InvoiceWithhol
 			setLCO_InvoiceWithholding_ID (0);
 			setLCO_WithholdingType_ID (0);
 			setProcessed (false);
+// N
 			setTaxAmt (Env.ZERO);
 			setTaxBaseAmt (Env.ZERO);
         } */
