@@ -100,18 +100,18 @@ public interface I_LCO_TaxIdType
 	/** Get Is Digit Checked	  */
 	public boolean isDigitChecked();
 
-    /** Column name IsJuridical */
-    public static final String COLUMNNAME_IsJuridical = "IsJuridical";
+    /** Column name IsUseTaxIdDigit */
+    public static final String COLUMNNAME_IsUseTaxIdDigit = "IsUseTaxIdDigit";
 
 	/** Set Is Juridical.
 	  * N
 	  */
-	public void setIsJuridical (boolean IsJuridical);
+	public void setIsUseTaxIdDigit (boolean IsUseTaxIdDigit);
 
 	/** Get Is Juridical.
 	  * N
 	  */
-	public boolean isJuridical();
+	public boolean isUseTaxIdDigit();
 
     /** Column name LCO_TaxCodeDian */
     public static final String COLUMNNAME_LCO_TaxCodeDian = "LCO_TaxCodeDian";

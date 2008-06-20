@@ -77,7 +77,7 @@ public class LCO_Callouts extends CalloutEngine
 	{
 		log.info("");
 		// Called from LCO_TaxIdType_ID in C_BPartner
-		// to fill IsJuridical and IsDetailedNames
+		// to fill IsUseTaxIdDigit and IsDetailedNames
 		// and set context for IsDigitChecked
 		
 		if (value == null)
@@ -86,7 +86,7 @@ public class LCO_Callouts extends CalloutEngine
 		int taxidtype_id = ((Integer) value).intValue();
 		
 		X_LCO_TaxIdType taxidtype = new X_LCO_TaxIdType(ctx, taxidtype_id, null);
-		mTab.setValue("IsJuridical", taxidtype.isJuridical());
+		mTab.setValue("IsUseTaxIdDigit", taxidtype.isUseTaxIdDigit());
 		mTab.setValue("IsDetailedNames", taxidtype.isDetailedNames());
 		Env.setContext(ctx, WindowNo, "IsDigitChecked", taxidtype.isDigitChecked()) ;
 		

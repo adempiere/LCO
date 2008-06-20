@@ -42,7 +42,7 @@ public class X_LCO_TaxIdType extends PO implements I_LCO_TaxIdType, I_Persistent
 // N
 			setIsDigitChecked (false);
 // N
-			setIsJuridical (false);
+			setIsUseTaxIdDigit (false);
 			setLCO_TaxIdType_ID (0);
 			setName (null);
         } */
@@ -166,20 +166,20 @@ public class X_LCO_TaxIdType extends PO implements I_LCO_TaxIdType, I_Persistent
 	}
 
 	/** Set Is Juridical.
-		@param IsJuridical 
+		@param IsUseTaxIdDigit 
 		N
 	  */
-	public void setIsJuridical (boolean IsJuridical)
+	public void setIsUseTaxIdDigit (boolean IsUseTaxIdDigit)
 	{
-		set_Value (COLUMNNAME_IsJuridical, Boolean.valueOf(IsJuridical));
+		set_Value (COLUMNNAME_IsUseTaxIdDigit, Boolean.valueOf(IsUseTaxIdDigit));
 	}
 
 	/** Get Is Juridical.
 		@return N
 	  */
-	public boolean isJuridical () 
+	public boolean isUseTaxIdDigit () 
 	{
-		Object oo = get_Value(COLUMNNAME_IsJuridical);
+		Object oo = get_Value(COLUMNNAME_IsUseTaxIdDigit);
 		if (oo != null) 
 		{
 			 if (oo instanceof Boolean) 

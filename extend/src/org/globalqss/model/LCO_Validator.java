@@ -831,8 +831,8 @@ public class LCO_Validator implements ModelValidator
 		
 		X_LCO_TaxIdType taxidtype = new X_LCO_TaxIdType(bpartner.getCtx(), taxidtype_I.intValue(), bpartner.get_TrxName());
 		
-		Boolean isJuridical = (Boolean) bpartner.get_Value("IsJuridical");
-		if (!isJuridical.booleanValue()) {
+		Boolean isUseTaxIdDigit = (Boolean) bpartner.get_Value("IsUseTaxIdDigit");
+		if (!isUseTaxIdDigit.booleanValue()) {
 			bpartner.set_ValueOfColumn("TaxIdDigit", null);
 			return null;
 		}
