@@ -90,6 +90,8 @@ public class LCO_Validator implements ModelValidator
 		engine.addModelChange(MInvoice.Table_Name, this);
 		engine.addModelChange(MInvoiceLine.Table_Name, this);
 		engine.addModelChange(MBPartner.Table_Name, this);
+		engine.addModelChange(X_LCO_TaxIdType.Table_Name, this);
+
 
 		//	Documents to be monitored
 		engine.addDocValidate(MInvoice.Table_Name, this);
@@ -143,6 +145,13 @@ public class LCO_Validator implements ModelValidator
 			msg = mfillName(bpartner);
 			if (msg != null)
 				return msg;
+		}
+		
+		if (po.get_TableName().equals(X_LCO_TaxIdType.Table_Name) && ( type == TYPE_BEFORE_NEW || type == TYPE_BEFORE_CHANGE))
+		{
+			X_LCO_TaxIdType taxidtype = (X_LCO_TaxIdType) po;
+			if ((!taxidtype.isUseTaxIdDigit()) && taxidtype.isDigitChecked())
+				taxidtype.setIsDigitChecked(false);
 		}
 		
 		return null;
@@ -831,8 +840,10 @@ public class LCO_Validator implements ModelValidator
 		
 		X_LCO_TaxIdType taxidtype = new X_LCO_TaxIdType(bpartner.getCtx(), taxidtype_I.intValue(), bpartner.get_TrxName());
 		
-		Boolean isUseTaxIdDigit = (Boolean) bpartner.get_Value("IsUseTaxIdDigit");
-		if (!isUseTaxIdDigit.booleanValue()) {
+		bpartner.set_ValueOfColumn("IsDetailedNames", taxidtype.isDetailedNames());
+		bpartner.set_ValueOfColumn("IsUseTaxIdDigit", taxidtype.isUseTaxIdDigit());
+		
+		if (!taxidtype.isUseTaxIdDigit()) {
 			bpartner.set_ValueOfColumn("TaxIdDigit", null);
 			return null;
 		}
@@ -874,8 +885,13 @@ public class LCO_Validator implements ModelValidator
 	public String mfillName (MBPartner bpartner)
 	{
 		log.info("");
-		if (! ((Boolean)bpartner.get_Value("IsDetailedNames")).booleanValue())
+		if (! ((Boolean)bpartner.get_Value("IsDetailedNames")).booleanValue()) {
+			bpartner.set_ValueOfColumn("FirstName1", null);
+			bpartner.set_ValueOfColumn("FirstName2", null);
+			bpartner.set_ValueOfColumn("LastName1", null);
+			bpartner.set_ValueOfColumn("LastName2", null);
 			return null;
+		}
 
 		String filledName = null;
 
@@ -890,7 +906,7 @@ public class LCO_Validator implements ModelValidator
 			filledName = filledName + " " + bpartner.get_ValueAsString("FirstName2").trim();
 		
 		if (filledName != null)
-		//	filledName = filledName + ", "; -- Separa apellidos y nombres con coma
+		//	filledName = filledName + ", "; -- Separate first and last names with comma
 			filledName = filledName + " ";
 		
 		filledName = filledName + bpartner.get_ValueAsString("LastName1").trim();
