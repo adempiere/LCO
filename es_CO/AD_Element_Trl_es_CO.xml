@@ -4784,10 +4784,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1058" trl="Y">
-		<value column="Name" original="Vendor Prepayment">Prepago del proveedor</value>
-		<value column="PrintName" original="Vendor Prepayment">Prepago del Proveedor</value>
-		<value column="Description" original="Account for Vendor Prepayments">Cuenta para prepagos del proveedor</value>
-		<value column="Help" original="The Vendor Prepayment Account indicates the account used to record prepayments from a vendor.">La cuenta de prepagos del proveedor indica la cuenta usada para registrar pagos anticipados a un proveedor</value>
+		<value column="Name" original="Vendor Prepayment">Anticipo del proveedor</value>
+		<value column="PrintName" original="Vendor Prepayment">Anticipo del Proveedor</value>
+		<value column="Description" original="Account for Vendor Prepayments">Cuenta para Anticipos del proveedor</value>
+		<value column="Help" original="The Vendor Prepayment Account indicates the account used to record prepayments from a vendor.">La cuenta de anticipos del proveedor indica la cuenta usada para registrar pagos anticipados a un proveedor</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -18532,9 +18532,9 @@ La secuencia de Ciudad/Región/Postal es determinada con la dirección de format
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2663" trl="Y">
-		<value column="Name" original="Prepayment">Prepago</value>
-		<value column="PrintName" original="Prepayment">Prepago</value>
-		<value column="Description" original="The Payment/Receipt is a Prepayment">El Pago/Recibo es un prepago.</value>
+		<value column="Name" original="Prepayment">Anticipo</value>
+		<value column="PrintName" original="Prepayment">Anticipo</value>
+		<value column="Description" original="The Payment/Receipt is a Prepayment">El Pago/Recibo es un anticipo.</value>
 		<value column="Help" original="Payments not allocated to an invoice with a charge are posted to Unallocated Payments. When setting this flag, the payment is posted to the Customer or Vendor Prepayment account.">Los pagos no asignados a una factura se fijan con una carga para la asignación de pago. Al fijar esta asignación el pago se fija a la cuenta de pago adelantado del cliente ó del proveedor.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
