@@ -870,7 +870,7 @@ public class LCO_Validator implements ModelValidator
 			if (correctDigit != taxIDDigit_int)
 				return Msg.getMsg(bpartner.getCtx(), "LCO_VerifyCheckDigit");
 		} else {
-			bpartner.set_ValueOfColumn("TaxIdDigit", correctDigit);
+			bpartner.set_ValueOfColumn("TaxIdDigit", String.valueOf(correctDigit));
 		}
 		
 		log.info(bpartner.toString());
