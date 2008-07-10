@@ -895,10 +895,10 @@ public class LCO_Validator implements ModelValidator
 
 		String filledName = null;
 
-		if (bpartner.get_Value("FirstName1") == null)
-			return Msg.getMsg(bpartner.getCtx(), "LCO_FirstName1Required");
+		 if (bpartner.get_Value("FirstName1") == null || ((String) bpartner.get_Value("FirstName1")).length() == 0)
+			 return Msg.getMsg(bpartner.getCtx(), "LCO_FirstName1Required");
 
-		if (bpartner.get_Value("LastName1") == null)
+		 if (bpartner.get_Value("LastName1") == null || ((String) bpartner.get_Value("LastName1")).length() == 0)
 			return Msg.getMsg(bpartner.getCtx(), "LCO_LastName1Required");
 
 		filledName = bpartner.get_ValueAsString("FirstName1").trim();
