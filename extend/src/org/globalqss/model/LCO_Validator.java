@@ -850,7 +850,7 @@ public class LCO_Validator implements ModelValidator
 			
 		// Is Juridical
 		String taxid = bpartner.getTaxID();
-		if (taxid == null)
+		if (taxid == null || taxid.trim().length() == 0)
 			return Msg.getMsg(bpartner.getCtx(), "LCO_NoTaxID");
 
 		int correctDigit = LCO_Utils.calculateDigitDian(taxid);
