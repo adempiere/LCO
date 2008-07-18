@@ -7,7 +7,7 @@
 			<drow name="Localizacion Colombia">
 				<dcolumn name="EntityType" class="String" value="QSS_LCO"/>
 				<dcolumn name="Description" class="String" value="Localizacion Colombia desrrollada por GlobalQSS"/>
-				<dcolumn name="Help" class="String" value="Localizacion Colombia incluye las modificaciones necesarias en materia de impuestos para Colombia, manejo de retenciones de IVA, ICA y ReteFte, reporte de medios magnéticos para la DIAN, generación/validación del dígito de verificación del NIT.  Desarrollado po http://globalqss.com"/>
+				<dcolumn name="Help" class="String" value="Localizacion Colombia incluye las modificaciones necesarias en materia de impuestos para Colombia, manejo de retenciones de IVA, ICA y ReteFte, reporte de medios magnéticos para la DIAN, generación/validación del dígito de verificación del NIT.  Desarrollado por http://globalqss.com"/>
 			</drow>
 		</dtable>
 		<!-- Model Validator -->

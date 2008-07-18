@@ -26,6 +26,7 @@ import java.util.logging.Level;
 import org.compiere.model.CalloutEngine;
 import org.compiere.model.GridField;
 import org.compiere.model.GridTab;
+import org.compiere.model.MLCOInvoiceWithholding;
 import org.compiere.model.MTax;
 import org.compiere.util.DB;
 import org.compiere.util.Env;
