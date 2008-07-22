@@ -130,7 +130,7 @@ public class LCO_Validator implements ModelValidator
 				)
 			)
 		{
-			msg = clearInvoiceWithholdingAmtFromInvoiceLine((MInvoiceLine) po);
+			msg = clearInvoiceWithholdingAmtFromInvoiceLine((MInvoiceLine) po, type);
 			if (msg != null)
 				return msg;
 		}
@@ -189,32 +189,47 @@ public class LCO_Validator implements ModelValidator
 		return null;
 	}
 
-	private String clearInvoiceWithholdingAmtFromInvoiceLine(MInvoiceLine invline) {
-		// Clear invoice withholding amount
-		MInvoice inv = invline.getParent();
+	private String clearInvoiceWithholdingAmtFromInvoiceLine(MInvoiceLine invline, int type) {
 		
-		boolean thereAreCalc;
-		try {
-			thereAreCalc = thereAreCalc(inv);
-		} catch (SQLException e) {
-			log.log(Level.SEVERE, "Error looking for calc on invoice rules", e);
-			return "Error looking for calc on invoice rules";
+		if (   type == ModelValidator.TYPE_BEFORE_NEW
+			|| type == ModelValidator.TYPE_BEFORE_DELETE
+			|| (   type == ModelValidator.TYPE_BEFORE_CHANGE 
+				&& (   invline.is_ValueChanged("LineNetAmt")
+					|| invline.is_ValueChanged("M_Product_ID")
+					|| invline.is_ValueChanged("C_Charge_ID")
+					|| invline.is_ValueChanged("IsActive") 
+					|| invline.is_ValueChanged("C_Tax_ID")
+					)
+				)
+			) 
+		{
+			// Clear invoice withholding amount
+			MInvoice inv = invline.getParent();
+
+			boolean thereAreCalc;
+			try {
+				thereAreCalc = thereAreCalc(inv);
+			} catch (SQLException e) {
+				log.log(Level.SEVERE, "Error looking for calc on invoice rules", e);
+				return "Error looking for calc on invoice rules";
+			}
+
+			BigDecimal curWithholdingAmt = (BigDecimal) inv.get_Value("WithholdingAmt");
+			if (thereAreCalc) {
+				if (curWithholdingAmt != null) {
+					inv.set_CustomColumn("WithholdingAmt", null);
+					if (!inv.save())
+						return "Error saving C_Invoice clearInvoiceWithholdingAmtFromInvoiceLine";
+				}
+			} else {
+				if (curWithholdingAmt == null) {
+					inv.set_CustomColumn("WithholdingAmt", Env.ZERO);
+					if (!inv.save())
+						return "Error saving C_Invoice clearInvoiceWithholdingAmtFromInvoiceLine";
+				}
+			}
 		}
 		
-		BigDecimal curWithholdingAmt = (BigDecimal) inv.get_Value("WithholdingAmt");
-		if (thereAreCalc) {
-			if (curWithholdingAmt != null) {
-				inv.set_CustomColumn("WithholdingAmt", null);
-				if (!inv.save())
-					return "Error saving C_Invoice clearInvoiceWithholdingAmtFromInvoiceLine";
-			}
-		} else {
-			if (curWithholdingAmt == null) {
-				inv.set_CustomColumn("WithholdingAmt", Env.ZERO);
-				if (!inv.save())
-					return "Error saving C_Invoice clearInvoiceWithholdingAmtFromInvoiceLine";
-			}
-		}
 		return null;
 	}
 
