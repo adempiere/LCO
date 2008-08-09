@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="WINDOWS-1252"?>
 <jardesc>
-<jar path="c:/srcAdempiere/contributions/Localizations/Colombia/packages/packages_LCO340.jar"/>
+<jar path="/home/carlos/srcAdempiere/contributions/Localizations/Colombia/packages/packages_LCO340.jar"/>
 <options buildIfNeeded="true" compress="true" descriptionLocation="/LCO/generaJar.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
 <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
 <selectedProjects/>
