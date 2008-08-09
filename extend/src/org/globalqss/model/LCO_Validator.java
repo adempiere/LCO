@@ -79,13 +79,14 @@ public class LCO_Validator implements ModelValidator
 	 */
 	public void initialize (ModelValidationEngine engine, MClient client)
 	{
-		if (client != null)
+		//client = null for global validator
+		if (client != null) {	
 			m_AD_Client_ID = client.getAD_Client_ID();
-		else 
-			m_AD_Client_ID = Env.getAD_Client_ID(Env.getCtx());
-		log.info("" + m_AD_Client_ID);
-		if (m_AD_Client_ID == 0)
-			return;
+			log.info(client.toString());
+		}
+		else  {
+			log.info("Initializing global validator: "+this.toString());
+		}
 
 		//	Tables to be monitored
 		engine.addModelChange(MInvoice.Table_Name, this);
