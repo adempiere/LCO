@@ -27,8 +27,8 @@ en windows -> %ADEMPIERE_HOME%\packages\LCO\lib
 - Ejecute RUN_setup.[bat/sh] o RUN_silentsetup.[bat/sh]
 este paso debe integrar en el Adempiere.jar las clases de la localización Colombia
 
-- Descargue el paquete 2pack LCO_Retenciones320.zip
-http://adempiere.svn.sourceforge.net/viewvc/*checkout*/adempiere/contributions/Localizations/Colombia/packages/LCO_Retenciones320.zip
+- Descargue el paquete 2pack LCO_Retenciones.zip
+http://adempiere.svn.sourceforge.net/viewvc/*checkout*/adempiere/contributions/Localizations/Colombia/packages/LCO_Retenciones.zip
 
 - Ingrese en Adempiere y ejecute el programa PackIn con los siguientes valores:
 Type: File
