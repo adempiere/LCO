@@ -15,7 +15,7 @@
 	<row id="104" trl="Y">
 		<value column="Name" original="Initial Client Setup Review">Revisión de Configuración Inicial de Compañía</value>
 		<value column="Description" original="Review of system level setup of a new  Client">Revisar la Configuración de una nueva compañía a nivel de sistema</value>
-		<value column="Help" original="This workflow reviews the system setup of a new client as performed by the automatic Initial Client Setup.&#10;You may want to check also the following Workflows:&#10;- Accounting Setup&#10;- Business Partner Setup&#10;- Product Setup&#10;- Price list Setup&#10;- Warehouse Setup&#10;- Tax Setup&#10;">Este flujo de trabajo revisa la definición de una nueva compañía que fue creada a través de la definición Automática inicial de Compañía. Se sugiere revisar también los siguientes flujos de trabajo: Definición Contable; Definición de Socio de Negocio; Definición de Producto; Definición de Lista de Precios; Definición de Almacén; Definición de Impuestos.</value>
+		<value column="Help" original="This workflow reviews the system setup of a new client as performed by the automatic Initial Client Setup.&#10;You may want to check also the following Workflows:&#10;- Accounting Setup&#10;- Business Partner Setup&#10;- Product Setup&#10;- Price list Setup&#10;- Warehouse Setup&#10;- Tax Setup&#10;">Este flujo de trabajo revisa la definición de una nueva compañía que fue creada a través de la definición Automática inicial de Compañía. Se sugiere revisar también los siguientes flujos de trabajo: Definición Contable; Definición de Tercero; Definición de Producto; Definición de Lista de Precios; Definición de Almacén; Definición de Impuestos.</value>
 	</row>
 	<row id="105" trl="Y">
 		<value column="Name" original="Accounting Setup">Configuración de Contabilidad</value>
@@ -23,9 +23,9 @@
 		<value column="Help" original="This workflow allows you to review and change your Accounting Rules. ">Este flujo de trabajo permite revisar y cambiar las reglas contables.</value>
 	</row>
 	<row id="106" trl="Y">
-		<value column="Name" original="Business Partner Setup">Configuración de Socio del Negocio</value>
-		<value column="Description" original="Setup Business Partner Rules">Configuración de Socio del Negocio</value>
-		<value column="Help" original="This workflow defines the Business Partners and the supporting rules.">Este flujo de trabajo define los Socios del Negocio y las reglas que los soportan.</value>
+		<value column="Name" original="Business Partner Setup">Configuración de Tercero</value>
+		<value column="Description" original="Setup Business Partner Rules">Configuración de Tercero</value>
+		<value column="Help" original="This workflow defines the Business Partners and the supporting rules.">Este flujo de trabajo define los Terceros y las reglas que los soportan.</value>
 	</row>
 	<row id="107" trl="Y">
 		<value column="Name" original="Product Setup">Definición de Producto</value>
@@ -86,7 +86,7 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="115" trl="Y">
-		<value column="Name" original="Process_Requisition">Proceso Requisición </value>
+		<value column="Name" original="Process_Requisition">Proceso Requisición</value>
 		<value column="Description" original="(Standard Process_Requisition)"/>
 		<value column="Help" original=""/>
 	</row>
@@ -127,7 +127,7 @@
 	</row>
 	<row id="123" trl="Y">
 		<value column="Name" original="Process_RMA">Proceso ADM (RMA)</value>
-		<value column="Description" original="(Standard Process_RMA)">(Proceso estándar de ADM (RMA) </value>
+		<value column="Description" original="(Standard Process_RMA)">(Proceso estándar de ADM (RMA)</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="124" trl="Y">
@@ -141,7 +141,7 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="126" trl="Y">
-		<value column="Name" original="Process_TimeExpense">Proceso Tiempo Utiliza </value>
+		<value column="Name" original="Process_TimeExpense">Proceso Tiempo Utiliza</value>
 		<value column="Description" original="(Standard Process Time Expense)">(Proceso estándar del tiempo que se utiliza)</value>
 		<value column="Help" original=""/>
 	</row>
@@ -166,8 +166,8 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="131" trl="Y">
-		<value column="Name" original="Business Partner Approval">Aprovacion de socio de negocio</value>
+		<value column="Name" original="Business Partner Approval">Aprobación Tercero</value>
 		<value column="Description" original="Example Document based workflow">Documento ejemplo basado en un flujo de trabajo</value>
-		<value column="Help" original="When a new Business Partner is created, it is forwarded for review and credit check.">Cuando un nuevo socio de negocio es creado, este es devuelto para revision y chequeo de credito</value>
+		<value column="Help" original="When a new Business Partner is created, it is forwarded for review and credit check.">Cuando un nuevo tercero es creado, éste es notificado para revisión y chequeo de crédito</value>
 	</row>
 </adempiereTrl>

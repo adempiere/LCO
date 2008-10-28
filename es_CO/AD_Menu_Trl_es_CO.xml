@@ -43,8 +43,8 @@
 		<value column="Description" original="Maintain Countries Regions and Cities">Mantener países, regiones y ciudades</value>
 	</row>
 	<row id="110" trl="Y">
-		<value column="Name" original="Business Partner">Socio del Negocio</value>
-		<value column="Description" original="Maintain Business Partners">Mantener socios de negocio</value>
+		<value column="Name" original="Business Partner">Tercero</value>
+		<value column="Description" original="Maintain Business Partners">Mantener terceros</value>
 	</row>
 	<row id="111" trl="Y">
 		<value column="Name" original="Accounting Schema">Esquema Contable</value>
@@ -235,7 +235,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="165" trl="Y">
-		<value column="Name" original="Business Partner Rules">Reglas de Socio del Negocio</value>
+		<value column="Name" original="Business Partner Rules">Reglas de Terceros</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="166" trl="Y">
@@ -275,7 +275,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="176" trl="Y">
-		<value column="Name" original="Report &amp; Process">Informe y  Proceso</value>
+		<value column="Name" original="Report &amp; Process">Informe y Proceso</value>
 		<value column="Description" original="Maintain Reports &amp; Processes">Mantener informes y procesos</value>
 	</row>
 	<row id="178" trl="Y">
@@ -299,8 +299,8 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="185" trl="Y">
-		<value column="Name" original="Import Business Partner">Importar Socio de Negocio</value>
-		<value column="Description" original="Import Business Partner">Importar Socio de Negocio</value>
+		<value column="Name" original="Import Business Partner">Importar Terceros</value>
+		<value column="Description" original="Import Business Partner">Importar Terceros</value>
 	</row>
 	<row id="186" trl="Y">
 		<value column="Name" original="Revenue Recognition">Reconocimiento de Ingresos</value>
@@ -411,7 +411,7 @@
 		<value column="Description" original="Setup of projects and project reporting">Definición de proyectos y sus Informes</value>
 	</row>
 	<row id="220" trl="Y">
-		<value column="Name" original="Java Version">Version Java</value>
+		<value column="Name" original="Java Version">Versión Java</value>
 		<value column="Description" original="Displays the version of the default Java VM">Despliega la versión de la Máquina Virtual Java Predeterminada</value>
 	</row>
 	<row id="221" trl="Y">
@@ -455,8 +455,8 @@
 		<value column="Description" original="Invoice Report by Customer and Product Vendor per Quarter"/>
 	</row>
 	<row id="232" trl="Y">
-		<value column="Name" original="Business Partner Group">Grupo de Socios de Negocio</value>
-		<value column="Description" original="Maintain Business Partner Groups">Mantener grupos de Socios de Negocio</value>
+		<value column="Name" original="Business Partner Group">Grupo de Terceros</value>
+		<value column="Description" original="Maintain Business Partner Groups">Mantener grupos de Terceros</value>
 	</row>
 	<row id="233" trl="Y">
 		<value column="Name" original="Notice">Aviso</value>
@@ -487,11 +487,11 @@
 		<value column="Description" original="Maintain custom entity attributes">Mantener atributos de entidades personalizadas</value>
 	</row>
 	<row id="240" trl="Y">
-		<value column="Name" original="Cashbook">Libro de Efectivo</value>
-		<value column="Description" original="Maintain Cashbook">Mantener libro de efectivo</value>
+		<value column="Name" original="Cashbook">Caja Menor</value>
+		<value column="Description" original="Maintain Cashbook">Mantener caja menor</value>
 	</row>
 	<row id="241" trl="Y">
-		<value column="Name" original="Cash Journal">Diario de Efectivo</value>
+		<value column="Name" original="Cash Journal">Diario de Caja Menor</value>
 		<value column="Description" original="Cash transactions">Transacciones de efectivo</value>
 	</row>
 	<row id="243" trl="Y">
@@ -555,8 +555,8 @@
 		<value column="Description" original="Review of system level setup of a new  Client">Revisar la Configuración de una nueva compañía a nivel de sistema</value>
 	</row>
 	<row id="263" trl="Y">
-		<value column="Name" original="Partner Relations">Relación con Socios</value>
-		<value column="Description" original="Customer Relations and Partner Management">Gestión de la relación con Clientes y Socios</value>
+		<value column="Name" original="Partner Relations">Relación con Terceros</value>
+		<value column="Description" original="Customer Relations and Partner Management">Gestión de la relación con Terceros</value>
 	</row>
 	<row id="264" trl="Y">
 		<value column="Name" original="Commission Run">Cálculo de Comisión</value>
@@ -567,8 +567,8 @@
 		<value column="Description" original="Review and change Accounting Setup">Revisar y cambiar definición contable.</value>
 	</row>
 	<row id="266" trl="Y">
-		<value column="Name" original="Business Partner Setup">Configuración de Socio del Negocio</value>
-		<value column="Description" original="Setup Business Partner Rules">Configuración de Socio del Negocio</value>
+		<value column="Name" original="Business Partner Setup">Configuración de Terceros</value>
+		<value column="Description" original="Setup Business Partner Rules">Configuración de Terceros</value>
 	</row>
 	<row id="267" trl="Y">
 		<value column="Name" original="Price List Setup">Definición de Listas de Precios</value>
@@ -779,7 +779,7 @@
 		<value column="Description" original="Print Definition">Definición de Impresión</value>
 	</row>
 	<row id="327" trl="Y">
-		<value column="Name" original="Expenses (to be invoiced)">Gastos (No Facturados)</value>
+		<value column="Name" original="Expenses (to be invoiced)">Gastos (por facturar)</value>
 		<value column="Description" original="View expenses and charges not invoiced to customers">Ver Gastos no facturados</value>
 	</row>
 	<row id="328" trl="Y">
@@ -800,7 +800,7 @@
 	</row>
 	<row id="333" trl="Y">
 		<value column="Name" original="Interest Area">Área de Interés</value>
-		<value column="Description" original="Interest Area or Topic">Área de Interés ó Tópicos</value>
+		<value column="Description" original="Interest Area or Topic">Área de Interés o Tópicos</value>
 	</row>
 	<row id="334" trl="Y">
 		<value column="Name" original="System">Sistema</value>
@@ -819,8 +819,8 @@
 		<value column="Description" original="Reopen closed requests">Reabre una Solicitud Cerrada</value>
 	</row>
 	<row id="338" trl="Y">
-		<value column="Name" original="Import Report Line Set">Importar Conjunto de Lineas de Informe</value>
-		<value column="Description" original="Import Report Line Sets">Importar Conjunto de Lineas de Informe</value>
+		<value column="Name" original="Import Report Line Set">Importar Conjunto de Líneas de Informe</value>
+		<value column="Description" original="Import Report Line Sets">Importar Conjunto de Líneas de Informe</value>
 	</row>
 	<row id="339" trl="Y">
 		<value column="Name" original="Import Account">Importar Cuenta Contable</value>
@@ -888,7 +888,7 @@
 	</row>
 	<row id="355" trl="Y">
 		<value column="Name" original="Lot Control">Lote Control</value>
-		<value column="Description" original="Product Lot Control">Control de la porcion del producto.</value>
+		<value column="Description" original="Product Lot Control">Control de lote del producto.</value>
 	</row>
 	<row id="356" trl="Y">
 		<value column="Name" original="Lot">Lote</value>
@@ -900,7 +900,7 @@
 	</row>
 	<row id="358" trl="Y">
 		<value column="Name" original="Attribute Search">Búsqueda de Atributo</value>
-		<value column="Description" original="Common Search Attribute ">Búsqueda Comun de Atributos </value>
+		<value column="Description" original="Common Search Attribute ">Búsqueda Comun de Atributos</value>
 	</row>
 	<row id="359" trl="Y">
 		<value column="Name" original="Attribute">Atributos</value>
@@ -988,7 +988,7 @@
 	</row>
 	<row id="380" trl="Y">
 		<value column="Name" original="Counter">Contador</value>
-		<value column="Description" original="Web Counter">Contador Web </value>
+		<value column="Description" original="Web Counter">Contador Web</value>
 	</row>
 	<row id="381" trl="Y">
 		<value column="Name" original="Freight Category">Categoría de Fletes</value>
@@ -999,7 +999,7 @@
 		<value column="Description" original="Import Invoices">Importar Facturas</value>
 	</row>
 	<row id="383" trl="Y">
-		<value column="Name" original="Cache Reset">Reinicia Cache </value>
+		<value column="Name" original="Cache Reset">Reinicia Cache</value>
 		<value column="Description" original="Reset Cache of the System ** Close all Windows before proceeding **">Reinicia el Cache del sitema ** Cerrar todas las ventanas antes de iniciar **</value>
 	</row>
 	<row id="384" trl="Y">
@@ -1043,8 +1043,8 @@
 		<value column="Description" original="Update Daily Accounting Balances">Actualización de Balances Diarios de Contabilidad</value>
 	</row>
 	<row id="394" trl="Y">
-		<value column="Name" original="Business Partner Info">Información del Socio de Negocio</value>
-		<value column="Description" original="Document Information of Business Partners">Documento de informacion para socio de negocio.</value>
+		<value column="Name" original="Business Partner Info">Información de Tercero</value>
+		<value column="Description" original="Document Information of Business Partners">Información de documentos del tercero.</value>
 	</row>
 	<row id="395" trl="Y">
 		<value column="Name" original="Replication Setup">Configuración de Replicación</value>
@@ -1052,7 +1052,7 @@
 	</row>
 	<row id="396" trl="Y">
 		<value column="Name" original="Send Mail Text">Envía Texto Mail</value>
-		<value column="Description" original="Send EMails to active subscribers of an Interest Area OR a Business Partner Group from a selected User">Envie los Email a los suscriptores activos de un grupo de socios de negocio o área de interés.</value>
+		<value column="Description" original="Send EMails to active subscribers of an Interest Area OR a Business Partner Group from a selected User">Envie los Email a los suscriptores activos de un grupo de terceros o área de interés.</value>
 	</row>
 	<row id="397" trl="Y">
 		<value column="Name" original="Merge Entities">Mezclar Entidades</value>
@@ -1068,7 +1068,7 @@
 	</row>
 	<row id="400" trl="Y">
 		<value column="Name" original="Asset Delivery Details">Entrega de Activo</value>
-		<value column="Description" original="Report Asset Deliveries Details">Reporte de entrega de Activos </value>
+		<value column="Description" original="Report Asset Deliveries Details">Reporte de entrega de Activos</value>
 	</row>
 	<row id="401" trl="Y">
 		<value column="Name" original="Issue to Project">Edición del Proyecto</value>
@@ -1100,7 +1100,7 @@
 	</row>
 	<row id="408" trl="Y">
 		<value column="Name" original="Label Printer">Etiqueta Impresión</value>
-		<value column="Description" original="Maintain Label Printer Definition">Mantenga la definición de la impresion de la etiqueta.</value>
+		<value column="Description" original="Maintain Label Printer Definition">Mantenga la definición de la impresión de la etiqueta.</value>
 	</row>
 	<row id="409" trl="Y">
 		<value column="Name" original="Verify Document Types">Verifica tipos de Documento</value>
@@ -1147,8 +1147,8 @@
 		<value column="Description" original="Point Of Sales Terminal">Punto de Venta</value>
 	</row>
 	<row id="420" trl="Y">
-		<value column="Name" original="Business Partner Organization">Organización del Socio de Negocio</value>
-		<value column="Description" original="Set and verify Organization ownership of Business Partners">Seleccione y verifique la propiedad de la organización de los socios de negocio.</value>
+		<value column="Name" original="Business Partner Organization">Organización del Tercero</value>
+		<value column="Description" original="Set and verify Organization ownership of Business Partners">Seleccione y verifique la propiedad de la organización de los terceros.</value>
 	</row>
 	<row id="421" trl="Y">
 		<value column="Name" original="Product Organization">Organización del Producto</value>
@@ -1156,7 +1156,7 @@
 	</row>
 	<row id="422" trl="Y">
 		<value column="Name" original="Warehouse Organization">Almacén de Organización</value>
-		<value column="Description" original="Set and verify Organization ownership of Warehouse">Active y verifique la propiedad de la organizacion del almacén.</value>
+		<value column="Description" original="Set and verify Organization ownership of Warehouse">Active y verifique la propiedad de la organización del almacén.</value>
 	</row>
 	<row id="423" trl="Y">
 		<value column="Name" original="Load Bank Statement">Carga de Estado de cuentas</value>
@@ -1168,7 +1168,7 @@
 	</row>
 	<row id="425" trl="Y">
 		<value column="Name" original="Import Currency Rate">Importar Tasa de Cambio</value>
-		<value column="Description" original="Import Currency Conversion Rates">Importar conversion de tasa de cambio.</value>
+		<value column="Description" original="Import Currency Conversion Rates">Importar conversión de tasa de cambio.</value>
 	</row>
 	<row id="426" trl="Y">
 		<value column="Name" original="BOM Drop">LDM Drop</value>
@@ -1216,7 +1216,7 @@
 	</row>
 	<row id="437" trl="Y">
 		<value column="Name" original="Bank Statement Matcher">Algoritmo Conciliación</value>
-		<value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">Algoritmo para conciliación de estados de cuenta de los Socios de Negocio, Facturas y Pagos</value>
+		<value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">Algoritmo para conciliación de estados de cuenta de los Terceros, Facturas y Pagos</value>
 	</row>
 	<row id="438" trl="Y">
 		<value column="Name" original="Payment Batch">Remesa de Pagos</value>
@@ -1228,7 +1228,7 @@
 	</row>
 	<row id="440" trl="Y">
 		<value column="Name" original="Accounting Processor">Procesador de Contabilidad</value>
-		<value column="Description" original="Maintain Accounting Processor and Logs">Mantenimiento al procesador de contabilidad y logs </value>
+		<value column="Description" original="Maintain Accounting Processor and Logs">Mantenimiento al procesador de contabilidad y logs</value>
 	</row>
 	<row id="441" trl="Y">
 		<value column="Name" original="Organization Type">Tipo Organización</value>
@@ -1271,19 +1271,19 @@
 		<value column="Description" original="Maintain Schedule Processes and Logs">Mantenimiento a los procesos y los registros del horario</value>
 	</row>
 	<row id="451" trl="Y">
-		<value column="Name" original="Partner Relation">Relación Socio de Negocio</value>
-		<value column="Description" original="Maintain Business Partner Relations"/>
+		<value column="Name" original="Partner Relation">Relación Terceros</value>
+		<value column="Description" original="Maintain Business Partner Relations">Mantener Relaciones de Terceros</value>
 	</row>
 	<row id="452" trl="Y">
-		<value column="Name" original="RfQ Topic">Asunto SPC (RfQ)</value>
-		<value column="Description" original="Maintain RfQ Topics and Subscribers">Mantenimiento al asunto SPC (RfQ) y los subscriptores</value>
+		<value column="Name" original="RfQ Topic">Asunto SCP (RfQ)</value>
+		<value column="Description" original="Maintain RfQ Topics and Subscribers">Mantenimiento al asunto SCP (RfQ) y los subscriptores</value>
 	</row>
 	<row id="453" trl="Y">
 		<value column="Name" original="Auction Topic Type">Tipo del Asunto de la Subasta</value>
 		<value column="Description" original="Maintain Auction Topic Type and Categories">Mantenga el tipo y las categorías del asunto de la subasta</value>
 	</row>
 	<row id="454" trl="Y">
-		<value column="Name" original="RfQ">SPC (RfQ)</value>
+		<value column="Name" original="RfQ">SCP (RfQ)</value>
 		<value column="Description" original="Manage Request for Quotations">Mantenimiento a Solicitudes para Cotización</value>
 	</row>
 	<row id="455" trl="Y">
@@ -1331,15 +1331,15 @@
 		<value column="Description" original="Maintain Trees">Mantener árbol</value>
 	</row>
 	<row id="466" trl="Y">
-		<value column="Name" original="RfQ Response">SPC (RfQ) Respuesta</value>
-		<value column="Description" original="Manage RfQ Responses">Mantenimiento a SPC (RfQ) Respuestas</value>
+		<value column="Name" original="RfQ Response">SCP (RfQ) Respuesta</value>
+		<value column="Description" original="Manage RfQ Responses">Mantenimiento a SCP (RfQ) Respuestas</value>
 	</row>
 	<row id="467" trl="Y">
-		<value column="Name" original="RfQ Response">Respuesta SPC (RfQ)</value>
-		<value column="Description" original="Detail RfQ Responses">Detalles Respuesta SPC (RfQ)</value>
+		<value column="Name" original="RfQ Response">Respuesta SCP (RfQ)</value>
+		<value column="Description" original="Detail RfQ Responses">Detalles Respuesta SCP (RfQ)</value>
 	</row>
 	<row id="468" trl="Y">
-		<value column="Name" original="RfQ Unanswered">SPC (RfQ) Sin Responder</value>
+		<value column="Name" original="RfQ Unanswered">SCP (RfQ) Sin Responder</value>
 		<value column="Description" original="Outstanding RfQ Responses">Respuestas RfQ Exepcionales</value>
 	</row>
 	<row id="469" trl="Y">
@@ -1356,19 +1356,19 @@
 	</row>
 	<row id="472" trl="Y">
 		<value column="Name" original="Distribution Run">Ejecutar Distribución</value>
-		<value column="Description" original="Distribution Run create Orders to distribute products to a selected list of partners">El funcionamiento de la distribución crea órdenes para distribuir productos a una lista seleccionada de socios.</value>
+		<value column="Description" original="Distribution Run create Orders to distribute products to a selected list of partners">El funcionamiento de la distribución crea órdenes para distribuir productos a una lista seleccionada de terceros.</value>
 	</row>
 	<row id="473" trl="Y">
-		<value column="Name" original="UnLink Business Partner Org">Desliga Socio de Negocio de la Organización</value>
-		<value column="Description" original="UnLink Business Partner from an Organization">Desliga Socio de Negocio de la Organización</value>
+		<value column="Name" original="UnLink Business Partner Org">Desliga Tercero de Organización</value>
+		<value column="Description" original="UnLink Business Partner from an Organization">Desliga Tercero de Organización</value>
 	</row>
 	<row id="474" trl="Y">
-		<value column="Name" original="Asset Delivery Month">Entrega Activo del Mes </value>
+		<value column="Name" original="Asset Delivery Month">Entrega Activo del Mes</value>
 		<value column="Description" original="Report Asset Deliveries Summary per month">Sumario de Entrega de Activos por mes</value>
 	</row>
 	<row id="475" trl="Y">
-		<value column="Name" original="Access Audit">Acceso al Log </value>
-		<value column="Description" original="Audit of Access to data or resources">Registro del acceso a los datos ó a los recursos</value>
+		<value column="Name" original="Access Audit">Acceso al Log</value>
+		<value column="Description" original="Audit of Access to data or resources">Registro del acceso a los datos o a los recursos</value>
 	</row>
 	<row id="476" trl="Y">
 		<value column="Name" original="Counter Document">Contra Documentos</value>
@@ -1384,7 +1384,7 @@
 	</row>
 	<row id="479" trl="Y">
 		<value column="Name" original="Ship/Receipt Confirm">Confirmación Entrega/Recibo</value>
-		<value column="Description" original="Material Shipment or Receipt Confirmation">Confirmación de entrega ó recibo de material</value>
+		<value column="Description" original="Material Shipment or Receipt Confirmation">Confirmación de entrega o recibo de material</value>
 	</row>
 	<row id="480" trl="Y">
 		<value column="Name" original="RMA Type">Tipo ADM (RMA)</value>
@@ -1392,11 +1392,11 @@
 	</row>
 	<row id="481" trl="Y">
 		<value column="Name" original="Open Confirmation Details">Detalle de Confirmaciones Abiertas</value>
-		<value column="Description" original="Open Shipment or Receipt Confirmation Details">Detalle de Confirmaciones de entregas/Recibos abiertas </value>
+		<value column="Description" original="Open Shipment or Receipt Confirmation Details">Detalle de Confirmaciones de entregas/Recibos abiertas</value>
 	</row>
 	<row id="482" trl="Y">
 		<value column="Name" original="Open Confirmations">Confirmaciones Abiertas</value>
-		<value column="Description" original="Open Shipment or Receipt Confirmations">Confirmaciones de entregas/Recibos abiertas </value>
+		<value column="Description" original="Open Shipment or Receipt Confirmations">Confirmaciones de entregas/Recibos abiertas</value>
 	</row>
 	<row id="483" trl="Y">
 		<value column="Name" original="Process Audit">Proceso de Auditoría</value>
@@ -1404,7 +1404,7 @@
 	</row>
 	<row id="484" trl="Y">
 		<value column="Name" original="Move Confirmation">Confirmación de Movimientos</value>
-		<value column="Description" original="Confirm Inventory Moves">Confirma movimientos de inventario </value>
+		<value column="Description" original="Confirm Inventory Moves">Confirma movimientos de inventario</value>
 	</row>
 	<row id="485" trl="Y">
 		<value column="Name" original="Print Format Detail">Imprime detalle de Formato</value>
@@ -1412,7 +1412,7 @@
 	</row>
 	<row id="486" trl="Y">
 		<value column="Name" original="Import Confirmations">Importa Confirmación</value>
-		<value column="Description" original="Import Receipt/Shipment Confirmation Lines">Importa Recibo/Entrega linea de confirmación</value>
+		<value column="Description" original="Import Receipt/Shipment Confirmation Lines">Importa Recibo/Entrega línea de confirmación</value>
 	</row>
 	<row id="487" trl="Y">
 		<value column="Name" original="Reset Password">Reinicia Contraseña</value>
@@ -1423,7 +1423,7 @@
 		<value column="Description" original="Service Level Agreement Criteria">Criterio acuerdo del porcentaje de disponibilidad</value>
 	</row>
 	<row id="489" trl="Y">
-		<value column="Name" original="SLA by Partner">ANS por Socio</value>
+		<value column="Name" original="SLA by Partner">ANS por Tercero</value>
 		<value column="Description" original="Service Level Agreement">Acuerdo del porcentaje de disponibilidad</value>
 	</row>
 	<row id="490" trl="Y">
@@ -1452,11 +1452,11 @@
 	</row>
 	<row id="496" trl="Y">
 		<value column="Name" original="Reset Allocation">Asignación (Restaura)</value>
-		<value column="Description" original="Reset (delete) allocation of invoices to payments">Reinicia (Borra) Asignación automática de facturas a los pagos     </value>
+		<value column="Description" original="Reset (delete) allocation of invoices to payments">Reinicia (Borra) Asignación automática de facturas a los pagos</value>
 	</row>
 	<row id="497" trl="Y">
 		<value column="Name" original="Auto Allocation">Asignación (Auto)</value>
-		<value column="Description" original="Automatic allocation of invoices to payments">Asignación automática de facturas a los pagos     </value>
+		<value column="Description" original="Automatic allocation of invoices to payments">Asignación automática de facturas a los pagos</value>
 	</row>
 	<row id="498" trl="Y">
 		<value column="Name" original="System Registration">Registro del Sistema</value>
@@ -1468,15 +1468,15 @@
 	</row>
 	<row id="500" trl="Y">
 		<value column="Name" original="Workflow to Client">Mueve Flujo de Trabajo</value>
-		<value column="Description" original="Move custom workflow elements to the current client">Mueva los elementos de encargo de Flujo de Trabajo al cliente actual. </value>
+		<value column="Description" original="Move custom workflow elements to the current client">Mueva los elementos de encargo de Flujo de Trabajo al cliente actual.</value>
 	</row>
 	<row id="501" trl="Y">
 		<value column="Name" original="Workflow">Flujo de Trabajo</value>
 		<value column="Description" original="Adempiere Workflow">Flujo de Trabajo Adempiere</value>
 	</row>
 	<row id="502" trl="Y">
-		<value column="Name" original="Trial Balance">Balanza de Comprobación </value>
-		<value column="Description" original="Trial Balance for a period or date range">Balanza de Comprobación para un Periodo o un Rango de Fechas </value>
+		<value column="Name" original="Trial Balance">Balanza de Comprobación</value>
+		<value column="Description" original="Trial Balance for a period or date range">Balanza de Comprobación para un Periodo o un Rango de Fechas</value>
 	</row>
 	<row id="503" trl="Y">
 		<value column="Name" original="Internal Use Inventory">Inventario uso Interno</value>
@@ -1491,8 +1491,8 @@
 		<value column="Description" original="Print Dunning letters to paper or send PDF">Imprime Carta de Morosidad o la envía como PDF</value>
 	</row>
 	<row id="506" trl="Y">
-		<value column="Name" original="Validate Business Partner">Valida Socio del Negocio</value>
-		<value column="Description" original="Check data consistency of Business Partner">Verifica la consistencia de los datos del Socio de Negocio</value>
+		<value column="Name" original="Validate Business Partner">Valida Tercero</value>
+		<value column="Description" original="Check data consistency of Business Partner">Verifica la consistencia de los datos del Tercero</value>
 	</row>
 	<row id="507" trl="Y">
 		<value column="Name" original="Order Batch Process">Proceso de Órdenes en Lote</value>
@@ -1515,12 +1515,12 @@
 		<value column="Description" original="Payment Detail Report">Reporte de Detalles de Pagos</value>
 	</row>
 	<row id="512" trl="Y">
-		<value column="Name" original="Business Partner Open">Saldos de Socio de Negocio</value>
-		<value column="Description" original="Business Partner Open Amount">Saldos de Socio de Negocio</value>
+		<value column="Name" original="Business Partner Open">Saldos de Terceros</value>
+		<value column="Description" original="Business Partner Open Amount">Saldos de Terceros</value>
 	</row>
 	<row id="513" trl="Y">
-		<value column="Name" original="Commission Run Detail">Detalle de la Función de la Comision.</value>
-		<value column="Description" original="Commission Run Detail Report">Reporte del Detalle de la Función de la Comision.</value>
+		<value column="Name" original="Commission Run Detail">Detalle de la Función de la Comisión.</value>
+		<value column="Description" original="Commission Run Detail Report">Reporte del Detalle de la Función de la Comisión.</value>
 	</row>
 	<row id="514" trl="Y">
 		<value column="Name" original="Synchronize Doc Translation">Sincroniza la traducción del documento</value>
@@ -1568,7 +1568,7 @@
 	</row>
 	<row id="525" trl="Y">
 		<value column="Name" original="Request Resolution">Respuesta de Solicitud</value>
-		<value column="Description" original="Maintain Request Resolutions">Mantener respuesta de la solicitud </value>
+		<value column="Description" original="Maintain Request Resolutions">Mantener respuesta de la solicitud</value>
 	</row>
 	<row id="526" trl="Y">
 		<value column="Name" original="Request Group">Grupo de Solicitud</value>
@@ -1628,7 +1628,7 @@
 	</row>
 	<row id="541" trl="Y">
 		<value column="Name" original="Product Cost Summary">Sumario Costo de Producto</value>
-		<value column="Description" original="Product Cost Summary Report">Reporte Sumario Costo de Producto </value>
+		<value column="Description" original="Product Cost Summary Report">Reporte Sumario Costo de Producto</value>
 	</row>
 	<row id="542" trl="Y">
 		<value column="Name" original="Product Cost Detail">Detalle Costo de Producto</value>
@@ -1636,18 +1636,18 @@
 	</row>
 	<row id="543" trl="Y">
 		<value column="Name" original="Order Detail">Detalle de Orden</value>
-		<value column="Description" original="Order Detail Report">Reportar Detalle de la Orden </value>
+		<value column="Description" original="Order Detail Report">Reportar Detalle de la Orden</value>
 	</row>
 	<row id="544" trl="Y">
-		<value column="Name" original="Business Partner Detail">Detalle Socio del Negocio</value>
-		<value column="Description" original="Business Partner Detail Report">Reporte Detalle Socio del Negocio </value>
+		<value column="Name" original="Business Partner Detail">Detalle Terceros</value>
+		<value column="Description" original="Business Partner Detail Report">Reporte Detalle Terceros</value>
 	</row>
 	<row id="545" trl="Y">
 		<value column="Name" original="Attribute Set Instance">Ajuste Instancia de Atributos</value>
 		<value column="Description" original="View Attribute Set Instance detail and use">Ver Detalle y Emplear Ajuste Instancia de Atributos</value>
 	</row>
 	<row id="546" trl="Y">
-		<value column="Name" original="Create Costing Records"> Crear Registro de Costeo</value>
+		<value column="Name" original="Create Costing Records">Crear Registro de Costeo</value>
 		<value column="Description" original="Create Costing Records">Crear Registro de Costeo</value>
 	</row>
 	<row id="547" trl="Y">
@@ -1655,32 +1655,32 @@
 		<value column="Description" original="Define the declaration to the tax authorities">Define declaración de impuestos a las autoridades</value>
 	</row>
 	<row id="548" trl="Y">
-		<value column="Name" original="Reporting Hierarchy">Informe por Jerarquías</value>
-		<value column="Description" original="Define Reporting Hierarchy">Define Informe por Jerarquías</value>
+		<value column="Name" original="Reporting Hierarchy">Jerarquía de Informes</value>
+		<value column="Description" original="Define Reporting Hierarchy">Define Jerarquías para Informes</value>
 	</row>
 	<row id="549" trl="Y">
 		<value column="Name" original="Create PO from Requisition">Crear OC desde Requisición</value>
-		<value column="Description" original="Create Purchase Orders from Requisitions">Crear Orden de Compra desde una  Requisición</value>
+		<value column="Description" original="Create Purchase Orders from Requisitions">Crear Orden de Compra desde una Requisición</value>
 	</row>
 	<row id="550" trl="Y">
 		<value column="Name" original="Budget Control">Control de Presupuesto</value>
 		<value column="Description" original="Maintain Budget Controls">Mantener Control de Presupuesto</value>
 	</row>
 	<row id="551" trl="Y">
-		<value column="Name" original="GL Fund (Alpha)">Fondos de contabilidad(Alpha)</value>
+		<value column="Name" original="GL Fund (Alpha)">Fondos de contabilidad (Alfa)</value>
 		<value column="Description" original="Maintain Fund Controls">Mantenimiento de control de fondos.</value>
 	</row>
 	<row id="552" trl="Y">
-		<value column="Name" original="System Issue Report">Reporte Versión Sistema</value>
-		<value column="Description" original="Automatically created or manually entered System Issue Reports">Creado Automáticamente o manualmente   ingresado Reporte de Versión de Sistema</value>
+		<value column="Name" original="System Issue Report">Reporte Problema Sistema</value>
+		<value column="Description" original="Automatically created or manually entered System Issue Reports">Creado Automáticamente o manualmente ingresado Reporte de Problemas del Sistema</value>
 	</row>
 	<row id="553" trl="Y">
-		<value column="Name" original="Quarter Invoice Product">Facturación Trimestral por producto</value>
+		<value column="Name" original="Quarter Invoice Product">Facturación Trimestral por Producto</value>
 		<value column="Description" original="Imvoice Report by Product per Quarter">Reportar Facturación por Producto por Trimestre</value>
 	</row>
 	<row id="554" trl="Y">
 		<value column="Name" original="Monthly Invoice Product">Producto Facturado Mensualmente</value>
-		<value column="Description" original="Imvoice Report by Product per Month">Reporte de Factura por Producto por Més  </value>
+		<value column="Description" original="Imvoice Report by Product per Month">Reporte de Factura por Producto por Més</value>
 	</row>
 	<row id="555" trl="Y">
 		<value column="Name" original="Performance Indicators">Indicadores de Desempeño</value>
@@ -1688,7 +1688,7 @@
 	</row>
 	<row id="556" trl="Y">
 		<value column="Name" original="Performance Color Schema">Esquema de Color del Desempeño</value>
-		<value column="Description" original="Maintain Performance Color Schema">Mantener Esquema de Color del Desempeño </value>
+		<value column="Description" original="Maintain Performance Color Schema">Mantener Esquema de Color del Desempeño</value>
 	</row>
 	<row id="557" trl="Y">
 		<value column="Name" original="Performance Benchmark">Desempeño Punto de Control</value>
@@ -1699,27 +1699,27 @@
 		<value column="Description" original="Maintain Performance Ratios">Mantener Relación de Desempeño</value>
 	</row>
 	<row id="559" trl="Y">
-		<value column="Name" original="Issue Recommendation">Recomendación de Surtimiento</value>
-		<value column="Description" original="Maintain Issue Recommendation">Mantener Recomendación de Surtimiento</value>
+		<value column="Name" original="Issue Recommendation">Recomendación de Problema</value>
+		<value column="Description" original="Maintain Issue Recommendation">Mantener recomendaciones a problemas</value>
 	</row>
 	<row id="560" trl="Y">
-		<value column="Name" original="Issue Status">Estado de Surtimiento</value>
-		<value column="Description" original="Maintain Issue Status">Mantener Estado de Surtimiento</value>
+		<value column="Name" original="Issue Status">Estado de Problema</value>
+		<value column="Description" original="Maintain Issue Status">Mantener Estado de Problemas</value>
 	</row>
 	<row id="561" trl="Y">
-		<value column="Name" original="Known Issue">Surtimiento Conocido</value>
-		<value column="Description" original="Maintain Known Issue">Mantener Surtimiento Conocido</value>
+		<value column="Name" original="Known Issue">Problema Conocido</value>
+		<value column="Description" original="Maintain Known Issue">Mantener Problemas Conocidos</value>
 	</row>
 	<row id="562" trl="Y">
-		<value column="Name" original="Issue Project">Surtimiento al Proyecto</value>
-		<value column="Description" original="Maintain Issue Management Project Links">Mantener Surtimiento al Proyecto</value>
+		<value column="Name" original="Issue Project">Publicación al Proyecto</value>
+		<value column="Description" original="Maintain Issue Management Project Links">Mantener Publicaciones al Proyecto</value>
 	</row>
 	<row id="563" trl="Y">
-		<value column="Name" original="Issue User">Usuario del Surtimiento </value>
-		<value column="Description" original="User who reported Issues">Usuario que reportó el surtimiento </value>
+		<value column="Name" original="Issue User">Usuario del Problema</value>
+		<value column="Description" original="User who reported Issues">Usuario que reportó el surtimiento</value>
 	</row>
 	<row id="564" trl="Y">
-		<value column="Name" original="Issue System">Sistema de Surtimiento</value>
+		<value column="Name" original="Issue System">Sistema del Problema</value>
 		<value column="Description" original="Maintain Systems">Sistema de Mantenimiento</value>
 	</row>
 	<row id="565" trl="Y">
@@ -1727,43 +1727,43 @@
 		<value column="Description" original="Maintain Products with Attributes in a Table Grid">Mantiene productos con atributos en una grilla de tabla.</value>
 	</row>
 	<row id="566" trl="Y">
-		<value column="Name" original="Collaboration">Colaboracion</value>
-		<value column="Description" original="Collaboration and Content Management">Colaboracion y administracion de contenido</value>
+		<value column="Name" original="Collaboration">Colaboración</value>
+		<value column="Description" original="Collaboration and Content Management">Colaboración y administración de contenido</value>
 	</row>
 	<row id="570" trl="Y">
 		<value column="Name" original="Template">Plantilla</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="573" trl="Y">
-		<value column="Name" original="Media Item">Articulo Media </value>
+		<value column="Name" original="Media Item">Artículo de Medios</value>
 		<value column="Description" original="Maintain Web Media">Mantenimiento de Web Media.</value>
 	</row>
 	<row id="574" trl="Y">
-		<value column="Name" original="News Channel">Canal de noticias</value>
-		<value column="Description" original="Define News Channels, write and publish articles">Define nuevos canales de noticia , escritura y publicacion de articulos.</value>
+		<value column="Name" original="News Channel">Canal de Noticias</value>
+		<value column="Description" original="Define News Channels, write and publish articles">Define nuevos canales de noticia, escritura y publicación de artículos.</value>
 	</row>
 	<row id="576" trl="Y">
-		<value column="Name" original="Web Ad Management">Administracion Web de Ad</value>
-		<value column="Description" original="Content Management Ad Management defines the needed categories and items">Administracion de contenido , Administracion Ad define  las categorias necesitadas y articulos.</value>
+		<value column="Name" original="Web Ad Management">Administración Anuncios Web</value>
+		<value column="Description" original="Content Management Ad Management defines the needed categories and items">Administración de contenido, Administración Ad define las categorias necesitadas y artículos.</value>
 	</row>
 	<row id="578" trl="Y">
-		<value column="Name" original="View Chat">Ver charla</value>
-		<value column="Description" original="View discussions / chats">Ver discusion / charla</value>
+		<value column="Name" original="View Chat">Ver Charla</value>
+		<value column="Description" original="View discussions / chats">Ver discusión / charla</value>
 	</row>
 	<row id="579" trl="Y">
 		<value column="Name" original="Web Project">Proyecto Web</value>
-		<value column="Description" original="Maintain Web Project (Content Management)">Mantenimiento de proyecto Web (Administracion de contenido)</value>
+		<value column="Description" original="Maintain Web Project (Content Management)">Mantenimiento de proyecto Web (Administración de contenido)</value>
 	</row>
 	<row id="583" trl="Y">
-		<value column="Name" original="Chat Type">Tipo de charla</value>
+		<value column="Name" original="Chat Type">Tipo Charla</value>
 		<value column="Description" original="Maintain Chat Types">Mantenimiento de Tipo de charlas</value>
 	</row>
 	<row id="584" trl="Y">
-		<value column="Name" original="Deploy Web Project">Desplegar proyecto Web</value>
+		<value column="Name" original="Deploy Web Project">Desplegar Proyecto Web</value>
 		<value column="Description" original="Deploy Web Project">Desplegar proyecto Web</value>
 	</row>
 	<row id="585" trl="Y">
-		<value column="Name" original="Verify BOMs">Verificar lista de materiales</value>
+		<value column="Name" original="Verify BOMs">Verificar LDMs</value>
 		<value column="Description" original="Verify BOM Structures">Verificar estructura de lista de materiales</value>
 	</row>
 	<row id="586" trl="Y">
@@ -1775,51 +1775,51 @@
 		<value column="Description" original="Maintain Web Access">Mantenimiento de Acceso Web</value>
 	</row>
 	<row id="588" trl="Y">
-		<value column="Name" original="Web Broadcast Server">Servidor de publicacion Web</value>
-		<value column="Description" original="Maintain Web Broadcast Server">Mantenimiento de Servidor de publicacion Web</value>
+		<value column="Name" original="Web Broadcast Server">Servidor de publicación Web</value>
+		<value column="Description" original="Maintain Web Broadcast Server">Mantenimiento de Servidor de publicación Web</value>
 	</row>
 	<row id="589" trl="Y">
-		<value column="Name" original="Info Window">Ventana de informacion</value>
-		<value column="Description" original="Define Info and search/select Window">Define informacion y ventana de busqueda / seleccion</value>
+		<value column="Name" original="Info Window">Ventana Información</value>
+		<value column="Description" original="Define Info and search/select Window">Define información y ventana de búsqueda / selección</value>
 	</row>
 	<row id="590" trl="Y">
-		<value column="Name" original="Text Index">Indice de texto</value>
-		<value column="Description" original="Maintain Text Search Index">Mantiene el indice de texto de busqueda</value>
+		<value column="Name" original="Text Index">Indice de Texto</value>
+		<value column="Description" original="Maintain Text Search Index">Mantiene el índice de texto de búsqueda</value>
 	</row>
 	<row id="591" trl="Y">
-		<value column="Name" original="Text Index Stop">Pare de indice de texto</value>
+		<value column="Name" original="Text Index Stop">Pare de índice de texto</value>
 		<value column="Description" original="Maintain keywords not to be indexed">Mantiene las palabras claves que no son indexadas.</value>
 	</row>
 	<row id="592" trl="Y">
-		<value column="Name" original="Text Search Log">Log de texto de busqueda</value>
-		<value column="Description" original="View Text Search Log">Ver log de texto de busqueda.</value>
+		<value column="Name" original="Text Search Log">Log de texto de búsqueda</value>
+		<value column="Description" original="View Text Search Log">Ver log de texto de búsqueda.</value>
 	</row>
 	<row id="593" trl="Y">
 		<value column="Name" original="Rebuild Index">Re-construir Indice</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="594" trl="Y">
-		<value column="Name" original="LDAP Server">Servidor LDAP </value>
-		<value column="Description" original="LDAP Server to authenticate and authorize external systems based on Adempiere">Servidor LDAP  para autenticar y autorizar sistemas externos basados en Adempiere.</value>
+		<value column="Name" original="LDAP Server">Servidor LDAP</value>
+		<value column="Description" original="LDAP Server to authenticate and authorize external systems based on Adempiere">Servidor LDAP para autenticar y autorizar sistemas externos basados en Adempiere.</value>
 	</row>
 	<row id="50001" trl="Y">
-		<value column="Name" original="Application Packaging">Aplicacion de Empaquetado</value>
+		<value column="Name" original="Application Packaging">Empaquetado Aplicación</value>
 		<value column="Description" original="Import and export packaging">Importa y exporta paquetes.</value>
 	</row>
 	<row id="50002" trl="Y">
-		<value column="Name" original="Packages Installed">Paquetes instalados</value>
+		<value column="Name" original="Packages Installed">Paquetes Instalados</value>
 		<value column="Description" original="List of packages installed">Lista de Paquetes instalados</value>
 	</row>
 	<row id="50003" trl="Y">
-		<value column="Name" original="Package Maintenance">Mantenimiento de paquetes.</value>
-		<value column="Description" original="Package installation history and maintenance">Historia de instalacion de paquetes y mantenimientos.</value>
+		<value column="Name" original="Package Maintenance">Mantenimiento Paquetes.</value>
+		<value column="Description" original="Package installation history and maintenance">Historia de instalación de paquetes y mantenimientos.</value>
 	</row>
 	<row id="50004" trl="Y">
-		<value column="Name" original="PackOut - Create a package">Exportacion de paquete - Crea un paquete.</value>
-		<value column="Description" original="Package build Application">Aplicacion de construccion de paquete</value>
+		<value column="Name" original="PackOut - Create a package">Exportar Paquete (PackOut)</value>
+		<value column="Description" original="Package build Application">Aplicación de construcción de paquete</value>
 	</row>
 	<row id="50005" trl="Y">
-		<value column="Name" original="Common Package Details">Detalles de paquetes comunes</value>
+		<value column="Name" original="Common Package Details">Detalles Comunes Paquetes</value>
 		<value column="Description" original="Maintain Common Package Details">Mantenimiento de Detalles de paquetes comunes</value>
 	</row>
 	<row id="50006" trl="Y">
@@ -1831,55 +1831,55 @@
 		<value column="Description" original="Copy Role">Copiar Rol</value>
 	</row>
 	<row id="50008" trl="Y">
-		<value column="Name" original="System Configurator">Configurador del sistema</value>
+		<value column="Name" original="System Configurator">Configurador del Sistema</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="50009" trl="Y">
-		<value column="Name" original="Request EMail Processor">Procesador de solicitudes de Email</value>
+		<value column="Name" original="Request EMail Processor">Procesador de Solicitudes de Email</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="50010" trl="Y">
-		<value column="Name" original="Dashboard Content Edit">Consola de edicion de contenido.</value>
+		<value column="Name" original="Dashboard Content Edit">Editar Contenido Tablero Control</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="52000" trl="Y">
-		<value column="Name" original="Update Role Menu">Actualizar Menu de rol</value>
+		<value column="Name" original="Update Role Menu">Actualizar Menu de Rol</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="52001" trl="Y">
-		<value column="Name" original="Web POS">Posterita</value>
+		<value column="Name" original="Web POS">PDV Web</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="52002" trl="Y">
-		<value column="Name" original="Web POS Menu">Menu de posterita</value>
+		<value column="Name" original="Web POS Menu">Menu PDV Web</value>
 		<value column="Description" original="To dynamically generate the menu links in web POS">Para dinamicamente generar el enlace de los menus en Web POS</value>
 	</row>
 	<row id="52003" trl="Y">
-		<value column="Name" original="Web POS Role Menu">Menu de Rol de Posterita </value>
+		<value column="Name" original="Web POS Role Menu">Menu Rol PDV Web</value>
 		<value column="Description" original="Depending on Which Role, Different set of Menus are generated and made available.">Dependiendo del rol, diferentes conjuntos de menus son generados y hechos disponibles.</value>
 	</row>
 	<row id="52004" trl="Y">
-		<value column="Name" original="Web POS Properties">Propiedades Posterita Web </value>
-		<value column="Description" original="Stores the message tags to be picked up from AD_MESSAGE ">Almacena los mensajes de etiqueta para ser tomados de AD_MESSAGE </value>
+		<value column="Name" original="Web POS Properties">Propiedades PDV Web</value>
+		<value column="Description" original="Stores the message tags to be picked up from AD_MESSAGE ">Almacena los mensajes de etiqueta para ser tomados de AD_MESSAGE</value>
 	</row>
 	<row id="52005" trl="Y">
-		<value column="Name" original="Web POS BlackListCheque">Cheque sin fondo Posterita </value>
+		<value column="Name" original="Web POS BlackListCheque">Cheque sin fondo PDV Web</value>
 		<value column="Description" original="Black Listed Cheque">Listado de cheque sin fondos</value>
 	</row>
 	<row id="53012" trl="Y">
-		<value column="Name" original="Model Validator">Validador de modelo</value>
+		<value column="Name" original="Model Validator">Validador de Modelo</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53013" trl="Y">
-		<value column="Name" original="Setup Web POS">Configurar la Web POS</value>
+		<value column="Name" original="Setup Web POS">Configurar PDV Web</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53083" trl="Y">
-		<value column="Name" original="ASP Modules">Modulos ASP </value>
+		<value column="Name" original="ASP Modules">Módulos SaaS</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53084" trl="Y">
-		<value column="Name" original="ASP Subscribed Modules">Modulos ASP suscritos-</value>
+		<value column="Name" original="ASP Subscribed Modules">Módulos SaaS Suscritos</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53086" trl="Y">
@@ -1887,15 +1887,15 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="53087" trl="Y">
-		<value column="Name" original="Update Sequence No">Actualizar secuencia No</value>
+		<value column="Name" original="Update Sequence No">Actualizar No Secuencia</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53089" trl="Y">
-		<value column="Name" original="Migration Scripts">Scripts de Migracion</value>
+		<value column="Name" original="Migration Scripts">Scripts de Migración</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53090" trl="Y">
-		<value column="Name" original="Prepare Migration Scripts">Preparar Scripts de Migracion</value>
+		<value column="Name" original="Prepare Migration Scripts">Preparar Scripts de Migración</value>
 		<value column="Description" original=""/>
 	</row>
 </adempiereTrl>

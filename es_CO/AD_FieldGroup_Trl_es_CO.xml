@@ -21,7 +21,7 @@
 		<value column="Name" original="Product">Producto</value>
 	</row>
 	<row id="107" trl="Y">
-		<value column="Name" original="Business Partner">Socio de Negocio</value>
+		<value column="Name" original="Business Partner">Tercero</value>
 	</row>
 	<row id="108" trl="Y">
 		<value column="Name" original="Warehouse">Almacén</value>
@@ -30,7 +30,7 @@
 		<value column="Name" original="Bank">Banco</value>
 	</row>
 	<row id="110" trl="Y">
-		<value column="Name" original="Cash Book">Libro de Efectivo</value>
+		<value column="Name" original="Cash Book">Caja Menor</value>
 	</row>
 	<row id="111" trl="Y">
 		<value column="Name" original="Tax">Impuesto</value>
@@ -48,16 +48,16 @@
 		<value column="Name" original="Standard Cost">Costo Estándar</value>
 	</row>
 	<row id="116" trl="Y">
-		<value column="Name" original="Actual Costs">Costo Actual</value>
+		<value column="Name" original="Actual Costs">Costos Actuales</value>
 	</row>
 	<row id="117" trl="Y">
-		<value column="Name" original="Statistics">Estadisticas</value>
+		<value column="Name" original="Statistics">Estadísticas</value>
 	</row>
 	<row id="118" trl="Y">
-		<value column="Name" original="Defaults">Predeterminado</value>
+		<value column="Name" original="Defaults">Predeterminados</value>
 	</row>
 	<row id="119" trl="Y">
-		<value column="Name" original="Request Management">Gestion de Solicitudes</value>
+		<value column="Name" original="Request Management">Gestión de Solicitudes</value>
 	</row>
 	<row id="120" trl="Y">
 		<value column="Name" original="Web Store">Tienda Web</value>
@@ -78,7 +78,7 @@
 		<value column="Name" original="Document">Documento</value>
 	</row>
 	<row id="126" trl="Y">
-		<value column="Name" original="Line">Linea</value>
+		<value column="Name" original="Line">Línea</value>
 	</row>
 	<row id="127" trl="Y">
 		<value column="Name" original="Simulation">Simulación</value>
@@ -96,7 +96,7 @@
 		<value column="Name" original="Invoicing">Facturación</value>
 	</row>
 	<row id="132" trl="Y">
-		<value column="Name" original="Only ..">Sólo ....</value>
+		<value column="Name" original="Only ..">Sólo ..</value>
 	</row>
 	<row id="133" trl="Y">
 		<value column="Name" original="Selection">Selección</value>
@@ -108,6 +108,6 @@
 		<value column="Name" original="Access">Acceso</value>
 	</row>
 	<row id="50000" trl="Y">
-		<value column="Name" original="Allow Info In Role">Permitir informacion en rol</value>
+		<value column="Name" original="Allow Info In Role">Permitir información en rol</value>
 	</row>
 </adempiereTrl>

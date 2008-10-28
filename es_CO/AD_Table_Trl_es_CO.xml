@@ -324,10 +324,10 @@
 		<value column="Name" original="Tree Node">AD_TreeNode</value>
 	</row>
 	<row id="291" trl="Y">
-		<value column="Name" original="Business Partner ">Socio de Negocio</value>
+		<value column="Name" original="Business Partner ">Tercero</value>
 	</row>
 	<row id="293" trl="Y">
-		<value column="Name" original="Partner Location">Dirección del Socio del Negocio</value>
+		<value column="Name" original="Partner Location">Dirección del Tercero</value>
 	</row>
 	<row id="295" trl="Y">
 		<value column="Name" original="Price List Version">Versión de Lista de Precios</value>
@@ -339,7 +339,7 @@
 		<value column="Name" original="Bank Account">Cuenta Bancaria</value>
 	</row>
 	<row id="298" trl="Y">
-		<value column="Name" original="Partner Bank Account">Cuenta Bancaria del Socio</value>
+		<value column="Name" original="Partner Bank Account">Cuenta Bancaria Tercero</value>
 	</row>
 	<row id="299" trl="Y">
 		<value column="Name" original="C_BP_Withholding">C_BP_Withholding</value>
@@ -534,7 +534,7 @@
 		<value column="Name" original="Bank statement line">Línea de Estado de Cuenta</value>
 	</row>
 	<row id="394" trl="Y">
-		<value column="Name" original="Business Partner Group">Grupo de Socio de Negocio</value>
+		<value column="Name" original="Business Partner Group">Grupo Tercero</value>
 	</row>
 	<row id="395" trl="Y">
 		<value column="Name" original="Business Partner Group Acct">C_BP_Group_Acct</value>
@@ -576,7 +576,7 @@
 		<value column="Name" original="Cash Journal">Diario de Efectivo</value>
 	</row>
 	<row id="408" trl="Y">
-		<value column="Name" original="Cash Book">Libro de Efectivo</value>
+		<value column="Name" original="Cash Book">Caja Menor</value>
 	</row>
 	<row id="409" trl="Y">
 		<value column="Name" original="C_CashBook_Acct">C_CashBook_Acct</value>
@@ -669,7 +669,7 @@
 		<value column="Name" original="Revenue Recognition Plan">Plan de Reconocimiento de ingresos</value>
 	</row>
 	<row id="444" trl="Y">
-		<value column="Name" original="Revenue Recognition Run">Cálculo de Reconocimiento de Ingresos </value>
+		<value column="Name" original="Revenue Recognition Run">Cálculo de Reconocimiento de Ingresos</value>
 	</row>
 	<row id="445" trl="Y">
 		<value column="Name" original="Financial Report">Informe Financiero</value>
@@ -684,7 +684,7 @@
 		<value column="Name" original="Report Line">Línea de Informe</value>
 	</row>
 	<row id="449" trl="Y">
-		<value column="Name" original="Report Line Set">Establecer Línea de Informe</value>
+		<value column="Name" original="Report Line Set">Grupo de Líneas del Informe</value>
 	</row>
 	<row id="450" trl="Y">
 		<value column="Name" original="Report Source">Fuente de Informe</value>
@@ -867,10 +867,10 @@
 		<value column="Name" original="Import Product">Importar Productos</value>
 	</row>
 	<row id="533" trl="Y">
-		<value column="Name" original="Import Business Partner">Importar Socio de Negocio</value>
+		<value column="Name" original="Import Business Partner">Importar Terceros</value>
 	</row>
 	<row id="534" trl="Y">
-		<value column="Name" original="Import Account">Importar Cuenta</value>
+		<value column="Name" original="Import Account">Importar Cuentas</value>
 	</row>
 	<row id="535" trl="Y">
 		<value column="Name" original="Import Report Line Set">Importar Lineas de Informes</value>
@@ -927,7 +927,7 @@
 		<value column="Name" original="Payment_v">C_Payment_V</value>
 	</row>
 	<row id="555" trl="Y">
-		<value column="Name" original="Serial No Control">Control de numero de Serie</value>
+		<value column="Name" original="Serial No Control">Control de número de Serie</value>
 	</row>
 	<row id="556" trl="Y">
 		<value column="Name" original="Lot Control">Control de Lote</value>
@@ -1014,7 +1014,7 @@
 		<value column="Name" original="Project Task">Tarea del Proyecto</value>
 	</row>
 	<row id="585" trl="Y">
-		<value column="Name" original="Org Assignment">Organización Asignado </value>
+		<value column="Name" original="Org Assignment">Organización Asignado</value>
 	</row>
 	<row id="586" trl="Y">
 		<value column="Name" original="Cost Type">Tipo de Costo</value>
@@ -1062,7 +1062,7 @@
 		<value column="Name" original="Replication Run">Corrida de Replicación</value>
 	</row>
 	<row id="604" trl="Y">
-		<value column="Name" original="Replication Log">Log Replicación </value>
+		<value column="Name" original="Replication Log">Log Replicación</value>
 	</row>
 	<row id="605" trl="Y">
 		<value column="Name" original="Replication">Réplica</value>
@@ -1251,40 +1251,40 @@
 		<value column="Name" original="Distribution List">Lista de Distribución</value>
 	</row>
 	<row id="667" trl="Y">
-		<value column="Name" original="Subscription Delivery">Liberación de Suscripción </value>
+		<value column="Name" original="Subscription Delivery">Liberación de Suscripción</value>
 	</row>
 	<row id="668" trl="Y">
-		<value column="Name" original="Subscription Type">Tipo de suscripción </value>
+		<value column="Name" original="Subscription Type">Tipo de suscripción</value>
 	</row>
 	<row id="669" trl="Y">
 		<value column="Name" original="Subscription">Suscripción</value>
 	</row>
 	<row id="670" trl="Y">
-		<value column="Name" original="RfQ Subscriber">Subscriptor SPC (RfQ)</value>
+		<value column="Name" original="RfQ Subscriber">Subscriptor SCP (RfQ)</value>
 	</row>
 	<row id="671" trl="Y">
-		<value column="Name" original="RfQ Topic">Asunto SPC (RfQ)</value>
+		<value column="Name" original="RfQ Topic">Asunto SCP (RfQ)</value>
 	</row>
 	<row id="672" trl="Y">
-		<value column="Name" original="RfQ Response Line Qty">Cantidad Línea Respuesta SPC (RfQ)</value>
+		<value column="Name" original="RfQ Response Line Qty">Cantidad Línea Respuesta SCP (RfQ)</value>
 	</row>
 	<row id="673" trl="Y">
-		<value column="Name" original="RfQ Response Line">Línea Respuesta SPC (RfQ)</value>
+		<value column="Name" original="RfQ Response Line">Línea Respuesta SCP (RfQ)</value>
 	</row>
 	<row id="674" trl="Y">
-		<value column="Name" original="RfQ Response">Respuesta SPC (RfQ)</value>
+		<value column="Name" original="RfQ Response">Respuesta SCP (RfQ)</value>
 	</row>
 	<row id="675" trl="Y">
-		<value column="Name" original="RfQ Line Quantity">Cantidad Línea SPC (RfQ)</value>
+		<value column="Name" original="RfQ Line Quantity">Cantidad Línea SCP (RfQ)</value>
 	</row>
 	<row id="676" trl="Y">
-		<value column="Name" original="RfQ Line">Línea SPC (RfQ)</value>
+		<value column="Name" original="RfQ Line">Línea SCP (RfQ)</value>
 	</row>
 	<row id="677" trl="Y">
-		<value column="Name" original="RfQ">SPC (RfQ)</value>
+		<value column="Name" original="RfQ">SCP (RfQ)</value>
 	</row>
 	<row id="678" trl="Y">
-		<value column="Name" original="Partner Relation">Relación con Socios</value>
+		<value column="Name" original="Partner Relation">Relación con Terceros</value>
 	</row>
 	<row id="679" trl="Y">
 		<value column="Name" original="Topic">Asunto</value>
@@ -1461,7 +1461,7 @@
 		<value column="Name" original="PrintFormat Detail">RV_PrintFormatDetail</value>
 	</row>
 	<row id="740" trl="Y">
-		<value column="Name" original="Ship/Receipt Confirmation Import Line">Entrega/Recibo Línea de Confirmación de la importación </value>
+		<value column="Name" original="Ship/Receipt Confirmation Import Line">Entrega/Recibo Línea de Confirmación de la importación</value>
 	</row>
 	<row id="741" trl="Y">
 		<value column="Name" original="C_Dunning_Header_v">C_Dunning_Header_v</value>
@@ -1470,7 +1470,7 @@
 		<value column="Name" original="C_Dunning_Line_v">C_Dunning_Line_v</value>
 	</row>
 	<row id="743" trl="Y">
-		<value column="Name" original="SLA Measure">Medida SLA </value>
+		<value column="Name" original="SLA Measure">Medida SLA</value>
 	</row>
 	<row id="744" trl="Y">
 		<value column="Name" original="SLA Criteria">Criterio ANS</value>
@@ -1482,7 +1482,7 @@
 		<value column="Name" original="Table Trl">Tabla **</value>
 	</row>
 	<row id="747" trl="Y">
-		<value column="Name" original="RfQ Topic Subscriber Restriction">SPC Restricciones en el asunto al subscriptor</value>
+		<value column="Name" original="RfQ Topic Subscriber Restriction">SCP Restricciones en el asunto al subscriptor</value>
 	</row>
 	<row id="748" trl="Y">
 		<value column="Name" original="POS Terminal">Terminal PDV</value>
@@ -1545,7 +1545,7 @@
 		<value column="Name" original="Invoice Batch">Facturas en Lote</value>
 	</row>
 	<row id="768" trl="N">
-		<value column="Name" original="Invoice Batch Line">Linea Lote de Facturas </value>
+		<value column="Name" original="Invoice Batch Line">Linea Lote de Facturas</value>
 	</row>
 	<row id="769" trl="N">
 		<value column="Name" original="AD_User_OrgAccess">AD_User_OrgAccess</value>
@@ -1734,7 +1734,7 @@
 		<value column="Name" original="Invoice ProductMonth">RV_C_Invoice_ProductMonth</value>
 	</row>
 	<row id="831" trl="N">
-		<value column="Name" original="Color Schema">Esquema de Color </value>
+		<value column="Name" original="Color Schema">Esquema de Color</value>
 	</row>
 	<row id="832" trl="N">
 		<value column="Name" original="Goal Restriction">Goal Restriction</value>
@@ -1755,7 +1755,7 @@
 		<value column="Name" original="Issue Recommendation">Edición de Recomendación</value>
 	</row>
 	<row id="838" trl="N">
-		<value column="Name" original="Issue Status">Estado de Edición </value>
+		<value column="Name" original="Issue Status">Estado de Edición</value>
 	</row>
 	<row id="839" trl="N">
 		<value column="Name" original="Known Issue">Edición Conocida</value>

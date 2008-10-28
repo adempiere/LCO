@@ -4,11 +4,11 @@
 <adempiereTrl language="es_CO" table="AD_Process_Para">
 	<row id="227" trl="Y">
 		<value column="Name" original="Delete existing Accounting Entries">Delete existing Accounting Entries</value>
-		<value column="Description" original="The selected accounting entries will be deleted!  DANGEROUS !!!">The selected accounting entries will be deleted!  DANGEROUS !!!</value>
+		<value column="Description" original="The selected accounting entries will be deleted!  DANGEROUS !!!">Las entradas contables seleccionadas van a ser borradas! PELIGROSO !!!</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="233" trl="Y">
-		<value column="Name" original="Pricelist Version">Pricelist Version</value>
+		<value column="Name" original="Pricelist Version">Versión de Lista de Precios</value>
 		<value column="Description" original="Only used if Price List is used to set future/standard cost price">Only used if Price List is used to set future cost price</value>
 		<value column="Help" original=""/>
 	</row>
@@ -20,7 +20,7 @@
 	<row id="315" trl="Y">
 		<value column="Name" original="From User">Desde Usuario</value>
 		<value column="Description" original="Send EMail from user">Envia EMail desde un usuario.</value>
-		<value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">El email es enviado desde un usuario especifico - de otra manera este es enviado desde una peticion de direccion de email del cliente</value>
+		<value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">El email es enviado desde un usuario especifico - de otra manera este es enviado desde una petición de dirección de email del cliente</value>
 	</row>
 	<row id="452" trl="Y">
 		<value column="Name" original="Maintenance Mode">Maintenance Mode</value>
@@ -73,12 +73,12 @@
 		<value column="Help" original="The Shipment Date indicates the date printed on the shipment.">La fecha de despacho indica la fecha impresa en el envio.</value>
 	</row>
 	<row id="53011" trl="Y">
-		<value column="Name" original="Print Unprocessed Entries Only">Imprimir unicamente Entradas no  procesadas</value>
+		<value column="Name" original="Print Unprocessed Entries Only">Imprimir unicamente Entradas no procesadas</value>
 		<value column="Description" original="Print the unprocessed (unprinted) entries of the dunning run only.">Imprime las entradas no procesadas (No impresas) de un cobro.</value>
-		<value column="Help" original="Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.">Imprime las entradas no procesadas (No impresas) de un cobro. Esto permite re imprimir solo ciertas entradas de cobro. </value>
+		<value column="Help" original="Print the unprocessed (unprinted) entries of the dunning run only. This allows you to reprint only certain dunning entries.">Imprime las entradas no procesadas (No impresas) de un cobro. Esto permite re imprimir solo ciertas entradas de cobro.</value>
 	</row>
 	<row id="53025" trl="Y">
-		<value column="Name" original="Purchase Price List Version">Comprar Version de  lista de precios</value>
+		<value column="Name" original="Purchase Price List Version">Versión de lista de precios de compra</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
@@ -88,7 +88,7 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="53131" trl="Y">
-		<value column="Name" original="Scripts Path">Ruta de Scripts </value>
+		<value column="Name" original="Scripts Path">Ruta de Scripts</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>

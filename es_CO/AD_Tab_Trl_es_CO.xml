@@ -132,7 +132,7 @@
 		<value column="Name" original="Node">Nodo</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define workflow nodes">Definir roles de flujo de trabajo</value>
-		<value column="Help" original="The Node Tab defines each Node, Activity or step in this Workflow.&lt;br&gt;&#10;The action (actibity) type determines the execution: &quot;Route&quot; may be used in routing control conditions.  &quot;None&quot; identifies manual execution.">La pestaña de nodo define cada nodo ó paso en este flujo de trabajo</value>
+		<value column="Help" original="The Node Tab defines each Node, Activity or step in this Workflow.&lt;br&gt;&#10;The action (actibity) type determines the execution: &quot;Route&quot; may be used in routing control conditions.  &quot;None&quot; identifies manual execution.">La pestaña de nodo define cada nodo o paso en este flujo de trabajo</value>
 	</row>
 	<row id="123" trl="Y">
 		<value column="Name" original="Node Translation">Traducción de Nodo</value>
@@ -144,7 +144,7 @@
 		<value column="Name" original="Transition">Próximo Nodo</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Workflow Node Transition">Próximo nodo</value>
-		<value column="Help" original="The Next Nodes Tab defines the order or Nodes or Steps in a Workflow.">La pestaña de próximos pasos define el orden, nodos ó pasos en un flujo de trabajo</value>
+		<value column="Help" original="The Next Nodes Tab defines the order or Nodes or Steps in a Workflow.">La pestaña de próximos pasos define el orden, nodos o pasos en un flujo de trabajo</value>
 	</row>
 	<row id="125" trl="Y">
 		<value column="Name" original="Previous Node">Nodo Previo</value>
@@ -162,7 +162,7 @@
 		<value column="Name" original="Conversion Rates">Tasas de Cambio</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define currency conversion rates">Definir tasas de cambio</value>
-		<value column="Help" original="The Conversion Rate Tab defines the rates to use when converting a source currency to an accounting or reporting currency. Note that only the multiply rate is used; The divide rate is for visualization only.">La pestaña de tasa de cambio define las tasas a ser usadas cuando se convierte una moneda fuente a una moneda contable ó de Informe.</value>
+		<value column="Help" original="The Conversion Rate Tab defines the rates to use when converting a source currency to an accounting or reporting currency. Note that only the multiply rate is used; The divide rate is for visualization only.">La pestaña de tasa de cambio define las tasas a ser usadas cuando se convierte una moneda fuente a una moneda contable o de Informe.</value>
 	</row>
 	<row id="128" trl="Y">
 		<value column="Name" original="Calendar">Calendario</value>
@@ -210,7 +210,7 @@
 		<value column="Name" original="Country">País</value>
 		<value column="CommitWarning" original="Please create a support request (http://www.adempiere.org/support/requests.html), if the country data is not correct."/>
 		<value column="Description" original="Define Country">Definir País</value>
-		<value column="Help" original="The Country Tab defines any country in which you do business.  Values entered here are referenced in location records for Business Partners.">La pestaña de país define cada país en la cual se ejecutan negocios. Los valores entrados para país son usados en las localizaciones de Socios de Negocio.</value>
+		<value column="Help" original="The Country Tab defines any country in which you do business.  Values entered here are referenced in location records for Business Partners.">La pestaña de país define cada país en la cual se ejecutan negocios. Los valores entrados aquí son referenciados en las direcciones de terceros.</value>
 	</row>
 	<row id="136" trl="Y">
 		<value column="Name" original="Region">Región</value>
@@ -234,7 +234,7 @@
 		<value column="Name" original="Sequence">Secuencia</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Sequence Definition">Definir secuencia</value>
-		<value column="Help" original="The Sequence Tab defines the numeric sequencing to use for documents.  These can also include a alpha suffix and / or prefix.">La ventana de Secuencia define como los números de documentos serán puestos en secuencia. Cambia la manera en que los números de documentos son generados. Es posible adicionar un prefijo ó sufijo.</value>
+		<value column="Help" original="The Sequence Tab defines the numeric sequencing to use for documents.  These can also include a alpha suffix and / or prefix.">La ventana de Secuencia define como los números de documentos serán puestos en secuencia. Cambia la manera en que los números de documentos son generados. Es posible adicionar un prefijo o sufijo.</value>
 	</row>
 	<row id="148" trl="Y">
 		<value column="Name" original="Workflow">Flujo de Trabajo</value>
@@ -258,7 +258,7 @@
 		<value column="Name" original="Currency">Moneda</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Currency">Definir Moneda</value>
-		<value column="Help" original="The Currency Tab defines any currency you will transact with or report in.">La pestaña de moneda define cualquier moneda con la que se crearán transacciones ó Informes.</value>
+		<value column="Help" original="The Currency Tab defines any currency you will transact with or report in.">La pestaña de moneda define cualquier moneda con la que se crearán transacciones o Informes.</value>
 	</row>
 	<row id="152" trl="Y">
 		<value column="Name" original="Test">Prueba</value>
@@ -294,7 +294,7 @@
 		<value column="Name" original="GL Category">Categoría CG</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define General Ledger Categories">Definir categorías de Libro Mayor</value>
-		<value column="Help" original="The GL Category Tab defines optional identifiers for a document or journal.  Each Category may be used on a document, manual journal or import">La pestaña de Categoría de Libro Mayor define identificadores opcionales para un documento ó entrada de diario. Cada categoría puede ser usada en un documento. Entrada de diario ó un archivo a importar.</value>
+		<value column="Help" original="The GL Category Tab defines optional identifiers for a document or journal.  Each Category may be used on a document, manual journal or import">La pestaña de Categoría de Libro Mayor define identificadores opcionales para un documento o entrada de diario. Cada categoría puede ser usada en un documento. Entrada de diario o un archivo a importar.</value>
 	</row>
 	<row id="159" trl="Y">
 		<value column="Name" original="Batch">Lote</value>
@@ -408,13 +408,13 @@
 		<value column="Name" original="Payment Term">Término de Pago</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Payment Terms">Definir Términos de Pago</value>
-		<value column="Help" original="The Payment Term Tab defines the different payments terms that you offer to your Business Partners when paying invoices and also those terms which your Vendors offer you for payment of your invoices. On the standard invoice, the Name and the Document Note of the Payment Term is printed.">La pestaña de términos de pago define los diferentes términos que se le ofrece a un socio de negocio cuando paga sus facturas y también aquellos términos que sus proveedores le ofrecen a su organización para pagar sus facturas. En la factura estándar; el nombre y la nota del documento de los términos de pago son impresos.</value>
+		<value column="Help" original="The Payment Term Tab defines the different payments terms that you offer to your Business Partners when paying invoices and also those terms which your Vendors offer you for payment of your invoices. On the standard invoice, the Name and the Document Note of the Payment Term is printed.">La pestaña de términos de pago define los diferentes términos que se le ofrece a un tercero cuando paga sus facturas y también aquellos términos que sus proveedores le ofrecen a su organización para pagar sus facturas. En la factura estándar; el nombre y la nota del documento de los términos de pago son impresos.</value>
 	</row>
 	<row id="185" trl="Y">
 		<value column="Name" original="Shipper">Transportista</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Shippers">Transportista</value>
-		<value column="Help" original="The Shippers Tab defines any entity who will provide shipping to or shipping from an Organization.">La pestaña de transportistas define las entidades que proveerán entregas desde ó hacia una organización.</value>
+		<value column="Help" original="The Shippers Tab defines any entity who will provide shipping to or shipping from an Organization.">La pestaña de transportistas define las entidades que proveerán entregas desde o hacia una organización.</value>
 	</row>
 	<row id="186" trl="Y">
 		<value column="Name" original="Order">Orden</value>
@@ -450,7 +450,7 @@
 		<value column="Name" original="Invoice Schedule">Programa de Facturas</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Invoice Schedule">Definir Programa de Facturación</value>
-		<value column="Help" original="The Invoice Schedule Tab defines the frequency for which batch invoices will be generated for a Business Partner.">La planilla de programa de facturación define la frecuencia con la cual los lotes de facturas serán generados para un socio de negocio.</value>
+		<value column="Help" original="The Invoice Schedule Tab defines the frequency for which batch invoices will be generated for a Business Partner.">La planilla de programa de facturación define la frecuencia con la cual los lotes de facturas serán generados para un tercero.</value>
 	</row>
 	<row id="198" trl="Y">
 		<value column="Name" original="Conversion Rate">Tasa de Cambio</value>
@@ -480,7 +480,7 @@
 		<value column="Name" original="Channel">Canal</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Distribution Channel">Canal de Distribución</value>
-		<value column="Help" original="The Marketing Channel Tab defines the different methods or processes through which customers are obtained.">La pestaña de Canal de Mercadeo define los métodos ó procesos a través de los cuales los clientes son captados.</value>
+		<value column="Help" original="The Marketing Channel Tab defines the different methods or processes through which customers are obtained.">La pestaña de Canal de Mercadeo define los métodos o procesos a través de los cuales los clientes son captados.</value>
 	</row>
 	<row id="203" trl="Y">
 		<value column="Name" original="Element">Elemento</value>
@@ -504,7 +504,7 @@
 		<value column="Name" original="Sales Region">Region de Ventas</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Sales Region">Region de Ventas</value>
-		<value column="Help" original="The Sales Region Tab defines the different regions where you do business.  Sales Regions can be used when generating reports or calculating commissions.">La pestaña de Región de Ventas define las diferentes regiones donde se conducen negocios. Regiones de ventas pueden ser usadas cuando se generan Informes ó se calculan comisiones.</value>
+		<value column="Help" original="The Sales Region Tab defines the different regions where you do business.  Sales Regions can be used when generating reports or calculating commissions.">La pestaña de Región de Ventas define las diferentes regiones donde se conducen negocios. Regiones de ventas pueden ser usadas cuando se generan Informes o se calculan comisiones.</value>
 	</row>
 	<row id="207" trl="Y">
 		<value column="Name" original="Combination">Combinación</value>
@@ -540,7 +540,7 @@
 		<value column="Name" original="Customer Accounting">Contabilidad del Cliente</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Customer Accounting">Definir Contabilidad del Cliente</value>
-		<value column="Help" original="The Customer Accounting Tab defines the default accounts to use when this business partner is referenced on an accounts receivable transaction.">La pestaña Contabilidad del Cliente define los valores predeterminados usados cuando este socio de negocio es seleccionado en una transacción de cuentas por recibir.</value>
+		<value column="Help" original="The Customer Accounting Tab defines the default accounts to use when this business partner is referenced on an accounts receivable transaction.">La pestaña Contabilidad del Cliente define los valores predeterminados usados cuando este tercero es seleccionado en una transacción de cuentas por recibir.</value>
 	</row>
 	<row id="213" trl="Y">
 		<value column="Name" original="Vendor Accounting">Contabilidad del Proveedor</value>
@@ -552,13 +552,13 @@
 		<value column="Name" original="Employee Accounting">Contabilidad del Empleado</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Employee Accounting">Definir Contabilidad del Empleado</value>
-		<value column="Help" original="The Employee Accounting Tab defines the default accounts to use when this business partner is referenced on a expense reimbursement.">La pestaña de Contabilidad del Empleado define los valores predeterminados usados cuando este socio de negocio es seleccionado para transacciones de reembolso de gastos.</value>
+		<value column="Help" original="The Employee Accounting Tab defines the default accounts to use when this business partner is referenced on a expense reimbursement.">La pestaña de Contabilidad del Empleado define los valores predeterminados usados cuando este tercero es seleccionado para transacciones de reembolso de gastos.</value>
 	</row>
 	<row id="215" trl="Y">
 		<value column="Name" original="City">Ciudad</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Cities">Definir Ciudades</value>
-		<value column="Help" original="The Cities Tab defines Cities within a Country or Region.  Cities entered here are not referenced when entering the address.">La pestaña Ciudades define ciudades dentro de un país ó región.</value>
+		<value column="Help" original="The Cities Tab defines Cities within a Country or Region.  Cities entered here are not referenced when entering the address.">La pestaña Ciudades define ciudades dentro de un país o región.</value>
 	</row>
 	<row id="217" trl="Y">
 		<value column="Name" original="Account Schema Element">Elemento del Esquema Contable</value>
@@ -567,58 +567,58 @@
 		<value column="Help" original="The Account Schema Element Tab defines the elements that comprise the account key. A name is defined which will display in documents.  Also the order of the elements and if they are balanced and mandatory are indicated.">La pestaña Elementos del Esquema Contable define los elementos que comprenden la clave contable. Un nombre es definido el cual se despliega en los documentos. También se indica el orden de los diferentes elementos y si ellos están balanceados y son obligatorios.</value>
 	</row>
 	<row id="220" trl="Y">
-		<value column="Name" original="Business Partner">Socio de Negocio</value>
+		<value column="Name" original="Business Partner">Tercero</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner">Socio de Negocio</value>
-		<value column="Help" original="The Business Partner Tab defines any Entity with whom an organization transacts.">La pestaña socio de negocio define las entidades con las cuales una organización se relaciona para los negocios.</value>
+		<value column="Description" original="Business Partner">Tercero</value>
+		<value column="Help" original="The Business Partner Tab defines any Entity with whom an organization transacts.">La pestaña tercero define las entidades con las cuales una organización se relaciona para los negocios.</value>
 	</row>
 	<row id="222" trl="Y">
 		<value column="Name" original="Location">Localización</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Location">Definir localización</value>
-		<value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">La pestaña Localización define la localización física de un socio de negocio. Un socio de negocio puede tener registros múltiples de localización.</value>
+		<value column="Help" original="The Location Tab defines the physical location of a business partner.  A business partner may have multiple location records.">La pestaña Localización define la localización física de un tercero. Un tercero puede tener registros múltiples de localización.</value>
 	</row>
 	<row id="223" trl="Y">
 		<value column="Name" original="Customer">Cliente</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Customer Parameters">Definir Parámetros del Cliente</value>
-		<value column="Help" original="The Customer Tab defines a Business Partner who is a customer of this organization.  If the Customer check box is selected then the necessary fields will display. ">La pestaña Cliente define un Socio de Negocio quien es un cliente de esta organización. Si el cuadro de verificación Cliente es seleccionado entonces los campos relacionados a clientes son desplegados.</value>
+		<value column="Help" original="The Customer Tab defines a Business Partner who is a customer of this organization.  If the Customer check box is selected then the necessary fields will display. ">La pestaña Cliente define un Tercero quien es un cliente de esta organización. Si el cuadro de verificación Cliente es seleccionado entonces los campos relacionados a clientes son desplegados.</value>
 	</row>
 	<row id="224" trl="Y">
 		<value column="Name" original="Vendor">Proveedor</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Vendor Parameters">Definir Parámetros del Proveedor</value>
-		<value column="Help" original="The Vendor Tab defines a Business Partner that is a Vendor for this Organization.  If the Vendor check box is selected the necessary fields will display.">La pestaña Proveedor define un socio de negocio que es un proveedor de esta organización. Si el cuadro de verificación Proveedor esta seleccionado; los campos relacionados a proveedores son desplegados.</value>
+		<value column="Help" original="The Vendor Tab defines a Business Partner that is a Vendor for this Organization.  If the Vendor check box is selected the necessary fields will display.">La pestaña Proveedor define un tercero que es un proveedor de esta organización. Si el cuadro de verificación Proveedor esta seleccionado; los campos relacionados a proveedores son desplegados.</value>
 	</row>
 	<row id="225" trl="Y">
 		<value column="Name" original="Employee">Empleado</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Employee Parameters">Definir Parámetros del Empleado</value>
-		<value column="Help" original="The Employee Tab defines a Business Partner who is an Employee of this organization.  If the Employee is also a Sales Representative then the check box should be selected.">La pestaña Empleado define un socio de negocio quien es un empleado de esta organización. Si el empleado es también un representante de ventas entonces el cuadro de verificación correspondiente debe ser seleccionado.</value>
+		<value column="Help" original="The Employee Tab defines a Business Partner who is an Employee of this organization.  If the Employee is also a Sales Representative then the check box should be selected.">La pestaña Empleado define un tercero quien es un empleado de esta organización. Si el empleado es también un representante de ventas entonces el cuadro de verificación correspondiente debe ser seleccionado.</value>
 	</row>
 	<row id="226" trl="Y">
 		<value column="Name" original="Bank Account">Cuenta Bancaria</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Bank Account">Definir Cuenta Bancaria</value>
-		<value column="Help" original="The Define Bank Account Tab defines the banking information for this business partner.  This data is used for processing payments and remittances.">La pestaña Definir Cuenta Bancaria define la información bancaria para este socio de negocio. Estos datos son usados para procesar pagos y giros.</value>
+		<value column="Help" original="The Define Bank Account Tab defines the banking information for this business partner.  This data is used for processing payments and remittances.">La pestaña Definir Cuenta Bancaria define la información bancaria para este tercero. Estos datos son usados para procesar pagos y giros.</value>
 	</row>
 	<row id="227" trl="Y">
 		<value column="Name" original="Bank">Banco</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Bank">Mantener Bancos</value>
-		<value column="Help" original="The Bank Tab defines a bank that is used by an organization or business partner.  Each Bank is given an identifying Name, Address, Routing No and Swift Code">La pestaña Bancos define un banco que es usado por una organización ó socio de negocio. Cada banco contiene un nombre; dirección número de ruta y código Swift.</value>
+		<value column="Help" original="The Bank Tab defines a bank that is used by an organization or business partner.  Each Bank is given an identifying Name, Address, Routing No and Swift Code">La pestaña Bancos define un banco que es usado por una organización o tercero. Cada banco contiene un nombre; dirección número de ruta y código Swift.</value>
 	</row>
 	<row id="228" trl="Y">
 		<value column="Name" original="Account">Cuenta</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Bank Account">Mantener Cuenta</value>
-		<value column="Help" original="The Account Tab is used to define one or more accounts for a Bank.  Each account has a unique Account No and Currency.  The bank account organization is used for accounting.">La pestaña Cuenta es usada para definir una ó mas cuentas de un banco. Cada cuenta tiene un número de cuenta y una moneda.</value>
+		<value column="Help" original="The Account Tab is used to define one or more accounts for a Bank.  Each account has a unique Account No and Currency.  The bank account organization is used for accounting.">La pestaña Cuenta es usada para definir una o mas cuentas de un banco. Cada cuenta tiene un número de cuenta y una moneda.</value>
 	</row>
 	<row id="229" trl="Y">
 		<value column="Name" original="Withholding">Retención</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Withholding (Beta)">Definir Retención</value>
-		<value column="Help" original="The Withholding Tab defines any withholding information for this business partner.">La pestaña Retención define información sobre retenciones para este socio de negocio.</value>
+		<value column="Help" original="The Withholding Tab defines any withholding information for this business partner.">La pestaña Retención define información sobre retenciones para este tercero.</value>
 	</row>
 	<row id="230" trl="Y">
 		<value column="Name" original="Translation">Traducción</value>
@@ -666,7 +666,7 @@
 		<value column="Name" original="Version">Versión</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain price list versions">Mantener versiones de las listas de precio</value>
-		<value column="Help" original="Price lists are automatically created based on Product Purchasing Information and the Vendor Category Discount.&#10;The other alternative is to copy them from existing pricelists and the re-calculate them.&#10;You can also re-calculate the pricelist by referencing no pricelist or referencing the same pricelist.  If no base price list is selected, the Procuct Purchase records are used as reference.&#10;">Las listas de precios son creadas automáticamente basadas en información de compras de producto y descuento de proveedores. Otra alternativa para su creación es copiarlas de listas de precio existentes y recalcularlas. Es posible recalcularla en base a la misma lista ó no usar lista de precios para el recalculo.</value>
+		<value column="Help" original="Price lists are automatically created based on Product Purchasing Information and the Vendor Category Discount.&#10;The other alternative is to copy them from existing pricelists and the re-calculate them.&#10;You can also re-calculate the pricelist by referencing no pricelist or referencing the same pricelist.  If no base price list is selected, the Procuct Purchase records are used as reference.&#10;">Las listas de precios son creadas automáticamente basadas en información de compras de producto y descuento de proveedores. Otra alternativa para su creación es copiarlas de listas de precio existentes y recalcularlas. Es posible recalcularla en base a la misma lista o no usar lista de precios para el recalculo.</value>
 	</row>
 	<row id="239" trl="Y">
 		<value column="Name" original="Purchasing">Compras</value>
@@ -702,7 +702,7 @@
 		<value column="Name" original="Parameter">Parámetro</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Report Parameter">Parámetro del Informe</value>
-		<value column="Help" original="The Report Parameter Tab defines any parameters required to execute a report or process.">La pestaña de Parámetro de Informe define los parámetros requeridos para ejecutar un Informe ó proceso.</value>
+		<value column="Help" original="The Report Parameter Tab defines any parameters required to execute a report or process.">La pestaña de Parámetro de Informe define los parámetros requeridos para ejecutar un Informe o proceso.</value>
 	</row>
 	<row id="247" trl="Y">
 		<value column="Name" original="Parameter Translation">Traducción de Parámetro</value>
@@ -750,7 +750,7 @@
 		<value column="Name" original="Shipment">Entrega</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Shipments and Customer Returns">Entregas y devoluciones del cliente</value>
-		<value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments to a Customer or Returns from a Customer. ">La pestaña Entrega permite generar; mantener; entrar y procesar entregas a clientes ó devoluciones de clientes.</value>
+		<value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments to a Customer or Returns from a Customer. ">La pestaña Entrega permite generar; mantener; entrar y procesar entregas a clientes o devoluciones de clientes.</value>
 	</row>
 	<row id="258" trl="Y">
 		<value column="Name" original="Shipment Line">Línea de la Entrega</value>
@@ -762,7 +762,7 @@
 		<value column="Name" original="Move">Movimiento</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Enter Inventory Movement">Definir Movimiento</value>
-		<value column="Help" original="The Move Tab defines and identifies the movement of an item or items in inventory.">La pestaña Movimientos define e identifica el movimiento de un ítem ó de varios en el inventario.</value>
+		<value column="Help" original="The Move Tab defines and identifies the movement of an item or items in inventory.">La pestaña Movimientos define e identifica el movimiento de un ítem o de varios en el inventario.</value>
 	</row>
 	<row id="260" trl="Y">
 		<value column="Name" original="Move Line">Línea del Movimiento</value>
@@ -780,7 +780,7 @@
 		<value column="Name" original="Invoice">Factura</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Customer Invoice">Factura del Cliente</value>
-		<value column="Help" original="The Invoice Tab defines the parameters of an Invoice generated for a Business Partner.  It constitutes an accounts receivable.">La pestaña Factura define los parámetros de una factura generada para un socio de negocio. Constituye una cuenta por recibir (CXR).</value>
+		<value column="Help" original="The Invoice Tab defines the parameters of an Invoice generated for a Business Partner.  It constitutes an accounts receivable.">La pestaña Factura define los parámetros de una factura generada para un tercero. Constituye una cuenta por recibir (CXR).</value>
 	</row>
 	<row id="268" trl="Y">
 		<value column="Name" original="Level">Nivel</value>
@@ -798,7 +798,7 @@
 		<value column="Name" original="Invoice Line">Línea de la Factura</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Customer Invoice Line">Línea de Factura del Cliente</value>
-		<value column="Help" original="The Invoice Line Tab defines the individual items or charges on an Invoice.">La pestaña Línea de Factura define el ítem individual ó cargos adicionales de una factura.</value>
+		<value column="Help" original="The Invoice Line Tab defines the individual items or charges on an Invoice.">La pestaña Línea de Factura define el ítem individual o cargos adicionales de una factura.</value>
 	</row>
 	<row id="271" trl="Y">
 		<value column="Name" original="Invoice Tax">Impuesto de la Factura</value>
@@ -840,7 +840,7 @@
 		<value column="Name" original="Greeting">Saludo</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Greeting">Definir Saludo</value>
-		<value column="Help" original="The Greeting Tab defines the manner in which you will address business partners on documents.">La pestaña Saludo define la manera en la cual el saludo inicial será desplegado en los documentos del socio de negocio.</value>
+		<value column="Help" original="The Greeting Tab defines the manner in which you will address business partners on documents.">La pestaña Saludo define la manera en la cual el saludo inicial será desplegado en los documentos del tercero.</value>
 	</row>
 	<row id="283" trl="Y">
 		<value column="Name" original="Translation">Traducción</value>
@@ -870,13 +870,13 @@
 		<value column="Name" original="Invoice">Factura</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Vendor Invoice">Factura del Proveedor</value>
-		<value column="Help" original="The Invoice Tab defines the parameters of an Invoice generated by a Business Partner.  It constitutes an accounts payable.  When generating a Receipt, the receipt document type of the purchase is used - or if not used/defined the default Material Receipt Document type.">La pestaña Factura define los parámetros de una factura generada por un socio de negocio. Constituye una cuenta por pagar (CXP).</value>
+		<value column="Help" original="The Invoice Tab defines the parameters of an Invoice generated by a Business Partner.  It constitutes an accounts payable.  When generating a Receipt, the receipt document type of the purchase is used - or if not used/defined the default Material Receipt Document type.">La pestaña Factura define los parámetros de una factura generada por un tercero. Constituye una cuenta por pagar (CXP).</value>
 	</row>
 	<row id="291" trl="Y">
 		<value column="Name" original="Invoice Line">Línea de Factura</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Vendor Invoice Line">Línea de Factura del Proveedor</value>
-		<value column="Help" original="The Invoice Line Tab defines the individual items or charges on an Invoice.">La pestaña Línea de Factura define cada ítem ó cargo adicional de una factura.</value>
+		<value column="Help" original="The Invoice Line Tab defines the individual items or charges on an Invoice.">La pestaña Línea de Factura define cada ítem o cargo adicional de una factura.</value>
 	</row>
 	<row id="292" trl="Y">
 		<value column="Name" original="Invoice Tax">Impuesto de Factura</value>
@@ -906,7 +906,7 @@
 		<value column="Name" original="Material Receipt">Recibo de Material</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Enter Receipts and Vendor Returns">Generar recibos y devoluciones del proveedor</value>
-		<value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments from a Vendor or Returns to a Vendor. ">La pestaña de despachos permite generar; mantener; entrar y procesar despachos de un proveedor ó devoluciones al proveedor.</value>
+		<value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments from a Vendor or Returns to a Vendor. ">La pestaña de despachos permite generar; mantener; entrar y procesar despachos de un proveedor o devoluciones al proveedor.</value>
 	</row>
 	<row id="297" trl="Y">
 		<value column="Name" original="Receipt Line">Línea del Recibo</value>
@@ -972,7 +972,7 @@
 		<value column="Name" original="Report Access">Acceso a Informe</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Report Access">Acceso a Informe</value>
-		<value column="Help" original="The Report Access Tab determines who can access a report or process">La pestaña Acceso de Informes determina quien puede tener acceso a un Informe ó proceso</value>
+		<value column="Help" original="The Report Access Tab determines who can access a report or process">La pestaña Acceso de Informes determina quien puede tener acceso a un Informe o proceso</value>
 	</row>
 	<row id="309" trl="Y">
 		<value column="Name" original="Access">Acceso</value>
@@ -1020,13 +1020,13 @@
 		<value column="Name" original="Format Field">Campo de Formato</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Format Fields">Mantener Campos de Formato</value>
-		<value column="Help" original="Define the individual field based on the table definition.  Please note that you have to make sure that a Constant has the correct  SQL data type (i.e. if it is a 'string', you need to enclose it like 'this').&#10;&lt;p&gt;Product mapping (for details see documentation):&#10;&lt;pre&gt;&#10;H_Item =&gt; Value&#10;H_ItemDesc =&gt; Name / Description&#10;H_ItemDefn =&gt; Help&#10;H_ItemType =&gt; ProductCategory&#10;H_PartnrID =&gt; Value of Business Partner&#10;H_Commodity1 =&gt; Vendor Product No&#10;H_Commodity2 =&gt; SKU&#10;H_ItemClass =&gt; Classification (A,B,C..)&#10;V_OperAmt_T_Cur =&gt; Currency&#10;V_OperAmt_T =&gt; Price &#10;&lt;/pre&gt;">Define los Campos individuales basado en la definición de la tabla. Asegúrese que una constante tenga el tipo de dato SQL correcto. (ej. Si es una cadena de texto; esta debe estar entre apóstrofes como `estos`).  &lt;p&gt; Traz del Producto (Para los detalles vea la documentación): &lt;pre&gt; H_Item =&gt; Valor H_ItemDesc =&gt; Nombre / Descripción; H_ItemDefn =&gt; Help H_Item Tipo =&gt; Categoria de Producto H_PartnrID =&gt; Valor de Socios de Negocio H_Commodity1 =&gt; Vendor Product No H_Commodity2 =&gt; SKU H_ItemClass =&gt; Clasificación (A;B;C..) V_OperAmt_T_Cur =&gt; Currency V_OperAmt_T =&gt; Precio  &lt;/pre&gt;</value>
+		<value column="Help" original="Define the individual field based on the table definition.  Please note that you have to make sure that a Constant has the correct  SQL data type (i.e. if it is a 'string', you need to enclose it like 'this').&#10;&lt;p&gt;Product mapping (for details see documentation):&#10;&lt;pre&gt;&#10;H_Item =&gt; Value&#10;H_ItemDesc =&gt; Name / Description&#10;H_ItemDefn =&gt; Help&#10;H_ItemType =&gt; ProductCategory&#10;H_PartnrID =&gt; Value of Business Partner&#10;H_Commodity1 =&gt; Vendor Product No&#10;H_Commodity2 =&gt; SKU&#10;H_ItemClass =&gt; Classification (A,B,C..)&#10;V_OperAmt_T_Cur =&gt; Currency&#10;V_OperAmt_T =&gt; Price &#10;&lt;/pre&gt;">Define los Campos individuales basado en la definición de la tabla. Asegúrese que una constante tenga el tipo de dato SQL correcto. (ej. Si es una cadena de texto; esta debe estar entre apóstrofes como `estos`). &lt;p&gt; Traza del Producto (Para los detalles vea la documentación): &lt;pre&gt; H_Item =&gt; Valor H_ItemDesc =&gt; Nombre / Descripción; H_ItemDefn =&gt; Help H_Item Tipo =&gt; Categoria de Producto H_PartnrID =&gt; Valor de Terceros H_Commodity1 =&gt; Vendor Product No H_Commodity2 =&gt; SKU H_ItemClass =&gt; Clasificación (A;B;C..) V_OperAmt_T_Cur =&gt; Currency V_OperAmt_T =&gt; Precio &lt;/pre&gt;</value>
 	</row>
 	<row id="317" trl="Y">
 		<value column="Name" original="Bill of Materials">Lista de Materiales</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Bill of Material product lines">Lista de Materiales de líneas de producto</value>
-		<value column="Help" original="The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.&#10;&#10;Available Quantity:&#10;- Stored BOMs have to be created via &quot;Production&quot;&#10;- The available quantity of a non-stored BOMs is dynamically calculated&#10;- The attribute &quot;Stored&quot; is defined in the &quot;Product&quot; tab&#10;&#10;Price:&#10;- BOMs must be listed in Pricelists&#10;- If the price is 0.00, the price is dynamically calculated&#10;&#10;Printing:&#10;- Usually, only the BOM information is printed&#10;- For invoices, delivery slips and pick lists, you have the option to print the details&#10;- In the details, the quantity is listed - and the price, if this is dynamically calculated&#10;">La pestaña Lista de Matriales define aquellos productos que son generados a partir de otros productos. Una lista de materialess (LDM) consta de uno ó más productos ó LDM`s. Cantidad Disponible: 1. LDM almacenadas tienen que ser creadas via producción. 2. La cantidad disponible de una LDM que no se almacena es calculada dinámicamente. 3. El atributo `Almacenada` que califica a una LDM es definida en la pestaña Producto. Precio: 1. LDM tienen que estar enlistadas en listas de precios. 2. Si el precio es 0.00; el precio es calculado dinámicamente como la suma del precio de cada ítem que compone la LDM. Impresión: 1. Usualmente; solo la información de la LDM es impresa. 2. Para facturas; boletas de despacho y boletas de recolección; se tiene la opción de imprimir los detalles. 3. En los detalles; la cantidad es listada y también el precio si este es calculado dinámicamente.</value>
+		<value column="Help" original="The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.&#10;&#10;Available Quantity:&#10;- Stored BOMs have to be created via &quot;Production&quot;&#10;- The available quantity of a non-stored BOMs is dynamically calculated&#10;- The attribute &quot;Stored&quot; is defined in the &quot;Product&quot; tab&#10;&#10;Price:&#10;- BOMs must be listed in Pricelists&#10;- If the price is 0.00, the price is dynamically calculated&#10;&#10;Printing:&#10;- Usually, only the BOM information is printed&#10;- For invoices, delivery slips and pick lists, you have the option to print the details&#10;- In the details, the quantity is listed - and the price, if this is dynamically calculated&#10;">La pestaña Lista de Matriales define aquellos productos que son generados a partir de otros productos. Una lista de materialess (LDM) consta de uno o más productos o LDM`s. Cantidad Disponible: 1. LDM almacenadas tienen que ser creadas via producción. 2. La cantidad disponible de una LDM que no se almacena es calculada dinámicamente. 3. El atributo `Almacenada` que califica a una LDM es definida en la pestaña Producto. Precio: 1. LDM tienen que estar enlistadas en listas de precios. 2. Si el precio es 0.00; el precio es calculado dinámicamente como la suma del precio de cada ítem que compone la LDM. Impresión: 1. Usualmente; solo la información de la LDM es impresa. 2. Para facturas; boletas de despacho y boletas de recolección; se tiene la opción de imprimir los detalles. 3. En los detalles; la cantidad es listada y también el precio si este es calculado dinámicamente.</value>
 	</row>
 	<row id="319" trl="Y">
 		<value column="Name" original="Production Header">Encabezado de Producción</value>
@@ -1047,16 +1047,16 @@
 		<value column="Help" original="The Production Line Tab displays the actual movements in and out of inventory generated by a Production Plan.">La pestaña Línea de Producción despliega los movimientos de ingreso y egreso reales de inventario que fueron generados por un plan de producción.</value>
 	</row>
 	<row id="322" trl="Y">
-		<value column="Name" original="Business Partner Group">Grupo de Socio de Negocio</value>
+		<value column="Name" original="Business Partner Group">Grupo de Tercero</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner Groups for Reporting Accounting Defaults">Grupos de socios de negocio para predeterminados de Informes de contabilidad</value>
-		<value column="Help" original="The Business Partner Group Tab allow for the association of business partners for reporting and accounting defaults.">La pestaña grupo de socios de negocio permite el agrupamiento de socios de negocio para que compartan valores predeterminados en Informes y contabilidad.</value>
+		<value column="Description" original="Business Partner Groups for Reporting Accounting Defaults">Grupos de terceros para predeterminados de Informes de contabilidad</value>
+		<value column="Help" original="The Business Partner Group Tab allow for the association of business partners for reporting and accounting defaults.">La pestaña grupo de terceros permite el agrupamiento de terceros para que compartan valores predeterminados en Informes y contabilidad.</value>
 	</row>
 	<row id="323" trl="Y">
 		<value column="Name" original="Accounting">Contabilidad</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Accounting">Definir Contabilidad</value>
-		<value column="Help" original="The Accounting Tab defines the default accounts for any business partner that references this group.  These default values can be modified for each business partner if required.">La pestaña Contabilidad define las cuentas predeterminadas para cualquier socio de negocio que pertenezca a este grupo.</value>
+		<value column="Help" original="The Accounting Tab defines the default accounts for any business partner that references this group.  These default values can be modified for each business partner if required.">La pestaña Contabilidad define las cuentas predeterminadas para cualquier tercero que pertenezca a este grupo.</value>
 	</row>
 	<row id="324" trl="Y">
 		<value column="Name" original="Accounting">Contabilidad</value>
@@ -1092,13 +1092,13 @@
 		<value column="Name" original="Statement Line">Línea Edo. de Cuentas</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Statement Line">Línea del Estado de Cuentas</value>
-		<value column="Help" original="The Statement Line Tab defines the individual line items on the Bank Statement.  They can be entered manually or generated from payments entered.&#10;&lt;br&gt;For Posting, the bank account organization is used, if it is not a charge.">La pestaña Línea Edo. de Cuentas define las líneas individuales en el Estado de Cuentas bancario. Las líneas pueden ser introducidas manualmente ó generadas desde entradas de pagos.</value>
+		<value column="Help" original="The Statement Line Tab defines the individual line items on the Bank Statement.  They can be entered manually or generated from payments entered.&#10;&lt;br&gt;For Posting, the bank account organization is used, if it is not a charge.">La pestaña Línea Edo. de Cuentas define las líneas individuales en el Estado de Cuentas bancario. Las líneas pueden ser introducidas manualmente o generadas desde entradas de pagos.</value>
 	</row>
 	<row id="330" trl="Y">
 		<value column="Name" original="Payment">Pago</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Payment or Receipt">Pago</value>
-		<value column="Help" original="Enter payment or receipt for a Business Partner.  If it is for a single invoice it can be allocated directly to that invoice using this screen. You can also apply over/under payments:&lt;br&gt;&#10;You have an over-payment, if you received more money than due for a single invoice. Instead of writing the difference off (i.e. would be a gain), you can leave the amount unallocated and use it for later invoices or credit memos. Please note that the Amount is the payment amount, so you need to enter the over-payment as a negative amount.&lt;br&gt;&#10;You can also receive a partial payment (under-payment). If you decide not to write off the remaining invoice amount, enter the under-payment as a positive amount.&lt;br&gt;&#10;Note that printed payments are archived in Payment Selection (Prepared Payment).&#10;&lt;br&gt;For Posting, the bank account organization is used, if it is not a charge.">La pestaña Pagos define un pago hecho por un Socio de Negocio. Si el pago es para una sola factura; éste puede ser asignado a esa factura directamente usando esta pantalla. También es posible aplicar sobre/sub pagos; se tiene un sobrepago si se ha recibido más dinero que la que se debía por la factura. En lugar de eliminar la diferencia (ej. Volviendola una ganancia); es posible dejar el Total sin asignar y usarlo con futuras facturas ó cartas de crédito. Note que el Total es el Total pagado por lo tanto sobrepagos deben ser entrados como Totales negativos. Es posible también recibir un pago parcial (sub pago). Si se decide no eliminar el pago faltante; entre el sub pago como un Total positivo.</value>
+		<value column="Help" original="Enter payment or receipt for a Business Partner.  If it is for a single invoice it can be allocated directly to that invoice using this screen. You can also apply over/under payments:&lt;br&gt;&#10;You have an over-payment, if you received more money than due for a single invoice. Instead of writing the difference off (i.e. would be a gain), you can leave the amount unallocated and use it for later invoices or credit memos. Please note that the Amount is the payment amount, so you need to enter the over-payment as a negative amount.&lt;br&gt;&#10;You can also receive a partial payment (under-payment). If you decide not to write off the remaining invoice amount, enter the under-payment as a positive amount.&lt;br&gt;&#10;Note that printed payments are archived in Payment Selection (Prepared Payment).&#10;&lt;br&gt;For Posting, the bank account organization is used, if it is not a charge.">La pestaña Pagos define un pago hecho por un Tercero. Si el pago es para una sola factura; éste puede ser asignado a esa factura directamente usando esta pantalla. También es posible aplicar sobre/sub pagos; se tiene un sobrepago si se ha recibido más dinero que la que se debía por la factura. En lugar de eliminar la diferencia (ej. Volviendola una ganancia); es posible dejar el Total sin asignar y usarlo con futuras facturas o cartas de crédito. Note que el Total es el Total pagado por lo tanto sobrepagos deben ser entrados como Totales negativos. Es posible también recibir un pago parcial (sub pago). Si se decide no eliminar el pago faltante; entre el sub pago como un Total positivo.</value>
 	</row>
 	<row id="331" trl="Y">
 		<value column="Name" original="Accounting">Contabilidad</value>
@@ -1128,18 +1128,18 @@
 		<value column="Name" original="Custom Attribute">Atributo Personalizado</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Custom Attribute">Definir Atributo Personalizado</value>
-		<value column="Help" original="The Custom Attribute Tab defines additional attributes or information for a product or entity.">La pestaña Atributos Personalizados define atributos ó información adicional para un producto ó entidad.</value>
+		<value column="Help" original="The Custom Attribute Tab defines additional attributes or information for a product or entity.">La pestaña Atributos Personalizados define atributos o información adicional para un producto o entidad.</value>
 	</row>
 	<row id="336" trl="Y">
-		<value column="Name" original="Cashbook">Libro de Efectivo</value>
+		<value column="Name" original="Cashbook">Caja Menor</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain Cashbook">Mantener Libro de Efectivo</value>
-		<value column="Help" original="The Cashbook Tab defines a unique cashbook for an organization.">La pestaña Libro de Efectivo define un libro de efectivo para una organización.</value>
+		<value column="Description" original="Maintain Cashbook">Mantener Caja Menor</value>
+		<value column="Help" original="The Cashbook Tab defines a unique cashbook for an organization.">La pestaña Caja Menor define un libro de efectivo para una organización.</value>
 	</row>
 	<row id="337" trl="Y">
 		<value column="Name" original="Accounting">Contabilidad</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Cashbook Accounting">Contabilidad del Libro de Efectivo</value>
+		<value column="Description" original="Cashbook Accounting">Contabilidad de Caja Menor</value>
 		<value column="Help" original="The Cashbook Accounting Tab defines the accounting parameters for transaction involving a cashbook.">La pestaña Contabilidad del Libro de Efectivo define los parámetros contables para las transacciones que involucren un libro de efectivo.</value>
 	</row>
 	<row id="338" trl="Y">
@@ -1176,7 +1176,7 @@
 		<value column="Name" original="Request">Solicitud</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Request">Definir Solicitudes</value>
-		<value column="Help" original="The Request Tab defines any Request submitted by a Business Partner or internally.">La pestaña Solicitud define una solicitud enviada por un socio de negocio.</value>
+		<value column="Help" original="The Request Tab defines any Request submitted by a Business Partner or internally.">La pestaña Solicitud define una solicitud enviada por un tercero.</value>
 	</row>
 	<row id="346" trl="Y">
 		<value column="Name" original="Request Processor">Procesador de Solicitudes</value>
@@ -1230,13 +1230,13 @@
 		<value column="Name" original="Commission">Comisión</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Commission Rule">Definir Reglas de Comisiones</value>
-		<value column="Help" original="Define when to pay a commission to whom.  For each period, you start the calculation of the commission after the transaction for that period are completed or closed.">Define cuando pagar una Comisión y a quien. Para cada período; el calculo de la comisión comienza después que las transacciones de ese período están completas ó cerradas.</value>
+		<value column="Help" original="Define when to pay a commission to whom.  For each period, you start the calculation of the commission after the transaction for that period are completed or closed.">Define cuando pagar una Comisión y a quien. Para cada período; el calculo de la comisión comienza después que las transacciones de ese período están completas o cerradas.</value>
 	</row>
 	<row id="356" trl="Y">
 		<value column="Name" original="Commission Line">Línea de Comisión</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define your commission calculation rule">Definir reglas de cálculo de comisiones</value>
-		<value column="Help" original="Define the selection criteria for paying the commission. If you do not enter restricting parameters (e.g. for specific Business Partner (Groups) or Product (Categories), etc. all transactions for the period will be used to calculate the commission.&#10;&#10;After converting from the transaction to the commission currency,&#10;the formula for calculating the commission is:&#10;&#10;(Converted Amount - Subtract Amount) * Amount Multiplier&#10;+ (Actual Quantity - Subtract Quantity) * Quantity Multiplier&#10;&#10;You can choose, that only positive amounts (Converted Amount - Subtract Amount) and positive quantities (Actual Quantity - Subtract Quantity) are used in the calculation.">Definir los criterios de selección para el pago de comisiones. Si no se entran parámetros restrictivos (ej. Para Socios de Negocio específicos (grupos) ó productos (Categorías); etc. todas las transacciones para el período serán usadas para el calculo de la comisión. Después de convertir de la moneda de la transacción a la moneda de pago de la comisión; la formula para calcular la comisión es: (Total Convertido - Total a Sustraer) * Multiplicador Total + (Cantidad Real - Cantidad a Sustraer) * Multiplicador Cantidad. Es posible escoger; que solo Totales positivos (Total Convertido - Total a Sustraer) y cantidades positivas (Cantidad Real - Cantidad a Sustraer) sean usadas en el calculo.</value>
+		<value column="Help" original="Define the selection criteria for paying the commission. If you do not enter restricting parameters (e.g. for specific Business Partner (Groups) or Product (Categories), etc. all transactions for the period will be used to calculate the commission.&#10;&#10;After converting from the transaction to the commission currency,&#10;the formula for calculating the commission is:&#10;&#10;(Converted Amount - Subtract Amount) * Amount Multiplier&#10;+ (Actual Quantity - Subtract Quantity) * Quantity Multiplier&#10;&#10;You can choose, that only positive amounts (Converted Amount - Subtract Amount) and positive quantities (Actual Quantity - Subtract Quantity) are used in the calculation.">Definir los criterios de selección para el pago de comisiones. Si no se entran parámetros restrictivos (ej. Para Terceros específicos (grupos) o productos (Categorías); etc. todas las transacciones para el período serán usadas para el calculo de la comisión. Después de convertir de la moneda de la transacción a la moneda de pago de la comisión; la formula para calcular la comisión es: (Total Convertido - Total a Sustraer) * Multiplicador Total + (Cantidad Real - Cantidad a Sustraer) * Multiplicador Cantidad. Es posible escoger; que solo Totales positivos (Total Convertido - Total a Sustraer) y cantidades positivas (Cantidad Real - Cantidad a Sustraer) sean usadas en el calculo.</value>
 	</row>
 	<row id="358" trl="Y">
 		<value column="Name" original="Project Cycle">Ciclo de Proyecto</value>
@@ -1290,7 +1290,7 @@
 		<value column="Name" original="Performance Measure Calculation">Cálculo de Medida de Desempeño</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain your Performance Measure Calculation">Mantener Cálculo de Medida de Desempeño</value>
-		<value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. See examples.&lt;br&gt;&#10;The SELECT definition must contain the SELECT and FROM keywords in upper case, the WHERE definition must contain the WHERE keyword in upper case.  The main table must not have an alias!  The WHERE clause can only contain values of the main table (e.g. when selecting from Header and lines, only header variables can be used in the where clause) and be fully qualified if there is more then one table. ">El Calculo de Medición del Desempeño define como la medida de desempeño se calcula. Por favor probar el comando en SQL*Plus primero. El Select necesita regresar un solo valor! Cualquier restricción de rango de fecha; organizaciones; socios de negocio; productos debe ser hecha via la ventana `Medida de desempeño`. Este es un calculo genérico. Como este tema es algo técnico; el sistema viene con algunos ejemplos predefinidos.</value>
+		<value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. See examples.&lt;br&gt;&#10;The SELECT definition must contain the SELECT and FROM keywords in upper case, the WHERE definition must contain the WHERE keyword in upper case.  The main table must not have an alias!  The WHERE clause can only contain values of the main table (e.g. when selecting from Header and lines, only header variables can be used in the where clause) and be fully qualified if there is more then one table. ">El Calculo de Medición del Desempeño define como la medida de desempeño se calcula. Por favor probar el comando en SQL*Plus primero. El Select necesita regresar un solo valor! Cualquier restricción de rango de fecha; organizaciones; terceros; productos debe ser hecha via la ventana `Medida de desempeño`. Este es un calculo genérico. Como este tema es algo técnico; el sistema viene con algunos ejemplos predefinidos.</value>
 	</row>
 	<row id="370" trl="Y">
 		<value column="Name" original="Achievement">Logro del Desempeño</value>
@@ -1344,7 +1344,7 @@
 		<value column="Name" original="Revenue Recognition Plan">Plan de Reconocimiento de Ingresos</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="View Revenue Recognition Plan">Ver plan de reconocimiento de ingresos</value>
-		<value column="Help" original="The Revenue Recognition plan is generated then invoicing a product with revenue recognition.  With Revenue Recognition, the amount is posted to the Unrecognized revenue and over time or based on Service Level booked to Earned Revenue.">El plan de reconocimiento de ingresos es generado cuando se factura por un producto que tenga reconocimiento de ingresos. Con reconocimiento de ingresos; el Total es registrado en libros como Ingresos sin reconocer y a través del tiempo ó basado en el nivel de servicio; se registra como Ingreso Ganado.</value>
+		<value column="Help" original="The Revenue Recognition plan is generated then invoicing a product with revenue recognition.  With Revenue Recognition, the amount is posted to the Unrecognized revenue and over time or based on Service Level booked to Earned Revenue.">El plan de reconocimiento de ingresos es generado cuando se factura por un producto que tenga reconocimiento de ingresos. Con reconocimiento de ingresos; el Total es registrado en libros como Ingresos sin reconocer y a través del tiempo o basado en el nivel de servicio; se registra como Ingreso Ganado.</value>
 	</row>
 	<row id="379" trl="Y">
 		<value column="Name" original="Revenue Recognition Run">Cálculo de Reconocimiento de Ingresos</value>
@@ -1464,7 +1464,7 @@
 		<value column="Name" original="Request">Solicitud</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Request">Definir Solicitudes</value>
-		<value column="Help" original="The Request Tab defines any Request submitted by a Business Partner or internally.">La pestaña Solicitud define las solicitudes enviadas por un socio de negocio.</value>
+		<value column="Help" original="The Request Tab defines any Request submitted by a Business Partner or internally.">La pestaña Solicitud define las solicitudes enviadas por un tercero.</value>
 	</row>
 	<row id="403" trl="Y">
 		<value column="Name" original="History">Historia de Acciones</value>
@@ -1481,7 +1481,7 @@
 	<row id="405" trl="Y">
 		<value column="Name" original="Schema Line">Linea de esquema</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Trade Discount Price List Lines">Comerciar lista de lineas  de precios de descuento</value>
+		<value column="Description" original="Trade Discount Price List Lines">Comerciar lista de lineas de precios de descuento</value>
 		<value column="Help" original="Pricelists are created based on Product Purchase and Category Discounts.&#10;The parameters listed here allow to copy and calculate pricelists.&lt;BR&gt;&#10;The calculation:&#10;&lt;UL&gt;&#10;&lt;LI&gt;Copy and convert price from referenced price list&#10;&lt;LI&gt;result plus Surcharge Amount&#10;&lt;LI&gt;result minus Discount&#10;&lt;LI&gt;if resulting price is less than the original limit price plus min Margin, use this price (only if Margin is not zero)&#10;&lt;LI&gt;if resulting price is more than the original limit price plus max Margin, use this price (only if Margin us not zero)&#10;&lt;LI&gt;Round resulting price&#10;&lt;/UL&gt;&#10;&lt;B&gt;The Formula&lt;/B&gt; is&lt;BR&gt;&#10;NewPrice = (Convert(BasePrice) + Surcharge) * (100-Discount) / 100;&lt;BR&gt;&#10;if MinMargin &lt;&gt; 0 then NewPrice = Max (NewPrice, Convert(OrigLimitPrice) + MinMargin);&lt;BR&gt;&#10;if MaxMargin &lt;&gt; 0 then NewPrice = Min (NewPrice, Convert(OrigLimitPrice) + MaxMargin);&lt;BR&gt;&#10; &lt;BR&gt;&#10;&lt;B&gt;Example:&lt;/B&gt; (assuming same currency)&lt;BR&gt;&#10;Original Prices:  List=300, Standard=250, Limit=200;&lt;BR&gt;&#10;New List Price: Base=List, Surcharge=0, Discount=0, Round">Las listas de precios son creada en base a la compra de un producto y los descuentos por categoria.
 Los parametros listados aqui permiten copiar y calcular una lista de precios.&lt;BR&gt;
 El calculo:
@@ -1489,7 +1489,7 @@ El calculo:
 &lt;LI&gt;Copia y conversion de precio desde la referente lista de precios.
 &lt;LI&gt;resultado  mas cantidad de recargo
 &lt;LI&gt;resultado menos descuento
-&lt;LI&gt;si el precio resultante es menor que el precio limite mas en margen minimo , Use el precio (Solo si el margen no es cero)
+&lt;LI&gt;si el precio resultante es menor que el precio limite mas en margen minimo, Use el precio (Solo si el margen no es cero)
 &lt;LI&gt;Si el precio resultante es mayor que  el precio limite orginal mas el margen maximo, use este precio (solo si el margen no es cero)
 &lt;LI&gt;Redondear el precio resultante
 &lt;/UL&gt;
@@ -1653,9 +1653,9 @@ Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="431" trl="Y">
-		<value column="Name" original="Customer">Socio de Negocio</value>
+		<value column="Name" original="Customer">Tercero</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner (Customers) to be invoiced">Socio de Negocio a ser facturado</value>
+		<value column="Description" original="Business Partner (Customers) to be invoiced">Tercero a ser facturado</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="432" trl="Y">
@@ -1697,13 +1697,13 @@ Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 	<row id="438" trl="Y">
 		<value column="Name" original="Interest Area">Area de Interés</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Interest Area or Topic">Área de Interés ó Tópico</value>
+		<value column="Description" original="Interest Area or Topic">Área de Interés o Tópico</value>
 		<value column="Help" original="Interest Areas reflect interest in a topic by a contact. Interest areas can be used for marketing campaigns. If a list is not &quot;Self Service&quot;, it is not visible for users via the web.">Áreas de interés reflejan el interés en un tópico de parte de un contacto. Áreas de interés pueden ser usadas para las campañas de mercadeo.</value>
 	</row>
 	<row id="439" trl="Y">
 		<value column="Name" original="Interest Area">Area de Interés</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner Contact Interest Area">Área de Interés del Contacto del Socio de Negocio</value>
+		<value column="Description" original="Business Partner Contact Interest Area">Área de Interés del Contacto del Tercero</value>
 		<value column="Help" original="Interest Area can be used for Marketing Campaigns">Área de Interés puede ser usada para las campañas de mercadeo.</value>
 	</row>
 	<row id="440" trl="Y">
@@ -1713,7 +1713,7 @@ Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 		<value column="Help" original="Common System Definition.">Definición de sistema común. No crea registros adicionales.</value>
 	</row>
 	<row id="441" trl="Y">
-		<value column="Name" original="Import Business Partner">Importar Socios de Negocio</value>
+		<value column="Name" original="Import Business Partner">Importar Terceros</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
@@ -1722,7 +1722,7 @@ Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 		<value column="Name" original="Import Product">Importar Productos</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Import Products">Importar Productos</value>
-		<value column="Help" original="Before importing, Adempiere checks the Unit of Measure (default if not set), the Product Category (default if not set), the Business Partner, the Currency (defaults to accounting currency if not set), the Product Type (only Items and Services), the uniqueness of UPC, Key and uniqueness and existence of the Vendor Product No.&lt;br&gt;&#10;Adempiere tries to map to existing products, if the UPC, the Key and the Vendor Product No matches (in this sequence). If the imported record could be matched, product field values will only be overwritten, if the corresponding  Import field is explicitly defined.  Example: the Product Category will only be overwritten if explicitly set in the Import.">Antes de importar, Adempiere comprueba la unidad de la medida (por default si no es fijado), La categoria del producto (por default si no es fijado), El socio de negocio, la moneda (Por default la moneda de la contabilidad si no es fijada), El tipo de producto (solamente artículos y servicios), los únicos de UPC, llave y existencia de el No. de producto.&lt;br&gt;
+		<value column="Help" original="Before importing, Adempiere checks the Unit of Measure (default if not set), the Product Category (default if not set), the Business Partner, the Currency (defaults to accounting currency if not set), the Product Type (only Items and Services), the uniqueness of UPC, Key and uniqueness and existence of the Vendor Product No.&lt;br&gt;&#10;Adempiere tries to map to existing products, if the UPC, the Key and the Vendor Product No matches (in this sequence). If the imported record could be matched, product field values will only be overwritten, if the corresponding  Import field is explicitly defined.  Example: the Product Category will only be overwritten if explicitly set in the Import.">Antes de importar, Adempiere comprueba la unidad de la medida (por default si no es fijado), La categoria del producto (por default si no es fijado), El tercero, la moneda (Por default la moneda de la contabilidad si no es fijada), El tipo de producto (solamente artículos y servicios), los únicos de UPC, llave y existencia de el No. de producto.&lt;br&gt;
 Adempiere intenta para el mapa de los productos existentes, si el UPC, La llave y el vendedor del producto no siguen (en esta secuencia). Si el expediente importado podría ser emparejado, los valores del campo del producto serán sobreescritos solamente, si el campo correspondiente de la importación se define explícitamente. Ejemplo: la categoría del producto será sobreescrita solamente si está fijada explícitamente en la importación.</value>
 	</row>
 	<row id="443" trl="Y">
@@ -1771,13 +1771,13 @@ Adempiere intenta para el mapa de los productos existentes, si el UPC, La llave 
 		<value column="Name" original="Asset">Activo</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Asset used internally or by customers">Activo de un Cliente usado internamente</value>
-		<value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.">Un activo es creado comprando ó entregando un producto. Un activo puede ser utilizado internamente ó ser un activo del cliente.</value>
+		<value column="Help" original="An asset is either created by purchasing or by delivering a product.  An asset can be used internally or be a customer asset.">Un activo es creado comprando o entregando un producto. Un activo puede ser utilizado internamente o ser un activo del cliente.</value>
 	</row>
 	<row id="451" trl="Y">
 		<value column="Name" original="Delivery">Entrega</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Delivery or availability">Entrega ó disponibilidad</value>
-		<value column="Help" original="Record of delivery or availability">Registro de la entrega ó disponibilidad</value>
+		<value column="Description" original="Delivery or availability">Entrega o disponibilidad</value>
+		<value column="Help" original="Record of delivery or availability">Registro de la entrega o disponibilidad</value>
 	</row>
 	<row id="452" trl="Y">
 		<value column="Name" original="Asset Group">Grupo de Activo</value>
@@ -1786,7 +1786,7 @@ Adempiere intenta para el mapa de los productos existentes, si el UPC, La llave 
 		<value column="Help" original="The group of assets determines default accounts.  If a asset group is selected in the product category, assets are created when delivering the asset.">El grupo de activos determina cuentas por default. Si un grupo del activo se selecciona en la categoría del producto, se crean los activos al entregar el activo</value>
 	</row>
 	<row id="453" trl="Y">
-		<value column="Name" original="Training">Entrenamiento </value>
+		<value column="Name" original="Training">Entrenamiento</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Repeated Training">Entrenamiento repetido</value>
 		<value column="Help" original="The training may have multiple actual classes. New Classes are created here.">El entrenamiento puede tener clases reales múltiples. Las nuevas clases se crean aquí.</value>
@@ -1794,14 +1794,14 @@ Adempiere intenta para el mapa de los productos existentes, si el UPC, La llave 
 	<row id="454" trl="Y">
 		<value column="Name" original="Class">Clase</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="The actual training class instance">El Actual </value>
+		<value column="Description" original="The actual training class instance">El Actual</value>
 		<value column="Help" original="A scheduled class">Un Programador de Clase</value>
 	</row>
 	<row id="456" trl="Y">
-		<value column="Name" original="Employee, Vendor">Socio de Negocio</value>
+		<value column="Name" original="Employee, Vendor">Tercero</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner to be reimbursed">Socio de Negocio para el reembolso</value>
-		<value column="Help" original="Select the business partner to be reimbursed.">Selecciona un socio de negocio para el reembolso</value>
+		<value column="Description" original="Business Partner to be reimbursed">Tercero para el reembolso</value>
+		<value column="Help" original="Select the business partner to be reimbursed.">Selecciona un tercero para el reembolso</value>
 	</row>
 	<row id="457" trl="Y">
 		<value column="Name" original="Report Line">Línea de Informe</value>
@@ -1908,14 +1908,14 @@ Adempiere intenta para el mapa de los productos existentes, si el UPC, La llave 
 	<row id="474" trl="Y">
 		<value column="Name" original="Translation">Traducción</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Print Label Line Translation">Traducción de la Línea de Impresión de la Etiqueta </value>
+		<value column="Description" original="Print Label Line Translation">Traducción de la Línea de Impresión de la Etiqueta</value>
 		<value column="Help" original="Maintain the translation for Label Line formats">Mantener la traducción para los formatos de la línea de etiqueta.</value>
 	</row>
 	<row id="475" trl="Y">
 		<value column="Name" original="Session Audit">Sesión</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="List of User Sessions">Lista de sesiones de usuario</value>
-		<value column="Help" original="History of Online or Web Sessions">Historia de la línea ó sesiones de la Web</value>
+		<value column="Help" original="History of Online or Web Sessions">Historia de la línea o sesiones de la Web</value>
 	</row>
 	<row id="476" trl="Y">
 		<value column="Name" original="Project Type">Tipo de Proyecto</value>
@@ -2029,8 +2029,8 @@ Un inventario físico se crea por fecha del almacén y del movimiento.</value>
 	<row id="496" trl="Y">
 		<value column="Name" original="Contact (User)">Contacto (Usuario)</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain User within the system - Internal or Business Partner Contact">Mantenga a usuario dentro del sistema - interno ó del contacto del socio de negocio</value>
-		<value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">El usuario identifica a un usuario único en el sistema. Esto podía ser un usuario interno ó un contacto del socio de negocio</value>
+		<value column="Description" original="Maintain User within the system - Internal or Business Partner Contact">Mantenga a usuario dentro del sistema - interno o del contacto del tercero</value>
+		<value column="Help" original="The User identifies a unique user in the system. This could be an internal user or a business partner contact">El usuario identifica a un usuario único en el sistema. Esto podía ser un usuario interno o un contacto del tercero</value>
 	</row>
 	<row id="497" trl="Y">
 		<value column="Name" original="Click">Click</value>
@@ -2102,14 +2102,14 @@ Un inventario físico se crea por fecha del almacén y del movimiento.</value>
 		<value column="Name" original="General Ledger">Libro Mayor General</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Import General Ledger">Importación del libro mayor general</value>
-		<value column="Help" original="A new Journal Batch is created, if the Batch Document No or accounting schema are different. A new Journal is created, if the Document No, Currency, Document Type, GL Category, Posting Type or Accounting type is different. You can also force the creation of a new Batch or Jornal by selecting the creat new flag.&lt;p&gt;&#10;Please note that there are three Organization Fields: The Document Organization is the owner of the document and set directly or per parameter default. The Organization is part of the accounting key and only required id no Valid Account Comination is specified; If not defined it is derived from the Document Organization. The Transaction Organization is part of the account combination.&lt;br&gt;&#10;The optional balance check applies to the entire import, not for individual batches or journals.&#10;&lt;br&gt;The document numbers will be overwritten if the document type is not set to manual sequences.">Una nueva jornada de diario es creado, si el documento de la jornada no es diferente. Una nueva jornada es creada, si el No. de documento,esquema de la contabilidad, moneda, tipo de documento, Categoria GL, Fijando el tipo ó el tipo de contabilidad es diferente.&lt;p &gt;
-Observe por favor que hay tres campos de la organización: La organización del documento es el dueño del documento y del sistema directamente ó por default del parámetro . La organización es parte de la llave de la contabilidad y solamente se especifica la identificación requerida ninguna combinación de cuenta válida; Si no esta definido se deriva de la organización del documento. La organización de la transacción es parte de la combinación de la cuenta.</value>
+		<value column="Help" original="A new Journal Batch is created, if the Batch Document No or accounting schema are different. A new Journal is created, if the Document No, Currency, Document Type, GL Category, Posting Type or Accounting type is different. You can also force the creation of a new Batch or Jornal by selecting the creat new flag.&lt;p&gt;&#10;Please note that there are three Organization Fields: The Document Organization is the owner of the document and set directly or per parameter default. The Organization is part of the accounting key and only required id no Valid Account Comination is specified; If not defined it is derived from the Document Organization. The Transaction Organization is part of the account combination.&lt;br&gt;&#10;The optional balance check applies to the entire import, not for individual batches or journals.&#10;&lt;br&gt;The document numbers will be overwritten if the document type is not set to manual sequences.">Una nueva jornada de diario es creado, si el documento de la jornada no es diferente. Una nueva jornada es creada, si el No. de documento,esquema de la contabilidad, moneda, tipo de documento, Categoria GL, Fijando el tipo o el tipo de contabilidad es diferente.&lt;p &gt;
+Observe por favor que hay tres campos de la organización: La organización del documento es el dueño del documento y del sistema directamente o por default del parámetro . La organización es parte de la llave de la contabilidad y solamente se especifica la identificación requerida ninguna combinación de cuenta válida; Si no esta definido se deriva de la organización del documento. La organización de la transacción es parte de la combinación de la cuenta.</value>
 	</row>
 	<row id="510" trl="Y">
 		<value column="Name" original="Invoice">Factura</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Import Invoices">Importar Facturas</value>
-		<value column="Help" original="You should supply the Document Type Name (or ID). The Document Type is on purpose not fully derived as it has too many consequences if it's wrong.  The best way is to set the Document Type Name as a Constant in your Import File Format or as an imported field in the file.">Usted debe proveer el nombre del tipo de documento (ó la identificación). El tipo de documento está en el propósito derivado no completamente pues tiene también muchas consecuencias si es incorrecto. La mejor manera es fijar el nombre del tipo de documento pues una constante en su formato del archivo de la importación ó como campo importado en el archivo.</value>
+		<value column="Help" original="You should supply the Document Type Name (or ID). The Document Type is on purpose not fully derived as it has too many consequences if it's wrong.  The best way is to set the Document Type Name as a Constant in your Import File Format or as an imported field in the file.">Usted debe proveer el nombre del tipo de documento (ó la identificación). El tipo de documento está en el propósito derivado no completamente pues tiene también muchas consecuencias si es incorrecto. La mejor manera es fijar el nombre del tipo de documento pues una constante en su formato del archivo de la importación o como campo importado en el archivo.</value>
 	</row>
 	<row id="511" trl="Y">
 		<value column="Name" original="Payment">Pago</value>
@@ -2121,7 +2121,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Name" original="Order">Orden</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Import Orders">Importar Ordenes</value>
-		<value column="Help" original="You should supply the Document Type Name (or ID). The Document Type is on purpose not fully derived as it has too many consequences if it's wrong.  The best way is to set the Document Type Name as a Constant in your Import File Format or as an imported field in the file.">Usted debe proveer el nombre del tipo de documento (ó la identificación). El tipo de documento está en el propósito derivado no completamente pues tiene también muchas consecuencias si es incorrecto. La mejor manera es fijar el nombre del tipo de documento pues una constante en su formato del archivo de la importación ó como campo importado en el archivo.</value>
+		<value column="Help" original="You should supply the Document Type Name (or ID). The Document Type is on purpose not fully derived as it has too many consequences if it's wrong.  The best way is to set the Document Type Name as a Constant in your Import File Format or as an imported field in the file.">Usted debe proveer el nombre del tipo de documento (ó la identificación). El tipo de documento está en el propósito derivado no completamente pues tiene también muchas consecuencias si es incorrecto. La mejor manera es fijar el nombre del tipo de documento pues una constante en su formato del archivo de la importación o como campo importado en el archivo.</value>
 	</row>
 	<row id="513" trl="Y">
 		<value column="Name" original="Freight">Flete</value>
@@ -2136,9 +2136,9 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Help" original="Freight Categories are used to calculate the Freight for the Shipper selected">Las Categorías de la Fletes se utilizan para calcular los fletes para el expedidor seleccionado</value>
 	</row>
 	<row id="515" trl="Y">
-		<value column="Name" original="Business Partner Dimension">Dimensión Socio de Negocio</value>
+		<value column="Name" original="Business Partner Dimension">Dimensión Tercero</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain Business Partner Accounting Dimension Tree">Mantenga la dimensión del árbol de la contabilidad del socio de negocio.</value>
+		<value column="Description" original="Maintain Business Partner Accounting Dimension Tree">Mantenga la dimensión del árbol de la contabilidad del tercero.</value>
 		<value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">¡Observe por favor que usted no podrá crear entidades nuevas en esta ventana si usted no tiene defecto fijado para todos los valores obligatorios!.</value>
 	</row>
 	<row id="516" trl="Y">
@@ -2301,7 +2301,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Name" original="Topic">Asunto</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Knowledge Topic">Asunto de Conocimiento</value>
-		<value column="Help" original="Topic or Discussion Thead">Asunto ó discución</value>
+		<value column="Help" original="Topic or Discussion Thead">Asunto o discución</value>
 	</row>
 	<row id="543" trl="Y">
 		<value column="Name" original="Entry">Entrada</value>
@@ -2346,45 +2346,45 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Help" original=""/>
 	</row>
 	<row id="550" trl="Y">
-		<value column="Name" original="Partner Selection">Selección Socios de Negocio</value>
+		<value column="Name" original="Partner Selection">Selección Terceros</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner Selection">Selección socios de negocio</value>
+		<value column="Description" original="Business Partner Selection">Selección terceros</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="551" trl="Y">
-		<value column="Name" original="Partner Orders">Órdenes Socios de Negocio</value>
+		<value column="Name" original="Partner Orders">Órdenes Terceros</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner Orders">Órdenes de socio de negocio</value>
+		<value column="Description" original="Business Partner Orders">Órdenes de terceros</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="552" trl="Y">
-		<value column="Name" original="Partner Shipments">Entregas Socios de Negocio</value>
+		<value column="Name" original="Partner Shipments">Despachos Terceros</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner Shipments">Entregas Socios de Negocio</value>
+		<value column="Description" original="Business Partner Shipments">Despachos Terceros</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="553" trl="Y">
-		<value column="Name" original="Partner Invoices">Facturas Socios de Negocio</value>
+		<value column="Name" original="Partner Invoices">Facturas Terceros</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner Invoices">Facturas de Socios de Negocio</value>
+		<value column="Description" original="Business Partner Invoices">Facturas de Terceros</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="554" trl="Y">
-		<value column="Name" original="Partner Payments">Pagos Socios de Negocio</value>
+		<value column="Name" original="Partner Payments">Pagos Terceros</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner Payments">Pagos Socios de Negocio</value>
+		<value column="Description" original="Business Partner Payments">Pagos Terceros</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="555" trl="Y">
-		<value column="Name" original="Partner Assets">Activos Socio de Negocio</value>
+		<value column="Name" original="Partner Assets">Activos Tercero</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner Assets">Activos Socio de Negocio</value>
+		<value column="Description" original="Business Partner Assets">Activos Tercero</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="556" trl="Y">
-		<value column="Name" original="Partner Requests">Solicitudes Socios de Negocio</value>
+		<value column="Name" original="Partner Requests">Solicitudes Terceros</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner Requests">Solicitudes socios de negocio</value>
+		<value column="Description" original="Business Partner Requests">Solicitudes terceros</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="557" trl="Y">
@@ -2397,7 +2397,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Name" original="Issues">Surtimiento</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Issues to the Project">Surtimiento del Proyecto</value>
-		<value column="Help" original="The lab lists the Issues to the project initiated by the &quot;Issue to Project&quot; process. You can issue Receipts, Time and Expenses, or Stock.">Enumera las ediciones al proyecto iniciado por la "edición para proyectar" proceso. Usted puede publicar recibos, tiempo y costos, ó la acción.</value>
+		<value column="Help" original="The lab lists the Issues to the project initiated by the &quot;Issue to Project&quot; process. You can issue Receipts, Time and Expenses, or Stock.">Enumera las ediciones al proyecto iniciado por la "edición para proyectar" proceso. Usted puede publicar recibos, tiempo y costos, o la acción.</value>
 	</row>
 	<row id="559" trl="Y">
 		<value column="Name" original="Printer">Impresión</value>
@@ -2418,9 +2418,9 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Help" original="System Registration Information">Información del registro de sistema</value>
 	</row>
 	<row id="562" trl="Y">
-		<value column="Name" original="Business Partner">Socio de Negocio</value>
+		<value column="Name" original="Business Partner">Tercero</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner specific Information of a Product">Información de Socio de Negocio especifico de un producto</value>
+		<value column="Description" original="Business Partner specific Information of a Product">Información de Tercero especifico de un producto</value>
 		<value column="Help" original="Note that some information is for reference only!  The ">¡Observe que una cierta información está solamente para la referencia!</value>
 	</row>
 	<row id="563" trl="Y">
@@ -2432,25 +2432,25 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="564" trl="Y">
 		<value column="Name" original="Orders">Órdenes</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="All Orders where the Agent &quot;owns&quot; the Order, the Business Partner or the Product">Toda la línea de orden donde el agente "Posee" la orden, el socio de negocio ó el producto</value>
+		<value column="Description" original="All Orders where the Agent &quot;owns&quot; the Order, the Business Partner or the Product">Toda la línea de orden donde el agente "Posee" la orden, el tercero o el producto</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="565" trl="Y">
 		<value column="Name" original="Order Lines">Orden Lineas</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="All Order Lines where the Agent &quot;owns&quot; the Order, the Business Partner or the Product">Toda la línea de orden donde el agente "posee" la orden, el socio de negocio ó el producto</value>
+		<value column="Description" original="All Order Lines where the Agent &quot;owns&quot; the Order, the Business Partner or the Product">Toda la línea de orden donde el agente "posee" la orden, el tercero o el producto</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="566" trl="Y">
 		<value column="Name" original="Invoices">Facturas</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="All Invoices where the Agent &quot;owns&quot; the Invoice, the Business Partner or the Product">Todas las facturas donde el agente "posee" la factura, el socio de negocio ó el producto</value>
+		<value column="Description" original="All Invoices where the Agent &quot;owns&quot; the Invoice, the Business Partner or the Product">Todas las facturas donde el agente "posee" la factura, el tercero o el producto</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="567" trl="Y">
 		<value column="Name" original="Invoice Line">Línea Factura</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="All Invoice Liness where the Agent &quot;owns&quot; the Invoice, the Business Partner or the Product">Toda la linea de facturas donde el agente "Posee" la factura, el socio de negocio ó el producto.</value>
+		<value column="Description" original="All Invoice Liness where the Agent &quot;owns&quot; the Invoice, the Business Partner or the Product">Toda la linea de facturas donde el agente "Posee" la factura, el tercero o el producto.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="569" trl="Y">
@@ -2462,11 +2462,11 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="570" trl="Y">
 		<value column="Name" original="Conversion Type">Conversión Moneda</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain Currency Conversion Rate Type">Mantenga el tipo del indice de conversión de moneda</value>
+		<value column="Description" original="Maintain Currency Conversion Rate Type">Mantenga el tipo del índice de conversión de moneda</value>
 		<value column="Help" original="The Currency Conversion Rate Type lets you define different type of rates, e.g. Spot, Corporate and/or Sell/Buy rates.">El tipo del índice de conversión de moneda permite definir diversos tipos de tarifas, tarifas. Ej. de punto, corporativas y/o de Venta/Compra.</value>
 	</row>
 	<row id="571" trl="Y">
-		<value column="Name" original="Statement Loader">Cargador de Extrato de Cuenta</value>
+		<value column="Name" original="Statement Loader">Cargador de Extracto de Cuenta</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Definition of Bank Statement Loader (SWIFT, OFX)">Definición del Cargador del Estado de Cuenta (SWIFT, OFX)</value>
 		<value column="Help" original="The loader definition privides the parameters to load bank statements from EFT formats like SWIFT (MT940) or OFX. The required parameters depend on the actual statement loader class">La Definición del Cargador de Parametros para cargar estados de cuenta EFT ajustar formato a gusto SWIFT (MT940) or OFX. Los parámetros requeridos dependen de la clase real del cargador de la declaración.</value>
@@ -2481,7 +2481,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Name" original="User Substitute">Usuario Sustituto</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Substitute of the user">Sustituye al Usuario</value>
-		<value column="Help" original="A user who can act for this user.">Un usuario que puede actuar como este usuario. </value>
+		<value column="Help" original="A user who can act for this user.">Un usuario que puede actuar como este usuario.</value>
 	</row>
 	<row id="574" trl="Y">
 		<value column="Name" original="Process">Proceso</value>
@@ -2535,7 +2535,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Name" original="Event">Evento</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Workflow Process Activity Event Audit Information">Información de proceso de la intervención del acontecimiento de la actividad del flujo de trabajo.</value>
-		<value column="Help" original="History of chenges ov the Workflow Process Activity">Historia de los cambios ó actividad del proceso de flujo de trabajo</value>
+		<value column="Help" original="History of chenges ov the Workflow Process Activity">Historia de los cambios o actividad del proceso de flujo de trabajo</value>
 	</row>
 	<row id="583" trl="Y">
 		<value column="Name" original="Attribute">Atributos</value>
@@ -2558,8 +2558,8 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="586" trl="Y">
 		<value column="Name" original="Bank Statement Matcher">Estado de Cuenta</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">Algoritmo para emparejar el estado de cuenta que es Información a los socios de negocio, las facturas y los pagos.</value>
-		<value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements. The class need to implement the interface org.compiere.impexp.BankStatementMatcherInterface">Un algoritmo para encontrar a socios de negocio, facturas, pagos en estados de cuenta importados. La necesidad de poner la clase del interfaz en ejecución, org.compiere.impexp.BankStatementMatcherInterface</value>
+		<value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">Algoritmo para emparejar el estado de cuenta que es Información a los terceros, las facturas y los pagos.</value>
+		<value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements. The class need to implement the interface org.compiere.impexp.BankStatementMatcherInterface">Un algoritmo para encontrar a terceros, facturas, pagos en estados de cuenta importados. La necesidad de poner la clase del interfaz en ejecución, org.compiere.impexp.BankStatementMatcherInterface</value>
 	</row>
 	<row id="587" trl="Y">
 		<value column="Name" original="Payment">Pago</value>
@@ -2607,13 +2607,13 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Name" original="Bid Topic">Tema de Oferta</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Topic of the Auction">Asunto de la subasta</value>
-		<value column="Help" original="Description of the item to sell or create/fund.">Descripción del artículo a vender ó de crear/fondo</value>
+		<value column="Help" original="Description of the item to sell or create/fund.">Descripción del artículo a vender o de crear/fondo</value>
 	</row>
 	<row id="595" trl="Y">
-		<value column="Name" original="Bid">Oferta</value>
+		<value column="Name" original="Bid">Propuesta</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="View bids for a Topic">Ofertas de la visión para un asunto.</value>
-		<value column="Help" original="You can create a bid for a topic.  Depening on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.">Usted puede crear una oferta para un asunto. Dependiendo del tipo, el licitador más alto gana el asunto - ó usted participa en el financiamiento para un asunto.</value>
+		<value column="Help" original="You can create a bid for a topic.  Depening on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.">Usted puede crear una oferta para un asunto. Dependiendo del tipo, el licitador más alto gana el asunto - o usted participa en el financiamiento para un asunto.</value>
 	</row>
 	<row id="596" trl="Y">
 		<value column="Name" original="Offer">Oferta</value>
@@ -2631,7 +2631,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Name" original="Offer Funds">Oferta Fondos</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Seller Funds from Offers on Topics">Fondos del vendedor de ofertas en asuntos.</value>
-		<value column="Help" original="Committed or Uncommited funds from Offers">Fondos destinados ó sin compromiso de ofertas</value>
+		<value column="Help" original="Committed or Uncommited funds from Offers">Fondos destinados o sin compromiso de ofertas</value>
 	</row>
 	<row id="599" trl="Y">
 		<value column="Name" original="Topic Type">Tipo Asunto</value>
@@ -2661,7 +2661,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Name" original="Funds">Fondos</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Seller Funds from Offers on Topics">Fondos del vendedor de ofertas en asuntos.</value>
-		<value column="Help" original="Available Funds (for Payments) and Committed or Uncommited funds from Offers">Fondos disponibles (para los pagos) y fondos destinados ó sin compromiso de ofertas</value>
+		<value column="Help" original="Available Funds (for Payments) and Committed or Uncommited funds from Offers">Fondos disponibles (para los pagos) y fondos destinados o sin compromiso de ofertas</value>
 	</row>
 	<row id="604" trl="Y">
 		<value column="Name" original="Offer">Oferta</value>
@@ -2679,13 +2679,13 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Name" original="Funds">Fondos</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Buyer Funds available for Bids on Topics">Fondos del comprador disponibles para las ofertas en asuntos.</value>
-		<value column="Help" original="Available Funds (Payments) and Committed or Uncommited funds for Bids">Fondos disponibles (pagos) y fondos destinados ó sin compromiso para las ofertas</value>
+		<value column="Help" original="Available Funds (Payments) and Committed or Uncommited funds for Bids">Fondos disponibles (pagos) y fondos destinados o sin compromiso para las ofertas</value>
 	</row>
 	<row id="607" trl="Y">
 		<value column="Name" original="Bid">Oferta</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Bid for a Topic">Oferta para un asunto</value>
-		<value column="Help" original="You can create a bid for a topic.  Depening on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.">Usted puede crear una oferta para un asunto. Dependiendo del tipo, el licitador más alto gana el asunto - ó usted participa en el financiamiento para un asunto.</value>
+		<value column="Help" original="You can create a bid for a topic.  Depening on the type, the highest bidder wins the Topic - or you participate in funding for a Topic.">Usted puede crear una oferta para un asunto. Dependiendo del tipo, el licitador más alto gana el asunto - o usted participa en el financiamiento para un asunto.</value>
 	</row>
 	<row id="608" trl="Y">
 		<value column="Name" original="Accounting Processor">Procesador de Contabilidad</value>
@@ -2702,25 +2702,25 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="612" trl="Y">
 		<value column="Name" original="Relation">Relación</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner Relation">Relación de socio de negocio</value>
-		<value column="Help" original="Business Partner Relation allow to maintain Third Party Relationship rules: who receives invoices for shipments or pays for invoices.  If the Location of the Business partner is not defined, the rule applies to all location of that Business Partner">La relación de socio de negocio permite mantener reglas de relación de terceros: quién recibe las facturas para los envíos ó paga facturas. Si la localización del socio de negocio no se define, la regla se aplica a toda la localización de ese socio de negocio.</value>
+		<value column="Description" original="Business Partner Relation">Relación de tercero</value>
+		<value column="Help" original="Business Partner Relation allow to maintain Third Party Relationship rules: who receives invoices for shipments or pays for invoices.  If the Location of the Business partner is not defined, the rule applies to all location of that Business Partner">La relación de tercero permite mantener reglas de relación de terceros: quién recibe las facturas para los envíos o paga facturas. Si la localización del tercero no se define, la regla se aplica a toda la localización de ese tercero.</value>
 	</row>
 	<row id="613" trl="Y">
-		<value column="Name" original="RfQ">SPC (RfQ)</value>
+		<value column="Name" original="RfQ">SCP (RfQ)</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Request for Quotation">Solicitud para Cotización</value>
-		<value column="Help" original="Request for Quotation to be sent out to vendors of a RfQ Topic. After Vendor selection, optionally create Sales Order or Quote for Customer as well as Purchase Order  for Vendor(s)">Solicitud para Cotización para ser enviada a los proveedores asignados en el asunto de SPC (RfQ), opcionalmente crea orden de venta ó cotización para cliente para despues realizar la orden de compra al proveedor.</value>
+		<value column="Help" original="Request for Quotation to be sent out to vendors of a RfQ Topic. After Vendor selection, optionally create Sales Order or Quote for Customer as well as Purchase Order  for Vendor(s)">Solicitud para Cotización para ser enviada a los proveedores asignados en el asunto de SCP (RfQ), opcionalmente crea orden de venta o cotización para cliente para despues realizar la orden de compra al proveedor.</value>
 	</row>
 	<row id="614" trl="Y">
 		<value column="Name" original="Response">Respuesta</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="RfQ Response">Respuesta RfQ </value>
+		<value column="Description" original="RfQ Response">Respuesta RfQ</value>
 		<value column="Help" original="Request for Quotation Response from a potential Vendor">Solicitud para respuesta de la cita de un vendedor potencial</value>
 	</row>
 	<row id="615" trl="Y">
 		<value column="Name" original="Line">Línea</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="RfQ Line">Línea RfQ </value>
+		<value column="Description" original="RfQ Line">Línea RfQ</value>
 		<value column="Help" original="Request for Quotation Line">Solicitud para la línea de cita</value>
 	</row>
 	<row id="616" trl="Y">
@@ -2732,13 +2732,13 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="617" trl="Y">
 		<value column="Name" original="Quantity">Cantidad</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="RfQ Line Quantity">Cantidad en linea RfQ </value>
-		<value column="Help" original="Request for Quotation Line Quantity - You may request a quotation for different quantities">Cantidad en linea pedido de cita - </value>
+		<value column="Description" original="RfQ Line Quantity">Cantidad en linea RfQ</value>
+		<value column="Help" original="Request for Quotation Line Quantity - You may request a quotation for different quantities">Cantidad en linea pedido de cita -</value>
 	</row>
 	<row id="618" trl="Y">
 		<value column="Name" original="Response Quantity">Cantidad Respuesta</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="RfQ Line Quantity Response">Línea de la Cantidad de Respuestas RfQ </value>
+		<value column="Description" original="RfQ Line Quantity Response">Línea de la Cantidad de Respuestas RfQ</value>
 		<value column="Help" original="Request for Quotation Response Line Quantity from a potential Vendor">Pedido de Cantidad de la Línea de Respuesta de la cita de un proveedor potencial</value>
 	</row>
 	<row id="619" trl="Y">
@@ -2756,7 +2756,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="621" trl="Y">
 		<value column="Name" original="Subscription">Suscripción</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Subscription of a Business Partner of a Product to renew">suscripción de un socio de negocio de un producto a renovar.</value>
+		<value column="Description" original="Subscription of a Business Partner of a Product to renew">suscripción de un tercero de un producto a renovar.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="622" trl="Y">
@@ -2774,20 +2774,20 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="624" trl="Y">
 		<value column="Name" original="Distribution List">Lista Distribución</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Distribution Lists allow to distribute products to a selected list of partners">Las listas de distribución permiten para distribuir productos a una lista seleccionada de socios.</value>
-		<value column="Help" original="Distribution list contain business partners and a distribution quantity or ratio for creating Orders">La lista de distribución contiene socios de negocio y una cantidad ó un cociente de la distribución para crear órdenes</value>
+		<value column="Description" original="Distribution Lists allow to distribute products to a selected list of partners">Las listas de distribución permiten para distribuir productos a una lista seleccionada de terceros.</value>
+		<value column="Help" original="Distribution list contain business partners and a distribution quantity or ratio for creating Orders">La lista de distribución contiene terceros y una cantidad o un cociente de la distribución para crear órdenes</value>
 	</row>
 	<row id="625" trl="Y">
 		<value column="Name" original="Distribution Line">Lineas Distribución</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Distribution List Line with Business Partner and Quantity/Percentage">Línea de la lista de distribución con el socio de negocio y Cantidad/Porcentaje.</value>
-		<value column="Help" original="The distribution can be based on Ratio, fixed quantity or both.&#10;If the ratio and quantity is not 0, the quantity is calculated based on the ratio, but with the Quantity as a minimum.">La distribución se puede basar en cociente, cantidad fija ó ambas. Si el cociente y la cantidad no es 0, se calcula la cantidad basada en el cociente, pero con la cantidad como mínimo.</value>
+		<value column="Description" original="Distribution List Line with Business Partner and Quantity/Percentage">Línea de la lista de distribución con el tercero y Cantidad/Porcentaje.</value>
+		<value column="Help" original="The distribution can be based on Ratio, fixed quantity or both.&#10;If the ratio and quantity is not 0, the quantity is calculated based on the ratio, but with the Quantity as a minimum.">La distribución se puede basar en cociente, cantidad fija o ambas. Si el cociente y la cantidad no es 0, se calcula la cantidad basada en el cociente, pero con la cantidad como mínimo.</value>
 	</row>
 	<row id="626" trl="Y">
 		<value column="Name" original="Package">Paquete</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Shipment Package">Envío del paquete</value>
-		<value column="Help" original="A Shipment can have one or more Packages.  A Package may be tracked.">Un envío puede tener uno ó más paquetes. Un paquete puede ser seguido.</value>
+		<value column="Help" original="A Shipment can have one or more Packages.  A Package may be tracked.">Un envío puede tener uno o más paquetes. Un paquete puede ser seguido.</value>
 	</row>
 	<row id="627" trl="Y">
 		<value column="Name" original="Package Line">Línea Paquete</value>
@@ -2865,7 +2865,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Name" original="Scheduler Recipient">Recipiente de Agenda</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Recipient of the Scheduler Notification">Recipiente de la notificación de agenda</value>
-		<value column="Help" original="You can send the notifications to users or roles">Usted puede enviar las notificaciones a los usuarios ó roles.</value>
+		<value column="Help" original="You can send the notifications to users or roles">Usted puede enviar las notificaciones a los usuarios o roles.</value>
 	</row>
 	<row id="640" trl="Y">
 		<value column="Name" original="Tax ZIP">Impuesto C.P.</value>
@@ -2888,7 +2888,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="643" trl="Y">
 		<value column="Name" original="Note">Nota</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Personal Note">Nota Personal </value>
+		<value column="Description" original="Personal Note">Nota Personal</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="644" trl="Y">
@@ -2912,14 +2912,14 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="648" trl="Y">
 		<value column="Name" original="Distribution Run">Ejecutar Distribución</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Distribution Run create Orders to distribute products to a selected list of partners">El funcionamiento de la distribución crea órdenes para distribuir productos a una lista seleccionada de socios</value>
+		<value column="Description" original="Distribution Run create Orders to distribute products to a selected list of partners">El funcionamiento de la distribución crea órdenes para distribuir productos a una lista seleccionada de terceros</value>
 		<value column="Help" original="Distribution Run defines how Orders are created based on Distribution Lists">El funcionamiento de la distribución define cómo se crean las órdenes basadas en listas de distribución</value>
 	</row>
 	<row id="649" trl="Y">
 		<value column="Name" original="Line">Línea</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Distribution Run Lines define Distribution List, the Product and Quantiries">Las líneas del funcionamiento de la distribución definen la lista de distribución, el producto y cantidades</value>
-		<value column="Help" original="The order amount is based on the greater of the minimums of the product or distribution list and the quantity based on the ratio.">La cantidad de la orden se basa en el mayor de los mínimos de la lista del producto ó de distribución y de la cantidad basada en el cociente.</value>
+		<value column="Help" original="The order amount is based on the greater of the minimums of the product or distribution list and the quantity based on the ratio.">La cantidad de la orden se basa en el mayor de los mínimos de la lista del producto o de distribución y de la cantidad basada en el cociente.</value>
 	</row>
 	<row id="650" trl="Y">
 		<value column="Name" original="Product Assignment">Asignar Productos</value>
@@ -2930,16 +2930,16 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="651" trl="Y">
 		<value column="Name" original="Access Audit">Acceso a Log</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Log of Access to data or resources">Registro del acceso a los datos ó a los recursos</value>
+		<value column="Description" original="Log of Access to data or resources">Registro del acceso a los datos o a los recursos</value>
 		<value column="Help" original="Logging needs to be explicitly enabled / written.">El registro necesita ser permitido/ser escrito explícitamente.</value>
 	</row>
 	<row id="652" trl="Y">
 		<value column="Name" original="Counter Document">Contra Documentos</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Counter Document Types">Mantenimiento a los tipos de Contra Documentos</value>
-		<value column="Help" original="When using explicit documents for inter-org transaction (after linking a Business Partner to an Organization), you can determine what document type the counter document is based on the document type of the original transaction.  Example: a &quot;Standard Order&quot; creates a &quot;Standard PO&quot;. &#10;If you define a relationship here, you overwrite the default counter document type in the Document Type definition. This allows you to define a specific mapping.&#10;You can define conter documents for all organizations (of the original transaction) or for a specific organization.">Al usar los documentos explícitos para la transacción inter-organización (después de ligar a un socio de negocio a una organización), usted puede determinarse qué tipo de documento se basa el documento contrario en el tipo de documento de la transacción original. Ejemplo: una "orden estándar" crea un "PO estándar".
+		<value column="Help" original="When using explicit documents for inter-org transaction (after linking a Business Partner to an Organization), you can determine what document type the counter document is based on the document type of the original transaction.  Example: a &quot;Standard Order&quot; creates a &quot;Standard PO&quot;. &#10;If you define a relationship here, you overwrite the default counter document type in the Document Type definition. This allows you to define a specific mapping.&#10;You can define conter documents for all organizations (of the original transaction) or for a specific organization.">Al usar los documentos explícitos para la transacción inter-organización (después de ligar a un tercero a una organización), usted puede determinarse qué tipo de documento se basa el documento contrario en el tipo de documento de la transacción original. Ejemplo: una "orden estándar" crea un "PO estándar".
 Si usted define una relación aquí, usted sobreescribe el documento del contador de defecto de mecanografía adentro de la definición de tipo de documento. Esto permite que usted defina traz específico.
-Usted puede definir el contra de documentos para todas las organizaciones (de la transacción original) ó para una organización específica.</value>
+Usted puede definir el contra de documentos para todas las organizaciones (de la transacción original) o para una organización específica.</value>
 	</row>
 	<row id="653" trl="Y">
 		<value column="Name" original="Forecast">Pronosticar</value>
@@ -2974,13 +2974,13 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 	<row id="658" trl="Y">
 		<value column="Name" original="Confirmation">Confirmación</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Material Shipment or Receipt Confirmation">Confirmación Entrega ó Recibo de Material </value>
-		<value column="Help" original="Confirmation of Shipment or Receipt - Created from the Shipment/Receipt">Confirmación de entrega ó recibo - Creado por una entrega/Recibo </value>
+		<value column="Description" original="Material Shipment or Receipt Confirmation">Confirmación Entrega o Recibo de Material</value>
+		<value column="Help" original="Confirmation of Shipment or Receipt - Created from the Shipment/Receipt">Confirmación de entrega o recibo - Creado por una entrega/Recibo</value>
 	</row>
 	<row id="659" trl="Y">
 		<value column="Name" original="Line">Línea</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Material Shipment or Receipt Confirmation Line">Linea de Confirmación de entrega ó recibo de Material</value>
+		<value column="Description" original="Material Shipment or Receipt Confirmation Line">Linea de Confirmación de entrega o recibo de Material</value>
 		<value column="Help" original="The quantities are in the storage Unit of Measure!">Detalles de Confirmación</value>
 	</row>
 	<row id="660" trl="Y">
@@ -3038,23 +3038,23 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 		<value column="Help" original="Import Confirmation data of existing Receipt/Shipment Confirmations">Datos de confirmación de la importación de las confirmaciones de entregas existentes/recibos.</value>
 	</row>
 	<row id="669" trl="Y">
-		<value column="Name" original="Business Partner">Socio de Negocio</value>
+		<value column="Name" original="Business Partner">Tercero</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Select Business Partner">Seleccione un socio de negocio</value>
-		<value column="Help" original="Select the business partner for the service level agreement">Seleccione un socio de negocio para el acuerdo del porcentaje de disponibilidad
+		<value column="Description" original="Select Business Partner">Seleccione un tercero</value>
+		<value column="Help" original="Select the business partner for the service level agreement">Seleccione un tercero para el acuerdo del porcentaje de disponibilidad
 </value>
 	</row>
 	<row id="670" trl="Y">
 		<value column="Name" original="SLA Goal">Meta ANS</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Service Level Agreement Goal">Meta del Acuerdo de Porcentaje de disponibilidad</value>
-		<value column="Help" original="Individual Goal for the SLA criteria for the Business Partner">Meta de la SLA criterio del Socio de negocio</value>
+		<value column="Help" original="Individual Goal for the SLA criteria for the Business Partner">Meta del ANS criterio del tercero</value>
 	</row>
 	<row id="671" trl="Y">
 		<value column="Name" original="SLA Measure">Medida ANS</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Service Level Agreement Measure">Medida del Acuerdo del nivel de Servicio</value>
-		<value column="Help" original="View/Maintain the individual actual value / measure for the business partner service level agreement goal">Visualiza/Mantenimiento individual del valor actual / medida para la meta del acuerdo de porcentaje de disponibilidad del socio de negocio</value>
+		<value column="Help" original="View/Maintain the individual actual value / measure for the business partner service level agreement goal">Visualiza/Mantenimiento individual del valor actual / medida para la meta del acuerdo de porcentaje de disponibilidad del tercero</value>
 	</row>
 	<row id="672" trl="Y">
 		<value column="Name" original="SLA Criteria">ANS Criterio</value>
@@ -3071,8 +3071,8 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 	<row id="674" trl="Y">
 		<value column="Name" original="Restriction">Restricción</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Include Subscriber Only for certain products or product categories">Incluya a suscriptor solamente para ciertos productos ó las categorías del producto</value>
-		<value column="Help" original="Enter the products / product categories for which the subscriber should be included.  If no product / category is entered, the subscriber is requested to answer requests for all lines in a RfQ">Incorpore las categorías de los productos/del producto para las cuales el suscriptor debe ser incluido. Si no se incorpora ningún producto/categoría, solicitan el suscriptor contestar a las peticiones para todas las líneas en un RfQ. </value>
+		<value column="Description" original="Include Subscriber Only for certain products or product categories">Incluya a suscriptor solamente para ciertos productos o las categorías del producto</value>
+		<value column="Help" original="Enter the products / product categories for which the subscriber should be included.  If no product / category is entered, the subscriber is requested to answer requests for all lines in a RfQ">Incorpore las categorías de los productos/del producto para las cuales el suscriptor debe ser incluido. Si no se incorpora ningún producto/categoría, solicitan el suscriptor contestar a las peticiones para todas las líneas en un RfQ.</value>
 	</row>
 	<row id="675" trl="Y">
 		<value column="Name" original="Price List Schema">Esquema de lista de precios</value>
@@ -3093,7 +3093,7 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 		<value column="Help" original="POS Function Key Layout">Función PV Función de llave de Layout</value>
 	</row>
 	<row id="678" trl="Y">
-		<value column="Name" original="POS Key">Llave PDV </value>
+		<value column="Name" original="POS Key">Llave PDV</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="POS Function Key">POS Función de llave</value>
 		<value column="Help" original="POS Function Key Assignment">POS Función de la llave de asignación</value>
@@ -3102,13 +3102,13 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 		<value column="Name" original="SLA Goal">ANS Meta</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Service Level Agreement Goal">ANS para la Meta</value>
-		<value column="Help" original="Individual Goal for the SLA criteria for the Business Partner">Meta individual para los criterios de SLA para el socio de negocio.</value>
+		<value column="Help" original="Individual Goal for the SLA criteria for the Business Partner">Meta individual para los criterios de SLA para el tercero.</value>
 	</row>
 	<row id="680" trl="Y">
 		<value column="Name" original="SLA Measure">ANS Medida</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Service Level Agreement Measure">Medida de Nivel de Servicio Acordado</value>
-		<value column="Help" original="View/Maintain the individual actual value / measure for the business partner service level agreement goal">Visión/Mantenga el valor real individual / medida para la meta del acuerdo de porcentaje de disponibilidad del socio de negocio</value>
+		<value column="Help" original="View/Maintain the individual actual value / measure for the business partner service level agreement goal">Visión/Mantenga el valor real individual / medida para la meta del acuerdo de porcentaje de disponibilidad del tercero</value>
 	</row>
 	<row id="681" trl="Y">
 		<value column="Name" original="Column Translation">Traducción de la Columna</value>
@@ -3117,31 +3117,31 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 		<value column="Help" original="Do not translate - overwritten / translated automatically">No traduzca - sobreescrito/traducido automáticamente.</value>
 	</row>
 	<row id="682" trl="Y">
-		<value column="Name" original="Internal Use">Inventario, Uso Interno </value>
+		<value column="Name" original="Internal Use">Inventario, Uso Interno</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Internal Use Inventory">Define uso interno del inventario</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="683" trl="Y">
-		<value column="Name" original="Internal Use Line">Linea Inventario, Uso Interno </value>
+		<value column="Name" original="Internal Use Line">Linea Inventario, Uso Interno</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Internal Use Inventory Line">Línea de inventario, uso interno</value>
 		<value column="Help" original="The Inventory Count Line defines the counts of the individual products in inventory.">La línea de la cuenta del inventario define las cuentas de los productos individuales en inventario.</value>
 	</row>
 	<row id="684" trl="Y">
-		<value column="Name" original="Allocation">Asignación</value>
+		<value column="Name" original="Allocation">Líneas Asignación</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Allocation of the Invoice to Payments or Cash">Asignación de la Factura a los Pagos ó al Efectivo</value>
+		<value column="Description" original="Allocation of the Invoice to Payments or Cash">Asignación de la Factura a los Pagos o al Efectivo</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="685" trl="Y">
-		<value column="Name" original="Allocation">Asignación</value>
+		<value column="Name" original="Allocation">Líneas Asignación</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Allocation of the Invoice to Payments or Cash">Asignación de Facturas para pagos ó Efectivo</value>
-		<value column="Help" original="">Asignación de Facturas para pagos ó Efectivo</value>
+		<value column="Description" original="Allocation of the Invoice to Payments or Cash">Asignación de Facturas para pagos o Efectivo</value>
+		<value column="Help" original="">Asignación de Facturas para pagos o Efectivo</value>
 	</row>
 	<row id="686" trl="Y">
-		<value column="Name" original="Allocations">Asignación</value>
+		<value column="Name" original="Allocations">Líneas Asignación</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Display Allocation of the Payment/Receipt to Invoices">Asignación de Pagos/Entregas a Factura</value>
 		<value column="Help" original=""/>
@@ -3179,7 +3179,7 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 	<row id="692" trl="Y">
 		<value column="Name" original="Matching">Cotejados</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Material Receipt or Invoice Lines matched to this Purchse Order Line">Las líneas de materiales de recibo ó de la factura cotejarón a esta línea de la orden de compra.</value>
+		<value column="Description" original="Material Receipt or Invoice Lines matched to this Purchse Order Line">Las líneas de materiales de recibo o de la factura cotejarón a esta línea de la orden de compra.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="693" trl="Y">
@@ -3192,21 +3192,21 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 		<value column="Name" original="Invoice Batch">Lote de Facturas</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Enter Expense Invoice Batch Header">De entrada en el Jefe de la Lote de la factura del costo.</value>
-		<value column="Help" original="Set Currency and decide if this for AR (sales) Invoices or AP (vendor) invoices. Optionally enter a Control amount.">Fije la modernidad y decida si esto para las facturas ó AP (vendedor) de AR (ventas) factura. Incorpore opcionalmente una cantidad del control.</value>
+		<value column="Help" original="Set Currency and decide if this for AR (sales) Invoices or AP (vendor) invoices. Optionally enter a Control amount.">Fije la modernidad y decida si esto para las facturas o AP (vendedor) de AR (ventas) factura. Incorpore opcionalmente una cantidad del control.</value>
 	</row>
 	<row id="695" trl="Y">
 		<value column="Name" original="Batch Line">Linea de Lote</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Enter Expense Invoice Batch Line">Incorpore la línea de lote de la factura del costo.</value>
-		<value column="Help" original="A new invoice is created, if there is a different Document Number, Business Partner or Location (address).&#10;Note that the Document Number may be overwritten - depending on the Number control of the selected Document Type.">Se crea una nueva factura, si hay un diverso número de documento, socio de negocio ó localización (dirección).
+		<value column="Help" original="A new invoice is created, if there is a different Document Number, Business Partner or Location (address).&#10;Note that the Document Number may be overwritten - depending on the Number control of the selected Document Type.">Se crea una nueva factura, si hay un diverso número de documento, tercero o localización (dirección).
 Observe que el número de documento puede ser sobreescrito - dependiendo del control de número del tipo seleccionado del documento.</value>
 	</row>
 	<row id="696" trl="Y">
 		<value column="Name" original="Org Access">Acceso a la Org</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain User Org Access">Mantenga el acceso de Org del usuario</value>
-		<value column="Help" original="Add the client and organizations the user has access to. Entries here are ignored, if in the Role, User Org Access is not selected or the role has access to all roles.&lt;br&gt;&#10;Note that access information is cached and requires re-login or reset of cache.">Agregue a cliente y las organizaciones el usuario tienen acceso a. Si no hacen caso las entradas aquí, si en el rol, el acceso de Org del usuario no se selecciona ó el rol tiene acceso a todo los roles.&lt;br &gt;
-Observe que la información del acceso está depositada y requiere la re-conexión ó el reajuste.</value>
+		<value column="Help" original="Add the client and organizations the user has access to. Entries here are ignored, if in the Role, User Org Access is not selected or the role has access to all roles.&lt;br&gt;&#10;Note that access information is cached and requires re-login or reset of cache.">Agregue a cliente y las organizaciones el usuario tienen acceso a. Si no hacen caso las entradas aquí, si en el rol, el acceso de Org del usuario no se selecciona o el rol tiene acceso a todo los roles.&lt;br &gt;
+Observe que la información del acceso está depositada y requiere la re-conexión o el reajuste.</value>
 	</row>
 	<row id="697" trl="Y">
 		<value column="Name" original="Landed Costs">Costos Adicionales</value>
@@ -3225,10 +3225,10 @@ También seleccionar un Recibo, Línea de Recibo o Prducto Específico para asig
 		<value column="Name" original="Cost Element">Elemento de Costo</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain product cost elements">Mantenga los elementos de costo del producto</value>
-		<value column="Help" original="You can maintain multiple Material Costs. Which of the Material Cost Types is used for accounting is determined by the costing method.&lt;br&gt;&#10;Define a Costing Method (for Material Elements) only if you want the cost calculated for that costing method. For accounting, the costing method defined in the Accounting Schema or Product Category Acct is used.">Usted puede mantener multiples costos de materiales. Cuando el costo de material mecanografía se utiliza para la contabilidad es determinado por metodo de costeo .&lt;br &gt; defina un método de costo (para los elementos materiales) solamente si usted desea el costo calculado para ese método de costo. Para la contabilidad, el método de costo definido en la categoría de cuenta del esquema ó del producto de la contabilidad se utiliza.</value>
+		<value column="Help" original="You can maintain multiple Material Costs. Which of the Material Cost Types is used for accounting is determined by the costing method.&lt;br&gt;&#10;Define a Costing Method (for Material Elements) only if you want the cost calculated for that costing method. For accounting, the costing method defined in the Accounting Schema or Product Category Acct is used.">Usted puede mantener multiples costos de materiales. Cuando el costo de material mecanografía se utiliza para la contabilidad es determinado por metodo de costeo .&lt;br &gt; defina un método de costo (para los elementos materiales) solamente si usted desea el costo calculado para ese método de costo. Para la contabilidad, el método de costo definido en la categoría de cuenta del esquema o del producto de la contabilidad se utiliza.</value>
 	</row>
 	<row id="700" trl="Y">
-		<value column="Name" original="Select Product">Seleccion de Producto</value>
+		<value column="Name" original="Select Product">Selección de Producto</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Select the product">Selección de producto</value>
 		<value column="Help" original=""/>
@@ -3254,7 +3254,7 @@ También seleccionar un Recibo, Línea de Recibo o Prducto Específico para asig
 	<row id="704" trl="Y">
 		<value column="Name" original="Request Resolution">Respuesta de Solicitud</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain Request Resolutions">Mantener respuesta de solicitud </value>
+		<value column="Description" original="Maintain Request Resolutions">Mantener respuesta de solicitud</value>
 		<value column="Help" original="Resolution status (e.g. Fixed, Rejected, ..)">Estado de la respuesta (ej. fijo, rechazado..)</value>
 	</row>
 	<row id="705" trl="Y">
@@ -3268,7 +3268,7 @@ Si una LDM es referencia y permite el tipo de solicitud, una solicitud del cambi
 		<value column="Name" original="Request Category">Categoria de Solicitud</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Request Category">Mantener Solicitud de Categoria</value>
-		<value column="Help" original="Category or Topic of the Request ">Categoría ó asunto de la solicitud</value>
+		<value column="Help" original="Category or Topic of the Request ">Categoría o asunto de la solicitud</value>
 	</row>
 	<row id="707" trl="Y">
 		<value column="Name" original="Download">Descarga</value>
@@ -3291,11 +3291,11 @@ Si una LDM es referencia y permite el tipo de solicitud, una solicitud del cambi
 	<row id="710" trl="Y">
 		<value column="Name" original="Web Store">Tienda Web</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Define Web Store">Define Almacen de Web </value>
+		<value column="Description" original="Define Web Store">Define Almacen de Web</value>
 		<value column="Help" original="Define the web store settings. The web server context must be unique and determines the settings used in the actual transaction. The selected warehouse determines the organization.  The email settings are tested with the client email settings. "/>
 	</row>
 	<row id="711" trl="Y">
-		<value column="Name" original="Store Translation">Traduccion de Tienda</value>
+		<value column="Name" original="Store Translation">Traducción de Tienda</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
@@ -3307,7 +3307,7 @@ Si una LDM es referencia y permite el tipo de solicitud, una solicitud del cambi
 		<value column="Help" original=""/>
 	</row>
 	<row id="713" trl="Y">
-		<value column="Name" original="Message Translation">Traduccion de Mensaje</value>
+		<value column="Name" original="Message Translation">Traducción de Mensaje</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
@@ -3331,7 +3331,7 @@ Si una LDM es referencia y permite el tipo de solicitud, una solicitud del cambi
 		<value column="Help" original=""/>
 	</row>
 	<row id="718" trl="Y">
-		<value column="Name" original="Update Notification">Aviso de Actualización </value>
+		<value column="Name" original="Update Notification">Aviso de Actualización</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="List Recipients for to receive Request Updates">Recipientes de la lista para recibir actualizaciones de la solicitud</value>
 		<value column="Help" original=""/>
@@ -3351,13 +3351,13 @@ Directo: Representante de ventas, usuario y suscriptores directos
 Indirecto: Usuarios con rol, suscriptores de las actualizaciones para la categoría de la petición, el tipo, el grupo.</value>
 	</row>
 	<row id="721" trl="Y">
-		<value column="Name" original="Position">Posicion</value>
+		<value column="Name" original="Position">Posición</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Job Position">Mantenga la posición del trabajo</value>
 		<value column="Help" original="Maintain internal (employee) or external positions"/>
 	</row>
 	<row id="722" trl="Y">
-		<value column="Name" original="Assignment">Asignación</value>
+		<value column="Name" original="Assignment">Asignación Trabajo</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Employee Assignment">Empleado Asignado</value>
 		<value column="Help" original=""/>
@@ -3375,19 +3375,19 @@ Indirecto: Usuarios con rol, suscriptores de las actualizaciones para la categor
 		<value column="Help" original=""/>
 	</row>
 	<row id="725" trl="Y">
-		<value column="Name" original="Remuneration">Remuneracion</value>
+		<value column="Name" original="Remuneration">Remuneración</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Remuneration Levels">Mantener remuneración de niveles</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="726" trl="Y">
-		<value column="Name" original="Position Remuneration">Remuneracion de la Posición</value>
+		<value column="Name" original="Position Remuneration">Remuneración de la Posición</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Position Remuneration">Mantener remuneración de la posición</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="727" trl="Y">
-		<value column="Name" original="Employee Remuneration">Remuneracion al Empleado</value>
+		<value column="Name" original="Employee Remuneration">Remuneración al Empleado</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Overwrite of Employee Position Remuneration">Sobreescriba la remuneración de la posición del empleado</value>
 		<value column="Help" original=""/>
@@ -3417,7 +3417,7 @@ Indirecto: Usuarios con rol, suscriptores de las actualizaciones para la categor
 		<value column="Help" original=""/>
 	</row>
 	<row id="732" trl="Y">
-		<value column="Name" original="Operation Resource">Recursos de Operacion</value>
+		<value column="Name" original="Operation Resource">Recursos de Operación</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Product Operation Resources">Recursos de la operación del producto</value>
 		<value column="Help" original="Resources for the Operation. You can have multiple resources (e.g. tool, labor) per operation.">Recursos para la operación del producto. Usted puede tener multiples recursos (ej. herramienta, trabajo) por operación.</value>
@@ -3425,7 +3425,7 @@ Indirecto: Usuarios con rol, suscriptores de las actualizaciones para la categor
 	<row id="733" trl="Y">
 		<value column="Name" original="Change Notice">Aviso de Cambio</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Bill of Materials (Engineering) Change Notice (Version)">Lista de materiales (Ingenieria) cambio de noticia (Version)</value>
+		<value column="Description" original="Bill of Materials (Engineering) Change Notice (Version)">Lista de materiales (Ingenieria) aviso de cambio (Versión)</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="734" trl="Y">
@@ -3473,7 +3473,7 @@ Indirecto: Usuarios con rol, suscriptores de las actualizaciones para la categor
 	<row id="741" trl="Y">
 		<value column="Name" original="Change Notice">Aviso de Cambio</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="(Engineering) Change Note (Version)">(Ingenieria) Aviso de cambio (Version)</value>
+		<value column="Description" original="(Engineering) Change Note (Version)">(Ingenieria) Aviso de cambio (Versión)</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="742" trl="Y">
@@ -3515,13 +3515,13 @@ Indirecto: Usuarios con rol, suscriptores de las actualizaciones para la categor
 	<row id="750" trl="Y">
 		<value column="Name" original="Attributes">Atributos</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Product Instance Attribute Material Allocation">Producto Instancia  Atributo Material Asignación</value>
+		<value column="Description" original="Product Instance Attribute Material Allocation">Producto Instancia Atributo Material Asignación</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="751" trl="Y">
 		<value column="Name" original="Attributes">Atributos</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Product Instance Attribute Material Allocation">Producto Instancia  Atributo Material Asignación</value>
+		<value column="Description" original="Product Instance Attribute Material Allocation">Producto Instancia Atributo Material Asignación</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="752" trl="Y">
@@ -3529,7 +3529,7 @@ Indirecto: Usuarios con rol, suscriptores de las actualizaciones para la categor
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Exclude the ability to enter Attribute Sets">Excluye la capacidad de ingresar Ajustes en los Atributos</value>
 		<value column="Help" original="Create a record, if you want to exclude the ability to enter Product Attribute Set information. &#10;Note that the information is cached. To have effect you may have to re-login or reset cache.">Crear un registro. si desea excluir la capacidad de ingresar Información en Ajustes Atributos de Producto.
-Note que la información es almacenada. Para que los cambios sean considerados debe re-ingresar o restaurar el cache. </value>
+Note que la información es almacenada. Para que los cambios sean considerados debe re-ingresar o restaurar el cache.</value>
 	</row>
 	<row id="753" trl="Y">
 		<value column="Name" original="Exclude">Excluir</value>
@@ -3543,10 +3543,10 @@ Note que la información es alamacenada. Para que tenga efecto debe ingresar nue
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Exclude the ability to create Serial Numbers in Attribute Sets">Excluye la capacidad de crear Números de Serie en Ajustar Atributos</value>
 		<value column="Help" original="Create a record, if you want to exclude the ability to create Serial Numbers in Product Attribute Set information.&#10;Note that the information is cached. To have effect you may have to re-login or reset cache.">Crear un registro, si desea excluir la capacidas de crear Números de Serie en Ajustar Atributos de Producto.
-Note que la información es almacenada en cache. Para que adquiera valor debe reingresar al sistema o restaurar el cache. </value>
+Note que la información es almacenada en cache. Para que adquiera valor debe reingresar al sistema o restaurar el cache.</value>
 	</row>
 	<row id="755" trl="Y">
-		<value column="Name" original="Allocate">Asignación</value>
+		<value column="Name" original="Allocate">Asigna Pagos</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Allocate Payments to Invoices">Asignación de Pagos a Facturas</value>
 		<value column="Help" original="You can directly allocate payments to invoices with the same currency when creating the Payment. &#10;Note that you can over- or under-allocate the payment.&lt;b&gt;&#10;When processing the payment, the allocation is created.&lt;b&gt;&#10;The Organization is set to the invoice organization">Usted puede asignar pagos a Facturas directamente con lamisma monéda al crear el pago.
@@ -3557,7 +3557,7 @@ La asignación es creada al momento de procesar el pago.
 	<row id="756" trl="Y">
 		<value column="Name" original="BP Access">Acceso SN</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Access of the User/Contact to Business Partner information and resources">Acceso a Usuario/Contacto para información Socio del Negocio y Recursos</value>
+		<value column="Description" original="Access of the User/Contact to Business Partner information and resources">Acceso del Usuario/Contacto para información del tercero y recursos</value>
 		<value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Si en Nivel de Usuario, "SN Acceso Total" No es seleccionado, aqui debe proprcionar acceso explícitamente.</value>
 	</row>
 	<row id="757" trl="Y">
@@ -3573,9 +3573,9 @@ La asignación es creada al momento de procesar el pago.
 		<value column="Help" original=""/>
 	</row>
 	<row id="759" trl="Y">
-		<value column="Name" original="Shipment, Receipt">Entrega, Recibo</value>
+		<value column="Name" original="Shipment, Receipt">Despacho, Recibo</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Material Shipment and Receipt Lines">Entrega de Material y  Líneas de Recibo </value>
+		<value column="Description" original="Material Shipment and Receipt Lines">Entrega de Material y Líneas de Recibo</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="760" trl="Y">
@@ -3591,10 +3591,10 @@ La asignación es creada al momento de procesar el pago.
 		<value column="Help" original=""/>
 	</row>
 	<row id="762" trl="Y">
-		<value column="Name" original="Cost Queue">Capa de Costo</value>
+		<value column="Name" original="Cost Queue">Cola de Costo</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Cost Queue for Lifo/Fifo">Capa de Costo para  UEPS/PEPS</value>
-		<value column="Help" original="Note thet the cost queue may not be the same as the physical movement cost queue due to differences in costing level and warehouse priority.">Note que Capa de Costo puede no ser el mismo que Capa de Costo Movimiento Físico para diferentes níveles de Costeo y prioridades de almacenamiento. </value>
+		<value column="Description" original="Cost Queue for Lifo/Fifo">Cola de Costo para UEPS/PEPS</value>
+		<value column="Help" original="Note thet the cost queue may not be the same as the physical movement cost queue due to differences in costing level and warehouse priority.">Note que la cola de costeo puede ser diferente a la cola de manejo de Movimiento Físico para diferentes níveles de Costeo y prioridades de almacenamiento.</value>
 	</row>
 	<row id="763" trl="Y">
 		<value column="Name" original="Declaration">Declaración</value>
@@ -3648,9 +3648,9 @@ Segmentos deseados de cuenta, Organización, Cuentas, Productos pueden tener alg
 		<value column="Help" original="General Ledger Funds Control allows you to restrict the use of funds.  This is independent from budget control.">Control de Fondos de contabilidad general te permite restringir el uso de fondos. Este es independiente del control de presupuesto</value>
 	</row>
 	<row id="771" trl="Y">
-		<value column="Name" original="Restriction">Restriccion</value>
+		<value column="Name" original="Restriction">Restricción</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Restriction of Funds">Restriccion de fondos</value>
+		<value column="Description" original="Restriction of Funds">Restricción de fondos</value>
 		<value column="Help" original="If defined, you can use the fund only for the accounts selected. You can select summary values.">Si esta definida, usted puede usar los fondos solo para cuentas seleccionadas. Usted puede seleccionar un resumen de valores.</value>
 	</row>
 	<row id="772" trl="Y">
@@ -3660,7 +3660,7 @@ Segmentos deseados de cuenta, Organización, Cuentas, Productos pueden tener alg
 		<value column="Help" original=""/>
 	</row>
 	<row id="773" trl="Y">
-		<value column="Name" original="Used in Column">Empleado en Columna </value>
+		<value column="Name" original="Used in Column">Empleado en Columna</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Used in Column (Reference)">Empleado en Columna (Referencia)</value>
 		<value column="Help" original=""/>
@@ -3670,7 +3670,7 @@ Segmentos deseados de cuenta, Organización, Cuentas, Productos pueden tener alg
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Sub Account for Element Value">Sub Cuenta para Valor del Elemento</value>
 		<value column="Help" original="The Element Value (e.g. Account) may have optional sub accounts for further detail. The sub account is dependent on the value of the account, so a further specification. If the sub-accounts are more or less the same, consider using another accounting dimension.">El Valor del Elemento (ej. Cuenta) puede tener opcionalmente sub cuentas para detalles adicionales. La sub cuenta es dependiente  sobr los valores de la cuenta, en consecuencia los detalles posteriores. Si las sub cuentas son mas o menos lo mismo, considere emplear otra dimensión contable.
- </value>
+</value>
 	</row>
 	<row id="775" trl="Y">
 		<value column="Name" original="Translation">Traducción</value>
@@ -3679,10 +3679,10 @@ Segmentos deseados de cuenta, Organización, Cuentas, Productos pueden tener alg
 		<value column="Help" original=""/>
 	</row>
 	<row id="776" trl="Y">
-		<value column="Name" original="Client Share">Compartir Compañía </value>
+		<value column="Name" original="Client Share">Compartir Compañía</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Force (not) sharing of client/org entities">Forzar o no el Compartir Entidades de  Compañía/Organización</value>
-		<value column="Help" original="Business Partner can be either defined on Client level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization &quot;*&quot;) or if they are not shared (i.e. you cannot enter them with Organization &quot;*&quot;).&lt;br&gt;&#10;The creation of  &quot;Client and Org&quot; shared records is the default and is ignored.">El Socio del Negocio también puede ser definido en Nivel de Compañía (compartido) o en  Nivel Organización (No Compartidos).Aqui usted puede definir los productos que siemore son compartidos (ej. siempre creados bajo  Organización "*") o si no son compartidos (ej. no podrán ser ingresados con Organización "*").
+		<value column="Description" original="Force (not) sharing of client/org entities">Forzar o no el Compartir Entidades de Compañía/Organización</value>
+		<value column="Help" original="Business Partner can be either defined on Client level (shared) or on Org level (not shared).  You can define here of Products are always shared (i.e. always created under Organization &quot;*&quot;) or if they are not shared (i.e. you cannot enter them with Organization &quot;*&quot;).&lt;br&gt;&#10;The creation of  &quot;Client and Org&quot; shared records is the default and is ignored.">El tercero también puede ser definido en Nivel de Compañía (compartido) o en  Nivel Organización (No Compartidos).Aqui usted puede definir los productos que siemore son compartidos (ej. siempre creados bajo  Organización "*") o si no son compartidos (ej. no podrán ser ingresados con Organización "*").
 La creación de los registros compartidos "Compañía y Organización" es predeterminada y es ignorada.</value>
 	</row>
 	<row id="777" trl="Y">
@@ -3692,9 +3692,9 @@ La creación de los registros compartidos "Compañía y Organización" es predet
 		<value column="Help" original="System Issues are created to speed up the resolution of any system related issues (potential bugs).  If enabled, they are automatically reported to Adempiere.  No data or confidential information is transferred.">Las versiones de sistema son creadas para apresurar la resolución de cualquier versión de sistema relacionaddo (errores potenciales). Si habilitó, automáticaamente son reportados a Adempiere. No sé transfiere información confidencial.</value>
 	</row>
 	<row id="778" trl="Y">
-		<value column="Name" original="Assigned Partners">Socios Asignados </value>
+		<value column="Name" original="Assigned Partners">Terceros Asignados</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partners in Group">Socios del Negocio en Grupo</value>
+		<value column="Description" original="Business Partners in Group">Terceros en Grupo</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="779" trl="Y">
@@ -3706,8 +3706,8 @@ La creación de los registros compartidos "Compañía y Organización" es predet
 	<row id="780" trl="Y">
 		<value column="Name" original="Restriction">Restricción</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Performance Goal Restriction">Restricción de Meta del Desempeño </value>
-		<value column="Help" original="Restriction of the performance measure to the Organization, Business Partner or Product defined.&#10;Example: The performance is only measured for HQ&#10;The measure must support the data, otherwise it is ignored.">Restricción de  la medida de desempeño para la Organización, Socio del Negocio o Producto definido.
+		<value column="Description" original="Performance Goal Restriction">Restricción de Meta del Desempeño</value>
+		<value column="Help" original="Restriction of the performance measure to the Organization, Business Partner or Product defined.&#10;Example: The performance is only measured for HQ&#10;The measure must support the data, otherwise it is ignored.">Restricción de  la medida de desempeño para la Organización, Tercero o Producto definido.
 Ejemplo: El desempeño solo es medido para HQ.
 La medida debe soportar la información, sino es ignorada.</value>
 	</row>
@@ -3721,7 +3721,7 @@ La medida debe soportar la información, sino es ignorada.</value>
 	<row id="783" trl="Y">
 		<value column="Name" original="Data">Datos</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Performance Benchmark Data Point">Desempeño Punto deControl de Datos </value>
+		<value column="Description" original="Performance Benchmark Data Point">Desempeño Punto deControl de Datos</value>
 		<value column="Help" original="Data Series Point to compare internal performance with (e.g. stock price, ...)">Series de Datos Puntuales para comparar desempeño interno (ej. Precio de Inventario, ...)</value>
 	</row>
 	<row id="784" trl="Y">
@@ -3776,9 +3776,9 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="794" trl="Y">
-		<value column="Name" original="Issue System">Versión de Sistema </value>
+		<value column="Name" original="Issue System">Versión de Sistema</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain Issue Systems">Mantener Versión de Sistemas </value>
+		<value column="Description" original="Maintain Issue Systems">Mantener Versión de Sistemas</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="795" trl="Y">
@@ -3808,8 +3808,8 @@ La medida debe soportar la información, sino es ignorada.</value>
 	<row id="800" trl="Y">
 		<value column="Name" original="Project">Proyecto</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="A web project is the main datacontainer for Containers, URLs, Ads, Media etc.">Un proyecto Web es el principal contenedor de datos para contenedores , URLs, Ads, Media etc....</value>
-		<value column="Help" original="A web project is the meta definition which will contain later on all data within the Web Content Management Project. ">Un proyecto Web es la meta deficinicion la cual contendra mas tarde todos los datos dentro del proyecto de administracion de contenido Web</value>
+		<value column="Description" original="A web project is the main datacontainer for Containers, URLs, Ads, Media etc.">Un proyecto Web es el principal contenedor de datos para contenedores, URLs, Ads, Media etc....</value>
+		<value column="Help" original="A web project is the meta definition which will contain later on all data within the Web Content Management Project. ">Un proyecto Web es la meta definición la cual contendra mas tarde todos los datos dentro del proyecto de administración de contenido Web</value>
 	</row>
 	<row id="801" trl="Y">
 		<value column="Name" original="Domain">Dominio</value>
@@ -3836,7 +3836,7 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="806" trl="Y">
-		<value column="Name" original="News Item">Nuevos Articulos</value>
+		<value column="Name" original="News Item">Nuevos Artículos</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
@@ -3854,19 +3854,19 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="809" trl="Y">
-		<value column="Name" original="Media Item">Articulo media</value>
+		<value column="Name" original="Media Item">Artículo media</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain Media Item">Mantiene articulo media</value>
-		<value column="Help" original="Media items are deployed on the media servers. The media item can be an Image or an attachment. Attachments are ignored, if there is an image.  If there are more then one attachment, the first is used.">Los articulos media son desplegados en los servidores media. El articulo media puede ser una imagen o un archivo adjunto. Los archivos adjuntos son ignorados, si hay una imgen. Si hay mas de un archivo adjunto, el primero es usado.</value>
+		<value column="Description" original="Maintain Media Item">Mantiene artículo media</value>
+		<value column="Help" original="Media items are deployed on the media servers. The media item can be an Image or an attachment. Attachments are ignored, if there is an image.  If there are more then one attachment, the first is used.">Los artículos media son desplegados en los servidores media. El artículo media puede ser una imagen o un archivo adjunto. Los archivos adjuntos son ignorados, si hay una imgen. Si hay mas de un archivo adjunto, el primero es usado.</value>
 	</row>
 	<row id="810" trl="Y">
 		<value column="Name" original="Stage">Plataforma</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Container Stage">Mantener contenedor de plataforma</value>
-		<value column="Help" original="Maintain Container Stage information.">Mantener informacion de contenedor de plataforma</value>
+		<value column="Help" original="Maintain Container Stage information.">Mantener información de contenedor de plataforma</value>
 	</row>
 	<row id="811" trl="Y">
-		<value column="Name" original="Stage Translation">Traduccion de plataforma</value>
+		<value column="Name" original="Stage Translation">Traducción de plataforma</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Container Stage Translation">Mantener Traducciones de contenedor de plataforma.</value>
 		<value column="Help" original=""/>
@@ -3875,13 +3875,13 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Name" original="Container">Contenedor</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="View Web Container">Ver contenedor</value>
-		<value column="Help" original="View deployed Web Container Information.">Ver despliegue de informacion de contenedor web</value>
+		<value column="Help" original="View deployed Web Container Information.">Ver despliegue de información de contenedor web</value>
 	</row>
 	<row id="813" trl="Y">
-		<value column="Name" original="Container Translation">Traduccion de contenedor</value>
+		<value column="Name" original="Container Translation">Traducción de contenedor</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="View Container Translation">Ver traduccion de contenedor</value>
-		<value column="Help" original="View deployed Web Container Translations">Ver despliegue Traducciones de contenedor  Web</value>
+		<value column="Description" original="View Container Translation">Ver traducción de contenedor</value>
+		<value column="Help" original="View deployed Web Container Translations">Ver despliegue Traducciones de contenedor Web</value>
 	</row>
 	<row id="814" trl="Y">
 		<value column="Name" original="Container Element">Elemento contenedor</value>
@@ -3890,10 +3890,10 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original="View deployed Web Container Element">Ver despliegue de Elemento contenedor Web</value>
 	</row>
 	<row id="815" trl="Y">
-		<value column="Name" original="Container Element Translation">Traduccion de elemento contenedor</value>
+		<value column="Name" original="Container Element Translation">Traducción de elemento contenedor</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="View Web Container Element Translation">Ver traduccion de elemento contenedor Web</value>
-		<value column="Help" original="View deployed Web Container Element Translation">Ver despliegue de traduccion de elemento contenedor Web</value>
+		<value column="Description" original="View Web Container Element Translation">Ver traducción de elemento contenedor Web</value>
+		<value column="Help" original="View deployed Web Container Element Translation">Ver despliegue de traducción de elemento contenedor Web</value>
 	</row>
 	<row id="816" trl="Y">
 		<value column="Name" original="Stage Element">Elemento de plataforma</value>
@@ -3902,46 +3902,46 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="817" trl="Y">
-		<value column="Name" original="Stage Element Translation">Traduccion de Elemento de plataforma</value>
+		<value column="Name" original="Stage Element Translation">Traducción de Elemento de plataforma</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Container Stage Element Translation">Contenedor de Traduccion de Elemento de plataforma</value>
+		<value column="Description" original="Container Stage Element Translation">Contenedor de Traducción de Elemento de plataforma</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="818" trl="Y">
 		<value column="Name" original="Template">Plantilla</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Web Project Template">Plantilla de proyecto Web</value>
-		<value column="Help" original="CM Project Template">Plantilla de administacion de contendio de proyecto</value>
+		<value column="Help" original="CM Project Template">Plantilla de administración de contenido de proyecto</value>
 	</row>
 	<row id="819" trl="Y">
 		<value column="Name" original="Chat Type">Tipo de Charla</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain Type of discussion / chat">Mantener tipo de  discusión / Charla</value>
-		<value column="Help" original="Chat Type allows you to receive subscriptions for particular content of discussions. It is linked to a table.">Tipo de charla permite recibir suscripciones para contenidos particulares de una  discusión. Este esta enlazado a una tabla</value>
+		<value column="Description" original="Maintain Type of discussion / chat">Mantener tipo de discusión / Charla</value>
+		<value column="Help" original="Chat Type allows you to receive subscriptions for particular content of discussions. It is linked to a table.">Tipo de charla permite recibir suscripciones para contenidos particulares de una discusión. Este esta enlazado a una tabla</value>
 	</row>
 	<row id="820" trl="Y">
 		<value column="Name" original="Updates">Actualizaciones</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Subscribers for the Chat Type">Suscriptores para el tipo de charla</value>
-		<value column="Help" original="Subscribers receive updates per email or notice">Suscriptores reciben actualizaciones via email o notificacion.</value>
+		<value column="Help" original="Subscribers receive updates per email or notice">Suscriptores reciben actualizaciones via email o notificación.</value>
 	</row>
 	<row id="821" trl="Y">
 		<value column="Name" original="Chat">Charla</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="View Chat or discussion thread">Ver charla o hilo de discusion </value>
-		<value column="Help" original="Thread of discussion">Hilo de discusion</value>
+		<value column="Description" original="View Chat or discussion thread">Ver charla o hilo de discusión</value>
+		<value column="Help" original="Thread of discussion">Hilo de discusión</value>
 	</row>
 	<row id="822" trl="Y">
 		<value column="Name" original="Chat Entry">Entrada de charla</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Individual Chat / Discussion Entry">Charla individual / Entrada de discusion</value>
+		<value column="Description" original="Individual Chat / Discussion Entry">Charla individual / Entrada de discusión</value>
 		<value column="Help" original="The entry can not be changed - just the confidentiality">La entrada no puede ser cambiada- Solo la confidencialidad</value>
 	</row>
 	<row id="823" trl="Y">
 		<value column="Name" original="Updates">Actualizaciones</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Subscribers for this Chat">suscriptores para esta charla</value>
-		<value column="Help" original="Subscribers receive updates per email or notice. In addition to the subscribers for this specific cta, also the subscribers of the Chat Type receive updates.">Suscriptores reciben actualizaciones por email o notificacion.  Tabmein los suscriptores de la charla reciben actualizaciones.</value>
+		<value column="Help" original="Subscribers receive updates per email or notice. In addition to the subscribers for this specific cta, also the subscribers of the Chat Type receive updates.">Suscriptores reciben actualizaciones por email o notificación. Tambien los suscriptores de la charla reciben actualizaciones.</value>
 	</row>
 	<row id="824" trl="Y">
 		<value column="Name" original="Media">Media</value>
@@ -3956,16 +3956,16 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original="Link a Template with a Table">Enlazar una plantilla con una tabla</value>
 	</row>
 	<row id="826" trl="Y">
-		<value column="Name" original="Container T.Table">Contenedor  de plantilla Tabla</value>
+		<value column="Name" original="Container T.Table">Contenedor de plantilla Tabla</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="View Container Template Table">Ver Contenedor  de plantilla Tabla</value>
-		<value column="Help" original="Link to individual Record">Enlaza a  un registro individual</value>
+		<value column="Description" original="View Container Template Table">Ver Contenedor de plantilla Tabla</value>
+		<value column="Help" original="Link to individual Record">Enlaza a un registro individual</value>
 	</row>
 	<row id="827" trl="Y">
-		<value column="Name" original="Stage T.Table">Plataforma de plantilla de tabla </value>
+		<value column="Name" original="Stage T.Table">Plataforma de plantilla de tabla</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain Container Stage Template Table">Mantener Plataforma de plantilla de tabla </value>
-		<value column="Help" original="Link to individual Record">Enlaza a  un registro individual</value>
+		<value column="Description" original="Maintain Container Stage Template Table">Mantener Plataforma de plantilla de tabla</value>
+		<value column="Help" original="Link to individual Record">Enlaza a un registro individual</value>
 	</row>
 	<row id="828" trl="Y">
 		<value column="Name" original="Web Project">Proyecto Web</value>
@@ -3989,19 +3989,19 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Name" original="Entity Type">Tipo de entidad</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="System Entity Type">Tipo de entidad del sistema</value>
-		<value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;Adempiere&quot; should not be used and are maintainted by Adempiere (i.e. all changes are reversed during migration to the current definition).">El tipo de entidad determina el propietario de las entradas al diccionario de la aplicacion. Los tipos , diccionario y deampiere, no deben ser usados y  son mantenidos por Adempiere</value>
+		<value column="Help" original="The entity type determines the ownership of Application Dictionary entries.  The types &quot;Dictionary&quot; and &quot;Adempiere&quot; should not be used and are maintainted by Adempiere (i.e. all changes are reversed during migration to the current definition).">El tipo de entidad determina el propietario de las entradas al diccionario de la aplicación. Los tipos "Diccionario" y "Adempiere" no deben ser usados y son mantenidos por Adempiere</value>
 	</row>
 	<row id="832" trl="Y">
-		<value column="Name" original="System Modifin">Modificacion de sistema</value>
+		<value column="Name" original="System Modifin">Modificación de sistema</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="System Modification or Extension">Modificacion de sistema o extensión </value>
-		<value column="Help" original="Description of the System modification or extension">Descripcion de la modificacion del sistema o extensión </value>
+		<value column="Description" original="System Modification or Extension">Modificación de sistema o extensión</value>
+		<value column="Help" original="Description of the System modification or extension">Descripción de la modificación del sistema o extensión</value>
 	</row>
 	<row id="833" trl="Y">
-		<value column="Name" original="Web Access Profile">Perfil de Acceso a Internet</value>
+		<value column="Name" original="Web Access Profile">Perfil de Acceso a Web</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain Web Access Profile">Mantener  Perfil de Acceso a Internet</value>
-		<value column="Help" original="Define access to collaboration management content.  You can assign the profile to a internal role or for external access to business partner group.&#10;If the profile is exclude (default), the assignees can view all but the defined content. If the profile is not exclude (include), the assigned roles and business partner groups can only view the listed content.">Feinel el acceso a la colaboracion en la administracion de contenido. Usted puede asignar el perfil a un rol interno o para un acceso externo  a un grupo  de socios de negocio. Si el perfil es excluido (Defecto). La persona asignada puede ver todo el contenido pero no definirlo. Si el perfil  no esta excluido (incluido), los roles y socios de negocio asignados pueden solo ver la lista de contenido</value>
+		<value column="Description" original="Maintain Web Access Profile">Mantener Perfil de Acceso a Web</value>
+		<value column="Help" original="Define access to collaboration management content.  You can assign the profile to a internal role or for external access to business partner group.&#10;If the profile is exclude (default), the assignees can view all but the defined content. If the profile is not exclude (include), the assigned roles and business partner groups can only view the listed content.">Define el acceso a la colaboración en la administración de contenido. Usted puede asignar el perfil a un rol interno o para un acceso externo a un grupo de terceros. Si el perfil es excluido (Defecto). La persona asignada puede ver todo el contenido pero no definirlo. Si el perfil no esta excluido (incluido), los roles y terceros asignados pueden solo ver la lista de contenido</value>
 	</row>
 	<row id="834" trl="Y">
 		<value column="Name" original="List Role">Lista de roles</value>
@@ -4010,9 +4010,9 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original="Maintain the list of Roles with Access to this profile.">Mantener la lista de roles con acceso a este perfil.</value>
 	</row>
 	<row id="835" trl="Y">
-		<value column="Name" original="List BPartner Group">Lista de grupo de socios de negocio.</value>
+		<value column="Name" original="List BPartner Group">Lista de grupo de terceros.</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Web Access for Business Partner Group">Acceso Web para grupo de socios de negocio</value>
+		<value column="Description" original="Web Access for Business Partner Group">Acceso Web para grupo de terceros</value>
 		<value column="Help" original="Maintain the list of Roles with Access to this profile.">Mantenimiento de la lista de roles con acceso a este perfil.</value>
 	</row>
 	<row id="836" trl="Y">
@@ -4031,7 +4031,7 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Name" original="Access News Channel">Acceso a canal de noticias</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Web Access to News Channel">Acceso Web a canal de noticias</value>
-		<value column="Help" original="Maintain the access to news channel">Mantener  el acceso a canal de noticias.</value>
+		<value column="Help" original="Maintain the access to news channel">Mantener el acceso a canal de noticias.</value>
 	</row>
 	<row id="839" trl="Y">
 		<value column="Name" original="Access Media">Acceso Media</value>
@@ -4048,38 +4048,38 @@ La medida debe soportar la información, sino es ignorada.</value>
 	<row id="841" trl="Y">
 		<value column="Name" original="Server">Servidor</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain Web Broadcast Server">Mantener el servidor de publicacion Web</value>
+		<value column="Description" original="Maintain Web Broadcast Server">Mantener el servidor de publicación Web</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="842" trl="Y">
 		<value column="Name" original="Window">Ventana</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Info and search/select Window">Informacion y busqueda / seleccion de ventana</value>
-		<value column="Help" original="The Info window is used to search and select records as well as display information relevant to the selection.">La ventana de informacion es usada para  buscar y seleccionar registros como tambien despliegue de informacion relevante a la seleccion.</value>
+		<value column="Description" original="Info and search/select Window">Información y búsqueda / selección de ventana</value>
+		<value column="Help" original="The Info window is used to search and select records as well as display information relevant to the selection.">La ventana de información es usada para buscar y seleccionar registros como tambien despliegue de información relevante a la selección.</value>
 	</row>
 	<row id="843" trl="Y">
-		<value column="Name" original="Window Translation">Ventana de Traduccion</value>
+		<value column="Name" original="Window Translation">Ventana de Traducción</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Info Window Translation">Informacion de ventana de traduccion</value>
+		<value column="Description" original="Info Window Translation">Información de ventana de traducción</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="844" trl="Y">
 		<value column="Name" original="Column">Columna</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Info Window Column">Columna de la ventana de informacion</value>
-		<value column="Help" original="Column in the Info Window for display and/or selection.  If used for selection, the column cannot be a SQL expression. The SQL clause must be fully qualified based on the FROM clause in the Info Window definition"> Columna en  ventana de informacion para despliegue y / o seleccion. Si es usada para seleccion , la colimna no puede ser una expresion SQL. La Clausula SQL debe ser completamente basada en la clausula FROM en la definicion de ventana de informacion.</value>
+		<value column="Description" original="Info Window Column">Columna de la ventana de información</value>
+		<value column="Help" original="Column in the Info Window for display and/or selection.  If used for selection, the column cannot be a SQL expression. The SQL clause must be fully qualified based on the FROM clause in the Info Window definition">Columna en ventana de información para despliegue y / o selección. Si es usada para selección, la columna no puede ser una expresión SQL. La Clausula SQL debe ser completamente basada en la clausula FROM en la definición de ventana de información.</value>
 	</row>
 	<row id="845" trl="Y">
-		<value column="Name" original="Column Translation">Columna de traduccion</value>
+		<value column="Name" original="Column Translation">Columna de traducción</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Infow Window Column Translation">Traduccion de columna de Ventana de informacion </value>
+		<value column="Description" original="Infow Window Column Translation">Traducción de columna de Ventana de información</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="846" trl="Y">
-		<value column="Name" original="Index">Indice </value>
+		<value column="Name" original="Index">Indice</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Text Search Index">Indice de texto de busqueda</value>
-		<value column="Help" original="Text search index keyword and excerpt across documents">Palabras claves de indice de texto de busqueda y extractos atraves de documentos</value>
+		<value column="Description" original="Text Search Index">Indice de texto de búsqueda</value>
+		<value column="Help" original="Text search index keyword and excerpt across documents">Palabras claves de índice de texto de búsqueda y extractos atraves de documentos</value>
 	</row>
 	<row id="847" trl="Y">
 		<value column="Name" original="Index Stop">Indice de parada</value>
@@ -4090,29 +4090,29 @@ La medida debe soportar la información, sino es ignorada.</value>
 	<row id="848" trl="Y">
 		<value column="Name" original="Log">Log</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="View Text Search Queries">Ver texto de consultas de busqueda</value>
+		<value column="Description" original="View Text Search Queries">Ver texto de consultas de búsqueda</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="849" trl="Y">
-		<value column="Name" original="LDAP Server">Servidor LDAP </value>
+		<value column="Name" original="LDAP Server">Servidor LDAP</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="LDAP Server to authenticate and authorize external systems based on Adempiere">Servidor LDAP para autenticar y autorizar sistemas externos basados en Adempiere</value>
-		<value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per Adempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">El Servidor LDAP  permite software de terceros (Ej : Apache ) para el uso de usuarios definidos en el sistema para autenticarlos y autorizarlos . Hay un solo servidor por sistema Adempiere. La "o" es la llave del cliente y la opcion "ou" es la llave de area de interes.</value>
+		<value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per Adempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">El Servidor LDAP permite software de terceros (Ej : Apache ) para el uso de usuarios definidos en el sistema para autenticarlos y autorizarlos . Hay un solo servidor por sistema Adempiere. La "o" es la llave del cliente y la opción "ou" es la llave de area de interes.</value>
 	</row>
 	<row id="850" trl="Y">
-		<value column="Name" original="LDAP Server Log">Log de  Servidor LDAP </value>
+		<value column="Name" original="LDAP Server Log">Log de Servidor LDAP</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Log of the LDAP Server">Log de  Servidor LDAP</value>
+		<value column="Description" original="Log of the LDAP Server">Log de Servidor LDAP</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="851" trl="Y">
-		<value column="Name" original="LDAP Access">Acceso LDAP </value>
+		<value column="Name" original="LDAP Access">Acceso LDAP</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="User Access via LDAP">Acceso de usuario via LDAP</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="852" trl="Y">
-		<value column="Name" original="LDAP Access">Acceso LDAP </value>
+		<value column="Name" original="LDAP Access">Acceso LDAP</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="User Access via LDAP">Acceso de usuario via LDAP</value>
 		<value column="Help" original=""/>
@@ -4127,12 +4127,12 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Name" original="Object Backups">Objetos de respaldo</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Details by column original values before the record was overwritten">Detalles por valores originales de columna antes de que el registro fuera sobre escrito</value>
-		<value column="Help" original="Displays values for each column for each record that was updated by a package install.  This backup is used in the package reversal process.">Muestra valores para cada columna para cada registro que fue actualizado por una installacion de paquete. Este respaldo es usado en el proceso de reversar paquete.</value>
+		<value column="Help" original="Displays values for each column for each record that was updated by a package install.  This backup is used in the package reversal process.">Muestra valores para cada columna para cada registro que fue actualizado por una installación de paquete. Este respaldo es usado en el proceso de reversar paquete.</value>
 	</row>
 	<row id="50003" trl="Y">
-		<value column="Name" original="Package Installation Log">Log de instalacion de paquetes.</value>
+		<value column="Name" original="Package Installation Log">Log de instalación de paquetes.</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Installation history of packages">Historia de instalacion de paquetes</value>
+		<value column="Description" original="Installation history of packages">Historia de instalación de paquetes</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="50004" trl="Y">
@@ -4190,7 +4190,7 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="52002" trl="Y">
-		<value column="Name" original="Web Properties">Propiedades Web </value>
+		<value column="Name" original="Web Properties">Propiedades Web</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Stores the message tags to be picked up from AD_MESSAGE ">Almacena los mensajes de pestañas para se tomados de AD_MESSAGE</value>
 		<value column="Help" original=""/>
@@ -4202,10 +4202,10 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="53013" trl="Y">
-		<value column="Name" original="Document Action Access">Acceso de accion de documento</value>
+		<value column="Name" original="Document Action Access">Acceso de acción de documento</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Define access to document type / document action / role combinations.">Define el acceso a tipos de documento / accion de documento / Combinacion de roles</value>
-		<value column="Help" original="Define access to document type / document action / role combinations.">Define el acceso a tipos de documento / accion de documento / Combinacion de roles</value>
+		<value column="Description" original="Define access to document type / document action / role combinations.">Define el acceso a tipos de documento / acción de documento / Combinación de roles</value>
+		<value column="Help" original="Define access to document type / document action / role combinations.">Define el acceso a tipos de documento / acción de documento / Combinación de roles</value>
 	</row>
 	<row id="53014" trl="Y">
 		<value column="Name" original="Model Validator">Validador de modelo</value>
@@ -4298,7 +4298,7 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="53073" trl="Y">
-		<value column="Name" original="Migration Scripts">Scripts de Migracion </value>
+		<value column="Name" original="Migration Scripts">Scripts de Migración</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>

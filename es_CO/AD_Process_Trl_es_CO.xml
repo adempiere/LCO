@@ -30,7 +30,7 @@
 	<row id="106" trl="Y">
 		<value column="Name" original="Update Quantity">Actualizar Cantidad</value>
 		<value column="Description" original="The Book Quantity is updated with current book quantity">La cantidad en libros es actualizada con la cantidad real en libros</value>
-		<value column="Help" original="The Update Quantity Process will update the book quantity with the current book quantity.  ">(vacio)</value>
+		<value column="Help" original="The Update Quantity Process will update the book quantity with the current book quantity.  ">(vacío)</value>
 	</row>
 	<row id="107" trl="Y">
 		<value column="Name" original="Process Inventory Count ">Procesar Conteo Físico</value>
@@ -45,7 +45,7 @@
 	<row id="109" trl="Y">
 		<value column="Name" original="Process Shipment ">Procesar Entrega</value>
 		<value column="Description" original="Process Shipment/Receipt (Update Inventory)">Procesar Entrega (actualiza el inventario)</value>
-		<value column="Help" original="Process Shipment/Receipt will move products out of/into  inventory and mark line items as shipped/received.">Procesar Entrega, moverá productos del inventario y marca los ítems como Entregados. </value>
+		<value column="Help" original="Process Shipment/Receipt will move products out of/into  inventory and mark line items as shipped/received.">Procesar Entrega, moverá productos del inventario y marca los ítems como Entregados.</value>
 	</row>
 	<row id="110" trl="Y">
 		<value column="Name" original="Order Print">Imprimir Orden</value>
@@ -59,7 +59,7 @@
 	</row>
 	<row id="112" trl="Y">
 		<value column="Name" original="Copy Accounts">Copiar Cuentas</value>
-		<value column="Description" original="Copy and overwrite Accounts to Business Partners of this group">Copiar y sobreescribir las cuentas para los socios del negocio de este grupo</value>
+		<value column="Description" original="Copy and overwrite Accounts to Business Partners of this group">Copiar y sobreescribir las cuentas para los terceros de este grupo</value>
 		<value column="Help" original="If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the receivebles account, ...)"/>
 	</row>
 	<row id="113" trl="Y">
@@ -110,7 +110,7 @@
 	<row id="122" trl="Y">
 		<value column="Name" original="Process Movements">Procesar Movimientos</value>
 		<value column="Description" original="Process Inventory Movements">Procesar movimientos de inventario</value>
-		<value column="Help" original="Process Inventory Movements will update inventory quantities based on the defined movements between warehouses or locations.">Procesar movimientos de inventario actualizará cantidades en inventario basados en los movimientos definidos entre bodegas o localizaciones</value>
+		<value column="Help" original="Process Inventory Movements will update inventory quantities based on the defined movements between warehouses or locations.">Procesar movimientos de inventario actualizará cantidades en inventario basados en los movimientos definidos entre almacenes o localizaciones</value>
 	</row>
 	<row id="123" trl="Y">
 		<value column="Name" original="Generate Commission">Generar Comisión</value>
@@ -290,7 +290,7 @@
 	<row id="164" trl="Y">
 		<value column="Name" original="Generate Order">Generar Orden</value>
 		<value column="Description" original="Generate Order from Project">Generar orden desde un proyecto</value>
-		<value column="Help" original="The Generate Order process will generate a new Order document based on the project phase. A price list and warehouse/service point must be defined on the project.">El proceso de Generar Orden generará una nueva orden basado en el proyecto. Una lista de precios debe ser seleccionada en el proyecto. Cuando el proceso arranca una bodega debe ser seleccionada</value>
+		<value column="Help" original="The Generate Order process will generate a new Order document based on the project phase. A price list and warehouse/service point must be defined on the project.">El proceso de Generar Orden generará una nueva orden basado en el proyecto. Una lista de precios debe ser seleccionada en el proyecto. Cuando el proceso arranca un almacén debe ser seleccionado</value>
 	</row>
 	<row id="165" trl="Y">
 		<value column="Name" original="Copy Lines">Copiar De</value>
@@ -425,11 +425,11 @@
 	<row id="193" trl="Y">
 		<value column="Name" original="Generate PO from Sales Order">Generar OC desde Orden de Venta</value>
 		<value column="Description" original="Create Purchase Order from Sales Orders">Crear Orden de compra desde orden de ventas</value>
-		<value column="Help" original="After completing sales orders, you can create one or more purchase orders for each sales order. A purchase order references always only one sales order (i.e. no consolidation of sales orders). &#10;The Organization of the Sales Order is used to create the Purchase Order. If a (default) PO document type is defined on Organization level, that is used instead of the document types defined on Client level.&#10;&#10;POs are created for all sales order lines where the product has a current vendor, the vendor has a Vendor Price List with all Products on the most current Price List Version. The Unit of Measure is copied; PO and SO can have different currencies.&#10;&#10;Once the process is run, you need to synchronize the SO/PO manually (e.g. in case of additional lines and changed lines (product &amp; quantity).&#10;">Después de completar ordenes de ventas; el usuario puede crear una o más ordenes de compra por cada orden de venta. Una orden de compra solo esta relacionada a una orden de venta. Ordenes de compra son creadas para todas las líneas de la orden de ventas donde el producto tiene un proveedor actual; el proveedor tiene una lista de precios con todos los productos en la última version del precio de lista. La unidad de medida es copiada; la orden de compra y de venta pueden tener monedas diferentes. Una vez este proceso es corrido; es necesario sincronizar las Ordenes manualmente (e.g. En caso de líneas adicionales)</value>
+		<value column="Help" original="After completing sales orders, you can create one or more purchase orders for each sales order. A purchase order references always only one sales order (i.e. no consolidation of sales orders). &#10;The Organization of the Sales Order is used to create the Purchase Order. If a (default) PO document type is defined on Organization level, that is used instead of the document types defined on Client level.&#10;&#10;POs are created for all sales order lines where the product has a current vendor, the vendor has a Vendor Price List with all Products on the most current Price List Version. The Unit of Measure is copied; PO and SO can have different currencies.&#10;&#10;Once the process is run, you need to synchronize the SO/PO manually (e.g. in case of additional lines and changed lines (product &amp; quantity).&#10;">Después de completar ordenes de ventas; el usuario puede crear una o más ordenes de compra por cada orden de venta. Una orden de compra solo esta relacionada a una orden de venta. Ordenes de compra son creadas para todas las líneas de la orden de ventas donde el producto tiene un proveedor actual; el proveedor tiene una lista de precios con todos los productos en la última versión del precio de lista. La unidad de medida es copiada; la orden de compra y de venta pueden tener monedas diferentes. Una vez este proceso es corrido; es necesario sincronizar las Ordenes manualmente (e.g. En caso de líneas adicionales)</value>
 	</row>
 	<row id="194" trl="Y">
-		<value column="Name" original="Import Business Partners">Importar Socios de Negocio</value>
-		<value column="Description" original="Import Business Partners">Importar Socios de Negocio</value>
+		<value column="Name" original="Import Business Partners">Importar Terceros</value>
+		<value column="Description" original="Import Business Partners">Importar Terceros</value>
 		<value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data."/>
 	</row>
 	<row id="195" trl="Y">
@@ -438,7 +438,7 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="196" trl="Y">
-		<value column="Name" original="Import Products ">Importa Productos </value>
+		<value column="Name" original="Import Products ">Importa Productos</value>
 		<value column="Description" original="Imports products from a file into the application">Importa productos para el archivo de aplicación.</value>
 		<value column="Help" original="Import Products will bring a file of products, in a predefined format into the application.&lt;p&gt;&#10;The Parameters are default values for null import record values, they do not overwrite any data.&lt;p&gt;&#10;If you select an existing price list and you have List, Standard, and Limit Price defined, they are directly created/updated.">Los productos de la importación traerán un archivo de productos, en un formato predefinido en el uso.</value>
 	</row>
@@ -449,7 +449,7 @@
 	</row>
 	<row id="198" trl="Y">
 		<value column="Name" original="Import Report Line Set">Importa lote de líneas de Informe</value>
-		<value column="Description" original="Import Report Line Set information">Importa lote de líneas de información </value>
+		<value column="Description" original="Import Report Line Set information">Importa lote de líneas de información</value>
 		<value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data."/>
 	</row>
 	<row id="199" trl="Y">
@@ -480,10 +480,10 @@
 	<row id="204" trl="Y">
 		<value column="Name" original="Statement of Accounts">Estado de Cuenta</value>
 		<value column="Description" original="Report Account Statement Beginning Balance and Transactions">Reporte de Estado de Cuenta, Inicio del Balance y Transacciones</value>
-		<value column="Help" original="Select a Period (current period if empty) or enter a Account Date Range. You can select an alternative Reporting Hierarchy.">Seleccione un periodo (Campo vacio muestra periodo actual) o indique un rango de cuentas o fechas</value>
+		<value column="Help" original="Select a Period (current period if empty) or enter a Account Date Range. You can select an alternative Reporting Hierarchy.">Seleccione un periodo (Campo vacío muestra periodo actual) o indique un rango de cuentas o fechas</value>
 	</row>
 	<row id="205" trl="Y">
-		<value column="Name" original="Cache Reset">Reinicia Cache </value>
+		<value column="Name" original="Cache Reset">Reinicia Cache</value>
 		<value column="Description" original="Reset Cache of the System ** Close all Windows before proceeding **">Reinicia el Cache del sitema ** Cerrar todas las ventanas antes de iniciar **</value>
 		<value column="Help" original="To increase performance, Adempiere caches repeatedly used data. This process clears the local cache.">Para aumentar funcionamiento, Adempiere reasigna los datos usados. Este proceso despeja el cache local.</value>
 	</row>
@@ -504,28 +504,28 @@
 	</row>
 	<row id="209" trl="Y">
 		<value column="Name" original="Send Mail Text">Envía Texto Mail</value>
-		<value column="Description" original="Send EMails to active subscribers of an Interest Area OR a Business Partner Group from a selected User">Envie los Email a los suscriptores activos de un grupo de socios de negocio o área de interés.</value>
-		<value column="Help" original="Select the Interest Area to which subscribers you send the Mail Text from the User selected.  Additionally, you can send mails to the Contacts of a Business Partner Group.&lt;br&gt;&#10;The User to send emails from needs to have valid EMail information. If you don't select a user, the Mail is sent from the Client's Request Mail User.">Seleccione el área de interés, a que suscriptores usted envía el texto de correo del usuario seleccionado. Alternativamente, usted puede enviar correos a los contactos de un grupo de socio de negocio.&lt;br&gt;
+		<value column="Description" original="Send EMails to active subscribers of an Interest Area OR a Business Partner Group from a selected User">Envie los Email a los suscriptores activos de un grupo de terceros o área de interés.</value>
+		<value column="Help" original="Select the Interest Area to which subscribers you send the Mail Text from the User selected.  Additionally, you can send mails to the Contacts of a Business Partner Group.&lt;br&gt;&#10;The User to send emails from needs to have valid EMail information. If you don't select a user, the Mail is sent from the Client's Request Mail User.">Seleccione el área de interés, a que suscriptores usted envía el texto de correo del usuario seleccionado. Alternativamente, usted puede enviar correos a los contactos de un grupo de terceros.&lt;br&gt;
 El usuario para enviar emails de necesidades para tener valida la información del Email. Si usted no selecciona un usuario, el mail se envia de la solicitud del cliente.</value>
 	</row>
 	<row id="210" trl="Y">
-		<value column="Name" original="Copy Lines">Copiar Lineas</value>
-		<value column="Description" original="Copy Lines from other Invoice">Copiar Lineas Desde otra Factura</value>
+		<value column="Name" original="Copy Lines">Copiar Líneas</value>
+		<value column="Description" original="Copy Lines from other Invoice">Copiar Líneas Desde otra Factura</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="211" trl="Y">
-		<value column="Name" original="Copy Lines">Copiar Lineas</value>
-		<value column="Description" original="Copy Lines from other Order">Copiar Lineas Desde otra Factura</value>
+		<value column="Name" original="Copy Lines">Copiar Líneas</value>
+		<value column="Description" original="Copy Lines from other Order">Copiar Líneas Desde otra Factura</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="212" trl="Y">
 		<value column="Name" original="Copy Details">Copiar Desde</value>
-		<value column="Description" original="Copy Lines/Phases/Tasks from other Project">Copia Lineas/Fases/Tareas desde otro Proyecto</value>
+		<value column="Description" original="Copy Lines/Phases/Tasks from other Project">Copia Líneas/Fases/Tareas desde otro Proyecto</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="213" trl="Y">
-		<value column="Name" original="Start Process">Inicio de Corrida Recurrente </value>
-		<value column="Description" original="Start Recurring Run">Inicio de Corrida Recurrente </value>
+		<value column="Name" original="Start Process">Inicio de Corrida Recurrente</value>
+		<value column="Description" original="Start Recurring Run">Inicio de Corrida Recurrente</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="214" trl="Y">
@@ -561,7 +561,7 @@ El usuario para enviar emails de necesidades para tener valida la información d
 	</row>
 	<row id="220" trl="Y">
 		<value column="Name" original="Import Journal">Importa Polizas</value>
-		<value column="Description" original="Import General Ledger Batch/Journal/Line">Importa Contabilidad General Lote/Poliza/Linea</value>
+		<value column="Description" original="Import General Ledger Batch/Journal/Line">Importa Contabilidad General Lote/Poliza/Línea</value>
 		<value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">Los parámetros son valores prefijados para los valores nulos del expediente de la importación, ellos no sobreescriben ningunos datos.</value>
 	</row>
 	<row id="221" trl="Y">
@@ -576,7 +576,7 @@ El usuario para enviar emails de necesidades para tener valida la información d
 	</row>
 	<row id="223" trl="Y">
 		<value column="Name" original="Asset Delivery Details">Entrega de Activo</value>
-		<value column="Description" original="Report Asset Deliveries Details">Reporte de entrega de Activos </value>
+		<value column="Description" original="Report Asset Deliveries Details">Reporte de entrega de Activos</value>
 		<value column="Help" original="The report lists the details of Asset Deliveries for the records selected."/>
 	</row>
 	<row id="224" trl="Y">
@@ -617,7 +617,7 @@ The default Movement Date is today's date.</value>
 	</row>
 	<row id="230" trl="Y">
 		<value column="Name" original="Get Price">Obtener Precio</value>
-		<value column="Description" original="Get Price for Project Line based on Project Price List">Obtener Precio para una Linea de Proyecto Basado en una lista de Precios del Proyecto</value>
+		<value column="Description" original="Get Price for Project Line based on Project Price List">Obtener Precio para una Línea de Proyecto Basado en una lista de Precios del Proyecto</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="231" trl="Y">
@@ -639,7 +639,7 @@ Cra los controles que faltan del periodo para el tipo de documento (Usted debe t
 	<row id="234" trl="Y">
 		<value column="Name" original="Project Margin (Work Order)">Margen del Proyecto (Orden de Trabajo)</value>
 		<value column="Description" original="Work Order Project Lines (planned revenue) vs. Project Issues (costs)">El proyecto de la orden de trabajo alinea (rédito previsto) contra las ediciones del proyecto (costos)</value>
-		<value column="Help" original="The Project Margin Report for Work Orders compares the Project lines (planned revenue) against the Project issues (actual effort and costs). The margin amount is calculated by subtracting the costs (issue) from the revenue (line).&#10;The costs are in the currency of the Accounting Schema - the lines are in the currency of the price list of the project.">El informe del margen del proyecto para las ordenes de trabajo compara las lineas de proyecto (rédito previsto) contra las ediciones del proyecto (esfuerzo y los costos reales). La cantidad del margen es calculada restando los costos (edición) del redito (línea). 
+		<value column="Help" original="The Project Margin Report for Work Orders compares the Project lines (planned revenue) against the Project issues (actual effort and costs). The margin amount is calculated by subtracting the costs (issue) from the revenue (line).&#10;The costs are in the currency of the Accounting Schema - the lines are in the currency of the price list of the project.">El informe del margen del proyecto para las ordenes de trabajo compara las líneas de proyecto (rédito previsto) contra las ediciones del proyecto (esfuerzo y los costos reales). La cantidad del margen es calculada restando los costos (edición) del redito (línea). 
 Los costos estan en el actual esquema contable - Las líneas estan en la actual lista de precios del proyecto.</value>
 	</row>
 	<row id="235" trl="Y">
@@ -689,20 +689,20 @@ Los costos estan en el actual esquema contable - Las líneas estan en la actual 
 	</row>
 	<row id="244" trl="Y">
 		<value column="Name" original="Warehouse Organization">Almacén de Organización</value>
-		<value column="Description" original="Set and verify Organization ownership of Warehouse">Active y verifique la propiedad de la organizacion del almacén.</value>
+		<value column="Description" original="Set and verify Organization ownership of Warehouse">Active y verifique la propiedad de la organización del almacén.</value>
 		<value column="Help" original="The process allows you to change or verify the organization ownership of a warehouse and its dependent entities (Location, Storage).">El proceso permite que usted cambie o que verifique la propiedad de la organización de un almacén y de sus entidades dependientes, (Localización, Almacenaje).</value>
 	</row>
 	<row id="245" trl="Y">
 		<value column="Name" original="Product Organization">Organización del Producto</value>
 		<value column="Description" original="Set and verify Organization ownership of Products">Determinado y verifique la propiedad de la organización de productos</value>
-		<value column="Help" original="The process allows you to change or verify the organization ownership of Products and its dependent entities (BOM, Substitute, Replenish, Purchasing, Business Partner Info, Costing). &lt;br&gt;&#10;Select either a Product Category ar a specific Product.">El proceso permite que usted cambie o que verifique la propiedad de la organización de productos y de sus entidades independientes. (LDM, Sustituto, Llenado, Comprado, Info de Socio de Negocio, Costos). &lt;br&gt;
+		<value column="Help" original="The process allows you to change or verify the organization ownership of Products and its dependent entities (BOM, Substitute, Replenish, Purchasing, Business Partner Info, Costing). &lt;br&gt;&#10;Select either a Product Category ar a specific Product.">El proceso permite que usted cambie o que verifique la propiedad de la organización de productos y de sus entidades independientes. (LDM, Sustituto, Llenado, Comprado, Info de Tercero, Costos). &lt;br&gt;
 Seleccione cualquier categoria de producto o un producto en especifico.</value>
 	</row>
 	<row id="246" trl="Y">
-		<value column="Name" original="Business Partner Organization">Organización del Socio de Negocio</value>
-		<value column="Description" original="Set and verify Organization ownership of Business Partners">Seleccione y verifique la propiedad de la organización de los socios de negocio.</value>
+		<value column="Name" original="Business Partner Organization">Organización del Tercero</value>
+		<value column="Description" original="Set and verify Organization ownership of Business Partners">Seleccione y verifique la propiedad de la organización de los terceros.</value>
 		<value column="Help" original="The process allows you to change or verify the organization ownership of Business Partners and its dependent entities (Location, Contact/User, Bank Account, Withholding). &lt;br&gt;&#10;Select either a Business Partner Group ar a specific Business Partner">El proceso permite que usted cambie o que verifique la propiedad de la organización, de productos y de sus entidades dependientes. (Localización, Contacto/Usuario, cuenta bancaria, Retenido). &lt;br&gt;
-Seleccione cualquier grupo de socio de negocio o un socio de negocio especifico.</value>
+Seleccione cualquier grupo de terceros o un tercero especifico.</value>
 	</row>
 	<row id="247" trl="Y">
 		<value column="Name" original="Load Bank Statement">Carga de Estado de cuentas</value>
@@ -728,7 +728,7 @@ Nos ayudará, si usted permitirá publicar su uso en Adempiere. Nos pondremos en
 	<row id="251" trl="Y">
 		<value column="Name" original="Invoice Tax">Impuesto de Factura</value>
 		<value column="Description" original="Invoice Tax Reconciliation">Impuesto conciliado de la Factura</value>
-		<value column="Help" original="The Report lists Invoice Tax lines with Business Partner Tax information.">Las listas de informe facturan líneas del impuesto con la información de impuesto del socio de negocios.</value>
+		<value column="Help" original="The Report lists Invoice Tax lines with Business Partner Tax information.">Las listas de informe facturan líneas del impuesto con la información de impuesto del terceros.</value>
 	</row>
 	<row id="252" trl="Y">
 		<value column="Name" original="Accounting Fact Details">Detalles de Asientos Contables</value>
@@ -752,7 +752,7 @@ Nos ayudará, si usted permitirá publicar su uso en Adempiere. Nos pondremos en
 	</row>
 	<row id="256" trl="Y">
 		<value column="Name" original="Match Bank Statement">Conciliación de Estado de Cuenta Bancario</value>
-		<value column="Description" original="Match Bank Statement Info to Business Partners, Invoices and Payments">Estado de la cuenta del banco, información a los socios de negocio, a las facturas y a los pagos.</value>
+		<value column="Description" original="Match Bank Statement Info to Business Partners, Invoices and Payments">Estado de la cuenta del banco, información a los terceros, a las facturas y a los pagos.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="257" trl="Y">
@@ -763,7 +763,7 @@ Nos ayudará, si usted permitirá publicar su uso en Adempiere. Nos pondremos en
 	<row id="258" trl="Y">
 		<value column="Name" original="Sequence Check">Comprobar Secuencia</value>
 		<value column="Description" original="Check System and Document Sequences">Compruebe la secuencia del sistema y del documento.</value>
-		<value column="Help" original="Check that System and Document sequences are correct.  Run this process, if you get Duplicate Key error messages.">Compruebe que la secuencia del documento y del sistema estén correctas. Arranque este proceso, si usted consigue mensajes de error del articulo con valores identicos de validación.</value>
+		<value column="Help" original="Check that System and Document sequences are correct.  Run this process, if you get Duplicate Key error messages.">Compruebe que la secuencia del documento y del sistema estén correctas. Arranque este proceso, si usted consigue mensajes de error del artículo con valores identicos de validación.</value>
 	</row>
 	<row id="259" trl="Y">
 		<value column="Name" original="Create Orders">Crea Ordenes</value>
@@ -773,55 +773,55 @@ Nos ayudará, si usted permitirá publicar su uso en Adempiere. Nos pondremos en
 	</row>
 	<row id="260" trl="Y">
 		<value column="Name" original="Link Organization">Liga Organización</value>
-		<value column="Description" original="Link Business Partner to an Organization">Integración de Socio de Negocio a una Organización</value>
-		<value column="Help" original="If the Business Partner is another Organization, select the Organization or set to empty to create a new Organization.  You link a Business Partner to an Organization to create explicit Documents for Inter-Org transaction.&#10;If you create a new Organization, you may supply a Organization Type.  If you select a Role, the access to the new Organization is limited to that role, otherwise all (non manual) roles of the Client will have access to the new Organization.">Si el socio de negocio esta en otra organización, seleccione la organización o fije para crear una nueva organización. Usted liga a socio de negocio a una organización para crear los documentos explícitos para la Integración-Org transacción. Si usted crea una nueva organización, usted puede proveer un tipo de la organización. Si usted selecciona un rol, el acceso a la nueva organización se limita a ese rol, si no todo los roles (no manual) del cliente tendrán acceso a la nueva organización.</value>
+		<value column="Description" original="Link Business Partner to an Organization">Integración de Tercero a una Organización</value>
+		<value column="Help" original="If the Business Partner is another Organization, select the Organization or set to empty to create a new Organization.  You link a Business Partner to an Organization to create explicit Documents for Inter-Org transaction.&#10;If you create a new Organization, you may supply a Organization Type.  If you select a Role, the access to the new Organization is limited to that role, otherwise all (non manual) roles of the Client will have access to the new Organization.">Si el tercero esta en otra organización, seleccione la organización o fije para crear una nueva organización. Usted liga a tercero a una organización para crear los documentos explícitos para la Integración-Org transacción. Si usted crea una nueva organización, usted puede proveer un tipo de la organización. Si usted selecciona un rol, el acceso a la nueva organización se limita a ese rol, si no todo los roles (no manual) del cliente tendrán acceso a la nueva organización.</value>
 	</row>
 	<row id="261" trl="Y">
 		<value column="Name" original="Create &amp; Invite">Crea e Invita</value>
-		<value column="Description" original="Create RfQ and Invite Vendors">Crea SPC (RfQ) e invita a los proveedores</value>
-		<value column="Help" original="Create (missing) RfQ Responses and optionally send EMail Invitation/Reminder to Vendors to respond to RfQ">Cree (faltando) las respuestas de SPC (RfQ) y envíe opcionalmente email Invitación/Remitente a los proveedores  para responder a SPC (RfQ)</value>
+		<value column="Description" original="Create RfQ and Invite Vendors">Crea SCP (RfQ) e invita a los proveedores</value>
+		<value column="Help" original="Create (missing) RfQ Responses and optionally send EMail Invitation/Reminder to Vendors to respond to RfQ">Cree (faltando) las respuestas de SCP (RfQ) y envíe opcionalmente email Invitación/Remitente a los proveedores para responder a SCP (RfQ)</value>
 	</row>
 	<row id="262" trl="Y">
 		<value column="Name" original="Invite &amp; Remind">Invitación y Recordatorio</value>
-		<value column="Description" original="EMail Invite or Remind Vendor to answer RfQ">Email Invitación y recordatorio al provedor para contestar la SPC (RfQ)</value>
-		<value column="Help" original="Send Invitation/Reminder to Vendors to respond to RfQ per email">Envía Invitación/Recordatorio al proveedor para la respuesta de SPC (RfQ) por email</value>
+		<value column="Description" original="EMail Invite or Remind Vendor to answer RfQ">Email Invitación y recordatorio al provedor para contestar la SCP (RfQ)</value>
+		<value column="Help" original="Send Invitation/Reminder to Vendors to respond to RfQ per email">Envía Invitación/Recordatorio al proveedor para la respuesta de SCP (RfQ) por email</value>
 	</row>
 	<row id="263" trl="Y">
-		<value column="Name" original="RfQ Unanswered">SPC (RfQ) Sin Responder</value>
+		<value column="Name" original="RfQ Unanswered">SCP (RfQ) Sin Responder</value>
 		<value column="Description" original="Outstanding RfQ Responses">Respuestas RfQ Exepcionales</value>
 		<value column="Help" original="Lists Responses of active RfQs (not closed/processed) where the Response is not marked as complete. ">Enumera respuestas de RfQ activas (No cerradas/Procesadas) donde la respuesta no está marcada como completa.</value>
 	</row>
 	<row id="264" trl="Y">
-		<value column="Name" original="RfQ Response">Respuesta SPC (RfQ)</value>
-		<value column="Description" original="Detail RfQ Responses">Detalles Respuesta SPC (RfQ)</value>
+		<value column="Name" original="RfQ Response">Respuesta SCP (RfQ)</value>
+		<value column="Description" original="Detail RfQ Responses">Detalles Respuesta SCP (RfQ)</value>
 		<value column="Help" original="Lists detail Responses of active RfQs (not closed/processed) where the Response is marked as complete. ">Enumera respuestas de detalle de RFQs activos (No cerrados/Procesados) Donde la respuesta esta marcada como completa.</value>
 	</row>
 	<row id="265" trl="Y">
-		<value column="Name" original="Rank Responses">Valuación de Respuestas </value>
-		<value column="Description" original="Rank Completed RfQ Responses">Valuación de las respuestas a la SPC (RfQ) completas</value>
-		<value column="Help" original="Invalid responses are ranked with 999 per Quantity. The Quantity Responses are ranked among each other and the RfQ Best Response updated.  The response Lines is maked as Selected winner, where the line quantity purchase quantity is selected.  A total winner is only selected, if the RfQ type is &quot;Quote All Lines&quot; or &quot;Quote Total only&quot;.&#10;&#10;Then the rankings of all Quantity Responses are added for the total ranking of the response. The response with the lowest total ranking is marked as Selected Winner.&#10;">Las respuestas invalidas estan valuadas por 999 en la Cantidad.  Las respuestas de la cantidad estan valuadas entre sí y la mejor respuesta a la SPC (RfQ) es actualizada. Las líneas de respuesta son marcadas como ganador seleccionado, donde esta seleccionada la cantidad de compra.
+		<value column="Name" original="Rank Responses">Valuación de Respuestas</value>
+		<value column="Description" original="Rank Completed RfQ Responses">Valuación de las respuestas a la SCP (RfQ) completas</value>
+		<value column="Help" original="Invalid responses are ranked with 999 per Quantity. The Quantity Responses are ranked among each other and the RfQ Best Response updated.  The response Lines is maked as Selected winner, where the line quantity purchase quantity is selected.  A total winner is only selected, if the RfQ type is &quot;Quote All Lines&quot; or &quot;Quote Total only&quot;.&#10;&#10;Then the rankings of all Quantity Responses are added for the total ranking of the response. The response with the lowest total ranking is marked as Selected Winner.&#10;">Las respuestas invalidas estan valuadas por 999 en la Cantidad.  Las respuestas de la cantidad estan valuadas entre sí y la mejor respuesta a la SCP (RfQ) es actualizada. Las líneas de respuesta son marcadas como ganador seleccionado, donde esta seleccionada la cantidad de compra.
 
 Entonces las valuaciones de todas las respuestas de cantidad se adicionan a la valuación total de la respuesta .  La respuesta con el valor total más bajo se marca como ganador seleccioado.</value>
 	</row>
 	<row id="266" trl="Y">
 		<value column="Name" original="Create Purchase Order">Crea Orden de Compra</value>
-		<value column="Description" original="Create Purchase Order(s) for RfQ Winner(s)">Crea Orden de Compra  Para una SPC (RfQ) de los Ganadores</value>
-		<value column="Help" original="Create purchase order(s) for the resonse(s) and lines marked as Selected Winner using the selected Purchase Quantity (in RfQ Line Quantity) . If a Response is marked as Selected Winner, all lines are created (and Selected Winner of other responses ignored).  If there is no response marked as Selected Winner, the lines are used.">Crea orden(es) de compra para la respuesta(s) y las líneas marcadas como ganador seleccionado usando la cantidad seleccionada de la compra (en la línea cantidad de SPC (RfQ)). Si una respuesta está marcada como ganador seleccionado, se crean todas las líneas (y no hacen caso al ganador seleccionado de otras respuestas). Si no hay respuesta marcada como ganador seleccionado, se utilizan las líneas.</value>
+		<value column="Description" original="Create Purchase Order(s) for RfQ Winner(s)">Crea Orden de Compra Para una SCP (RfQ) de los Ganadores</value>
+		<value column="Help" original="Create purchase order(s) for the resonse(s) and lines marked as Selected Winner using the selected Purchase Quantity (in RfQ Line Quantity) . If a Response is marked as Selected Winner, all lines are created (and Selected Winner of other responses ignored).  If there is no response marked as Selected Winner, the lines are used.">Crea orden(es) de compra para la respuesta(s) y las líneas marcadas como ganador seleccionado usando la cantidad seleccionada de la compra (en la línea cantidad de SCP (RfQ)). Si una respuesta está marcada como ganador seleccionado, se crean todas las líneas (y no hacen caso al ganador seleccionado de otras respuestas). Si no hay respuesta marcada como ganador seleccionado, se utilizan las líneas.</value>
 	</row>
 	<row id="267" trl="Y">
 		<value column="Name" original="Create Sales Order">Crea Orden de Venta</value>
 		<value column="Description" original="Create Sales Order">Crea orden de Venta</value>
-		<value column="Help" original="A Sales Order is created for the entered Business Partner.  A sales order line is created for each RfQ line quantity, where &quot;Offer Quantity&quot; is selected.  If on the RfQ Line Quantity, an offer amount is entered (not 0), that price is used. &#10;If a magin is entered on RfQ Line Quantity, it overwrites the general margin.  The margin is the percentage added to the Best Response Amount.">Una orden de las ventas se crea para el socio de negocio inscrito. Una línea de la orden de las ventas se crea para cada línea cantidad de SPC (RfQ), donde "Cantidad Ofrecida" se selecciona. Si en la línea cantidad de SPC (RfQ), se introduce una cantidad de la oferta (no 0), que el precio se utiliza. Si un margen se incorpora en la línea cantidad de SPC (RfQ), sobreescribe el margen general. El margen es el porcentaje agregado a la mejor cantidad de la respuesta.</value>
+		<value column="Help" original="A Sales Order is created for the entered Business Partner.  A sales order line is created for each RfQ line quantity, where &quot;Offer Quantity&quot; is selected.  If on the RfQ Line Quantity, an offer amount is entered (not 0), that price is used. &#10;If a magin is entered on RfQ Line Quantity, it overwrites the general margin.  The margin is the percentage added to the Best Response Amount.">Una orden de las ventas se crea para el tercero inscrito. Una línea de la orden de las ventas se crea para cada línea cantidad de SCP (RfQ), donde "Cantidad Ofrecida" se selecciona. Si en la línea cantidad de SCP (RfQ), se introduce una cantidad de la oferta (no 0), que el precio se utiliza. Si un margen se incorpora en la línea cantidad de SCP (RfQ), sobreescribe el margen general. El margen es el porcentaje agregado a la mejor cantidad de la respuesta.</value>
 	</row>
 	<row id="268" trl="Y">
 		<value column="Name" original="Copy Lines">Copia Líneas</value>
-		<value column="Description" original="Copy Lines from another RfQ">Copia Líneas de otra SPC (RfQ)</value>
+		<value column="Description" original="Copy Lines from another RfQ">Copia Líneas de otra SCP (RfQ)</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="269" trl="Y">
-		<value column="Name" original="Close RfQ">Cierra SPC (RfQ)</value>
-		<value column="Description" original="Close RfQ and Responses">Cierra SPC (RfQ) y respuestas</value>
-		<value column="Help" original="Close the RfQ and all it's Responses">Cierra SPC (RfQ) y todas sus respuestas</value>
+		<value column="Name" original="Close RfQ">Cierra SCP (RfQ)</value>
+		<value column="Description" original="Close RfQ and Responses">Cierra SCP (RfQ) y respuestas</value>
+		<value column="Help" original="Close the RfQ and all it's Responses">Cierra SCP (RfQ) y todas sus respuestas</value>
 	</row>
 	<row id="270" trl="Y">
 		<value column="Name" original="Open Requisitions">Requisiciones Abiertas</value>
@@ -835,9 +835,9 @@ Entonces las valuaciones de todas las respuestas de cantidad se adicionan a la v
 </value>
 	</row>
 	<row id="272" trl="Y">
-		<value column="Name" original="UnLink Business Partner Org">Desliga Socio de Negocio de la Organización</value>
-		<value column="Description" original="UnLink Business Partner from an Organization">Desliga Socio de Negocio de la Organización</value>
-		<value column="Help" original="UnLink a Business Partner Linked to an Organization (for explicit inter-org documents)">Desliga a Socio de Negocio Ligado a una Organización. (Para los documentos explicitos inter-org)</value>
+		<value column="Name" original="UnLink Business Partner Org">Desliga Tercero de la Organización</value>
+		<value column="Description" original="UnLink Business Partner from an Organization">Desliga Tercero de la Organización</value>
+		<value column="Help" original="UnLink a Business Partner Linked to an Organization (for explicit inter-org documents)">Desliga a Tercero Ligado a una Organización. (Para los documentos explicitos inter-org)</value>
 	</row>
 	<row id="273" trl="Y">
 		<value column="Name" original="Process Requisition">Proceso de Solicitudes</value>
@@ -845,7 +845,7 @@ Entonces las valuaciones de todas las respuestas de cantidad se adicionan a la v
 		<value column="Help" original=""/>
 	</row>
 	<row id="274" trl="Y">
-		<value column="Name" original="Asset Delivery Month">Entrega Activo del Mes </value>
+		<value column="Name" original="Asset Delivery Month">Entrega Activo del Mes</value>
 		<value column="Description" original="Report Asset Deliveries Summary per month">Sumario de Entrega de Activos por mes</value>
 		<value column="Help" original="The report lists the Asset and the deliveries per month for the records selected.">Informe de activos y las entregas por mes para los registros seleccionados</value>
 	</row>
@@ -855,13 +855,13 @@ Entonces las valuaciones de todas las respuestas de cantidad se adicionan a la v
 		<value column="Help" original=""/>
 	</row>
 	<row id="276" trl="Y">
-		<value column="Name" original="RfQ Response Print ">Imprime Respuesta SPC (RfQ)</value>
+		<value column="Name" original="RfQ Response Print ">Imprime Respuesta SCP (RfQ)</value>
 		<value column="Description" original="** Special ** Do not change **">** Especial ** No Cambie **</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="277" trl="Y">
 		<value column="Name" original="Check Complete">Completar Verificación</value>
-		<value column="Description" original="Check if Response is Complete based on RfQ settings">Compruebe si la respuesta es completa basada en los ajustes de SPC (RfQ)</value>
+		<value column="Description" original="Check if Response is Complete based on RfQ settings">Compruebe si la respuesta es completa basada en los ajustes de SCP (RfQ)</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="278" trl="Y">
@@ -896,12 +896,12 @@ Entonces las valuaciones de todas las respuestas de cantidad se adicionan a la v
 	</row>
 	<row id="284" trl="Y">
 		<value column="Name" original="Open Confirmation Details">Detalle de Confirmaciones Abiertas</value>
-		<value column="Description" original="Open Shipment or Receipt Confirmation Details">Detalle de Confirmaciones de entregas/Recibos abiertas </value>
+		<value column="Description" original="Open Shipment or Receipt Confirmation Details">Detalle de Confirmaciones de entregas/Recibos abiertas</value>
 		<value column="Help" original="The Report lists the open confirmation lines">Informe de lines de confirmación abiertas.</value>
 	</row>
 	<row id="285" trl="Y">
 		<value column="Name" original="Open Confirmations">Confirmaciones Abiertas</value>
-		<value column="Description" original="Open Shipment or Receipt Confirmations">Confirmaciones de entregas/Recibos abiertas </value>
+		<value column="Description" original="Open Shipment or Receipt Confirmations">Confirmaciones de entregas/Recibos abiertas</value>
 		<value column="Help" original="The report lists the open confirmations">El reporte de listas de confirmaciones abiertas</value>
 	</row>
 	<row id="286" trl="Y">
@@ -942,7 +942,7 @@ Entonces las valuaciones de todas las respuestas de cantidad se adicionan a la v
 	<row id="293" trl="Y">
 		<value column="Name" original="Material Receipt Details">Detalle de Recibos de Material</value>
 		<value column="Description" original="Material Receipt Detail Information">Información a Detalle de la Lista de Materiales</value>
-		<value column="Help" original="The report provides Material Repecipt Header and Line with locator information.">El informe se provee del jefe y de la linea de materiales de recepcion de la información de la localización.</value>
+		<value column="Help" original="The report provides Material Repecipt Header and Line with locator information.">El informe se provee del jefe y de la línea de materiales de recepción de la información de la localización.</value>
 	</row>
 	<row id="294" trl="Y">
 		<value column="Name" original="Shipment Details">Detalle de Entregas</value>
@@ -971,7 +971,7 @@ Si está funcionando para el sistema, todos los roles de todos los clientes son 
 		<value column="Help" original="Calculate/update the actual measure.">Calcule/actualize la medida actual.</value>
 	</row>
 	<row id="299" trl="Y">
-		<value column="Name" original="Verify">Verifica </value>
+		<value column="Name" original="Verify">Verifica</value>
 		<value column="Description" original="Verify GL Distribution">Verifica Distribución CG</value>
 		<value column="Help" original=""/>
 	</row>
@@ -987,13 +987,13 @@ Si está funcionando para el sistema, todos los roles de todos los clientes son 
 	</row>
 	<row id="302" trl="Y">
 		<value column="Name" original="Auto Allocation">Asignación (Auto)</value>
-		<value column="Description" original="Automatic allocation of invoices to payments">Asignación automática de facturas a los pagos     </value>
-		<value column="Help" original="Try to allocate invoices to payments for a business partner or group.  You may want to reset existing allocations first.&lt;br&gt;&#10;The allocation is based on (1) payments entered with reference to invoices (2) payment selections (3) business partner balance (4) matching amount of invoice &amp; payment.  Allocation is based on exact amount and includes AP/AR imvoices/payments.&lt;br&gt;&#10;Optionally as (5), you can enable to allocate payments to the oldest invoice. In this case, there might be an unallocated amount remaining.">Asignar facturas a los pagos para un Socio o un Grupo de Socios de Negocio. Usted puede restaurar asignaciones existentes primero.</value>
+		<value column="Description" original="Automatic allocation of invoices to payments">Asignación automática de facturas a los pagos</value>
+		<value column="Help" original="Try to allocate invoices to payments for a business partner or group.  You may want to reset existing allocations first.&lt;br&gt;&#10;The allocation is based on (1) payments entered with reference to invoices (2) payment selections (3) business partner balance (4) matching amount of invoice &amp; payment.  Allocation is based on exact amount and includes AP/AR imvoices/payments.&lt;br&gt;&#10;Optionally as (5), you can enable to allocate payments to the oldest invoice. In this case, there might be an unallocated amount remaining.">Asignar facturas a los pagos para un Tercero o un Grupo de Terceros. Usted puede restaurar asignaciones existentes primero.</value>
 	</row>
 	<row id="303" trl="Y">
 		<value column="Name" original="Reset Allocation">Asignación (Restaura)</value>
-		<value column="Description" original="Reset (delete) allocation of invoices to payments">Reinicia (Borra) Asignación automática de facturas a los pagos     </value>
-		<value column="Help" original="Delete Allocations for a business partner or business partner group, accounting date range or individual allocation. In contrast to &quot;Void&quot; in &quot;View Allocation&quot;, the allocation is deleted (no trace), if the period is open.">Borra Asignaciones para un Socio de Negocio o para un Grupo de Socios de Negocio</value>
+		<value column="Description" original="Reset (delete) allocation of invoices to payments">Reinicia (Borra) Asignación automática de facturas a los pagos</value>
+		<value column="Help" original="Delete Allocations for a business partner or business partner group, accounting date range or individual allocation. In contrast to &quot;Void&quot; in &quot;View Allocation&quot;, the allocation is deleted (no trace), if the period is open.">Borra Asignaciones para un Tercero o para un Grupo de Terceros</value>
 	</row>
 	<row id="304" trl="Y">
 		<value column="Name" original="Validate Workflow">Valida Flujo de Trabajo</value>
@@ -1018,17 +1018,17 @@ Si está funcionando para el sistema, todos los roles de todos los clientes son 
 	<row id="308" trl="Y">
 		<value column="Name" original="Reapply Customizations">Replica Costumización</value>
 		<value column="Description" original="If you identified customizations in the Change Log, you can reapply them">If you identified customizations in the Change Log, you can reapply them</value>
-		<value column="Help" original="The migration &quot;resets&quot; the system to the current/original setting.  If selected in the Change Log, you can save the customization and re-apply them.  Please note that you need to check, if your customization has no negative side effect in the new release. &lt;br&gt;&#10;Shut down the Application Server before running this process and set the Trace level (in Preference) higher or equals  WARNING.">The migration "resets" the system to the current/original setting.  If selected in the Change Log, you can save the customization and re-apply them.  Please note that you need to check, if your customization has no negative side effect in the new release.</value>
+		<value column="Help" original="The migration &quot;resets&quot; the system to the current/original setting.  If selected in the Change Log, you can save the customization and re-apply them.  Please note that you need to check, if your customization has no negative side effect in the new release. &lt;br&gt;&#10;Shut down the Application Server before running this process and set the Trace level (in Preference) higher or equals  WARNING.">The migration "resets" the system to the current/original setting. If selected in the Change Log, you can save the customization and re-apply them. Please note that you need to check, if your customization has no negative side effect in the new release.</value>
 	</row>
 	<row id="309" trl="Y">
 		<value column="Name" original="Workflow to Client">Mueve Flujo de Trabajo</value>
-		<value column="Description" original="Move custom workflow elements to the current client">Mueva los elementos de encargo de Flujo de Trabajo al cliente actual. </value>
+		<value column="Description" original="Move custom workflow elements to the current client">Mueva los elementos de encargo de Flujo de Trabajo al cliente actual.</value>
 		<value column="Help" original="The security architecture prevents you from adding client specific modifications/customizations to existing standard workflows.  This process moves your customization made on system level to this client to add client specific details.">La arquitectura de la seguridad evita que usted agrege al cliente modificaciones/arreglos para registros particulares a los Flujos de Trabajo estandares exisentes. Este proceso mueve su arreglo para requisitos particulares hecho en nivel de sistema a este cliente para arreglar los detalles del cliente especifico.</value>
 	</row>
 	<row id="310" trl="Y">
-		<value column="Name" original="Trial Balance">Balanza de Comprobación </value>
-		<value column="Description" original="Trial Balance for a period or date range">Balanza de Comprobación para un Periodo o un Rango de Fechas </value>
-		<value column="Help" original="Select a Period (current period if empty) or enter a Account Date Range. If an account is selected, the balance is calculated based on the account type and the primary calendar of the client (i.e. for revenue/expense accounts from the beginning of the year). If no account is selected, the balance is the sum of all transactions before the selected account range or first day of the period selected. You can select an alternative Reporting Hierarchy.">Seleccione un período (Campo vacío toma período actual) ó indique un rango de fechas, 
+		<value column="Name" original="Trial Balance">Balanza de Comprobación</value>
+		<value column="Description" original="Trial Balance for a period or date range">Balanza de Comprobación para un Periodo o un Rango de Fechas</value>
+		<value column="Help" original="Select a Period (current period if empty) or enter a Account Date Range. If an account is selected, the balance is calculated based on the account type and the primary calendar of the client (i.e. for revenue/expense accounts from the beginning of the year). If no account is selected, the balance is the sum of all transactions before the selected account range or first day of the period selected. You can select an alternative Reporting Hierarchy.">Seleccione un período (Campo vacío toma período actual) o indique un rango de fechas, 
 
 
 Si se selecciona una cuenta, el balance es calculado en base al  tipo de cuenta y el calendario contable (Ejm. Ingresos/Gastos considerados desde el principio del año). Si no se selecciona ninguna cuenta, el balance es la suma de todas las transacciones antes de la selección de cuenta o el primer día del período seleccionado.</value>
@@ -1036,12 +1036,12 @@ Si se selecciona una cuenta, el balance es calculado en base al  tipo de cuenta 
 	<row id="311" trl="Y">
 		<value column="Name" original="Product UOM Convert">Conversión de UM de un Producto</value>
 		<value column="Description" original="Brack-up or repackage same Products with different UOM">Respaldo o re-empaque del mismo producto con diferente UM</value>
-		<value column="Help" original="Example: &quot;Product EA&quot; has a defined UOM Conversion to &quot;Product 6Pack&quot; and vice versa.  &#10;This is a one-step replacement for defining BOM and creating/processes a Production.">Ejm: "Producto EA" tienen una UM de conversión a "Paquete de 6" y viceversa.  Este es un paso para re-empacado para definir LDM y crear procesos para producción.</value>
+		<value column="Help" original="Example: &quot;Product EA&quot; has a defined UOM Conversion to &quot;Product 6Pack&quot; and vice versa.  &#10;This is a one-step replacement for defining BOM and creating/processes a Production.">Ejm: "Producto EA" tienen una UM de conversión a "Paquete de 6" y viceversa. Este es un paso para re-empacado para definir LDM y crear procesos para producción.</value>
 	</row>
 	<row id="312" trl="Y">
 		<value column="Name" original="Print Dunning Letters">Imprime Carta de Morosidad</value>
 		<value column="Description" original="Print Dunning letters to paper or send PDF">Imprime Carta de Morosidad o la envía como PDF</value>
-		<value column="Help" original="(Re)Print Dunning Letters or send them as PDF attachments to the Business Partner Contact with a valid EMail addres.&#10;">(Re) Imprime Carta de Morosidad o envia como PDF anexado a un mail para el Contacto del socio de Negocio.</value>
+		<value column="Help" original="(Re)Print Dunning Letters or send them as PDF attachments to the Business Partner Contact with a valid EMail addres.&#10;">(Re) Imprime Carta de Morosidad o envia como PDF anexado a un mail para el Contacto del tercero.</value>
 	</row>
 	<row id="313" trl="Y">
 		<value column="Name" original="Payment Print ">Impresión del Pago</value>
@@ -1049,24 +1049,24 @@ Si se selecciona una cuenta, el balance es calculado en base al  tipo de cuenta 
 		<value column="Help" original=""/>
 	</row>
 	<row id="314" trl="Y">
-		<value column="Name" original="Validate Business Partner">Valida Socio del Negocio</value>
-		<value column="Description" original="Check data consistency of Business Partner">Verifica la consistencia de los datos del Socio de Negocio</value>
-		<value column="Help" original="Check the payments and invoices of a business partner and checks the balances.">Verifica los pagos y las facturas del Socio de Negocio y verifica el balance</value>
+		<value column="Name" original="Validate Business Partner">Valida Tercero</value>
+		<value column="Description" original="Check data consistency of Business Partner">Verifica la consistencia de los datos del Tercero</value>
+		<value column="Help" original="Check the payments and invoices of a business partner and checks the balances.">Verifica los pagos y las facturas del Tercero y verifica el balance</value>
 	</row>
 	<row id="315" trl="Y">
 		<value column="Name" original="Order Batch Process">Proceso de Órdenes en Lote</value>
 		<value column="Description" original="Process Orders in Batch">Proceso de Órdenes en Lote</value>
-		<value column="Help" original="Based on the selection criteria, the orders are processed using the document action selected.  Make sure that the document action is valid for the documents.">Basado en el criterio de selección, Las órdenes son procesadas usando la acción del documento seleccionado.  Asegúrese que la acción del documento sea valida en los documentos.</value>
+		<value column="Help" original="Based on the selection criteria, the orders are processed using the document action selected.  Make sure that the document action is valid for the documents.">Basado en el criterio de selección, Las órdenes son procesadas usando la acción del documento seleccionado. Asegúrese que la acción del documento sea valida en los documentos.</value>
 	</row>
 	<row id="316" trl="Y">
 		<value column="Name" original="UnAllocated Invoices">Asignación de Facturas</value>
 		<value column="Description" original="Invoices not allocated to Payments">Facturas no asignadas a los pagos</value>
-		<value column="Help" original="Report of not allocated Invoices (for partially paid/allocated invoices see Open Item)">Reporte de Facturas no asignadas (Para las Facturas de vea parcialmente el articulo </value>
+		<value column="Help" original="Report of not allocated Invoices (for partially paid/allocated invoices see Open Item)">Reporte de Facturas no asignadas (Para las Facturas de vea parcialmente el artículo</value>
 	</row>
 	<row id="317" trl="Y">
 		<value column="Name" original="UnAllocated Payments">Facturas no asignadas</value>
 		<value column="Description" original="Payments not allocated to Invoices">Facturas no asignadas a los pagos</value>
-		<value column="Help" original="Report of not allocated Payments (for partially allocated payments, use Payment Detail)">Reporte de facturas no asignadas (para las facturas de pago/asignado vea parcialmente el articulo abierto)</value>
+		<value column="Help" original="Report of not allocated Payments (for partially allocated payments, use Payment Detail)">Reporte de facturas no asignadas (para las facturas de pago/asignado vea parcialmente el artículo abierto)</value>
 	</row>
 	<row id="318" trl="Y">
 		<value column="Name" original="Payment Details">Detalles del Pago</value>
@@ -1074,19 +1074,19 @@ Si se selecciona una cuenta, el balance es calculado en base al  tipo de cuenta 
 		<value column="Help" original="Type adjusted payments (receipts positive, payments negative) with allocated and available amounts">Mecanografie los pagos ajustados (Positivo de los recibos, negativa de los pagos) con cantidades asignadas y disponibles</value>
 	</row>
 	<row id="319" trl="Y">
-		<value column="Name" original="Business Partner Open">Saldos de Socio de Negocio</value>
-		<value column="Description" original="Business Partner Open Amount">Saldos de Socio de Negocio</value>
+		<value column="Name" original="Business Partner Open">Saldos de Tercero</value>
+		<value column="Description" original="Business Partner Open Amount">Saldos de Tercero</value>
 		<value column="Help" original="The report lists open invoices and payments">Abre las listas de informe de facturas y pagos.</value>
 	</row>
 	<row id="320" trl="Y">
-		<value column="Name" original="Commission Run Detail">Detalle de la Función de la Comision.</value>
-		<value column="Description" original="Commission Run Detail Report">Reporte del Detalle de la Función de la Comision.</value>
+		<value column="Name" original="Commission Run Detail">Detalle de la Función de la Comisión.</value>
+		<value column="Description" original="Commission Run Detail Report">Reporte del Detalle de la Función de la Comisión.</value>
 		<value column="Help" original="Commission Run, Amount Details with Order/Invoice details">Función de la Comisión, Cantidad de detalles con orden / Detalles de la Factura.</value>
 	</row>
 	<row id="321" trl="Y">
 		<value column="Name" original="Synchronize Doc Translation">Sincroniza la traducción del documento</value>
 		<value column="Description" original="Synchronize Document Translation">Sincroniza la traducción del documento</value>
-		<value column="Help" original="If the current client has not multi-lingual documents enabled, the translations for documents are synchronized with the main record (i.e. it copies the content of the main record to the translation records).  This process is necessary when swiching to a mono-lingual environment as there the terminoligy is maintained not in the translation records.&lt;br&gt;&#10;This applies to the client defined document translations, e.g. for UoM, Payment Terms, Product Info, etc.">Si el cliente actual no permite se hagan los documentos multilenguajes, las traducciones para los documentos se sincronizan con el expediente principal (es decir copia el contenido del expediente principal a los expedientes de la traducción).  Este proceso es necesario en un ambiente monolenguaje ya que allí no se mantiene la terminologia en la traducción de registros.Esto se aplica a las traducciones definidas del documento de cliente, ej. para UM, los términos del pago, información de producto, etc.</value>
+		<value column="Help" original="If the current client has not multi-lingual documents enabled, the translations for documents are synchronized with the main record (i.e. it copies the content of the main record to the translation records).  This process is necessary when swiching to a mono-lingual environment as there the terminoligy is maintained not in the translation records.&lt;br&gt;&#10;This applies to the client defined document translations, e.g. for UoM, Payment Terms, Product Info, etc.">Si el cliente actual no permite se hagan los documentos multilenguajes, las traducciones para los documentos se sincronizan con el expediente principal (es decir copia el contenido del expediente principal a los expedientes de la traducción). Este proceso es necesario en un ambiente monolenguaje ya que allí no se mantiene la terminologia en la traducción de registros.Esto se aplica a las traducciones definidas del documento de cliente, ej. para UM, los términos del pago, información de producto, etc.</value>
 	</row>
 	<row id="322" trl="Y">
 		<value column="Name" original="Material Reference">Referencia de Material</value>
@@ -1101,7 +1101,7 @@ Si se selecciona una cuenta, el balance es calculado en base al  tipo de cuenta 
 	<row id="324" trl="Y">
 		<value column="Name" original="Invoice Requests">Factura de solucitud</value>
 		<value column="Description" original="Create Invoice for Requests">Crear factura para solicitud</value>
-		<value column="Help" original="Create invoice for Request Type with optional Request Group, Category for Business Partner.  If the used product for invoicing is not defined, the product defined in the parameter is used.">Cree la factura para el tipo de la solicitud con el grupo opcional de categoria de solicitud, para el socio de negocio. Si el producto usado para facturar no se define, el producto definido en el parámetro se utiliza.</value>
+		<value column="Help" original="Create invoice for Request Type with optional Request Group, Category for Business Partner.  If the used product for invoicing is not defined, the product defined in the parameter is used.">Cree la factura para el tipo de la solicitud con el grupo opcional de categoria de solicitud, para el tercero. Si el producto usado para facturar no se define, el producto definido en el parámetro se utiliza.</value>
 	</row>
 	<row id="325" trl="Y">
 		<value column="Name" original="Storage Cleanup">Limpieza General del Almacén</value>
@@ -1111,16 +1111,16 @@ Si se selecciona una cuenta, el balance es calculado en base al  tipo de cuenta 
 	<row id="326" trl="Y">
 		<value column="Name" original="Invoice Not Realized Gain/Loss">Factura no realizada Perdida/Aumento</value>
 		<value column="Description" original="Invoice Not Realized Gain &amp; Loss Report">Factura no realizada Aumento &amp; Reporte de Perdida</value>
-		<value column="Help" original="The Report lists not fully paid invoices with open amount, the GL amounts and the revalued amounts.  If an invoice is partially paid, the percentage of the open amount is used to calculate the revaluation amount.&lt;br&gt;&#10;If you select a currency, only invoices of that currency are included; if you select Include All Currencies, all invoices are included and you can use the report to reconcile your AP/AR accounts.&lt;br&gt;&#10;If you select a GL Document Type, a GL Journal is created. &#10;Note that the report only includes posted invoices.">El reporte de listas no completamente pagadas de las lineas de informe con cantidad abierta, las cantidades de GL y las cantidades nuevas. Si usted selecciona el tipo de documento de la GL. Se crea un diario de GL.</value>
+		<value column="Help" original="The Report lists not fully paid invoices with open amount, the GL amounts and the revalued amounts.  If an invoice is partially paid, the percentage of the open amount is used to calculate the revaluation amount.&lt;br&gt;&#10;If you select a currency, only invoices of that currency are included; if you select Include All Currencies, all invoices are included and you can use the report to reconcile your AP/AR accounts.&lt;br&gt;&#10;If you select a GL Document Type, a GL Journal is created. &#10;Note that the report only includes posted invoices.">El reporte de listas no completamente pagadas de las líneas de informe con cantidad abierta, las cantidades de GL y las cantidades nuevas. Si usted selecciona el tipo de documento de la GL. Se crea un diario de GL.</value>
 	</row>
 	<row id="327" trl="Y">
 		<value column="Name" original="Test EMail">Probar EMail</value>
-		<value column="Description" original="Test EMail Connection">Probar Conexión a EMail </value>
+		<value column="Description" original="Test EMail Connection">Probar Conexión a EMail</value>
 		<value column="Help" original="Test EMail Connection based on info defined. An EMail is sent from the request user to the request user.  Also, the web store mail settings are tested.">Probar conexión a Email basados en información definida. Un Email es enviado desde el usuario de la solicitud a el usuario de la solicitud. También son probadas las configriraciones del portal Web.</value>
 	</row>
 	<row id="328" trl="Y">
-		<value column="Name" original="Column Encryption">Encriptar Columna </value>
-		<value column="Description" original="Test and enable Column Encryption">Comprobar y Permitir Encriptar Columna </value>
+		<value column="Name" original="Column Encryption">Encriptar Columna</value>
+		<value column="Description" original="Test and enable Column Encryption">Comprobar y Permitir Encriptar Columna</value>
 		<value column="Help" original="To enable storage encryption or remove encryption is dangerous as you may loose data. You need to verify that the column is big enough to hold the encrypted value.  You can provide your own encryption method, but cannot change it once enabled.  &lt;br&gt;&#10;The default implementation supports US ASCII String conversion (not Unicode, Numbers, Dates)&lt;br&gt;&#10;Note that support is restricted to setup and test, but not data recovery.">De permitir el almacenaje encriptado o remover el encriptado es peligroso pues puede  perder información. Necesita verificar que la columna sea lo suficientemente grande para soportar los valores encriptados.Usted puede proporcionar su propio método de encriptado, pero no puede cambiarlo si lo a habilitado.  &lt;br&gt;
 La implementación predeterminada soporta US ASCII conversión de cadena (no Unicode,Números, Fechas)&lt;br&gt;
 Note que el soporte es restringido para configurar y probar, pero no recupera datos.</value>
@@ -1128,12 +1128,12 @@ Note que el soporte es restringido para configurar y probar, pero no recupera da
 	<row id="329" trl="Y">
 		<value column="Name" original="Product Cost">Costo de Producto</value>
 		<value column="Description" original="Product Cost Report">Reportar Costo de Producto</value>
-		<value column="Help" original="The Product Cost  report lists the product costs for the product, cost type and cost element">El Reporte Costo de Producto lista el Costo de Producto para el Producto, tipo de costo y elemento de costo. </value>
+		<value column="Help" original="The Product Cost  report lists the product costs for the product, cost type and cost element">El Reporte Costo de Producto lista el Costo de Producto para el Producto, tipo de costo y elemento de costo.</value>
 	</row>
 	<row id="330" trl="Y">
 		<value column="Name" original="Product Cost Summary">Sumario Costo de Producto</value>
-		<value column="Description" original="Product Cost Summary Report">Reporte Sumario Costo de Producto </value>
-		<value column="Help" original="The Product Cost  report lists the summarized product costs for the product">El Reporte Costo de Producto lista los Costos de Producto Sumarisados para el Producto. </value>
+		<value column="Description" original="Product Cost Summary Report">Reporte Sumario Costo de Producto</value>
+		<value column="Help" original="The Product Cost  report lists the summarized product costs for the product">El Reporte Costo de Producto lista los Costos de Producto Sumarisados para el Producto.</value>
 	</row>
 	<row id="331" trl="Y">
 		<value column="Name" original="Product Cost Detail">Detalle Costo de Producto</value>
@@ -1143,24 +1143,24 @@ Note que el soporte es restringido para configurar y probar, pero no recupera da
 	</row>
 	<row id="332" trl="Y">
 		<value column="Name" original="Distribute Costs">Distribución de Costos</value>
-		<value column="Description" original="Distribute costs to Products">Distribución de Costos a Productos </value>
+		<value column="Description" original="Distribute costs to Products">Distribución de Costos a Productos</value>
 		<value column="Help" original="Distribute costs to Products based on selections - Distribution Base (Quantity, Current Costs, Line, Weight, ..) and Receipt/Line or directly to the product.">Distribución de Costos a Productos basados en selecciones - Bas de Distribución (Cantidad,Costo Actual línea, Peso)
-y Recibi/Línea o directamente para el producto. </value>
+y Recibi/Línea o directamente para el producto.</value>
 	</row>
 	<row id="333" trl="Y">
 		<value column="Name" original="Order Detail">Detalle de Orden</value>
-		<value column="Description" original="Order Detail Report">Reportar Detalle de la Orden </value>
-		<value column="Help" original="The report includes order detail information including lost sales.  The report can be used for Sales and Purchasing.">El reporte incluye información detallada de la orden incluyendo ventas perdidas. El reporte puede ser usado paara Ventas y Compras.  </value>
+		<value column="Description" original="Order Detail Report">Reportar Detalle de la Orden</value>
+		<value column="Help" original="The report includes order detail information including lost sales.  The report can be used for Sales and Purchasing.">El reporte incluye información detallada de la orden incluyendo ventas perdidas. El reporte puede ser usado paara Ventas y Compras.</value>
 	</row>
 	<row id="334" trl="Y">
-		<value column="Name" original="Business Partner Detail">Detalle Socio del Negocio</value>
-		<value column="Description" original="Business Partner Detail Report">Reporte Detalle Socio del Negocio </value>
-		<value column="Help" original="The report list details of Business Partner, Addresses and Contacts for any active Business Partner with an Address and Contact">Los detalles de Lista de Reporte de Socio del Negocio, Dirección, Contacto para cualquier Socio del Negocio Activo con una dirección y  Contacto.</value>
+		<value column="Name" original="Business Partner Detail">Detalle Tercero</value>
+		<value column="Description" original="Business Partner Detail Report">Reporte Detalle Tercero</value>
+		<value column="Help" original="The report list details of Business Partner, Addresses and Contacts for any active Business Partner with an Address and Contact">Los detalles de Lista de Reporte de Tercero, Dirección, Contacto para cualquier Tercero Activo con una dirección y Contacto.</value>
 	</row>
 	<row id="335" trl="Y">
 		<value column="Name" original="Create Costing Records"> Crear Registro de Costeo</value>
 		<value column="Description" original="Create Costing Records">Crear Registro de Costeo</value>
-		<value column="Help" original="The costing records are created when needed or by batch processes. You can force the creation of the costing information here.">Los registro de costeo se cran cuando los necesita mediante proceso por lotes. Usted puede forzar la creación de la información de costeo aqui. </value>
+		<value column="Help" original="The costing records are created when needed or by batch processes. You can force the creation of the costing information here.">Los registro de costeo se cran cuando los necesita mediante proceso por lotes. Usted puede forzar la creación de la información de costeo aqui.</value>
 	</row>
 	<row id="336" trl="Y">
 		<value column="Name" original="Create Tax Declaration">Crear Declaración de Impuestos</value>
@@ -1169,11 +1169,11 @@ y Recibi/Línea o directamente para el producto. </value>
 	</row>
 	<row id="337" trl="Y">
 		<value column="Name" original="Create PO from Requisition">Crear OC desde Requisición</value>
-		<value column="Description" original="Create Purchase Orders from Requisitions">Crear Orden de Compra desde una  Requisición</value>
-		<value column="Help" original="Create Purchase orders from Purchase Requisitions.">Crear Orden de Compra desde una  Requisición</value>
+		<value column="Description" original="Create Purchase Orders from Requisitions">Crear Orden de Compra desde una Requisición</value>
+		<value column="Help" original="Create Purchase orders from Purchase Requisitions.">Crear Orden de Compra desde una Requisición</value>
 	</row>
 	<row id="338" trl="Y">
-		<value column="Name" original="Create GL/Default">Crear CG/ Predeterminado </value>
+		<value column="Name" original="Create GL/Default">Crear CG/ Predeterminado</value>
 		<value column="Description" original="Copy matching account element values from existing Accounting Schema">Copia valores de Elementos de Cuenta cotejados desde esquema contable existente</value>
 		<value column="Help" original="Create the GL and Default accounts for this accounting schema and copy matching account element values.">Crear CG y predeterminar cuentas para este Esquema Contable y copia valores de elementos de cuenta cotejados.
 </value>
@@ -1185,7 +1185,7 @@ y Recibi/Línea o directamente para el producto. </value>
 	</row>
 	<row id="340" trl="Y">
 		<value column="Name" original="Monthly Invoice Product">Producto Facturado Mensualmente</value>
-		<value column="Description" original="Imvoice Report by Product per Month">Reporte de Factura por Producto por Més  </value>
+		<value column="Description" original="Imvoice Report by Product per Month">Reporte de Factura por Producto por Més</value>
 		<value column="Help" original="Invoiced Amount by Product and Month">Cantidad Facturada por Producto y Més.</value>
 	</row>
 	<row id="341" trl="Y">
@@ -1195,7 +1195,7 @@ y Recibi/Línea o directamente para el producto. </value>
 </value>
 	</row>
 	<row id="342" trl="Y">
-		<value column="Name" original="Validate Support">Validar Soporte </value>
+		<value column="Name" original="Validate Support">Validar Soporte</value>
 		<value column="Description" original="Validate Support Contract">Validar Contrato de Soporte</value>
 		<value column="Help" original="The process connects to the Adempiere Support Services server and validates the support contract.  To sign up for support, please go to http://www.adempiere.org">El proceso se conecta al servidor de  Servicios de Soporte Adempiere y vsñifs el contrato de soporte. Para contratar soporte por favor ingrese a www.e-evolution.com.mx
 </value>
@@ -1203,7 +1203,7 @@ y Recibi/Línea o directamente para el producto. </value>
 	<row id="343" trl="Y">
 		<value column="Name" original="Import Payments">Importar pagos</value>
 		<value column="Description" original="Import Payments">Importar pagos</value>
-		<value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">Los paramatros son valores por defecto para no importar registros nulos, ellos no sobre escriben  ningun dato.</value>
+		<value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">Los paramatros son valores por defecto para no importar registros nulos, ellos no sobreescriben ningún dato.</value>
 	</row>
 	<row id="344" trl="Y">
 		<value column="Name" original="Validate">Validar</value>
@@ -1213,12 +1213,12 @@ y Recibi/Línea o directamente para el producto. </value>
 	<row id="345" trl="Y">
 		<value column="Name" original="Deploy Web Project">Desplegar proyecto Web</value>
 		<value column="Description" original="Deploy Web Project">Desplegar proyecto Web</value>
-		<value column="Help" original="The process deploys the media to the media server(s) and then copies the stage to the container.">El proceso despliega  medios a servidor de medio, para despues copiar el ambiente de prueba a un contenedor.</value>
+		<value column="Help" original="The process deploys the media to the media server(s) and then copies the stage to the container.">El proceso despliega medios a servidor de medio, para despues copiar el ambiente de prueba a un contenedor.</value>
 	</row>
 	<row id="346" trl="Y">
 		<value column="Name" original="Verify BOMs">Verificar BOMs</value>
-		<value column="Description" original="Verify BOM Structures">Verificar estructuras BOM </value>
-		<value column="Help" original="The Verify BOM Structures checks the elements and steps which comprise a Bill of Materials.">La verificacion de estructuras BOM chequea los elementos y pasos que comprende un lista de materiales.</value>
+		<value column="Description" original="Verify BOM Structures">Verificar estructuras BOM</value>
+		<value column="Help" original="The Verify BOM Structures checks the elements and steps which comprise a Bill of Materials.">La verificación de estructuras BOM chequea los elementos y pasos que comprende un lista de materiales.</value>
 	</row>
 	<row id="347" trl="Y">
 		<value column="Name" original="Validate">Validar</value>
@@ -1226,19 +1226,19 @@ y Recibi/Línea o directamente para el producto. </value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="348" trl="Y">
-		<value column="Name" original="Register Extension">Registrar Extension</value>
-		<value column="Description" original="Register your extension with Adempiere">Registre su extension con Adempiere</value>
-		<value column="Help" original="You can register the four character extension with Adempiere. This makes sure that your extension can be automatically distributed and implemented.  You will also be able to certify extensions.  Contact Adempiere for details.">Usted puede registrar los 4 caracteres de extension con Adempiere. Esto asegura que su extension pueda ser automaticamente distribuida e implementada. Usted tambien puede certificar extensiones. Contacte Adempiere para detalles.</value>
+		<value column="Name" original="Register Extension">Registrar Extensión</value>
+		<value column="Description" original="Register your extension with Adempiere">Registre su extensión con Adempiere</value>
+		<value column="Help" original="You can register the four character extension with Adempiere. This makes sure that your extension can be automatically distributed and implemented.  You will also be able to certify extensions.  Contact Adempiere for details.">Usted puede registrar los 4 caracteres de extensión con Adempiere. Esto asegura que su extensión pueda ser automaticamente distribuida e implementada. Usted tambien puede certificar extensiones. Contacte Adempiere para detalles.</value>
 	</row>
 	<row id="349" trl="Y">
 		<value column="Name" original="Validate">Validar</value>
-		<value column="Description" original="Validate Info Window SQL">validacion de informacion de ventana SQL</value>
-		<value column="Help" original="Validate generated Info Window SQL">validacion de informacion generada de ventana SQL</value>
+		<value column="Description" original="Validate Info Window SQL">validación de información de ventana SQL</value>
+		<value column="Help" original="Validate generated Info Window SQL">validación de información generada de ventana SQL</value>
 	</row>
 	<row id="350" trl="Y">
 		<value column="Name" original="Rebuild Index">Re construir Indice.</value>
 		<value column="Description" original=""/>
-		<value column="Help" original="Be carefull, this process will reindex all tables and records which are marked to get indexed. Depending on the number of documents this could take a long time. This should only be run if you have removed stop words, if this is mentioned to be run after migration.">Sea cuidadoso, este proceso re indexara todas las tablas y registros los cuales son marcados para poder ser indexados. Dependiendo del numero de documentos esto podria tomar un largo tiempo. Este deberia ser ejecutado si usted ha removido palabras de parada.</value>
+		<value column="Help" original="Be carefull, this process will reindex all tables and records which are marked to get indexed. Depending on the number of documents this could take a long time. This should only be run if you have removed stop words, if this is mentioned to be run after migration.">Sea cuidadoso, este proceso re indexara todas las tablas y registros los cuales son marcados para poder ser indexados. Dependiendo del número de documentos esto podría tomar un largo tiempo. Este debería ser ejecutado si usted ha removido palabras de parada.</value>
 	</row>
 	<row id="352" trl="Y">
 		<value column="Name" original="Media Direct Deploy">Desplegar los medios de comunicación directa</value>
@@ -1252,7 +1252,7 @@ y Recibi/Línea o directamente para el producto. </value>
 	</row>
 	<row id="50004" trl="Y">
 		<value column="Name" original="PackOut">Exportar Paquete</value>
-		<value column="Description" original="Process to create package export">Proceso para crear exportacion de paquete.</value>
+		<value column="Description" original="Process to create package export">Proceso para crear exportación de paquete.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="50006" trl="Y">
@@ -1281,18 +1281,18 @@ y Recibi/Línea o directamente para el producto. </value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="52000" trl="Y">
-		<value column="Name" original="Create Order From RMA">Crear orden desde  ADM </value>
-		<value column="Description" original="Creates an order based on this RMA Document. The RMA should be correct and completed.">Crea una orden basada en este documento ADM. El ADM deberia se completo y correcto.</value>
-		<value column="Help" original="Generate Order from RMA will create an order based on this RMA document.">Generar una orden desde ADM creara una orden basada en este doc ADM.</value>
+		<value column="Name" original="Create Order From RMA">Crear orden desde Devolución</value>
+		<value column="Description" original="Creates an order based on this RMA Document. The RMA should be correct and completed.">Crea una orden basada en este documento Devolución. La devolución debería estar completa y correcta.</value>
+		<value column="Help" original="Generate Order from RMA will create an order based on this RMA document.">Generar una orden desde devolución creara una orden basada en este doc devolución.</value>
 	</row>
 	<row id="52001" trl="Y">
-		<value column="Name" original="Generate Shipments for Vendor RMA">Generar despachos para vendedor ADM </value>
-		<value column="Description" original="Generate Shipments from open vendor RMA based on selection.">Generar despachos desde ADM abierto, basado en seleccion.</value>
+		<value column="Name" original="Generate Shipments for Vendor RMA">Generar despachos para vendedor ADM</value>
+		<value column="Description" original="Generate Shipments from open vendor RMA based on selection.">Generar despachos desde ADM abierto, basado en selección.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="52002" trl="Y">
-		<value column="Name" original="Generate Invoices for Vendor RMA">Generar Facturas  para vendedor ADM</value>
-		<value column="Description" original="Generate Invoices from open vendor RMA based on selection.">Generar facturas desde vendedor ADM abierto, basado en seleccion.</value>
+		<value column="Name" original="Generate Invoices for Vendor RMA">Generar Facturas para Devolución de Proveedor</value>
+		<value column="Description" original="Generate Invoices from open vendor RMA based on selection.">Generar facturas desde devoluciones de proveedor abiertas, basado en selección.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="52003" trl="Y">
@@ -1301,7 +1301,7 @@ y Recibi/Línea o directamente para el producto. </value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="53002" trl="Y">
-		<value column="Name" original="Setup Web POS">Configuracion del Web POS</value>
+		<value column="Name" original="Setup Web POS">Configuración del PDV Web</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
@@ -1326,12 +1326,12 @@ y Recibi/Línea o directamente para el producto. </value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="53069" trl="Y">
-		<value column="Name" original="Apply Migration Scripts">Aplicar scripts de migracion</value>
+		<value column="Name" original="Apply Migration Scripts">Aplicar scripts de migración</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
 	<row id="53070" trl="Y">
-		<value column="Name" original="Prepare Migration Scripts">Praparar scripts de Migracion</value>
+		<value column="Name" original="Prepare Migration Scripts">Preparar scripts de Migración</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>

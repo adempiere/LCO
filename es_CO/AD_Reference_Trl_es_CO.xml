@@ -58,7 +58,7 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="16" trl="Y">
-		<value column="Name" original="Date+Time">Hora/Fecha</value>
+		<value column="Name" original="Date+Time">Fecha+Hora</value>
 		<value column="Description" original="Date with time">Fecha con hora</value>
 		<value column="Help" original=""/>
 	</row>
@@ -73,7 +73,7 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="19" trl="Y">
-		<value column="Name" original="Table Direct">TableDir</value>
+		<value column="Name" original="Table Direct">Tabla Directa</value>
 		<value column="Description" original="Direct Table Access">Acceso directo de tabla</value>
 		<value column="Help" original=""/>
 	</row>
@@ -83,7 +83,7 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="21" trl="Y">
-		<value column="Name" original="Location (Address)">Localización/Dirección</value>
+		<value column="Name" original="Location (Address)">Localización (Dirección)</value>
 		<value column="Description" original="Location/Address">Localización/Dirección</value>
 		<value column="Help" original=""/>
 	</row>
@@ -133,7 +133,7 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="31" trl="Y">
-		<value column="Name" original="Locator (WH)">Localización</value>
+		<value column="Name" original="Locator (WH)">Ubicación (Almacén)</value>
 		<value column="Description" original="Warehouse Locator Data type">Tipo de datos de localización en almacén</value>
 		<value column="Help" original=""/>
 	</row>
@@ -153,18 +153,18 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="35" trl="Y">
-		<value column="Name" original="Product Attribute">PAttribute</value>
+		<value column="Name" original="Product Attribute">AtributoProducto</value>
 		<value column="Description" original="Product Attribute">Product Attribute</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="36" trl="Y">
-		<value column="Name" original="Text Long">TextLong</value>
+		<value column="Name" original="Text Long">TextoLargo</value>
 		<value column="Description" original="Text (Long) - Text &gt; 2000 characters">Text (Long) - Text &gt; 2000 characters</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="37" trl="Y">
-		<value column="Name" original="Costs+Prices">Costs+Prices</value>
-		<value column="Description" original="Costs + Prices (minimum currency precision, but if exists more)">Costs + Prices (minimum currency precision, but if exists more)</value>
+		<value column="Name" original="Costs+Prices">Costos+Precios</value>
+		<value column="Description" original="Costs + Prices (minimum currency precision, but if exists more)">Costos + Precios (mínima precisión de moneda, pero si existe mas)</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="38" trl="Y">
@@ -183,7 +183,7 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="42" trl="Y">
-		<value column="Name" original="Printer Name">Nombre de impresora</value>
+		<value column="Name" original="Printer Name">Nombre Impresora</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
@@ -299,7 +299,7 @@
 	</row>
 	<row id="124" trl="Y">
 		<value column="Name" original="C_BPartner Parent">C_BPartner Parent</value>
-		<value column="Description" original="Business Partner Parent selection">Selección de Socio del Negocio Padre</value>
+		<value column="Description" original="Business Partner Parent selection">Selección de Tercero Padre</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="125" trl="Y">
@@ -364,7 +364,7 @@
 	</row>
 	<row id="138" trl="Y">
 		<value column="Name" original="C_BPartner (Trx)">C_BPartner</value>
-		<value column="Description" original="Business Partner selection (no Summary)">Selección de Socio del Negocio (no resumen)</value>
+		<value column="Description" original="Business Partner selection (no Summary)">Selección de Terceros (no resumen)</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="141" trl="Y">
@@ -448,8 +448,8 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="159" trl="Y">
-		<value column="Name" original="C_BPartner Location">C_BPartner Location</value>
-		<value column="Description" original="Locations of a Business Partner">Localizaciones de un socio del negocio</value>
+		<value column="Name" original="C_BPartner Location">Dirección Tercero</value>
+		<value column="Description" original="Locations of a Business Partner">Direcciones de un tercero</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="161" trl="Y">
@@ -884,7 +884,7 @@
 	</row>
 	<row id="252" trl="Y">
 		<value column="Name" original="C_BPartner Employee">C_BPartner Employee</value>
-		<value column="Description" original="Business Partners who are Employee">Socios del Negocio que son empleados</value>
+		<value column="Description" original="Business Partners who are Employee">Terceros que son empleados</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="253" trl="Y">
@@ -1273,8 +1273,8 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="335" trl="Y">
-		<value column="Name" original="_MMPolicy">Politica de rotacion de material</value>
-		<value column="Description" original="Material Movement Policy">Politica de rotacion de material</value>
+		<value column="Name" original="_MMPolicy">Política de rotación de material</value>
+		<value column="Description" original="Material Movement Policy">Política de rotación de material</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="336" trl="N">
@@ -1580,7 +1580,7 @@
 	<row id="50002" trl="N">
 		<value column="Name" original="Package_Releases">Package_Releases</value>
 		<value column="Description" original="List of Package Releases">List of Package Releases</value>
-		<value column="Help" original="Indicates what release the package is for.  Entering no specific release indicates the package is for all releases.">Indicates what release the package is for.  Entering no specific release indicates the package is for all releases.</value>
+		<value column="Help" original="Indicates what release the package is for.  Entering no specific release indicates the package is for all releases.">Indicates what release the package is for. Entering no specific release indicates the package is for all releases.</value>
 	</row>
 	<row id="50003" trl="N">
 		<value column="Name" original="AD_Package_Exp_DB">AD_Package_Exp_DB</value>
