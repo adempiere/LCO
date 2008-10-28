@@ -388,8 +388,8 @@
 		<value column="Help" original="The Process Bank Statements window allows you to reconcile your Bank Statements.  You can either enter the line items from the statement in the Statement Line tab or select the 'Create From' button to automatically generate the statement from all unreconciled payments to this bank account.  Once you have completed reconciling, select the 'Process Statement' button to mark the payments as reconciled and update the appropriate GL accounts.">Esta ventana permite conciliar sus saldos bancarios. Usted puede ya sea introducir líneas desde el estado de cuentas en la pestaña de línea de estado de cuentas o seleccionar el botón `Crear desde` para generar automáticamente el balance de todos los pagos no conciliados para esta cuenta bancaria. Una vez que la conciliación esta completa; seleccione el botón `Procesar Estado de Cuentas` para marcar los pagos como conciliados y actualizar las cuentas correspondientes de la Contabilidad General</value>
 	</row>
 	<row id="195" trl="Y">
-		<value column="Name" original="Payment">Pago</value>
-		<value column="Description" original="Process Payments and Receipts">Procesar Pagos</value>
+		<value column="Name" original="Payment">Pagos/Recaudos</value>
+		<value column="Description" original="Process Payments and Receipts">Procesar Pagos y Recaudos</value>
 		<value column="Help" original="The Process Payments Window allows you to enter payments and reaipts for invoices.  If the payment is for a single invoice then it can be processed here.  If it is for multiple invoices or is a partial payment then it should be processed in the Payment Allocation Window.">Esta ventana permite entrar pagos que han sido recibido por pago de facturas. Si el pago es por una sola factura entonces éste pago puede ser procesado en esta ventana. Si se trata de múltiples facturas o es un pago parcial; entonces el pago debe ser procesado en la ventana `Asignación de Pagos`</value>
 	</row>
 	<row id="196" trl="Y">

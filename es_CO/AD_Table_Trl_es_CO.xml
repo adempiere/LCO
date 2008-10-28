@@ -372,7 +372,7 @@
 		<value column="Name" original="C_AcctSchema_Default">C_AcctSchema_Default</value>
 	</row>
 	<row id="316" trl="Y">
-		<value column="Name" original="Activity">Tipo de Gasto</value>
+		<value column="Name" original="Activity">Actividad</value>
 	</row>
 	<row id="318" trl="Y">
 		<value column="Name" original="Invoice">Factura</value>

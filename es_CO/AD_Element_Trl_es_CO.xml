@@ -4433,8 +4433,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1005" trl="Y">
-		<value column="Name" original="Activity">Tipo de Gasto</value>
-		<value column="PrintName" original="Activity">Tipo de Gasto</value>
+		<value column="Name" original="Activity">Actividad</value>
+		<value column="PrintName" original="Activity">Actividad</value>
 		<value column="Description" original="Business Activity">Actividad de Negocio</value>
 		<value column="Help" original="Activities indicate tasks that are performed and used to utilize Activity based Costing">Las actividades indican tareas que son ejecutadas en el curso de un negocio; las actividades son usadas para el costeo por actividad (ABC)</value>
 		<value column="PO_Description" original=""/>
