@@ -103,7 +103,7 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="121" trl="Y">
-		<value column="Name" original="Open Orders">Órdenes Abiertas</value>
+		<value column="Name" original="Open Orders">Ordenes Abiertas</value>
 		<value column="Description" original="Open Order Report"/>
 		<value column="Help" original="Orders with quantities to deliver (Backordered) or quantities to invoice"/>
 	</row>
@@ -956,8 +956,8 @@ Entonces las valuaciones de todas las respuestas de cantidad se adicionan a la v
 Si está funcionando para el sistema, todos los roles de todos los clientes son actualizados. Observe que un rol es solamente actualizado si no esta marcado como manual.</value>
 	</row>
 	<row id="296" trl="Y">
-		<value column="Name" original="Import Confirmations">Importa Confirmaciones</value>
-		<value column="Description" original="Import Confirmations">Importa Confirmaciones</value>
+		<value column="Name" original="Import Confirmations">Importar Confirmaciones</value>
+		<value column="Description" original="Import Confirmations">Importar Confirmaciones</value>
 		<value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">Los parámetros son valores por default para los valores nulos del expediente de la importación, ellos no sobreescriben ningunos datos.</value>
 	</row>
 	<row id="297" trl="Y">
@@ -1026,8 +1026,8 @@ Si está funcionando para el sistema, todos los roles de todos los clientes son 
 		<value column="Help" original="The security architecture prevents you from adding client specific modifications/customizations to existing standard workflows.  This process moves your customization made on system level to this client to add client specific details.">La arquitectura de la seguridad evita que usted agrege al cliente modificaciones/arreglos para registros particulares a los Flujos de Trabajo estandares exisentes. Este proceso mueve su arreglo para requisitos particulares hecho en nivel de sistema a este cliente para arreglar los detalles del cliente especifico.</value>
 	</row>
 	<row id="310" trl="Y">
-		<value column="Name" original="Trial Balance">Balanza de Comprobación</value>
-		<value column="Description" original="Trial Balance for a period or date range">Balanza de Comprobación para un Periodo o un Rango de Fechas</value>
+		<value column="Name" original="Trial Balance">Balance de Prueba</value>
+		<value column="Description" original="Trial Balance for a period or date range">Balance de Prueba para un Periodo o un Rango de Fechas</value>
 		<value column="Help" original="Select a Period (current period if empty) or enter a Account Date Range. If an account is selected, the balance is calculated based on the account type and the primary calendar of the client (i.e. for revenue/expense accounts from the beginning of the year). If no account is selected, the balance is the sum of all transactions before the selected account range or first day of the period selected. You can select an alternative Reporting Hierarchy.">Seleccione un período (Campo vacío toma período actual) o indique un rango de fechas, 
 
 
@@ -1054,8 +1054,8 @@ Si se selecciona una cuenta, el balance es calculado en base al  tipo de cuenta 
 		<value column="Help" original="Check the payments and invoices of a business partner and checks the balances.">Verifica los pagos y las facturas del Tercero y verifica el balance</value>
 	</row>
 	<row id="315" trl="Y">
-		<value column="Name" original="Order Batch Process">Proceso de Órdenes en Lote</value>
-		<value column="Description" original="Process Orders in Batch">Proceso de Órdenes en Lote</value>
+		<value column="Name" original="Order Batch Process">Proceso de Ordenes en Lote</value>
+		<value column="Description" original="Process Orders in Batch">Proceso de Ordenes en Lote</value>
 		<value column="Help" original="Based on the selection criteria, the orders are processed using the document action selected.  Make sure that the document action is valid for the documents.">Basado en el criterio de selección, Las órdenes son procesadas usando la acción del documento seleccionado. Asegúrese que la acción del documento sea valida en los documentos.</value>
 	</row>
 	<row id="316" trl="Y">
@@ -1173,9 +1173,9 @@ y Recibi/Línea o directamente para el producto.</value>
 		<value column="Help" original="Create Purchase orders from Purchase Requisitions.">Crear Orden de Compra desde una Requisición</value>
 	</row>
 	<row id="338" trl="Y">
-		<value column="Name" original="Create GL/Default">Crear CG/ Predeterminado</value>
-		<value column="Description" original="Copy matching account element values from existing Accounting Schema">Copia valores de Elementos de Cuenta cotejados desde esquema contable existente</value>
-		<value column="Help" original="Create the GL and Default accounts for this accounting schema and copy matching account element values.">Crear CG y predeterminar cuentas para este Esquema Contable y copia valores de elementos de cuenta cotejados.
+		<value column="Name" original="Create GL/Default">Crear CG/Predeterminado</value>
+		<value column="Description" original="Copy matching account element values from existing Accounting Schema">Copia valores de Elementos de Cuenta emparejados desde esquema contable existente</value>
+		<value column="Help" original="Create the GL and Default accounts for this accounting schema and copy matching account element values.">Crear CG y predeterminar cuentas para este Esquema Contable y copia valores de elementos de cuenta emparejados.
 </value>
 	</row>
 	<row id="339" trl="Y">
@@ -1201,8 +1201,8 @@ y Recibi/Línea o directamente para el producto.</value>
 </value>
 	</row>
 	<row id="343" trl="Y">
-		<value column="Name" original="Import Payments">Importar pagos</value>
-		<value column="Description" original="Import Payments">Importar pagos</value>
+		<value column="Name" original="Import Payments">Importar pagos/recaudos</value>
+		<value column="Description" original="Import Payments">Importar pagos/recaudos</value>
 		<value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">Los paramatros son valores por defecto para no importar registros nulos, ellos no sobreescriben ningún dato.</value>
 	</row>
 	<row id="344" trl="Y">

@@ -1041,22 +1041,22 @@
 		<value column="Name" original="Freight">Carga</value>
 	</row>
 	<row id="597" trl="Y">
-		<value column="Name" original="Import Payment">Importar Pagos</value>
+		<value column="Name" original="Import Payment">Importar Pagos/Recaudos</value>
 	</row>
 	<row id="598" trl="Y">
-		<value column="Name" original="Import Invoice">Importar Factura</value>
+		<value column="Name" original="Import Invoice">Importar Documentos para Cobros/Pagos</value>
 	</row>
 	<row id="599" trl="Y">
-		<value column="Name" original="Import GL Journal">Importar Diario de CG</value>
+		<value column="Name" original="Import GL Journal">Importar Nota de Contabilidad</value>
 	</row>
 	<row id="600" trl="Y">
-		<value column="Name" original="Import Bank Statement">Importar Extractos de Cuenta</value>
+		<value column="Name" original="Import Bank Statement">Importar Extractos Bancarios</value>
 	</row>
 	<row id="601" trl="Y">
 		<value column="Name" original="Replication Table">Tabla de Replicación</value>
 	</row>
 	<row id="602" trl="Y">
-		<value column="Name" original="Replication Strategy">Estrategía de Replicación</value>
+		<value column="Name" original="Replication Strategy">Estrategia de Replicación</value>
 	</row>
 	<row id="603" trl="Y">
 		<value column="Name" original="Replication Run">Corrida de Replicación</value>

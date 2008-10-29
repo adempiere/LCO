@@ -1185,7 +1185,7 @@
 	<row id="264" trl="Y">
 		<value column="Name" original="Date Delivered">Fecha de Entrega</value>
 		<value column="PrintName" original="Date Delivered">F. Entrega</value>
-		<value column="Description" original="Date when the product was delivered">Fecha en que se realizó la última entrega de Material</value>
+		<value column="Description" original="Date when the product was delivered">Fecha en que se realizó la última entrega de mercancía</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -2486,7 +2486,7 @@
 		<value column="Name" original="Name">Nombre</value>
 		<value column="PrintName" original="Name">Nombre</value>
 		<value column="Description" original="Alphanumeric identifier of the entity">Identificador alfanumérico de la entidad.</value>
-		<value column="Help" original="The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.">El nombre de una entidad (registro) se usa como una opción de búsqueda predeterminada adicional a la clave de búsqueda. El nombre es de hasta 60 caracteres de longitud.</value>
+		<value column="Help" original="The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.">El nombre de una entidad (registro) se usa como una opción de búsqueda predeterminada adicional al código. El nombre es de hasta 60 caracteres de longitud.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -2923,7 +2923,7 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="536" trl="Y">
-		<value column="Name" original="Realized Loss Acct">Cta. Pérdida Realizada</value>
+		<value column="Name" original="Realized Loss Acct">Pérdida Realizada</value>
 		<value column="PrintName" original="Realized Loss Acct">Pérdida Realizada</value>
 		<value column="Description" original="Realized Loss Account">Cuenta de pérdida realizada</value>
 		<value column="Help" original="The Realized Loss Account indicates the account to be used when recording losses incurred from currency revaluation that have yet to be realized.">La cuenta de pérdida realizada indica la cuenta a ser usada cuando se registran pérdidas realizadas por reevaluación de moneda</value>
@@ -3463,7 +3463,7 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="606" trl="Y">
-		<value column="Name" original="Unrealized Loss Acct">Cta. Pérdida No Realizada</value>
+		<value column="Name" original="Unrealized Loss Acct">Pérdida No Realizada</value>
 		<value column="PrintName" original="Unrealized Loss Acct">Pérdida No Realizada</value>
 		<value column="Description" original="Unrealized Loss Account for currency revaluation">Cuenta de pérdida no realizada para reevaluación monedas</value>
 		<value column="Help" original="The Unrealized Loss Account indicates the account to be used when recording losses incurred from currency revaluation that have yet to be realized.">La cuenta de pérdida no realizada indica la cuenta a ser usada cuando se registran las pérdidas incurridas; por reevaluación de la moneda; que aún no han sido realizadas</value>
@@ -3593,10 +3593,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="620" trl="Y">
-		<value column="Name" original="Search Key">Clave de Búsqueda</value>
-		<value column="PrintName" original="Search Key">Clave de Búsqueda</value>
-		<value column="Description" original="Search key for the record in the format required - must be unique">Clave de búsqueda para el registro en el formato requerido; debe ser única</value>
-		<value column="Help" original="A search key allows you a fast method of finding a particular record.&#10;If you leave the search key empty, the system automatically creates a numeric number.  The document sequence used for this fallback number is defined in the &quot;Maintain Sequence&quot; window with the name &quot;DocumentNo_&lt;TableName&gt;&quot;, where TableName is the actual name of the table (e.g. C_Order).">Una clave de búsqueda le permite a usted un método rápido de encontrar un registro en particular</value>
+		<value column="Name" original="Search Key">Código</value>
+		<value column="PrintName" original="Search Key">Código</value>
+		<value column="Description" original="Search key for the record in the format required - must be unique">Código para el registro en el formato requerido; debe ser único</value>
+		<value column="Help" original="A search key allows you a fast method of finding a particular record.&#10;If you leave the search key empty, the system automatically creates a numeric number.  The document sequence used for this fallback number is defined in the &quot;Maintain Sequence&quot; window with the name &quot;DocumentNo_&lt;TableName&gt;&quot;, where TableName is the actual name of the table (e.g. C_Order).">Un código le permite a usted un método rápido de encontrar un registro en particular</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -4555,7 +4555,7 @@
 	<row id="1025" trl="Y">
 		<value column="Name" original="Shipment/Receipt">Entrega / Recibo</value>
 		<value column="PrintName" original="Shipment/Receipt">Entrega / Recibo</value>
-		<value column="Description" original="Material Shipment Document">Entrega o documento de recibo</value>
+		<value column="Description" original="Material Shipment Document">Entrega o documento de despacho</value>
 		<value column="Help" original="The Material Shipment / Receipt ">La ID de Entrega / Recibo indica el documento único para esta entrega o recibo</value>
 		<value column="PO_Description" original="Material Receipt Document"/>
 		<value column="PO_Help" original="The Material Shipment / Receipt "/>
@@ -5275,8 +5275,8 @@
 	<row id="1117" trl="Y">
 		<value column="Name" original="Not-invoiced Receipts">Recibos no Facturados</value>
 		<value column="PrintName" original="Not-invoiced Receipts">Recibos no Facturados</value>
-		<value column="Description" original="Account for not-invoiced Material Receipts">Cuenta para Recibos de Material no Facturados</value>
-		<value column="Help" original="The Not Invoiced Receipts account indicates the account used for recording receipts for materials that have not yet been invoiced.">La cuenta de Recibos no Facturados indica la cuenta usada para registrar recibos de materiales que no han sido aún facturados</value>
+		<value column="Description" original="Account for not-invoiced Material Receipts">Cuenta para Recibos de Mercancía no Facturados</value>
+		<value column="Help" original="The Not Invoiced Receipts account indicates the account used for recording receipts for materials that have not yet been invoiced.">La cuenta de Recibos no Facturados indica la cuenta usada para registrar recibos de mercancía que no han sido aún facturados</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -5573,8 +5573,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1188" trl="Y">
-		<value column="Name" original="BOM Line">Línea de Lista de Materiales</value>
-		<value column="PrintName" original="BOM Line">Línea de Lista de Materiales</value>
+		<value column="Name" original="BOM Line">Línea LDM</value>
+		<value column="PrintName" original="BOM Line">Línea LDM</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -6343,10 +6343,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1308" trl="Y">
-		<value column="Name" original="Posted">Fijada</value>
-		<value column="PrintName" original="Posted">Registrada</value>
+		<value column="Name" original="Posted">Contabilizado</value>
+		<value column="PrintName" original="Posted">Contabilizado</value>
 		<value column="Description" original="Posting status">Las transacciones de contabilidad general han sido procesadas.</value>
-		<value column="Help" original="The Posted field indicates the status of the Generation of General Ledger Accounting Lines ">El campo fijado indica el estado de la generación de las Líneas contables a la contabilidad general.</value>
+		<value column="Help" original="The Posted field indicates the status of the Generation of General Ledger Accounting Lines ">El campo contabilizado indica el estado de la generación de las Líneas contables a la contabilidad general.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -6494,7 +6494,7 @@
 	</row>
 	<row id="1326" trl="Y">
 		<value column="Name" original="Bill of Materials">Lista de Materiales</value>
-		<value column="PrintName" original="BOM">Lista de Materiales</value>
+		<value column="PrintName" original="BOM">Lista de Materiales (LDM)</value>
 		<value column="Description" original="Bill of Materials">Lista de materiales</value>
 		<value column="Help" original="The Bill of Materials check box indicates if this product consists of a bill of materials.">El cuadro de verificación de lista de materiales indica si este producto contiene una lista de materiales.</value>
 		<value column="PO_Description" original=""/>
@@ -6783,9 +6783,9 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1372" trl="Y">
-		<value column="Name" original="Bank In Transit">Cuenta de Pagos en Tránsito</value>
-		<value column="PrintName" original="Bank In Transit">En Tránsito</value>
-		<value column="Description" original="Bank In Transit Account">Cuenta de pagos en tránsito</value>
+		<value column="Name" original="Bank In Transit">Banco en Tránsito</value>
+		<value column="PrintName" original="Bank In Transit">Banco En Tránsito</value>
+		<value column="Description" original="Bank In Transit Account">Cuenta de banco en tránsito</value>
 		<value column="Help" original="The Bank in Transit Account identifies the account to be used for funds which are in transit.">La cuenta banco en tránsito identifica la cuenta a ser usada para fondos que están en tránsito</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -6793,7 +6793,7 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1373" trl="Y">
-		<value column="Name" original="Bank Revaluation Gain">Cuenta de Ganancias por Reevaluación (Bancos)</value>
+		<value column="Name" original="Bank Revaluation Gain">Ganancias por Reevaluación (Bancos)</value>
 		<value column="PrintName" original="Bank Revaluation Gain">Ganancias por Reevaluación (Bancos)</value>
 		<value column="Description" original="Bank Revaluation Gain Account">Cuenta de ganancias por reevaluación (Bancos)</value>
 		<value column="Help" original="The Bank Revaluation Gain Account identifies the account to be used for recording gains that are recognized when converting currencies.">La cuenta de ganancias por reevaluación en bancos identifica la cuenta a ser usada para registrar ganancias que son reconocidas cuando se convierten las monedas</value>
@@ -6803,7 +6803,7 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1374" trl="Y">
-		<value column="Name" original="Bank Revaluation Loss">Cuenta de Pérdida por Reevaluación (Bancos)</value>
+		<value column="Name" original="Bank Revaluation Loss">Pérdida por Reevaluación (Bancos)</value>
 		<value column="PrintName" original="Bank Revaluation Loss">Pérdida por Reevaluación (Bancos)</value>
 		<value column="Description" original="Bank Revaluation Loss Account">Cuenta de pérdida por reevaluación (Bancos)</value>
 		<value column="Help" original="The Bank Revaluation Loss Account identifies the account to be used for recording losses that are recognized when converting currencies.">La cuenta de pérdidas por reevaluación en bancos identifica la cuenta a ser usada para registrar pérdidas que son reconocidas cuando se convierten las monedas</value>
@@ -6823,7 +6823,7 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1376" trl="Y">
-		<value column="Name" original="Bank Settlement Loss">Cuenta de Pérdida por Ajuste</value>
+		<value column="Name" original="Bank Settlement Loss">Pérdida por Ajuste</value>
 		<value column="PrintName" original="Bank Settlement Loss">Pérdida por Ajuste</value>
 		<value column="Description" original="Bank Settlement Loss Account">Cuenta de pérdida por ajuste</value>
 		<value column="Help" original="The Bank Settlement loss account identifies the account to be used when recording a currency loss when the settlement and receipt currency are not the same.">La cuenta de pérdida por ajuste identifica la cuenta a ser usada cuando se registra la pérdida por moneda cuando la moneda de ajuste y recibo no son las mismas</value>
@@ -9893,8 +9893,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1745" trl="Y">
-		<value column="Name" original="Fixed List Price">Fijar Precio de Lista</value>
-		<value column="PrintName" original="Fixed List">Fijar Precio de Lista</value>
+		<value column="Name" original="Fixed List Price">Precio de Lista Fijo</value>
+		<value column="PrintName" original="Fixed List">Precio de Lista Fijo</value>
 		<value column="Description" original="Fixes List Price (not calculated)">Precio de lista fijado (No calculado)</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -9903,8 +9903,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1746" trl="Y">
-		<value column="Name" original="Fixed Standard Price">Fijar Precio Estándar</value>
-		<value column="PrintName" original="Fixed Standard">Fijar Precio Estándar</value>
+		<value column="Name" original="Fixed Standard Price">Precio Estándar Fijo</value>
+		<value column="PrintName" original="Fixed Standard">Precio Estándar Fijo</value>
 		<value column="Description" original="Fixed Standard Price (not calculated)">Precio estándar fijado (No calculado)</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -13225,9 +13225,9 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2103" trl="Y">
-		<value column="Name" original="Import GL Journal">Importar Diario de CG</value>
-		<value column="PrintName" original="Import GL Journal">Importar Diario de CG</value>
-		<value column="Description" original="Import General Ledger Journal">Importar Diario de Contabilidad</value>
+		<value column="Name" original="Import GL Journal">Importar Nota de Contabilidad</value>
+		<value column="PrintName" original="Import GL Journal">Importar Nota de Contabilidad</value>
+		<value column="Description" original="Import General Ledger Journal">Importar Nota de Contabilidad</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -13245,9 +13245,9 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2105" trl="Y">
-		<value column="Name" original="Import Payment">Importar Pagos</value>
-		<value column="PrintName" original="Import Payment">Importar Pagos</value>
-		<value column="Description" original="Import Payment">Importar Pagos</value>
+		<value column="Name" original="Import Payment">Importar Pagos/Recaudos</value>
+		<value column="PrintName" original="Import Payment">Importar Pagos/Recaudos</value>
+		<value column="Description" original="Import Payment">Importar Pagos/Recaudos</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -13398,7 +13398,7 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="Name" original="CVV Match">Cotejo VCM</value>
 		<value column="PrintName" original="CVV Match">Cotejo VCM</value>
 		<value column="Description" original="Credit Card Verification Code Match">Verificación del código matemático de la tarjeta de crédito</value>
-		<value column="Help" original="The Credit Card Verification Code was matched">El código de verificación de la tarjeta de crédito fue cotejado</value>
+		<value column="Help" original="The Credit Card Verification Code was matched">El código de verificación de la tarjeta de crédito fue emparejado</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -18561,8 +18561,8 @@ La secuencia de Ciudad/Región/Postal es determinada con la dirección de format
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2666" trl="Y">
-		<value column="Name" original="Orders with unconfirmed Shipments">Órdenes de entrega sin Confirmar</value>
-		<value column="PrintName" original="Orders with unconfirmed Shipments">Órdenes de entrega sin Confirmar</value>
+		<value column="Name" original="Orders with unconfirmed Shipments">Ordenes de entrega sin Confirmar</value>
+		<value column="PrintName" original="Orders with unconfirmed Shipments">Ordenes de entrega sin Confirmar</value>
 		<value column="Description" original="Generate shipments for Orders with open delivery confirmations?">Genere los envíos para las órdenes con confirmaciones abiertas de la entrega.</value>
 		<value column="Help" original="You can also include orders who have outstanding confirmations (e.g. ordered=10 - not confirmed shipments=4 - would create a new shipment of 6 if available).">Usted puede también incluir las órdenes que tienen confirmaciones excepcionales (ej. ordenado=10 - no confirmado el envio=4 - crearía un envío nuevo de 6 si esta disponible).</value>
 		<value column="PO_Description" original=""/>
@@ -19215,8 +19215,8 @@ Si usted tiene multiples líneas, un activo es creado por línea.</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2735" trl="Y">
-		<value column="Name" original="Menu Orders">Menú de Órdenes</value>
-		<value column="PrintName" original="Orders">Órdenes</value>
+		<value column="Name" original="Menu Orders">Menú de Ordenes</value>
+		<value column="PrintName" original="Orders">Ordenes</value>
 		<value column="Description" original="Show Menu Orders">Muestra menú de órdenes</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -20328,7 +20328,7 @@ Note que usted puede  Sobre o Sub Asignar el Pago.Durante el procesamiento  del 
 		<value column="Name" original="Inventory Clearing">Limpieza de Inventario</value>
 		<value column="PrintName" original="Inventory Clearing">Limpieza de Inventario</value>
 		<value column="Description" original="Product Inventory Clearing Account">Inventario de productos Cuenta de limpieza</value>
-		<value column="Help" original="Account used for posting matched product (item) expenses (e.g. AP Invoice, Invoice Match).  You would use a different account then Product Expense, if you want to differentate service related costs from item related costs. The balance on the clearing account should be zero and accounts for the timing difference between invoice receipt and matching.&#10;">Cuenta usada para publicar gastos  de productos cotejados . Usted usaria una cuenta diferente  y discrepancia en Producto, si se quiere diferenciar los costos relacionados al serviciodesde los costos relacionados con el producto. El balance en la cuenta de limpieza debería ser cero y las cuentas para diferencia de tiempo entre recibo de factura y búsqueda.
+		<value column="Help" original="Account used for posting matched product (item) expenses (e.g. AP Invoice, Invoice Match).  You would use a different account then Product Expense, if you want to differentate service related costs from item related costs. The balance on the clearing account should be zero and accounts for the timing difference between invoice receipt and matching.&#10;">Cuenta usada para publicar gastos de productos emparejados . Usted usaria una cuenta diferente  y discrepancia en Producto, si se quiere diferenciar los costos relacionados al serviciodesde los costos relacionados con el producto. El balance en la cuenta de limpieza debería ser cero y las cuentas para diferencia de tiempo entre recibo de factura y búsqueda.
 
 </value>
 		<value column="PO_Description" original=""/>
@@ -20509,9 +20509,9 @@ Note que usted puede  Sobre o Sub Asignar el Pago.Durante el procesamiento  del 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2866" trl="Y">
-		<value column="Name" original="Match Requirement">Cotejar Requerimientos</value>
-		<value column="PrintName" original="Match">Cotejar</value>
-		<value column="Description" original="Matching Requirement for Invoice">Cotejar Requerimientos para Factura</value>
+		<value column="Name" original="Match Requirement">Emparejar Requerimientos</value>
+		<value column="PrintName" original="Match">Emparejar</value>
+		<value column="Description" original="Matching Requirement for Invoice">Emparejar Requerimientos para Factura</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -20701,8 +20701,8 @@ Segmentos contables deseadosm Organizaciones, Cuentas, Productos pueden tener al
 	<row id="2884" trl="Y">
 		<value column="Name" original="Price Match Tolerance">% Tolerancia OC/Factura</value>
 		<value column="PrintName" original="Price Match Tolerance">% Tolerancia OC/Factura</value>
-		<value column="Description" original="PO-Invoice Match Price Tolerance in percent of the purchase price">OC-Factura Precio Cotejar Tolerancia en porcentaje del Precio de Compra</value>
-		<value column="Help" original="Tolerance in Percent of matching the purchase order price to the invoice price.  The difference is posted as Invoice Price Tolerance for Standard Costing.  If defined, the PO-Invoice match must be explicitly approved, if the matching difference is greater then the tolerance.&lt;br&gt;&#10;Example: if the purchase price is $100 and the tolerance is 1 (percent), the invoice price must be between $99 and 101 to be automatically approved.">Tolerancia en por ciento de cotejar el precio de la orden de compra al precio de la factura. La diferencia se fija como tolerancia del precio de la factura para costeo estándar. Si está definido, la OC-Factura debe ser aprobada explícitamente, si la diferencia que coteja es mayor entonces la tolerancia.
+		<value column="Description" original="PO-Invoice Match Price Tolerance in percent of the purchase price">OC-Factura Precio Emparejar Tolerancia en porcentaje del Precio de Compra</value>
+		<value column="Help" original="Tolerance in Percent of matching the purchase order price to the invoice price.  The difference is posted as Invoice Price Tolerance for Standard Costing.  If defined, the PO-Invoice match must be explicitly approved, if the matching difference is greater then the tolerance.&lt;br&gt;&#10;Example: if the purchase price is $100 and the tolerance is 1 (percent), the invoice price must be between $99 and 101 to be automatically approved.">Tolerancia en por ciento de emparejar el precio de la orden de compra al precio de la factura. La diferencia se fija como tolerancia del precio de la factura para costeo estándar. Si está definido, la OC-Factura debe ser aprobada explícitamente, si la diferencia que empareja es mayor entonces la tolerancia.
 
 Ejemplo: si el precio de compra es $100 y la tolerancia es 1 ( porciento), el precio de la factura debe estar entre $99 y 101 que se aprobarán automáticamente.</value>
 		<value column="PO_Description" original=""/>
@@ -20711,10 +20711,10 @@ Ejemplo: si el precio de compra es $100 y la tolerancia es 1 ( porciento), el pr
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2885" trl="Y">
-		<value column="Name" original="Price Match Difference">Précio Cotejar Diferencia</value>
-		<value column="PrintName" original="Price Match Difference">Précio Cotejar Diferencia</value>
-		<value column="Description" original="Difference between Purchase and Invoice Price per matched line">Diferencia entre Precio de Compra y Precio Facturado por línea cotejada</value>
-		<value column="Help" original="The difference between purchase and invoice price may be used for requiring explicit approval if a Price Match Tolerance is defined on Business Partner Group level.">La diferencia entre Precio de Compra y Precio Facturado puede ser empleada para requerir aprobación explícita, si es definida una Tolerancia de Precio Cotejado en Nivel Grupo Tercero.</value>
+		<value column="Name" original="Price Match Difference">Precio Emparejar Diferencia</value>
+		<value column="PrintName" original="Price Match Difference">Precio Emparejar Diferencia</value>
+		<value column="Description" original="Difference between Purchase and Invoice Price per matched line">Diferencia entre Precio de Compra y Precio Facturado por línea emparejada</value>
+		<value column="Help" original="The difference between purchase and invoice price may be used for requiring explicit approval if a Price Match Tolerance is defined on Business Partner Group level.">La diferencia entre Precio de Compra y Precio Facturado puede ser empleada para requerir aprobación explícita, si es definida una Tolerancia de Precio Emparejado en Nivel Grupo Tercero.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>

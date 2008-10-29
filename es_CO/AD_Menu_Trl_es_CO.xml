@@ -71,7 +71,7 @@
 		<value column="Description" original="Maintain General Ledger Categories">Mantener Categorías del Libro Mayor</value>
 	</row>
 	<row id="118" trl="Y">
-		<value column="Name" original="GL Journal">Diario de CG</value>
+		<value column="Name" original="GL Journal">Nota de Contabilidad</value>
 		<value column="Description" original="Enter and change Manual Journal Entries">Entrar y cambiar entradas de diario manuales</value>
 	</row>
 	<row id="120" trl="Y">
@@ -107,7 +107,7 @@
 		<value column="Description" original="Maintain Shippers">Mantener Transportistas</value>
 	</row>
 	<row id="129" trl="Y">
-		<value column="Name" original="Sales Order">Órdenes de Venta</value>
+		<value column="Name" original="Sales Order">Ordenes de Venta</value>
 		<value column="Description" original="Enter and change sales orders">Entrar y cambiar ordenes de ventas</value>
 	</row>
 	<row id="130" trl="Y">
@@ -239,7 +239,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="166" trl="Y">
-		<value column="Name" original="Quote-to-Invoice">Cotización-a-Factura</value>
+		<value column="Name" original="Quote-to-Invoice">Cotización-a-Factura (Proceso Compras)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="167" trl="Y">
@@ -279,7 +279,7 @@
 		<value column="Description" original="Maintain Reports &amp; Processes">Mantener informes y procesos</value>
 	</row>
 	<row id="178" trl="Y">
-		<value column="Name" original="Invoice (Customer)">Facturas (Cliente)</value>
+		<value column="Name" original="Invoice (Customer)">Facturas y CxC (Cliente)</value>
 		<value column="Description" original="Customer Invoice Entry">Entrar factura de cliente</value>
 	</row>
 	<row id="179" trl="Y">
@@ -331,7 +331,7 @@
 		<value column="Description" original="Sales Order Transaction Report ">Reporte de transacciones de Orden de ventas</value>
 	</row>
 	<row id="195" trl="Y">
-		<value column="Name" original="Open Orders">Órdenes Abiertas</value>
+		<value column="Name" original="Open Orders">Ordenes Abiertas</value>
 		<value column="Description" original="Open Order Report"/>
 	</row>
 	<row id="196" trl="Y">
@@ -355,7 +355,7 @@
 		<value column="Description" original="Invoice Transactions by Accounting Date"/>
 	</row>
 	<row id="203" trl="Y">
-		<value column="Name" original="Requisition-to-Invoice">Requisición-a-Factura</value>
+		<value column="Name" original="Requisition-to-Invoice">Requisición-a-Factura (Proceso Ventas)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="204" trl="Y">
@@ -363,11 +363,11 @@
 		<value column="Description" original="Vendor Shipments (Receipts)">Despachos de Proveedor (Recibos)</value>
 	</row>
 	<row id="205" trl="Y">
-		<value column="Name" original="Purchase Order">Órdenes de Compra</value>
+		<value column="Name" original="Purchase Order">Ordenes de Compra</value>
 		<value column="Description" original="Manage Purchase Orders">Administrar Ordenes de Compra</value>
 	</row>
 	<row id="206" trl="Y">
-		<value column="Name" original="Invoice (Vendor)">Facturas (Proveedor)</value>
+		<value column="Name" original="Invoice (Vendor)">Facturas y CxP (Proveedor)</value>
 		<value column="Description" original="Vendor Invoice Entry">Entrar Facturas de Proveedor</value>
 	</row>
 	<row id="210" trl="Y">
@@ -731,12 +731,12 @@
 		<value column="Description" original="Product Cost Report">Reporte de costo de producto</value>
 	</row>
 	<row id="315" trl="Y">
-		<value column="Name" original="Matched Invoices">Facturas Cotejadas</value>
-		<value column="Description" original="View Matched Invoices">Ver facturas cotejadas</value>
+		<value column="Name" original="Matched Invoices">Facturas Emparejadas</value>
+		<value column="Description" original="View Matched Invoices">Ver facturas emparejadas</value>
 	</row>
 	<row id="316" trl="Y">
-		<value column="Name" original="Matched Purchase Orders">Cotejar Ordenes de Compra</value>
-		<value column="Description" original="View Matched Purchase Orders">Ver ordenes de compra cotejadas</value>
+		<value column="Name" original="Matched Purchase Orders">Emparejar Ordenes de Compra</value>
+		<value column="Description" original="View Matched Purchase Orders">Ver ordenes de compra emparejadas</value>
 	</row>
 	<row id="317" trl="Y">
 		<value column="Name" original="Expense Type">Tipo de Gasto</value>
@@ -963,8 +963,8 @@
 		<value column="Description" original="Import Bank Statements">Importar Estado de Cuentas</value>
 	</row>
 	<row id="374" trl="Y">
-		<value column="Name" original="Import Payment">Importar Pagos</value>
-		<value column="Description" original="Import Payments">Importar Pagos</value>
+		<value column="Name" original="Import Payment">Importar Pagos/Recaudos</value>
+		<value column="Description" original="Import Payments">Importar Pagos/Recaudos</value>
 	</row>
 	<row id="375" trl="Y">
 		<value column="Name" original="Click">Click</value>
@@ -979,8 +979,8 @@
 		<value column="Description" original="Maintain Invoice Payment Schedule">Mantener el Programa de Pagos de Facturas</value>
 	</row>
 	<row id="378" trl="Y">
-		<value column="Name" original="Import GL Journal">Importar Diario de CG</value>
-		<value column="Description" original="Import General Ledger Journals">Importar Diario de CG</value>
+		<value column="Name" original="Import GL Journal">Importar Nota de Contabilidad</value>
+		<value column="Description" original="Import General Ledger Journals">Importar Nota de Contabilidad</value>
 	</row>
 	<row id="379" trl="Y">
 		<value column="Name" original="Alert">Alerta</value>
@@ -1295,7 +1295,7 @@
 		<value column="Description" original="Adempiere Server Maintenance">Mantenimiento del Servidor Adempiere</value>
 	</row>
 	<row id="457" trl="Y">
-		<value column="Name" original="Sales Orders">Órdenes de Venta</value>
+		<value column="Name" original="Sales Orders">Ordenes de Venta</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="458" trl="Y">
@@ -1411,7 +1411,7 @@
 		<value column="Description" original="Print Format Detail Report">Formato de la impresión con los detalles del artículo</value>
 	</row>
 	<row id="486" trl="Y">
-		<value column="Name" original="Import Confirmations">Importa Confirmación</value>
+		<value column="Name" original="Import Confirmations">Importar Confirmación</value>
 		<value column="Description" original="Import Receipt/Shipment Confirmation Lines">Importa Recibo/Entrega línea de confirmación</value>
 	</row>
 	<row id="487" trl="Y">
@@ -1475,8 +1475,8 @@
 		<value column="Description" original="Adempiere Workflow">Flujo de Trabajo Adempiere</value>
 	</row>
 	<row id="502" trl="Y">
-		<value column="Name" original="Trial Balance">Balanza de Comprobación</value>
-		<value column="Description" original="Trial Balance for a period or date range">Balanza de Comprobación para un Periodo o un Rango de Fechas</value>
+		<value column="Name" original="Trial Balance">Balance de Prueba</value>
+		<value column="Description" original="Trial Balance for a period or date range">Balance de Prueba para un Periodo o un Rango de Fechas</value>
 	</row>
 	<row id="503" trl="Y">
 		<value column="Name" original="Internal Use Inventory">Inventario uso Interno</value>
@@ -1495,8 +1495,8 @@
 		<value column="Description" original="Check data consistency of Business Partner">Verifica la consistencia de los datos del Tercero</value>
 	</row>
 	<row id="507" trl="Y">
-		<value column="Name" original="Order Batch Process">Proceso de Órdenes en Lote</value>
-		<value column="Description" original="Process Orders in Batch">Proceso de Órdenes en Lote</value>
+		<value column="Name" original="Order Batch Process">Proceso de Ordenes en Lote</value>
+		<value column="Description" original="Process Orders in Batch">Proceso de Ordenes en Lote</value>
 	</row>
 	<row id="508" trl="Y">
 		<value column="Name" original="Archive Viewer">Visualizador de Archivo</value>

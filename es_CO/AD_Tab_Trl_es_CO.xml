@@ -1515,15 +1515,15 @@ Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="408" trl="Y">
-		<value column="Name" original="Match Invoice">Cotejar Facturas</value>
+		<value column="Name" original="Match Invoice">Emparejar Facturas</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="View matched Invoices">Ver facturas cotejadas</value>
+		<value column="Description" original="View matched Invoices">Ver facturas emparejadas</value>
 		<value column="Help" original="View detals of matched invoice lines to material receipt lines"/>
 	</row>
 	<row id="409" trl="Y">
-		<value column="Name" original="Match PO">Cotejar OC</value>
+		<value column="Name" original="Match PO">Emparejar OC</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="View matched Purchase Orders">Ver ordenes de compra cotejadas</value>
+		<value column="Description" original="View matched Purchase Orders">Ver ordenes de compra emparejadas</value>
 		<value column="Help" original="View detals of matched purchase order lines to invoice lines and material receipt lines"/>
 	</row>
 	<row id="410" trl="Y">
@@ -2352,9 +2352,9 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Help" original=""/>
 	</row>
 	<row id="551" trl="Y">
-		<value column="Name" original="Partner Orders">Órdenes Terceros</value>
+		<value column="Name" original="Partner Orders">Ordenes Terceros</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner Orders">Órdenes de terceros</value>
+		<value column="Description" original="Business Partner Orders">Ordenes de terceros</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="552" trl="Y">
@@ -2430,7 +2430,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Help" original=""/>
 	</row>
 	<row id="564" trl="Y">
-		<value column="Name" original="Orders">Órdenes</value>
+		<value column="Name" original="Orders">Ordenes</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="All Orders where the Agent &quot;owns&quot; the Order, the Business Partner or the Product">Toda la línea de orden donde el agente "Posee" la orden, el tercero o el producto</value>
 		<value column="Help" original=""/>
@@ -3153,33 +3153,33 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 		<value column="Help" original="The quantities are in the storage Unit of Measure!">¡Las cantidades están en la unidad del almacenaje de la medida!</value>
 	</row>
 	<row id="688" trl="Y">
-		<value column="Name" original="Matched POs">Órdenes de Compra Cotejadas</value>
+		<value column="Name" original="Matched POs">OC Emparejadas</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Purchase Order Lines matched to this Material Receipt Line">Las líneas de la orden de compra cotejarón a esta línea material del recibo</value>
+		<value column="Description" original="Purchase Order Lines matched to this Material Receipt Line">Las líneas de la orden de compra emparejadas a esta línea material del recibo</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="689" trl="Y">
-		<value column="Name" original="Matched Invoices">Facturas Cotejadas</value>
+		<value column="Name" original="Matched Invoices">Facturas Emparejadas</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Invoice Lines matched to this Material Receipt Line">Facture las líneas emparejadas a esta línea material del recibo.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="690" trl="Y">
-		<value column="Name" original="Matched Receipts">Recibos de Material Cotejados</value>
+		<value column="Name" original="Matched Receipts">Recibos de Mercancía Emparejados</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Material Receipt Lines matched to this Invoice Line">Las líneas de recepción de material cotejadas a esta línea de la factura.</value>
+		<value column="Description" original="Material Receipt Lines matched to this Invoice Line">Las líneas de recepción de mercancía emparejadas a esta línea de la factura.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="691" trl="Y">
-		<value column="Name" original="Matched POs">Órdenes de Compra Cotejadas</value>
+		<value column="Name" original="Matched POs">OC Emparejadas</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Purchase Order Lines matched to this Invoice Line">Las líneas de la orden de compra cotejarón a esta línea de la factura</value>
+		<value column="Description" original="Purchase Order Lines matched to this Invoice Line">Las líneas de la orden de compra emparejadas a esta línea de la factura</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="692" trl="Y">
-		<value column="Name" original="Matching">Cotejados</value>
+		<value column="Name" original="Matching">Emparejando</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Material Receipt or Invoice Lines matched to this Purchse Order Line">Las líneas de materiales de recibo o de la factura cotejarón a esta línea de la orden de compra.</value>
+		<value column="Description" original="Material Receipt or Invoice Lines matched to this Purchse Order Line">Las líneas de materiales de recibo o de la factura emparejadas a esta línea de la orden de compra.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="693" trl="Y">

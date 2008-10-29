@@ -7,11 +7,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="53" trl="Y">
-		<value column="Name" original="Client+Organization">Compañía/Organización</value>
+		<value column="Name" original="Client+Organization">Compañía+Organización</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="54" trl="Y">
-		<value column="Name" original="System only">Sistema Solamente</value>
+		<value column="Name" original="System only">Solo Sistema</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="57" trl="Y">
@@ -31,7 +31,7 @@
 		<value column="Description" original="Table Validation">Validación de Tabla</value>
 	</row>
 	<row id="100" trl="Y">
-		<value column="Name" original="SQL">sql</value>
+		<value column="Name" original="SQL">SQL</value>
 		<value column="Description" original="SQL">SQL</value>
 	</row>
 	<row id="101" trl="Y">
@@ -71,11 +71,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="110" trl="Y">
-		<value column="Name" original="Single Record">Registro Único</value>
+		<value column="Name" original="Single Record">Mostrar solo un Registro</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="111" trl="Y">
-		<value column="Name" original="Maintain">Mantener</value>
+		<value column="Name" original="Maintain">Mantenimiento</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="112" trl="Y">
@@ -91,7 +91,7 @@
 		<value column="Description" original="Spot Conversation Rate Type">Tipo de Tasa de Conversión Spot</value>
 	</row>
 	<row id="115" trl="Y">
-		<value column="Name" original="Period End">Fin de Periodo</value>
+		<value column="Name" original="Period End">Fin de Período</value>
 		<value column="Description" original="Period Conversion Type">Tipo de Conversión del Período</value>
 	</row>
 	<row id="116" trl="Y">
@@ -99,7 +99,7 @@
 		<value column="Description" original="Periods with non overlapping calendar days">Períodos de calendario sin días de traslape</value>
 	</row>
 	<row id="117" trl="Y">
-		<value column="Name" original="Adjustment Period">Periodo de Ajuste</value>
+		<value column="Name" original="Adjustment Period">Período de Ajuste</value>
 		<value column="Description" original="Period without calendar days">Período sin días calendario</value>
 	</row>
 	<row id="118" trl="Y">
@@ -219,7 +219,7 @@
 		<value column="Description" original="Standard Purchase Order Price Costing">Costo Estándar de la orden de compra</value>
 	</row>
 	<row id="147" trl="Y">
-		<value column="Name" original="Average PO">Promedio</value>
+		<value column="Name" original="Average PO">Promedio OC</value>
 		<value column="Description" original="Weighted Average Purchase Order Price Costing">Costo Promedio Ponderado de la orden de compra</value>
 	</row>
 	<row id="148" trl="Y">
@@ -251,24 +251,24 @@
 		<value column="Description" original="Budget Postings">Aplicación de Presupuesto</value>
 	</row>
 	<row id="155" trl="Y">
-		<value column="Name" original="Commitment">Gravamen</value>
-		<value column="Description" original="External Encumbrance or Commitment Postings">Aplicación de Gravámenes o compromisos</value>
+		<value column="Name" original="Commitment">Compromisos</value>
+		<value column="Description" original="External Encumbrance or Commitment Postings">Aplicación de compromisos</value>
 	</row>
 	<row id="156" trl="Y">
 		<value column="Name" original="Statistical">Estadística</value>
 		<value column="Description" original="Statistical Postings">Aplicación Estadística</value>
 	</row>
 	<row id="157" trl="Y">
-		<value column="Name" original="Local">Sólo Publicación</value>
+		<value column="Name" original="Local">Local</value>
 		<value column="Description" original="Local &lt;-">Sólo publicación-sin réplica- los suscriptores solamente pueden leer</value>
 	</row>
 	<row id="159" trl="Y">
-		<value column="Name" original="Merge">Mezclar; Importar</value>
+		<value column="Name" original="Merge">Mezclar</value>
 		<value column="Description" original="Merge &lt;--&gt;">Mezclar o importar tabla - Los suscriptores tienen acceso completo, quien publica puede leer, modificar y eliminar</value>
 	</row>
 	<row id="160" trl="Y">
-		<value column="Name" original="Reference">Ninguno</value>
-		<value column="Description" original="Reference -&gt;">No publicado</value>
+		<value column="Name" original="Reference">Referencia</value>
+		<value column="Description" original="Reference -&gt;">Referencia -&gt;</value>
 	</row>
 	<row id="164" trl="Y">
 		<value column="Name" original="Drafted">Borrador</value>
@@ -291,11 +291,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="173" trl="Y">
-		<value column="Name" original="Invalid">Inválido</value>
+		<value column="Name" original="Invalid">No-Válido</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="176" trl="Y">
-		<value column="Name" original="Reversed">Revertido</value>
+		<value column="Name" original="Reversed">Reversado</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="177" trl="Y">
@@ -327,11 +327,11 @@
 		<value column="Description" original="Finally close this transaction. It cannot be re-activated.">Cierre final de esta transacción. No podrá ser reactivada</value>
 	</row>
 	<row id="184" trl="Y">
-		<value column="Name" original="Reverse - Correct">Inversa - Corrección</value>
+		<value column="Name" original="Reverse - Correct">Reversar - Corregir</value>
 		<value column="Description" original="Reverse Transaction (correction) by reversing sign with same date">Transacción Inversa (corrección) invirtiendo el signo con la misma fecha</value>
 	</row>
 	<row id="185" trl="Y">
-		<value column="Name" original="Reverse - Accrual">Invertir - Devengar</value>
+		<value column="Name" original="Reverse - Accrual">Reversar - Causación</value>
 		<value column="Description" original="Reverse by switching Dr/Cr with current date">Restaurar a través de intercambiar Débitos y Créditos en la misma fecha</value>
 	</row>
 	<row id="187" trl="Y">
@@ -343,7 +343,7 @@
 		<value column="Description" original="Reopen Document and Reverse automaticly generated documents; You need to Complete the transaction after the change. ">Restaurar documentos/inventario y permite cambios ; usted necesita completar la transacción después del cambio</value>
 	</row>
 	<row id="189" trl="Y">
-		<value column="Name" original="&lt;None&gt;">&lt;Sin Acción&gt;</value>
+		<value column="Name" original="&lt;None&gt;">&lt;Ninguno&gt;</value>
 		<value column="Description" original="No action">Sin acción</value>
 	</row>
 	<row id="190" trl="Y">
@@ -375,7 +375,7 @@
 		<value column="Description" original="User Rate Type">Tipo de Tasa del Usuario</value>
 	</row>
 	<row id="203" trl="Y">
-		<value column="Name" original="Manual Rate">Tarifa Manual</value>
+		<value column="Name" original="Manual Rate">Tasa Manual</value>
 		<value column="Description" original="Manual Rate">Tasa Manual</value>
 	</row>
 	<row id="204" trl="Y">
@@ -575,15 +575,15 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="258" trl="Y">
-		<value column="Name" original="Open Period">Periodo Abierto</value>
+		<value column="Name" original="Open Period">Abrir período</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="259" trl="Y">
-		<value column="Name" original="Close Period">Periodo Cerrado</value>
+		<value column="Name" original="Close Period">Cerrar período</value>
 		<value column="Description" original="Soft close - can be re-opened">Cierre suave - puede ser reabierto</value>
 	</row>
 	<row id="260" trl="Y">
-		<value column="Name" original="Permanently Close Period">Periodo Cerrado Permanentemente</value>
+		<value column="Name" original="Permanently Close Period">Cerrar período permanentemente</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="261" trl="Y">
@@ -623,7 +623,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="271" trl="Y">
-		<value column="Name" original="&lt;No Action&gt;">&lt;No Acción&gt;</value>
+		<value column="Name" original="&lt;No Action&gt;">&lt;Sin Acción&gt;</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="272" trl="Y">
@@ -643,15 +643,15 @@
 		<value column="Description" original="Business Partner">Tercero</value>
 	</row>
 	<row id="276" trl="Y">
-		<value column="Name" original="Org Trx">Trans Org</value>
+		<value column="Name" original="Org Trx">Org. Transacción</value>
 		<value column="Description" original="Transaction Organization">Transacción de la Organización</value>
 	</row>
 	<row id="277" trl="Y">
-		<value column="Name" original="Location From">Localización Desde</value>
+		<value column="Name" original="Location From">Dirección Desde</value>
 		<value column="Description" original="Location From">Localización Desde</value>
 	</row>
 	<row id="278" trl="Y">
-		<value column="Name" original="Location To">Localización A</value>
+		<value column="Name" original="Location To">Dirección A</value>
 		<value column="Description" original="Location To">Localización A</value>
 	</row>
 	<row id="279" trl="Y">
@@ -699,11 +699,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="302" trl="Y">
-		<value column="Name" original="GL Journal">Diario de CG</value>
+		<value column="Name" original="GL Journal">Nota de Contabilidad</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="303" trl="Y">
-		<value column="Name" original="GL Document">Documento de CG</value>
+		<value column="Name" original="GL Document">Documento de Contabilidad</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="304" trl="Y">
@@ -767,11 +767,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="323" trl="Y">
-		<value column="Name" original="Material Delivery">Entrega de Material</value>
+		<value column="Name" original="Material Delivery">Entrega de Mercancía</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="324" trl="Y">
-		<value column="Name" original="Material Receipt">Recibo de Material</value>
+		<value column="Name" original="Material Receipt">Recibo de Mercancía</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="325" trl="Y">
@@ -783,7 +783,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="327" trl="Y">
-		<value column="Name" original="Limit (PO) Price">Precio Límite</value>
+		<value column="Name" original="Limit (PO) Price">Precio Límite (OC)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="328" trl="Y">
@@ -799,7 +799,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="331" trl="Y">
-		<value column="Name" original="Prepay Order">Orden pagada por adelantado</value>
+		<value column="Name" original="Prepay Order">Orden prepagada</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="332" trl="Y">
@@ -811,7 +811,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="334" trl="Y">
-		<value column="Name" original="Direct Deposit">Transferencia (ACH)</value>
+		<value column="Name" original="Direct Deposit">Depósito Directo</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="335" trl="Y">
@@ -843,7 +843,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="343" trl="Y">
-		<value column="Name" original="Count list (with book quantity)">Lista de conrteo (con cantidad en libros)</value>
+		<value column="Name" original="Count list (with book quantity)">Lista de conteo (con cantidad en libros)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="344" trl="Y">
@@ -852,10 +852,10 @@
 	</row>
 	<row id="345" trl="Y">
 		<value column="Name" original="Prepare">Preparar</value>
-		<value column="Description" original="Check Document conistency and check Inventory">Reserva Inventario</value>
+		<value column="Description" original="Check Document conistency and check Inventory">Chequear consistencia del documento y chequear inventarios</value>
 	</row>
 	<row id="346" trl="Y">
-		<value column="Name" original="Waiting Payment">Pagos en Espera</value>
+		<value column="Name" original="Waiting Payment">Esperando Pago</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="347" trl="Y">
@@ -867,11 +867,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="349" trl="Y">
-		<value column="Name" original="Movement From">Movimiento De</value>
+		<value column="Name" original="Movement From">Movimiento Desde</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="350" trl="Y">
-		<value column="Name" original="Movement To">Movimiento A</value>
+		<value column="Name" original="Movement To">Movimiento Hacia</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="351" trl="Y">
@@ -923,7 +923,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="363" trl="Y">
-		<value column="Name" original="Form">Formato de Factura de CxC</value>
+		<value column="Name" original="Form">Forma</value>
 		<value column="Description" original="Special Forms">Formas Especiales</value>
 	</row>
 	<row id="364" trl="Y">
@@ -935,7 +935,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="366" trl="Y">
-		<value column="Name" original=" =">=</value>
+		<value column="Name" original=" ="> =</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="367" trl="Y">
@@ -951,7 +951,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="370" trl="Y">
-		<value column="Name" original=" ~">~</value>
+		<value column="Name" original=" ~"> ~</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="371" trl="Y">
@@ -1047,7 +1047,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="394" trl="Y">
-		<value column="Name" original="= 0">0</value>
+		<value column="Name" original="= 0">= 0</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="395" trl="Y">
@@ -1059,11 +1059,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="397" trl="Y">
-		<value column="Name" original="Match">Cotejar</value>
+		<value column="Name" original="Match">Emparejar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="398" trl="Y">
-		<value column="Name" original="No Match">No Cotejar</value>
+		<value column="Name" original="No Match">No Emparejar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="399" trl="Y">
@@ -1079,7 +1079,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="402" trl="Y">
-		<value column="Name" original="Direct Deposit">ACH</value>
+		<value column="Name" original="Direct Deposit">Depósito Directo</value>
 		<value column="Description" original="ACH Automatic Clearing House">Transferencia (ACH)</value>
 	</row>
 	<row id="403" trl="Y">
@@ -1107,7 +1107,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="409" trl="Y">
-		<value column="Name" original="Checking">Cheques</value>
+		<value column="Name" original="Checking">Cuenta Corriente</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="410" trl="Y">
@@ -1143,7 +1143,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="418" trl="Y">
-		<value column="Name" original="Discover">Descubrir</value>
+		<value column="Name" original="Discover">Discover</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="419" trl="Y">
@@ -1223,7 +1223,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="447" trl="Y">
-		<value column="Name" original="Receipt">Cobranza</value>
+		<value column="Name" original="Receipt">Recaudo</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="448" trl="Y">
@@ -1263,15 +1263,15 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="457" trl="Y">
-		<value column="Name" original="Achievements">Progreso</value>
+		<value column="Name" original="Achievements">Logros</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="458" trl="Y">
-		<value column="Name" original="Not Posted">No Aplicado</value>
+		<value column="Name" original="Not Posted">No Contabilizado</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="459" trl="Y">
-		<value column="Name" original="Posted">Aplicado</value>
+		<value column="Name" original="Posted">Contabilizado</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="460" trl="Y">
@@ -1283,23 +1283,23 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="462" trl="Y">
-		<value column="Name" original="Period Closed">Periodo Cerrado</value>
+		<value column="Name" original="Period Closed">Período Cerrado</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="463" trl="Y">
-		<value column="Name" original="Post Prepared">Preparar Aplicación</value>
+		<value column="Name" original="Post Prepared">Contabilidad Preparada</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="464" trl="Y">
-		<value column="Name" original="Invalid Account">Cuenta no Valida</value>
+		<value column="Name" original="Invalid Account">Cuenta no Válida</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="465" trl="Y">
-		<value column="Name" original="Bank Statement">Estado de Cuenta Bancario</value>
+		<value column="Name" original="Bank Statement">Extracto Bancario</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="466" trl="Y">
-		<value column="Name" original="Cash Journal">Diario de Efectivo</value>
+		<value column="Name" original="Cash Journal">Caja Menor</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="467" trl="Y">
@@ -1307,11 +1307,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="468" trl="Y">
-		<value column="Name" original="Total Debit Only">Solamente Total de Débitos</value>
+		<value column="Name" original="Total Debit Only">Sólo Total de Débitos</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="469" trl="Y">
-		<value column="Name" original="Total Credit Only">Solamente Total de Créditos</value>
+		<value column="Name" original="Total Credit Only">Sólo Total de Créditos</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="470" trl="Y">
@@ -1323,15 +1323,15 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="472" trl="Y">
-		<value column="Name" original="Subtract (Op1-Op2)">Substracción(Op1-Op2)</value>
+		<value column="Name" original="Subtract (Op1-Op2)">Resta (Op1-Op2)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="473" trl="Y">
-		<value column="Name" original="Percentage (Op1 of Op2)">Porcentaje (Op2 de Op1)</value>
+		<value column="Name" original="Percentage (Op1 of Op2)">Porcentaje (Op1 de Op2)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="474" trl="Y">
-		<value column="Name" original="Add Range (Op1 to Op2)">Sumar Rangos (Op1 A Op2)</value>
+		<value column="Name" original="Add Range (Op1 to Op2)">Suma Rango (Op1 a Op2)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="475" trl="Y">
@@ -1347,15 +1347,15 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="478" trl="Y">
-		<value column="Name" original="Source Currency">Moneda Fuente</value>
+		<value column="Name" original="Source Currency">Moneda Origen</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="479" trl="Y">
-		<value column="Name" original="Accounting Currency">Moneda de la Contabilidad</value>
+		<value column="Name" original="Accounting Currency">Moneda Contabilidad</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="480" trl="Y">
-		<value column="Name" original="Segment Value">Valor del Segmento</value>
+		<value column="Name" original="Segment Value">Valor Segmento</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="481" trl="Y">
@@ -1363,7 +1363,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="482" trl="Y">
-		<value column="Name" original="Normal (Flat)">Normal (simple)</value>
+		<value column="Name" original="Normal (Flat)">Normal (plano)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="483" trl="Y">
@@ -1375,7 +1375,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="485" trl="Y">
-		<value column="Name" original="Texture (Picture)">Textura (Cuadro)</value>
+		<value column="Name" original="Texture (Picture)">Textura (Foto)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="486" trl="Y">
@@ -1388,7 +1388,7 @@
 	</row>
 	<row id="488" trl="Y">
 		<value column="Name" original="Adempiere">Adempiere</value>
-		<value column="Description" original="Adempiere Application (synchronized)">Aplicación Adempiere (sinchronizada)</value>
+		<value column="Description" original="Adempiere Application (synchronized)">Aplicación Adempiere (sincronizada)</value>
 	</row>
 	<row id="489" trl="Y">
 		<value column="Name" original="User maintained">Mantenido por el Usuario</value>
@@ -1403,11 +1403,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="492" trl="Y">
-		<value column="Name" original="Match Invoice">Cotejar Factura</value>
+		<value column="Name" original="Match Invoice">Emparejar Factura</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="493" trl="Y">
-		<value column="Name" original="Match PO">Cotejar OC</value>
+		<value column="Name" original="Match PO">Emparejar OC</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="496" trl="Y">
@@ -1415,7 +1415,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="497" trl="Y">
-		<value column="Name" original="Flat Percent">Porcentaje simple</value>
+		<value column="Name" original="Flat Percent">Porcentaje Simple</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="498" trl="Y">
@@ -1435,7 +1435,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="502" trl="Y">
-		<value column="Name" original="North East">Noroeste</value>
+		<value column="Name" original="North East">Noreste</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="503" trl="Y">
@@ -1467,15 +1467,15 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="510" trl="Y">
-		<value column="Name" original="Average PO">Costo Promedio</value>
+		<value column="Name" original="Average PO">Promedio (OC)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="511" trl="Y">
-		<value column="Name" original="Last PO Price">Ultimo Precio de la OC</value>
+		<value column="Name" original="Last PO Price">Ultimo Precio de OC</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="512" trl="Y">
-		<value column="Name" original="Last Invoice Price">Ultimo Precio de la Factura</value>
+		<value column="Name" original="Last Invoice Price">Ultimo Precio de Factura</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="513" trl="Y">
@@ -1483,11 +1483,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="514" trl="Y">
-		<value column="Name" original="Average PO History">Ajuste usando diferencias en OC</value>
+		<value column="Name" original="Average PO History">Promedio Histórico OC</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="515" trl="Y">
-		<value column="Name" original="Average Invoice History">Ajuste usando diferencias en Factura</value>
+		<value column="Name" original="Average Invoice History">Promedio Histórico Factura</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="516" trl="Y">
@@ -1499,11 +1499,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="518" trl="Y">
-		<value column="Name" original="Leading (left)">Dirigiendo (izquierda)</value>
+		<value column="Name" original="Leading (left)">Inicio (izquierda)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="519" trl="Y">
-		<value column="Name" original="Trailing (right)">Parte final derecha)</value>
+		<value column="Name" original="Trailing (right)">Final (derecha)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="520" trl="Y">
@@ -1511,7 +1511,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="521" trl="Y">
-		<value column="Name" original="Leading (left)">Dirigiendo (izquierda)</value>
+		<value column="Name" original="Leading (left)">Inicio (izquierda)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="522" trl="Y">
@@ -1519,7 +1519,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="523" trl="Y">
-		<value column="Name" original="Trailing (right)">Parte final derecha)</value>
+		<value column="Name" original="Trailing (right)">Final (derecha)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="524" trl="Y">
@@ -1559,7 +1559,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="533" trl="Y">
-		<value column="Name" original="Pie Chart">Gráfica de Pastel</value>
+		<value column="Name" original="Pie Chart">Gráfica de Torta</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="534" trl="Y">
@@ -1571,15 +1571,15 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="536" trl="Y">
-		<value column="Name" original="Period Balance">Saldo del Periodo</value>
+		<value column="Name" original="Period Balance">Saldo del Período</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="537" trl="Y">
-		<value column="Name" original="Period Credit Only">Sólo Créditos del Periodo</value>
+		<value column="Name" original="Period Credit Only">Sólo Créditos del Período</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="538" trl="Y">
-		<value column="Name" original="Period Debit Only">Sólo Débitos del Periodo</value>
+		<value column="Name" original="Period Debit Only">Sólo Débitos del Período</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="539" trl="Y">
@@ -1603,7 +1603,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="544" trl="Y">
-		<value column="Name" original="Currency Precision">Precisión de la Moneda</value>
+		<value column="Name" original="Currency Precision">Precisión de Moneda</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="545" trl="Y">
@@ -1631,11 +1631,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="551" trl="Y">
-		<value column="Name" original="Standard Part">Parte/LDM</value>
+		<value column="Name" original="Standard Part">Parte Estándar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="552" trl="Y">
-		<value column="Name" original="Optional Part">Orden</value>
+		<value column="Name" original="Optional Part">Parte Opcional</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="553" trl="Y">
@@ -1655,7 +1655,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="557" trl="Y">
-		<value column="Name" original="Field">Archivo</value>
+		<value column="Name" original="Field">Campo</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="558" trl="Y">
@@ -1663,19 +1663,19 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="559" trl="Y">
-		<value column="Name" original="Invoice">Factura CXC/CXP</value>
+		<value column="Name" original="Invoice">Factura</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="560" trl="Y">
-		<value column="Name" original="Daily">Diario</value>
+		<value column="Name" original="Daily">Diariamente</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="561" trl="Y">
-		<value column="Name" original="Weekly">Semanal</value>
+		<value column="Name" original="Weekly">Semanalmente</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="562" trl="Y">
-		<value column="Name" original="Monthly">Mensual</value>
+		<value column="Name" original="Monthly">Mensualmente</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="563" trl="Y">
@@ -1683,11 +1683,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="564" trl="Y">
-		<value column="Name" original="Order">Orden V/C</value>
+		<value column="Name" original="Order">Orden</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="565" trl="Y">
-		<value column="Name" original="GL Journal">Diario de CG</value>
+		<value column="Name" original="GL Journal">Nota de Contabilidad</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="567" trl="Y">
@@ -1703,7 +1703,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="570" trl="Y">
-		<value column="Name" original="Purchase Tax">Impuesto de OC</value>
+		<value column="Name" original="Purchase Tax">Impuesto de Compra</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="571" trl="Y">
@@ -1723,7 +1723,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="575" trl="Y">
-		<value column="Name" original="French Accounting Standard">French Accounting Standard</value>
+		<value column="Name" original="French Accounting Standard">Estándar de Contabilidad Francés</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="576" trl="Y">
@@ -1763,19 +1763,19 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="585" trl="Y">
-		<value column="Name" original="Obscure Digits but last 4">Obscure Digits but last 4</value>
+		<value column="Name" original="Obscure Digits but last 4">Ocultar dígitos excepto los últimos 4</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="586" trl="Y">
-		<value column="Name" original="Obscure Digits but first/last 4">Obscure Digits but first/last 4</value>
+		<value column="Name" original="Obscure Digits but first/last 4">Ocultar dígitos excepto los primeros/últimos 4</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="587" trl="Y">
-		<value column="Name" original="Obscure AlphaNumeric but first/last 4">Obscure AlphaNumeric but first/last 4</value>
+		<value column="Name" original="Obscure AlphaNumeric but first/last 4">Ocultar alfanuméricos excepto los primeros/últimos 4</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="588" trl="Y">
-		<value column="Name" original="Obscure AlphaNumeric but last 4">Obscure AlphaNumeric but last 4</value>
+		<value column="Name" original="Obscure AlphaNumeric but last 4">Ocultar alfanuméricos excepto los últimos 4</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="589" trl="Y">
@@ -1795,11 +1795,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="593" trl="Y">
-		<value column="Name" original="Exporting">Exporting</value>
+		<value column="Name" original="Exporting">Exportando</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="594" trl="Y">
-		<value column="Name" original="Client only">Sólo Clientes</value>
+		<value column="Name" original="Client only">Sólo Compañía</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="595" trl="Y">
@@ -1807,11 +1807,11 @@
 		<value column="Description" original="Last In First Out">Ultimas entradas Primeras Salidas</value>
 	</row>
 	<row id="596" trl="Y">
-		<value column="Name" original="FiFo">FiFo</value>
-		<value column="Description" original="First In First Out">First In First Out</value>
+		<value column="Name" original="FiFo">PePs</value>
+		<value column="Description" original="First In First Out">Primero en entrar Primero en salir</value>
 	</row>
 	<row id="597" trl="Y">
-		<value column="Name" original="Yearly">Anual</value>
+		<value column="Name" original="Yearly">Anualmente</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="598" trl="Y">
@@ -1827,15 +1827,15 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="601" trl="Y">
-		<value column="Name" original="hour">Hora</value>
+		<value column="Name" original="hour">hora</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="602" trl="Y">
-		<value column="Name" original="minute">Minuto</value>
+		<value column="Name" original="minute">minuto</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="603" trl="Y">
-		<value column="Name" original="second">Segundo</value>
+		<value column="Name" original="second">segundo</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="604" trl="Y">
@@ -1855,15 +1855,15 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="608" trl="Y">
-		<value column="Name" original="XOR">O</value>
+		<value column="Name" original="XOR">XOR</value>
 		<value column="Description" original="">XOR</value>
 	</row>
 	<row id="609" trl="Y">
-		<value column="Name" original="Wait (Sleep)">Ruta</value>
+		<value column="Name" original="Wait (Sleep)">Espera (Durmiendo)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="610" trl="Y">
-		<value column="Name" original="User Choice">Ninguna (manual)</value>
+		<value column="Name" original="User Choice">Selección de Usuario</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="611" trl="Y">
@@ -1871,7 +1871,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="612" trl="Y">
-		<value column="Name" original="Set Variable">Subflow Loop</value>
+		<value column="Name" original="Set Variable">Fijar Variable</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="613" trl="Y">
@@ -1883,11 +1883,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="615" trl="Y">
-		<value column="Name" original="User Window">Apps Window</value>
+		<value column="Name" original="User Window">Ventana de Usuario</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="616" trl="Y">
-		<value column="Name" original="Organization">Organization</value>
+		<value column="Name" original="Organization">Organización</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="617" trl="Y">
@@ -1899,7 +1899,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="619" trl="Y">
-		<value column="Name" original="System Resource">System Resource</value>
+		<value column="Name" original="System Resource">Recurso del Sistema</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="620" trl="Y">
@@ -1919,7 +1919,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="624" trl="Y">
-		<value column="Name" original="Aborted">Abortar</value>
+		<value column="Name" original="Aborted">Abortado</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="625" trl="Y">
@@ -1931,7 +1931,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="627" trl="Y">
-		<value column="Name" original="State Changed">Process State Changed</value>
+		<value column="Name" original="State Changed">Estado de Proceso Modificado</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="628" trl="Y">
@@ -1939,51 +1939,51 @@
 		<value column="Description" original="Fork">Fork</value>
 	</row>
 	<row id="629" trl="Y">
-		<value column="Name" original="Synchronously">Synchronously</value>
+		<value column="Name" original="Synchronously">Sincronizado</value>
 		<value column="Description" original="Serial">Serial</value>
 	</row>
 	<row id="630" trl="Y">
-		<value column="Name" original="While Loop">While Loop</value>
+		<value column="Name" original="While Loop">Lazo Mientras</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="631" trl="Y">
-		<value column="Name" original="Repeat Until Loop">Ciclo Until</value>
+		<value column="Name" original="Repeat Until Loop">Ciclo Repetir Hasta</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="633" trl="Y">
-		<value column="Name" original="User Form">Apps Form</value>
+		<value column="Name" original="User Form">Forma de Usuario</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="634" trl="Y">
-		<value column="Name" original="Apps Task">Apps Task</value>
+		<value column="Name" original="Apps Task">Tarea de Aplicación</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="636" trl="Y">
-		<value column="Name" original="Apps Report">Apps Report</value>
+		<value column="Name" original="Apps Report">Reporte de Aplicación</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="637" trl="Y">
-		<value column="Name" original="Apps Process">Apps Process</value>
+		<value column="Name" original="Apps Process">Proceso de Aplicación</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="639" trl="Y">
-		<value column="Name" original="In alternative Group 5">Grupo Alternativo 5</value>
+		<value column="Name" original="In alternative Group 5">En Grupo Alternativo 5</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="640" trl="Y">
-		<value column="Name" original="In alternative Group 6">Grupo Alternativo 6</value>
+		<value column="Name" original="In alternative Group 6">En Grupo Alternativo 6</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="641" trl="Y">
-		<value column="Name" original="In alternative Group 7">Grupo Alternativo 7</value>
+		<value column="Name" original="In alternative Group 7">En Grupo Alternativo 7</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="642" trl="Y">
-		<value column="Name" original="In alternative Group 8">Grupo Alternativo 8</value>
+		<value column="Name" original="In alternative Group 8">En Grupo Alternativo 8</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="643" trl="Y">
-		<value column="Name" original="In alternative Group 9">Grupo Alternativo 9</value>
+		<value column="Name" original="In alternative Group 9">En Grupo Alternativo 9</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="644" trl="Y">
@@ -2007,7 +2007,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="649" trl="Y">
-		<value column="Name" original="Add Missing Translations">Adiciona Traducciones Faltantes</value>
+		<value column="Name" original="Add Missing Translations">Añade Traducciones Faltantes</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="650" trl="Y">
@@ -2015,27 +2015,27 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="651" trl="Y">
-		<value column="Name" original="Direct Debit">Direct Debit</value>
+		<value column="Name" original="Direct Debit">Débito Directo</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="652" trl="Y">
-		<value column="Name" original="Direct Debit">Direct Debit</value>
+		<value column="Name" original="Direct Debit">Débito Directo</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="653" trl="Y">
-		<value column="Name" original="Solid Line">Solid Line</value>
+		<value column="Name" original="Solid Line">Línea Sólida</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="654" trl="Y">
-		<value column="Name" original="Dashed Line">Dashed Line</value>
+		<value column="Name" original="Dashed Line">Línea Rayada</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="655" trl="Y">
-		<value column="Name" original="Dotted Line">Dotted Line</value>
+		<value column="Name" original="Dotted Line">Línea Punteada</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="656" trl="Y">
-		<value column="Name" original="Dash-Dotted Line">Dash-Dotted Line</value>
+		<value column="Name" original="Dash-Dotted Line">Línea Raya-Punto</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="657" trl="Y">
@@ -2067,7 +2067,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="664" trl="Y">
-		<value column="Name" original="Week Day">Días de la Semana</value>
+		<value column="Name" original="Week Day">Día de la Semana</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="665" trl="Y">
@@ -2131,27 +2131,27 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="680" trl="Y">
-		<value column="Name" original="Supplemental">Supplemental</value>
+		<value column="Name" original="Supplemental">Suplementario</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="681" trl="Y">
-		<value column="Name" original="Not Mandatary">No es Mandatorio</value>
+		<value column="Name" original="Not Mandatary">No Obligatorio</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="682" trl="Y">
-		<value column="Name" original="Always Mandatory">Siempre Mandatorio</value>
+		<value column="Name" original="Always Mandatory">Siempre Obligatorio</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="683" trl="Y">
-		<value column="Name" original="When Shipping">When Shipping</value>
+		<value column="Name" original="When Shipping">Cuando se está despachando</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="684" trl="Y">
-		<value column="Name" original="Posting Error">Error de posteo</value>
+		<value column="Name" original="Posting Error">Error de Contabilización</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="685" trl="Y">
-		<value column="Name" original="String (max 40)">String (max 40)</value>
+		<value column="Name" original="String (max 40)">Cadena (max 40)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="686" trl="Y">
@@ -2187,31 +2187,31 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="695" trl="Y">
-		<value column="Name" original="Client">Client</value>
+		<value column="Name" original="Client">Compañía</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="696" trl="Y">
-		<value column="Name" original="Organization">Organization</value>
+		<value column="Name" original="Organization">Organización</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="697" trl="Y">
-		<value column="Name" original="User">User</value>
+		<value column="Name" original="User">Usuario</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="698" trl="Y">
-		<value column="Name" original="None">Nada</value>
+		<value column="Name" original="None">Ninguno</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="699" trl="Y">
-		<value column="Name" original="Receivables &amp; Payables">Cobros y Pagos</value>
+		<value column="Name" original="Receivables &amp; Payables">CxC &amp; CxC</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="700" trl="Y">
-		<value column="Name" original="Receivables only">Solamente Cobros</value>
+		<value column="Name" original="Receivables only">Sólo CxC</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="701" trl="Y">
-		<value column="Name" original="Payables only">Solamente Pagos</value>
+		<value column="Name" original="Payables only">Sólo CxP</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="702" trl="Y">
@@ -2223,23 +2223,23 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="704" trl="Y">
-		<value column="Name" original="3D Rectangle">3D Rectangle</value>
+		<value column="Name" original="3D Rectangle">Rectángulo 3D</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="705" trl="Y">
-		<value column="Name" original="Oval">Oval</value>
+		<value column="Name" original="Oval">Ovalo</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="706" trl="Y">
-		<value column="Name" original="Round Rectangle">Round Rectangle</value>
+		<value column="Name" original="Round Rectangle">Rectángulo Redondeado</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="707" trl="Y">
-		<value column="Name" original="Normal Rectangle">Normal Rectangle</value>
+		<value column="Name" original="Normal Rectangle">Rectángulo Normal</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="708" trl="Y">
-		<value column="Name" original="None">Nada</value>
+		<value column="Name" original="None">Ninguno</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="709" trl="Y">
@@ -2251,7 +2251,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="711" trl="Y">
-		<value column="Name" original="External Documents">Extenal Documents</value>
+		<value column="Name" original="External Documents">Documentos Externos</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="712" trl="Y">
@@ -2307,7 +2307,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="726" trl="Y">
-		<value column="Name" original="Partner Confidential">Cliente Confidencial</value>
+		<value column="Name" original="Partner Confidential">Confidencial Tercero</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="727" trl="Y">
@@ -2323,7 +2323,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="730" trl="Y">
-		<value column="Name" original="User Verification">Validación de Usuario</value>
+		<value column="Name" original="User Verification">Verificación de Usuario</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="731" trl="Y">
@@ -2415,7 +2415,7 @@
 		<value column="Description" original="">Planeación</value>
 	</row>
 	<row id="753" trl="Y">
-		<value column="Name" original="Standard Product">Porducto Estándar</value>
+		<value column="Name" original="Standard Product">Producto Estándar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="754" trl="Y">
@@ -2443,7 +2443,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="760" trl="Y">
-		<value column="Name" original="Minor">Mínima</value>
+		<value column="Name" original="Minor">Menor</value>
 		<value column="Description" original="">Minor</value>
 	</row>
 	<row id="761" trl="Y">
@@ -2452,11 +2452,11 @@
 	</row>
 	<row id="762" trl="Y">
 		<value column="Name" original="Lower">Inferior</value>
-		<value column="Description" original="">Lower</value>
+		<value column="Description" original=""></value>
 	</row>
 	<row id="763" trl="Y">
-		<value column="Name" original="Higher">Alto</value>
-		<value column="Description" original="">Higher</value>
+		<value column="Name" original="Higher">Mayor</value>
+		<value column="Description" original=""></value>
 	</row>
 	<row id="764" trl="Y">
 		<value column="Name" original="Subscribe">Suscribir</value>
@@ -2487,7 +2487,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="772" trl="Y">
-		<value column="Name" original="Custom">Cliente</value>
+		<value column="Name" original="Custom">Personalizado</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="773" trl="Y">
@@ -2499,7 +2499,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="775" trl="Y">
-		<value column="Name" original="Batch/Lot">Lote/Lote</value>
+		<value column="Name" original="Batch/Lot">Batch/Lote</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="776" trl="Y">
@@ -2595,11 +2595,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="799" trl="Y">
-		<value column="Name" original="Document Owner">Documento Propietario</value>
+		<value column="Name" original="Document Owner">Propietario del Documento</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="800" trl="Y">
-		<value column="Name" original="Document Business Partner">Documento Tercero</value>
+		<value column="Name" original="Document Business Partner">Tercero del Documento</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="801" trl="Y">
@@ -3027,7 +3027,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="909" trl="Y">
-		<value column="Name" original="Ad display">Despliegue de Ad</value>
+		<value column="Name" original="Ad display">Despliegue de Anuncio</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="910" trl="Y">
@@ -3055,19 +3055,19 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="916" trl="N">
-		<value column="Name" original="Write-off only">Write-off only</value>
+		<value column="Name" original="Write-off only">Sólo Ajuste</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="917" trl="Y">
-		<value column="Name" original="Discount only">Solo descuento</value>
+		<value column="Name" original="Discount only">Solo Descuento</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="918" trl="N">
-		<value column="Name" original="Write-off and Discount">Write-off and Discount</value>
+		<value column="Name" original="Write-off and Discount">Ajuste y Descuento</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="919" trl="Y">
-		<value column="Name" original="text/js">texto/js</value>
+		<value column="Name" original="text/js">text/js</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="920" trl="Y">
@@ -3079,11 +3079,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="922" trl="Y">
-		<value column="Name" original="Direct Debit">Debito Directo</value>
+		<value column="Name" original="Direct Debit">Débito Directo</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="923" trl="Y">
-		<value column="Name" original="Direct Deposit">Deposito Directo</value>
+		<value column="Name" original="Direct Deposit">Depósito Directo</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="924" trl="Y">
@@ -3151,11 +3151,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="941" trl="Y">
-		<value column="Name" original="Note (flat)">Nota</value>
+		<value column="Name" original="Note (flat)">Nota (plana)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="942" trl="Y">
-		<value column="Name" original="Forum (threaded)">Foro</value>
+		<value column="Name" original="Forum (threaded)">Foro (hilo)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="50001" trl="Y">
@@ -3259,11 +3259,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="50026" trl="Y">
-		<value column="Name" original="Process/Report">Proceso / Reporte</value>
+		<value column="Name" original="Process/Report">Proceso/Reporte</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="50027" trl="Y">
-		<value column="Name" original="ReportView">Ver Informe</value>
+		<value column="Name" original="ReportView">Vista de Informe</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="50028" trl="Y">
@@ -3271,7 +3271,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="50029" trl="N">
-		<value column="Name" original="Code Snipit">Code Snipit</value>
+		<value column="Name" original="Code Snipit">Recorte de Código</value>
 		<value column="Description" original="Replace a code snipit with in a file">Replace a code snipit with in a file</value>
 	</row>
 	<row id="50030" trl="Y">
@@ -3359,12 +3359,12 @@
 		<value column="Description" original="Just allowed system configuration">Sólo permite configuración del sistema</value>
 	</row>
 	<row id="53229" trl="Y">
-		<value column="Name" original="Client">Cliente</value>
-		<value column="Description" original="Allowed system and client configuration">Permite configuración del sistema y cliente</value>
+		<value column="Name" original="Client">Compañía</value>
+		<value column="Description" original="Allowed system and client configuration">Permite configuración del sistema y compañía</value>
 	</row>
 	<row id="53230" trl="Y">
 		<value column="Name" original="Organization">Organización</value>
-		<value column="Description" original="Allowed system, client and organization configuration">Permite configuración del sistema, cliente y organización</value>
+		<value column="Description" original="Allowed system, client and organization configuration">Permite configuración del sistema, compañía y organización</value>
 	</row>
 	<row id="53284" trl="Y">
 		<value column="Name" original="Hide">Ocultar</value>
@@ -3383,11 +3383,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="53289" trl="Y">
-		<value column="Name" original="Aspect Orient Program">Apariencia del Programa de Oriente</value>
+		<value column="Name" original="Aspect Orient Program">Aspect Orient Program</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53290" trl="Y">
-		<value column="Name" original="JSR 223 Scripting APIs">BeanShell</value>
+		<value column="Name" original="JSR 223 Scripting APIs">JSR 223 Scripting APIs</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53291" trl="Y">
@@ -3407,39 +3407,39 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="53295" trl="Y">
-		<value column="Name" original="Model Validator Table Event">Modelo validador de envento de tabla</value>
+		<value column="Name" original="Model Validator Table Event">Evento Validador Model sobre Tabla</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53296" trl="Y">
-		<value column="Name" original="Model Validator Document Event">Modelo validador de envento de documento</value>
+		<value column="Name" original="Model Validator Document Event">Evento Validador Model sobre Documento</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53297" trl="Y">
-		<value column="Name" original="Model Validator Login Event">Modelo validador de envento de ingreso</value>
+		<value column="Name" original="Model Validator Login Event">Evento Validador Model en Ingreso</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53299" trl="Y">
-		<value column="Name" original="Table Before New">Tabla antes de nueva</value>
+		<value column="Name" original="Table Before New">Tabla - Antes de Insertar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53300" trl="Y">
-		<value column="Name" original="Table Before Change">Tabla antes de cambiar</value>
+		<value column="Name" original="Table Before Change">Tabla - Antes de Cambiar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53301" trl="Y">
-		<value column="Name" original="Table Before Delete">Tabla antes de borrar</value>
+		<value column="Name" original="Table Before Delete">Tabla - Antes de Borrar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53302" trl="Y">
-		<value column="Name" original="Table After New">Tabla despues de nueva</value>
+		<value column="Name" original="Table After New">Tabla - Despues de Insertar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53303" trl="Y">
-		<value column="Name" original="Table After Change">Tabla despues de cambio</value>
+		<value column="Name" original="Table After Change">Tabla - Despues de Cambiar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53304" trl="Y">
-		<value column="Name" original="Table After Delete">Tabla despues de borrado</value>
+		<value column="Name" original="Table After Delete">Tabla - Despues de Borrar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53305" trl="Y">
@@ -3447,23 +3447,23 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="53306" trl="Y">
-		<value column="Name" original="Document Before Void">Documento antes de defectos de impresión</value>
+		<value column="Name" original="Document Before Void">Documento antes de anular</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53307" trl="Y">
-		<value column="Name" original="Document Before Close">Documento antes de cierre</value>
+		<value column="Name" original="Document Before Close">Documento antes de cerrar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53308" trl="Y">
-		<value column="Name" original="Document Before Reactivate">Documento antes de re activación</value>
+		<value column="Name" original="Document Before Reactivate">Documento antes de reactivar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53309" trl="Y">
-		<value column="Name" original="Document Before Reverse Correct">Documento antes de reversión correcta</value>
+		<value column="Name" original="Document Before Reverse Correct">Documento antes de reversar para corregir</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53310" trl="Y">
-		<value column="Name" original="Document Before Reverse Accrual">Documento antes de reversar aumento</value>
+		<value column="Name" original="Document Before Reverse Accrual">Documento antes de reversar causación</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53311" trl="Y">
@@ -3471,7 +3471,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="53312" trl="Y">
-		<value column="Name" original="Document Before Post">Documento antes de publicar</value>
+		<value column="Name" original="Document Before Post">Documento antes de contabilizar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53313" trl="Y">
@@ -3479,31 +3479,31 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="53314" trl="Y">
-		<value column="Name" original="Document After Void">Documento antes de defectos de impresión</value>
+		<value column="Name" original="Document After Void">Documento despues de anular</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53315" trl="Y">
-		<value column="Name" original="Document After Close">Documento despues de cerrado</value>
+		<value column="Name" original="Document After Close">Documento despues de cerrar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53316" trl="Y">
-		<value column="Name" original="Document After Reactivate">Documento despues de re activado</value>
+		<value column="Name" original="Document After Reactivate">Documento despues de reactivar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53317" trl="Y">
-		<value column="Name" original="Document After Reverse Correct">Documento despues de reversión-corrección</value>
+		<value column="Name" original="Document After Reverse Correct">Documento despues de reversar para corregir</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53318" trl="Y">
-		<value column="Name" original="Document After Reverse Accrual">Documento despues de reversar aumento</value>
+		<value column="Name" original="Document After Reverse Accrual">Documento despues de reversar causación</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53319" trl="Y">
-		<value column="Name" original="Document After Complete">Documento despues de completo</value>
+		<value column="Name" original="Document After Complete">Documento despues de completar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53320" trl="Y">
-		<value column="Name" original="Document After Post">Documento despues de publicar</value>
+		<value column="Name" original="Document After Post">Documento despues de contabilizar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53321" trl="Y">
@@ -3519,16 +3519,16 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="53324" trl="Y">
-		<value column="Name" original="Release 3.1.0">Versión 3.3.0</value>
-		<value column="Description" original="Release 3.1.0">Versión 3.3.0</value>
+		<value column="Name" original="Release 3.1.0">Versión 3.1.0</value>
+		<value column="Description" original="Release 3.1.0">Versión 3.1.0</value>
 	</row>
 	<row id="53325" trl="Y">
-		<value column="Name" original="Release 3.2.0">Versión 3.3.1</value>
-		<value column="Description" original="Release 3.2.0">Versión 3.3.1</value>
+		<value column="Name" original="Release 3.2.0">Versión 3.2.0</value>
+		<value column="Description" original="Release 3.2.0">Versión 3.2.0</value>
 	</row>
 	<row id="53326" trl="Y">
-		<value column="Name" original="Release 3.3.0">Versión 3.3.2</value>
-		<value column="Description" original="Release 3.3.0">Versión 3.3.2</value>
+		<value column="Name" original="Release 3.3.0">Versión 3.3.0</value>
+		<value column="Description" original="Release 3.3.0">Versión 3.3.0</value>
 	</row>
 	<row id="53327" trl="Y">
 		<value column="Name" original="In Progress">En progreso</value>
