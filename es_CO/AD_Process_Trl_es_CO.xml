@@ -1059,14 +1059,14 @@ Si se selecciona una cuenta, el balance es calculado en base al  tipo de cuenta 
 		<value column="Help" original="Based on the selection criteria, the orders are processed using the document action selected.  Make sure that the document action is valid for the documents.">Basado en el criterio de selección, Las órdenes son procesadas usando la acción del documento seleccionado. Asegúrese que la acción del documento sea valida en los documentos.</value>
 	</row>
 	<row id="316" trl="Y">
-		<value column="Name" original="UnAllocated Invoices">Asignación de Facturas</value>
+		<value column="Name" original="UnAllocated Invoices">Facturas sin Asignar</value>
 		<value column="Description" original="Invoices not allocated to Payments">Facturas no asignadas a los pagos</value>
 		<value column="Help" original="Report of not allocated Invoices (for partially paid/allocated invoices see Open Item)">Reporte de Facturas no asignadas (Para las Facturas de vea parcialmente el artículo</value>
 	</row>
 	<row id="317" trl="Y">
-		<value column="Name" original="UnAllocated Payments">Facturas no asignadas</value>
-		<value column="Description" original="Payments not allocated to Invoices">Facturas no asignadas a los pagos</value>
-		<value column="Help" original="Report of not allocated Payments (for partially allocated payments, use Payment Detail)">Reporte de facturas no asignadas (para las facturas de pago/asignado vea parcialmente el artículo abierto)</value>
+		<value column="Name" original="UnAllocated Payments">Pagos sin Asignar</value>
+		<value column="Description" original="Payments not allocated to Invoices">Pagos no asignados a las facturas</value>
+		<value column="Help" original="Report of not allocated Payments (for partially allocated payments, use Payment Detail)">Reporte de pagos no asignados (para las facturas de pago/asignado vea parcialmente el artículo abierto)</value>
 	</row>
 	<row id="318" trl="Y">
 		<value column="Name" original="Payment Details">Detalles del Pago</value>

@@ -1503,12 +1503,12 @@
 		<value column="Description" original="View automatically archived Documents">Visualiza automáticamente archivador de documentos</value>
 	</row>
 	<row id="509" trl="Y">
-		<value column="Name" original="UnAllocated Invoices">Asignación de Facturas</value>
+		<value column="Name" original="UnAllocated Invoices">Facturas sin Asignar</value>
 		<value column="Description" original="Invoices not allocated to Payments">Facturas no asignadas a los pagos</value>
 	</row>
 	<row id="510" trl="Y">
-		<value column="Name" original="UnAllocated Payments">Facturas no asignadas</value>
-		<value column="Description" original="Payments not allocated to Invoices">Facturas no asignadas a los pagos</value>
+		<value column="Name" original="UnAllocated Payments">Pagos sin Asignar</value>
+		<value column="Description" original="Payments not allocated to Invoices">Pagos no asignados a las facturas</value>
 	</row>
 	<row id="511" trl="Y">
 		<value column="Name" original="Payment Details">Detalles del Pago</value>
