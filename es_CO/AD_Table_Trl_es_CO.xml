@@ -573,7 +573,7 @@
 		<value column="Name" original="AD_Attribute_Value">AD_Attribute_Value</value>
 	</row>
 	<row id="407" trl="Y">
-		<value column="Name" original="Cash Journal">Diario de Efectivo</value>
+		<value column="Name" original="Cash Journal">Reembolso de Caja Menor</value>
 	</row>
 	<row id="408" trl="Y">
 		<value column="Name" original="Cash Book">Caja Menor</value>
@@ -582,7 +582,7 @@
 		<value column="Name" original="C_CashBook_Acct">C_CashBook_Acct</value>
 	</row>
 	<row id="410" trl="Y">
-		<value column="Name" original="Cash Journal Line">Línea del Diario de Efectivo</value>
+		<value column="Name" original="Cash Journal Line">Línea del Reembolso de Caja Menor</value>
 	</row>
 	<row id="411" trl="Y">
 		<value column="Name" original="Payment Batch">Lote de Pagos</value>
