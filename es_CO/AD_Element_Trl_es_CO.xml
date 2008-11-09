@@ -12433,8 +12433,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2019" trl="Y">
-		<value column="Name" original="Attribute Set Instance">Instancia del Conjunto de Atributos</value>
-		<value column="PrintName" original="Attribute Set Instance">Lote:</value>
+		<value column="Name" original="Attribute Set Instance">Atributos del Producto</value>
+		<value column="PrintName" original="Attribute Set Instance">Atributos del Producto</value>
 		<value column="Description" original="Product Attribute Set Instance">Instancia del conjunto de atributos del producto</value>
 		<value column="Help" original="The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.">Valor actual de Instancia del conjunto de atributos del producto</value>
 		<value column="PO_Description" original=""/>
