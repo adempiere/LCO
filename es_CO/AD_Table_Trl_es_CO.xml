@@ -264,7 +264,7 @@
 		<value column="Name" original="Order">Orden de Venta</value>
 	</row>
 	<row id="260" trl="Y">
-		<value column="Name" original="Sales Order Line">Línea</value>
+		<value column="Name" original="Sales Order Line">Línea Orden de Venta</value>
 	</row>
 	<row id="261" trl="Y">
 		<value column="Name" original="Tax">Impuesto</value>

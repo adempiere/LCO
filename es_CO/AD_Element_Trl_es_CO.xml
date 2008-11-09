@@ -3093,14 +3093,14 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="561" trl="Y">
-		<value column="Name" original="Sales Order Line">Línea</value>
-		<value column="PrintName" original="Order Line">Línea</value>
+		<value column="Name" original="Sales Order Line">Línea Orden de Venta</value>
+		<value column="PrintName" original="Order Line">Línea Orden de Venta</value>
 		<value column="Description" original="Sales Order Line">Línea de orden de venta</value>
 		<value column="Help" original="The Sales Order Line is a unique identifier for a line in an order.">La línea de orden de venta es un identificador único para una línea en una orden.</value>
 		<value column="PO_Description" original="Purchase Order Line">Línea de orden de compra</value>
 		<value column="PO_Help" original="The Purchase Order Line is a unique identifier for a line in an order.">La línea orden de compra es un identificador único para una línea en una orden.</value>
-		<value column="PO_Name" original="Purchase Order Line">Línea</value>
-		<value column="PO_PrintName" original="Order Line">Línea</value>
+		<value column="PO_Name" original="Purchase Order Line">Línea Orden de Compra</value>
+		<value column="PO_PrintName" original="Order Line">Línea Orden de Compra</value>
 	</row>
 	<row id="563" trl="Y">
 		<value column="Name" original="Sales Volume in 1.000">Volúmen de Ventas</value>
