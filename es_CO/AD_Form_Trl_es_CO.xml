@@ -43,9 +43,9 @@
 		<value column="Help" original="Select vendor invoices for payment. If you don't see an invoice, make sure that it is not included in a different (nprocessed) Payment Selection.">Seleccione facturas de proveedor para pagar. Si no ve una factura, asegúrese de que no esté incluida ya en otra selección de pagos.</value>
 	</row>
 	<row id="108" trl="Y">
-		<value column="Name" original="Matching PO-Receipt-Invoice">Emparejar OC-Recibo-Factura</value>
-		<value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices">Emparejar Ordenes de Compra; Recibos de Mercancía; Facturas de Proveedores</value>
-		<value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected.">Asegúrese que los recibos y facturas estén procesados. Si quiere un emparejamiento parcial, asegúrese que &quot;Misma Cantidad&quot; no esté seleccionado.</value>
+		<value column="Name" original="Matching PO-Receipt-Invoice">Asignar OC-Recibo-Factura</value>
+		<value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices">Asignar Ordenes de Compra, Recibos de Producto, Facturas de Proveedores</value>
+		<value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected.">Asegúrese que los recibos y facturas estén procesados. Si quiere un asignamiento parcial, asegúrese que &quot;Misma Cantidad&quot; no esté seleccionado.</value>
 	</row>
 	<row id="109" trl="Y">
 		<value column="Name" original="Translation Import/Export">Importar/Exportar Traducción</value>

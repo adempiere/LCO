@@ -731,12 +731,12 @@
 		<value column="Description" original="Product Cost Report">Reporte de costo de producto</value>
 	</row>
 	<row id="315" trl="Y">
-		<value column="Name" original="Matched Invoices">Facturas Emparejadas</value>
-		<value column="Description" original="View Matched Invoices">Ver facturas emparejadas</value>
+		<value column="Name" original="Matched Invoices">Facturas Asignadas a Recibos</value>
+		<value column="Description" original="View Matched Invoices">Ver facturas asignadas a recibos</value>
 	</row>
 	<row id="316" trl="Y">
-		<value column="Name" original="Matched Purchase Orders">Emparejar Ordenes de Compra</value>
-		<value column="Description" original="View Matched Purchase Orders">Ver ordenes de compra emparejadas</value>
+		<value column="Name" original="Matched Purchase Orders">Ordenes de Compra Asignadas a Recibos y Facturas</value>
+		<value column="Description" original="View Matched Purchase Orders">Ver ordenes de compra asignadas a recibos y facturas</value>
 	</row>
 	<row id="317" trl="Y">
 		<value column="Name" original="Expense Type">Tipo de Gasto</value>
@@ -1123,7 +1123,7 @@
 		<value column="Description" original="Aging Report">Reporte Antiguedad</value>
 	</row>
 	<row id="414" trl="Y">
-		<value column="Name" original="Sales Rep Info">Info Agente</value>
+		<value column="Name" original="Sales Rep Info">Información Representantes Compañía</value>
 		<value column="Description" original="Company Agent (Sales Rep) Information">Información del agente de la compañía (Representante de ventas)</value>
 	</row>
 	<row id="415" trl="Y">
@@ -1399,8 +1399,8 @@
 		<value column="Description" original="Open Shipment or Receipt Confirmations">Confirmaciones de entregas/Recibos abiertas</value>
 	</row>
 	<row id="483" trl="Y">
-		<value column="Name" original="Process Audit">Proceso de Auditoría</value>
-		<value column="Description" original="Audit process use">Proceso de Auditoría en uso</value>
+		<value column="Name" original="Process Audit">Auditoría de Procesos</value>
+		<value column="Description" original="Audit process use">Auditoría de uso de Procesos</value>
 	</row>
 	<row id="484" trl="Y">
 		<value column="Name" original="Move Confirmation">Confirmación de Movimientos</value>
@@ -1639,8 +1639,8 @@
 		<value column="Description" original="Order Detail Report">Reportar Detalle de la Orden</value>
 	</row>
 	<row id="544" trl="Y">
-		<value column="Name" original="Business Partner Detail">Detalle Terceros</value>
-		<value column="Description" original="Business Partner Detail Report">Reporte Detalle Terceros</value>
+		<value column="Name" original="Business Partner Detail">Directorio Terceros</value>
+		<value column="Description" original="Business Partner Detail Report">Reporte Directorio Terceros</value>
 	</row>
 	<row id="545" trl="Y">
 		<value column="Name" original="Attribute Set Instance">Ajuste Instancia de Atributos</value>

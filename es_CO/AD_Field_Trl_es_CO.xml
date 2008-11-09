@@ -28,7 +28,7 @@
 		<value column="Help" original="The Only Currency field indicates that this bank account accepts only the currency identified here.">El campo moneda única indica que esta cuenta bancaria acepta solamente la moneda identificada aquí.</value>
 	</row>
 	<row id="4462" trl="Y">
-		<value column="Name" original="Business Partner / Sales Rep">Tercero / Rep de Ventas</value>
+		<value column="Name" original="Business Partner / Sales Rep">Tercero / Repr Comercial</value>
 		<value column="Description" original="Identifies a Business Partner (Sales Rep) receiving the Commission">Identifica al tercero (representante de ventas) que recibe una comisión.</value>
 		<value column="Help" original="The Business Partner should be a vendor and may be a Sales Representative">El tercero debe ser un proveedor y puede ser un representante de ventas.</value>
 	</row>

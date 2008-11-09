@@ -151,7 +151,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="138" trl="Y">
-		<value column="MsgText" original="Prefer selecting a matching invoice and payment pair and process each at a time.">Es preferible seleccionar un par factura pago que estén ya emparejados y procesarlo uno cada vez</value>
+		<value column="MsgText" original="Prefer selecting a matching invoice and payment pair and process each at a time.">Es preferible seleccionar un par factura pago y procesarlo uno cada vez</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="139" trl="Y">
@@ -915,7 +915,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="329" trl="Y">
-		<value column="MsgText" original="Match From">Emparejar Desde</value>
+		<value column="MsgText" original="Match From">Asignar Desde</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="330" trl="Y">
@@ -923,15 +923,15 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="331" trl="Y">
-		<value column="MsgText" original="Match To">Emparejar Hasta</value>
+		<value column="MsgText" original="Match To">Asignar Hasta</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="332" trl="Y">
-		<value column="MsgText" original="Matched">Emparejado</value>
+		<value column="MsgText" original="Matched">Asignado</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="333" trl="Y">
-		<value column="MsgText" original="Matching">Emparejando</value>
+		<value column="MsgText" original="Matching">Asignando</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="334" trl="Y">
@@ -1051,7 +1051,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="363" trl="Y">
-		<value column="MsgText" original="Not Matched">No Emparejado</value>
+		<value column="MsgText" original="Not Matched">No Asignado</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="364" trl="Y">
@@ -2219,7 +2219,7 @@
 		<value column="MsgTip" original="View history records back in time.">Muestra registros históricos pasados</value>
 	</row>
 	<row id="655" trl="Y">
-		<value column="MsgText" original="To be matched">Para ser emparejadas</value>
+		<value column="MsgText" original="To be matched">Para ser asignadas</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="656" trl="Y">

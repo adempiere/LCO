@@ -1515,15 +1515,15 @@ Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="408" trl="Y">
-		<value column="Name" original="Match Invoice">Emparejar Facturas</value>
+		<value column="Name" original="Match Invoice">Asignar Facturas</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="View matched Invoices">Ver facturas emparejadas</value>
+		<value column="Description" original="View matched Invoices">Ver facturas asignadas</value>
 		<value column="Help" original="View detals of matched invoice lines to material receipt lines"/>
 	</row>
 	<row id="409" trl="Y">
-		<value column="Name" original="Match PO">Emparejar OC</value>
+		<value column="Name" original="Match PO">Asignar OC</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="View matched Purchase Orders">Ver ordenes de compra emparejadas</value>
+		<value column="Description" original="View matched Purchase Orders">Ver ordenes de compra asignadas</value>
 		<value column="Help" original="View detals of matched purchase order lines to invoice lines and material receipt lines"/>
 	</row>
 	<row id="410" trl="Y">
@@ -1722,8 +1722,8 @@ Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 		<value column="Name" original="Import Product">Importar Productos</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Import Products">Importar Productos</value>
-		<value column="Help" original="Before importing, Adempiere checks the Unit of Measure (default if not set), the Product Category (default if not set), the Business Partner, the Currency (defaults to accounting currency if not set), the Product Type (only Items and Services), the uniqueness of UPC, Key and uniqueness and existence of the Vendor Product No.&lt;br&gt;&#10;Adempiere tries to map to existing products, if the UPC, the Key and the Vendor Product No matches (in this sequence). If the imported record could be matched, product field values will only be overwritten, if the corresponding  Import field is explicitly defined.  Example: the Product Category will only be overwritten if explicitly set in the Import.">Antes de importar, Adempiere comprueba la unidad de la medida (por default si no es fijado), La categoria del producto (por default si no es fijado), El tercero, la moneda (Por default la moneda de la contabilidad si no es fijada), El tipo de producto (solamente artículos y servicios), los únicos de UPC, llave y existencia de el No. de producto.&lt;br&gt;
-Adempiere intenta para el mapa de los productos existentes, si el UPC, La llave y el vendedor del producto no siguen (en esta secuencia). Si el expediente importado podría ser emparejado, los valores del campo del producto serán sobreescritos solamente, si el campo correspondiente de la importación se define explícitamente. Ejemplo: la categoría del producto será sobreescrita solamente si está fijada explícitamente en la importación.</value>
+		<value column="Help" original="Before importing, Adempiere checks the Unit of Measure (default if not set), the Product Category (default if not set), the Business Partner, the Currency (defaults to accounting currency if not set), the Product Type (only Items and Services), the uniqueness of UPC, Key and uniqueness and existence of the Vendor Product No.&lt;br&gt;&#10;Adempiere tries to map to existing products, if the UPC, the Key and the Vendor Product No matches (in this sequence). If the imported record could be matched, product field values will only be overwritten, if the corresponding  Import field is explicitly defined.  Example: the Product Category will only be overwritten if explicitly set in the Import.">Antes de importar, Adempiere comprueba la unidad de la medida (por default si no es fijado), La categoria del producto (por default si no es fijado), El tercero, la moneda (Por default la moneda de la contabilidad si no es fijada), El tipo de producto (solamente artículos y servicios), la unicidad de UPC, llave y existencia del No. de producto.&lt;br&gt;
+Adempiere intenta asignar a productos existentes, si el UPC, La llave y el proveedor del producto no coinciden (en esta secuencia). Si el registro importado pudo ser asignado, los valores del campo del producto serán sobreescritos solamente, si el campo correspondiente de la importación se define explícitamente. Ejemplo: la categoría del producto será sobreescrita solamente si está fijada explícitamente en la importación.</value>
 	</row>
 	<row id="443" trl="Y">
 		<value column="Name" original="Import Account">Importar Cuenta Contable</value>
@@ -2558,7 +2558,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="586" trl="Y">
 		<value column="Name" original="Bank Statement Matcher">Estado de Cuenta</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">Algoritmo para emparejar el estado de cuenta que es Información a los terceros, las facturas y los pagos.</value>
+		<value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">Algoritmo para coincidir el estado de cuenta que es Información a los terceros, las facturas y los pagos.</value>
 		<value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements. The class need to implement the interface org.compiere.impexp.BankStatementMatcherInterface">Un algoritmo para encontrar a terceros, facturas, pagos en estados de cuenta importados. La necesidad de poner la clase del interfaz en ejecución, org.compiere.impexp.BankStatementMatcherInterface</value>
 	</row>
 	<row id="587" trl="Y">
@@ -2805,7 +2805,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Name" original="RMA Line">Línea ADM (RMA)</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Return Material Authorization Line">Línea de ADM (RMA)</value>
-		<value column="Help" original="Detail information about the returned goods">Información del detalle sobre las mercancías vueltas.</value>
+		<value column="Help" original="Detail information about the returned goods">Información del detalle sobre los productos devueltos.</value>
 	</row>
 	<row id="630" trl="Y">
 		<value column="Name" original="Related">Relacionado</value>
@@ -3002,9 +3002,9 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 		<value column="Help" original=""/>
 	</row>
 	<row id="663" trl="Y">
-		<value column="Name" original="Process Audit">Proceso de Auditoría</value>
+		<value column="Name" original="Process Audit">Auditoría de Procesos</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Audit Process use">Uso del proceso de auditoría</value>
+		<value column="Description" original="Audit Process use">Auditoría de uso de Procesos</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="664" trl="Y">
@@ -3135,7 +3135,7 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 		<value column="Help" original=""/>
 	</row>
 	<row id="685" trl="Y">
-		<value column="Name" original="Allocation">Líneas Asignación</value>
+		<value column="Name" original="Allocation">Pagos Asignados</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Allocation of the Invoice to Payments or Cash">Asignación de Facturas para pagos o Efectivo</value>
 		<value column="Help" original="">Asignación de Facturas para pagos o Efectivo</value>
@@ -3153,33 +3153,33 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 		<value column="Help" original="The quantities are in the storage Unit of Measure!">¡Las cantidades están en la unidad del almacenaje de la medida!</value>
 	</row>
 	<row id="688" trl="Y">
-		<value column="Name" original="Matched POs">OC Emparejadas</value>
+		<value column="Name" original="Matched POs">OC Asignadas</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Purchase Order Lines matched to this Material Receipt Line">Las líneas de la orden de compra emparejadas a esta línea material del recibo</value>
+		<value column="Description" original="Purchase Order Lines matched to this Material Receipt Line">Las líneas de la orden de compra asignadas a esta línea material del recibo</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="689" trl="Y">
-		<value column="Name" original="Matched Invoices">Facturas Emparejadas</value>
+		<value column="Name" original="Matched Invoices">Facturas Asignadas</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Invoice Lines matched to this Material Receipt Line">Facture las líneas emparejadas a esta línea material del recibo.</value>
+		<value column="Description" original="Invoice Lines matched to this Material Receipt Line">Líneas de Factura asignadas a esta línea material del recibo.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="690" trl="Y">
-		<value column="Name" original="Matched Receipts">Recibos de Mercancía Emparejados</value>
+		<value column="Name" original="Matched Receipts">Recepciones de Producto Asignadas</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Material Receipt Lines matched to this Invoice Line">Las líneas de recepción de mercancía emparejadas a esta línea de la factura.</value>
+		<value column="Description" original="Material Receipt Lines matched to this Invoice Line">Las líneas de recepción de productos asignadas a esta línea de la factura.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="691" trl="Y">
-		<value column="Name" original="Matched POs">OC Emparejadas</value>
+		<value column="Name" original="Matched POs">OC Asignadas</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Purchase Order Lines matched to this Invoice Line">Las líneas de la orden de compra emparejadas a esta línea de la factura</value>
+		<value column="Description" original="Purchase Order Lines matched to this Invoice Line">Las líneas de la orden de compra asignadas a esta línea de la factura</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="692" trl="Y">
-		<value column="Name" original="Matching">Emparejando</value>
+		<value column="Name" original="Matching">Recibo de Producto Asignado</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Material Receipt or Invoice Lines matched to this Purchse Order Line">Las líneas de materiales de recibo o de la factura emparejadas a esta línea de la orden de compra.</value>
+		<value column="Description" original="Material Receipt or Invoice Lines matched to this Purchse Order Line">Las líneas de materiales de recibo o de la factura asignadas a esta línea de la orden de compra.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="693" trl="Y">

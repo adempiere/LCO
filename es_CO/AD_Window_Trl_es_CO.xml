@@ -38,8 +38,8 @@
 		<value column="Help" original="The Language Window allows you to define multiple parallel language for users. This allows users to access the same data but have the windows, tabs and fields appear in different languages.&#10;If a language is a System Language, you can change the User Interface to this language (after translation).  Otherwise the language is only used for printing documents.&#10;&#10;For the language code, we suggest using the Java convention of country and language (e.g. fr_CN - Canadian French).&#10;&#10;Verify the translation creates missing translation records. Start this process after creating a new language.">La ventana de lenguaje permite definir múltiples lenguajes paralelos para los usuarios. Esto permite a los usuarios acceder a los mismos datos pero tener ventanas; pestañas y campos desplegados en lenguajes. Si un lenguaje es un lenguaje del sistema; se puede cambiar la interfase de usuario a este lenguaje (después de traducirlo); de otra manera; el lenguaje será usado solo para imprimir documentos. Para códigos de lenguaje; se sugiere usar la convención Java de país y lenguaje (ej. fr_CN para francés de Canada). El verificar el lenguaje crea los registros de traducción faltantes. Comience este proceso después de crear un nuevo lenguaje.</value>
 	</row>
 	<row id="107" trl="Y">
-		<value column="Name" original="Matched Invoices">Facturas Emparejadas</value>
-		<value column="Description" original="View Matched Invoices">Ver facturas emparejadas</value>
+		<value column="Name" original="Matched Invoices">Facturas Asignadas a Recibos</value>
+		<value column="Description" original="View Matched Invoices">Ver facturas asignadas a recibos</value>
 		<value column="Help" original="View detals of matched invoice lines to material receipt lines"/>
 	</row>
 	<row id="108" trl="Y">
@@ -338,7 +338,7 @@
 		<value column="Help" original="The Vendor Invoice Window allows you to display and enter Invoices from a Vendor.  Vendor Invoices can also be generated from Purchase Orders or Delivery Receipts.">La ventana permite desplegar y entrar facturas para un proveedor. Facturas de proveedores pueden ser generadas desde una orden de compra o desde un recibo de despacho.</value>
 	</row>
 	<row id="184" trl="Y">
-		<value column="Name" original="Material Receipt">Recibo de Mercancía</value>
+		<value column="Name" original="Material Receipt">Recepción de Productos</value>
 		<value column="Description" original="Vendor Shipments (Receipts)">Despachos de Proveedor (Recibos)</value>
 		<value column="Help" original="The Vendor Shipment Window defines the receipt of product or material from a Vendor.  The Shipment may be manually entered or may be generated from a Purchase Order or Vendor Invoice.">La ventana permite definir el recibo de un producto o material desde un proveedor. El despacho puede ser entrado manualmente o puede ser generado desde una orden de compra o factura de proveedor.</value>
 	</row>
@@ -518,8 +518,8 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="228" trl="Y">
-		<value column="Name" original="Matched Purchase Orders">Emparejar Ordenes de Compra</value>
-		<value column="Description" original="View Matched Purchase Orders">Ver ordenes de compra emparejadas</value>
+		<value column="Name" original="Matched Purchase Orders">Ordenes de Compra Asignadas a Recibos y Facturas</value>
+		<value column="Description" original="View Matched Purchase Orders">Ver ordenes de compra asignadas a recibos y facturas</value>
 		<value column="Help" original="View detals of matched purchase order lines to invoice lines and material receipt lines"/>
 	</row>
 	<row id="229" trl="Y">
@@ -839,7 +839,7 @@ Antes(!) incorporando transacciones, comience la réplica funcionada al sistema 
 		<value column="Help" original=""/>
 	</row>
 	<row id="293" trl="Y">
-		<value column="Name" original="Sales Rep Info">Info Agente</value>
+		<value column="Name" original="Sales Rep Info">Información Representantes Compañía</value>
 		<value column="Description" original="Company Agent (Sales Rep) Information">Información del agente de la compañía (Representante de ventas)</value>
 		<value column="Help" original="This window allows you to view Company agent related information">Esta ventana permite que usted vea la información relacionada al agente de la compañía.</value>
 	</row>
@@ -886,7 +886,7 @@ Antes(!) incorporando transacciones, comience la réplica funcionada al sistema 
 	<row id="302" trl="Y">
 		<value column="Name" original="Bank Statement Matcher">Algoritmo Conciliación</value>
 		<value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">Algoritmo para conciliación de estados de cuenta de los Terceros, Facturas y Pagos</value>
-		<value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements">Algoritmo para emparejar el extracto de cuenta Info a los terceros, a las facturas y a los pagos de negocio un algoritmo a los terceros del hallazgo, facturas, pagos en extractos de cuenta importados.</value>
+		<value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements">Algoritmo para coincidir el extracto de cuenta Info a los terceros, a las facturas y a los pagos de negocio un algoritmo a los terceros del hallazgo, facturas, pagos en extractos de cuenta importados.</value>
 	</row>
 	<row id="303" trl="Y">
 		<value column="Name" original="Payment Batch">Remesa de Pagos</value>
@@ -1011,7 +1011,7 @@ Antes(!) incorporando transacciones, comience la réplica funcionada al sistema 
 	<row id="327" trl="Y">
 		<value column="Name" original="Counter Document">Contra Documentos</value>
 		<value column="Description" original="Maintain Counter Document Types">Mantenga los tipos contra documento</value>
-		<value column="Help" original="When using explicit documents for inter-org transaction (after linking a Business Partner to an Organization), you can determine what document type the counter document is based on the document type of the original transaction.  Example: a &quot;Standard Order&quot; creates a &quot;Standard PO&quot;. &#10;If you define a relationship here, you overwrite the default counter document type in the Document Type definition. This allows you to define a specific mapping.&#10;If not defined, the first matching document type is used (e.g. AR Invoice - first AP Invoice document type)">Al usar los documentos explícitos para la inter-org transacción (después de ligar un tercero a una organización), usted puede determinar qué tipo del documento se basa el documento contrario en el tipo del documento de la transacción original. Ejemplo: un "Orden Estándar" crea un "OC Estándar". Si usted define una relación aquí, usted sobreescribe el documento del contador por default dentro de la definición del tipo de documento. Esto permite que usted defina traz específico. Si no ha definido, se utiliza el primer tipo del documento que empareja (ej. factura de CXC - primer tipo del documento de la factura del CXP)</value>
+		<value column="Help" original="When using explicit documents for inter-org transaction (after linking a Business Partner to an Organization), you can determine what document type the counter document is based on the document type of the original transaction.  Example: a &quot;Standard Order&quot; creates a &quot;Standard PO&quot;. &#10;If you define a relationship here, you overwrite the default counter document type in the Document Type definition. This allows you to define a specific mapping.&#10;If not defined, the first matching document type is used (e.g. AR Invoice - first AP Invoice document type)">Al usar los documentos explícitos para la inter-org transacción (después de ligar un tercero a una organización), usted puede determinar qué tipo del documento se basa el documento contrario en el tipo del documento de la transacción original. Ejemplo: un "Orden Estándar" crea un "OC Estándar". Si usted define una relación aquí, usted sobreescribe el documento del contador por default dentro de la definición del tipo de documento. Esto permite que usted defina traz específico. Si no ha definido, se utiliza el primer tipo del documento que coincide (ej. factura de CXC - primer tipo del documento de la factura del CXP)</value>
 	</row>
 	<row id="328" trl="Y">
 		<value column="Name" original="Forecast">Pronosticar</value>
@@ -1034,9 +1034,9 @@ Antes(!) incorporando transacciones, comience la réplica funcionada al sistema 
 		<value column="Help" original="Maintain the types of RMA">Mantenimiento a tipos de ADM (RMA)</value>
 	</row>
 	<row id="332" trl="Y">
-		<value column="Name" original="Process Audit">Proceso de Auditoría</value>
-		<value column="Description" original="Audit process use">Proceso de Auditoría en uso</value>
-		<value column="Help" original="Process Instance Information"/>
+		<value column="Name" original="Process Audit">Auditoría de Procesos</value>
+		<value column="Description" original="Audit process use">Auditoría de uso de Procesos</value>
+		<value column="Help" original="Process Instance Information">Información de Instancias de Procesos</value>
 	</row>
 	<row id="333" trl="Y">
 		<value column="Name" original="Move Confirmation">Confirmación de Movimientos</value>

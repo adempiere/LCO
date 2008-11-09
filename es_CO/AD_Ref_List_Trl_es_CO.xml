@@ -767,11 +767,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="323" trl="Y">
-		<value column="Name" original="Material Delivery">Entrega de Mercancía</value>
+		<value column="Name" original="Material Delivery">Entrega de Producto</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="324" trl="Y">
-		<value column="Name" original="Material Receipt">Recibo de Mercancía</value>
+		<value column="Name" original="Material Receipt">Recepción de Productos</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="325" trl="Y">
@@ -1059,11 +1059,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="397" trl="Y">
-		<value column="Name" original="Match">Emparejar</value>
+		<value column="Name" original="Match">Coincidente</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="398" trl="Y">
-		<value column="Name" original="No Match">No Emparejar</value>
+		<value column="Name" original="No Match">No Coincidente</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="399" trl="Y">
@@ -1403,11 +1403,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="492" trl="Y">
-		<value column="Name" original="Match Invoice">Emparejar Factura</value>
+		<value column="Name" original="Match Invoice">Asignar Factura</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="493" trl="Y">
-		<value column="Name" original="Match PO">Emparejar OC</value>
+		<value column="Name" original="Match PO">Asignar OC</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="496" trl="Y">

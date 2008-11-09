@@ -33,17 +33,17 @@
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="120" trl="N">
-		<value column="Name" original="MM Shipment">Despacho de Mercancía</value>
+		<value column="Name" original="MM Shipment">Despacho de Productos</value>
 		<value column="PrintName" original="Delivery Note">Nota de entrega</value>
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="121" trl="N">
-		<value column="Name" original="MM Shipment Indirect">Despacho de Mercancía Indirecto</value>
+		<value column="Name" original="MM Shipment Indirect">Despacho de Productos Indirecto</value>
 		<value column="PrintName" original="Delivery Note">Nota Despacho</value>
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="122" trl="N">
-		<value column="Name" original="MM Receipt">Recibo de Mercancía</value>
+		<value column="Name" original="MM Receipt">Recepción de Productos</value>
 		<value column="PrintName" original="Vendor Delivery">Despacho Proveedor</value>
 		<value column="DocumentNote" original=""/>
 	</row>
@@ -123,8 +123,8 @@
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="138" trl="Y">
-		<value column="Name" original="Match Invoice">Emparejar Factura</value>
-		<value column="PrintName" original="Match Invoice">Emparejar Factura</value>
+		<value column="Name" original="Match Invoice">Asignación de Factura</value>
+		<value column="PrintName" original="Match Invoice">Asignación de Factura</value>
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="139" trl="Y">
@@ -143,8 +143,8 @@
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="142" trl="Y">
-		<value column="Name" original="Match PO">Emparejar Orden de Compra</value>
-		<value column="PrintName" original="Match PO">Emparejar Orden de Compra</value>
+		<value column="Name" original="Match PO">Asignación de Orden de Compra</value>
+		<value column="PrintName" original="Match PO">Asignación de Orden de Compra</value>
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="143" trl="Y">
@@ -168,28 +168,28 @@
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="147" trl="N">
-		<value column="Name" original="MM Receipt with Confirmation">Recibo de Materiales con Confirmación</value>
+		<value column="Name" original="MM Receipt with Confirmation">Recibo de Productos con Confirmación</value>
 		<value column="PrintName" original="Vendor Delivery">Despacho Proveedor</value>
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="148" trl="N">
-		<value column="Name" original="MM Shipment with Pick">Despacho Materiales con Recogida</value>
+		<value column="Name" original="MM Shipment with Pick">Despacho Productos con Recogida</value>
 		<value column="PrintName" original="Delivery Note">Nota de Despacho</value>
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="149" trl="N">
-		<value column="Name" original="MM Returns">Devolución Mercancía Cliente</value>
-		<value column="PrintName" original="Return Material">Devolución Mercancía Cliente</value>
+		<value column="Name" original="MM Returns">Devolución Productos Cliente</value>
+		<value column="PrintName" original="Return Material">Devolución Productos Cliente</value>
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="150" trl="Y">
-		<value column="Name" original="Vendor Return Material">Devolución Mercancía Proveedor</value>
-		<value column="PrintName" original="Vendor Return Material Authorization">Autorización de devolución de mercancía proveedor</value>
+		<value column="Name" original="Vendor Return Material">Devolución Productos Proveedor</value>
+		<value column="PrintName" original="Vendor Return Material Authorization">Autorización de devolución de productos proveedor</value>
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="151" trl="N">
-		<value column="Name" original="MM Vendor Return">Retorno Materiales Proveedor</value>
-		<value column="PrintName" original="Vendor Return Material">Retorno Materiales Proveedor</value>
+		<value column="Name" original="MM Vendor Return">Retorno Productos Proveedor</value>
+		<value column="PrintName" original="Vendor Return Material">Retorno Productos Proveedor</value>
 		<value column="DocumentNote" original=""/>
 	</row>
 </adempiereTrl>
