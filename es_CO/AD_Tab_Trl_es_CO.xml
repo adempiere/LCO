@@ -3129,7 +3129,7 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 		<value column="Help" original="The Inventory Count Line defines the counts of the individual products in inventory.">La línea de la cuenta del inventario define las cuentas de los productos individuales en inventario.</value>
 	</row>
 	<row id="684" trl="Y">
-		<value column="Name" original="Allocation">Líneas Asignación</value>
+		<value column="Name" original="Allocation">Facturas Pagadas</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Allocation of the Invoice to Payments or Cash">Asignación de la Factura a los Pagos o al Efectivo</value>
 		<value column="Help" original=""/>
@@ -3141,9 +3141,9 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 		<value column="Help" original="">Asignación de Facturas para pagos o Efectivo</value>
 	</row>
 	<row id="686" trl="Y">
-		<value column="Name" original="Allocations">Líneas Asignación</value>
+		<value column="Name" original="Allocations">Facturas Pagadas</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Display Allocation of the Payment/Receipt to Invoices">Asignación de Pagos/Entregas a Factura</value>
+		<value column="Description" original="Display Allocation of the Payment/Receipt to Invoices">Asignación de Pagos/Recaudos a Factura</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="687" trl="Y">
@@ -3546,7 +3546,7 @@ Note que la información es alamacenada. Para que tenga efecto debe ingresar nue
 Note que la información es almacenada en cache. Para que adquiera valor debe reingresar al sistema o restaurar el cache.</value>
 	</row>
 	<row id="755" trl="Y">
-		<value column="Name" original="Allocate">Asigna Pagos</value>
+		<value column="Name" original="Allocate">Pagar Varias Facturas</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Allocate Payments to Invoices">Asignación de Pagos a Facturas</value>
 		<value column="Help" original="You can directly allocate payments to invoices with the same currency when creating the Payment. &#10;Note that you can over- or under-allocate the payment.&lt;b&gt;&#10;When processing the payment, the allocation is created.&lt;b&gt;&#10;The Organization is set to the invoice organization">Usted puede asignar pagos a Facturas directamente con lamisma monéda al crear el pago.
