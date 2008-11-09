@@ -143,7 +143,7 @@
 		<value column="Help" original="The Project Window is used to define the projects which will can be tracked by phases and tasks.">La ventana de proyectos es usada para definir los proyectos que serán monitoreados por medio de documentos de la aplicación.</value>
 	</row>
 	<row id="131" trl="Y">
-		<value column="Name" original="GL Category">Categoría CG</value>
+		<value column="Name" original="GL Category">Categoría Contabilidad</value>
 		<value column="Description" original="Maintain General Ledger Categories">Mantener Categorías del Libro Mayor</value>
 		<value column="Help" original="The GL Category Window allows you to define categories to be used in journals.  These categories provide a method of optionally grouping and reporting on journals.">Esta ventana permite definir categorías para ser usada en los diarios contables. Estas categorías proveen un método de agrupamiento opcional y de Informe para los diarios</value>
 	</row>
@@ -238,7 +238,7 @@
 		<value column="Help" original="The Account Combination Window defines and displays valid account combinations. ">Define y despliega combinaciones contables válidas.</value>
 	</row>
 	<row id="154" trl="Y">
-		<value column="Name" original="GL Budget">Presupuesto de CG</value>
+		<value column="Name" original="GL Budget">Presupuesto de Contabilidad</value>
 		<value column="Description" original="Maintain General Ledger Budgets">Mantener presupuestos de libro mayor</value>
 		<value column="Help" original=""/>
 	</row>
@@ -989,7 +989,7 @@ Antes(!) incorporando transacciones, comience la réplica funcionada al sistema 
 		<value column="Help" original="Enter and maintain Material Requisitions. Material Requisition can be created automatically via Replenishment.  You create generate optionally consolidated Purchase Orders.">Incorpore y mantenga las demandas materiales.</value>
 	</row>
 	<row id="323" trl="Y">
-		<value column="Name" original="GL Distribution">Distribución CG</value>
+		<value column="Name" original="GL Distribution">Distribución Contabilidad</value>
 		<value column="Description" original="General Ledger Distribution">Distribución de Contabilidad General</value>
 		<value column="Help" original="If the account combination criteria of the Distribution is met, the posting to the account combination is replaced by the account combinations of the distribution lines.  The distribution is a one-step operation based on the percentage of the lines.">Si los criterios de la combinación de la cuenta de la distribución se resuelven, la fijación a la combinación de la cuenta es substituida por las combinaciones de la cuenta de las líneas de la distribución. La distribución está prorrateada basada en el cociente de las líneas. La distribución debe ser válida para ser utilizada.</value>
 	</row>

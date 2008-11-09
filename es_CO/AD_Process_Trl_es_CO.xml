@@ -972,7 +972,7 @@ Si está funcionando para el sistema, todos los roles de todos los clientes son 
 	</row>
 	<row id="299" trl="Y">
 		<value column="Name" original="Verify">Verifica</value>
-		<value column="Description" original="Verify GL Distribution">Verifica Distribución CG</value>
+		<value column="Description" original="Verify GL Distribution">Verifica Distribución Contabilidad</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="300" trl="Y">
@@ -1173,9 +1173,9 @@ y Recibi/Línea o directamente para el producto.</value>
 		<value column="Help" original="Create Purchase orders from Purchase Requisitions.">Crear Orden de Compra desde una Requisición</value>
 	</row>
 	<row id="338" trl="Y">
-		<value column="Name" original="Create GL/Default">Crear CG/Predeterminado</value>
+		<value column="Name" original="Create GL/Default">Crear Contabilidad/Predeterminado</value>
 		<value column="Description" original="Copy matching account element values from existing Accounting Schema">Copia valores de Elementos de Cuenta coincidentes desde esquema contable existente</value>
-		<value column="Help" original="Create the GL and Default accounts for this accounting schema and copy matching account element values.">Crear CG y predeterminar cuentas para este Esquema Contable y copia valores de elementos de cuenta coincidentes.
+		<value column="Help" original="Create the GL and Default accounts for this accounting schema and copy matching account element values.">Crear Contabilidad y predeterminar cuentas para este Esquema Contable y copia valores de elementos de cuenta coincidentes.
 </value>
 	</row>
 	<row id="339" trl="Y">

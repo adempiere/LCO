@@ -67,7 +67,7 @@
 		<value column="Description" original="Maintain Projects">Mantener Proyectos</value>
 	</row>
 	<row id="117" trl="Y">
-		<value column="Name" original="GL Category">Categoría CG</value>
+		<value column="Name" original="GL Category">Categoría Contabilidad</value>
 		<value column="Description" original="Maintain General Ledger Categories">Mantener Categorías del Libro Mayor</value>
 	</row>
 	<row id="118" trl="Y">
@@ -127,7 +127,7 @@
 		<value column="Description" original="Maintain Marketing Campaigns">Mantener Campañas de Mercadeo</value>
 	</row>
 	<row id="135" trl="Y">
-		<value column="Name" original="GL Budget">Presupuesto de CG</value>
+		<value column="Name" original="GL Budget">Presupuesto de Contabilidad</value>
 		<value column="Description" original="Maintain General Ledger Budgets">Mantener presupuestos de libro mayor</value>
 	</row>
 	<row id="136" trl="Y">
@@ -239,7 +239,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="166" trl="Y">
-		<value column="Name" original="Quote-to-Invoice">Cotización-a-Factura (Proceso Ventas)</value>
+		<value column="Name" original="Quote-to-Invoice">Ventas (Cotización-a-Factura)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="167" trl="Y">
@@ -355,7 +355,7 @@
 		<value column="Description" original="Invoice Transactions by Accounting Date"/>
 	</row>
 	<row id="203" trl="Y">
-		<value column="Name" original="Requisition-to-Invoice">Requisición-a-Factura (Proceso Compras)</value>
+		<value column="Name" original="Requisition-to-Invoice">Compras (Requisición-a-Factura)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="204" trl="Y">
@@ -1323,7 +1323,7 @@
 		<value column="Description" original="Material Requisition">Requisición de Material</value>
 	</row>
 	<row id="464" trl="Y">
-		<value column="Name" original="GL Distribution">Distribución CG</value>
+		<value column="Name" original="GL Distribution">Distribución Contabilidad</value>
 		<value column="Description" original="General Ledger Distribution">Distribución de Contabilidad General</value>
 	</row>
 	<row id="465" trl="Y">

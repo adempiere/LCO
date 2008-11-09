@@ -291,7 +291,7 @@
 		<value column="Help" original="The Project Tab is used to define the Value, Name and Description for each project.  It also is defines the tracks the amounts assigned to, committed to and used for this project. Note that when the project Type is changed, the Phases and Tasks are re-created.">La pestaña de proyectos es usada para definir el valor; nombre y descripción de cada proyecto. También define y hace seguimiento a los totales asignados; comprometidos y usados.</value>
 	</row>
 	<row id="158" trl="Y">
-		<value column="Name" original="GL Category">Categoría CG</value>
+		<value column="Name" original="GL Category">Categoría Contabilidad</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define General Ledger Categories">Definir categorías de Libro Mayor</value>
 		<value column="Help" original="The GL Category Tab defines optional identifiers for a document or journal.  Each Category may be used on a document, manual journal or import">La pestaña de Categoría de Libro Mayor define identificadores opcionales para un documento o entrada de diario. Cada categoría puede ser usada en un documento. Entrada de diario o un archivo a importar.</value>
@@ -465,7 +465,7 @@
 		<value column="Help" original="The Accounting Schema Tab defines the controls used for accounting.  You can define multiple accounting schema per client (for parallel accounting).  &#10;Postings are generated for an accounting schema, if the schema is valid and you have defined GL and Default accounts and after completion of the Add / Copy Accounts process.">La pestaña de Esquema Contable define los controles para la contabilidad. Cada organización selecciona un esquema contable para su uso.</value>
 	</row>
 	<row id="200" trl="Y">
-		<value column="Name" original="General Ledger">Contabilidad General (CG)</value>
+		<value column="Name" original="General Ledger">Contabilidad General</value>
 		<value column="CommitWarning" original="For changes to become effective, you must re-login and re-start the Application Server."/>
 		<value column="Description" original="Accounts for GL">Cuentas de la Contabilidad General (CG)</value>
 		<value column="Help" original="The General Ledger Tab defines error and balance handling to use as well as  the necessary accounts for posting to General Ledger.  ">La pestaña Contabilidad General (CG)) define el manejo de error y de balance a usar así como las cuentas necesarias para registrar las transacciones en el libro mayor.</value>

@@ -926,7 +926,7 @@
 		<value column="Name" original="Combination">Combinación</value>
 		<value column="PrintName" original="Combination">Combinación</value>
 		<value column="Description" original="Valid Account Combination">Combinación de Cuenta Válido</value>
-		<value column="Help" original="The Combination identifies a valid combination of element which represent a GL account.">La combinación identifica una combinación válida de elementos que representan una cuenta de Cg.</value>
+		<value column="Help" original="The Combination identifies a valid combination of element which represent a GL account.">La combinación identifica una combinación válida de elementos que representan una cuenta de contabilidad.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -1173,8 +1173,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="263" trl="Y">
-		<value column="Name" original="Account Date">Fecha de Aplicación CG</value>
-		<value column="PrintName" original="Acct Date">F. Aplicación CG</value>
+		<value column="Name" original="Account Date">Fecha Contable</value>
+		<value column="PrintName" original="Acct Date">Fecha Contable</value>
 		<value column="Description" original="Accounting Date">Fecha contable</value>
 		<value column="Help" original="The Accounting Date indicates the date to be used on the General Ledger account entries generated from this document. It is also used for any currency conversion.">La fecha contable indica la fecha a ser usada en las cuentas de contabilidad general generadas desde este documento</value>
 		<value column="PO_Description" original=""/>
@@ -1523,40 +1523,40 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="309" trl="Y">
-		<value column="Name" original="GL Category">Categoría CG</value>
-		<value column="PrintName" original="GL Category">Categoría CG</value>
+		<value column="Name" original="GL Category">Categoría Contabilidad</value>
+		<value column="PrintName" original="GL Category">Categoría Contabilidad</value>
 		<value column="Description" original="General Ledger Category">Categoría de Contabilidad General</value>
-		<value column="Help" original="The General Ledger Category is an optional, user defined method of grouping journal lines.">La Categoría de Contabilidad General es un método opcional; definido por el usuario; de agrupación de líneas de las pólizas</value>
+		<value column="Help" original="The General Ledger Category is an optional, user defined method of grouping journal lines.">La Categoría de Contabilidad General es un método opcional; definido por el usuario; de agrupación de líneas de las notas de contabilidad</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="313" trl="Y">
-		<value column="Name" original="Journal Batch">Lote de Diario CG</value>
-		<value column="PrintName" original="Journal Batch">Lote de Diario CG</value>
-		<value column="Description" original="General Ledger Journal Batch">Lote de Diario CG</value>
-		<value column="Help" original="The General Ledger Journal Batch identifies a group of journals to be processed as a group.">El lote de pólizas de la contabilidad general identifica un conjunto de pólizas a ser procesadas como un grupo.</value>
+		<value column="Name" original="Journal Batch">Lote de Nota Contable</value>
+		<value column="PrintName" original="Journal Batch">Lote de Nota Contable</value>
+		<value column="Description" original="General Ledger Journal Batch">Lote de Nota Contable</value>
+		<value column="Help" original="The General Ledger Journal Batch identifies a group of journals to be processed as a group.">El lote de nota contable de la contabilidad general identifica un conjunto de notas contables a ser procesadas como un grupo.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="314" trl="Y">
-		<value column="Name" original="Journal Line">Línea de Póliza</value>
-		<value column="PrintName" original="Journal Line">Línea de Póliza</value>
-		<value column="Description" original="General Ledger Journal Line">Línea de la póliza</value>
-		<value column="Help" original="The General Ledger Journal Line identifies a single transaction in a journal.">La línea de póliza de la contabilidad general identifica una transacción simple en una póliza.</value>
+		<value column="Name" original="Journal Line">Línea de Nota Contable</value>
+		<value column="PrintName" original="Journal Line">Línea de Nota Contable</value>
+		<value column="Description" original="General Ledger Journal Line">Línea de la nota contable</value>
+		<value column="Help" original="The General Ledger Journal Line identifies a single transaction in a journal.">La línea de nota contable de la contabilidad general identifica una transacción simple en una nota contable.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="315" trl="Y">
-		<value column="Name" original="Journal">Póliza</value>
-		<value column="PrintName" original="Journal">Póliza</value>
-		<value column="Description" original="General Ledger Journal">Póliza</value>
-		<value column="Help" original="The General Ledger Journal identifies a group of journal lines which represent a logical business transaction">La póliza de la contabilidad general identifica un grupo de líneas de póliza que representa una transacción lógica del negocio.</value>
+		<value column="Name" original="Journal">Nota Contable</value>
+		<value column="PrintName" original="Journal">Nota Contable</value>
+		<value column="Description" original="General Ledger Journal">Nota Contable</value>
+		<value column="Help" original="The General Ledger Journal identifies a group of journal lines which represent a logical business transaction">La nota contable de la contabilidad general identifica un grupo de líneas de nota contable que representa una transacción lógica del negocio.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -1796,7 +1796,7 @@
 		<value column="Name" original="Balancing">Balanceando</value>
 		<value column="PrintName" original="Balancing">Balanceando</value>
 		<value column="Description" original="All transactions within an element value must balance (e.g. cost centers)">Todas las transacciones dentro de un elemento deben balancear (Ej. Centros de Costo)</value>
-		<value column="Help" original="The Balancing checkbox indicates the this element must balance in each journal transaction.  For example, if cost centers have been defined as an element which is balance then the debits and credits for each unique cost center must net to 0.00.  This is commonly used to define parts of an organization which report as their own entity.  Balancing is not an option for the Account element.">El Cuadro de Verificación Balanceo indica si este elemento debe balancear en cada transacción de póliza. Por Ej. Si han sido definidos centros de costo como elementos balanceados entonces los débitos y créditos para cada centro de costo único deben netear a 0.00</value>
+		<value column="Help" original="The Balancing checkbox indicates the this element must balance in each journal transaction.  For example, if cost centers have been defined as an element which is balance then the debits and credits for each unique cost center must net to 0.00.  This is commonly used to define parts of an organization which report as their own entity.  Balancing is not an option for the Account element.">El Cuadro de Verificación Balanceo indica si este elemento debe balancear en cada transacción de nota contable. Por Ej. Si han sido definidos centros de costo como elementos balanceados entonces los débitos y créditos para cada centro de costo único deben netear a 0.00</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -1956,7 +1956,7 @@
 		<value column="Name" original="Generated">Generado</value>
 		<value column="PrintName" original="Generated">Generado</value>
 		<value column="Description" original="This Line is generated">Esta línea es generada</value>
-		<value column="Help" original="The Generated checkbox identifies a journal line that was generated from a source document.  Lines could also be entered manually or imported.">El cuadro de verificación generado identifica una línea de póliza que fue generada desde un documento fuente. Las líneas podrían también ser introducidas manualmente o importadas.</value>
+		<value column="Help" original="The Generated checkbox identifies a journal line that was generated from a source document.  Lines could also be entered manually or imported.">El cuadro de verificación generado identifica una línea de nota contable que fue generada desde un documento fuente. Las líneas podrían también ser introducidas manualmente o importadas.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -2775,8 +2775,8 @@
 	<row id="514" trl="Y">
 		<value column="Name" original="PostingType">Tipo de Aplicación</value>
 		<value column="PrintName" original="PostingType">Tipo de Registro</value>
-		<value column="Description" original="The type of posted amount for the transaction">El tipo de total que esta póliza actualizó</value>
-		<value column="Help" original="The Posting Type indicates the type of amount (Actual, Budget, Reservation, Commitment, Statistical) the transaction.">El tipo de aplicación indica el tipo de total (actual; gravamen; presupuesto) que esta póliza actualizó</value>
+		<value column="Description" original="The type of posted amount for the transaction">El tipo de total que esta nota contable actualizó</value>
+		<value column="Help" original="The Posting Type indicates the type of amount (Actual, Budget, Reservation, Commitment, Statistical) the transaction.">El tipo de aplicación indica el tipo de total (actual; gravamen; presupuesto) que esta nota contable actualizó</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -3376,7 +3376,7 @@
 		<value column="Name" original="Total Credit">Total Crédito</value>
 		<value column="PrintName" original="Total Credit">Total Crédito</value>
 		<value column="Description" original="Total Credit in document currency">Total de Créditos en la moneda del negocio</value>
-		<value column="Help" original="The Total Credit indicates the total credit amount for a journal or journal batch in the source currency">El Crédito Total indica el total de crédito para una póliza o lote de pólizas en la moneda fuente</value>
+		<value column="Help" original="The Total Credit indicates the total credit amount for a journal or journal batch in the source currency">El Crédito Total indica el total de crédito para una nota contable o lote de notas contables en la moneda fuente</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -3386,7 +3386,7 @@
 		<value column="Name" original="Total Debit">Total Débito</value>
 		<value column="PrintName" original="Total Debit">Total Débito</value>
 		<value column="Description" original="Total debit in document currency">Total de Débitos en la moneda del negocio</value>
-		<value column="Help" original="The Total Debit indicates the total debit amount for a journal or journal batch in the source currency">El Débito total indica el total de débito para una póliza o lote de pólizas en la moneda fuente</value>
+		<value column="Help" original="The Total Debit indicates the total debit amount for a journal or journal batch in the source currency">El Débito total indica el total de débito para una nota contable o lote de notas contables en la moneda fuente</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -6355,8 +6355,8 @@
 	<row id="1309" trl="Y">
 		<value column="Name" original="Category Type">Tipo de Categoría</value>
 		<value column="PrintName" original="Category Type">Tipo de Categoría</value>
-		<value column="Description" original="Source of the Journal with this category">Fuente de la póliza con esta categoría</value>
-		<value column="Help" original="The Category Type indicates the source of the journal for this category.  Journals can be generated from a document, entered manually or imported.">El tipo de categoría indica la fuente de la póliza para esta categoría. Las pólizas pueden ser generadas desde un documento; introducido manualmente o importado</value>
+		<value column="Description" original="Source of the Journal with this category">Fuente de la nota contable con esta categoría</value>
+		<value column="Help" original="The Category Type indicates the source of the journal for this category.  Journals can be generated from a document, entered manually or imported.">El tipo de categoría indica la fuente de la nota contable para esta categoría. Las notas contables pueden ser generadas desde un documento; introducido manualmente o importado</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -16675,8 +16675,8 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2469" trl="Y">
-		<value column="Name" original="GL Distribution">Distribución CG</value>
-		<value column="PrintName" original="GL Distribution">Distribución CG</value>
+		<value column="Name" original="GL Distribution">Distribución Contabilidad</value>
+		<value column="PrintName" original="GL Distribution">Distribución Contabilidad</value>
 		<value column="Description" original="General Ledger Distribution">Distribución de contabilidad general</value>
 		<value column="Help" original="If the account combination criteria of the Distribution is met, the posting to the account combination is replaced by the account combinations of the distribution lines.  The distribution is prorated based on the ratio of the lines. The distribution must be valid to be used.">Si los criterios de combinación de la cuenta de distribución se resuelven, la fijación a la combinación de la cuenta es substituida por las combinaciones de la cuenta de líneas de distribución. La distribución está prorrateada basada en el cociente de las líneas. La distribución debe ser válida para ser utilizada.</value>
 		<value column="PO_Description" original=""/>
@@ -16685,8 +16685,8 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2470" trl="Y">
-		<value column="Name" original="GL Distribution Line">Línea Distribución CG</value>
-		<value column="PrintName" original="GL Distribution Line">Línea Distribución CG</value>
+		<value column="Name" original="GL Distribution Line">Línea Distribución Contabilidad</value>
+		<value column="PrintName" original="GL Distribution Line">Línea Distribución Contabilidad</value>
 		<value column="Description" original="General Ledger Distribution Line">Línea de la distribución del libro mayor general.</value>
 		<value column="Help" original="If the account combination criteria of the Distribution is met, the posting to the account combination is replaced by the account combinations of the distribution lines.  The distribution is prorated based on the ratio of the lines. ">Si los criterios de combinación de la cuenta de distribución se resuelven, la fijación a la combinación de cuenta es substituida por las combinaciones de cuenta de las líneas de distribución. La distribución está prorrateada en el cociente de las líneas.</value>
 		<value column="PO_Description" original=""/>
@@ -20724,10 +20724,10 @@ Ejemplo: si el precio de compra es $100 y la tolerancia es 1 ( porciento), el pr
 		<value column="Name" original="Error Reporting">Reportar Errores</value>
 	</row>
 	<row id="2887" trl="Y">
-		<value column="Name" original="GL Fund">Fondos CG</value>
+		<value column="Name" original="GL Fund">Fondos Contabilidad</value>
 	</row>
 	<row id="2888" trl="Y">
-		<value column="Name" original="General Ledger Funds Control">Control de fondos de CG</value>
+		<value column="Name" original="General Ledger Funds Control">Control de fondos de Contabilidad</value>
 	</row>
 	<row id="2889" trl="Y">
 		<value column="Name" original="Control allows you to restrict the use of funds.  This is independent from budget control.">Control te permite restringir el uso de fondos.</value>

@@ -213,16 +213,16 @@
 		<value column="Name" original="Document Type">Tipo de Documento</value>
 	</row>
 	<row id="218" trl="Y">
-		<value column="Name" original="GL Category">Categoría CG</value>
+		<value column="Name" original="GL Category">Categoría Contabilidad</value>
 	</row>
 	<row id="224" trl="Y">
 		<value column="Name" original="Journal">Póliza</value>
 	</row>
 	<row id="225" trl="Y">
-		<value column="Name" original="Journal Batch">Lote de Diario CG</value>
+		<value column="Name" original="Journal Batch">Lote de Nota Contable</value>
 	</row>
 	<row id="226" trl="Y">
-		<value column="Name" original="Journal Line">Línea de Póliza</value>
+		<value column="Name" original="Journal Line">Nota Contable</value>
 	</row>
 	<row id="227" trl="Y">
 		<value column="Name" original="AD_ClientInfo">AD_ClientInfo</value>
@@ -1365,10 +1365,10 @@
 		<value column="Name" original="Transition Condition">Condición de Transición</value>
 	</row>
 	<row id="707" trl="Y">
-		<value column="Name" original="GL Distribution Line">Linea Distribución CG</value>
+		<value column="Name" original="GL Distribution Line">Linea Distribución Contabilidad</value>
 	</row>
 	<row id="708" trl="Y">
-		<value column="Name" original="GL Distribution">Distribución CG</value>
+		<value column="Name" original="GL Distribution">Distribución Contabilidad</value>
 	</row>
 	<row id="709" trl="Y">
 		<value column="Name" original="RfQ UnAnswered">RV_C_RfQ_UnAnswered</value>
