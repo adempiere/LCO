@@ -1079,7 +1079,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="402" trl="Y">
-		<value column="Name" original="Direct Deposit">Depósito Directo</value>
+		<value column="Name" original="Direct Deposit">ACH</value>
 		<value column="Description" original="ACH Automatic Clearing House">Transferencia (ACH)</value>
 	</row>
 	<row id="403" trl="Y">
