@@ -151,8 +151,8 @@
 		<value column="Description" original="Maintain System References">Mantener Referencias del Sistema</value>
 	</row>
 	<row id="141" trl="Y">
-		<value column="Name" original="Window, Tab &amp; Field">Ventana; Pestaña y Campo</value>
-		<value column="Description" original="Maintain Windows, Tabs &amp; Fields">Mantener ventanas; pestañas y campos</value>
+		<value column="Name" original="Window, Tab &amp; Field">Ventana, Pestaña y Campo</value>
+		<value column="Description" original="Maintain Windows, Tabs &amp; Fields">Mantener ventanas, pestañas y campos</value>
 	</row>
 	<row id="142" trl="Y">
 		<value column="Name" original="Validation Rules">Reglas de Validación</value>
