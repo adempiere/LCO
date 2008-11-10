@@ -1387,7 +1387,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="447" trl="Y">
-		<value column="MsgText" original="Processing ... Please wait ...">Procesando ... Oor favor espere ...</value>
+		<value column="MsgText" original="Processing ... Please wait ...">Procesando ... Por favor espere ...</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="448" trl="Y">
@@ -3189,7 +3189,7 @@ Compruebe el registro de errores y el formato del archivo Accounting*.cvs - Ning
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="52001" trl="Y">
-		<value column="MsgText" original="Vendor RMA">Provedoor RMA</value>
+		<value column="MsgText" original="Vendor RMA">Proveedor RMA</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="52003" trl="Y">
