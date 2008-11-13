@@ -499,8 +499,8 @@
 		<value column="Description" original="Open Item (Invoice) List">Saldos Abiertos</value>
 	</row>
 	<row id="244" trl="Y">
-		<value column="Name" original="UnReconciled Payments">Pagos sin Reconciliar</value>
-		<value column="Description" original="Payments not reconciled with Bank Statement">Pagos no reconciliados con el balance bancario</value>
+		<value column="Name" original="UnReconciled Payments">Pagos sin Conciliar</value>
+		<value column="Description" original="Payments not reconciled with Bank Statement">Pagos no conciliados con el balance bancario</value>
 	</row>
 	<row id="245" trl="Y">
 		<value column="Name" original="Payment Allocation">Asignación de Pagos</value>

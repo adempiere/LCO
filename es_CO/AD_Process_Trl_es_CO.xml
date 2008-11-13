@@ -218,8 +218,8 @@
 		<value column="Help" original="Displays all unpaid invoices for a given Business Partner and date range. Please note that Invoices paid in Cash will appear in Open Items until the Cash Journal is processed."/>
 	</row>
 	<row id="146" trl="Y">
-		<value column="Name" original="UnReconciled Payments">Pagos sin Reconciliar</value>
-		<value column="Description" original="Payments not reconciled with Bank Statement">Pagos no reconciliados con el balance bancario</value>
+		<value column="Name" original="UnReconciled Payments">Pagos sin Conciliar</value>
+		<value column="Description" original="Payments not reconciled with Bank Statement">Pagos no conciliados con el balance bancario</value>
 		<value column="Help" original="The report lists payments which are not reconciled with a bank statement. Payments with a zero payment amount are not listed."/>
 	</row>
 	<row id="147" trl="Y">

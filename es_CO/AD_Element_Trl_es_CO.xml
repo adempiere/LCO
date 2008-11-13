@@ -5163,8 +5163,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1105" trl="Y">
-		<value column="Name" original="Reconciled">Reconciliado</value>
-		<value column="PrintName" original="Reconciled">Reconciliado</value>
+		<value column="Name" original="Reconciled">Conciliado</value>
+		<value column="PrintName" original="Reconciled">Conciliado</value>
 		<value column="Description" original="Payment is reconciled with bank statement"/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>

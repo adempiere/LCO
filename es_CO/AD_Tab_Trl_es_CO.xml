@@ -1266,7 +1266,7 @@
 		<value column="Name" original="Commission Amount">Total de Comisión</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Commission line amounts">Totales de línea de comisión</value>
-		<value column="Help" original="For each commission line, a line is generated.  You can overwrite the amount and quantity to modify the commission amount, but the suggested way is creating additional Commission Detail lines.  Please be aware that manual changes will not reconcile with the Commission Details.">Para cada línea de comisión; una línea es generada. Se puede sobreescribir el Total y cantidad para modificar el Total de la comisión; pero se sugiere crear líneas de detalle de comisión adicionales. Tenga en cuenta que los cambios manuales no se reconciliarán con los detalles de comisión.</value>
+		<value column="Help" original="For each commission line, a line is generated.  You can overwrite the amount and quantity to modify the commission amount, but the suggested way is creating additional Commission Detail lines.  Please be aware that manual changes will not reconcile with the Commission Details.">Para cada línea de comisión; una línea es generada. Se puede sobreescribir el Total y cantidad para modificar el Total de la comisión; pero se sugiere crear líneas de detalle de comisión adicionales. Tenga en cuenta que los cambios manuales no se conciliarán con los detalles de comisión.</value>
 	</row>
 	<row id="364" trl="Y">
 		<value column="Name" original="Used in Column">Usado en Columna</value>
