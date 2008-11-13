@@ -16907,9 +16907,9 @@ Si usted define una relación aquí, usted sobreescribe el tipo de documento del
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2494" trl="Y">
-		<value column="Name" original="Counter Document Type">Tipo Contador de Documento</value>
-		<value column="PrintName" original="Counter Doc Type">Tipo Contador de Documento</value>
-		<value column="Description" original="Generated Counter Document Type (To)">Tipo Generado de Contador de Documento.</value>
+		<value column="Name" original="Counter Document Type">Tipo Contra-Documento</value>
+		<value column="PrintName" original="Counter Doc Type">Tipo Contra-Documento</value>
+		<value column="Description" original="Generated Counter Document Type (To)">Tipo Generado de Contra-Documento.</value>
 		<value column="Help" original="The Document Type of the generated counter document">El tipo de documento del documento contrario generado.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -17137,9 +17137,9 @@ Si usted define una relación aquí, usted sobreescribe el tipo de documento del
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2517" trl="Y">
-		<value column="Name" original="Default Counter Document">Contador de Documento predeterminado</value>
-		<value column="PrintName" original="Default Counter Doc">Contador de Doc predeterminado</value>
-		<value column="Description" original="The document type is the default counter document type">El tipo del documento es el tipo de contador de documento predeterminado</value>
+		<value column="Name" original="Default Counter Document">Contra-Documento predeterminado</value>
+		<value column="PrintName" original="Default Counter Doc">Contra-Documento predeterminado</value>
+		<value column="Description" original="The document type is the default counter document type">El tipo del documento es el tipo de contra-documento predeterminado</value>
 		<value column="Help" original="When using explicit documents for inter-org transaction (after linking a Business Partner to an Organization), you can determine what document type the counter document is based on the document type of the original transaction.  Example: when generating a Sales Order, use this Sales Order document type.&#10;This default can be overwritten by defining explicit counter document relationships.">Al usar los documentos explícitos para la inter-org transacción (después de ligar a un tercero a una organización), usted puede determinar en qué tipo de documento se basa el documento contrario en el tipo de documento de la transacción original. Ejemplo: cuando la generación las ventas pide, utiliza este tipo de documento de la orden de las ventas. Este defecto puede ser sobreescrito definiendo relaciones contrarias explícitas del documento.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -17377,10 +17377,10 @@ Si usted define una relación aquí, usted sobreescribe el tipo de documento del
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2545" trl="Y">
-		<value column="Name" original="Create Counter Document">Crea Contador de Documento</value>
-		<value column="PrintName" original="Create Counter">Crea Contador</value>
-		<value column="Description" original="Create Counter Document">Crea Contador de documento</value>
-		<value column="Help" original="If selected, create specified counter document.  If not selected, no counter document is created for the document type.">Si es seleccionado, crea un contador de documento especifico. Si no esta seleccionado, no crea contador de documento para el tipo de documento.</value>
+		<value column="Name" original="Create Counter Document">Crea Contra-Documento</value>
+		<value column="PrintName" original="Create Counter">Crea Contra-Documento</value>
+		<value column="Description" original="Create Counter Document">Crea Contra-Documento</value>
+		<value column="Help" original="If selected, create specified counter document.  If not selected, no counter document is created for the document type.">Si es seleccionado, crea un contra-documento especifico. Si no esta seleccionado, no crea contra-documento para el tipo de documento.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
