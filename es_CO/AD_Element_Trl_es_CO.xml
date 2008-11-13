@@ -243,8 +243,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="131" trl="Y">
-		<value column="Name" original="BPartner Tree">Árbol Tercero</value>
-		<value column="PrintName" original="BPartner Tree">Árbol Tercero</value>
+		<value column="Name" original="BPartner Tree">Arbol Tercero</value>
+		<value column="PrintName" original="BPartner Tree">Arbol Tercero</value>
 		<value column="Description" original="Tree to determine business partner hierarchy">Arbol para determinar la herencia del tercero</value>
 		<value column="Help" original="Trees are used for (finanial) reporting">Arboles son usados para reportes (Financieros)</value>
 		<value column="PO_Description" original=""/>
@@ -253,8 +253,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="132" trl="Y">
-		<value column="Name" original="Tree">Árbol</value>
-		<value column="PrintName" original="Tree">Árbol</value>
+		<value column="Name" original="Tree">Arbol</value>
+		<value column="PrintName" original="Tree">Arbol</value>
 		<value column="Description" original="Identifies a Tree">Identifica un árbol</value>
 		<value column="Help" original="The Tree field identifies a unique Tree in the system. Trees define roll ups or summary levels of information.  They are used in reports for defining report points and summarization levels.">El campo árbol identifica un árbol único en el sistema. Los árboles definen niveles sumarios o de roll up de información. Son usados en Informes para definir niveles de sumarización y puntos del Informe</value>
 		<value column="PO_Description" original=""/>
@@ -263,8 +263,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="133" trl="Y">
-		<value column="Name" original="Menu Tree">Árbol de Menú</value>
-		<value column="PrintName" original="Menu Tree">Árbol de Menú</value>
+		<value column="Name" original="Menu Tree">Arbol de Menú</value>
+		<value column="PrintName" original="Menu Tree">Arbol de Menú</value>
 		<value column="Description" original="Tree of the menu">Arbol de el Menú</value>
 		<value column="Help" original="Menu access tree"/>
 		<value column="PO_Description" original=""/>
@@ -273,8 +273,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="134" trl="Y">
-		<value column="Name" original="Organization Tree">Árbol de Organización</value>
-		<value column="PrintName" original="Organization Tree">Árbol de Organización</value>
+		<value column="Name" original="Organization Tree">Arbol de Organización</value>
+		<value column="PrintName" original="Organization Tree">Arbol de Organización</value>
 		<value column="Description" original="Tree to determine organizational hierarchy">Arbol para determinar la herencia organizacional</value>
 		<value column="Help" original="Trees are used for (finanial) reporting and security access (via role)">Arboles usados para reportes (Financieros) y seguridad de acceso (Via rol)</value>
 		<value column="PO_Description" original=""/>
@@ -283,8 +283,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="135" trl="Y">
-		<value column="Name" original="Product Tree">Árbol de Producto</value>
-		<value column="PrintName" original="Product Tree">Árbol de Producto</value>
+		<value column="Name" original="Product Tree">Arbol de Producto</value>
+		<value column="PrintName" original="Product Tree">Arbol de Producto</value>
 		<value column="Description" original="Tree to determine product hierarchy">Arbol para determinar la herencia de un producto</value>
 		<value column="Help" original="Trees are used for (finanial) reporting">Arboles usados para reportes (Financieros)</value>
 		<value column="PO_Description" original=""/>
@@ -293,8 +293,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="136" trl="Y">
-		<value column="Name" original="Project Tree">Árbol de Proyectos</value>
-		<value column="PrintName" original="Project Tree">Árbol de Proyecto</value>
+		<value column="Name" original="Project Tree">Arbol de Proyectos</value>
+		<value column="PrintName" original="Project Tree">Arbol de Proyecto</value>
 		<value column="Description" original="Tree to determine project hierarchy">Arbol para determinar la herencia de un proyecto</value>
 		<value column="Help" original="Trees are used for (finanial) reporting">Arboles usados para reportes (Financieros)</value>
 		<value column="PO_Description" original=""/>
@@ -303,8 +303,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="137" trl="Y">
-		<value column="Name" original="Sales Region Tree">Árbol de Región de Venta</value>
-		<value column="PrintName" original="Sales Region Tree">Árbol de Región de Venta Primario</value>
+		<value column="Name" original="Sales Region Tree">Arbol de Región de Venta</value>
+		<value column="PrintName" original="Sales Region Tree">Arbol de Región de Venta Primario</value>
 		<value column="Description" original="Tree to determine sales regional hierarchy">Arbol para determinar la herencia de ventas regionales</value>
 		<value column="Help" original="Trees are used for (finanial) reporting">Arboles usados para reportes (Financieros)</value>
 		<value column="PO_Description" original=""/>
@@ -1613,8 +1613,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="325" trl="Y">
-		<value column="Name" original="Has Tree">Contiene Árbol</value>
-		<value column="PrintName" original="Has Tree">Contiene Árbol</value>
+		<value column="Name" original="Has Tree">Contiene Arbol</value>
+		<value column="PrintName" original="Has Tree">Contiene Arbol</value>
 		<value column="Description" original="Window has Tree Graph">La ventana tiene gráfica de árbol</value>
 		<value column="Help" original="The Has Tree checkbox indicates if this window displays a tree metaphor.">El cuadro de verificación contiene árbol indica si esta ventana despliega una metáfora de árbol</value>
 		<value column="PO_Description" original=""/>
@@ -3406,7 +3406,7 @@
 		<value column="Name" original="Type | Area">Tipo / Área</value>
 		<value column="PrintName" original="Type | Area">Tipo / Área</value>
 		<value column="Description" original="Element this tree is built on (i.e Product, Business Partner)">Elemento del que este árbol está construido (Ej. Producto; Tercero)</value>
-		<value column="Help" original="The Tree Type / Area field determines the type of tree this is.  For example, you may define one tree for your Products and another tree for your Business Partners.">El campo Tipo de Árbol / Área determina el tipo de este árbol. Por Ej. Usted puede definir un árbol para sus productos y otro árbol para sus terceros.</value>
+		<value column="Help" original="The Tree Type / Area field determines the type of tree this is.  For example, you may define one tree for your Products and another tree for your Business Partners.">El campo Tipo de Arbol / Área determina el tipo de este árbol. Por Ej. Usted puede definir un árbol para sus productos y otro árbol para sus terceros.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -13837,9 +13837,9 @@ Impuesto de compras: el impuesto cargado al comprar - ejemplos: impuesto de uso,
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2168" trl="Y">
-		<value column="Name" original="Only Validate Data">Fecha de Validación</value>
-		<value column="PrintName" original="Validate Only">Validado solo</value>
-		<value column="Description" original="Validate the date and do not process">Validada la fecha y no el proceso</value>
+		<value column="Name" original="Only Validate Data">Sólo validar datos</value>
+		<value column="PrintName" original="Validate Only">Sólo validar</value>
+		<value column="Description" original="Validate the date and do not process">Validar los datos sin procesar</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -17107,8 +17107,8 @@ Si usted define una relación aquí, usted sobreescribe el tipo de documento del
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2514" trl="Y">
-		<value column="Name" original="Activity Tree">Actividad Árbol primario</value>
-		<value column="PrintName" original="Activity Tree">Actividad del Árbol</value>
+		<value column="Name" original="Activity Tree">Actividad Arbol primario</value>
+		<value column="PrintName" original="Activity Tree">Actividad del Arbol</value>
 		<value column="Description" original="Tree to determine activity hierarchy"/>
 		<value column="Help" original="Trees are used for (finanial) reporting"/>
 		<value column="PO_Description" original=""/>
@@ -17117,8 +17117,8 @@ Si usted define una relación aquí, usted sobreescribe el tipo de documento del
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2515" trl="Y">
-		<value column="Name" original="Campaign Tree">Campaña Árbol primario</value>
-		<value column="PrintName" original="Campaign Tree">Campaña Árbol primario</value>
+		<value column="Name" original="Campaign Tree">Campaña Arbol primario</value>
+		<value column="PrintName" original="Campaign Tree">Campaña Arbol primario</value>
 		<value column="Description" original="Tree to determine marketing campaign hierarchy"/>
 		<value column="Help" original="Trees are used for (finanial) reporting"/>
 		<value column="PO_Description" original=""/>
@@ -20538,7 +20538,7 @@ Esto permite una granularidad más fina de las Reglas de Entrega Manual.</value>
 		<value column="Name" original="Reporting Hierarchy">Reportando Jerarquías</value>
 		<value column="PrintName" original="Hierarchy">Jerarquías</value>
 		<value column="Description" original="Optional Reporting Hierarchy - If not selected the default hierarchy trees are used.">Reporte Opcional de Jerarquías - Si no seleccionó se emplea el árbol predeterminado de jerarquías</value>
-		<value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business.">Reportar Jerarquías le permite seleccionar diferentes Jerarquías/Árboles para el Reoporte.
+		<value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business.">Reportar Jerarquías le permite seleccionar diferentes Jerarquías/Arboles para el Reoporte.
 
 Segmentos contables deseadosm Organizaciones, Cuentas, Productos pueden tener algunas jerarquías para acomodar siferentes vistas acerca del negocio.</value>
 		<value column="PO_Description" original=""/>
@@ -20547,9 +20547,9 @@ Segmentos contables deseadosm Organizaciones, Cuentas, Productos pueden tener al
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2869" trl="Y">
-		<value column="Name" original="Account Tree">Árbol de Cuentas</value>
-		<value column="PrintName" original="Account Tree">Árbol de Cuentas</value>
-		<value column="Description" original="Tree for Natural Account Tree">Árbol para Árbol de Cuentas Naturales</value>
+		<value column="Name" original="Account Tree">Arbol de Cuentas</value>
+		<value column="PrintName" original="Account Tree">Arbol de Cuentas</value>
+		<value column="Description" original="Tree for Natural Account Tree">Arbol de Cuentas Naturales</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>

@@ -251,8 +251,8 @@
 		<value column="Description" original="Query Accounting Facts">Asientos Contables</value>
 	</row>
 	<row id="170" trl="Y">
-		<value column="Name" original="Tree">Árbol e Imagen de Nodo</value>
-		<value column="Description" original="Maintain Tree definition">Mantener Definición de Árboles</value>
+		<value column="Name" original="Tree">Arbol e Imagen de Nodo</value>
+		<value column="Description" original="Maintain Tree definition">Mantener Definición de Arboles</value>
 	</row>
 	<row id="171" trl="Y">
 		<value column="Name" original="Bank">Banco</value>
@@ -1327,7 +1327,7 @@
 		<value column="Description" original="General Ledger Distribution">Distribución de Contabilidad General</value>
 	</row>
 	<row id="465" trl="Y">
-		<value column="Name" original="Tree Maintenance">Mantenimiento del Árbol</value>
+		<value column="Name" original="Tree Maintenance">Mantenimiento del Arbol</value>
 		<value column="Description" original="Maintain Trees">Mantener árbol</value>
 	</row>
 	<row id="466" trl="Y">

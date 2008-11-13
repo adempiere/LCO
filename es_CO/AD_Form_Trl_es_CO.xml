@@ -81,7 +81,7 @@ Todos los registros relacionados con la entidad origen (ej. Cliente A) son cambi
 		<value column="Help" original="Drop the extended Bill of Materials into an Order, Invoice, etc.  The documents need to be in a Drafted stage.  Make sure that the items included in the BOM are on the price list of the Order, Invoice, etc. as otherwise the price will be zero!">Traer (expandir) la lista de materiales en una orden, factura, etc. Los documentos deben estar en un estado Borrador. Asegúrese de que los artículos incluidos en la LDM están en la lista de precios de la orden, factura, etc. de lo contrario el precio será cero!</value>
 	</row>
 	<row id="115" trl="Y">
-		<value column="Name" original="Tree Maintenance">Mantenimiento del Árbol</value>
+		<value column="Name" original="Tree Maintenance">Mantenimiento del Arbol</value>
 		<value column="Description" original="Maintain Trees">Mantener árboles</value>
 		<value column="Help" original="View and change trees. Maintain the entries in their specific Windows.">Ver y modificar árboles. El mantenimiento de las entradas se realiza en la ventana específica.</value>
 	</row>

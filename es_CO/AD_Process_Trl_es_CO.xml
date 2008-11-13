@@ -643,7 +643,7 @@ Cra los controles que faltan del periodo para el tipo de documento (Usted debe t
 Los costos estan en el actual esquema contable - Las líneas estan en la actual lista de precios del proyecto.</value>
 	</row>
 	<row id="235" trl="Y">
-		<value column="Name" original="Verify Tree">Verifica Árbol</value>
+		<value column="Name" original="Verify Tree">Verifica Arbol</value>
 		<value column="Description" original="Verify completeness and correctness of Tree">Verifique la corrección y lo completo del árbol</value>
 		<value column="Help" original=""/>
 	</row>

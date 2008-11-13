@@ -268,8 +268,8 @@
 		<value column="Help" original="Query the detail accounting transactions">Consulta a detalle de las transacciones contables.</value>
 	</row>
 	<row id="163" trl="Y">
-		<value column="Name" original="Tree">Árbol e Imagen de Nodo</value>
-		<value column="Description" original="Maintain Tree definition">Mantener Definición de Árboles</value>
+		<value column="Name" original="Tree">Arbol e Imagen de Nodo</value>
+		<value column="Description" original="Maintain Tree definition">Mantener Definición de Arboles</value>
 		<value column="Help" original="The Tree Window defines the descriptors and images that will be used when a Tree is displayed.">La ventana define las imágenes y descripciones usados cuando se despliega un árbol.</value>
 	</row>
 	<row id="165" trl="Y">
@@ -618,8 +618,8 @@
 		<value column="Help" original="The Import Natural Account Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">La ventana natural de la importación de cuentas es una tabla interna, se utiliza al importar datos externos en el sistema. Seleccionar el 'Proceso' el botón agregará o modificará los registros apropiados.</value>
 	</row>
 	<row id="249" trl="Y">
-		<value column="Name" original="Import Report Line Set">Importar Conjunto de Lineas de Informe</value>
-		<value column="Description" original="Import Report Line Sets">Importar Conjunto de Lineas de Informe</value>
+		<value column="Name" original="Import Report Line Set">Importar Conjunto de Líneas de Informe</value>
+		<value column="Description" original="Import Report Line Sets">Importar Conjunto de Líneas de Informe</value>
 		<value column="Help" original="The Import Report Line Set Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">La línea ventana determinada del informe de la importación es una tabla del interino se utiliza que al importar datos externos en el sistema. Seleccionar el 'Proceso' el botón agregará o modificará los registros apropiados.</value>
 	</row>
 	<row id="250" trl="Y">
@@ -695,7 +695,7 @@
 	<row id="264" trl="Y">
 		<value column="Name" original="Session Audit">Sesión</value>
 		<value column="Description" original="Audit of User Sessions">Lista sesiones de usuario</value>
-		<value column="Help" original="History of Online or Web Sessions">Historia en linea o sesiones de la tienda</value>
+		<value column="Help" original="History of Online or Web Sessions">Historia en línea o sesiones de la tienda</value>
 	</row>
 	<row id="265" trl="Y">
 		<value column="Name" original="Project Type">Tipo de Proyecto</value>
@@ -1045,7 +1045,7 @@ Antes(!) incorporando transacciones, comience la réplica funcionada al sistema 
 	</row>
 	<row id="334" trl="Y">
 		<value column="Name" original="Import Confirmations">Importar Confirmación</value>
-		<value column="Description" original="Import Receipt/Shipment Confirmation Lines">Importa Recibo/Entrega linea de confirmación</value>
+		<value column="Description" original="Import Receipt/Shipment Confirmation Lines">Importa Recibo/Entrega línea de confirmación</value>
 		<value column="Help" original="Import Confirmation data of existing Receipt/Shipment Confirmations">Importa fecha de confirmación para confirmaciones de Recibos/Entregas existentes.</value>
 	</row>
 	<row id="335" trl="Y">
@@ -1172,7 +1172,7 @@ Antes(!) incorporando transacciones, comience la réplica funcionada al sistema 
 	<row id="360" trl="Y">
 		<value column="Name" original="Reporting Hierarchy">Informe por Jerarquías</value>
 		<value column="Description" original="Define Reporting Hierarchy">Define Informe por Jerarquías</value>
-		<value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business">Informe por Jerarquías le permite seleccionar diferentes Jerarquías/Árboles para el informee.
+		<value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business">Informe por Jerarquías le permite seleccionar diferentes Jerarquías/Arboles para el informee.
 Segmentos Contables de la organización deseada, Cuentas, Productos pueden tener alguna jerarquía al acomodar diferentes vistas sobre el negocio.</value>
 	</row>
 	<row id="361" trl="Y">

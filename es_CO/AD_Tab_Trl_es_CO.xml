@@ -687,10 +687,10 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="243" trl="Y">
-		<value column="Name" original="Tree">Árbol</value>
+		<value column="Name" original="Tree">Arbol</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Tree">Árbol</value>
-		<value column="Help" original="The Tree Tab defines a Tree which will be displayed.">La pestaña de Árbol define un árbol para ser desplegado.</value>
+		<value column="Description" original="Tree">Arbol</value>
+		<value column="Help" original="The Tree Tab defines a Tree which will be displayed.">La pestaña de Arbol define un árbol para ser desplegado.</value>
 	</row>
 	<row id="245" trl="Y">
 		<value column="Name" original="Report &amp; Process">Informe y Proceso</value>
@@ -1479,9 +1479,9 @@
 		<value column="Help" original="Trade discount schema calculates the trade discount percentage">El esquema de descuento calcula los porcentajes de descuento.</value>
 	</row>
 	<row id="405" trl="Y">
-		<value column="Name" original="Schema Line">Linea de esquema</value>
+		<value column="Name" original="Schema Line">Línea de esquema</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Trade Discount Price List Lines">Comerciar lista de lineas de precios de descuento</value>
+		<value column="Description" original="Trade Discount Price List Lines">Comerciar lista de líneas de precios de descuento</value>
 		<value column="Help" original="Pricelists are created based on Product Purchase and Category Discounts.&#10;The parameters listed here allow to copy and calculate pricelists.&lt;BR&gt;&#10;The calculation:&#10;&lt;UL&gt;&#10;&lt;LI&gt;Copy and convert price from referenced price list&#10;&lt;LI&gt;result plus Surcharge Amount&#10;&lt;LI&gt;result minus Discount&#10;&lt;LI&gt;if resulting price is less than the original limit price plus min Margin, use this price (only if Margin is not zero)&#10;&lt;LI&gt;if resulting price is more than the original limit price plus max Margin, use this price (only if Margin us not zero)&#10;&lt;LI&gt;Round resulting price&#10;&lt;/UL&gt;&#10;&lt;B&gt;The Formula&lt;/B&gt; is&lt;BR&gt;&#10;NewPrice = (Convert(BasePrice) + Surcharge) * (100-Discount) / 100;&lt;BR&gt;&#10;if MinMargin &lt;&gt; 0 then NewPrice = Max (NewPrice, Convert(OrigLimitPrice) + MinMargin);&lt;BR&gt;&#10;if MaxMargin &lt;&gt; 0 then NewPrice = Min (NewPrice, Convert(OrigLimitPrice) + MaxMargin);&lt;BR&gt;&#10; &lt;BR&gt;&#10;&lt;B&gt;Example:&lt;/B&gt; (assuming same currency)&lt;BR&gt;&#10;Original Prices:  List=300, Standard=250, Limit=200;&lt;BR&gt;&#10;New List Price: Base=List, Surcharge=0, Discount=0, Round">Las listas de precios son creada en base a la compra de un producto y los descuentos por categoria.
 Los parametros listados aqui permiten copiar y calcular una lista de precios.&lt;BR&gt;
 El calculo:
@@ -1732,7 +1732,7 @@ Adempiere intenta asignar a productos existentes, si el UPC, La llave y el prove
 		<value column="Help" original=""/>
 	</row>
 	<row id="444" trl="Y">
-		<value column="Name" original="Import Report Line Set">Importar Informes de Lineas fijo</value>
+		<value column="Name" original="Import Report Line Set">Importar Informes de Líneas fijo</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
@@ -1888,7 +1888,7 @@ Adempiere intenta asignar a productos existentes, si el UPC, La llave y el prove
 		<value column="Help" original=""/>
 	</row>
 	<row id="471" trl="Y">
-		<value column="Name" original="Included Lines">Incluidas Lineas</value>
+		<value column="Name" original="Included Lines">Incluidas Líneas</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
@@ -2436,7 +2436,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Help" original=""/>
 	</row>
 	<row id="565" trl="Y">
-		<value column="Name" original="Order Lines">Orden Lineas</value>
+		<value column="Name" original="Order Lines">Orden Líneas</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="All Order Lines where the Agent &quot;owns&quot; the Order, the Business Partner or the Product">Toda la línea de orden donde el agente "posee" la orden, el tercero o el producto</value>
 		<value column="Help" original=""/>
@@ -2450,7 +2450,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="567" trl="Y">
 		<value column="Name" original="Invoice Line">Línea Factura</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="All Invoice Liness where the Agent &quot;owns&quot; the Invoice, the Business Partner or the Product">Toda la linea de facturas donde el agente "Posee" la factura, el tercero o el producto.</value>
+		<value column="Description" original="All Invoice Liness where the Agent &quot;owns&quot; the Invoice, the Business Partner or the Product">Toda la línea de facturas donde el agente "Posee" la factura, el tercero o el producto.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="569" trl="Y">
@@ -2732,8 +2732,8 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="617" trl="Y">
 		<value column="Name" original="Quantity">Cantidad</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="RfQ Line Quantity">Cantidad en linea RfQ</value>
-		<value column="Help" original="Request for Quotation Line Quantity - You may request a quotation for different quantities">Cantidad en linea pedido de cita -</value>
+		<value column="Description" original="RfQ Line Quantity">Cantidad en línea RfQ</value>
+		<value column="Help" original="Request for Quotation Line Quantity - You may request a quotation for different quantities">Cantidad en línea pedido de cita -</value>
 	</row>
 	<row id="618" trl="Y">
 		<value column="Name" original="Response Quantity">Cantidad Respuesta</value>
@@ -2778,7 +2778,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Help" original="Distribution list contain business partners and a distribution quantity or ratio for creating Orders">La lista de distribución contiene terceros y una cantidad o un cociente de la distribución para crear órdenes</value>
 	</row>
 	<row id="625" trl="Y">
-		<value column="Name" original="Distribution Line">Lineas Distribución</value>
+		<value column="Name" original="Distribution Line">Líneas Distribución</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Distribution List Line with Business Partner and Quantity/Percentage">Línea de la lista de distribución con el tercero y Cantidad/Porcentaje.</value>
 		<value column="Help" original="The distribution can be based on Ratio, fixed quantity or both.&#10;If the ratio and quantity is not 0, the quantity is calculated based on the ratio, but with the Quantity as a minimum.">La distribución se puede basar en cociente, cantidad fija o ambas. Si el cociente y la cantidad no es 0, se calcula la cantidad basada en el cociente, pero con la cantidad como mínimo.</value>
@@ -2882,7 +2882,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="642" trl="Y">
 		<value column="Name" original="Requisition Line">Línea Requisición</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Material Requisition Line">Requisición de Linea de material</value>
+		<value column="Description" original="Material Requisition Line">Requisición de Línea de material</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="643" trl="Y">
@@ -2968,7 +2968,7 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 	<row id="657" trl="Y">
 		<value column="Name" original="Detail">Detalle</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Material Demand Line Source Detail">Detalle de la fuente de material de la linea de la demanda</value>
+		<value column="Description" original="Material Demand Line Source Detail">Detalle de la fuente de material de la línea de la demanda</value>
 		<value column="Help" original="Source Link for Material Demand Lines">Acoplamiento de la fuente para las líneas materiales de la demanda.</value>
 	</row>
 	<row id="658" trl="Y">
@@ -2980,7 +2980,7 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 	<row id="659" trl="Y">
 		<value column="Name" original="Line">Línea</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Material Shipment or Receipt Confirmation Line">Linea de Confirmación de entrega o recibo de Material</value>
+		<value column="Description" original="Material Shipment or Receipt Confirmation Line">Línea de Confirmación de entrega o recibo de Material</value>
 		<value column="Help" original="The quantities are in the storage Unit of Measure!">Detalles de Confirmación</value>
 	</row>
 	<row id="660" trl="Y">
@@ -3123,7 +3123,7 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 		<value column="Help" original=""/>
 	</row>
 	<row id="683" trl="Y">
-		<value column="Name" original="Internal Use Line">Linea Inventario, Uso Interno</value>
+		<value column="Name" original="Internal Use Line">Línea Inventario, Uso Interno</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Internal Use Inventory Line">Línea de inventario, uso interno</value>
 		<value column="Help" original="The Inventory Count Line defines the counts of the individual products in inventory.">La línea de la cuenta del inventario define las cuentas de los productos individuales en inventario.</value>
@@ -3185,7 +3185,7 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 	<row id="693" trl="Y">
 		<value column="Name" original="Confirmations">Confirmaciones</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Optional Confirmations of Shipment Lines">Confirmaciones opcionales de lineas de envio</value>
+		<value column="Description" original="Optional Confirmations of Shipment Lines">Confirmaciones opcionales de líneas de envio</value>
 		<value column="Help" original="The quantities are in the storage Unit of Measure!">¡Las cantidades están en la unidad de almacenaje de la medida!</value>
 	</row>
 	<row id="694" trl="Y">
@@ -3195,7 +3195,7 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 		<value column="Help" original="Set Currency and decide if this for AR (sales) Invoices or AP (vendor) invoices. Optionally enter a Control amount.">Fije la modernidad y decida si esto para las facturas o AP (vendedor) de AR (ventas) factura. Incorpore opcionalmente una cantidad del control.</value>
 	</row>
 	<row id="695" trl="Y">
-		<value column="Name" original="Batch Line">Linea de Lote</value>
+		<value column="Name" original="Batch Line">Línea de Lote</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Enter Expense Invoice Batch Line">Incorpore la línea de lote de la factura del costo.</value>
 		<value column="Help" original="A new invoice is created, if there is a different Document Number, Business Partner or Location (address).&#10;Note that the Document Number may be overwritten - depending on the Number control of the selected Document Type.">Se crea una nueva factura, si hay un diverso número de documento, tercero o localización (dirección).
@@ -3620,7 +3620,7 @@ Usted puede crear manualmente Líneas de Ajuste.</value>
 		<value column="Name" original="Reporting Hierarchy">Informe por Jerarquías</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Reporting Hierarchy">Informe por Jerarquías</value>
-		<value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business">Informe por Jerarquías le permite seleccionar diferentes Jerarquías/Árboles para el informe.
+		<value column="Help" original="Reporting Hierarchy allows you to select different Hierarchies/Trees for the report.&#10;Accounting Segments like Organization, Account, Product may have several hierarchies to accomodate different views on the business">Informe por Jerarquías le permite seleccionar diferentes Jerarquías/Arboles para el informe.
 Segmentos deseados de cuenta, Organización, Cuentas, Productos pueden tener alguna jerarquía para acomodar diferentes vistas sobre el negocio.</value>
 	</row>
 	<row id="767" trl="Y">
@@ -3788,22 +3788,22 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original="Category of Request Status enables to maintain different set of Status for different Request Categories">Categoria de solicitud de estado permite mantener diferentes conjuntos de estados para diferentes solicitudes de categorias</value>
 	</row>
 	<row id="796" trl="Y">
-		<value column="Name" original="Task Line">Linea de impuesto</value>
+		<value column="Name" original="Task Line">Línea de Tarea</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Project Lines of Tasks">Lineas de proyectos de impuestos</value>
-		<value column="Help" original="Maintain Project Lines of Tasks">Mantener Lineas de proyectos de impuestos</value>
+		<value column="Description" original="Project Lines of Tasks">Líneas de tareas de proyectos</value>
+		<value column="Help" original="Maintain Project Lines of Tasks">Mantener Líneas de proyectos de impuestos</value>
 	</row>
 	<row id="797" trl="Y">
-		<value column="Name" original="Project Line">Linea de proyecto</value>
+		<value column="Name" original="Project Line">Línea de proyecto</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain Project Lines">Linea de proyecto</value>
-		<value column="Help" original="Maintain Project Level Lines">Mantener lineas de nivel de proyecto</value>
+		<value column="Description" original="Maintain Project Lines">Línea de proyecto</value>
+		<value column="Help" original="Maintain Project Level Lines">Mantener líneas de nivel de proyecto</value>
 	</row>
 	<row id="799" trl="Y">
-		<value column="Name" original="Phase Line">Linea Fase</value>
+		<value column="Name" original="Phase Line">Línea Fase</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Project Lines of Phase">Lineas de proyecto de fase</value>
-		<value column="Help" original="Maintain Project Lines on Phase Level">Mantener Lineas de proyectos en nivel de fase</value>
+		<value column="Description" original="Project Lines of Phase">Líneas de proyecto de fase</value>
+		<value column="Help" original="Maintain Project Lines on Phase Level">Mantener Líneas de proyectos en nivel de fase</value>
 	</row>
 	<row id="800" trl="Y">
 		<value column="Name" original="Project">Proyecto</value>

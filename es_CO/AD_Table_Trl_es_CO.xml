@@ -318,7 +318,7 @@
 		<value column="Name" original="Process Trl">Proceso **</value>
 	</row>
 	<row id="288" trl="Y">
-		<value column="Name" original="Tree">Árbol</value>
+		<value column="Name" original="Tree">Arbol</value>
 	</row>
 	<row id="289" trl="Y">
 		<value column="Name" original="Tree Node">AD_TreeNode</value>
@@ -873,7 +873,7 @@
 		<value column="Name" original="Import Account">Importar Cuentas</value>
 	</row>
 	<row id="535" trl="Y">
-		<value column="Name" original="Import Report Line Set">Importar Lineas de Informes</value>
+		<value column="Name" original="Import Report Line Set">Importar Líneas de Informes</value>
 	</row>
 	<row id="537" trl="Y">
 		<value column="Name" original="Training Class">Clase de entrenamiento</value>
@@ -966,10 +966,10 @@
 		<value column="Name" original="AD_Record_Access">AD_Record_Access</value>
 	</row>
 	<row id="568" trl="Y">
-		<value column="Name" original="Print Label Line Trl">Impresión Etiqueta Linea **</value>
+		<value column="Name" original="Print Label Line Trl">Impresión Etiqueta Línea **</value>
 	</row>
 	<row id="569" trl="Y">
-		<value column="Name" original="Print Label Line">Impresión Etiqueta Linea</value>
+		<value column="Name" original="Print Label Line">Impresión Etiqueta Línea</value>
 	</row>
 	<row id="570" trl="Y">
 		<value column="Name" original="Print Label">Etiqueta Impresión</value>
@@ -1365,7 +1365,7 @@
 		<value column="Name" original="Transition Condition">Condición de Transición</value>
 	</row>
 	<row id="707" trl="Y">
-		<value column="Name" original="GL Distribution Line">Linea Distribución Contabilidad</value>
+		<value column="Name" original="GL Distribution Line">Línea Distribución Contabilidad</value>
 	</row>
 	<row id="708" trl="Y">
 		<value column="Name" original="GL Distribution">Distribución Contabilidad</value>
@@ -1545,7 +1545,7 @@
 		<value column="Name" original="Invoice Batch">Facturas en Lote</value>
 	</row>
 	<row id="768" trl="N">
-		<value column="Name" original="Invoice Batch Line">Linea Lote de Facturas</value>
+		<value column="Name" original="Invoice Batch Line">Línea Lote de Facturas</value>
 	</row>
 	<row id="769" trl="N">
 		<value column="Name" original="AD_User_OrgAccess">AD_User_OrgAccess</value>
