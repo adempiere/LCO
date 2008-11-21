@@ -3555,10 +3555,10 @@ La asignación es creada al momento de procesar el pago.
 </value>
 	</row>
 	<row id="756" trl="Y">
-		<value column="Name" original="BP Access">Acceso SN</value>
+		<value column="Name" original="BP Access">Acceso Tercero</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Access of the User/Contact to Business Partner information and resources">Acceso del Usuario/Contacto para información del tercero y recursos</value>
-		<value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Si en Nivel de Usuario, "SN Acceso Total" No es seleccionado, aqui debe proprcionar acceso explícitamente.</value>
+		<value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Si en Nivel de Usuario, "Acceso Total Tercero" No es seleccionado, aqui debe proporcionar acceso explícitamente.</value>
 	</row>
 	<row id="757" trl="Y">
 		<value column="Name" original="Queries">Consultas</value>

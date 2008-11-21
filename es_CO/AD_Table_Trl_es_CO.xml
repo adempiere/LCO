@@ -1680,7 +1680,7 @@
 		<value column="Name" original="Allocate Payment">Asignación de Pago</value>
 	</row>
 	<row id="813" trl="N">
-		<value column="Name" original="User BP Access">Usuario SN Acceso</value>
+		<value column="Name" original="User BP Access">Acceso Tercero Usuario</value>
 	</row>
 	<row id="814" trl="N">
 		<value column="Name" original="User Query">Consulta Usuario</value>
