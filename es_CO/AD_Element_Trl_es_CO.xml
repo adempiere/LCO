@@ -13275,7 +13275,7 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2108" trl="Y">
-		<value column="Name" original="Line Description">Descrición de la Línea</value>
+		<value column="Name" original="Line Description">Descripción de la Línea</value>
 		<value column="PrintName" original="Line Description">Descripción de la Línea</value>
 		<value column="Description" original="Description of the Line">Descripción de la Línea</value>
 		<value column="Help" original=""/>
@@ -14359,7 +14359,7 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2222" trl="Y">
-		<value column="Name" original="Issue Description">Descrición del Asunto</value>
+		<value column="Name" original="Issue Description">Descripción del Asunto</value>
 		<value column="PrintName" original="Issue Description">Descripción del Asunto</value>
 		<value column="Description" original="Description of the Issue line">Línea de descripción del asunto</value>
 		<value column="Help" original=""/>
