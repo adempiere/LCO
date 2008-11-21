@@ -1044,7 +1044,7 @@
 		<value column="Name" original="Import Payment">Importar Pagos/Recaudos</value>
 	</row>
 	<row id="598" trl="Y">
-		<value column="Name" original="Import Invoice">Importar Documentos para Cobros/Pagos</value>
+		<value column="Name" original="Import Invoice">Importar Facturas y CxC CxP</value>
 	</row>
 	<row id="599" trl="Y">
 		<value column="Name" original="Import GL Journal">Importar Nota de Contabilidad</value>

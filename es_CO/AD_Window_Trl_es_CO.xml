@@ -768,7 +768,7 @@
 		<value column="Help" original="You way want to check the balance of the import with &quot;Validate Only&quot; before importing. &#10;Unbalanced Journals are imported; the handling is based on your settings for the posting process. The optional balance check checks the entire import, not individual batches and journals.">Sí desea comprobar el balance de la importación con "Solo Validación" antes de importar. Se importan los diarios de CG desbalanceadas; la dirección se basa en sus ajustes para el proceso de aplicación.</value>
 	</row>
 	<row id="279" trl="Y">
-		<value column="Name" original="Import Invoice">Importar Documentos para Cobro/Pago</value>
+		<value column="Name" original="Import Invoice">Importar Facturas y CxC CxP</value>
 		<value column="Description" original="Import Invoices">Importar Facturas</value>
 		<value column="Help" original="Import invoiced loaded"/>
 	</row>
