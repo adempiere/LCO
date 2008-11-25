@@ -13145,8 +13145,8 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2095" trl="Y">
-		<value column="Name" original="Category Name">Nombre de la Categoría</value>
-		<value column="PrintName" original="Category Name">Nombre de la Categoría</value>
+		<value column="Name" original="Category Name">Nombre Categoría</value>
+		<value column="PrintName" original="Category Name">Nombre Categoría</value>
 		<value column="Description" original="Name of the Category">Nombre de la Categoría</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -13155,9 +13155,9 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2096" trl="Y">
-		<value column="Name" original="Charge Name">Nombre de la Carga</value>
-		<value column="PrintName" original="Charge Name">Nombre de la Carga</value>
-		<value column="Description" original="Name of the Charge">Nombre de la carga</value>
+		<value column="Name" original="Charge Name">Nombre Cargo</value>
+		<value column="PrintName" original="Charge Name">Nombre Cargo</value>
+		<value column="Description" original="Name of the Charge">Nombre del cargo</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -13165,9 +13165,9 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2097" trl="Y">
-		<value column="Name" original="Client Key">Clave del Cliente</value>
-		<value column="PrintName" original="Client Key">Clave del Cliente</value>
-		<value column="Description" original="Key of the Client">Clave de el cliente</value>
+		<value column="Name" original="Client Key">Código del Cliente</value>
+		<value column="PrintName" original="Client Key">Código del Cliente</value>
+		<value column="Description" original="Key of the Client">Código del cliente</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
