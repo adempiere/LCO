@@ -1257,10 +1257,10 @@
 		<value column="Help" original="The Project Lines Tab is used to define the lines (products and/or services) associated with this Project. This is an alternative to Project Phases. You would use lines, if you do not want to use a Project Type template with phases.">La pestaña Línea de Proyecto es usada para definir las líneas (productos y/o servicios) asociadas a este proyecto.</value>
 	</row>
 	<row id="362" trl="Y">
-		<value column="Name" original="Commission Run">Cálculo de Comisión</value>
+		<value column="Name" original="Commission Run">Ejecución de Comisión</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Commission run for a period">Cálculo de Comisiones para un Período</value>
-		<value column="Help" original="Commission run for a period defined in the Commission window.">La corrida de comisiones para un período definido en la ventana de comisión.</value>
+		<value column="Description" original="Commission run for a period">Ejecución de Comisiones para un Período</value>
+		<value column="Help" original="Commission run for a period defined in the Commission window.">La ejecución de comisiones para un período definido en la ventana de comisión.</value>
 	</row>
 	<row id="363" trl="Y">
 		<value column="Name" original="Commission Amount">Total de Comisión</value>

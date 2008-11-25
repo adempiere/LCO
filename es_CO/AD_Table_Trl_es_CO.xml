@@ -981,7 +981,7 @@
 		<value column="Name" original="Import Inventory">Importar Inventario</value>
 	</row>
 	<row id="573" trl="Y">
-		<value column="Name" original="Recurring Run">Corridad de Recurrencias</value>
+		<value column="Name" original="Recurring Run">Ejecución de Recurrencias</value>
 	</row>
 	<row id="574" trl="Y">
 		<value column="Name" original="Recurring">Recurrente</value>
@@ -1059,7 +1059,7 @@
 		<value column="Name" original="Replication Strategy">Estrategia de Replicación</value>
 	</row>
 	<row id="603" trl="Y">
-		<value column="Name" original="Replication Run">Corrida de Replicación</value>
+		<value column="Name" original="Replication Run">Ejecución de Replicación</value>
 	</row>
 	<row id="604" trl="Y">
 		<value column="Name" original="Replication Log">Log Replicación</value>
@@ -1380,7 +1380,7 @@
 		<value column="Name" original="Requisition">RV_M_Requisition</value>
 	</row>
 	<row id="712" trl="Y">
-		<value column="Name" original="Distribution Run">Corrida de Distribución</value>
+		<value column="Name" original="Distribution Run">Ejecución de Distribución</value>
 	</row>
 	<row id="713" trl="Y">
 		<value column="Name" original="Distribution Run Line">Línea Lista de Distribución</value>

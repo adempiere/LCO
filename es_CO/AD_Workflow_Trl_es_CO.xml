@@ -53,12 +53,12 @@
 &lt;b&gt;Sistema Central:&lt;/b&gt;
 - Definir Replicación por cada Remoto&lt;br&gt;
 - Asegurarse que el rango de IDs es único por remoto - de lo contrario se perderán transacciones!&lt;br&gt;
-- Inicialmente empezar la corrida de replicación para fijar el Remoto
+- Inicialmente empezar la ejecución de replicación para fijar el Remoto
 &lt;p&gt;
 ** Ingresar Transacciones **
 &lt;p&gt;
 &lt;b&gt;Sistema Central:&lt;/b&gt;&lt;br&gt;
-- Empezar la corrida de replicación cuando se requiera</value>
+- Empezar la ejecución de replicación cuando se requiera</value>
 	</row>
 	<row id="110" trl="Y">
 		<value column="Name" original="Tax Setup">Definición de Impuestos</value>

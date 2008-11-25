@@ -524,8 +524,8 @@ El usuario para enviar emails de necesidades para tener valida la información d
 		<value column="Help" original=""/>
 	</row>
 	<row id="213" trl="Y">
-		<value column="Name" original="Start Process">Inicio de Corrida Recurrente</value>
-		<value column="Description" original="Start Recurring Run">Inicio de Corrida Recurrente</value>
+		<value column="Name" original="Start Process">Inicio de Ejecución Recurrente</value>
+		<value column="Description" original="Start Recurring Run">Inicio de Ejecución Recurrente</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="214" trl="Y">
