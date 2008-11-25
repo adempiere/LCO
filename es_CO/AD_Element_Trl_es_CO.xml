@@ -9243,9 +9243,9 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1675" trl="Y">
-		<value column="Name" original="Product Key">Sólo Valor de Producto</value>
-		<value column="PrintName" original="Product Key">Solo Valor de Producto</value>
-		<value column="Description" original="Key of the Product">Generar lista de conteo solamente para este valor del producto (Usted puede usar %)</value>
+		<value column="Name" original="Product Key">Código Producto</value>
+		<value column="PrintName" original="Product Key">Código Producto</value>
+		<value column="Description" original="Key of the Product">Código del producto</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -13375,9 +13375,9 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2118" trl="Y">
-		<value column="Name" original="Project Key">Clave del Proyecto</value>
-		<value column="PrintName" original="Project Key">Clave del Proyecto</value>
-		<value column="Description" original="Key of the Project">Clave del Proyecto</value>
+		<value column="Name" original="Project Key">Código Proyecto</value>
+		<value column="PrintName" original="Project Key">Código Proyecto</value>
+		<value column="Description" original="Key of the Project">Código del Proyecto</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -23823,8 +23823,8 @@ Pare de crédito</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="53222" trl="Y">
-		<value column="Name" original="ActivityValue">Valor de actividad</value>
-		<value column="PrintName" original="ActivityValue">Valor de actividad</value>
+		<value column="Name" original="ActivityValue">Código Actividad</value>
+		<value column="PrintName" original="ActivityValue">Código Actividad</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23833,8 +23833,8 @@ Pare de crédito</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="53223" trl="Y">
-		<value column="Name" original="Dunning Grace">Cobro de gracia</value>
-		<value column="PrintName" original="Dunning Grace">Cobro de gracia</value>
+		<value column="Name" original="Dunning Grace">Tiempo Gracia Cobro</value>
+		<value column="PrintName" original="Dunning Grace">Tiempo de gracia cobro</value>
 		<value column="Description" original="">Tiempo de gracia antes de enviar una carta de cobro</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
