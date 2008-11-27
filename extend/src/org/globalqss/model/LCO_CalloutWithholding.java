@@ -26,7 +26,9 @@ import java.util.logging.Level;
 import org.compiere.model.CalloutEngine;
 import org.compiere.model.GridField;
 import org.compiere.model.GridTab;
+import org.compiere.model.MInvoice;
 import org.compiere.model.MLCOInvoiceWithholding;
+import org.compiere.model.MPriceList;
 import org.compiere.model.MTax;
 import org.compiere.util.DB;
 import org.compiere.util.Env;
@@ -126,15 +128,20 @@ public class LCO_CalloutWithholding extends CalloutEngine
 				// the field hasn't changed, don't recalc
 				return "";
 			}
-		
 		}
 
 		BigDecimal percent = (BigDecimal) mTab.getValue(MLCOInvoiceWithholding.COLUMNNAME_Percent);
 		BigDecimal taxbaseamt = (BigDecimal) mTab.getValue(MLCOInvoiceWithholding.COLUMNNAME_TaxBaseAmt);
 
 		BigDecimal taxamt = null;
-		if (percent != null && taxbaseamt != null)
+		if (percent != null && taxbaseamt != null) {
+			int pricelist_id = DB.getSQLValue(null, 
+					"SELECT M_PriceList_ID FROM C_Invoice WHERE C_Invoice_ID=?", 
+					((Integer) mTab.getValue(MLCOInvoiceWithholding.COLUMNNAME_C_Invoice_ID)).intValue());
 			taxamt = percent.multiply(taxbaseamt).divide(Env.ONEHUNDRED);
+			int stdPrecision = MPriceList.getStandardPrecision(ctx, pricelist_id);
+			taxamt = taxamt.setScale(stdPrecision, BigDecimal.ROUND_HALF_UP);
+		}
 		mTab.setValue(MLCOInvoiceWithholding.COLUMNNAME_TaxAmt, taxamt);
 
 		return "";
