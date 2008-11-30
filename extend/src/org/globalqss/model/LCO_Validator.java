@@ -787,7 +787,7 @@ public class LCO_Validator implements ModelValidator
 				BigDecimal gt = inv.getGrandTotal();
 				inv.setGrandTotal(gt.subtract(sumit));
 				
-				// GrandTotal changed!  If there is payment schedule records they need to be recalculated
+				// GrandTotal changed!  If there are payment schedule records they need to be recalculated
 				inv.save();  // need to save here in order to let apply get the right total
 				MPaymentTerm pt = (MPaymentTerm) inv.getC_PaymentTerm();
 				boolean valid = pt.apply (inv.getC_Invoice_ID());
