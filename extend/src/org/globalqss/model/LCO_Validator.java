@@ -40,6 +40,7 @@ import org.compiere.model.MInvoiceTax;
 import org.compiere.model.MLCOInvoiceWithholding;
 import org.compiere.model.MPayment;
 import org.compiere.model.MPaymentAllocate;
+import org.compiere.model.MPaymentTerm;
 import org.compiere.model.ModelValidationEngine;
 import org.compiere.model.ModelValidator;
 import org.compiere.model.PO;
@@ -785,6 +786,12 @@ public class LCO_Validator implements ModelValidator
 				// Subtract to invoice grand total the value of withholdings
 				BigDecimal gt = inv.getGrandTotal();
 				inv.setGrandTotal(gt.subtract(sumit));
+				
+				// GrandTotal changed!  If there is payment schedule records they need to be recalculated
+				inv.save();  // need to save here in order to let apply get the right total
+				MPaymentTerm pt = (MPaymentTerm) inv.getC_PaymentTerm();
+				boolean valid = pt.apply (inv.getC_Invoice_ID());
+				inv.setIsPayScheduleValid(valid);
 
 				rs.close();
 				pstmt.close();
