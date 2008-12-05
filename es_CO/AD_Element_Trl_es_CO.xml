@@ -23213,8 +23213,8 @@ Pare de crédito</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50045" trl="Y">
-		<value column="Name" original="Allow Info Account">Permitir información de cuenta.</value>
-		<value column="PrintName" original="Allow Info Account">Permitir información de cuenta.</value>
+		<value column="Name" original="Allow Info Account">Permitir Información Contable</value>
+		<value column="PrintName" original="Allow Info Account">Permitir Información Contable</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23223,8 +23223,8 @@ Pare de crédito</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50046" trl="Y">
-		<value column="Name" original="Allow Info Asset">Permitir información de Activo</value>
-		<value column="PrintName" original="Allow Info Asset">Permitir información de Activo</value>
+		<value column="Name" original="Allow Info Asset">Permitir Información de Activo</value>
+		<value column="PrintName" original="Allow Info Asset">Permitir Información de Activo</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23233,8 +23233,8 @@ Pare de crédito</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50047" trl="Y">
-		<value column="Name" original="Allow Info BPartner">Permitir Información de tercero</value>
-		<value column="PrintName" original="Allow Info BPartner">Permitir Información de tercero</value>
+		<value column="Name" original="Allow Info BPartner">Permitir Información de Tercero</value>
+		<value column="PrintName" original="Allow Info BPartner">Permitir Información de Tercero</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23243,8 +23243,8 @@ Pare de crédito</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50048" trl="Y">
-		<value column="Name" original="Allow Info CashJournal">Permitir información de Diario de Caja Menor</value>
-		<value column="PrintName" original="Allow Info CashJournal">Permitir información de Diario de Caja Menor</value>
+		<value column="Name" original="Allow Info CashJournal">Permitir Información de Caja Menor</value>
+		<value column="PrintName" original="Allow Info CashJournal">Permitir Información de Caja Menor</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23253,8 +23253,8 @@ Pare de crédito</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50049" trl="Y">
-		<value column="Name" original="Allow Info InOut">Permitir información de Entradas/Salidas de Almacén</value>
-		<value column="PrintName" original="Allow Info InOut">Permitir información de Entradas/Salidas de Almacén</value>
+		<value column="Name" original="Allow Info InOut">Permitir Información de Entradas/Salidas de Almacén</value>
+		<value column="PrintName" original="Allow Info InOut">Permitir Información de Entradas/Salidas de Almacén</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23263,8 +23263,8 @@ Pare de crédito</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50050" trl="Y">
-		<value column="Name" original="Allow Info Invoice">Permitir información de factura</value>
-		<value column="PrintName" original="Allow Info Invoice">Permitir información de factura</value>
+		<value column="Name" original="Allow Info Invoice">Permitir Información de Factura</value>
+		<value column="PrintName" original="Allow Info Invoice">Permitir Información de Factura</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23273,8 +23273,8 @@ Pare de crédito</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50051" trl="Y">
-		<value column="Name" original="Allow Info Order">Permitir información de orden</value>
-		<value column="PrintName" original="Allow Info Order">Permitir información de orden</value>
+		<value column="Name" original="Allow Info Order">Permitir Información de Orden</value>
+		<value column="PrintName" original="Allow Info Order">Permitir Información de Orden</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23283,8 +23283,8 @@ Pare de crédito</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50052" trl="Y">
-		<value column="Name" original="Allow Info Payment">Permitir información de pago</value>
-		<value column="PrintName" original="Allow Info Payment">Permitir información de pago</value>
+		<value column="Name" original="Allow Info Payment">Permitir Información de Pago</value>
+		<value column="PrintName" original="Allow Info Payment">Permitir Información de Pago</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23293,8 +23293,8 @@ Pare de crédito</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50053" trl="Y">
-		<value column="Name" original="Allow Info Product">Permitir información de producto</value>
-		<value column="PrintName" original="Allow Info Product">Permitir información de producto</value>
+		<value column="Name" original="Allow Info Product">Permitir Información de Producto</value>
+		<value column="PrintName" original="Allow Info Product">Permitir Información de Producto</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23303,8 +23303,8 @@ Pare de crédito</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50054" trl="Y">
-		<value column="Name" original="Allow Info Resource">Permitir información de recursos.</value>
-		<value column="PrintName" original="Allow Info Resource">Permitir información de recursos.</value>
+		<value column="Name" original="Allow Info Resource">Permitir Información de Recursos</value>
+		<value column="PrintName" original="Allow Info Resource">Permitir Información de Recursos</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23313,8 +23313,8 @@ Pare de crédito</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50055" trl="Y">
-		<value column="Name" original="Allow Info Schedule">Permitir información de Cronograma</value>
-		<value column="PrintName" original="Allow Info Schedule">Permitir información de Cronograma</value>
+		<value column="Name" original="Allow Info Schedule">Permitir Información de Cronograma</value>
+		<value column="PrintName" original="Allow Info Schedule">Permitir Información de Cronograma</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>

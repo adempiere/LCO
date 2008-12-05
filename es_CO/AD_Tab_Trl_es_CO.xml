@@ -1665,7 +1665,7 @@ Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 		<value column="Help" original="View and modify Time and Expense Report Lines.  It lists expense items for the business partner on the expense line where the expense lines have no orders yet. (Sales Orders are created).">Ver y modificar líneas del Informe de tiempo y gastos.</value>
 	</row>
 	<row id="433" trl="Y">
-		<value column="Name" original="Item Translation">Traducción Producto</value>
+		<value column="Name" original="Item Translation">Traducción Elemento</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Print Format Translation">Traducción del Formato de Impresión</value>
 		<value column="Help" original=""/>

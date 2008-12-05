@@ -795,7 +795,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="299" trl="Y">
-		<value column="MsgText" original="Account Info">Información de cuenta</value>
+		<value column="MsgText" original="Account Info">Información Contable</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="300" trl="Y">
@@ -2131,7 +2131,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="633" trl="Y">
-		<value column="MsgText" original="Schedule Info">Información del programa</value>
+		<value column="MsgText" original="Schedule Info">Información de Cronograma</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="634" trl="Y">
