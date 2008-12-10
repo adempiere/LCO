@@ -849,7 +849,7 @@ Antes(!) incorporando transacciones, comience la réplica funcionada al sistema 
 		<value column="Help" original="View unposted documents">Vista de documentos sin aplicar</value>
 	</row>
 	<row id="295" trl="Y">
-		<value column="Name" original="Currency Type">Tipo de Moneda</value>
+		<value column="Name" original="Currency Type">Tipo de Conversión</value>
 		<value column="Description" original="Maintain Currency Conversion Rate Types">Mantiene tipos de conversión de moneda.</value>
 		<value column="Help" original="The Currency Conversion Rate Type lets you define different type of rates, e.g. Spot, Corporate and/or Sell/Buy rates.">El tipo del índice de conversión de moneda le deja definir diversos tipos de tarifas, ej. tarifas del punto, corporativas y/o de Compra/Venta.</value>
 	</row>

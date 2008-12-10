@@ -1482,24 +1482,24 @@
 		<value column="Name" original="Schema Line">Línea de esquema</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Trade Discount Price List Lines">Comerciar lista de líneas de precios de descuento</value>
-		<value column="Help" original="Pricelists are created based on Product Purchase and Category Discounts.&#10;The parameters listed here allow to copy and calculate pricelists.&lt;BR&gt;&#10;The calculation:&#10;&lt;UL&gt;&#10;&lt;LI&gt;Copy and convert price from referenced price list&#10;&lt;LI&gt;result plus Surcharge Amount&#10;&lt;LI&gt;result minus Discount&#10;&lt;LI&gt;if resulting price is less than the original limit price plus min Margin, use this price (only if Margin is not zero)&#10;&lt;LI&gt;if resulting price is more than the original limit price plus max Margin, use this price (only if Margin us not zero)&#10;&lt;LI&gt;Round resulting price&#10;&lt;/UL&gt;&#10;&lt;B&gt;The Formula&lt;/B&gt; is&lt;BR&gt;&#10;NewPrice = (Convert(BasePrice) + Surcharge) * (100-Discount) / 100;&lt;BR&gt;&#10;if MinMargin &lt;&gt; 0 then NewPrice = Max (NewPrice, Convert(OrigLimitPrice) + MinMargin);&lt;BR&gt;&#10;if MaxMargin &lt;&gt; 0 then NewPrice = Min (NewPrice, Convert(OrigLimitPrice) + MaxMargin);&lt;BR&gt;&#10; &lt;BR&gt;&#10;&lt;B&gt;Example:&lt;/B&gt; (assuming same currency)&lt;BR&gt;&#10;Original Prices:  List=300, Standard=250, Limit=200;&lt;BR&gt;&#10;New List Price: Base=List, Surcharge=0, Discount=0, Round">Las listas de precios son creada en base a la compra de un producto y los descuentos por categoria.
-Los parametros listados aqui permiten copiar y calcular una lista de precios.&lt;BR&gt;
-El calculo:
+		<value column="Help" original="Pricelists are created based on Product Purchase and Category Discounts.&#10;The parameters listed here allow to copy and calculate pricelists.&lt;BR&gt;&#10;The calculation:&#10;&lt;UL&gt;&#10;&lt;LI&gt;Copy and convert price from referenced price list&#10;&lt;LI&gt;result plus Surcharge Amount&#10;&lt;LI&gt;result minus Discount&#10;&lt;LI&gt;if resulting price is less than the original limit price plus min Margin, use this price (only if Margin is not zero)&#10;&lt;LI&gt;if resulting price is more than the original limit price plus max Margin, use this price (only if Margin us not zero)&#10;&lt;LI&gt;Round resulting price&#10;&lt;/UL&gt;&#10;&lt;B&gt;The Formula&lt;/B&gt; is&lt;BR&gt;&#10;NewPrice = (Convert(BasePrice) + Surcharge) * (100-Discount) / 100;&lt;BR&gt;&#10;if MinMargin &lt;&gt; 0 then NewPrice = Max (NewPrice, Convert(OrigLimitPrice) + MinMargin);&lt;BR&gt;&#10;if MaxMargin &lt;&gt; 0 then NewPrice = Min (NewPrice, Convert(OrigLimitPrice) + MaxMargin);&lt;BR&gt;&#10; &lt;BR&gt;&#10;&lt;B&gt;Example:&lt;/B&gt; (assuming same currency)&lt;BR&gt;&#10;Original Prices:  List=300, Standard=250, Limit=200;&lt;BR&gt;&#10;New List Price: Base=List, Surcharge=0, Discount=0, Round">Las listas de precios son creadas en base a la compra de un producto y los descuentos por categoría.
+Los parámetros listados aquí permiten copiar y calcular una lista de precios.&lt;BR&gt;
+El cálculo:
 &lt;UL&gt;
-&lt;LI&gt;Copia y conversion de precio desde la referente lista de precios.
-&lt;LI&gt;resultado  mas cantidad de recargo
+&lt;LI&gt;Copia y conversión de precio desde la lista de precios de referencia.
+&lt;LI&gt;resultado más cantidad de recargo
 &lt;LI&gt;resultado menos descuento
-&lt;LI&gt;si el precio resultante es menor que el precio limite mas en margen minimo, Use el precio (Solo si el margen no es cero)
-&lt;LI&gt;Si el precio resultante es mayor que  el precio limite orginal mas el margen maximo, use este precio (solo si el margen no es cero)
-&lt;LI&gt;Redondear el precio resultante
+&lt;LI&gt;si el precio resultante es menor que el precio límite más el margen mínimo, Use el precio (Solo si el margen no es cero)
+&lt;LI&gt;si el precio resultante es mayor que  el precio límite original más el margen máximo, use este precio (solo si el margen no es cero)
+&lt;LI&gt;redondear el precio resultante
 &lt;/UL&gt;
-&lt;B&gt;La formula&lt;/B&gt; is&lt;BR&gt;
-Precio nuevo = (Conversion(Precio Base) + Recargo) * (100-Desceunto) / 100;&lt;BR&gt;
-Si el minimo margen es cero&lt;&gt;  0 entonces Nuevo precio= Max (Precio nuevo, Conversion(Precio limite original) + Margen minimo);&lt;BR&gt;
-Si el margen maximo &lt;&gt; 0 Entonces Precio Nuevo= Minimo (Precio nuevo, Conversion(Precio limite original ) + Margen Maximo);&lt;BR&gt;
+&lt;B&gt;La fórmula&lt;/B&gt; is&lt;BR&gt;
+Precio nuevo = (Conversión(Precio Base) + Recargo) * (100-Descuento) / 100;&lt;BR&gt;
+Si el mínimo margen es cero&lt;&gt;  0 entonces Nuevo precio= Max (Precio nuevo, Conversión(Precio límite original) + Margen mínimo);&lt;BR&gt;
+Si el margen máximo &lt;&gt; 0 Entonces Precio Nuevo= Mínimo (Precio nuevo, Conversión(Precio límite original ) + Margen Máximo);&lt;BR&gt;
  &lt;BR&gt;
 &lt;B&gt;Ejemplo :&lt;/B&gt; (Asumiendo el mismo tipo de moneda)&lt;BR&gt;
-Precios Originales:  Lista=300, Standard=250, Limite=200;&lt;BR&gt;
+Precios Originales:  Lista=300, Standard=250, Límite=200;&lt;BR&gt;
 Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 	</row>
 	<row id="406" trl="Y">

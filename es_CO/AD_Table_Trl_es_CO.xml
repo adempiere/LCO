@@ -1161,7 +1161,7 @@
 		<value column="Name" original="M_TransactionAllocation">M_TransactionAllocation</value>
 	</row>
 	<row id="637" trl="Y">
-		<value column="Name" original="Currency Type">Tipo de Moneda</value>
+		<value column="Name" original="Currency Type">Tipo de Conversión</value>
 	</row>
 	<row id="638" trl="Y">
 		<value column="Name" original="C_Currency_Acct">C_Currency_Acct</value>

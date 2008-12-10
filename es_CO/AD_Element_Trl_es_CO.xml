@@ -8673,8 +8673,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1607" trl="Y">
-		<value column="Name" original="Currency Type">Tipo de Moneda</value>
-		<value column="PrintName" original="Currency Type">Tipo de Moneda</value>
+		<value column="Name" original="Currency Type">Tipo de Conversión</value>
+		<value column="PrintName" original="Currency Type">Tipo de Conversión</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -14885,8 +14885,8 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2278" trl="Y">
-		<value column="Name" original="Currency Type">Tipo de Moneda</value>
-		<value column="PrintName" original="Currency Type">Tipo de Moneda</value>
+		<value column="Name" original="Currency Type">Tipo de Conversión</value>
+		<value column="PrintName" original="Currency Type">Tipo de Conversión</value>
 		<value column="Description" original="Currency Conversion Rate Type">Tipo de índice de conversión de moneda</value>
 		<value column="Help" original="The Currency Conversion Rate Type lets you define different type of rates, e.g. Spot, Corporate and/or Sell/Buy rates.">El tipo del índice de conversión de monedas le deja definir diversos tipos de tarifas, tarifas ej. del punto, corporativas y/o de Ventas/Compras.</value>
 		<value column="PO_Description" original=""/>

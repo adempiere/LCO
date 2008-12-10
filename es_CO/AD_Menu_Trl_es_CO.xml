@@ -1139,7 +1139,7 @@
 		<value column="Description" original="Unposted Documents">Documentos sin aplicar</value>
 	</row>
 	<row id="418" trl="Y">
-		<value column="Name" original="Currency Type">Tipo de Moneda</value>
+		<value column="Name" original="Currency Type">Tipo de Conversión</value>
 		<value column="Description" original="Maintain Currency Conversion Rate Types">Mantiene tipos de conversión de moneda.</value>
 	</row>
 	<row id="419" trl="Y">
