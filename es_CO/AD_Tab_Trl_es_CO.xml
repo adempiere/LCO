@@ -4262,7 +4262,7 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="53064" trl="Y">
-		<value column="Name" original="Module">Modulo</value>
+		<value column="Name" original="Module">Módulo</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>

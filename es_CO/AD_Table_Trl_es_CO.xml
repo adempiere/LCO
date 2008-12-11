@@ -2001,34 +2001,34 @@
 		<value column="Name" original="Product Substitute with Stock Info">Product Substitute with Stock Info</value>
 	</row>
 	<row id="53046" trl="N">
-		<value column="Name" original="ASP Window">ASP Window</value>
+		<value column="Name" original="ASP Window">Ventana SaaS</value>
 	</row>
 	<row id="53047" trl="N">
-		<value column="Name" original="ASP Tab">ASP Tab</value>
+		<value column="Name" original="ASP Tab">Pestaña SaaS</value>
 	</row>
 	<row id="53048" trl="N">
-		<value column="Name" original="ASP Field">ASP Field</value>
+		<value column="Name" original="ASP Field">Campo SaaS</value>
 	</row>
 	<row id="53049" trl="N">
-		<value column="Name" original="ASP Process">ASP Process</value>
+		<value column="Name" original="ASP Process">Proceso SaaS</value>
 	</row>
 	<row id="53050" trl="N">
-		<value column="Name" original="ASP Process Parameter">ASP Process Parameter</value>
+		<value column="Name" original="ASP Process Parameter">Parámetro Proceso SaaS</value>
 	</row>
 	<row id="53051" trl="N">
-		<value column="Name" original="ASP Form">ASP Form</value>
+		<value column="Name" original="ASP Form">Forma SaaS</value>
 	</row>
 	<row id="53052" trl="N">
-		<value column="Name" original="ASP Task">ASP Task</value>
+		<value column="Name" original="ASP Task">Tarea SaaS</value>
 	</row>
 	<row id="53053" trl="N">
-		<value column="Name" original="ASP Workflow">ASP Workflow</value>
+		<value column="Name" original="ASP Workflow">Flujo de Trabajo SaaS</value>
 	</row>
 	<row id="53054" trl="N">
-		<value column="Name" original="ASP Module">ASP_Module_ID</value>
+		<value column="Name" original="ASP Module">Módulo SaaS</value>
 	</row>
 	<row id="53055" trl="N">
-		<value column="Name" original="ASP Level">ASP_Level_ID</value>
+		<value column="Name" original="ASP Level">Nivel SaaS</value>
 	</row>
 	<row id="53056" trl="N">
 		<value column="Name" original="Client Level">ASP_ClientLevel_ID</value>

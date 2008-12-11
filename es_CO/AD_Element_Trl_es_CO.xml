@@ -4883,8 +4883,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1070" trl="Y">
-		<value column="Name" original="Template B.Partner">Plantilla S. N.</value>
-		<value column="PrintName" original="Template BPartner">Plantilla S. N.</value>
+		<value column="Name" original="Template B.Partner">Plantilla Tercero</value>
+		<value column="PrintName" original="Template BPartner">Plantilla Tercero</value>
 		<value column="Description" original="Business Partner used for creating new Business Partners on the fly">Tercero usado para crear nuevos terceros rápidamente.</value>
 		<value column="Help" original="When creating a new Business Partner from the Business Partner Search Field (right-click: Create), the selected business partner is used as a template, e.g. to define price list, payment terms, etc.">Cuando se crea un nuevo tercero desde el campo de búsqueda de tercero (clic-derecho:Crear, el tercero seleccionado se usa como una plantilla, ej. para definir lista de precios, términos de pago, etc.</value>
 		<value column="PO_Description" original=""/>
@@ -16195,8 +16195,8 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2420" trl="Y">
-		<value column="Name" original="Payment BPartner">Pagos S. Negocio</value>
-		<value column="PrintName" original="Payment BPartner">Pagos S. Negocio</value>
+		<value column="Name" original="Payment BPartner">Pagos Tercero</value>
+		<value column="PrintName" original="Payment BPartner">Pagos Tercero</value>
 		<value column="Description" original="Business Partner responsible for the payment">Tercero responsable para el pago.</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -17067,8 +17067,8 @@ Si usted define una relación aquí, usted sobreescribe el tipo de documento del
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2510" trl="Y">
-		<value column="Name" original="BP Name">Nombre S. Negocio</value>
-		<value column="PrintName" original="BP Name">Nombre S. Negocio</value>
+		<value column="Name" original="BP Name">Nombre Tercero</value>
+		<value column="PrintName" original="BP Name">Nombre Tercero</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -17077,8 +17077,8 @@ Si usted define una relación aquí, usted sobreescribe el tipo de documento del
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2511" trl="Y">
-		<value column="Name" original="BP Name2">Nombre S. Negocio 2</value>
-		<value column="PrintName" original="BP Name2">Nombre S. Negocio 2</value>
+		<value column="Name" original="BP Name2">Nombre Tercero 2</value>
+		<value column="PrintName" original="BP Name2">Nombre Tercero 2</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -17972,8 +17972,8 @@ Invoices and Payment Allocations determine the Open Balance (i.e. not Orders or 
 	</row>
 	<row id="2607" trl="Y">
 		<value column="Name" original="Overwrite Bus.Partner">Sobreescribe Tercero</value>
-		<value column="PrintName" original="Overwrite BPartner">Sobreescribe S. Negocio</value>
-		<value column="Description" original="Overwrite the account segment Business Partner with the value specified">Sobreescriba la cuenta del segmento del S. Negocio con el valor especificado.</value>
+		<value column="PrintName" original="Overwrite BPartner">Sobreescribe Tercero</value>
+		<value column="Description" original="Overwrite the account segment Business Partner with the value specified">Sobreescriba la cuenta del segmento del tercero con el valor especificado.</value>
 		<value column="Help" original="If not overwritten, the value of the original account combination is used. If selected, but not specified, the segment is set to null.">Si no es sobreescrito, el valor de la combinación original de la cuenta se utiliza. Si está seleccionado, pero no especificado, el segmento se fija a la falta de información.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -23643,8 +23643,8 @@ Pare de crédito</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="52010" trl="Y">
-		<value column="Name" original="Module">Modulo</value>
-		<value column="PrintName" original="Module">Modulo</value>
+		<value column="Name" original="Module">Módulo</value>
+		<value column="PrintName" original="Module">Módulo</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23959,8 +23959,8 @@ O - Parametro configurable de la organización.</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="53325" trl="Y">
-		<value column="Name" original="IsUseASP">Es ASP usado</value>
-		<value column="PrintName" original="IsUseASP">Es ASP usado</value>
+		<value column="Name" original="IsUseASP">Utiliza SaaS</value>
+		<value column="PrintName" original="IsUseASP">Utiliza SaaS</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23969,8 +23969,8 @@ O - Parametro configurable de la organización.</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="53326" trl="N">
-		<value column="Name" original="ASP Level">ASP_Level_ID</value>
-		<value column="PrintName" original="ASP Level">ASP_Level_ID</value>
+		<value column="Name" original="ASP Level">Nivel SaaS</value>
+		<value column="PrintName" original="ASP Level">Nivel SaaS</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23979,8 +23979,8 @@ O - Parametro configurable de la organización.</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="53327" trl="N">
-		<value column="Name" original="ASP Status">Estado de ASP</value>
-		<value column="PrintName" original="ASP Status">Estado de ASP</value>
+		<value column="Name" original="ASP Status">Estado SaaS</value>
+		<value column="PrintName" original="ASP Status">Estado SaaS</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23999,8 +23999,8 @@ O - Parametro configurable de la organización.</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="53329" trl="N">
-		<value column="Name" original="ASP Module">ASP_Module_ID</value>
-		<value column="PrintName" original="ASP Module">ASP_Module_ID</value>
+		<value column="Name" original="ASP Module">Módulo SaaS</value>
+		<value column="PrintName" original="ASP Module">Módulo SaaS</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>

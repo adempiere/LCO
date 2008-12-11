@@ -1099,7 +1099,7 @@ Si se selecciona una cuenta, el balance es calculado en base al  tipo de cuenta 
 		<value column="Help" original=""/>
 	</row>
 	<row id="324" trl="Y">
-		<value column="Name" original="Invoice Requests">Factura de solucitud</value>
+		<value column="Name" original="Invoice Requests">Facturar Solicitudes</value>
 		<value column="Description" original="Create Invoice for Requests">Crear factura para solicitud</value>
 		<value column="Help" original="Create invoice for Request Type with optional Request Group, Category for Business Partner.  If the used product for invoicing is not defined, the product defined in the parameter is used.">Cree la factura para el tipo de la solicitud con el grupo opcional de categoria de solicitud, para el tercero. Si el producto usado para facturar no se define, el producto definido en el parámetro se utiliza.</value>
 	</row>
@@ -1311,12 +1311,12 @@ y Recibi/Línea o directamente para el producto.</value>
 		<value column="Help" original="The default period is the current period. You can optionally enter other restrictions.  You can select an alternative Reporting Hierarchy.">El periodo por defecto es el periodo actual. Usted puede opcionalmente ingresar otras restricciones Tambien puede seleccionar una herencia alternativa de reporte.</value>
 	</row>
 	<row id="53065" trl="Y">
-		<value column="Name" original="ASP Generate Fields">SaaS (Software como servicio) Genera Campos</value>
+		<value column="Name" original="ASP Generate Fields">Genera Campos SaaS</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
 	<row id="53067" trl="Y">
-		<value column="Name" original="ASP Generate Level">SaaS (Software como servicio) Genera nivel</value>
+		<value column="Name" original="ASP Generate Level">Genera Nivel SaaS</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>

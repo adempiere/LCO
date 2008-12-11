@@ -1607,7 +1607,7 @@
 		<value column="Description" original="Maintain Product Bill of Materials">Mantener LDM del producto.</value>
 	</row>
 	<row id="535" trl="Y">
-		<value column="Name" original="Invoice Requests">Factura de solucitud</value>
+		<value column="Name" original="Invoice Requests">Facturar Solicitudes</value>
 		<value column="Description" original="Create Invoice for Requests">Crear factura para solicitud</value>
 	</row>
 	<row id="536" trl="Y">

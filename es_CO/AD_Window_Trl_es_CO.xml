@@ -1373,12 +1373,12 @@ Segmentos Contables de la organización deseada, Cuentas, Productos pueden tener
 		<value column="Help" original=""/>
 	</row>
 	<row id="53015" trl="Y">
-		<value column="Name" original="ASP Modules">Modulos ASP</value>
+		<value column="Name" original="ASP Modules">Módulos SaaS</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
 	<row id="53016" trl="Y">
-		<value column="Name" original="ASP Subscribed Modules">Modulos ASP suscritos</value>
+		<value column="Name" original="ASP Subscribed Modules">Módulos SaaS suscritos</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>

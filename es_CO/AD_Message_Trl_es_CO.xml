@@ -4002,7 +4002,7 @@ Compruebe el registro de errores y el formato del archivo Accounting*.cvs - Ning
 		<value column="MsgTip" original=" "></value>
 	</row>
 	<row id="52206" trl="Y">
-		<value column="MsgText" original="Licensed Modules">Modulos Licenciados</value>
+		<value column="MsgText" original="Licensed Modules">Módulos Licenciados</value>
 		<value column="MsgTip" original=" "></value>
 	</row>
 	<row id="52207" trl="Y">
