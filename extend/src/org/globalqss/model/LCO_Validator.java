@@ -859,8 +859,13 @@ public class LCO_Validator implements ModelValidator
 	{
 		Integer taxidtype_I = (Integer) bpartner.get_Value("LCO_TaxIdType_ID");
 		
-		if (taxidtype_I == null)
-			return Msg.getMsg(bpartner.getCtx(), "LCO_TaxIDTypeRequired");
+		if (taxidtype_I == null) {
+			// Returning error here has problems with Initial Client Setup and other processes
+			// that creates BPs
+			// Mandatory must be delegated to UI (in AD_Field.ismandatory)
+			// return Msg.getMsg(bpartner.getCtx(), "LCO_TaxIDTypeRequired");
+			return null;
+		}
 		
 		X_LCO_TaxIdType taxidtype = new X_LCO_TaxIdType(bpartner.getCtx(), taxidtype_I.intValue(), bpartner.get_TrxName());
 		
@@ -909,7 +914,12 @@ public class LCO_Validator implements ModelValidator
 	public String mfillName (MBPartner bpartner)
 	{
 		log.info("");
-		if (! ((Boolean)bpartner.get_Value("IsDetailedNames")).booleanValue()) {
+		boolean isDetailedNames = false;
+		Boolean boolIsDetailedNames = (Boolean)bpartner.get_Value("IsDetailedNames");
+		if (boolIsDetailedNames != null)
+			isDetailedNames = boolIsDetailedNames.booleanValue();
+		
+		if (! isDetailedNames) {
 			bpartner.set_ValueOfColumn("FirstName1", null);
 			bpartner.set_ValueOfColumn("FirstName2", null);
 			bpartner.set_ValueOfColumn("LastName1", null);
