@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="WINDOWS-1252"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <jardesc>
-<jar path="/home/carlos/srcAdempiere/contributions/Localizations/Colombia/packages/packages_LCO340.jar"/>
+<jar path="/home/carlos/srcAdempiere/contributions/Localizations/Colombia/packages/packages_LCO342s.jar"/>
 <options buildIfNeeded="true" compress="true" descriptionLocation="/LCO/generaJar.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
 <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
 <selectedProjects/>
@@ -12,6 +12,6 @@
 </manifest>
 <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
 <javaElement handleIdentifier="=LCO/extend\/src"/>
+<folder path="/LCO/client"/>
 </selectedElements>
-<fatjar builder="org.eclipse.jdt.ui.plain_jar_builder" launchConfig=""/>
 </jardesc>
