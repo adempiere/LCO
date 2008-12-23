@@ -29,6 +29,10 @@
 	<message MsgText="Last Name 1 required" MsgType="I" Value="LCO_LastName1Required" EntityType="QSS_LCO"/>
 	<message MsgText="Invalid characters in Tax ID" MsgType="I" Value="LCO_NotValidID" EntityType="QSS_LCO"/>
 	<message MsgText="Tax ID Type required" MsgType="I" Value="LCO_TaxIDTypeRequired" EntityType="QSS_LCO"/>
+	<message MsgText="Please fill address 1" MsgType="E" Value="LCO_FillAddress1" EntityType="QSS_LCO"/>
+	<message MsgText="Please select region" MsgType="E" Value="LCO_SelectRegion" EntityType="QSS_LCO"/>
+	<message MsgText="Please select city" MsgType="E" Value="LCO_SelectCity" EntityType="QSS_LCO"/>
+	<message MsgText="Please fill city" MsgType="E" Value="LCO_FillCity" EntityType="QSS_LCO"/>
 	<!-- Elements -->
 	<element ColumnName="C_BaseTax_ID" Description="" EntityType="QSS_LCO" Help="" Name="Base Tax" PrintName="Base Tax" PO_Description="" PO_Name="" PO_Help="" PO_PrintName="" IsActive="true"/>
 	<element ColumnName="BaseType" Description="" EntityType="QSS_LCO" Help="" Name="Base Type" PrintName="Base Type" PO_Description="" PO_Name="" PO_Help="" PO_PrintName="" IsActive="true"/>
@@ -615,6 +619,10 @@
 	<SQLStatement DBType="ALL" statement="UPDATE AD_Message_Trl SET IsTranslated='Y', MsgText='Primer apellido requerido' WHERE AD_Message_ID=(SELECT AD_message_ID FROM AD_message w WHERE w.value='LCO_LastName1Required') AND AD_Language LIKE 'es_%'"/>
 	<SQLStatement DBType="ALL" statement="UPDATE AD_Message_Trl SET IsTranslated='Y', MsgText='Caracteres no válidos en documento' WHERE AD_Message_ID=(SELECT AD_message_ID FROM AD_message w WHERE w.value='LCO_NotValidID') AND AD_Language LIKE 'es_%'"/>
 	<SQLStatement DBType="ALL" statement="UPDATE AD_Message_Trl SET IsTranslated='Y', MsgText='Tipo de identificación requerido' WHERE AD_Message_ID=(SELECT AD_message_ID FROM AD_message w WHERE w.value='LCO_TaxIDTypeRequired') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Message_Trl SET IsTranslated='Y', MsgText='Por favor llenar Dirección 1' WHERE AD_Message_ID=(SELECT AD_message_ID FROM AD_message w WHERE w.value='LCO_FillAddress1') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Message_Trl SET IsTranslated='Y', MsgText='Por favor seleccionar región' WHERE AD_Message_ID=(SELECT AD_message_ID FROM AD_message w WHERE w.value='LCO_SelectRegion') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Message_Trl SET IsTranslated='Y', MsgText='Por favor seleccionar ciudad' WHERE AD_Message_ID=(SELECT AD_message_ID FROM AD_message w WHERE w.value='LCO_SelectCity') AND AD_Language LIKE 'es_%'"/>
+	<SQLStatement DBType="ALL" statement="UPDATE AD_Message_Trl SET IsTranslated='Y', MsgText='Por favor llenar ciudad' WHERE AD_Message_ID=(SELECT AD_message_ID FROM AD_message w WHERE w.value='LCO_FillCity') AND AD_Language LIKE 'es_%'"/>
 	<!-- Update AD_Process_Trl -->
 	<SQLStatement DBType="ALL" statement="UPDATE AD_Process_Trl SET IsTranslated='Y', Name='Genera Retenciones' WHERE AD_Process_ID=(SELECT AD_process_ID FROM AD_process w WHERE w.value='LCO_GenerateWithholding') AND AD_Language LIKE 'es_%'"/>
 	<!-- Update AD_Element_Trl -->

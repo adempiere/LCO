@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: Adempiere ERP & CRM Smart Business Solution                        *
+ * Product: Adempiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 1999-2006 ComPiere, Inc. All Rights Reserved.                *
  * This program is free software; you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -16,18 +16,49 @@
  *****************************************************************************/
 package org.compiere.grid.ed;
 
-import java.awt.*;
-import java.awt.event.*;
-import java.util.*;
-import java.util.logging.*;
-import javax.swing.*;
-import org.compiere.apps.*;
-import org.compiere.model.*;
-import org.compiere.swing.*;
-import org.compiere.util.*;
+import java.awt.BorderLayout;
+import java.awt.Frame;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.Insets;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.StringTokenizer;
+import java.util.logging.Level;
 
-import org.adempiere.interfaces.*;
-import org.adempiere.model.*;
+import javax.swing.Box;
+import javax.swing.JComponent;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.SwingConstants;
+
+import org.adempiere.interfaces.PostcodeLookupInterface;
+import org.adempiere.model.Postcode;
+import org.compiere.apps.ADialog;
+import org.compiere.apps.AEnv;
+import org.compiere.apps.ConfirmPanel;
+import org.compiere.model.MCountry;
+import org.compiere.model.MLocation;
+import org.compiere.model.MRegion;
+import org.compiere.model.MSysConfig;
+import org.compiere.model.X_C_City;
+import org.compiere.swing.CButton;
+import org.compiere.swing.CComboBox;
+import org.compiere.swing.CDialog;
+import org.compiere.swing.CLabel;
+import org.compiere.swing.CPanel;
+import org.compiere.swing.CTextField;
+import org.compiere.util.CLogger;
+import org.compiere.util.DB;
+import org.compiere.util.Env;
+import org.compiere.util.KeyNamePair;
+import org.compiere.util.Msg;
 
 /**
  *	Dialog to enter Location Info (Address)
@@ -37,6 +68,11 @@ import org.adempiere.model.*;
  * 
  * @author Teo Sarca, SC ARHIPAC SERVICE SRL
  * 			<li>BF [ 1831060 ] Location dialog should use Address1, Address2 ... elements
+ * 
+ * @author Carlos Ruiz - globalqss
+ *         Version for Localizacion Colombia.
+ *           * Mandatory Address1, Region, City
+ *           * It uses city list instead of text box if sysconfig LCO_USE_CITY_LIST is enabled (and country has cities) 
  */
 public class VLocationDialog extends CDialog 
 	implements ActionListener
@@ -89,9 +125,12 @@ public class VLocationDialog extends CDialog
 			lRegion.setText(m_location.getCountry().getRegionName());	//	name for region
 		fRegion.setSelectedItem(m_location.getRegion());
 		//
+		fCityList = new CComboBox();
 		initLocation();
 		fCountry.addActionListener(this);
 		fOnline.addActionListener(this);
+		fRegion.addActionListener(this);
+		fCityList.addActionListener(this);
 		AEnv.positionCenterWindow(frame, this);
 		
 		
@@ -127,6 +166,7 @@ public class VLocationDialog extends CDialog
 	private CTextField	fAddress3 = new CTextField(20);		//	length=60
 	private CTextField	fAddress4 = new CTextField(20);		//	length=60
 	private CTextField	fCity  = new CTextField(15);		//	length=60
+	private CComboBox	fCityList;
 	private CComboBox	fCountry;
 	private CComboBox	fRegion;
 	private CTextField	fPostal = new CTextField(5);		//	length=10
@@ -136,6 +176,9 @@ public class VLocationDialog extends CDialog
 	private GridBagConstraints gbc = new GridBagConstraints();
 	private Insets labelInsets = new Insets(2,15,2,0);		// 	top,left,bottom,right
 	private Insets fieldInsets = new Insets(2,5,2,10);
+	private boolean inCountryAction;
+	private boolean inRegionAction;
+	private boolean useCityList;
 
 	/**
 	 *	Static component init
@@ -157,20 +200,25 @@ public class VLocationDialog extends CDialog
 	}	//	jbInit
 
 	/**
-	 *	Dynanmic Init & fill fields - Called when Country changes!
+	 *	Dynamic Init & fill fields - Called when Country changes!
 	 */
 	private void initLocation()
 	{
+		if (s_oldCountry_ID == 0) // first_time
+			s_oldCountry_ID = m_location.getC_Country_ID();
 		MCountry country = m_location.getCountry();
 		log.fine(country.getName() + ", Region=" + country.isHasRegion() + " " + country.getDisplaySequence()
 			+ ", C_Location_ID=" + m_location.getC_Location_ID());
-		//	new Region
-		if (m_location.getC_Country_ID() != s_oldCountry_ID && country.isHasRegion())
-		{
-			fRegion = new CComboBox(MRegion.getRegions(Env.getCtx(), country.getC_Country_ID()));
-			if (m_location.getRegion() != null)
-				fRegion.setSelectedItem(m_location.getRegion());
-			lRegion.setText(country.getRegionName());
+		//	Changed country
+		if (m_location.getC_Country_ID() != s_oldCountry_ID) {
+			// clear dependent fields
+			m_location.setRegion(null);
+			m_location.setC_City_ID(0);
+			m_location.setCity(null);
+			m_location.setPostal(null);
+			if (country.isHasRegion()) {
+				lRegion.setText(country.getRegionName());
+			}
 			s_oldCountry_ID = m_location.getC_Country_ID();
 		}
 
@@ -186,37 +234,61 @@ public class VLocationDialog extends CDialog
 		mainPanel.add(Box.createVerticalStrut(5), gbc);    	//	top gap
 
 		int line = 1;
-		addLine(line++, lAddress1, fAddress1);
-		addLine(line++, lAddress2, fAddress2);
-		addLine(line++, lAddress3, fAddress3);
-		addLine(line++, lAddress4, fAddress4);
+
+		// addLine(line++, lOnline, fOnline);
+
+		//  Country First
+		addLine(line++, lCountry, fCountry);
 
 		//  sequence of City Postal Region - @P@ @C@ - @C@, @R@ @P@
+
+		// to be changed by String ds = country.getEditSequence(); when integrated in core
+		// String ds = country.get_ValueAsString("EditSequence");
+		// if (ds == null || ds.length() == 0)
 		String ds = country.getDisplaySequence();
 		if (ds == null || ds.length() == 0)
 		{
 			log.log(Level.SEVERE, "DisplaySequence empty - " + country);
 			ds = "";	//	@C@,  @P@
 		}
+
+		if (ds.contains("@R@")) {
+			// next to country region
+			if (m_location.getCountry().isHasRegion())
+				addLine(line++, lRegion, fRegion);
+		}
+
 		StringTokenizer st = new StringTokenizer(ds, "@", false);
+		useCityList = false;
 		while (st.hasMoreTokens())
 		{
 			String s = st.nextToken();
-			if (s.startsWith("C"))
+			if (s.startsWith("C")) {
+				// if there are cities in the country, then use list, otherwise use a textbox
+				if (MSysConfig.getBooleanValue("LCO_USE_CITY_LIST", false, Env.getAD_Client_ID(Env.getCtx()))) {
+					int cnt = DB.getSQLValue(null, "SELECT COUNT(*) FROM C_City WHERE IsActive='Y' AND C_Country_ID=?", m_location.getCountry().getC_Country_ID());
+					useCityList = (cnt > 0);
+				}
+				if (useCityList)
+					addLine(line++, lCity, fCityList);
+				else
 				addLine(line++, lCity, fCity);
-			else if (s.startsWith("P"))
+			}
+			else if (s.startsWith("P")) {
 				addLine(line++, lPostal, fPostal);
+			}
 			else if (s.startsWith("A"))
 				addLine(line++, lPostalAdd, fPostalAdd);
-			else if (s.startsWith("R") && m_location.getCountry().isHasRegion())
-				addLine(line++, lRegion, fRegion);
 		}
+		addLine(line++, lAddress1, fAddress1);
+		addLine(line++, lAddress2, fAddress2);
+		addLine(line++, lAddress3, fAddress3);
+		addLine(line++, lAddress4, fAddress4);
 		
-		
-		addLine(line++, lOnline, fOnline);
-		
-		//  Country Last
-		addLine(line++, lCountry, fCountry);
+		if (useCityList)
+			fCity.setEnabled(false);
+		else
+			fCity.setEnabled(true);
 
 		//	Fill it
 		if (m_location.getC_Location_ID() != 0)
@@ -231,8 +303,20 @@ public class VLocationDialog extends CDialog
 			fOnline.setText(Msg.getMsg(Env.getCtx(), "Online"));
 			if (m_location.getCountry().isHasRegion())
 			{
+				fillRegion(country.getC_Country_ID());
 				lRegion.setText(m_location.getCountry().getRegionName());
 				fRegion.setSelectedItem(m_location.getRegion());
+				if (m_location.getRegion() != null)
+					fillCityListFromRegion(m_location.getRegion().getC_Region_ID());
+				else
+					fCityList.removeAllItems();
+			} else {
+				fillCityListFromCountry(m_location.getCountry().getC_Country_ID());
+			}
+			if (useCityList) {
+				X_C_City city = new X_C_City(Env.getCtx(), m_location.getC_City_ID(), null);
+				KeyNamePair pcit = new KeyNamePair(city.getC_City_ID(), city.getName());
+				fCityList.setSelectedItem(pcit);
 			}
 			
 			// disable online if this country doesn't have post code lookup
@@ -246,10 +330,32 @@ public class VLocationDialog extends CDialog
 			}
 			
 			fCountry.setSelectedItem(country);
+		} else {
+			// fill defaults if any
+			if (country.isHasRegion()) {
+				fillRegion(country.getC_Country_ID());
+				if (m_location != null && m_location.getRegion() != null)
+					fRegion.setSelectedItem(m_location.getRegion());
+				MRegion r = (MRegion)fRegion.getSelectedItem();
+				if (r != null)
+					fillCityListFromRegion(r.getC_Region_ID());
+				else
+					fCityList.removeAllItems();
+			} else {
+				fillCityListFromCountry(country.getC_Country_ID());
+			}
+
 		}
 		//	Update UI
 		pack();
 	}	//	initLocation
+
+	private void fillRegion(int country_ID) {
+		fRegion.removeAllItems();
+		MRegion[] regs = MRegion.getRegions(Env.getCtx(), country_ID);
+		for (int i = 0; i < regs.length; i++)
+		    fRegion.addItem(regs[i]);
+	}
 
 	/**
 	 *	Add Line to screen
@@ -287,6 +393,13 @@ public class VLocationDialog extends CDialog
 	{
 		if (e.getActionCommand().equals(ConfirmPanel.A_OK))
 		{
+			// LCO
+			String msg = validate_OK();
+			if (msg != null) {
+				ADialog.error(0, this, msg);
+				return;
+			}
+
 			action_OK();
 			m_change = true;
 			dispose();
@@ -300,6 +413,7 @@ public class VLocationDialog extends CDialog
 		//	Country Changed - display in new Format
 		else if (e.getSource() == fCountry)
 		{
+			inCountryAction = true;
 			//	Modifier for Mouse selection is 16  - for any key selection 0
 			MCountry c = (MCountry)fCountry.getSelectedItem();
 			m_location.setCountry(c);
@@ -327,7 +441,8 @@ public class VLocationDialog extends CDialog
 			mainPanel.removeAll();
 			
 			initLocation();
-			fCountry.requestFocus();	//	allows to use Keybord selection
+			fCountry.requestFocus();	//	allows to use Keyboard selection
+			inCountryAction = false;
 		}
 		else if (e.getSource() == fOnline)
 		{
@@ -338,8 +453,116 @@ public class VLocationDialog extends CDialog
 			{
 				lookupPostcode(c, fPostal.getText());
 			}
+		} else if (e.getSource() == fRegion)
+		{
+			if (inCountryAction)
+				return;
+			inRegionAction = true;
+			// Region changed - fill city list
+			MRegion r = (MRegion)fRegion.getSelectedItem();
+			if (r != null)
+				fillCityListFromRegion(r.getC_Region_ID());
+			else
+				fCityList.removeAllItems();
+			inRegionAction = false;
+		}
+		else if (e.getSource() == fCityList)
+		{
+			if (inCountryAction || inRegionAction)
+				return;
+			fillCityName();
 		}
 	}	//	actionPerformed
+
+	// LCO - address 1, region and city required
+	private String validate_OK() {
+		MCountry country = (MCountry)fCountry.getSelectedItem();
+		String ds = country.getDisplaySequence();
+		if (ds.contains("@R@") && m_location.getCountry().isHasRegion())
+		{
+			if (fRegion.getSelectedItem() == null)
+				return Msg.getMsg(Env.getCtx(), "LCO_SelectRegion");
+		}
+		if (ds.contains("@C@")) {
+			if (useCityList) {
+				if (fCityList.getSelectedItem() == null)
+					return Msg.getMsg(Env.getCtx(), "LCO_SelectCity");
+			} else {
+				if (fCity.getText().trim().length() == 0)
+					return Msg.getMsg(Env.getCtx(), "LCO_FillCity");
+			}
+		}
+		if (fAddress1.getText().trim().length() == 0)
+			return Msg.getMsg(Env.getCtx(), "LCO_FillAddress1");
+		return null;
+	}
+
+	private void fillCityName() {
+		if (fCityList.getSelectedItem() != null) {
+			KeyNamePair city = (KeyNamePair) fCityList.getSelectedItem();
+			String cityName = DB.getSQLValueString(null, "SELECT Name From C_City Where C_City_ID=?", city.getKey());
+			if (cityName != null && cityName.trim().length() > 0)
+				fCity.setText(cityName);
+		}
+	}
+
+	/**
+	 *	Fill City List from Region
+	 *  @params region_id
+	 */
+	private void fillCityListFromRegion(int region_ID) {
+		if (! useCityList)
+			return;
+		fCityList.removeAllItems();
+		try
+		{
+			PreparedStatement pstmt = DB.prepareStatement("SELECT C_City_ID, Name From C_City Where IsActive='Y' AND C_Region_ID=? ORDER BY Name", null);
+			pstmt.setInt(1, region_ID);
+			ResultSet rs = pstmt.executeQuery();
+			while (rs.next())
+			{
+				KeyNamePair kn = new KeyNamePair (rs.getInt(1), rs.getString(2));
+				fCityList.addItem(kn);
+			}
+			rs.close();
+			pstmt.close();
+
+		}
+		catch(SQLException et)
+		{
+			log.log(Level.SEVERE, "SQL Error - ", et);
+		}
+		fillCityName();
+	}
+
+	/**
+	 *	Fill City List from Country
+	 *  @params region_id
+	 */
+	private void fillCityListFromCountry(int country_ID) {
+		if (! useCityList)
+			return;
+		fCityList.removeAllItems();
+		try
+		{
+			PreparedStatement pstmt = DB.prepareStatement("SELECT C_City_ID, Name From C_City Where IsActive='Y' AND C_Country_ID=? ORDER BY Name", null);
+			pstmt.setInt(1, country_ID);
+			ResultSet rs = pstmt.executeQuery();
+			while (rs.next())
+			{
+				KeyNamePair kn = new KeyNamePair (rs.getInt(1), rs.getString(2));
+				fCityList.addItem(kn);
+			}
+			rs.close();
+			pstmt.close();
+
+		}
+		catch(SQLException et)
+		{
+			log.log(Level.SEVERE, "SQL Error - ", et);
+		}
+		fillCityName();
+	}
 
 	/**
 	 * 	OK - check for changes (save them) & Exit
@@ -351,6 +574,11 @@ public class VLocationDialog extends CDialog
 		m_location.setAddress3(fAddress3.getText());
 		m_location.setAddress4(fAddress4.getText());
 		m_location.setCity(fCity.getText());
+		if (useCityList) {
+			KeyNamePair city = (KeyNamePair) fCityList.getSelectedItem();
+			if (city != null)
+				m_location.setC_City_ID(city.getKey());
+		}
 		m_location.setPostal(fPostal.getText());
 		m_location.setPostal_Add(fPostalAdd.getText());
 		//  Country/Region
@@ -359,6 +587,7 @@ public class VLocationDialog extends CDialog
 		if (m_location.getCountry().isHasRegion())
 		{
 			MRegion r = (MRegion)fRegion.getSelectedItem();
+			if (r != null)
 			m_location.setRegion(r);
 		}
 		else
