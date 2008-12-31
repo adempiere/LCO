@@ -15488,7 +15488,7 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="Name" original="Bank Statement Matcher">Conciliación de estado de cuenta</value>
 		<value column="PrintName" original="Bank Statement Matcher">Conciliación de estado de cuenta</value>
 		<value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">Algoritmo para conciliar el estado de cuenta, Información a los terceros, a las facturas y pagos de negocio</value>
-		<value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements.  The class needs to implement org.compiere.impexp.BankStatementMatcherInterface">Un algoritmo para encontrar a terceros, facturas, pagos en estados de cuenta importados</value>
+		<value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements.  The class needs to implement org.compiere.impexp.BankStatementMatcherInterface">Un algoritmo para encontrar a terceros, facturas, pagos en estados de cuenta importados. La clase debe implementar org.compiere.impexp.BankStatementMatcherInterface</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>

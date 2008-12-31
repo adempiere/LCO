@@ -2559,7 +2559,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Name" original="Bank Statement Matcher">Estado de Cuenta</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">Algoritmo para coincidir el estado de cuenta que es Información a los terceros, las facturas y los pagos.</value>
-		<value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements. The class need to implement the interface org.compiere.impexp.BankStatementMatcherInterface">Un algoritmo para encontrar a terceros, facturas, pagos en estados de cuenta importados. La necesidad de poner la clase del interfaz en ejecución, org.compiere.impexp.BankStatementMatcherInterface</value>
+		<value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements. The class need to implement the interface org.compiere.impexp.BankStatementMatcherInterface">Un algoritmo para encontrar a terceros, facturas, pagos en estados de cuenta importados. La clase debe implementar la interface org.compiere.impexp.BankStatementMatcherInterface</value>
 	</row>
 	<row id="587" trl="Y">
 		<value column="Name" original="Payment">Pago</value>
