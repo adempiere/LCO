@@ -943,10 +943,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="224" trl="Y">
-		<value column="Name" original="Callout">Llamada</value>
-		<value column="PrintName" original="Callout">Llamada</value>
-		<value column="Description" original="Fully qualified class names and method - separated by semicolons">Llamadas de función separadas por punto y coma; SE_/SL_/UE_/UL_ - 1st: System / User; 2nd: Enter / Leave; 3rd: _ Unserscore; - then function name.</value>
-		<value column="Help" original="A Callout allow you to create Java extensions to perform certain tasks always after a value changed. Callouts should not be used for validation but consquences of a user selecting a certain value.&#10;The callout is a Java class implementing org.compiere.model.Callout and a method name to call.  Example: &quot;org.compiere.model.CalloutRequest.copyText&quot; instanciates the class &quot;CalloutRequest&quot; and calls the method &quot;copyText&quot;. You can have multiple callouts by separating them via a semicolon">Llamadas de función separadas por punto y coma; SE_/SL_/UE_/UL_ - 1st: System / User; 2nd: Enter / Leave; 3rd: _ Unserscore; - then Function Name</value>
+		<value column="Name" original="Callout">Callout</value>
+		<value column="PrintName" original="Callout">Callout</value>
+		<value column="Description" original="Fully qualified class names and method - separated by semicolons">Nombre de clase y método completamente calificados - separados por por punto y coma</value>
+		<value column="Help" original="A Callout allow you to create Java extensions to perform certain tasks always after a value changed. Callouts should not be used for validation but consquences of a user selecting a certain value.&#10;The callout is a Java class implementing org.compiere.model.Callout and a method name to call.  Example: &quot;org.compiere.model.CalloutRequest.copyText&quot; instanciates the class &quot;CalloutRequest&quot; and calls the method &quot;copyText&quot;. You can have multiple callouts by separating them via a semicolon">Un callout le permite crear extensiones Java para ejecutar ciertas tareas siempre que el valor de un campo cambie.  Los callouts no deben ser usados para validaciones, sino para crear consecuencias cuando el usuario cambia algún valor.&#10;El callout es una clase Java que implementa org.compiere.model.Callout y un nombre de método a invocar.  Ejemplo: &quot;org.compiere.model.CalloutRequest.copyText&quot; instancia la clase &quot;CalloutRequest&quot; e invoca el método &quot;copyText&quot;.  Usted puede definir múltiples callouts separándolos por punto y coma</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>

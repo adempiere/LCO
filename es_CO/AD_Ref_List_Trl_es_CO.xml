@@ -3407,15 +3407,15 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="53295" trl="Y">
-		<value column="Name" original="Model Validator Table Event">Evento Validador Model sobre Tabla</value>
+		<value column="Name" original="Model Validator Table Event">Evento Validador Modelosobre Tabla</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53296" trl="Y">
-		<value column="Name" original="Model Validator Document Event">Evento Validador Model sobre Documento</value>
+		<value column="Name" original="Model Validator Document Event">Evento Validador Modelo sobre Documento</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53297" trl="Y">
-		<value column="Name" original="Model Validator Login Event">Evento Validador Model en Ingreso</value>
+		<value column="Name" original="Model Validator Login Event">Evento Validador Modelo en Ingreso</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53299" trl="Y">
@@ -3443,67 +3443,67 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="53305" trl="Y">
-		<value column="Name" original="Document Before Prepare">Documento antes de preparar</value>
+		<value column="Name" original="Document Before Prepare">Documento - Antes de preparar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53306" trl="Y">
-		<value column="Name" original="Document Before Void">Documento antes de anular</value>
+		<value column="Name" original="Document Before Void">Documento - Antes de anular</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53307" trl="Y">
-		<value column="Name" original="Document Before Close">Documento antes de cerrar</value>
+		<value column="Name" original="Document Before Close">Documento - Antes de cerrar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53308" trl="Y">
-		<value column="Name" original="Document Before Reactivate">Documento antes de reactivar</value>
+		<value column="Name" original="Document Before Reactivate">Documento - Antes de reactivar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53309" trl="Y">
-		<value column="Name" original="Document Before Reverse Correct">Documento antes de reversar para corregir</value>
+		<value column="Name" original="Document Before Reverse Correct">Documento - Antes de reversar para corregir</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53310" trl="Y">
-		<value column="Name" original="Document Before Reverse Accrual">Documento antes de reversar causación</value>
+		<value column="Name" original="Document Before Reverse Accrual">Documento - Antes de reversar causación</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53311" trl="Y">
-		<value column="Name" original="Document Before Complete">Documento antes de completar</value>
+		<value column="Name" original="Document Before Complete">Documento - Antes de completar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53312" trl="Y">
-		<value column="Name" original="Document Before Post">Documento antes de contabilizar</value>
+		<value column="Name" original="Document Before Post">Documento - Antes de contabilizar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53313" trl="Y">
-		<value column="Name" original="Document After Prepare">Documento despues de preparar</value>
+		<value column="Name" original="Document After Prepare">Documento - Despues de preparar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53314" trl="Y">
-		<value column="Name" original="Document After Void">Documento despues de anular</value>
+		<value column="Name" original="Document After Void">Documento - Despues de anular</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53315" trl="Y">
-		<value column="Name" original="Document After Close">Documento despues de cerrar</value>
+		<value column="Name" original="Document After Close">Documento - Despues de cerrar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53316" trl="Y">
-		<value column="Name" original="Document After Reactivate">Documento despues de reactivar</value>
+		<value column="Name" original="Document After Reactivate">Documento - Despues de reactivar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53317" trl="Y">
-		<value column="Name" original="Document After Reverse Correct">Documento despues de reversar para corregir</value>
+		<value column="Name" original="Document After Reverse Correct">Documento - Despues de reversar para corregir</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53318" trl="Y">
-		<value column="Name" original="Document After Reverse Accrual">Documento despues de reversar causación</value>
+		<value column="Name" original="Document After Reverse Accrual">Documento - Despues de reversar causación</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53319" trl="Y">
-		<value column="Name" original="Document After Complete">Documento despues de completar</value>
+		<value column="Name" original="Document After Complete">Documento - Despues de completar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53320" trl="Y">
-		<value column="Name" original="Document After Post">Documento despues de contabilizar</value>
+		<value column="Name" original="Document After Post">Documento - Despues de contabilizar</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53321" trl="Y">
