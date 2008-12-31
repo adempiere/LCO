@@ -1022,7 +1022,7 @@ Si está funcionando para el sistema, todos los roles de todos los clientes son 
 	</row>
 	<row id="309" trl="Y">
 		<value column="Name" original="Workflow to Client">Mueve Flujo de Trabajo</value>
-		<value column="Description" original="Move custom workflow elements to the current client">Mueva los elementos de encargo de Flujo de Trabajo al cliente actual.</value>
+		<value column="Description" original="Move custom workflow elements to the current client">Mueva los elementos personalizados de Flujo de Trabajo al cliente actual.</value>
 		<value column="Help" original="The security architecture prevents you from adding client specific modifications/customizations to existing standard workflows.  This process moves your customization made on system level to this client to add client specific details.">La arquitectura de la seguridad evita que usted agrege al cliente modificaciones/arreglos para registros particulares a los Flujos de Trabajo estandares exisentes. Este proceso mueve su arreglo para requisitos particulares hecho en nivel de sistema a este cliente para arreglar los detalles del cliente especifico.</value>
 	</row>
 	<row id="310" trl="Y">

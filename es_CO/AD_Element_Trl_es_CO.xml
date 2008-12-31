@@ -14069,9 +14069,9 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2191" trl="Y">
-		<value column="Name" original="Encryption Class">Clave de Encriptación</value>
-		<value column="PrintName" original="Encryption Class">Clave de Encriptación</value>
-		<value column="Description" original="Encryption Class used for securing data content">Clave de encriptación utilizada para el contenido seguro de datos</value>
+		<value column="Name" original="Encryption Class">Clave de Encripción</value>
+		<value column="PrintName" original="Encryption Class">Clave de Encripción</value>
+		<value column="Description" original="Encryption Class used for securing data content">Clave de encripción utilizada para el contenido seguro de datos</value>
 		<value column="Help" original="The class needs to implement the interface org.compiere.util.SecureInterface.&#10;You enable it by setting the COMPIERE_SECURE parameter of your Client and Server start scripts to the custom class.">Observe que eso que cambia la llave hará todos los datos previamente cifrados ilegibles.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -17943,7 +17943,7 @@ Invoices and Payment Allocations determine the Open Balance (i.e. not Orders or 
 	<row id="2604" trl="Y">
 		<value column="Name" original="Custom Prefix">Prefijo Personalizado</value>
 		<value column="PrintName" original="Custom Prefix">Prefijo Personalizado</value>
-		<value column="Description" original="Prefix for Custom entities">Prefijo para personalizar entidades.</value>
+		<value column="Description" original="Prefix for Custom entities">Prefijo para entidades personalizadas.</value>
 		<value column="Help" original="The prefix listed are ignored as customization for database or entity migration">El prefijo enumerado es ignorado como personalización para base de datos o migración de la entidad.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -20001,10 +20001,8 @@ El Contexto Web Usualmente inicia con / y debe ser un nombre de contexto válido
 	<row id="2815" trl="Y">
 		<value column="Name" original="Replenishment Class">Clase de Reabastecimiento</value>
 		<value column="PrintName" original="Replenishment Class">Clase de Reabastecimiento</value>
-		<value column="Description" original="Custom class to calculate Quantity to Order">Clase Cliente para calcular Cantidad a Ordenar</value>
-		<value column="Help" original="If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">Si usted selecciona un cliente tipo reabastecimiento, ustéd debe crear una implementación de clases 
-
-org.compiere.util.ReplenishInterface y ajustarlo sobre nivel de almacén.</value>
+		<value column="Description" original="Custom class to calculate Quantity to Order">Clase personalizada para calcular Cantidad a Ordenar</value>
+		<value column="Help" original="If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">Si usted selecciona un tipo reabastecimiento personalizado, debe crear una implementación de la clase org.compiere.util.ReplenishInterface y definirlo en la pestaña almacén.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
