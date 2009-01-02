@@ -7523,10 +7523,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1462" trl="Y">
-		<value column="Name" original="Cash Journal">Reembolso Caja Menor</value>
-		<value column="PrintName" original="Cash Journal">Reembolso Caja Menor</value>
+		<value column="Name" original="Cash Journal">Reembolso Diario Caja Menor</value>
+		<value column="PrintName" original="Cash Journal">Reembolso Diario Caja Menor</value>
 		<value column="Description" original="Cash Journal">Reembolso Caja Menor</value>
-		<value column="Help" original="The Cash Journal uniquely identifies a Cash Journal.  The Cash Journal will record transactions for the cash bank account">El reembolso de caja menor identifica únicamente una caja menor. La caja menor registrará las transacciones para la cuenta de bancos</value>
+		<value column="Help" original="The Cash Journal uniquely identifies a Cash Journal.  The Cash Journal will record transactions for the cash bank account">El reembolso diario de caja menor identifica únicamente una caja menor. La caja menor registrará las transacciones para la cuenta de bancos</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -7543,10 +7543,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1464" trl="Y">
-		<value column="Name" original="Cash Journal Line">Línea del Reembolso de Caja Menor</value>
-		<value column="PrintName" original="Cash Line">Línea de Reembolso de Caja Menor</value>
-		<value column="Description" original="Cash Journal Line">Línea del Reembolso de Caja Menor</value>
-		<value column="Help" original="The Cash Journal Line indicates a unique line in a cash journal.">La línea del reembolso de caja menor identifica una línea única en una caja menor.</value>
+		<value column="Name" original="Cash Journal Line">Línea del Reembolso Diario de Caja Menor</value>
+		<value column="PrintName" original="Cash Line">Línea de Reembolso Diario de Caja Menor</value>
+		<value column="Description" original="Cash Journal Line">Línea del Reembolso Diario de Caja Menor</value>
+		<value column="Help" original="The Cash Journal Line indicates a unique line in a cash journal.">La línea del reembolso diario de caja menor identifica una línea única en una caja menor.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>

@@ -403,7 +403,7 @@
 		<value column="Help" original="The Cashbook Window defines the bank and account against which cash transactions will be processed.">Define el banco y cuenta contra la cual las transacciones de efectivo son procesadas.</value>
 	</row>
 	<row id="198" trl="Y">
-		<value column="Name" original="Cash Journal">Reembolso de Caja Menor</value>
+		<value column="Name" original="Cash Journal">Reembolso Diario de Caja Menor</value>
 		<value column="Description" original="Cash transactions">Transacciones de efectivo</value>
 		<value column="Help" original="The Cash Journal Window is used to record disbursements from and receipts to Petty Cash">Esta ventana es usada para registrar los pagos y recibos de una caja menor.</value>
 	</row>
