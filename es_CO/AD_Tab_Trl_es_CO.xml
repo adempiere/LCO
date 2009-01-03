@@ -208,25 +208,25 @@
 	</row>
 	<row id="135" trl="Y">
 		<value column="Name" original="Country">País</value>
-		<value column="CommitWarning" original="Please create a support request (http://www.adempiere.org/support/requests.html), if the country data is not correct."/>
+		<value column="CommitWarning" original="Please create a support request (http://www.adempiere.org/support/requests.html), if the country data is not correct.">Por favor crear un registro de soporte (http://www.adempiere.org/support/requests.html) si los datos del país no son correctos.</value>
 		<value column="Description" original="Define Country">Definir País</value>
 		<value column="Help" original="The Country Tab defines any country in which you do business.  Values entered here are referenced in location records for Business Partners.">La pestaña de país define cada país en la cual se ejecutan negocios. Los valores entrados aquí son referenciados en las direcciones de terceros.</value>
 	</row>
 	<row id="136" trl="Y">
 		<value column="Name" original="Region">Región</value>
-		<value column="CommitWarning" original="Please create a support request (http://www.adempiere.org/support/requests.html), if the region info is not correct/incomplete."/>
+		<value column="CommitWarning" original="Please create a support request (http://www.adempiere.org/support/requests.html), if the region info is not correct/incomplete.">Por favor crear un registro de soporte (http://www.adempiere.org/support/requests.html) si los datos de la región no son correctos.</value>
 		<value column="Description" original="Define Regions">Definir regiones</value>
 		<value column="Help" original="The Region Tab  defines a Region within a Country.  This tab is enabled only if the Has Region checkbox is selected for the Country.">La pestaña de Región define una región dentro de un país. Esta pestaña es activa solamente si en la pestaña de país el cuadro de validación `Tiene Región` ha sido activado.</value>
 	</row>
 	<row id="143" trl="Y">
 		<value column="Name" original="Organization">Organización</value>
-		<value column="CommitWarning" original="All not manually maintained Roles will automatically have access to the new Organziation.&#10;You need restart your application server for most changes made here to be effective."/>
+		<value column="CommitWarning" original="All not manually maintained Roles will automatically have access to the new Organziation.&#10;You need restart your application server for most changes made here to be effective.">Todos los roles no mantenidos en forma manual tendrán acceso automáticamente a la nueva organización.&#10;Debe reiniciar su servidor de aplicaciones para que la mayoría de los cambios hechos aquí surtan efecto.</value>
 		<value column="Description" original="Define Organizations">Definir organizaciones</value>
 		<value column="Help" original="The Organization Tab is used to define an Organization.  Each Organization has a Key and Name and optionally a Description.  &#10;When adding a new organization, you must re-login to be able to access the new organization.">La pestaña de organización es usada para definir una organización. Cada organización tiene una clave y un nombre y opcionalmente una descripción. Cuando se adiciona una nueva organización es necesario salir del sistema y volver a entrar para que se pueda tener acceso a la nueva organización.</value>
 	</row>
 	<row id="145" trl="Y">
 		<value column="Name" original="Client">Compañía</value>
-		<value column="CommitWarning" original="Create a new client via &quot;Initial Client Setup&quot;. You can only change information here!  You need re-login and restart your application server for most changes made here to be effective.  The change of the Material Policy applies to future transactions."/>
+		<value column="CommitWarning" original="Create a new client via &quot;Initial Client Setup&quot;. You can only change information here!  You need re-login and restart your application server for most changes made here to be effective.  The change of the Material Policy applies to future transactions.">La creación de un nuevo cliente debe hacerse por medio de la ventana &quot;Configuración Inicial Compañía&quot;.  Solo debe modificar información aquí!  Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que la mayoría de cambios hechos aquí surtan efecto.  El cambio en la Política de Material aplicará para transacciones futuras.</value>
 		<value column="Description" original="Client/Tenant Definition">Definir Compañías</value>
 		<value column="Help" original="The Client Definition Tab defines a unique client.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; (System Administrator Role) to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">La pestaña de definición de Compañía define una compañía única. No use esta ventana para crear una compañía; use el flujo de trabajo `Definir Compañía` para establecer las reglas de seguridad y de acceso requeridas. Si se crea una compañía aquí; la compañía no podrá ser vista dentro del sistema y su definición de parámetros no sera creada.</value>
 	</row>
@@ -322,13 +322,13 @@
 	</row>
 	<row id="169" trl="Y">
 		<value column="Name" original="Client Info">Información de Compañía</value>
-		<value column="CommitWarning" original="You need re-login and restart your application server for most changes made here to be effective."/>
+		<value column="CommitWarning" original="You need re-login and restart your application server for most changes made here to be effective.">Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que la mayoría de cambios hechos aquí surtan efecto.</value>
 		<value column="Description" original="Client Info">Información de la compañía</value>
 		<value column="Help" original="The Client Info Tab defines the details for each client.  The accounting rules and high level defaults are defined here. The Calendar is used to determine if a period is open or closed.">La pestaña de información de la compañía define los detalles de cada compañía. Las reglas contables y los valores predeterminados de alto nivel son definidos aquí.</value>
 	</row>
 	<row id="170" trl="Y">
 		<value column="Name" original="Organization Info">Información de la Organización</value>
-		<value column="CommitWarning" original="You need re-login and restart your application server for most changes made here to be effective.&#10;"/>
+		<value column="CommitWarning" original="You need re-login and restart your application server for most changes made here to be effective.&#10;">Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que la mayoría de cambios hechos aquí surtan efecto.</value>
 		<value column="Description" original="Organization Detail Information">Información de detalle de la organización</value>
 		<value column="Help" original="The Organization Info Tab is used to define an Organization's address, DUNS number and Tax Identification number">La pestaña de información de la organización es usada para definir una dirección de la organización; el número DUNS y el número identificador de la compañía para efectos fiscales/gubernamentales.</value>
 	</row>
@@ -460,13 +460,13 @@
 	</row>
 	<row id="199" trl="Y">
 		<value column="Name" original="Accounting Schema">Esquema Contable</value>
-		<value column="CommitWarning" original="If you change the currency or costing method, you must to reset t all accounting transactions.&#10;For changes to become effective, you must re-login and re-start the Application Server. "/>
+		<value column="CommitWarning" original="If you change the currency or costing method, you must to reset t all accounting transactions.&#10;For changes to become effective, you must re-login and re-start the Application Server. ">Si cambia la moneda o el método de costeo, debe resetear todas las transacciones contables.&#10;Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que los cambios surtan efecto.</value>
 		<value column="Description" original="Define your Account Schema Structure">Definir estructura del esquema contable</value>
 		<value column="Help" original="The Accounting Schema Tab defines the controls used for accounting.  You can define multiple accounting schema per client (for parallel accounting).  &#10;Postings are generated for an accounting schema, if the schema is valid and you have defined GL and Default accounts and after completion of the Add / Copy Accounts process.">La pestaña de Esquema Contable define los controles para la contabilidad. Cada organización selecciona un esquema contable para su uso.</value>
 	</row>
 	<row id="200" trl="Y">
 		<value column="Name" original="General Ledger">Contabilidad General</value>
-		<value column="CommitWarning" original="For changes to become effective, you must re-login and re-start the Application Server."/>
+		<value column="CommitWarning" original="For changes to become effective, you must re-login and re-start the Application Server.">Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que los cambios surtan efecto.</value>
 		<value column="Description" original="Accounts for GL">Cuentas de la Contabilidad General (CG)</value>
 		<value column="Help" original="The General Ledger Tab defines error and balance handling to use as well as  the necessary accounts for posting to General Ledger.  ">La pestaña Contabilidad General (CG)) define el manejo de error y de balance a usar así como las cuentas necesarias para registrar las transacciones en el libro mayor.</value>
 	</row>
@@ -562,7 +562,7 @@
 	</row>
 	<row id="217" trl="Y">
 		<value column="Name" original="Account Schema Element">Elemento del Esquema Contable</value>
-		<value column="CommitWarning" original="ATTENTION: ANY CHANGES here will effect the structure of your chart of accounts!&#10;Depending what changes you did, you should reset accounting.&#10;For changes to become effective, you must re-login and re-start the Application Server.&#10;Saving/deleting the record starts processes which may take a while."/>
+		<value column="CommitWarning" original="ATTENTION: ANY CHANGES here will effect the structure of your chart of accounts!&#10;Depending what changes you did, you should reset accounting.&#10;For changes to become effective, you must re-login and re-start the Application Server.&#10;Saving/deleting the record starts processes which may take a while.">ATENCION: CUALQUIER CAMBIO que haga aquí afectará la estructura de su plan de cuentas!&#10;Dependiendo de los cambios que haga, debe resetear la contabilidad.&#10;Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que los cambios surtan efecto.</value>
 		<value column="Description" original="Define the elements of your Account Key">Definir los elementos de su cuenta primaria</value>
 		<value column="Help" original="The Account Schema Element Tab defines the elements that comprise the account key. A name is defined which will display in documents.  Also the order of the elements and if they are balanced and mandatory are indicated.">La pestaña Elementos del Esquema Contable define los elementos que comprenden la clave contable. Un nombre es definido el cual se despliega en los documentos. También se indica el orden de los diferentes elementos y si ellos están balanceados y son obligatorios.</value>
 	</row>
