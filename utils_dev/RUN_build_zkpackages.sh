@@ -84,20 +84,16 @@ do
 		exit 1
 	    fi
 	fi
-	# copy all image & sound files from src to the build directory
-	for IMGFILE in `find . -type d -name "images"`
-	do
-	    mkdir -p $BUILD_DIR/`dirname $IMGFILE`/images
-	    cp -p -r $IMGFILE/* $BUILD_DIR/`dirname $IMGFILE`/images
-	done
-	for IMGFILE in `find . -type f \( -name "*.gif" -o -name "*.jpg" -o -name "*.wav" -o -name "*.htm" -o -name "*.html" -o -name "*.properties" \)`
-	do
-	    mkdir -p $BUILD_DIR/`dirname $IMGFILE`
-	    cp $IMGFILE $BUILD_DIR/`dirname $IMGFILE`
-	done
 	cd $PREVDIR
     fi
 done
+
+# Copy images directory
+if [ -d $PATCHES_SOURCE/zkwebui/images ]
+then
+    mkdir -p $BUILD_DIR/images
+    cp -p -r $PATCHES_SOURCE/zkwebui/images/* $BUILD_DIR/images
+fi
 
 jar cf $ADEMPIERE_INSTALL/zkpackages_LCO$ADEMPIERE_VERSION_FILE.jar -C $BUILD_DIR .
 

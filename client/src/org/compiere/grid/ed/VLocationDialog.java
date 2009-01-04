@@ -71,6 +71,7 @@ import org.compiere.util.Msg;
  * 
  * @author Carlos Ruiz - globalqss
  *         Version for Localizacion Colombia.
+ *           * Change order of fields, first country, then region, then according to displaysequence criteria
  *           * Mandatory Address1, Region, City
  *           * It uses city list instead of text box if sysconfig LCO_USE_CITY_LIST is enabled (and country has cities) 
  */
@@ -481,19 +482,19 @@ public class VLocationDialog extends CDialog
 		if (ds.contains("@R@") && m_location.getCountry().isHasRegion())
 		{
 			if (fRegion.getSelectedItem() == null)
-				return Msg.getMsg(Env.getCtx(), "LCO_SelectRegion");
+				return "LCO_SelectRegion";
 		}
 		if (ds.contains("@C@")) {
 			if (useCityList) {
 				if (fCityList.getSelectedItem() == null)
-					return Msg.getMsg(Env.getCtx(), "LCO_SelectCity");
+					return "LCO_SelectCity";
 			} else {
 				if (fCity.getText().trim().length() == 0)
-					return Msg.getMsg(Env.getCtx(), "LCO_FillCity");
+					return "LCO_FillCity";
 			}
 		}
 		if (fAddress1.getText().trim().length() == 0)
-			return Msg.getMsg(Env.getCtx(), "LCO_FillAddress1");
+			return "LCO_FillAddress1";
 		return null;
 	}
 

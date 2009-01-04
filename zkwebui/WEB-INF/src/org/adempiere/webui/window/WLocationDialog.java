@@ -21,6 +21,9 @@
 
 package org.adempiere.webui.window;
 
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.Iterator;
 import java.util.List;
 import java.util.StringTokenizer;
@@ -39,7 +42,10 @@ import org.adempiere.webui.component.Window;
 import org.compiere.model.MCountry;
 import org.compiere.model.MLocation;
 import org.compiere.model.MRegion;
+import org.compiere.model.MSysConfig;
+import org.compiere.model.X_C_City;
 import org.compiere.util.CLogger;
+import org.compiere.util.DB;
 import org.compiere.util.Env;
 import org.compiere.util.Msg;
 import org.zkoss.zk.ui.event.Event;
@@ -52,6 +58,12 @@ import org.zkoss.zk.ui.event.Events;
  * Location Dialog Box
  * This class is based upon VLocationDialog, written by Jorg Janke
  * 
+ * 
+ * @author Carlos Ruiz - globalqss
+ *         Version for Localizacion Colombia.
+ *           * Change order of fields, first country, then region, then according to displaysequence criteria
+ *           * Mandatory Address1, Region, City
+ *           * It uses city list instead of text box if sysconfig LCO_USE_CITY_LIST is enabled (and country has cities) 
  **/
 public class WLocationDialog extends Window implements EventListener
 {
@@ -65,6 +77,7 @@ public class WLocationDialog extends Window implements EventListener
     private Label lblAddress3;
     private Label lblAddress4;
     private Label lblCity;
+    private Label lblCityList;
     private Label lblZip;
     private Label lblRegion;
     private Label lblPostal;
@@ -80,6 +93,7 @@ public class WLocationDialog extends Window implements EventListener
     private Textbox txtPostalAdd;
     private Listbox lstRegion;
     private Listbox lstCountry;
+    private Listbox lstCity;
     
     private Button btnOk;
     private Button btnCancel;
@@ -89,6 +103,9 @@ public class WLocationDialog extends Window implements EventListener
     private MLocation   m_location;
     private int         m_origCountry_ID;
     private int         s_oldCountry_ID = 0;
+	private boolean inCountryAction;
+	private boolean inRegionAction;
+	private boolean useCityList;
     
     public WLocationDialog(String title, MLocation location)
     {
@@ -117,12 +134,16 @@ public class WLocationDialog extends Window implements EventListener
         {
             lstRegion.appendItem(region.getName(),region);
         }
+        lstRegion.addEventListener(Events.ON_SELECT,this);
         if (m_location.getCountry().isHasRegion() &&
         	m_location.getCountry().getRegionName() != null &&
         	m_location.getCountry().getRegionName().trim().length() > 0)
             lblRegion.setValue(m_location.getCountry().getRegionName());   //  name for region
         
         setRegion();
+        
+        lstCity.addEventListener(Events.ON_SELECT,this);
+
         initLocation();
         //               
         this.setWidth("290px");
@@ -133,16 +154,18 @@ public class WLocationDialog extends Window implements EventListener
     
     private void initComponents()
     {
-        lblAddress1     = new Label(Msg.getMsg(Env.getCtx(), "Address")+ " 1");
+        lblAddress1     = new Label(Msg.getElement(Env.getCtx(), "Address1"));
         lblAddress1.setStyle(LABEL_STYLE);
-        lblAddress2     = new Label(Msg.getMsg(Env.getCtx(), "Address")+ " 2");
+        lblAddress2     = new Label(Msg.getElement(Env.getCtx(), "Address2"));
         lblAddress2.setStyle(LABEL_STYLE);
-        lblAddress3     = new Label(Msg.getMsg(Env.getCtx(), "Address")+ " 3");
+        lblAddress3     = new Label(Msg.getElement(Env.getCtx(), "Address3"));
         lblAddress3.setStyle(LABEL_STYLE);
-        lblAddress4     = new Label(Msg.getMsg(Env.getCtx(), "Address")+ " 4");
+        lblAddress4     = new Label(Msg.getElement(Env.getCtx(), "Address4"));
         lblAddress4.setStyle(LABEL_STYLE);
         lblCity         = new Label(Msg.getMsg(Env.getCtx(), "City"));
         lblCity.setStyle(LABEL_STYLE);
+        lblCityList         = new Label(Msg.getMsg(Env.getCtx(), "City"));
+        lblCityList.setStyle(LABEL_STYLE);
         lblZip          = new Label(Msg.getMsg(Env.getCtx(), "Postal"));
         lblZip.setStyle(LABEL_STYLE);
         lblRegion       = new Label(Msg.getMsg(Env.getCtx(), "Region"));
@@ -173,6 +196,11 @@ public class WLocationDialog extends Window implements EventListener
         lstRegion.setMold("select");
         lstRegion.setWidth("154px");
         lstRegion.setRows(0);
+        
+        lstCity      = new Listbox();
+        lstCity.setMold("select");
+        lstCity.setWidth("154px");
+        lstCity.setRows(0);
         
         lstCountry  = new Listbox();
         lstCountry.setMold("select");
@@ -211,6 +239,10 @@ public class WLocationDialog extends Window implements EventListener
         Row pnlCity     = new Row();
         pnlCity.appendChild(lblCity.rightAlign());
         pnlCity.appendChild(txtCity);
+        
+        Row pnlCityList     = new Row();
+        pnlCityList.appendChild(lblCityList.rightAlign());
+        pnlCityList.appendChild(lstCity);
         
         Row pnlPostal   = new Row();
         pnlPostal.appendChild(lblPostal.rightAlign());
@@ -255,51 +287,74 @@ public class WLocationDialog extends Window implements EventListener
     	if (mainPanel.getRows() != null)
     		mainPanel.getRows().getChildren().clear();
     	
+		if (s_oldCountry_ID == 0) // first_time
+			s_oldCountry_ID = m_location.getC_Country_ID();
         MCountry country = m_location.getCountry();
         log.fine(country.getName() + ", Region=" + country.isHasRegion() + " " + country.getDisplaySequence()
             + ", C_Location_ID=" + m_location.getC_Location_ID());
-        //  new Region
-        if (m_location.getC_Country_ID() != s_oldCountry_ID && country.isHasRegion())
-        {
-        	lstRegion.getChildren().clear();
-            for (MRegion region : MRegion.getRegions(Env.getCtx(), country.getC_Country_ID()))
-            {
-                lstRegion.appendItem(region.getName(),region);
-            }
-            if (m_location.getRegion() != null)
-            {
-               setRegion();
-            }
-            s_oldCountry_ID = m_location.getC_Country_ID();
-        }
-        addComponents((Row)txtAddress1.getParent());
-        addComponents((Row)txtAddress2.getParent());
-        addComponents((Row)txtAddress3.getParent());
-        addComponents((Row)txtAddress4.getParent());
+		//	Changed country
+		if (m_location.getC_Country_ID() != s_oldCountry_ID) {
+			// clear dependent fields
+			m_location.setRegion(null);
+			m_location.setC_City_ID(0);
+			m_location.setCity(null);
+			m_location.setPostal(null);
+			if (country.isHasRegion()) {
+				lblRegion.setValue(country.getRegionName());
+			}
+			s_oldCountry_ID = m_location.getC_Country_ID();
+		}
+		
+        //  Country First
+        addComponents((Row)lstCountry.getParent());
+        
 //      sequence of City Postal Region - @P@ @C@ - @C@, @R@ @P@
+
+		// to be changed by String ds = country.getEditSequence(); when integrated in core
+		// String ds = country.get_ValueAsString("EditSequence");
+		// if (ds == null || ds.length() == 0)
         String ds = country.getDisplaySequence();
         if (ds == null || ds.length() == 0)
         {
             log.log(Level.SEVERE, "DisplaySequence empty - " + country);
             ds = "";    //  @C@,  @P@
         }
+
+		if (ds.contains("@R@")) {
+			// next to country region
+			if (m_location.getCountry().isHasRegion())
+                addComponents((Row)lstRegion.getParent());
+		}
+
         StringTokenizer st = new StringTokenizer(ds, "@", false);
+		useCityList = false;
         while (st.hasMoreTokens())
         {
             String s = st.nextToken();
-            if (s.startsWith("C"))
-                addComponents((Row)txtCity.getParent());
-            else if (s.startsWith("P"))
+			if (s.startsWith("C")) {
+				// if there are cities in the country, then use list, otherwise use a textbox
+				if (MSysConfig.getBooleanValue("LCO_USE_CITY_LIST", false, Env.getAD_Client_ID(Env.getCtx()))) {
+					int cnt = DB.getSQLValue(null, "SELECT COUNT(*) FROM C_City WHERE IsActive='Y' AND C_Country_ID=?", m_location.getCountry().getC_Country_ID());
+					useCityList = (cnt > 0);
+				}
+				if (useCityList)
+	                addComponents((Row)lstCity.getParent());
+				else
+	                addComponents((Row)txtCity.getParent());
+			}
+			else if (s.startsWith("P")) {
                 addComponents((Row)txtPostal.getParent());
-            else if (s.startsWith("A"))
+			}
+			else if (s.startsWith("A"))
                 addComponents((Row)txtPostalAdd.getParent());
-            else if (s.startsWith("R") && m_location.getCountry().isHasRegion())
-                addComponents((Row)lstRegion.getParent());
         }
-        //  Country Last
-        addComponents((Row)lstCountry.getParent());
+        
+        addComponents((Row)txtAddress1.getParent());
+        addComponents((Row)txtAddress2.getParent());
+        addComponents((Row)txtAddress3.getParent());
+        addComponents((Row)txtAddress4.getParent());
 
-//      Fill it
+		//      Fill it
         if (m_location.getC_Location_ID() != 0)
         {
             txtAddress1.setText(m_location.getAddress1());
@@ -309,6 +364,23 @@ public class WLocationDialog extends Window implements EventListener
             txtCity.setText(m_location.getCity());
             txtPostal.setText(m_location.getPostal());
             txtPostalAdd.setText(m_location.getPostal_Add());
+			if (m_location.getCountry().isHasRegion())
+			{
+				fillRegion(country.getC_Country_ID());
+				lblRegion.setValue(m_location.getCountry().getRegionName());
+				setRegion();
+				if (m_location.getRegion() != null)
+					fillCityListFromRegion(m_location.getRegion().getC_Region_ID());
+				else
+			    	lstCity.getChildren().clear();
+
+			} else {
+				fillCityListFromCountry(m_location.getCountry().getC_Country_ID());
+			}
+			if (useCityList) {
+				X_C_City city = new X_C_City(Env.getCtx(), m_location.getC_City_ID(), null);
+				setCity(city);
+			}
             if (m_location.getCountry().isHasRegion())
             {
             	if (m_location.getCountry().getRegionName() != null
@@ -317,11 +389,32 @@ public class WLocationDialog extends Window implements EventListener
             	else
             		lblRegion.setValue(Msg.getMsg(Env.getCtx(), "Region"));
             	
-                setRegion();                
             }
             setCountry();
-        }
+		} else {
+			// fill defaults if any
+			if (country.isHasRegion()) {
+				fillRegion(country.getC_Country_ID());
+				if (m_location != null && m_location.getRegion() != null)
+					setRegion();
+				if (lstRegion.getSelectedItem() != null)
+					fillCityListFromRegion(((MRegion)lstRegion.getSelectedItem().getValue()).getC_Region_ID());
+				else
+					lstCity.getChildren().clear();
+			} else {
+				fillCityListFromCountry(country.getC_Country_ID());
+			}
+
+		}
     }
+
+	private void fillRegion(int country_ID) {
+    	lstRegion.getChildren().clear();
+		MRegion[] regs = MRegion.getRegions(Env.getCtx(), country_ID);
+		for (int i = 0; i < regs.length; i++)
+            lstRegion.appendItem(regs[i].getName(),regs[i]);
+	}
+
     private void setCountry()
     {
         List listCountry = lstCountry.getChildren();
@@ -355,6 +448,26 @@ public class WLocationDialog extends Window implements EventListener
     		lstRegion.setSelectedItem(null);
     	}        
     }
+    private void setCity(X_C_City city)
+    {
+    	if (city != null) 
+    	{
+	        List listState = lstCity.getChildren();
+	        Iterator iter = listState.iterator();
+	        while (iter.hasNext())
+	        {
+	            ListItem listitem = (ListItem)iter.next();
+	            if (city.equals(listitem.getValue()))
+	            {
+	            	lstCity.setSelectedItem(listitem);
+	            }
+	        }
+    	}
+    	else
+    	{
+    		lstCity.setSelectedItem(null);
+    	}        
+    }
     /**
      *  Get result
      *  @return true, if changed
@@ -376,6 +489,13 @@ public class WLocationDialog extends Window implements EventListener
     {
         if (btnOk.equals(event.getTarget()))
         {
+			// LCO
+			String msg = validate_OK();
+			if (msg != null) {
+				FDialog.error(0, this, msg);
+				return;
+			}
+
             action_OK();
             m_change = true;
             this.detach();
@@ -389,12 +509,122 @@ public class WLocationDialog extends Window implements EventListener
         //  Country Changed - display in new Format
         else if (lstCountry.equals(event.getTarget()))
         {
+			inCountryAction = true;
             MCountry c = (MCountry)lstCountry.getSelectedItem().getValue();
             m_location.setCountry(c);
             //  refrseh
             initLocation();
-        }        
+			inCountryAction = false;
+		} else if (lstRegion.equals(event.getTarget()))
+		{
+			if (inCountryAction)
+				return;
+			inRegionAction = true;
+			// Region changed - fill city list
+			if (lstRegion.getSelectedItem() != null)
+				fillCityListFromRegion(((MRegion)lstRegion.getSelectedItem().getValue()).getC_Region_ID());
+			else
+				lstCity.getChildren().clear();
+			inRegionAction = false;
+		}
+		else if (lstCity.equals(event.getTarget()))
+		{
+			if (inCountryAction || inRegionAction)
+				return;
+			fillCityName();
+		}
     }
+    
+	// LCO - address 1, region and city required
+	private String validate_OK() {
+		MCountry country = (MCountry)lstCountry.getSelectedItem().getValue();
+		String ds = country.getDisplaySequence();
+		if (ds.contains("@R@") && m_location.getCountry().isHasRegion())
+		{
+			if (lstRegion.getSelectedItem() == null)
+				return "LCO_SelectRegion";
+		}
+		if (ds.contains("@C@")) {
+			if (useCityList) {
+				if (lstCity.getSelectedItem() == null)
+					return "LCO_SelectCity";
+			} else {
+				if (txtCity.getValue().trim().length() == 0)
+					return "LCO_FillCity";
+			}
+		}
+		if (txtAddress1.getValue().trim().length() == 0)
+			return "LCO_FillAddress1";
+		return null;
+	}
+
+	private void fillCityName() {
+		if (lstCity.getSelectedItem() != null) {
+			X_C_City city = (X_C_City) lstCity.getSelectedItem().getValue();
+			String cityName = city.getName();
+			if (cityName != null && cityName.trim().length() > 0)
+				txtCity.setText(cityName);
+		}
+	}
+
+	/**
+	 *	Fill City List from Region
+	 *  @params region_id
+	 */
+	private void fillCityListFromRegion(int region_ID) {
+		if (! useCityList)
+			return;
+		lstCity.getChildren().clear();
+		try
+		{
+			PreparedStatement pstmt = DB.prepareStatement("SELECT * From C_City Where IsActive='Y' AND C_Region_ID=? ORDER BY Name", null);
+			pstmt.setInt(1, region_ID);
+			ResultSet rs = pstmt.executeQuery();
+			while (rs.next())
+			{
+				X_C_City city = new X_C_City(Env.getCtx(), rs, null);
+	            lstCity.appendItem(city.getName(),city);
+			}
+			rs.close();
+			pstmt.close();
+
+		}
+		catch(SQLException et)
+		{
+			log.log(Level.SEVERE, "SQL Error - ", et);
+		}
+		fillCityName();
+	}
+
+	/**
+	 *	Fill City List from Country
+	 *  @params region_id
+	 */
+	private void fillCityListFromCountry(int country_ID) {
+		if (! useCityList)
+			return;
+		lstCity.getChildren().clear();
+		try
+		{
+			PreparedStatement pstmt = DB.prepareStatement("SELECT C_City_ID, Name From C_City Where IsActive='Y' AND C_Country_ID=? ORDER BY Name", null);
+			pstmt.setInt(1, country_ID);
+			ResultSet rs = pstmt.executeQuery();
+			while (rs.next())
+			{
+				X_C_City city = new X_C_City(Env.getCtx(), rs, null);
+	            lstCity.appendItem(city.getName(),city);
+			}
+			rs.close();
+			pstmt.close();
+
+		}
+		catch(SQLException et)
+		{
+			log.log(Level.SEVERE, "SQL Error - ", et);
+		}
+		fillCityName();
+	}
+
     /**
      *  OK - check for changes (save them) & Exit
      */
@@ -405,14 +635,19 @@ public class WLocationDialog extends Window implements EventListener
         m_location.setAddress3(txtAddress3.getValue());
         m_location.setAddress4(txtAddress4.getValue());
         m_location.setCity(txtCity.getValue());
+		if (useCityList) {
+			X_C_City city = (X_C_City) lstCity.getSelectedItem().getValue();
+			if (city != null)
+				m_location.setC_City_ID(city.getC_City_ID());
+		}
         m_location.setPostal(txtPostal.getValue());
         //  Country/Region
         MCountry c = (MCountry)lstCountry.getSelectedItem().getValue();
         m_location.setCountry(c);
         if (m_location.getCountry().isHasRegion())
         {
-            MRegion r = (MRegion)lstRegion.getSelectedItem().getValue();
-            m_location.setRegion(r);
+			if (lstRegion.getSelectedItem() != null)
+				m_location.setRegion((MRegion)lstRegion.getSelectedItem().getValue());
         }
         else
             m_location.setC_Region_ID(0);
