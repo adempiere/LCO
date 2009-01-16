@@ -6554,7 +6554,7 @@
 	</row>
 	<row id="1348" trl="Y">
 		<value column="Name" original="Notice">Aviso</value>
-		<value column="PrintName" original="Notice">Nota</value>
+		<value column="PrintName" original="Notice">Aviso</value>
 		<value column="Description" original="System Notice">Aviso del sistema</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -8413,9 +8413,9 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1576" trl="Y">
-		<value column="Name" original="PO Payment Term">Reglas de Pago en OC</value>
-		<value column="PrintName" original="PO Payment Term">Términos de Pago en OC</value>
-		<value column="Description" original="Payment rules for a purchase order">Reglas de Pago en una Orden de Compra</value>
+		<value column="Name" original="PO Payment Term">Término Pago OC</value>
+		<value column="PrintName" original="PO Payment Term">Término de Pago en OC</value>
+		<value column="Description" original="Payment rules for a purchase order">Término de Pago en una Orden de Compra</value>
 		<value column="Help" original="The PO Payment Term indicates the payment term that will be used when this purchase order becomes an invoice.">Las Condiciones de Pago de la OC indica los términos de pago que serán usados cuando se llegue a facturar esta orden de compra</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -10593,7 +10593,7 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1820" trl="Y">
-		<value column="Name" original="Check Print Format">Formato de Impresión de Cheques</value>
+		<value column="Name" original="Check Print Format">Formato Impresión Cheque</value>
 		<value column="PrintName" original="Check Print Format">Formato de Impresión de Cheques</value>
 		<value column="Description" original="Print Format for printing Checks">Formato de impresión usado para imprimir cheques</value>
 		<value column="Help" original="You need to define a Print Format to print the document.">Es necesario definir un formato para imprimir el documento</value>
@@ -10603,7 +10603,7 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1821" trl="Y">
-		<value column="Name" original="Dunning Print Format">Formato de Impresión de Cobro moroso</value>
+		<value column="Name" original="Dunning Print Format">Formato Impresión Cobro</value>
 		<value column="PrintName" original="Dunning Print Format">Formato de Impresión de cobro moroso</value>
 		<value column="Description" original="Print Format for printing Dunning Letters">Formato de impresión usado para imprimir cartas de pago moroso.</value>
 		<value column="Help" original="You need to define a Print Format to print the document.">Es necesario definir un formato para imprimir el documento.</value>
@@ -10613,7 +10613,7 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1822" trl="Y">
-		<value column="Name" original="Invoice Print Format">Formato de Impresión de facturas</value>
+		<value column="Name" original="Invoice Print Format">Formato Impresión Factura</value>
 		<value column="PrintName" original="Invoice Print Format">Formato de Impresión de facturas</value>
 		<value column="Description" original="Print Format for printing Invoices">Formato de impresión usado para imprimir facturas</value>
 		<value column="Help" original="You need to define a Print Format to print the document.">Es necesario definir un formato para imprimir el documento</value>
@@ -10623,7 +10623,7 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1823" trl="Y">
-		<value column="Name" original="Order Print Format">Formato de Impresión de Ordenes</value>
+		<value column="Name" original="Order Print Format">Formato Impresión Orden</value>
 		<value column="PrintName" original="Order Print Format">Formato de Impresión de ordenes</value>
 		<value column="Description" original="Print Format for Orders, Quotes, Offers">Formato de impresión usado para imprimir ordenes; cotizaciones; ofertas</value>
 		<value column="Help" original="You need to define a Print Format to print the document.">Es necesario definir un formato para imprimir el documento</value>
@@ -10633,8 +10633,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1824" trl="Y">
-		<value column="Name" original="Remittance Print Format">Formato de Impresión de remesas</value>
-		<value column="PrintName" original="Remittance Print Format">Formato de Impresión de remesas</value>
+		<value column="Name" original="Remittance Print Format">Formato Impresión Relación</value>
+		<value column="PrintName" original="Remittance Print Format">Formato de Impresión de Relaciones de Pagos</value>
 		<value column="Description" original="Print Format for separate Remittances">Formato de impresión usado para imprimir remesas separadas</value>
 		<value column="Help" original="You need to define a Print Format to print the document.">Es necesario definir un formato para imprimir el documento</value>
 		<value column="PO_Description" original=""/>
@@ -10643,7 +10643,7 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1825" trl="Y">
-		<value column="Name" original="Shipment Print Format">Formato de Impresión de Despachos</value>
+		<value column="Name" original="Shipment Print Format">Formato Impresión Despacho</value>
 		<value column="PrintName" original="Shipment Print Format">Formato de Impresión de despachos</value>
 		<value column="Description" original="Print Format for Shipments, Receipts, Pick Lists">Formato de impresión usado para imprimir despachos; recibos y listas de recolección.</value>
 		<value column="Help" original="You need to define a Print Format to print the document.">Es necesario definir un formato para imprimir el documento.</value>
@@ -10823,7 +10823,7 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1848" trl="Y">
-		<value column="Name" original="Payment Term Note">Nota del Término de Pago</value>
+		<value column="Name" original="Payment Term Note">Nota Término de Pago</value>
 		<value column="PrintName" original="Payment Term Note">Nota del Término de Pago</value>
 		<value column="Description" original="Note of a Payment Term">Nota de un término de pago</value>
 		<value column="Help" original=""/>
@@ -10863,10 +10863,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1853" trl="Y">
-		<value column="Name" original="Print Table Format">Formato de Impresión de la Tabla</value>
-		<value column="PrintName" original="Table Format">Formato de Tabla</value>
-		<value column="Description" original="Table Format in Reports">Formato de tabla en los Informes</value>
-		<value column="Help" original="Print Table Format determines Fonts, Colors of  the printed Table">Formato de la impresión de tabla determina el tipo de caracter y colores de la tabla impresa</value>
+		<value column="Name" original="Print Table Format">Formato Impresión Grilla</value>
+		<value column="PrintName" original="Table Format">Formato de Grilla</value>
+		<value column="Description" original="Table Format in Reports">Formato de grilla en los Informes</value>
+		<value column="Help" original="Print Table Format determines Fonts, Colors of  the printed Table">Formato de la impresión de grilla determina el tipo de caracter y colores de la grilla impresa</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -11753,9 +11753,9 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1946" trl="Y">
-		<value column="Name" original="Usable Life - Months">Vida Util en - Meses</value>
-		<value column="PrintName" original="Usable life months">Vida Util en - Meses</value>
-		<value column="Description" original="Months of the usable life of the asset">Vida util del activo en Meses</value>
+		<value column="Name" original="Usable Life - Months">Vida Util - Meses</value>
+		<value column="PrintName" original="Usable life months">Vida Util - Meses</value>
+		<value column="Description" original="Months of the usable life of the asset">Vida útil del activo en Meses</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -11763,9 +11763,9 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1947" trl="Y">
-		<value column="Name" original="Usable Life - Years">Vida Util en Años</value>
-		<value column="PrintName" original="Usable life years">Vida Util en Años</value>
-		<value column="Description" original="Years of the usable life of the asset">Vida util del activo en años</value>
+		<value column="Name" original="Usable Life - Years">Vida Util - Años</value>
+		<value column="PrintName" original="Usable life years">Vida Util - Años</value>
+		<value column="Description" original="Years of the usable life of the asset">Vida útil del activo en años</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -12765,7 +12765,7 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2053" trl="Y">
-		<value column="Name" original="Project Print Format">Formato de Impresión del Proyecto</value>
+		<value column="Name" original="Project Print Format">Formato Impresión Proyecto</value>
 		<value column="PrintName" original="Project Print Format">Formato de Impresión del Proyecto</value>
 		<value column="Description" original="Standard Project Print Format">Formato estándar de la impresión del proyecto</value>
 		<value column="Help" original="Standard Project Print Format">Formato estándar de la impresión del proyecto</value>
@@ -13355,8 +13355,8 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2116" trl="Y">
-		<value column="Name" original="Payment Term Key">Clave Término Pagos</value>
-		<value column="PrintName" original="Payment Term Key">Clave Término Pagos</value>
+		<value column="Name" original="Payment Term Key">Clave Término Pago</value>
+		<value column="PrintName" original="Payment Term Key">Clave Término Pago</value>
 		<value column="Description" original="Key of the Payment Term">Clave del término de Pago</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -14775,8 +14775,8 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2265" trl="Y">
-		<value column="Name" original="Shelf Life Days">Días de vida util</value>
-		<value column="PrintName" original="Shelf Life Days">Días de vida util</value>
+		<value column="Name" original="Shelf Life Days">Días de Vida Util</value>
+		<value column="PrintName" original="Shelf Life Days">Días de Vida Util</value>
 		<value column="Description" original="Shelf Life in days based on Product Instance Guarantee Date">Vida útil en días basados en la fecha de garantía de la instancia del producto</value>
 		<value column="Help" original="Shelf Life of products with Guarantee Date instance compared to today.">La vida útil de productos con la instacia de fecha de garantía comparada a la fecha actual.</value>
 		<value column="PO_Description" original=""/>
@@ -18551,10 +18551,10 @@ La secuencia de Ciudad/Región/Postal es determinada con la dirección de format
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2665" trl="Y">
-		<value column="Name" original="Price Precision">Precio preciso</value>
-		<value column="PrintName" original="Price Precision">Precio preciso</value>
+		<value column="Name" original="Price Precision">Precisión Precio</value>
+		<value column="PrintName" original="Price Precision">Precisión Precio</value>
 		<value column="Description" original="Precision (number of decimals) for the Price">Precisión (número de decimales) para el precio.</value>
-		<value column="Help" original="The prices of the price list are rounded to the precision entered.  This allows to have prices with below currency precision, e.g. $0.005. Enter the number of decimals or -1 for no rounding.">Los precios de la lista de precios se redondean a la precisión incorporada. Esto permite tener precios debajo de la precisión actual, ej. $ 0.005. Incorpore el número de decimales o -1 para ningún redondeo.</value>
+		<value column="Help" original="The prices of the price list are rounded to the precision entered.  This allows to have prices with below currency precision, e.g. $0.005. Enter the number of decimals or -1 for no rounding.">Los precios de la lista de precios se redondean a la precisión configurada aquí. Esto permite tener precios con una moneda de precisión menor, ej. $ 0.005. Ingrese el número de decimales o -1 para ningún redondeo.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -22640,11 +22640,10 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="3090" trl="Y">
-		<value column="Name" original="Credit Stop">Pare de crédito</value>
-		<value column="PrintName" original="Credit Stop">	
-Pare de crédito</value>
-		<value column="Description" original="Set the business partner to credit stop">Ajuste de terceros para el pare de credito.</value>
-		<value column="Help" original="If a dunning letter of this level is created, the business partner is set to Credit Stop (needs to be manually changed).">Si una carta de cobro de este nivel es creada, el terceros está configurado para Detener de crédito (tiene que ser cambiado manualmente).</value>
+		<value column="Name" original="Credit Stop">Detener crédito</value>
+		<value column="PrintName" original="Credit Stop">Detener crédito</value>
+		<value column="Description" original="Set the business partner to credit stop">Fijar el tercer en crédito detenido.</value>
+		<value column="Help" original="If a dunning letter of this level is created, the business partner is set to Credit Stop (needs to be manually changed).">Si una carta de cobro de este nivel es creada, el terceros será modificado a Crédito Detenido (tiene que ser cambiado manualmente).</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>

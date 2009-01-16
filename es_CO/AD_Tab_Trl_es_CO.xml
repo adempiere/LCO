@@ -1677,10 +1677,10 @@ Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="435" trl="Y">
-		<value column="Name" original="Print Table Format">Formato de la Tabla de Impresión</value>
+		<value column="Name" original="Print Table Format">Formato Impresión Grilla</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Report Table Format">Definir formato de la tabla del Informe</value>
-		<value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. If you leave the entries empty, the default colors and fonts are used:&lt;br&gt;&#10;Fonts are based on the Font used in the Report; Page Header and Table Header will be bold, the Function Font is Bold-Italic, the Footer Font is two points smaller, the Parameter Font is Italic.">El formato de tabla de impresión permite definir como se imprimen los encabezados de tabla; etc. Si se dejan las entradas en blanco; los colores y fuentes predeterminados son usados: Los fuentes están basados en los fuentes del Informe; encabezados de tabla y de página estarán en negrilla; la fuente de Función es Bold-Italic; la fuente del pie de página es dos puntos más pequeña; la fuente del parámetro es Italic.</value>
+		<value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. If you leave the entries empty, the default colors and fonts are used:&lt;br&gt;&#10;Fonts are based on the Font used in the Report; Page Header and Table Header will be bold, the Function Font is Bold-Italic, the Footer Font is two points smaller, the Parameter Font is Italic.">El formato de impresión de la grilla permite definir como se imprimen los encabezados de tabla; etc. Si se dejan las entradas en blanco; los colores y fuentes predeterminados son usados: Los fuentes están basados en los fuentes del Informe; encabezados de tabla y de página estarán en negrilla; la fuente de Función es Bold-Italic; la fuente del pie de página es dos puntos más pequeña; la fuente del parámetro es Italic.</value>
 	</row>
 	<row id="436" trl="Y">
 		<value column="Name" original="Prepared Payment">Pago Generado</value>
@@ -3923,7 +3923,7 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Name" original="Updates">Actualizaciones</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Subscribers for the Chat Type">Suscriptores para el tipo de charla</value>
-		<value column="Help" original="Subscribers receive updates per email or notice">Suscriptores reciben actualizaciones via email o notificación.</value>
+		<value column="Help" original="Subscribers receive updates per email or notice">Suscriptores reciben actualizaciones via email o aviso.</value>
 	</row>
 	<row id="821" trl="Y">
 		<value column="Name" original="Chat">Charla</value>

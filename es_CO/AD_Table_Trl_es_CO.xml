@@ -837,7 +837,7 @@
 		<value column="Name" original="Print Format Item Trl">Artículo en Formato de Impresión **</value>
 	</row>
 	<row id="523" trl="Y">
-		<value column="Name" original="Print Table Format">Formato de Impresión de la Tabla</value>
+		<value column="Name" original="Print Table Format">Formato Impresión Grilla</value>
 	</row>
 	<row id="524" trl="Y">
 		<value column="Name" original="Dunning Run Line">Línea del Secuencial de Morosidad</value>

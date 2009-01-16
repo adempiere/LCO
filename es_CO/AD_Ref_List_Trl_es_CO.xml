@@ -2335,7 +2335,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="733" trl="Y">
-		<value column="Name" original="Notice">Noticia</value>
+		<value column="Name" original="Notice">Aviso</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="734" trl="Y">
@@ -2343,7 +2343,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="735" trl="Y">
-		<value column="Name" original="EMail+Notice">EMail+Noticia</value>
+		<value column="Name" original="EMail+Notice">EMail+Aviso</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="736" trl="Y">

@@ -183,8 +183,8 @@
 		<value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">La ventana define todos los productos usados por una organización. Estos productos incluyen aquellos vendidos a clientes; los usados para fabricar los productos que son vendidos a clientes y los productos que son comprados por una organización</value>
 	</row>
 	<row id="141" trl="Y">
-		<value column="Name" original="Payment Term">Condiciones de Pago</value>
-		<value column="Description" original="Maintain Payment Terms">Mantener condiciones de pago</value>
+		<value column="Name" original="Payment Term">Término de Pago</value>
+		<value column="Description" original="Maintain Payment Terms">Mantener términos de pago</value>
 		<value column="Help" original="The Payment Terms Window defines the different payment terms that you offer your customers and that are offered to you by your vendors.  Each invoice must contain a Payment Term.  On the standard invoice, the Name and the Document Note of the Payment Term is printed.">La ventana define tanto los términos de pago que se ofrece a los clientes como los que son ofrecidos por los proveedores. Cada factura debe contener un término de pago. En la factura estándar; el Nombre y la Nota de documento del término de pago son impresos.</value>
 	</row>
 	<row id="142" trl="Y">
@@ -588,9 +588,9 @@
 		<value column="Help" original="Before invoicing to customers, check the expense lines to be invoiced">Antes de facturar; revise las líneas de gastos a ser facturadas.</value>
 	</row>
 	<row id="243" trl="Y">
-		<value column="Name" original="Print Table Format">Formato de Tabla de Impresión</value>
-		<value column="Description" original="Define Report Table Format">Definir formato de tabla de informe</value>
-		<value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. Please note that the Report Table FOrmat is cached to improve performance.">El formato de tabla de impresión permite definir como los encabezados de la tabla; etc. son impresos.</value>
+		<value column="Name" original="Print Table Format">Formato Impresión Grilla</value>
+		<value column="Description" original="Define Report Table Format">Definir formato de impresión de la grilla</value>
+		<value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. Please note that the Report Table FOrmat is cached to improve performance.">El formato de impresión de grilla permite definir como los encabezados de la tabla; etc. son impresos.</value>
 	</row>
 	<row id="244" trl="Y">
 		<value column="Name" original="Request Type">Tipo de Solicitud</value>
@@ -1149,7 +1149,7 @@ Antes(!) incorporando transacciones, comience la réplica funcionada al sistema 
 		<value column="Help" original=""/>
 	</row>
 	<row id="355" trl="Y">
-		<value column="Name" original="BOM Change Notice">LDM aviso de cambio</value>
+		<value column="Name" original="BOM Change Notice">Aviso de Cambio de LDM</value>
 		<value column="Description" original="Maintain Bill of Materials (Engineering) Change Notice (Version)">Mantenga la cuenta del aviso de cambio de los materiales (ingeniería) (versión)</value>
 		<value column="Help" original="Change notices can be linked to BOMs or be stand alone.">Los avisos del cambio pueden ser ligados a LDMs o ser soporte solamente.</value>
 	</row>

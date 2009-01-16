@@ -673,8 +673,8 @@ Los costos estan en el actual esquema contable - Las líneas estan en la actual 
 		<value column="Help" original="The Report shows Clicks, which could not be processed (URL not matched to Click Count)">El informe demuestra los tecleos, que no podrían ser procesados (URL no asignada a la cuenta del tecleo)</value>
 	</row>
 	<row id="241" trl="Y">
-		<value column="Name" original="Delete Notices">Eliminar Noticias</value>
-		<value column="Description" original="Delete all Notices">Eliminar todas las Noticias</value>
+		<value column="Name" original="Delete Notices">Eliminar Avisos</value>
+		<value column="Description" original="Delete all Notices">Eliminar todos los Avisos</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="242" trl="Y">
@@ -684,7 +684,7 @@ Los costos estan en el actual esquema contable - Las líneas estan en la actual 
 	</row>
 	<row id="243" trl="Y">
 		<value column="Name" original="Validate">Validar</value>
-		<value column="Description" original="Validate Payment Terms and Schedule">Validar Programa de Pagos</value>
+		<value column="Description" original="Validate Payment Terms and Schedule">Validar Términos de Pago y Programa</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="244" trl="Y">

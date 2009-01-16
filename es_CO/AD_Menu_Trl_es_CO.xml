@@ -99,7 +99,7 @@
 		<value column="Description" original="Maintain Products">Mantener Productos</value>
 	</row>
 	<row id="127" trl="Y">
-		<value column="Name" original="Payment Term">Condiciones de Pago</value>
+		<value column="Name" original="Payment Term">Término de Pago</value>
 		<value column="Description" original="Maintain Payment Terms">Mantener condiciones de pago</value>
 	</row>
 	<row id="128" trl="Y">
@@ -791,8 +791,8 @@
 		<value column="Description" original="Create AP Invoices from Expenses to be paid to employees">Crear facturas de CXP desde gastos a ser reembolsados a empleados</value>
 	</row>
 	<row id="331" trl="Y">
-		<value column="Name" original="Print Table Format">Formato de Tabla de Impresión</value>
-		<value column="Description" original="Define Report Table Format">Definir formato de tabla de informe</value>
+		<value column="Name" original="Print Table Format">Formato Impresión Grilla</value>
+		<value column="Description" original="Define Report Table Format">Definir formato de impresión de la grilla</value>
 	</row>
 	<row id="332" trl="Y">
 		<value column="Name" original="Request Type">Tipo de Solicitud</value>
@@ -1599,7 +1599,7 @@
 		<value column="Description" original="Maintain Remuneration">Mantener Renumeración</value>
 	</row>
 	<row id="533" trl="Y">
-		<value column="Name" original="BOM Change Notice">LDM aviso de cambio</value>
+		<value column="Name" original="BOM Change Notice">Aviso de Cambio de LDM</value>
 		<value column="Description" original="Maintain Bill of Materials (Engineering) Change Notice (Version)">Mantenga la cuenta del aviso de cambio de los materiales (ingeniería) (versión)</value>
 	</row>
 	<row id="534" trl="Y">
