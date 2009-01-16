@@ -2,12 +2,17 @@
 <adempiereAD Name="LCO_RetencionesData" Version="1.0" CompVer="all" DataBase="1.0" Description="Data for Localization for Colombian Taxes" creator="info@globalqss.com" creatorcontact="info@globalqss.com" createddate="2007-05-09 00:00:00.0" updateddate="2007-05-09 00:00:00.0" PackOutVer="005">
 	<data clientname="GardenWorld">
 		<dtable name="C_TaxCategory">
+			<drow name="IVA 16%">
+				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
+				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
+				<dcolumn name="Name" class="String" value="IVA 16%"/>
+				<dcolumn name="IsDefault" class="Yes-No" value="Y"/>
+				<dcolumn name="IsWithholding" class="Yes-No" value="N"/>
+			</drow>
 			<drow name="Retención en la fuente">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="Retención en la fuente"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="CommodityCode" class="String" value="null"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsWithholding" class="Yes-No" value="Y"/>
 			</drow>
@@ -15,8 +20,6 @@
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="Retención IVA"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="CommodityCode" class="String" value="null"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsWithholding" class="Yes-No" value="Y"/>
 			</drow>
@@ -24,8 +27,6 @@
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="Retención ICA"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="CommodityCode" class="String" value="null"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsWithholding" class="Yes-No" value="Y"/>
 			</drow>
@@ -33,22 +34,34 @@
 	</data>
 	<data>
 		<dtable name="C_Tax">
+			<drow name="IVA 16%">
+				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
+				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
+				<dcolumn name="Name" class="String" value="IVA 16%"/>
+				<dcolumn name="IsDocumentLevel" class="Yes-No" value="N"/>
+				<dcolumn name="ValidFrom" class="Date" value="2006-01-01 00:00:00.0"/>
+				<dcolumn name="IsSummary" class="Yes-No" value="N"/>
+				<dcolumn name="RequiresTaxCertificate" class="Yes-No" value="N"/>
+				<dcolumn name="Rate" class="Number" value="16"/>
+				<dcolumn name="C_Country_ID" class="Table" value="156"/>
+				<dcolumn name="To_Country_ID" class="Table" value="156"/>
+				<dcolumn name="C_TaxCategory_ID" class="Table Direct" lookupname="IVA 16%"/>
+				<dcolumn name="IsDefault" class="Yes-No" value="Y"/>
+				<dcolumn name="IsTaxExempt" class="Yes-No" value="N"/>
+				<dcolumn name="SOPOType" class="List" value="B"/>
+				<dcolumn name="IsSalesTax" class="Yes-No" value="N"/>
+			</drow>
 			<drow name="ICA 4,14 * 1000">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="ICA 4,14 * 1000"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="TaxIndicator" class="String" value="null"/>
 				<dcolumn name="IsDocumentLevel" class="Yes-No" value="N"/>
 				<dcolumn name="ValidFrom" class="Date" value="2006-01-01 00:00:00.0"/>
 				<dcolumn name="IsSummary" class="Yes-No" value="N"/>
 				<dcolumn name="RequiresTaxCertificate" class="Yes-No" value="N"/>
 				<dcolumn name="Rate" class="Number" value="0.414"/>
-				<dcolumn name="Parent_Tax_ID" class="Table" value="null"/>
 				<dcolumn name="C_Country_ID" class="Table" value="156"/>
-				<dcolumn name="C_Region_ID" class="Table" value="null"/>
 				<dcolumn name="To_Country_ID" class="Table" value="156"/>
-				<dcolumn name="To_Region_ID" class="Table" value="null"/>
 				<dcolumn name="C_TaxCategory_ID" class="Table Direct" lookupname="Retención ICA"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsTaxExempt" class="Yes-No" value="N"/>
@@ -59,18 +72,13 @@
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="ICA 7 * 1000"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="TaxIndicator" class="String" value="null"/>
 				<dcolumn name="IsDocumentLevel" class="Yes-No" value="N"/>
 				<dcolumn name="ValidFrom" class="Date" value="2006-01-01 00:00:00.0"/>
 				<dcolumn name="IsSummary" class="Yes-No" value="N"/>
 				<dcolumn name="RequiresTaxCertificate" class="Yes-No" value="N"/>
 				<dcolumn name="Rate" class="Number" value="0.7"/>
-				<dcolumn name="Parent_Tax_ID" class="Table" value="null"/>
 				<dcolumn name="C_Country_ID" class="Table" value="156"/>
-				<dcolumn name="C_Region_ID" class="Table" value="null"/>
 				<dcolumn name="To_Country_ID" class="Table" value="156"/>
-				<dcolumn name="To_Region_ID" class="Table" value="null"/>
 				<dcolumn name="C_TaxCategory_ID" class="Table Direct" lookupname="Retención ICA"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsTaxExempt" class="Yes-No" value="N"/>
@@ -81,18 +89,13 @@
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="ICA 8 * 1000"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="TaxIndicator" class="String" value="null"/>
 				<dcolumn name="IsDocumentLevel" class="Yes-No" value="N"/>
 				<dcolumn name="ValidFrom" class="Date" value="2006-01-01 00:00:00.0"/>
 				<dcolumn name="IsSummary" class="Yes-No" value="N"/>
 				<dcolumn name="RequiresTaxCertificate" class="Yes-No" value="N"/>
 				<dcolumn name="Rate" class="Number" value="0.8"/>
-				<dcolumn name="Parent_Tax_ID" class="Table" value="null"/>
 				<dcolumn name="C_Country_ID" class="Table" value="156"/>
-				<dcolumn name="C_Region_ID" class="Table" value="null"/>
 				<dcolumn name="To_Country_ID" class="Table" value="156"/>
-				<dcolumn name="To_Region_ID" class="Table" value="null"/>
 				<dcolumn name="C_TaxCategory_ID" class="Table Direct" lookupname="Retención ICA"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsTaxExempt" class="Yes-No" value="N"/>
@@ -103,18 +106,13 @@
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="ICA 9.66 * 1000"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="TaxIndicator" class="String" value="null"/>
 				<dcolumn name="IsDocumentLevel" class="Yes-No" value="N"/>
 				<dcolumn name="ValidFrom" class="Date" value="2006-01-01 00:00:00.0"/>
 				<dcolumn name="IsSummary" class="Yes-No" value="N"/>
 				<dcolumn name="RequiresTaxCertificate" class="Yes-No" value="N"/>
 				<dcolumn name="Rate" class="Number" value="0.966"/>
-				<dcolumn name="Parent_Tax_ID" class="Table" value="null"/>
 				<dcolumn name="C_Country_ID" class="Table" value="156"/>
-				<dcolumn name="C_Region_ID" class="Table" value="null"/>
 				<dcolumn name="To_Country_ID" class="Table" value="156"/>
-				<dcolumn name="To_Region_ID" class="Table" value="null"/>
 				<dcolumn name="C_TaxCategory_ID" class="Table Direct" lookupname="Retención ICA"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsTaxExempt" class="Yes-No" value="N"/>
@@ -125,18 +123,13 @@
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="ICA 11.04 * 1000"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="TaxIndicator" class="String" value="null"/>
 				<dcolumn name="IsDocumentLevel" class="Yes-No" value="N"/>
 				<dcolumn name="ValidFrom" class="Date" value="2006-01-01 00:00:00.0"/>
 				<dcolumn name="IsSummary" class="Yes-No" value="N"/>
 				<dcolumn name="RequiresTaxCertificate" class="Yes-No" value="N"/>
 				<dcolumn name="Rate" class="Number" value="1.104"/>
-				<dcolumn name="Parent_Tax_ID" class="Table" value="null"/>
 				<dcolumn name="C_Country_ID" class="Table" value="156"/>
-				<dcolumn name="C_Region_ID" class="Table" value="null"/>
 				<dcolumn name="To_Country_ID" class="Table" value="156"/>
-				<dcolumn name="To_Region_ID" class="Table" value="null"/>
 				<dcolumn name="C_TaxCategory_ID" class="Table Direct" lookupname="Retención ICA"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsTaxExempt" class="Yes-No" value="N"/>
@@ -147,18 +140,13 @@
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="ICA 13.8 * 1000"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="TaxIndicator" class="String" value="null"/>
 				<dcolumn name="IsDocumentLevel" class="Yes-No" value="N"/>
 				<dcolumn name="ValidFrom" class="Date" value="2006-01-01 00:00:00.0"/>
 				<dcolumn name="IsSummary" class="Yes-No" value="N"/>
 				<dcolumn name="RequiresTaxCertificate" class="Yes-No" value="N"/>
 				<dcolumn name="Rate" class="Number" value="1.38"/>
-				<dcolumn name="Parent_Tax_ID" class="Table" value="null"/>
 				<dcolumn name="C_Country_ID" class="Table" value="156"/>
-				<dcolumn name="C_Region_ID" class="Table" value="null"/>
 				<dcolumn name="To_Country_ID" class="Table" value="156"/>
-				<dcolumn name="To_Region_ID" class="Table" value="null"/>
 				<dcolumn name="C_TaxCategory_ID" class="Table Direct" lookupname="Retención ICA"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsTaxExempt" class="Yes-No" value="N"/>
@@ -169,18 +157,13 @@
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="ReteFte 3.5%"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="TaxIndicator" class="String" value="null"/>
 				<dcolumn name="IsDocumentLevel" class="Yes-No" value="N"/>
 				<dcolumn name="ValidFrom" class="Date" value="2006-01-01 00:00:00.0"/>
 				<dcolumn name="IsSummary" class="Yes-No" value="N"/>
 				<dcolumn name="RequiresTaxCertificate" class="Yes-No" value="N"/>
 				<dcolumn name="Rate" class="Number" value="3.5"/>
-				<dcolumn name="Parent_Tax_ID" class="Table" value="null"/>
 				<dcolumn name="C_Country_ID" class="Table" value="156"/>
-				<dcolumn name="C_Region_ID" class="Table" value="null"/>
 				<dcolumn name="To_Country_ID" class="Table" value="156"/>
-				<dcolumn name="To_Region_ID" class="Table" value="null"/>
 				<dcolumn name="C_TaxCategory_ID" class="Table Direct" lookupname="Retención en la fuente"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsTaxExempt" class="Yes-No" value="N"/>
@@ -191,18 +174,13 @@
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="retencion iva 8% sobre documento"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="TaxIndicator" class="String" value="null"/>
 				<dcolumn name="IsDocumentLevel" class="Yes-No" value="N"/>
 				<dcolumn name="ValidFrom" class="Date" value="2006-01-01 00:00:00.0"/>
 				<dcolumn name="IsSummary" class="Yes-No" value="N"/>
 				<dcolumn name="RequiresTaxCertificate" class="Yes-No" value="N"/>
 				<dcolumn name="Rate" class="Number" value="8"/>
-				<dcolumn name="Parent_Tax_ID" class="Table" value="null"/>
 				<dcolumn name="C_Country_ID" class="Table" value="156"/>
-				<dcolumn name="C_Region_ID" class="Table" value="null"/>
 				<dcolumn name="To_Country_ID" class="Table" value="156"/>
-				<dcolumn name="To_Region_ID" class="Table" value="null"/>
 				<dcolumn name="C_TaxCategory_ID" class="Table Direct" lookupname="Retención IVA"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsTaxExempt" class="Yes-No" value="N"/>
@@ -213,18 +191,13 @@
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="ReteFte 11%"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="TaxIndicator" class="String" value="null"/>
 				<dcolumn name="IsDocumentLevel" class="Yes-No" value="N"/>
 				<dcolumn name="ValidFrom" class="Date" value="2006-01-01 00:00:00.0"/>
 				<dcolumn name="IsSummary" class="Yes-No" value="N"/>
 				<dcolumn name="RequiresTaxCertificate" class="Yes-No" value="N"/>
 				<dcolumn name="Rate" class="Number" value="11"/>
-				<dcolumn name="Parent_Tax_ID" class="Table" value="null"/>
 				<dcolumn name="C_Country_ID" class="Table" value="156"/>
-				<dcolumn name="C_Region_ID" class="Table" value="null"/>
 				<dcolumn name="To_Country_ID" class="Table" value="156"/>
-				<dcolumn name="To_Region_ID" class="Table" value="null"/>
 				<dcolumn name="C_TaxCategory_ID" class="Table Direct" lookupname="Retención en la fuente"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsTaxExempt" class="Yes-No" value="N"/>
@@ -235,18 +208,13 @@
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="ICA 6.9 * 1000"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="TaxIndicator" class="String" value="null"/>
 				<dcolumn name="IsDocumentLevel" class="Yes-No" value="N"/>
 				<dcolumn name="ValidFrom" class="Date" value="2006-01-01 00:00:00.0"/>
 				<dcolumn name="IsSummary" class="Yes-No" value="N"/>
 				<dcolumn name="RequiresTaxCertificate" class="Yes-No" value="N"/>
 				<dcolumn name="Rate" class="Number" value="0.69"/>
-				<dcolumn name="Parent_Tax_ID" class="Table" value="null"/>
 				<dcolumn name="C_Country_ID" class="Table" value="156"/>
-				<dcolumn name="C_Region_ID" class="Table" value="null"/>
 				<dcolumn name="To_Country_ID" class="Table" value="156"/>
-				<dcolumn name="To_Region_ID" class="Table" value="null"/>
 				<dcolumn name="C_TaxCategory_ID" class="Table Direct" lookupname="Retención ICA"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsTaxExempt" class="Yes-No" value="N"/>
@@ -257,18 +225,13 @@
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="retencion iva 50%"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="TaxIndicator" class="String" value="null"/>
 				<dcolumn name="IsDocumentLevel" class="Yes-No" value="N"/>
 				<dcolumn name="ValidFrom" class="Date" value="2006-01-01 00:00:00.0"/>
 				<dcolumn name="IsSummary" class="Yes-No" value="N"/>
 				<dcolumn name="RequiresTaxCertificate" class="Yes-No" value="N"/>
 				<dcolumn name="Rate" class="Number" value="50"/>
-				<dcolumn name="Parent_Tax_ID" class="Table" value="null"/>
 				<dcolumn name="C_Country_ID" class="Table" value="156"/>
-				<dcolumn name="C_Region_ID" class="Table" value="null"/>
 				<dcolumn name="To_Country_ID" class="Table" value="156"/>
-				<dcolumn name="To_Region_ID" class="Table" value="null"/>
 				<dcolumn name="C_TaxCategory_ID" class="Table Direct" lookupname="Retención IVA"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsTaxExempt" class="Yes-No" value="N"/>
@@ -279,18 +242,13 @@
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="ReteFte 10%"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="TaxIndicator" class="String" value="null"/>
 				<dcolumn name="IsDocumentLevel" class="Yes-No" value="N"/>
 				<dcolumn name="ValidFrom" class="Date" value="2006-01-01 00:00:00.0"/>
 				<dcolumn name="IsSummary" class="Yes-No" value="N"/>
 				<dcolumn name="RequiresTaxCertificate" class="Yes-No" value="N"/>
 				<dcolumn name="Rate" class="Number" value="10"/>
-				<dcolumn name="Parent_Tax_ID" class="Table" value="null"/>
 				<dcolumn name="C_Country_ID" class="Table" value="156"/>
-				<dcolumn name="C_Region_ID" class="Table" value="null"/>
 				<dcolumn name="To_Country_ID" class="Table" value="156"/>
-				<dcolumn name="To_Region_ID" class="Table" value="null"/>
 				<dcolumn name="C_TaxCategory_ID" class="Table Direct" lookupname="Retención en la fuente"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsTaxExempt" class="Yes-No" value="N"/>
@@ -301,18 +259,13 @@
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="ReteFte 6%"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="TaxIndicator" class="String" value="null"/>
 				<dcolumn name="IsDocumentLevel" class="Yes-No" value="N"/>
 				<dcolumn name="ValidFrom" class="Date" value="2006-01-01 00:00:00.0"/>
 				<dcolumn name="IsSummary" class="Yes-No" value="N"/>
 				<dcolumn name="RequiresTaxCertificate" class="Yes-No" value="N"/>
 				<dcolumn name="Rate" class="Number" value="6"/>
-				<dcolumn name="Parent_Tax_ID" class="Table" value="null"/>
 				<dcolumn name="C_Country_ID" class="Table" value="156"/>
-				<dcolumn name="C_Region_ID" class="Table" value="null"/>
 				<dcolumn name="To_Country_ID" class="Table" value="156"/>
-				<dcolumn name="To_Region_ID" class="Table" value="null"/>
 				<dcolumn name="C_TaxCategory_ID" class="Table Direct" lookupname="Retención en la fuente"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsTaxExempt" class="Yes-No" value="N"/>
@@ -323,18 +276,13 @@
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="ReteFte 4%"/>
-				<dcolumn name="Description" class="String" value="null"/>
-				<dcolumn name="TaxIndicator" class="String" value="null"/>
 				<dcolumn name="IsDocumentLevel" class="Yes-No" value="N"/>
 				<dcolumn name="ValidFrom" class="Date" value="2006-01-01 00:00:00.0"/>
 				<dcolumn name="IsSummary" class="Yes-No" value="N"/>
 				<dcolumn name="RequiresTaxCertificate" class="Yes-No" value="N"/>
 				<dcolumn name="Rate" class="Number" value="4"/>
-				<dcolumn name="Parent_Tax_ID" class="Table" value="null"/>
 				<dcolumn name="C_Country_ID" class="Table" value="156"/>
-				<dcolumn name="C_Region_ID" class="Table" value="null"/>
 				<dcolumn name="To_Country_ID" class="Table" value="156"/>
-				<dcolumn name="To_Region_ID" class="Table" value="null"/>
 				<dcolumn name="C_TaxCategory_ID" class="Table Direct" lookupname="Retención en la fuente"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="IsTaxExempt" class="Yes-No" value="N"/>
@@ -4239,42 +4187,36 @@
 		<dtable name="LCO_TaxPayerType">
 			<drow key1name="LCO_TaxPayerType_ID" name="Gran Contribuyente - Autoretenedor">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="Description" class="Text" value="null"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="Name" class="String" value="Gran Contribuyente - Autoretenedor"/>
 			</drow>
 			<drow key1name="LCO_TaxPayerType_ID" name="Régimen Común - Autoretenedor">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="Description" class="Text" value="null"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="Name" class="String" value="Régimen Común - Autoretenedor"/>
 			</drow>
 			<drow key1name="LCO_TaxPayerType_ID" name="Gran Contribuyente - No Autoretenedor">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="Description" class="Text" value="null"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="Name" class="String" value="Gran Contribuyente - No Autoretenedor"/>
 			</drow>
 			<drow key1name="LCO_TaxPayerType_ID" name="Régimen Común - No Autoretenedor">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="Description" class="Text" value="null"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="Régimen Común - No Autoretenedor"/>
 			</drow>
 			<drow key1name="LCO_TaxPayerType_ID" name="Régimen Simplificado">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="Description" class="Text" value="null"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="Name" class="String" value="Régimen Simplificado"/>
 			</drow>
 			<drow key1name="LCO_TaxPayerType_ID" name="Cliente Extranjero">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="Description" class="Text" value="null"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="IsDefault" class="Yes-No" value="N"/>
 				<dcolumn name="Name" class="String" value="Cliente Extranjero"/>
@@ -4471,42 +4413,36 @@
 		<dtable name="LCO_WithholdingType">
 			<drow name="Retención de IVA CxP">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="Description" class="String" value="null"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="Retención de IVA CxP"/>
 				<dcolumn name="IsSOTrx" class="Yes-No" value="N"/>
 			</drow>
 			<drow name="Retención de ICA CxC">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="Description" class="String" value="null"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="Retención de ICA CxC"/>
 				<dcolumn name="IsSOTrx" class="Yes-No" value="Y"/>
 			</drow>
 			<drow name="Retención en la Fuente CxC">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="Description" class="String" value="null"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="Retención en la Fuente CxC"/>
 				<dcolumn name="IsSOTrx" class="Yes-No" value="Y"/>
 			</drow>
 			<drow name="Retención de IVA CxC">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="Description" class="String" value="null"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="Retención de IVA CxC"/>
 				<dcolumn name="IsSOTrx" class="Yes-No" value="Y"/>
 			</drow>
 			<drow name="Retención de ICA CxP">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="Description" class="String" value="null"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="Retención de ICA CxP"/>
 				<dcolumn name="IsSOTrx" class="Yes-No" value="N"/>
 			</drow>
 			<drow name="Retención en la Fuente CxP">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
-				<dcolumn name="Description" class="String" value="null"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="Name" class="String" value="Retención en la Fuente CxP"/>
 				<dcolumn name="IsSOTrx" class="Yes-No" value="N"/>
@@ -4577,5 +4513,10 @@
 			</drow>
 		</dtable>
 	</data>
+	<!-- set generate withholding on document types -->
+	<SQLStatement DBType="ALL" statement="UPDATE C_DOCTYPE SET GenerateWithholding = 'Y' WHERE DocBaseType IN ('API','APC') AND AD_Client_ID=(SELECT AD_Client_ID FROM AD_Client WHERE Name='GardenWorld')"/>
+	<SQLStatement DBType="ALL" statement="UPDATE C_DOCTYPE SET GenerateWithholding = 'A' WHERE DocBaseType IN ('ARI','ARC') AND AD_Client_ID=(SELECT AD_Client_ID FROM AD_Client WHERE Name='GardenWorld')"/>
+	<!-- create default account for new taxes -->
+	<SQLStatement DBType="ALL" statement="UPDATE C_DOCTYPE SET GenerateWithholding = 'N' WHERE GenerateWithholding IS NULL"/>
 	<SQLStatement DBType="ALL" statement="INSERT INTO C_Tax_Acct (C_Tax_ID, C_AcctSchema_ID, AD_Client_ID, AD_Org_ID, IsActive, Created, CreatedBy, Updated, UpdatedBy, T_Due_Acct, T_Liability_Acct, T_Credit_Acct, T_Receivables_Acct, T_Expense_Acct) SELECT t.C_Tax_ID, s.C_Acctschema_ID, t.AD_Client_ID, t.AD_Org_ID, t.IsActive, t.Created, t.CreatedBy, t.Updated, t.UpdatedBy, ad.T_Due_Acct, ad.T_Liability_Acct, ad.T_Credit_Acct, ad.T_Receivables_Acct, ad.T_Expense_Acct FROM C_Tax t, C_AcctSchema s, C_AcctSchema_Default ad WHERE ad.C_AcctSchema_ID = s.C_AcctSchema_ID AND s.AD_Client_ID = t.AD_Client_ID AND NOT EXISTS (SELECT 1 FROM C_Tax_Acct WHERE C_Tax_Acct.C_Tax_ID = t.C_Tax_ID)"/>
 </adempiereAD>
