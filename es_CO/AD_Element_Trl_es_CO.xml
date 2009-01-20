@@ -683,8 +683,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="195" trl="Y">
-		<value column="Name" original="Currency To">Moneda A</value>
-		<value column="PrintName" original="Currency To">Moneda A</value>
+		<value column="Name" original="Currency To">Moneda Hacia</value>
+		<value column="PrintName" original="Currency To">Moneda Hacia</value>
 		<value column="Description" original="Target currency">Moneda a convertir.</value>
 		<value column="Help" original="The Currency To defines the target currency for this conversion rate.">La Moneda A define la moneda destino para esta tasa de conversión.</value>
 		<value column="PO_Description" original=""/>
@@ -1073,8 +1073,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="244" trl="Y">
-		<value column="Name" original="ISO Country Code">Código ISO del País</value>
-		<value column="PrintName" original="ISO Country">Código ISO del País</value>
+		<value column="Name" original="ISO Country Code">Código ISO País</value>
+		<value column="PrintName" original="ISO Country">Código ISO País</value>
 		<value column="Description" original="Upper-case two-letter alphanumeric ISO Country code according to ISO 3166-1 - http://www.chemie.fu-berlin.de/diverse/doc/ISO_3166.html">Código ISO de país alfanumérico en mayúsculas de acuerdo al ISO 3166-1 -http://www.chemie.fu-berlin.de/diverse/doc/ISO_3166.html</value>
 		<value column="Help" original="For details - http://www.din.de/gremien/nas/nabd/iso3166ma/codlstp1.html or - http://www.unece.org/trade/rec/rec03en.htm">Para detalles - http://www.din.de/gremien/nas/nabd/iso3166ma/codlstp1.html or - http://www.unece.org/trade/rec/rec03en.htm</value>
 		<value column="PO_Description" original=""/>
@@ -1643,8 +1643,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="328" trl="Y">
-		<value column="Name" original="ISO Currency Code">Código ISO</value>
-		<value column="PrintName" original="ISO Currency">Código ISO</value>
+		<value column="Name" original="ISO Currency Code">Código ISO Moneda</value>
+		<value column="PrintName" original="ISO Currency">Código ISO Moneda</value>
 		<value column="Description" original="Three letter ISO 4217 Code of the Currency">Código ISO 4217 de la moneda</value>
 		<value column="Help" original="For details - http://www.unece.org/trade/rec/rec09en.htm">Para detalles ver - http://www.unece.org/trade/rec/rec09en.htm</value>
 		<value column="PO_Description" original=""/>
@@ -5193,8 +5193,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1108" trl="Y">
-		<value column="Name" original="ISO Language Code">Código de Leguaje ISO</value>
-		<value column="PrintName" original="ISO Language">Código de Leguaje ISO</value>
+		<value column="Name" original="ISO Language Code">Código ISO Lenguaje</value>
+		<value column="PrintName" original="ISO Language">Código ISO Lenguaje</value>
 		<value column="Description" original="Lower-case two-letter ISO-3166 code - http://www.ics.uci.edu/pub/ietf/http/related/iso639.txt ">Código de dos letras minúsculas ISO-3166 - http://www.ics.uci.edu/pub/ietf/http/related/iso639.txt</value>
 		<value column="Help" original="The ISO Language Code indicates the standard ISO code for a language in lower case.  Information can be found at http://www.ics.uci.edu/pub/ietf/http/related/iso639.txt ">El Código de Lenguaje ISO indica el código estándar ISO para un lenguaje en letra minúscula. La información puede ser encontrada en http://www.ics.uci.edu/pub/ietf/http/related/iso639.txt</value>
 		<value column="PO_Description" original=""/>
@@ -15105,8 +15105,8 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2304" trl="Y">
-		<value column="Name" original="ISO Currency To Code">Codigo ISO actual de Moneda</value>
-		<value column="PrintName" original="ISO Currency To">Codigo ISO Actual</value>
+		<value column="Name" original="ISO Currency To Code">Codigo ISO Moneda Hacia</value>
+		<value column="PrintName" original="ISO Currency To">Codigo ISO Moneda Hacia</value>
 		<value column="Description" original="Three letter ISO 4217 Code of the To Currency">Tres letras ISO 4217 código actual para la moneda</value>
 		<value column="Help" original="For details - http://www.unece.org/trade/rec/rec09en.htm">Para detalles ver - http://www.unece.org/trade/rec/rec09en.htm</value>
 		<value column="PO_Description" original=""/>
