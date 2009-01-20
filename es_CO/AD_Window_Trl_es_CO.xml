@@ -13,9 +13,9 @@
 		<value column="Help" original="The Reference Window defines field/display types and validations. This window is for System Admin use only.">La ventana de referencia define cada tipo de campo y sus parámetros. Esta ventana es para uso del administrador del sistema solamente</value>
 	</row>
 	<row id="102" trl="Y">
-		<value column="Name" original="Window, Tab &amp; Field">Ventana; Pestaña y Campo</value>
-		<value column="Description" original="Maintain Windows, Tabs &amp; Fields">Mantener ventanas; pestañas y campos</value>
-		<value column="Help" original="The Window, Tab &amp; Field Window defines the presentation of tables and columns within each window.">La ventana de ventana; pestaña y campo define la presentación de tablas y columnas dentro de cada ventana</value>
+		<value column="Name" original="Window, Tab &amp; Field">Ventana, Pestaña y Campo</value>
+		<value column="Description" original="Maintain Windows, Tabs &amp; Fields">Mantener ventanas, pestañas y campos</value>
+		<value column="Help" original="The Window, Tab &amp; Field Window defines the presentation of tables and columns within each window.">La ventana de ventana, pestaña y campo define la presentación de tablas y columnas dentro de cada ventana</value>
 	</row>
 	<row id="103" trl="Y">
 		<value column="Name" original="Validation Rules">Reglas de Validación</value>
@@ -35,7 +35,7 @@
 	<row id="106" trl="Y">
 		<value column="Name" original="Language">Lenguaje</value>
 		<value column="Description" original="Maintain Languages">Mantener Lenguajes</value>
-		<value column="Help" original="The Language Window allows you to define multiple parallel language for users. This allows users to access the same data but have the windows, tabs and fields appear in different languages.&#10;If a language is a System Language, you can change the User Interface to this language (after translation).  Otherwise the language is only used for printing documents.&#10;&#10;For the language code, we suggest using the Java convention of country and language (e.g. fr_CN - Canadian French).&#10;&#10;Verify the translation creates missing translation records. Start this process after creating a new language.">La ventana de lenguaje permite definir múltiples lenguajes paralelos para los usuarios. Esto permite a los usuarios acceder a los mismos datos pero tener ventanas; pestañas y campos desplegados en lenguajes. Si un lenguaje es un lenguaje del sistema; se puede cambiar la interfase de usuario a este lenguaje (después de traducirlo); de otra manera; el lenguaje será usado solo para imprimir documentos. Para códigos de lenguaje; se sugiere usar la convención Java de país y lenguaje (ej. fr_CN para francés de Canada). El verificar el lenguaje crea los registros de traducción faltantes. Comience este proceso después de crear un nuevo lenguaje.</value>
+		<value column="Help" original="The Language Window allows you to define multiple parallel language for users. This allows users to access the same data but have the windows, tabs and fields appear in different languages.&#10;If a language is a System Language, you can change the User Interface to this language (after translation).  Otherwise the language is only used for printing documents.&#10;&#10;For the language code, we suggest using the Java convention of country and language (e.g. fr_CN - Canadian French).&#10;&#10;Verify the translation creates missing translation records. Start this process after creating a new language.">La ventana de lenguaje permite definir múltiples lenguajes paralelos para los usuarios. Esto permite a los usuarios acceder a los mismos datos pero tener ventanas, pestañas y campos desplegados en lenguajes. Si un lenguaje es un lenguaje del sistema, se puede cambiar la interfase de usuario a este lenguaje (después de traducirlo), de otra manera, el lenguaje será usado solo para imprimir documentos. Para códigos de lenguaje, se sugiere usar la convención Java de país y lenguaje (ej. fr_CN para francés de Canada). El verificar el lenguaje crea los registros de traducción faltantes. Comience este proceso después de crear un nuevo lenguaje.</value>
 	</row>
 	<row id="107" trl="Y">
 		<value column="Name" original="Matched Invoices">Facturas Asignadas a Recibos</value>
@@ -50,7 +50,7 @@
 	<row id="109" trl="Y">
 		<value column="Name" original="Client">Compañía</value>
 		<value column="Description" original="Maintain Clients/Tenants">Mantener Compañías</value>
-		<value column="Help" original="The Client is the highest level of an independent business entity.  Each Client will have one or more Organizations reporting to it.  Each Client defines the accounting parameters (Accounting Schema, Tree definition, Non Monetary UOM's). To create new Clients, run the Initial Client Setup with the System Administrator Role.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">La Compañía es el nivel mas alto de una entidad de negocios independiente. Cada compañía puede tener una o más organizaciones reportando a ella. Cada compañía define los parámetros contables (esquema contable; definición de árbol; unidades de medida no monetarias). No use esta ventana para crear la compañía; use el flujo de trabajo `Definir Compañía` para establecer las reglas de seguridad y de acceso requeridas. Si se crea una compañía aquí; la compañía no podrá ser vista dentro del sistema y su definición de parámetros no sera creada.</value>
+		<value column="Help" original="The Client is the highest level of an independent business entity.  Each Client will have one or more Organizations reporting to it.  Each Client defines the accounting parameters (Accounting Schema, Tree definition, Non Monetary UOM's). To create new Clients, run the Initial Client Setup with the System Administrator Role.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">La Compañía es el nivel mas alto de una entidad de negocios independiente. Cada compañía puede tener una o más organizaciones reportando a ella. Cada compañía define los parámetros contables (esquema contable, definición de árbol, unidades de medida no monetarias). No use esta ventana para crear la compañía, use el flujo de trabajo `Definir Compañía` para establecer las reglas de seguridad y de acceso requeridas. Si se crea una compañía aquí, la compañía no podrá ser vista dentro del sistema y su definición de parámetros no sera creada.</value>
 	</row>
 	<row id="110" trl="Y">
 		<value column="Name" original="Organization">Organización</value>
@@ -60,7 +60,7 @@
 	<row id="111" trl="Y">
 		<value column="Name" original="Role">Rol</value>
 		<value column="Description" original="Maintain User Responsibilities">Mantener Responsabilidades del Usuario</value>
-		<value column="Help" original="The Role Window allows you to define the different roles that users of this system will have.  Roles control access to windows, tasks, reports, etc. For a client an Administrator and User role are predefined. You may add additional roles to control access for specific functionality or data.&#10;You can add users to the role.&#10;Note that access information is cached and requires re-login or reset of cache.">La ventana de rol permite definir los roles diferentes que los usuarios de este sistema tendrán. Los roles controlan el acceso a las ventanas; tareas; informes; etc. Para una compañía un rol de administrador y de usuario son predefinidos. Es posible adicionar roles para controlar el acceso a funcionalidad específica o datos. Los usuarios son adicionados a los roles</value>
+		<value column="Help" original="The Role Window allows you to define the different roles that users of this system will have.  Roles control access to windows, tasks, reports, etc. For a client an Administrator and User role are predefined. You may add additional roles to control access for specific functionality or data.&#10;You can add users to the role.&#10;Note that access information is cached and requires re-login or reset of cache.">La ventana de rol permite definir los roles diferentes que los usuarios de este sistema tendrán. Los roles controlan el acceso a las ventanas, tareas, informes, etc. Para una compañía un rol de administrador y de usuario son predefinidos. Es posible adicionar roles para controlar el acceso a funcionalidad específica o datos. Los usuarios son adicionados a los roles</value>
 	</row>
 	<row id="112" trl="Y">
 		<value column="Name" original="Document Sequence">Secuencia de Documentos</value>
@@ -70,7 +70,7 @@
 	<row id="113" trl="Y">
 		<value column="Name" original="Workflow">Flujo de Trabajo</value>
 		<value column="Description" original="Maintain Workflow">Mantener flujo de trabajo</value>
-		<value column="Help" original="The Workflow Window defines Workflows in the system, the access level for the Workflow and the Nodes or Steps within the Workflow.">La ventana de flujo de trabajo define los flujos; nivel de acceso y los nodos o pasos de los flujos de trabajo.</value>
+		<value column="Help" original="The Workflow Window defines Workflows in the system, the access level for the Workflow and the Nodes or Steps within the Workflow.">La ventana de flujo de trabajo define los flujos, nivel de acceso y los nodos o pasos de los flujos de trabajo.</value>
 	</row>
 	<row id="114" trl="Y">
 		<value column="Name" original="Task">Tarea</value>
@@ -100,7 +100,7 @@
 	<row id="120" trl="Y">
 		<value column="Name" original="Unit of Measure">Unidad de Medida</value>
 		<value column="Description" original="Maintain Unit of Measure ">Mantener Unidad de Medida</value>
-		<value column="Help" original="The Unit of Measure Window is used to define non monetary units of measure.  It also defines if conversion between units of measure are allowed and how they are to be performed. The system provides some automatic conversions between units of measures (e.g. minute, hour, day, working day, etc.) if they are not explicitly defined here.&#10;Conversions need to be direct (i.e. if you have only a conversion between A-B and B-C, the system cannot convert A-C, you need to define it explicitly).">Esta ventana es usada para definir unidades de medida (UOM) de índole no monetarias. También define si la conversión entre unidades de medida es permitida y como debe ser calculada. El sistema provee algunas conversiones automáticas (ej. Minuto; hora; día; etc.) si ellas no son definidas explícitamente aquí. Las conversiones deben ser directas (ej. Si solo se tiene una conversión entre A-B y B-C; el sistema no puede convertir entre A-C; es necesario definir explícitamente la conversión).</value>
+		<value column="Help" original="The Unit of Measure Window is used to define non monetary units of measure.  It also defines if conversion between units of measure are allowed and how they are to be performed. The system provides some automatic conversions between units of measures (e.g. minute, hour, day, working day, etc.) if they are not explicitly defined here.&#10;Conversions need to be direct (i.e. if you have only a conversion between A-B and B-C, the system cannot convert A-C, you need to define it explicitly).">Esta ventana es usada para definir unidades de medida (UOM) de índole no monetarias. También define si la conversión entre unidades de medida es permitida y como debe ser calculada. El sistema provee algunas conversiones automáticas (ej. Minuto, hora, día, etc.) si ellas no son definidas explícitamente aquí. Las conversiones deben ser directas (ej. Si solo se tiene una conversión entre A-B y B-C, el sistema no puede convertir entre A-C, es necesario definir explícitamente la conversión).</value>
 	</row>
 	<row id="121" trl="Y">
 		<value column="Name" original="Location">Localización</value>
@@ -115,12 +115,12 @@
 	<row id="123" trl="Y">
 		<value column="Name" original="Business Partner">Tercero</value>
 		<value column="Description" original="Maintain Business Partners">Mantener terceros</value>
-		<value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Esta ventana permite definir a cualquier ente con el cual se tenga relación de negocios (Terceros). Esto incluye clientes; proveedores y empleados. Antes de entrar o importar productos; es necesario definir proveedores. La ventana mantiene toda la información sobre los tercerso y los valores que aqui se definan; serán usados en todas las transacciones de documentos de la aplicación.</value>
+		<value column="Help" original="The Business Partner window allows you do define any party with whom you transact.  This includes customers, vendors and employees.  Prior to entering or importing products, you must define your vendors.  Prior to generating Orders you must define your customers.  This window holds all information about your business partner and the values entered will be used to generate all document transactions">Esta ventana permite definir a cualquier ente con el cual se tenga relación de negocios (Terceros). Esto incluye clientes, proveedores y empleados. Antes de entrar o importar productos, es necesario definir proveedores. La ventana mantiene toda la información sobre los tercerso y los valores que aqui se definan, serán usados en todas las transacciones de documentos de la aplicación.</value>
 	</row>
 	<row id="125" trl="Y">
 		<value column="Name" original="Accounting Schema">Esquema Contable</value>
 		<value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">Mantener esquema de contabilidad-para que los cambios aparezcan hay que salir y entrar a la aplicación de nuevo</value>
-		<value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.&#10;">Esta ventana define un método contable y los elementos que comprenderán la estructura de cuentas. Permite crear y activar elementos para la contabilidad detallada de terceros; Productos; Localizaciones; etc. También permite revisar y cambiar las cuentas del libro mayor y los valores predeterminados. Las cuentas que son usadas en las transacciones dependen de la organización que ejecuta la transacción.</value>
+		<value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.&#10;">Esta ventana define un método contable y los elementos que comprenderán la estructura de cuentas. Permite crear y activar elementos para la contabilidad detallada de terceros, Productos, Localizaciones, etc. También permite revisar y cambiar las cuentas del libro mayor y los valores predeterminados. Las cuentas que son usadas en las transacciones dependen de la organización que ejecuta la transacción.</value>
 	</row>
 	<row id="127" trl="Y">
 		<value column="Name" original="Test">Prueba</value>
@@ -134,7 +134,7 @@
 	</row>
 	<row id="129" trl="Y">
 		<value column="Name" original="Preference">Preferencia</value>
-		<value column="Description" original="Maintain System Client Org and User Preferences">Mantener sistema; cliente; Org. Y preferencias de usuario</value>
+		<value column="Description" original="Maintain System Client Org and User Preferences">Mantener sistema, cliente, Org. Y preferencias de usuario</value>
 		<value column="Help" original="System Admin use only.">Para uso del administrador de sistema solamente.</value>
 	</row>
 	<row id="130" trl="Y">
@@ -165,7 +165,7 @@
 	<row id="137" trl="Y">
 		<value column="Name" original="Tax Rate">Tasa de Impuesto</value>
 		<value column="Description" original="Maintain Taxes and their Rates">Mantener Impuestos y sus tasas</value>
-		<value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example, Sales Tax must be defined for each State in which it applies.">La ventana permite definir los diferentes impuestos usados para cada categoría de impuestos. Por ejemplo; el impuesto de ventas debe estar definido para cada estado en el cual aplique.</value>
+		<value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example, Sales Tax must be defined for each State in which it applies.">La ventana permite definir los diferentes impuestos usados para cada categoría de impuestos. Por ejemplo, el impuesto de ventas debe estar definido para cada estado en el cual aplique.</value>
 	</row>
 	<row id="138" trl="Y">
 		<value column="Name" original="Tax Category">Categoría de Impuesto</value>
@@ -180,17 +180,17 @@
 	<row id="140" trl="Y">
 		<value column="Name" original="Product">Producto</value>
 		<value column="Description" original="Maintain Products">Mantener Productos</value>
-		<value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">La ventana define todos los productos usados por una organización. Estos productos incluyen aquellos vendidos a clientes; los usados para fabricar los productos que son vendidos a clientes y los productos que son comprados por una organización</value>
+		<value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">La ventana define todos los productos usados por una organización. Estos productos incluyen aquellos vendidos a clientes, los usados para fabricar los productos que son vendidos a clientes y los productos que son comprados por una organización</value>
 	</row>
 	<row id="141" trl="Y">
 		<value column="Name" original="Payment Term">Término de Pago</value>
 		<value column="Description" original="Maintain Payment Terms">Mantener términos de pago</value>
-		<value column="Help" original="The Payment Terms Window defines the different payment terms that you offer your customers and that are offered to you by your vendors.  Each invoice must contain a Payment Term.  On the standard invoice, the Name and the Document Note of the Payment Term is printed.">La ventana define tanto los términos de pago que se ofrece a los clientes como los que son ofrecidos por los proveedores. Cada factura debe contener un término de pago. En la factura estándar; el Nombre y la Nota de documento del término de pago son impresos.</value>
+		<value column="Help" original="The Payment Terms Window defines the different payment terms that you offer your customers and that are offered to you by your vendors.  Each invoice must contain a Payment Term.  On the standard invoice, the Name and the Document Note of the Payment Term is printed.">La ventana define tanto los términos de pago que se ofrece a los clientes como los que son ofrecidos por los proveedores. Cada factura debe contener un término de pago. En la factura estándar, el Nombre y la Nota de documento del término de pago son impresos.</value>
 	</row>
 	<row id="142" trl="Y">
 		<value column="Name" original="Shipper">Transportista</value>
 		<value column="Description" original="Maintain Shippers">Mantener Transportistas</value>
-		<value column="Help" original="The Shipper Window defines the different shipping provides used by an Organization.  When a delivery method of Shipper is used on an Order a predefined Shipper must be selected.">La ventana define los diferentes proveedores de despachos que usa una organización. Cuando un método de despacho es usado en una orden; un transportador debe ser seleccionado</value>
+		<value column="Help" original="The Shipper Window defines the different shipping provides used by an Organization.  When a delivery method of Shipper is used on an Order a predefined Shipper must be selected.">La ventana define los diferentes proveedores de despachos que usa una organización. Cuando un método de despacho es usado en una orden, un transportador debe ser seleccionado</value>
 	</row>
 	<row id="143" trl="Y">
 		<value column="Name" original="Sales Order">Ordenes de Venta</value>
@@ -200,12 +200,12 @@
 	<row id="144" trl="Y">
 		<value column="Name" original="Product Category">Categoría de Producto</value>
 		<value column="Description" original="Maintain Product Categories">Mantener categorías de producto</value>
-		<value column="Help" original="The Product Category allows you to define different groups of products.  These groups can be used in generating Price Lists, defining margins and for easily assigning different accounting parameters for products.">La categoría de producto permite definir diferentes grupos de productos. Estos grupos pueden ser usados para generar listas de precios; definir margenes; y asignar de manera fácil los diferentes parámetros contables a los productos.</value>
+		<value column="Help" original="The Product Category allows you to define different groups of products.  These groups can be used in generating Price Lists, defining margins and for easily assigning different accounting parameters for products.">La categoría de producto permite definir diferentes grupos de productos. Estos grupos pueden ser usados para generar listas de precios, definir margenes, y asignar de manera fácil los diferentes parámetros contables a los productos.</value>
 	</row>
 	<row id="146" trl="Y">
 		<value column="Name" original="Price List">Lista de Precios</value>
 		<value column="Description" original="Maintain Product Price Lists">Mantener lista de precios y producto</value>
-		<value column="Help" original="The Price List Window allows you to generate product price lists for your Business Partners.  Price lists determine currency and tax treatment.  Price list versions allow to maintain parallel lists for different date ranges.  The most current pricelist version is used based on the document date.&#10;&lt;BR&gt;&#10;All pricelists have three prices: List, Standard and Limit&#10;&lt;BR&gt;&#10;First step is to create a base price list.  You can manually add products and enter the prices or create them automatically.  The base price list is often the purchase price list with list price ('official' retail price), the standard price (your purchase price).  The limit price can be used to check your final purchase costs after discounts, rebates, etc.&#10;&lt;BR&gt; &#10;Pricelists can be calculated and copied.  To speed up the calculation, the parameters are stored an used when creating a new price list version.">Esta venta permite generar precios de lista para sus terceros. Las Listas de precio determinan la moneda y el tratamiento contable. Las versiones de lista de precios permiten mantener listas paralelas para diferentes rangos de fecha. La versión más actualizada es usada con base a la fecha del documento. Todas las listas tienen tres precios: lista; estándar y límite. El primer paso es crear una lista de precios base. Es posible adicionar manualmente productos y entrar sus precios o crearlos automáticamente. La lista de precios base es frecuentemente la lista de precios de compra de productos con precio de lista (precio sugerido de venta); el precio estándar (su precio de compra). El precio limite puede ser usado para revisar sus costos de compra finales después de descuentos; rebajas y otros. Las listas de precio pueden ser calculadas y copiadas; para acelerar su cálculo; los parámetros son almacenados cuando se crea una nueva versión de precio de lista</value>
+		<value column="Help" original="The Price List Window allows you to generate product price lists for your Business Partners.  Price lists determine currency and tax treatment.  Price list versions allow to maintain parallel lists for different date ranges.  The most current pricelist version is used based on the document date.&#10;&lt;BR&gt;&#10;All pricelists have three prices: List, Standard and Limit&#10;&lt;BR&gt;&#10;First step is to create a base price list.  You can manually add products and enter the prices or create them automatically.  The base price list is often the purchase price list with list price ('official' retail price), the standard price (your purchase price).  The limit price can be used to check your final purchase costs after discounts, rebates, etc.&#10;&lt;BR&gt; &#10;Pricelists can be calculated and copied.  To speed up the calculation, the parameters are stored an used when creating a new price list version.">Esta venta permite generar precios de lista para sus terceros. Las Listas de precio determinan la moneda y el tratamiento contable. Las versiones de lista de precios permiten mantener listas paralelas para diferentes rangos de fecha. La versión más actualizada es usada con base a la fecha del documento. Todas las listas tienen tres precios: lista, estándar y límite. El primer paso es crear una lista de precios base. Es posible adicionar manualmente productos y entrar sus precios o crearlos automáticamente. La lista de precios base es frecuentemente la lista de precios de compra de productos con precio de lista (precio sugerido de venta), el precio estándar (su precio de compra). El precio limite puede ser usado para revisar sus costos de compra finales después de descuentos, rebajas y otros. Las listas de precio pueden ser calculadas y copiadas, para acelerar su cálculo, los parámetros son almacenados cuando se crea una nueva versión de precio de lista</value>
 	</row>
 	<row id="147" trl="Y">
 		<value column="Name" original="Invoice Schedule">Programa de Facturación</value>
@@ -260,7 +260,7 @@
 	<row id="161" trl="Y">
 		<value column="Name" original="Charge">Cargo</value>
 		<value column="Description" original="Maintain Charges">Mantener Cargos</value>
-		<value column="Help" original="The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.">Define los diferentes cargos adicionales en que se puede incurrir en una transacción. Estos pueden incluir cargos de servicio bancario; cargos del proveedor; cargos de manejo entre otros.</value>
+		<value column="Help" original="The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.">Define los diferentes cargos adicionales en que se puede incurrir en una transacción. Estos pueden incluir cargos de servicio bancario, cargos del proveedor, cargos de manejo entre otros.</value>
 	</row>
 	<row id="162" trl="Y">
 		<value column="Name" original="Accounting Fact Details">Asientos Contables</value>
@@ -305,7 +305,7 @@
 	<row id="174" trl="Y">
 		<value column="Name" original="Revenue Recognition">Reconocimiento de Ingresos</value>
 		<value column="Description" original="Revenue Recognition Rules">Reglas de Reconocimiento de Ingresos</value>
-		<value column="Help" original="The Revenue Recognition Window defines the intervals at which revenue will be recognized. Alternatively, the revenue recognition may be linked to service levels provided.">La ventana define los intervalos a los cuales los ingresos serán reconocidos. Alternativamente; el reconocimiento de ingresos puede ser relacionado a los niveles de servicio suministrados.</value>
+		<value column="Help" original="The Revenue Recognition Window defines the intervals at which revenue will be recognized. Alternatively, the revenue recognition may be linked to service levels provided.">La ventana define los intervalos a los cuales los ingresos serán reconocidos. Alternativamente, el reconocimiento de ingresos puede ser relacionado a los niveles de servicio suministrados.</value>
 	</row>
 	<row id="175" trl="Y">
 		<value column="Name" original="Perpetual Inventory">Inventario Perpetuo</value>
@@ -330,7 +330,7 @@
 	<row id="181" trl="Y">
 		<value column="Name" original="Purchase Order">Ordenes de Compra</value>
 		<value column="Description" original="Manage Purchase Orders">Administrar Ordenes de Compra</value>
-		<value column="Help" original="The Purchase Order Window defines a purchase order for an organization.  When a Purchase Order has been entered you can generate a Shipment Document or Invoice from this Purchase Order">La ventana define una orden de compra para una organización. Cuando una orden de compra ya ha sido entrada; es posible generar un documento de despacho o factura desde esta orden.</value>
+		<value column="Help" original="The Purchase Order Window defines a purchase order for an organization.  When a Purchase Order has been entered you can generate a Shipment Document or Invoice from this Purchase Order">La ventana define una orden de compra para una organización. Cuando una orden de compra ya ha sido entrada, es posible generar un documento de despacho o factura desde esta orden.</value>
 	</row>
 	<row id="183" trl="Y">
 		<value column="Name" original="Invoice (Vendor)">Facturas y CxP (Proveedor)</value>
@@ -375,7 +375,7 @@
 	<row id="192" trl="Y">
 		<value column="Name" original="Business Partner Group">Grupo de Terceros</value>
 		<value column="Description" original="Maintain Business Partner Groups">Mantener Grupos de Terceros</value>
-		<value column="Help" original="The Business Partner Group window allows you to define the accounting parameters at a group level.  If you define the accounting parameters for a group any Business Partner entered using this group will have these accounting parameters automatically populated.  You can then make any modifications necessary at the Business Partner level.">Esta ventana permite definir los parámetros contables a nivel de grupo. Si se definen los parámetros contables para un grupo; cualquier tercero que sea parte del grupo heredará estos parámetros automáticamente. A continuación se pueden hacer modificaciones necesarias a nivel de tercero.</value>
+		<value column="Help" original="The Business Partner Group window allows you to define the accounting parameters at a group level.  If you define the accounting parameters for a group any Business Partner entered using this group will have these accounting parameters automatically populated.  You can then make any modifications necessary at the Business Partner level.">Esta ventana permite definir los parámetros contables a nivel de grupo. Si se definen los parámetros contables para un grupo, cualquier tercero que sea parte del grupo heredará estos parámetros automáticamente. A continuación se pueden hacer modificaciones necesarias a nivel de tercero.</value>
 	</row>
 	<row id="193" trl="Y">
 		<value column="Name" original="Notice">Aviso</value>
@@ -385,12 +385,12 @@
 	<row id="194" trl="Y">
 		<value column="Name" original="Bank Statement">Estado de Cuentas Bancario</value>
 		<value column="Description" original="Process Bank Statements">Procesar conciliación del estado de cuentas bancario</value>
-		<value column="Help" original="The Process Bank Statements window allows you to reconcile your Bank Statements.  You can either enter the line items from the statement in the Statement Line tab or select the 'Create From' button to automatically generate the statement from all unreconciled payments to this bank account.  Once you have completed reconciling, select the 'Process Statement' button to mark the payments as reconciled and update the appropriate GL accounts.">Esta ventana permite conciliar sus saldos bancarios. Usted puede ya sea introducir líneas desde el estado de cuentas en la pestaña de línea de estado de cuentas o seleccionar el botón `Crear desde` para generar automáticamente el balance de todos los pagos no conciliados para esta cuenta bancaria. Una vez que la conciliación esta completa; seleccione el botón `Procesar Estado de Cuentas` para marcar los pagos como conciliados y actualizar las cuentas correspondientes de la Contabilidad General</value>
+		<value column="Help" original="The Process Bank Statements window allows you to reconcile your Bank Statements.  You can either enter the line items from the statement in the Statement Line tab or select the 'Create From' button to automatically generate the statement from all unreconciled payments to this bank account.  Once you have completed reconciling, select the 'Process Statement' button to mark the payments as reconciled and update the appropriate GL accounts.">Esta ventana permite conciliar sus saldos bancarios. Usted puede ya sea introducir líneas desde el estado de cuentas en la pestaña de línea de estado de cuentas o seleccionar el botón `Crear desde` para generar automáticamente el balance de todos los pagos no conciliados para esta cuenta bancaria. Una vez que la conciliación esta completa, seleccione el botón `Procesar Estado de Cuentas` para marcar los pagos como conciliados y actualizar las cuentas correspondientes de la Contabilidad General</value>
 	</row>
 	<row id="195" trl="Y">
 		<value column="Name" original="Payment">Pagos/Recaudos</value>
 		<value column="Description" original="Process Payments and Receipts">Procesar Pagos y Recaudos</value>
-		<value column="Help" original="The Process Payments Window allows you to enter payments and reaipts for invoices.  If the payment is for a single invoice then it can be processed here.  If it is for multiple invoices or is a partial payment then it should be processed in the Payment Allocation Window.">Esta ventana permite entrar pagos que han sido recibido por pago de facturas. Si el pago es por una sola factura entonces éste pago puede ser procesado en esta ventana. Si se trata de múltiples facturas o es un pago parcial; entonces el pago debe ser procesado en la ventana `Asignación de Pagos`</value>
+		<value column="Help" original="The Process Payments Window allows you to enter payments and reaipts for invoices.  If the payment is for a single invoice then it can be processed here.  If it is for multiple invoices or is a partial payment then it should be processed in the Payment Allocation Window.">Esta ventana permite entrar pagos que han sido recibido por pago de facturas. Si el pago es por una sola factura entonces éste pago puede ser procesado en esta ventana. Si se trata de múltiples facturas o es un pago parcial, entonces el pago debe ser procesado en la ventana `Asignación de Pagos`</value>
 	</row>
 	<row id="196" trl="Y">
 		<value column="Name" original="Custom Attribute">Atributo Personalizado</value>
@@ -435,22 +435,22 @@
 	<row id="206" trl="Y">
 		<value column="Name" original="Payment Selection">Selección de Pago</value>
 		<value column="Description" original="Select Invoices for Payment">Seleccionar facturas para pago</value>
-		<value column="Help" original="The Payment Selection Window allows you to select and process the invoices you want to pay.&#10;(a) You can create a Payment Selection and select the invoices manually or generate the suggestions based on criteria.  You can change the amount to be paid or delete invoices, you do not want to pay.&#10;&#10;(b) If you are happy with the Payment Selection, you create the payments.&#10;&#10;(c) You print or export your payments in the Window Payment Print/Export">Esta ventana permite seleccionar y procesar facturas que se desean pagar. A) Se puede crear una selección de pago y seleccionar las facturas manualmente o generar sugerencias de pago basadas en criterios. Es posible cambiar los totales a ser pagados o borrar facturas que no se desean pagar. B) Si se está satisfecho con la selección; se pueden crear los pagos. C) Se imprimen o exportan los pagos en la ventana de `Imprimir/Exportar Pagos`.</value>
+		<value column="Help" original="The Payment Selection Window allows you to select and process the invoices you want to pay.&#10;(a) You can create a Payment Selection and select the invoices manually or generate the suggestions based on criteria.  You can change the amount to be paid or delete invoices, you do not want to pay.&#10;&#10;(b) If you are happy with the Payment Selection, you create the payments.&#10;&#10;(c) You print or export your payments in the Window Payment Print/Export">Esta ventana permite seleccionar y procesar facturas que se desean pagar. A) Se puede crear una selección de pago y seleccionar las facturas manualmente o generar sugerencias de pago basadas en criterios. Es posible cambiar los totales a ser pagados o borrar facturas que no se desean pagar. B) Si se está satisfecho con la selección, se pueden crear los pagos. C) Se imprimen o exportan los pagos en la ventana de `Imprimir/Exportar Pagos`.</value>
 	</row>
 	<row id="207" trl="Y">
 		<value column="Name" original="Commission">Comisión</value>
 		<value column="Description" original="Maintain Commissions and Royalties">Mantener Comisiones</value>
-		<value column="Help" original="Define how and when you want the commissions to be calculated and to whom to pay it.&#10;The Commissions Window allows you define how commissions and royalties will be paid. You can pay multiple commissions for the same order or invoice (e.g. to the person entering the transaction, to the person responsible for sale of the product (category) and or business partner (group).">La ventana permite definir como y cuando se quiere calcular las comisiones y a quien pagarlas. Se pueden pagar múltiples comisiones para la misma orden o factura (ej. a la persona que entra la transacción; a la persona responsable por la venta del producto (categoría))</value>
+		<value column="Help" original="Define how and when you want the commissions to be calculated and to whom to pay it.&#10;The Commissions Window allows you define how commissions and royalties will be paid. You can pay multiple commissions for the same order or invoice (e.g. to the person entering the transaction, to the person responsible for sale of the product (category) and or business partner (group).">La ventana permite definir como y cuando se quiere calcular las comisiones y a quien pagarlas. Se pueden pagar múltiples comisiones para la misma orden o factura (ej. a la persona que entra la transacción, a la persona responsable por la venta del producto (categoría))</value>
 	</row>
 	<row id="208" trl="Y">
 		<value column="Name" original="Project Reporting">Ciclo de Proyecto</value>
 		<value column="Description" original="Maintain Project Reporting Cycles">Mantener Ciclos de Proyecto</value>
-		<value column="Help" original="The Project Cycle Window defines the steps associated with a specific Project.&#10;You may want to define several Project cycles to differentiate the different types of projects. Project cycles may use all or a subset of the used Project Status (e.g. Your opportunity project cycle may include the steps from prospect to contract - the service cycle may include steps from installation to customer acceptance.">Esta ventana define los pasos asociados con un proyecto específico. Es posible definir diferentes ciclos de proyecto para diferenciar los diferentes tipos de estos. Los ciclos de proyecto pueden usar todos o un subconjunto de los estados de proyecto (ej. El ciclo de proyecto de su oportunidad puede incluir los pasos de prospecto a contrato; el ciclo de servicio puede incluir los pasos de Instalación a aceptación del cliente).</value>
+		<value column="Help" original="The Project Cycle Window defines the steps associated with a specific Project.&#10;You may want to define several Project cycles to differentiate the different types of projects. Project cycles may use all or a subset of the used Project Status (e.g. Your opportunity project cycle may include the steps from prospect to contract - the service cycle may include steps from installation to customer acceptance.">Esta ventana define los pasos asociados con un proyecto específico. Es posible definir diferentes ciclos de proyecto para diferenciar los diferentes tipos de estos. Los ciclos de proyecto pueden usar todos o un subconjunto de los estados de proyecto (ej. El ciclo de proyecto de su oportunidad puede incluir los pasos de prospecto a contrato, el ciclo de servicio puede incluir los pasos de Instalación a aceptación del cliente).</value>
 	</row>
 	<row id="210" trl="Y">
 		<value column="Name" original="Commission Run">Cálculo de Comisión</value>
 		<value column="Description" original="Check and modify Commissions">Revisar y Modificar Comisiones</value>
-		<value column="Help" original="The Commission Run Window displays the results of processing commissions.  When the Generate Commission process is selected from the Commissions Window, the results are displayed here. If the result is satisfactory, generate an AP invoice to pay the commission.">Esta ventana despliega los resultados de procesar las comisiones. Cuando el proceso de `Generar Comisiones` es seleccionado desde la ventana de Comisiones; los resultados son mostrados aquí. Si el resultado es satisfactorio; genera un factura de CXP (cuentas por pagar) para pagar la comisión.</value>
+		<value column="Help" original="The Commission Run Window displays the results of processing commissions.  When the Generate Commission process is selected from the Commissions Window, the results are displayed here. If the result is satisfactory, generate an AP invoice to pay the commission.">Esta ventana despliega los resultados de procesar las comisiones. Cuando el proceso de `Generar Comisiones` es seleccionado desde la ventana de Comisiones, los resultados son mostrados aquí. Si el resultado es satisfactorio, genera un factura de CXP (cuentas por pagar) para pagar la comisión.</value>
 	</row>
 	<row id="212" trl="Y">
 		<value column="Name" original="Performance Goal">Objetivo de desempeño</value>
@@ -460,12 +460,12 @@
 	<row id="213" trl="Y">
 		<value column="Name" original="Performance Measure Calculation">Cálculo de Medida de Desempeño</value>
 		<value column="Description" original="Define how you calculate your performance measures">Definir cómo calcular las mediciones de desempeño</value>
-		<value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. &#10;The sql needs to return a single value.  Please check examples.&lt;br&gt;&#10;The date trestriction is defined in the Goal. &#10;Any restrictions for Organizations, Business Partners, Products, etc. are  as Performance Goal Restrictions.">Favor probar el comando en SQLPlus primero. El comando select debe regresar un solo valor. Cualquier restricción para rango de fechas; organizaciones; Terceros; Productos debe ser hecha vía la ventana `Medida de Desempeño`. Este es un cálculo genérico. Como el tema tiende a ser algo técnico; el sistema tiene algunos ejemplos predefinidos.</value>
+		<value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. &#10;The sql needs to return a single value.  Please check examples.&lt;br&gt;&#10;The date trestriction is defined in the Goal. &#10;Any restrictions for Organizations, Business Partners, Products, etc. are  as Performance Goal Restrictions.">Favor probar el comando en SQLPlus primero. El comando select debe regresar un solo valor. Cualquier restricción para rango de fechas, organizaciones, Terceros, Productos debe ser hecha vía la ventana `Medida de Desempeño`. Este es un cálculo genérico. Como el tema tiende a ser algo técnico, el sistema tiene algunos ejemplos predefinidos.</value>
 	</row>
 	<row id="215" trl="Y">
 		<value column="Name" original="Performance Measure">Medida de Desempeño</value>
 		<value column="Description" original="Define your Performance Measures">Definir mediciones de desempeño</value>
-		<value column="Help" original="The Performance Measure Window allows you to define the rules and restrictions for performance measurement.  You can, for example, restrict performance measurement to sales for a certain product category for a defined time frame.">La ventana permite definir las reglas y restricciones para la medición del desempeño. Es posible; por ejemplo; restringir la medición de desempeño de las ventas a una cierta categoría de productos por un período definido de tiempo.</value>
+		<value column="Help" original="The Performance Measure Window allows you to define the rules and restrictions for performance measurement.  You can, for example, restrict performance measurement to sales for a certain product category for a defined time frame.">La ventana permite definir las reglas y restricciones para la medición del desempeño. Es posible, por ejemplo, restringir la medición de desempeño de las ventas a una cierta categoría de productos por un período definido de tiempo.</value>
 	</row>
 	<row id="216" trl="Y">
 		<value column="Name" original="Financial Report">Informe Financiero</value>
@@ -480,7 +480,7 @@
 	<row id="218" trl="Y">
 		<value column="Name" original="Report Line Set">Línea de Informe</value>
 		<value column="Description" original="Maintain Financial Report Line Sets">Mantener líneas del informe financiero</value>
-		<value column="Help" original="The Line Set determines, which lines are printed in a Financial Report">El conjunto de líneas determina; cuales líneas son impresas en un Informe financiero.</value>
+		<value column="Help" original="The Line Set determines, which lines are printed in a Financial Report">El conjunto de líneas determina, cuales líneas son impresas en un Informe financiero.</value>
 	</row>
 	<row id="220" trl="Y">
 		<value column="Name" original="Service Level">Nivel de Servicio</value>
@@ -499,7 +499,7 @@
 	</row>
 	<row id="224" trl="Y">
 		<value column="Name" original="Print Form">Forma de Impresión</value>
-		<value column="Description" original="Maintain Print Forms (Invoices, Checks, ..) used">Mantener formas de Impresión (facturas; cheques;...)</value>
+		<value column="Description" original="Maintain Print Forms (Invoices, Checks, ..) used">Mantener formas de Impresión (facturas, cheques,...)</value>
 		<value column="Help" original="Define the documents you use for this Client/Organnization.  Note that the check format is defined in the Bank (Account) Window.&lt;p&gt;&#10;The highest priotity has the Print Format, you define on a Document Type (example specific Export Invoice format). The next level is the set of Print Formats, you defined for the organziation of the document printed. The default is the set of Print Formats defines for all organizations of the Client (Organization=*).">Define los documentos que se usan en esta Compañía. Note que el formato de cheques es definido en la ventana de bancos</value>
 	</row>
 	<row id="225" trl="Y">
@@ -555,7 +555,7 @@
 	<row id="236" trl="Y">
 		<value column="Name" original="Resource">Recurso</value>
 		<value column="Description" original="Maintain Resources">Mantener Recursos</value>
-		<value column="Help" original="Maintain your Resources. The product for the resource is automatically created and synchronized. Update Name, Unit of Measure, etc. in the Resource and don't change it in the product.">El producto para el recurso es automáticamente creado y sincronizado. Actualiza nombre; unidad de medida; etc. en el recurso y no lo cambia en el producto.</value>
+		<value column="Help" original="Maintain your Resources. The product for the resource is automatically created and synchronized. Update Name, Unit of Measure, etc. in the Resource and don't change it in the product.">El producto para el recurso es automáticamente creado y sincronizado. Actualiza nombre, unidad de medida, etc. en el recurso y no lo cambia en el producto.</value>
 	</row>
 	<row id="237" trl="Y">
 		<value column="Name" original="Resource Type">Tipo de Recurso</value>
@@ -580,22 +580,22 @@
 	<row id="241" trl="Y">
 		<value column="Name" original="Print Paper">Papel de Impresión</value>
 		<value column="Description" original="Maintain Print Paper">Mantener papel de impresión</value>
-		<value column="Help" original="Printer Paper Size, Orientation and Margins">Mantiene el tamaño del papel de impresión; orientación y margenes</value>
+		<value column="Help" original="Printer Paper Size, Orientation and Margins">Mantiene el tamaño del papel de impresión, orientación y margenes</value>
 	</row>
 	<row id="242" trl="Y">
 		<value column="Name" original="Expenses (to be invoiced)">Gastos (por facturar)</value>
 		<value column="Description" original="View expenses and charges not invoiced to customers">Ver Gastos no facturados</value>
-		<value column="Help" original="Before invoicing to customers, check the expense lines to be invoiced">Antes de facturar; revise las líneas de gastos a ser facturadas.</value>
+		<value column="Help" original="Before invoicing to customers, check the expense lines to be invoiced">Antes de facturar, revise las líneas de gastos a ser facturadas.</value>
 	</row>
 	<row id="243" trl="Y">
 		<value column="Name" original="Print Table Format">Formato Impresión Grilla</value>
 		<value column="Description" original="Define Report Table Format">Definir formato de impresión de la grilla</value>
-		<value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. Please note that the Report Table FOrmat is cached to improve performance.">El formato de impresión de grilla permite definir como los encabezados de la tabla; etc. son impresos.</value>
+		<value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. Please note that the Report Table FOrmat is cached to improve performance.">El formato de impresión de grilla permite definir como los encabezados de la tabla, etc. son impresos.</value>
 	</row>
 	<row id="244" trl="Y">
 		<value column="Name" original="Request Type">Tipo de Solicitud</value>
 		<value column="Description" original="Maintain Request Types">Mantener Tipo de Solicitudes</value>
-		<value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">Los tipos de solicitudes son usados para procesar y categorizar solicitudes. Las opciones son consultar cuenta; garantía; etc.</value>
+		<value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">Los tipos de solicitudes son usados para procesar y categorizar solicitudes. Las opciones son consultar cuenta, garantía, etc.</value>
 	</row>
 	<row id="245" trl="Y">
 		<value column="Name" original="Interest Area">Área de Interés</value>
@@ -765,7 +765,7 @@
 	<row id="278" trl="Y">
 		<value column="Name" original="Import GL Journal">Importar Nota de Contabilidad</value>
 		<value column="Description" original="Import General Ledger Journals">Importar Nota de Contabilidad</value>
-		<value column="Help" original="You way want to check the balance of the import with &quot;Validate Only&quot; before importing. &#10;Unbalanced Journals are imported; the handling is based on your settings for the posting process. The optional balance check checks the entire import, not individual batches and journals.">Sí desea comprobar el balance de la importación con "Solo Validación" antes de importar. Se importan los diarios de CG desbalanceadas; la dirección se basa en sus ajustes para el proceso de aplicación.</value>
+		<value column="Help" original="You way want to check the balance of the import with &quot;Validate Only&quot; before importing. &#10;Unbalanced Journals are imported; the handling is based on your settings for the posting process. The optional balance check checks the entire import, not individual batches and journals.">Sí desea comprobar el balance de la importación con "Solo Validación" antes de importar. Se importan los diarios de CG desbalanceadas, la dirección se basa en sus ajustes para el proceso de aplicación.</value>
 	</row>
 	<row id="279" trl="Y">
 		<value column="Name" original="Import Invoice">Importar Facturas y CxC CxP</value>
@@ -780,7 +780,7 @@
 	<row id="281" trl="Y">
 		<value column="Name" original="Import Order">Importar Ordenes</value>
 		<value column="Description" original="Import Orders">Importar Ordenes</value>
-		<value column="Help" original="Please set Y/N selections in the import loader format explicitly (e.g. as constants) and no not leave them NULL. A NULL value stands for &quot;don't know&quot;.&#10;In general, selection boxes are not selected if the value is not &quot;Y&quot; (i.e. could be null or any other value). All tests are made on &quot;Y&quot; or &quot;not Y&quot; - i.e. NULL values are not &quot;not Y&quot;, but NULL (don't know) - see SQL Language introductions. ">Las selecciones Y/N en el cargador de la importación ajustando al formato explícitamente (ej. como constantes) y ningún para no dejarlas NULAS. Un valor NULO estándar "Saber o no Saber";. En general, las cajas de la selección no se seleccionan si el valor no es "Y" (es decir podría estar la falta de información o cualquier otro valor). Todas las pruebas se hacen en "Y" o "No" - es decir los valores NULOS no son "No", pero anula (no saber) - ven las introducciones de la lengua del SQL.</value>
+		<value column="Help" original="Please set Y/N selections in the import loader format explicitly (e.g. as constants) and no not leave them NULL. A NULL value stands for &quot;don't know&quot;.&#10;In general, selection boxes are not selected if the value is not &quot;Y&quot; (i.e. could be null or any other value). All tests are made on &quot;Y&quot; or &quot;not Y&quot; - i.e. NULL values are not &quot;not Y&quot;, but NULL (don't know) - see SQL Language introductions. ">Las selecciones Y/N en el cargador de la importación ajustando al formato explícitamente (ej. como constantes) y ningún para no dejarlas NULAS. Un valor NULO estándar "Saber o no Saber". En general, las cajas de la selección no se seleccionan si el valor no es "Y" (es decir podría estar la falta de información o cualquier otro valor). Todas las pruebas se hacen en "Y" o "No" - es decir los valores NULOS no son "No", pero anula (no saber) - ven las introducciones de la lengua del SQL.</value>
 	</row>
 	<row id="282" trl="Y">
 		<value column="Name" original="Freight Category">Categoría de Fletes</value>

@@ -184,8 +184,8 @@
 	</row>
 	<row id="137" trl="Y">
 		<value column="Name" original="Create/Post Production">Crear/Aplicar Producción</value>
-		<value column="Description" original="Create production lines, if not created - otherwise process the production">Crear líneas de producción; si no están creadas; de otra manera procesa la producción</value>
-		<value column="Help" original="Create/Post Production will generate the production lines and process the production.  If the production lines already exists, the production will be processed">Crear/Aplicar producción generará las líneas de producción y procesará la producción. Si las líneas de producción ya existen; entonces la producción será procesada</value>
+		<value column="Description" original="Create production lines, if not created - otherwise process the production">Crear líneas de producción, si no están creadas, de otra manera procesa la producción</value>
+		<value column="Help" original="Create/Post Production will generate the production lines and process the production.  If the production lines already exists, the production will be processed">Crear/Aplicar producción generará las líneas de producción y procesará la producción. Si las líneas de producción ya existen, entonces la producción será procesada</value>
 	</row>
 	<row id="138" trl="Y">
 		<value column="Name" original="Quarterly Invoice Customer by Product">Factura Trimestral a Clientes por Producto</value>
@@ -248,7 +248,7 @@
 		<value column="Help" original="The report lists the invoice transactiobs by invoice date"/>
 	</row>
 	<row id="152" trl="Y">
-		<value column="Name" original="Invoice Detail &amp; Margin">Detalles de Facturas</value>
+		<value column="Name" original="Invoice Detail &amp; Margin">Detalles Facturas y Margen</value>
 		<value column="Description" original="Invoice (Line) Detail and Margin Report"/>
 		<value column="Help" original="The Report lists Customer and Vendor Invoice Details with Margines."/>
 	</row>
@@ -330,22 +330,22 @@
 	<row id="172" trl="Y">
 		<value column="Name" original="Synchronize Terminology">Sincronizar Terminología</value>
 		<value column="Description" original="Synchronize the terminology within the system.">Sincronizar la terminología dentro del sistema</value>
-		<value column="Help" original="Based on the entries in Window Element, the fields in windows, parameters, etc. are synchronized, if they are centrally maintained.  Also synchronizes Language Translation.">Basado en las entradas en el elemento de ventana; los campos en ventanas; parámetros; etc. Son sincronizados; si ellos son mantenidos centralizadamente.</value>
+		<value column="Help" original="Based on the entries in Window Element, the fields in windows, parameters, etc. are synchronized, if they are centrally maintained.  Also synchronizes Language Translation.">Basado en las entradas en el elemento de ventana, los campos en ventanas, parámetros, etc. Son sincronizados, si ellos son mantenidos centralizadamente.</value>
 	</row>
 	<row id="173" trl="Y">
 		<value column="Name" original="Create Columns from DB">Crear Columnas desde BD</value>
 		<value column="Description" original="Create Dictionary Columns of Table not existing as a Column but in the Database">Crear columnas de diccionario de tabla que no existe como una columna sino en la base de datos</value>
-		<value column="Help" original="If you have added columns in the database to this table, this procedure creates the Column records in the Dictionary.  Please be aware, that they may deleted, if the entity type is not set to User.">Si existen columnas adicionadas a esta tabla en la base de datos; este procedimiento crea los registros de columna en el diccionario. Favor tener en cuenta que si estas columnas no estan definidas como de usuario; ellas pueden ser borradas</value>
+		<value column="Help" original="If you have added columns in the database to this table, this procedure creates the Column records in the Dictionary.  Please be aware, that they may deleted, if the entity type is not set to User.">Si existen columnas adicionadas a esta tabla en la base de datos, este procedimiento crea los registros de columna en el diccionario. Favor tener en cuenta que si estas columnas no estan definidas como de usuario, ellas pueden ser borradas</value>
 	</row>
 	<row id="174" trl="Y">
 		<value column="Name" original="Create Fields">Crear Campos</value>
-		<value column="Description" original="Create Field from Table Column, which do not exist in the Tab yet">Crear campo desde la tabla; la cual no existe aun en la pestaña</value>
-		<value column="Help" original="Based on the table columns of this Tab, this procedure creates the missing Fields">Basado en la tabla de esta pestaña; este procedimiento crea los campos faltantes</value>
+		<value column="Description" original="Create Field from Table Column, which do not exist in the Tab yet">Crear campo desde la tabla, la cual no existe aun en la pestaña</value>
+		<value column="Help" original="Based on the table columns of this Tab, this procedure creates the missing Fields">Basado en la tabla de esta pestaña, este procedimiento crea los campos faltantes</value>
 	</row>
 	<row id="175" trl="Y">
 		<value column="Name" original="Resubmit Posting">Reenviar a Registrar</value>
 		<value column="Description" original="Resubmit posting of documents with posting errors or locked documents">Reenviar registro de documentos que presentaron errores durante su registro</value>
-		<value column="Help" original="After resubmitting, the accounting engine will try to post the document again. You resubmit documents, if they are locked or when the document had posting errors - after fixing the cause (e.g. opening period).">Documentos con errores de registro son restablecidos la próxima vez que el motor de contabilidad corra; después de arreglar la causa del error (ej. Abrir un período)</value>
+		<value column="Help" original="After resubmitting, the accounting engine will try to post the document again. You resubmit documents, if they are locked or when the document had posting errors - after fixing the cause (e.g. opening period).">Documentos con errores de registro son restablecidos la próxima vez que el motor de contabilidad corra, después de arreglar la causa del error (ej. Abrir un período)</value>
 	</row>
 	<row id="176" trl="Y">
 		<value column="Name" original="Reset Accounting">Restablecer Contabilidad</value>
@@ -365,7 +365,7 @@
 	<row id="181" trl="Y">
 		<value column="Name" original="Synchronize Column">Sincronizar Columnas</value>
 		<value column="Description" original="Change database table definition from application dictionary">Cambiar definición de tabla de la base de datos desde el diccionario de la aplicación</value>
-		<value column="Help" original="When selected, the database column definition is updated based on your entries in the Column definition of the Application Dictionary. Note that not all changes are supported by the database and may result in an error.">Cuando se selecciona; la definición de la columna en la base de datos es actualizada basado en las entradas de la definición de la columna en el diccionario de la aplicación. Note que no todas las entradas son soportadas por la base de datos y pueden generar error.</value>
+		<value column="Help" original="When selected, the database column definition is updated based on your entries in the Column definition of the Application Dictionary. Note that not all changes are supported by the database and may result in an error.">Cuando se selecciona, la definición de la columna en la base de datos es actualizada basado en las entradas de la definición de la columna en el diccionario de la aplicación. Note que no todas las entradas son soportadas por la base de datos y pueden generar error.</value>
 	</row>
 	<row id="182" trl="Y">
 		<value column="Name" original="Standard Cost Update">Actualizar Costo de Producto</value>
@@ -385,7 +385,7 @@
 	<row id="185" trl="Y">
 		<value column="Name" original="Recompile DB Objects">Recompilar Objetos de BD</value>
 		<value column="Description" original="Recompile Database Objects">Recompilar objetos de la base de datos</value>
-		<value column="Help" original="Recompile Functions, Procedures, Triggers, Views, etc.">Recompilar funciones; procedimientos; triggers; vistas; etc.</value>
+		<value column="Help" original="Recompile Functions, Procedures, Triggers, Views, etc.">Recompilar funciones, procedimientos, triggers, vistas, etc.</value>
 	</row>
 	<row id="186" trl="Y">
 		<value column="Name" original="Create Sales Orders from Expense">Crear Orden de Venta desde Gastos</value>
@@ -425,7 +425,7 @@
 	<row id="193" trl="Y">
 		<value column="Name" original="Generate PO from Sales Order">Generar OC desde Orden de Venta</value>
 		<value column="Description" original="Create Purchase Order from Sales Orders">Crear Orden de compra desde orden de ventas</value>
-		<value column="Help" original="After completing sales orders, you can create one or more purchase orders for each sales order. A purchase order references always only one sales order (i.e. no consolidation of sales orders). &#10;The Organization of the Sales Order is used to create the Purchase Order. If a (default) PO document type is defined on Organization level, that is used instead of the document types defined on Client level.&#10;&#10;POs are created for all sales order lines where the product has a current vendor, the vendor has a Vendor Price List with all Products on the most current Price List Version. The Unit of Measure is copied; PO and SO can have different currencies.&#10;&#10;Once the process is run, you need to synchronize the SO/PO manually (e.g. in case of additional lines and changed lines (product &amp; quantity).&#10;">Después de completar ordenes de ventas; el usuario puede crear una o más ordenes de compra por cada orden de venta. Una orden de compra solo esta relacionada a una orden de venta. Ordenes de compra son creadas para todas las líneas de la orden de ventas donde el producto tiene un proveedor actual; el proveedor tiene una lista de precios con todos los productos en la última versión del precio de lista. La unidad de medida es copiada; la orden de compra y de venta pueden tener monedas diferentes. Una vez este proceso es corrido; es necesario sincronizar las Ordenes manualmente (e.g. En caso de líneas adicionales)</value>
+		<value column="Help" original="After completing sales orders, you can create one or more purchase orders for each sales order. A purchase order references always only one sales order (i.e. no consolidation of sales orders). &#10;The Organization of the Sales Order is used to create the Purchase Order. If a (default) PO document type is defined on Organization level, that is used instead of the document types defined on Client level.&#10;&#10;POs are created for all sales order lines where the product has a current vendor, the vendor has a Vendor Price List with all Products on the most current Price List Version. The Unit of Measure is copied; PO and SO can have different currencies.&#10;&#10;Once the process is run, you need to synchronize the SO/PO manually (e.g. in case of additional lines and changed lines (product &amp; quantity).&#10;">Después de completar ordenes de ventas, el usuario puede crear una o más ordenes de compra por cada orden de venta. Una orden de compra solo esta relacionada a una orden de venta. Ordenes de compra son creadas para todas las líneas de la orden de ventas donde el producto tiene un proveedor actual, el proveedor tiene una lista de precios con todos los productos en la última versión del precio de lista. La unidad de medida es copiada, la orden de compra y de venta pueden tener monedas diferentes. Una vez este proceso es corrido, es necesario sincronizar las Ordenes manualmente (e.g. En caso de líneas adicionales)</value>
 	</row>
 	<row id="194" trl="Y">
 		<value column="Name" original="Import Business Partners">Importar Terceros</value>

@@ -72,13 +72,13 @@
 		<value column="Name" original="Translation">Traducción</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Menu Translation - May not need to be translated">Traducción de Menú-Puede no ser necesaria su traducción</value>
-		<value column="Help" original="Menu translations are derived from Window,  Process, etc. You only need to translate Summary level items all others will be translated automatically (overwritten)">Las traducciones del menú son derivadas desde la ventana; proceso; etc. Solo es necesario traducir la información a nivel de resumen</value>
+		<value column="Help" original="Menu translations are derived from Window,  Process, etc. You only need to translate Summary level items all others will be translated automatically (overwritten)">Las traducciones del menú son derivadas desde la ventana, proceso, etc. Solo es necesario traducir la información a nivel de resumen</value>
 	</row>
 	<row id="112" trl="Y">
 		<value column="Name" original="Language">Lenguaje</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="System and User Languages">Lenguajes de Sistema y de Usuario</value>
-		<value column="Help" original="If you want to add an additional User Interface language, select &quot;System Language&quot;. Otherwise, the system allows you to just translate elements for printing documents.">Si se quiere adicionar un lenguaje adicional de interfase de usuario; seleccionar `Lenguaje del Sistema`. Si no es asi; el sistema solo le permitirá traducir elementos usados para la impresión de documentos</value>
+		<value column="Help" original="If you want to add an additional User Interface language, select &quot;System Language&quot;. Otherwise, the system allows you to just translate elements for printing documents.">Si se quiere adicionar un lenguaje adicional de interfase de usuario, seleccionar `Lenguaje del Sistema`. Si no es asi, el sistema solo le permitirá traducir elementos usados para la impresión de documentos</value>
 	</row>
 	<row id="113" trl="Y">
 		<value column="Name" original="Translation">Traducción</value>
@@ -90,7 +90,7 @@
 		<value column="Name" original="Field Translation">Traducción de Campo</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Menu Translation - May not need to be translated">Traducción de Menú-Puede no ser necesaria su traducción</value>
-		<value column="Help" original="Fields are automatically translated, if centrally maintained.  You only need to translate not centrally maintained Fields.">Los campos son automáticamente traducidos; si son mantenidos centralmente. Solo es necesario traducir los campos que no son centralmente mantenidos</value>
+		<value column="Help" original="Fields are automatically translated, if centrally maintained.  You only need to translate not centrally maintained Fields.">Los campos son automáticamente traducidos, si son mantenidos centralmente. Solo es necesario traducir los campos que no son centralmente mantenidos</value>
 	</row>
 	<row id="116" trl="Y">
 		<value column="Name" original="Tab Translation">Traducción de Pestaña</value>
@@ -114,7 +114,7 @@
 		<value column="Name" original="Role">Rol</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define responsibility roles">Definir roles de responsabilidad</value>
-		<value column="Help" original="Define the role and add the client and organizations the role has access to. You can give users access to this role and modify the access of this role to windows, forms, processes and reports as well as tasks. &lt;br&gt;&#10;If the Role User Level is Manual, the assigned acces rights are not automatically updated (e.g. if a role has a restricted number of Windows/Processes it can access). You need to add organizational access unless the role has access to all organizations. The SuperUser and the user creating a new role are assigned to the role automatically.  &lt;br&gt;&#10;If you select an Organization Tree, the user has access to the leaves of  summary organizations.&#10;Note: You cannot change the System Administrator role.">Define el rol y adiciona la compañía y organizaciones a las cuales el rol tiene acceso. Es posible asignar usuarios acceso a este rol para que tengan acceso a las diferentes ventanas; procesos y tareas.</value>
+		<value column="Help" original="Define the role and add the client and organizations the role has access to. You can give users access to this role and modify the access of this role to windows, forms, processes and reports as well as tasks. &lt;br&gt;&#10;If the Role User Level is Manual, the assigned acces rights are not automatically updated (e.g. if a role has a restricted number of Windows/Processes it can access). You need to add organizational access unless the role has access to all organizations. The SuperUser and the user creating a new role are assigned to the role automatically.  &lt;br&gt;&#10;If you select an Organization Tree, the user has access to the leaves of  summary organizations.&#10;Note: You cannot change the System Administrator role.">Define el rol y adiciona la compañía y organizaciones a las cuales el rol tiene acceso. Es posible asignar usuarios acceso a este rol para que tengan acceso a las diferentes ventanas, procesos y tareas.</value>
 	</row>
 	<row id="120" trl="Y">
 		<value column="Name" original="User Assignment">Asignación de Usuario</value>
@@ -126,7 +126,7 @@
 		<value column="Name" original="User Roles">Rol de Usuario</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="User Roles">Roles de Usuario</value>
-		<value column="Help" original="The User Roles Tab define the Roles each user may have.  The Roles will determine what windows, tasks, processes and workflows that a User has access to.">La pestaña de roles de usuario define los roles que cada usuario pueden tener: Los roles determinarán las ventanas; tareas y procesos a los cuales cada usuario tendrá acceso.</value>
+		<value column="Help" original="The User Roles Tab define the Roles each user may have.  The Roles will determine what windows, tasks, processes and workflows that a User has access to.">La pestaña de roles de usuario define los roles que cada usuario pueden tener: Los roles determinarán las ventanas, tareas y procesos a los cuales cada usuario tendrá acceso.</value>
 	</row>
 	<row id="122" trl="Y">
 		<value column="Name" original="Node">Nodo</value>
@@ -180,7 +180,7 @@
 		<value column="Name" original="Period">Período</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Calendar Periods">Definir Períodos de calendario</value>
-		<value column="Help" original="The Period Tab defines a Period No, Name and Start Date for each Calendar Year.  Each period begins on the defined Start Date and ends one day prior to the next period's Start Date.">La pestaña de período define un número de período; nombre y fecha de comienzo para cada año calendario. Cada año comienza en la fecha de comienzo del año calendario y finaliza un dia antes de la fecha de comienzo del próximo año.</value>
+		<value column="Help" original="The Period Tab defines a Period No, Name and Start Date for each Calendar Year.  Each period begins on the defined Start Date and ends one day prior to the next period's Start Date.">La pestaña de período define un número de período, nombre y fecha de comienzo para cada año calendario. Cada año comienza en la fecha de comienzo del año calendario y finaliza un dia antes de la fecha de comienzo del próximo año.</value>
 	</row>
 	<row id="131" trl="Y">
 		<value column="Name" original="Non Business Day">Día no laboral</value>
@@ -192,7 +192,7 @@
 		<value column="Name" original="Element Value">Valor de Elemento</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Element Values">Definir valores de elementos</value>
-		<value column="Help" original="The Element Value Tab defines the individual valid values for the Element.  The values must conform to the format defined.  If the Element is an Account Type then the Account Classification (Asset, Liability etc) and posting controls are also defined">La pestaña de valor de elemento define los valores individuales válidos para un elemento. Los valores deben estar en conformidad con el formato establecido. Si el elemento es un tipo de cuenta; entonces la clasificación de cuenta y los valores de registro también son definidos.</value>
+		<value column="Help" original="The Element Value Tab defines the individual valid values for the Element.  The values must conform to the format defined.  If the Element is an Account Type then the Account Classification (Asset, Liability etc) and posting controls are also defined">La pestaña de valor de elemento define los valores individuales válidos para un elemento. Los valores deben estar en conformidad con el formato establecido. Si el elemento es un tipo de cuenta, entonces la clasificación de cuenta y los valores de registro también son definidos.</value>
 	</row>
 	<row id="133" trl="Y">
 		<value column="Name" original="Unit of Measure">Unidad de Medida</value>
@@ -204,7 +204,7 @@
 		<value column="Name" original="Conversion">Conversión</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define standard Unit of Measure Conversion">Definir conversión de unidad de medida estándar</value>
-		<value column="Help" original="The Conversion Tab defines the rates for converting a Unit of Measure. The system provides some automatic conversions between units of measures (e.g. minute, hour, day, working day, etc.) if they are not explicitly defined here.&#10;Conversions need to be direct (i.e. if you have only a conversion between A-B and B-C, the system cannot convert A-C, you need to define it explicitly).">La pestaña de conversión define las tasas para convertir una unidad de medida. El sistema provee algunas conversiones de forma automática (ej. Día; hora; minuto;) si estas conversiones no son definidas en forma explicita aquí. Las conversiones solo pueden ser directas (ej. Si se definen las conversiones A-B y B-C; el sistema no puede calcular la conversión A-C a menos que se defina una tasa de conversión específica para A-C).</value>
+		<value column="Help" original="The Conversion Tab defines the rates for converting a Unit of Measure. The system provides some automatic conversions between units of measures (e.g. minute, hour, day, working day, etc.) if they are not explicitly defined here.&#10;Conversions need to be direct (i.e. if you have only a conversion between A-B and B-C, the system cannot convert A-C, you need to define it explicitly).">La pestaña de conversión define las tasas para convertir una unidad de medida. El sistema provee algunas conversiones de forma automática (ej. Día, hora, minuto) si estas conversiones no son definidas en forma explicita aquí. Las conversiones solo pueden ser directas (ej. Si se definen las conversiones A-B y B-C, el sistema no puede calcular la conversión A-C a menos que se defina una tasa de conversión específica para A-C).</value>
 	</row>
 	<row id="135" trl="Y">
 		<value column="Name" original="Country">País</value>
@@ -228,7 +228,7 @@
 		<value column="Name" original="Client">Compañía</value>
 		<value column="CommitWarning" original="Create a new client via &quot;Initial Client Setup&quot;. You can only change information here!  You need re-login and restart your application server for most changes made here to be effective.  The change of the Material Policy applies to future transactions.">La creación de un nuevo cliente debe hacerse por medio de la ventana &quot;Configuración Inicial Compañía&quot;.  Solo debe modificar información aquí!  Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que la mayoría de cambios hechos aquí surtan efecto.  El cambio en la Política de Material aplicará para transacciones futuras.</value>
 		<value column="Description" original="Client/Tenant Definition">Definir Compañías</value>
-		<value column="Help" original="The Client Definition Tab defines a unique client.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; (System Administrator Role) to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">La pestaña de definición de Compañía define una compañía única. No use esta ventana para crear una compañía; use el flujo de trabajo `Definir Compañía` para establecer las reglas de seguridad y de acceso requeridas. Si se crea una compañía aquí; la compañía no podrá ser vista dentro del sistema y su definición de parámetros no sera creada.</value>
+		<value column="Help" original="The Client Definition Tab defines a unique client.&#10;Do not create a new client in this window, but use &quot;Initial Client Setup&quot; (System Administrator Role) to set up the required security and access rules. If you create a new client here, you will not be able to view it and also the required client infrastructure would not have been set up.">La pestaña de definición de Compañía define una compañía única. No use esta ventana para crear una compañía, use el flujo de trabajo `Definir Compañía` para establecer las reglas de seguridad y de acceso requeridas. Si se crea una compañía aquí, la compañía no podrá ser vista dentro del sistema y su definición de parámetros no sera creada.</value>
 	</row>
 	<row id="146" trl="Y">
 		<value column="Name" original="Sequence">Secuencia</value>
@@ -270,7 +270,7 @@
 		<value column="Name" original="Element">Elemento</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Account Element definition">Definir Elemento de cuenta</value>
-		<value column="Help" original="The Element Tab defines the Name, Description and Format for an Element.  Additionally, a Type of Account or User Defined is selected. Each Account Schema must have an Account Element type.  The User Defined Elements are optional.">La pestaña de elementos define el nombre; descripción y formato de los elementos.</value>
+		<value column="Help" original="The Element Tab defines the Name, Description and Format for an Element.  Additionally, a Type of Account or User Defined is selected. Each Account Schema must have an Account Element type.  The User Defined Elements are optional.">La pestaña de elementos define el nombre, descripción y formato de los elementos.</value>
 	</row>
 	<row id="154" trl="Y">
 		<value column="Name" original="Location">Localización</value>
@@ -281,14 +281,14 @@
 	<row id="156" trl="Y">
 		<value column="Name" original="Preference">Preferencia</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain System Client Org and User Preferences">Mantener preferencias de Sistema; Cliente; Organización y Usuario</value>
+		<value column="Description" original="Maintain System Client Org and User Preferences">Mantener preferencias de Sistema, Cliente, Organización y Usuario</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="157" trl="Y">
 		<value column="Name" original="Project">Proyecto</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Project">Definir Proyecto</value>
-		<value column="Help" original="The Project Tab is used to define the Value, Name and Description for each project.  It also is defines the tracks the amounts assigned to, committed to and used for this project. Note that when the project Type is changed, the Phases and Tasks are re-created.">La pestaña de proyectos es usada para definir el valor; nombre y descripción de cada proyecto. También define y hace seguimiento a los totales asignados; comprometidos y usados.</value>
+		<value column="Help" original="The Project Tab is used to define the Value, Name and Description for each project.  It also is defines the tracks the amounts assigned to, committed to and used for this project. Note that when the project Type is changed, the Phases and Tasks are re-created.">La pestaña de proyectos es usada para definir el valor, nombre y descripción de cada proyecto. También define y hace seguimiento a los totales asignados, comprometidos y usados.</value>
 	</row>
 	<row id="158" trl="Y">
 		<value column="Name" original="GL Category">Categoría Contabilidad</value>
@@ -330,7 +330,7 @@
 		<value column="Name" original="Organization Info">Información de la Organización</value>
 		<value column="CommitWarning" original="You need re-login and restart your application server for most changes made here to be effective.&#10;">Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que la mayoría de cambios hechos aquí surtan efecto.</value>
 		<value column="Description" original="Organization Detail Information">Información de detalle de la organización</value>
-		<value column="Help" original="The Organization Info Tab is used to define an Organization's address, DUNS number and Tax Identification number">La pestaña de información de la organización es usada para definir una dirección de la organización; el número DUNS y el número identificador de la compañía para efectos fiscales/gubernamentales.</value>
+		<value column="Help" original="The Organization Info Tab is used to define an Organization's address, DUNS number and Tax Identification number">La pestaña de información de la organización es usada para definir una dirección de la organización, el número DUNS y el número identificador de la compañía para efectos fiscales/gubernamentales.</value>
 	</row>
 	<row id="171" trl="Y">
 		<value column="Name" original="Reference Translation">Traducción de la Referencia</value>
@@ -354,7 +354,7 @@
 		<value column="Name" original="Tax">Impuesto</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Tax definition">Definir Impuestos</value>
-		<value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example, Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes, create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines, the tax is estimated, the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax, you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax.">La ventana permite definir los diferentes impuestos usados para cada categoría de impuestos. Por ejemplo; el impuesto de ventas debe estar definido para cada estado en el cual aplique. Si se tienen múltiples impuestos; se crea un impuesto sumario con la tasa de impuesto total aproximada y las tasas reales de los múltiples impuestos apuntando a la tasa sumaria como su impuesto padre. El impuesto correcto es calculado cuando se procesan los documentos de la transacción. En ese caso; si un impuesto tiene como base el Total neto de la línea y otro impuesto tiene como base otro impuesto; se necesitará ajustar el porcentaje para que el cálculo de el Total correcto.</value>
+		<value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example, Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes, create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines, the tax is estimated, the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax, you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax.">La ventana permite definir los diferentes impuestos usados para cada categoría de impuestos. Por ejemplo, el impuesto de ventas debe estar definido para cada estado en el cual aplique. Si se tienen múltiples impuestos, se crea un impuesto sumario con la tasa de impuesto total aproximada y las tasas reales de los múltiples impuestos apuntando a la tasa sumaria como su impuesto padre. El impuesto correcto es calculado cuando se procesan los documentos de la transacción. En ese caso, si un impuesto tiene como base el Total neto de la línea y otro impuesto tiene como base otro impuesto, se necesitará ajustar el porcentaje para que el cálculo de el Total correcto.</value>
 	</row>
 	<row id="176" trl="Y">
 		<value column="Name" original="Tax Category">Categoría de Impuesto</value>
@@ -402,13 +402,13 @@
 		<value column="Name" original="Price">Precio</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Product Pricing">Precio de Productos</value>
-		<value column="Help" original="The Pricing Tab displays the List, Standard and Limit prices for each price list a product is contained in.">La pestaña de precios despliega los precios de lista; estándar; y límite para cada precio de lista que tiene el producto contenido en ella.</value>
+		<value column="Help" original="The Pricing Tab displays the List, Standard and Limit prices for each price list a product is contained in.">La pestaña de precios despliega los precios de lista, estándar, y límite para cada precio de lista que tiene el producto contenido en ella.</value>
 	</row>
 	<row id="184" trl="Y">
 		<value column="Name" original="Payment Term">Término de Pago</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Payment Terms">Definir Términos de Pago</value>
-		<value column="Help" original="The Payment Term Tab defines the different payments terms that you offer to your Business Partners when paying invoices and also those terms which your Vendors offer you for payment of your invoices. On the standard invoice, the Name and the Document Note of the Payment Term is printed.">La pestaña de términos de pago define los diferentes términos que se le ofrece a un tercero cuando paga sus facturas y también aquellos términos que sus proveedores le ofrecen a su organización para pagar sus facturas. En la factura estándar; el nombre y la nota del documento de los términos de pago son impresos.</value>
+		<value column="Help" original="The Payment Term Tab defines the different payments terms that you offer to your Business Partners when paying invoices and also those terms which your Vendors offer you for payment of your invoices. On the standard invoice, the Name and the Document Note of the Payment Term is printed.">La pestaña de términos de pago define los diferentes términos que se le ofrece a un tercero cuando paga sus facturas y también aquellos términos que sus proveedores le ofrecen a su organización para pagar sus facturas. En la factura estándar, el nombre y la nota del documento de los términos de pago son impresos.</value>
 	</row>
 	<row id="185" trl="Y">
 		<value column="Name" original="Shipper">Transportista</value>
@@ -498,7 +498,7 @@
 		<value column="Name" original="Period Control">Control de Período</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Period Control">Definir Control de Período</value>
-		<value column="Help" original="The Period Control Tab displays the status of a Period (Never Opened, Opened, Closed).  ">La pestaña de Período despliega el estado de un período (Nunca abierto; Abierto; Cerrado).</value>
+		<value column="Help" original="The Period Control Tab displays the status of a Period (Never Opened, Opened, Closed).  ">La pestaña de Período despliega el estado de un período (Nunca abierto, Abierto, Cerrado).</value>
 	</row>
 	<row id="206" trl="Y">
 		<value column="Name" original="Sales Region">Region de Ventas</value>
@@ -588,7 +588,7 @@
 		<value column="Name" original="Vendor">Proveedor</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Vendor Parameters">Definir Parámetros del Proveedor</value>
-		<value column="Help" original="The Vendor Tab defines a Business Partner that is a Vendor for this Organization.  If the Vendor check box is selected the necessary fields will display.">La pestaña Proveedor define un tercero que es un proveedor de esta organización. Si el cuadro de verificación Proveedor esta seleccionado; los campos relacionados a proveedores son desplegados.</value>
+		<value column="Help" original="The Vendor Tab defines a Business Partner that is a Vendor for this Organization.  If the Vendor check box is selected the necessary fields will display.">La pestaña Proveedor define un tercero que es un proveedor de esta organización. Si el cuadro de verificación Proveedor esta seleccionado, los campos relacionados a proveedores son desplegados.</value>
 	</row>
 	<row id="225" trl="Y">
 		<value column="Name" original="Employee">Empleado</value>
@@ -606,7 +606,7 @@
 		<value column="Name" original="Bank">Banco</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Bank">Mantener Bancos</value>
-		<value column="Help" original="The Bank Tab defines a bank that is used by an organization or business partner.  Each Bank is given an identifying Name, Address, Routing No and Swift Code">La pestaña Bancos define un banco que es usado por una organización o tercero. Cada banco contiene un nombre; dirección número de ruta y código Swift.</value>
+		<value column="Help" original="The Bank Tab defines a bank that is used by an organization or business partner.  Each Bank is given an identifying Name, Address, Routing No and Swift Code">La pestaña Bancos define un banco que es usado por una organización o tercero. Cada banco contiene un nombre, dirección número de ruta y código Swift.</value>
 	</row>
 	<row id="228" trl="Y">
 		<value column="Name" original="Account">Cuenta</value>
@@ -672,7 +672,7 @@
 		<value column="Name" original="Purchasing">Compras</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Purchasing">Compras</value>
-		<value column="Help" original="The Purchasing Tab define the pricing and rules ( pack quantity, UPC, minimum order quantity) for each product.">La pestaña Compras define los precios y reglas (cantidad en paquetes; UPC; cantidad mínima para ordenar) para cada producto.</value>
+		<value column="Help" original="The Purchasing Tab define the pricing and rules ( pack quantity, UPC, minimum order quantity) for each product.">La pestaña Compras define los precios y reglas (cantidad en paquetes, UPC, cantidad mínima para ordenar) para cada producto.</value>
 	</row>
 	<row id="241" trl="Y">
 		<value column="Name" original="Withholding">Retención</value>
@@ -750,7 +750,7 @@
 		<value column="Name" original="Shipment">Entrega</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Shipments and Customer Returns">Entregas y devoluciones del cliente</value>
-		<value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments to a Customer or Returns from a Customer. ">La pestaña Entrega permite generar; mantener; entrar y procesar entregas a clientes o devoluciones de clientes.</value>
+		<value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments to a Customer or Returns from a Customer. ">La pestaña Entrega permite generar, mantener, entrar y procesar entregas a clientes o devoluciones de clientes.</value>
 	</row>
 	<row id="258" trl="Y">
 		<value column="Name" original="Shipment Line">Línea de la Entrega</value>
@@ -906,7 +906,7 @@
 		<value column="Name" original="Material Receipt">Recibo de Material</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Enter Receipts and Vendor Returns">Generar recibos y devoluciones del proveedor</value>
-		<value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments from a Vendor or Returns to a Vendor. ">La pestaña de despachos permite generar; mantener; entrar y procesar despachos de un proveedor o devoluciones al proveedor.</value>
+		<value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments from a Vendor or Returns to a Vendor. ">La pestaña de despachos permite generar, mantener, entrar y procesar despachos de un proveedor o devoluciones al proveedor.</value>
 	</row>
 	<row id="297" trl="Y">
 		<value column="Name" original="Receipt Line">Línea del Recibo</value>
@@ -1026,7 +1026,7 @@
 		<value column="Name" original="Bill of Materials">Lista de Materiales</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Bill of Material product lines">Lista de Materiales de líneas de producto</value>
-		<value column="Help" original="The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.&#10;&#10;Available Quantity:&#10;- Stored BOMs have to be created via &quot;Production&quot;&#10;- The available quantity of a non-stored BOMs is dynamically calculated&#10;- The attribute &quot;Stored&quot; is defined in the &quot;Product&quot; tab&#10;&#10;Price:&#10;- BOMs must be listed in Pricelists&#10;- If the price is 0.00, the price is dynamically calculated&#10;&#10;Printing:&#10;- Usually, only the BOM information is printed&#10;- For invoices, delivery slips and pick lists, you have the option to print the details&#10;- In the details, the quantity is listed - and the price, if this is dynamically calculated&#10;">La pestaña Lista de Matriales define aquellos productos que son generados a partir de otros productos. Una lista de materialess (LDM) consta de uno o más productos o LDM`s. Cantidad Disponible: 1. LDM almacenadas tienen que ser creadas via producción. 2. La cantidad disponible de una LDM que no se almacena es calculada dinámicamente. 3. El atributo `Almacenada` que califica a una LDM es definida en la pestaña Producto. Precio: 1. LDM tienen que estar enlistadas en listas de precios. 2. Si el precio es 0.00; el precio es calculado dinámicamente como la suma del precio de cada ítem que compone la LDM. Impresión: 1. Usualmente; solo la información de la LDM es impresa. 2. Para facturas; boletas de despacho y boletas de recolección; se tiene la opción de imprimir los detalles. 3. En los detalles; la cantidad es listada y también el precio si este es calculado dinámicamente.</value>
+		<value column="Help" original="The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.&#10;&#10;Available Quantity:&#10;- Stored BOMs have to be created via &quot;Production&quot;&#10;- The available quantity of a non-stored BOMs is dynamically calculated&#10;- The attribute &quot;Stored&quot; is defined in the &quot;Product&quot; tab&#10;&#10;Price:&#10;- BOMs must be listed in Pricelists&#10;- If the price is 0.00, the price is dynamically calculated&#10;&#10;Printing:&#10;- Usually, only the BOM information is printed&#10;- For invoices, delivery slips and pick lists, you have the option to print the details&#10;- In the details, the quantity is listed - and the price, if this is dynamically calculated&#10;">La pestaña Lista de Matriales define aquellos productos que son generados a partir de otros productos. Una lista de materialess (LDM) consta de uno o más productos o LDM`s. Cantidad Disponible: 1. LDM almacenadas tienen que ser creadas via producción. 2. La cantidad disponible de una LDM que no se almacena es calculada dinámicamente. 3. El atributo `Almacenada` que califica a una LDM es definida en la pestaña Producto. Precio: 1. LDM tienen que estar enlistadas en listas de precios. 2. Si el precio es 0.00, el precio es calculado dinámicamente como la suma del precio de cada ítem que compone la LDM. Impresión: 1. Usualmente, solo la información de la LDM es impresa. 2. Para facturas, boletas de despacho y boletas de recolección, se tiene la opción de imprimir los detalles. 3. En los detalles, la cantidad es listada y también el precio si este es calculado dinámicamente.</value>
 	</row>
 	<row id="319" trl="Y">
 		<value column="Name" original="Production Header">Encabezado de Producción</value>
@@ -1098,7 +1098,7 @@
 		<value column="Name" original="Payment">Pago</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Payment or Receipt">Pago</value>
-		<value column="Help" original="Enter payment or receipt for a Business Partner.  If it is for a single invoice it can be allocated directly to that invoice using this screen. You can also apply over/under payments:&lt;br&gt;&#10;You have an over-payment, if you received more money than due for a single invoice. Instead of writing the difference off (i.e. would be a gain), you can leave the amount unallocated and use it for later invoices or credit memos. Please note that the Amount is the payment amount, so you need to enter the over-payment as a negative amount.&lt;br&gt;&#10;You can also receive a partial payment (under-payment). If you decide not to write off the remaining invoice amount, enter the under-payment as a positive amount.&lt;br&gt;&#10;Note that printed payments are archived in Payment Selection (Prepared Payment).&#10;&lt;br&gt;For Posting, the bank account organization is used, if it is not a charge.">La pestaña Pagos define un pago hecho por un Tercero. Si el pago es para una sola factura; éste puede ser asignado a esa factura directamente usando esta pantalla. También es posible aplicar sobre/sub pagos; se tiene un sobrepago si se ha recibido más dinero que la que se debía por la factura. En lugar de eliminar la diferencia (ej. Volviendola una ganancia); es posible dejar el Total sin asignar y usarlo con futuras facturas o cartas de crédito. Note que el Total es el Total pagado por lo tanto sobrepagos deben ser entrados como Totales negativos. Es posible también recibir un pago parcial (sub pago). Si se decide no eliminar el pago faltante; entre el sub pago como un Total positivo.</value>
+		<value column="Help" original="Enter payment or receipt for a Business Partner.  If it is for a single invoice it can be allocated directly to that invoice using this screen. You can also apply over/under payments:&lt;br&gt;&#10;You have an over-payment, if you received more money than due for a single invoice. Instead of writing the difference off (i.e. would be a gain), you can leave the amount unallocated and use it for later invoices or credit memos. Please note that the Amount is the payment amount, so you need to enter the over-payment as a negative amount.&lt;br&gt;&#10;You can also receive a partial payment (under-payment). If you decide not to write off the remaining invoice amount, enter the under-payment as a positive amount.&lt;br&gt;&#10;Note that printed payments are archived in Payment Selection (Prepared Payment).&#10;&lt;br&gt;For Posting, the bank account organization is used, if it is not a charge.">La pestaña Pagos define un pago hecho por un Tercero. Si el pago es para una sola factura, éste puede ser asignado a esa factura directamente usando esta pantalla. También es posible aplicar sobre/sub pagos, se tiene un sobrepago si se ha recibido más dinero que la que se debía por la factura. En lugar de eliminar la diferencia (ej. Volviendola una ganancia), es posible dejar el Total sin asignar y usarlo con futuras facturas o cartas de crédito. Note que el Total es el Total pagado por lo tanto sobrepagos deben ser entrados como Totales negativos. Es posible también recibir un pago parcial (sub pago). Si se decide no eliminar el pago faltante, entre el sub pago como un Total positivo.</value>
 	</row>
 	<row id="331" trl="Y">
 		<value column="Name" original="Accounting">Contabilidad</value>
@@ -1182,7 +1182,7 @@
 		<value column="Name" original="Request Processor">Procesador de Solicitudes</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Request Processor">Procesador de Solicitudes</value>
-		<value column="Help" original="The Request Processor Tab allows you to define processes that you want to occur and the frequency and timing of these processes. If no other user is found, the items are assigned to the supervisor. A Request Processor can be just for a specific Request Type or for all.">La pestaña Procesador de Solicitudes permite definir procesos que ocurren durante el procesamiento de solicitudes. También permite definir la hora y frecuencia en que corre el procesador. Si el procesamiento no determina ningún usuario; las solicitudes son asignadas al supervisor.</value>
+		<value column="Help" original="The Request Processor Tab allows you to define processes that you want to occur and the frequency and timing of these processes. If no other user is found, the items are assigned to the supervisor. A Request Processor can be just for a specific Request Type or for all.">La pestaña Procesador de Solicitudes permite definir procesos que ocurren durante el procesamiento de solicitudes. También permite definir la hora y frecuencia en que corre el procesador. Si el procesamiento no determina ningún usuario, las solicitudes son asignadas al supervisor.</value>
 	</row>
 	<row id="347" trl="Y">
 		<value column="Name" original="Mail Template">Plantilla de Correo</value>
@@ -1230,13 +1230,13 @@
 		<value column="Name" original="Commission">Comisión</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Commission Rule">Definir Reglas de Comisiones</value>
-		<value column="Help" original="Define when to pay a commission to whom.  For each period, you start the calculation of the commission after the transaction for that period are completed or closed.">Define cuando pagar una Comisión y a quien. Para cada período; el calculo de la comisión comienza después que las transacciones de ese período están completas o cerradas.</value>
+		<value column="Help" original="Define when to pay a commission to whom.  For each period, you start the calculation of the commission after the transaction for that period are completed or closed.">Define cuando pagar una Comisión y a quien. Para cada período, el calculo de la comisión comienza después que las transacciones de ese período están completas o cerradas.</value>
 	</row>
 	<row id="356" trl="Y">
 		<value column="Name" original="Commission Line">Línea de Comisión</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define your commission calculation rule">Definir reglas de cálculo de comisiones</value>
-		<value column="Help" original="Define the selection criteria for paying the commission. If you do not enter restricting parameters (e.g. for specific Business Partner (Groups) or Product (Categories), etc. all transactions for the period will be used to calculate the commission.&#10;&#10;After converting from the transaction to the commission currency,&#10;the formula for calculating the commission is:&#10;&#10;(Converted Amount - Subtract Amount) * Amount Multiplier&#10;+ (Actual Quantity - Subtract Quantity) * Quantity Multiplier&#10;&#10;You can choose, that only positive amounts (Converted Amount - Subtract Amount) and positive quantities (Actual Quantity - Subtract Quantity) are used in the calculation.">Definir los criterios de selección para el pago de comisiones. Si no se entran parámetros restrictivos (ej. Para Terceros específicos (grupos) o productos (Categorías); etc. todas las transacciones para el período serán usadas para el calculo de la comisión. Después de convertir de la moneda de la transacción a la moneda de pago de la comisión; la formula para calcular la comisión es: (Total Convertido - Total a Sustraer) * Multiplicador Total + (Cantidad Real - Cantidad a Sustraer) * Multiplicador Cantidad. Es posible escoger; que solo Totales positivos (Total Convertido - Total a Sustraer) y cantidades positivas (Cantidad Real - Cantidad a Sustraer) sean usadas en el calculo.</value>
+		<value column="Help" original="Define the selection criteria for paying the commission. If you do not enter restricting parameters (e.g. for specific Business Partner (Groups) or Product (Categories), etc. all transactions for the period will be used to calculate the commission.&#10;&#10;After converting from the transaction to the commission currency,&#10;the formula for calculating the commission is:&#10;&#10;(Converted Amount - Subtract Amount) * Amount Multiplier&#10;+ (Actual Quantity - Subtract Quantity) * Quantity Multiplier&#10;&#10;You can choose, that only positive amounts (Converted Amount - Subtract Amount) and positive quantities (Actual Quantity - Subtract Quantity) are used in the calculation.">Definir los criterios de selección para el pago de comisiones. Si no se entran parámetros restrictivos (ej. Para Terceros específicos (grupos) o productos (Categorías), etc. todas las transacciones para el período serán usadas para el calculo de la comisión. Después de convertir de la moneda de la transacción a la moneda de pago de la comisión, la formula para calcular la comisión es: (Total Convertido - Total a Sustraer) * Multiplicador Total + (Cantidad Real - Cantidad a Sustraer) * Multiplicador Cantidad. Es posible escoger, que solo Totales positivos (Total Convertido - Total a Sustraer) y cantidades positivas (Cantidad Real - Cantidad a Sustraer) sean usadas en el calculo.</value>
 	</row>
 	<row id="358" trl="Y">
 		<value column="Name" original="Project Cycle">Ciclo de Proyecto</value>
@@ -1266,7 +1266,7 @@
 		<value column="Name" original="Commission Amount">Total de Comisión</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Commission line amounts">Totales de línea de comisión</value>
-		<value column="Help" original="For each commission line, a line is generated.  You can overwrite the amount and quantity to modify the commission amount, but the suggested way is creating additional Commission Detail lines.  Please be aware that manual changes will not reconcile with the Commission Details.">Para cada línea de comisión; una línea es generada. Se puede sobreescribir el Total y cantidad para modificar el Total de la comisión; pero se sugiere crear líneas de detalle de comisión adicionales. Tenga en cuenta que los cambios manuales no se conciliarán con los detalles de comisión.</value>
+		<value column="Help" original="For each commission line, a line is generated.  You can overwrite the amount and quantity to modify the commission amount, but the suggested way is creating additional Commission Detail lines.  Please be aware that manual changes will not reconcile with the Commission Details.">Para cada línea de comisión, una línea es generada. Se puede sobreescribir el Total y cantidad para modificar el Total de la comisión, pero se sugiere crear líneas de detalle de comisión adicionales. Tenga en cuenta que los cambios manuales no se conciliarán con los detalles de comisión.</value>
 	</row>
 	<row id="364" trl="Y">
 		<value column="Name" original="Used in Column">Usado en Columna</value>
@@ -1278,7 +1278,7 @@
 		<value column="Name" original="Commission Detail">Detalle de Comisión</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Commission Detail Information">Información de detalle de comisión</value>
-		<value column="Help" original="You may alter the amount and quantity of the detail records, but the suggested way is to add new correcting lines.&#10;The amounts are converted from the transaction currency to the Commission Currency (defined in the Commission window) using the start date and the spot exchange rate.">Es posible alterar el total y la cantidad de los registros de detalle; pero se sugiere adicionar nuevas líneas para corregir. Los totales son convertidos desde la moneda de la transacción a la moneda de la comisión (definida en la ventana de comisión) usando la fecha de comienzo y la tasa del punto de cambio.</value>
+		<value column="Help" original="You may alter the amount and quantity of the detail records, but the suggested way is to add new correcting lines.&#10;The amounts are converted from the transaction currency to the Commission Currency (defined in the Commission window) using the start date and the spot exchange rate.">Es posible alterar el total y la cantidad de los registros de detalle, pero se sugiere adicionar nuevas líneas para corregir. Los totales son convertidos desde la moneda de la transacción a la moneda de la comisión (definida en la ventana de comisión) usando la fecha de comienzo y la tasa del punto de cambio.</value>
 	</row>
 	<row id="367" trl="Y">
 		<value column="Name" original="Performance Goal">Objetivo del Desempeño</value>
@@ -1290,7 +1290,7 @@
 		<value column="Name" original="Performance Measure Calculation">Cálculo de Medida de Desempeño</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain your Performance Measure Calculation">Mantener Cálculo de Medida de Desempeño</value>
-		<value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. See examples.&lt;br&gt;&#10;The SELECT definition must contain the SELECT and FROM keywords in upper case, the WHERE definition must contain the WHERE keyword in upper case.  The main table must not have an alias!  The WHERE clause can only contain values of the main table (e.g. when selecting from Header and lines, only header variables can be used in the where clause) and be fully qualified if there is more then one table. ">El Calculo de Medición del Desempeño define como la medida de desempeño se calcula. Por favor probar el comando en SQL*Plus primero. El Select necesita regresar un solo valor! Cualquier restricción de rango de fecha; organizaciones; terceros; productos debe ser hecha via la ventana `Medida de desempeño`. Este es un calculo genérico. Como este tema es algo técnico; el sistema viene con algunos ejemplos predefinidos.</value>
+		<value column="Help" original="The Performance Measure Calculation defines how performance measures will be calculated. See examples.&lt;br&gt;&#10;The SELECT definition must contain the SELECT and FROM keywords in upper case, the WHERE definition must contain the WHERE keyword in upper case.  The main table must not have an alias!  The WHERE clause can only contain values of the main table (e.g. when selecting from Header and lines, only header variables can be used in the where clause) and be fully qualified if there is more then one table. ">El Calculo de Medición del Desempeño define como la medida de desempeño se calcula. Por favor probar el comando en SQL*Plus primero. El Select necesita regresar un solo valor! Cualquier restricción de rango de fecha, organizaciones, terceros, productos debe ser hecha via la ventana `Medida de desempeño`. Este es un calculo genérico. Como este tema es algo técnico, el sistema viene con algunos ejemplos predefinidos.</value>
 	</row>
 	<row id="370" trl="Y">
 		<value column="Name" original="Achievement">Logro del Desempeño</value>
@@ -1344,7 +1344,7 @@
 		<value column="Name" original="Revenue Recognition Plan">Plan de Reconocimiento de Ingresos</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="View Revenue Recognition Plan">Ver plan de reconocimiento de ingresos</value>
-		<value column="Help" original="The Revenue Recognition plan is generated then invoicing a product with revenue recognition.  With Revenue Recognition, the amount is posted to the Unrecognized revenue and over time or based on Service Level booked to Earned Revenue.">El plan de reconocimiento de ingresos es generado cuando se factura por un producto que tenga reconocimiento de ingresos. Con reconocimiento de ingresos; el Total es registrado en libros como Ingresos sin reconocer y a través del tiempo o basado en el nivel de servicio; se registra como Ingreso Ganado.</value>
+		<value column="Help" original="The Revenue Recognition plan is generated then invoicing a product with revenue recognition.  With Revenue Recognition, the amount is posted to the Unrecognized revenue and over time or based on Service Level booked to Earned Revenue.">El plan de reconocimiento de ingresos es generado cuando se factura por un producto que tenga reconocimiento de ingresos. Con reconocimiento de ingresos, el Total es registrado en libros como Ingresos sin reconocer y a través del tiempo o basado en el nivel de servicio, se registra como Ingreso Ganado.</value>
 	</row>
 	<row id="379" trl="Y">
 		<value column="Name" original="Revenue Recognition Run">Cálculo de Reconocimiento de Ingresos</value>
@@ -1379,7 +1379,7 @@
 	<row id="385" trl="Y">
 		<value column="Name" original="Print Form">Forma de Impresión</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain Print Form (Invoices, Checks, ..) information">Mantener información de formas de impresión (facturas; cheques;...)</value>
+		<value column="Description" original="Maintain Print Form (Invoices, Checks, ..) information">Mantener información de formas de impresión (facturas, cheques,...)</value>
 		<value column="Help" original="The selection determines what Print Format is used to print a particular Form for your Organization.">La selección determina que formato de impresión es usado para imprimir una forma particular para su organización.</value>
 	</row>
 	<row id="386" trl="Y">
@@ -1572,7 +1572,7 @@ Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 		<value column="Name" original="Resource Product">Producto</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Product information of Resource">Mantener Información de productos para recursos</value>
-		<value column="Help" original="The product for the resource is automatically created and synchronized. Update Name, Unit of Measure, etc. in the Resource and don't change it in the product.">El producto para el recurso es creado automáticamente y sincronizado. Actualiza Nombre; Unidad de Medida; etc. En el recurso y no lo cambia en el producto.</value>
+		<value column="Help" original="The product for the resource is automatically created and synchronized. Update Name, Unit of Measure, etc. in the Resource and don't change it in the product.">El producto para el recurso es creado automáticamente y sincronizado. Actualiza Nombre, Unidad de Medida, etc. En el recurso y no lo cambia en el producto.</value>
 	</row>
 	<row id="418" trl="Y">
 		<value column="Name" original="Resource Type">Tipo de Recurso</value>
@@ -1590,13 +1590,13 @@ Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 		<value column="Name" original="Price">Precio</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Expense Type Pricing">Precio de tipo de gasto</value>
-		<value column="Help" original="The Pricing Tab displays the List, Standard and Limit prices for each price list a product is contained in.">La pestaña Precio despliega los precios de lista; estándar; y límite para cada lista de precios que contiene el producto.</value>
+		<value column="Help" original="The Pricing Tab displays the List, Standard and Limit prices for each price list a product is contained in.">La pestaña Precio despliega los precios de lista, estándar, y límite para cada lista de precios que contiene el producto.</value>
 	</row>
 	<row id="421" trl="Y">
 		<value column="Name" original="Price">Precio</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Resource Pricing">Precio de Recursos</value>
-		<value column="Help" original="The Pricing Tab displays the List, Standard and Limit prices for each price list a resource is contained in.">La pestaña Precio despliega los precios de lista; estándar; y límite para cada lista de precios que contiene el recurso.</value>
+		<value column="Help" original="The Pricing Tab displays the List, Standard and Limit prices for each price list a resource is contained in.">La pestaña Precio despliega los precios de lista, estándar, y límite para cada lista de precios que contiene el recurso.</value>
 	</row>
 	<row id="422" trl="Y">
 		<value column="Name" original="Accounting">Contabilidad</value>
@@ -1680,7 +1680,7 @@ Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 		<value column="Name" original="Print Table Format">Formato Impresión Grilla</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Report Table Format">Definir formato de la tabla del Informe</value>
-		<value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. If you leave the entries empty, the default colors and fonts are used:&lt;br&gt;&#10;Fonts are based on the Font used in the Report; Page Header and Table Header will be bold, the Function Font is Bold-Italic, the Footer Font is two points smaller, the Parameter Font is Italic.">El formato de impresión de la grilla permite definir como se imprimen los encabezados de tabla; etc. Si se dejan las entradas en blanco; los colores y fuentes predeterminados son usados: Los fuentes están basados en los fuentes del Informe; encabezados de tabla y de página estarán en negrilla; la fuente de Función es Bold-Italic; la fuente del pie de página es dos puntos más pequeña; la fuente del parámetro es Italic.</value>
+		<value column="Help" original="The Print Table Format lets you define how table header, etc. is printed. If you leave the entries empty, the default colors and fonts are used:&lt;br&gt;&#10;Fonts are based on the Font used in the Report; Page Header and Table Header will be bold, the Function Font is Bold-Italic, the Footer Font is two points smaller, the Parameter Font is Italic.">El formato de impresión de la grilla permite definir como se imprimen los encabezados de tabla; etc. Si se dejan las entradas en blanco, los colores y fuentes predeterminados son usados: Los fuentes están basados en los fuentes del Informe, encabezados de tabla y de página estarán en negrilla, la fuente de Función es Bold-Italic, la fuente del pie de página es dos puntos más pequeña; la fuente del parámetro es Italic.</value>
 	</row>
 	<row id="436" trl="Y">
 		<value column="Name" original="Prepared Payment">Pago Generado</value>
@@ -1691,8 +1691,8 @@ Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 	<row id="437" trl="Y">
 		<value column="Name" original="Request Type">Tipo de Solicitud</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Type of request (e.g. Inquiry, Complaint, ..)">Tipo de Solicitud (Consulta; queja; ...)</value>
-		<value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">Tipos de solicitud son usados para procesar y categorizar las solicitudes. Las opciones son Consulta de Cuenta; Garantía; etc.</value>
+		<value column="Description" original="Type of request (e.g. Inquiry, Complaint, ..)">Tipo de Solicitud (Consulta, queja, ...)</value>
+		<value column="Help" original="Request Types are used for processing and categorizing requests. Options are Account Inquiry, Warranty Issue, etc.">Tipos de solicitud son usados para procesar y categorizar las solicitudes. Las opciones son Consulta de Cuenta, Garantía, etc.</value>
 	</row>
 	<row id="438" trl="Y">
 		<value column="Name" original="Interest Area">Area de Interés</value>
@@ -2103,7 +2103,7 @@ Un inventario físico se crea por fecha del almacén y del movimiento.</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Import General Ledger">Importación del libro mayor general</value>
 		<value column="Help" original="A new Journal Batch is created, if the Batch Document No or accounting schema are different. A new Journal is created, if the Document No, Currency, Document Type, GL Category, Posting Type or Accounting type is different. You can also force the creation of a new Batch or Jornal by selecting the creat new flag.&lt;p&gt;&#10;Please note that there are three Organization Fields: The Document Organization is the owner of the document and set directly or per parameter default. The Organization is part of the accounting key and only required id no Valid Account Comination is specified; If not defined it is derived from the Document Organization. The Transaction Organization is part of the account combination.&lt;br&gt;&#10;The optional balance check applies to the entire import, not for individual batches or journals.&#10;&lt;br&gt;The document numbers will be overwritten if the document type is not set to manual sequences.">Una nueva jornada de diario es creado, si el documento de la jornada no es diferente. Una nueva jornada es creada, si el No. de documento,esquema de la contabilidad, moneda, tipo de documento, Categoria GL, Fijando el tipo o el tipo de contabilidad es diferente.&lt;p &gt;
-Observe por favor que hay tres campos de la organización: La organización del documento es el dueño del documento y del sistema directamente o por default del parámetro . La organización es parte de la llave de la contabilidad y solamente se especifica la identificación requerida ninguna combinación de cuenta válida; Si no esta definido se deriva de la organización del documento. La organización de la transacción es parte de la combinación de la cuenta.</value>
+Observe por favor que hay tres campos de la organización: La organización del documento es el dueño del documento y del sistema directamente o por default del parámetro . La organización es parte de la llave de la contabilidad y solamente se especifica la identificación requerida ninguna combinación de cuenta válida, si no esta definido se deriva de la organización del documento. La organización de la transacción es parte de la combinación de la cuenta.</value>
 	</row>
 	<row id="510" trl="Y">
 		<value column="Name" original="Invoice">Factura</value>
@@ -2337,7 +2337,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Name" original="Knowledge Synonym">Sinonimo Conocimiento</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Knowlege Keyword Synonym">Sinonimo de la palabra clave de conocimiento</value>
-		<value column="Help" original="Search Synonyms for Knowledge Keywords; Example: Product = Item">Sinónimos de la búsqueda para las palabras claves del conocimiento; Ejemplo: Producto = Artículo</value>
+		<value column="Help" original="Search Synonyms for Knowledge Keywords; Example: Product = Item">Sinónimos de la búsqueda para las palabras claves del conocimiento, Ejemplo: Producto = Artículo</value>
 	</row>
 	<row id="549" trl="Y">
 		<value column="Name" original="Translation">Traducción</value>
