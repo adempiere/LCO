@@ -1313,28 +1313,28 @@ Segmentos Contables de la organización deseada, Cuentas, Productos pueden tener
 		<value column="Help" original="The LDAP Server allows third party software (e.g. Apache) to use the users defined in the system to authentificate and authorize them.  There is only one server per Adempiere system.  The &quot;o&quot; is the Client key and the optional &quot;ou&quot; is the Interest Area key.">El Servidor LDAP permite software de terceros (e.j Apache) para utilizar los usuarios definidos en el sistema para autenticarlos y autorizarlos. Hay solo un servidor por sistema Adempiere. La "o" es la llave del cliente y "ou" es la llave del area de interes.</value>
 	</row>
 	<row id="50001" trl="Y">
-		<value column="Name" original="Packages Installed">Paquetes instalados</value>
+		<value column="Name" original="Packages Installed">Paquetes Instalados</value>
 		<value column="Description" original="List of packages installed">Lista de paquetes instalados.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="50002" trl="Y">
-		<value column="Name" original="Package Maintenance">Mantenimiento de paquetes.</value>
+		<value column="Name" original="Package Maintenance">Mantenimiento de Paquetes</value>
 		<value column="Description" original="Package installation history and maintenance">Historia de instalación de paquetes y mantenimiento</value>
 		<value column="Help" original="Review package installation.  Also perform package rollback if required">Revisa la instalación de paquetes. Tambien ejecuta un rollback si se requiere.</value>
 	</row>
 	<row id="50003" trl="Y">
-		<value column="Name" original="PackOut - Create a package">Exportar Paquete- Crea un paquete.</value>
+		<value column="Name" original="PackOut - Create a package">Exportar Paquete (PackOut)</value>
 		<value column="Description" original="Package build Application">El paquete construye una aplicación.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="50004" trl="Y">
-		<value column="Name" original="Common Package Details">Detalles de paquetes comunes.</value>
-		<value column="Description" original="Maintain Common Package Details">Mantenimiento de Detalles de paquetes comunes.</value>
+		<value column="Name" original="Common Package Details">Detalles Comunes de Paquetes</value>
+		<value column="Description" original="Maintain Common Package Details">Mantenimiento de Detalles Comunes de paquetes </value>
 		<value column="Help" original="Create and maintain common package element details">Crea y mantiene detalles de elementos de paquetes comunes.</value>
 	</row>
 	<row id="50005" trl="Y">
-		<value column="Name" original="PackIn - Import a package">Importar un paquete</value>
-		<value column="Description" original="Imports a package">Importar un paquete</value>
+		<value column="Name" original="PackIn - Import a package">Importar un paquete (PackIn)</value>
+		<value column="Description" original="Imports a package">Importar un paquete (PackIn)</value>
 		<value column="Help" original="Imports a package previously created by PackOut">Importar un paquete previamente creado por el Exportador de Paquetes</value>
 	</row>
 	<row id="50006" trl="Y">
