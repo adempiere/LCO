@@ -1263,8 +1263,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="278" trl="Y">
-		<value column="Name" original="Discontinued">Suspendido</value>
-		<value column="PrintName" original="Discontinued">Suspendido</value>
+		<value column="Name" original="Discontinued">Descontinuado</value>
+		<value column="PrintName" original="Discontinued">Descontinuado</value>
 		<value column="Description" original="This product is no longer available">Este producto no esta disponible</value>
 		<value column="Help" original="The Discontinued check box indicates a product that has been discontinued.">El cuadro de verificación descontinuado indica un producto que ha sido descontinuado.</value>
 		<value column="PO_Description" original=""/>
@@ -1273,10 +1273,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="279" trl="Y">
-		<value column="Name" original="Discontinued by">Suspendido Por</value>
-		<value column="PrintName" original="Discontinued by">Suspendido Por</value>
-		<value column="Description" original="Discontinued By">Descontinuado Por</value>
-		<value column="Help" original="The Discontinued By indicates the individual who discontinued this product">El suspendido por indica el individuo que suspendió este producto.</value>
+		<value column="Name" original="Discontinued by">Descontinuado Desde</value>
+		<value column="PrintName" original="Discontinued by">Descontinuado Desde</value>
+		<value column="Description" original="Discontinued By">Descontinuado Desde</value>
+		<value column="Help" original="The Discontinued By indicates the individual who discontinued this product">Indica desde cuándo se descontinuó este producto.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -3253,8 +3253,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="580" trl="Y">
-		<value column="Name" original="Suspense Balancing Acct">Cuenta puente de Balanceo</value>
-		<value column="PrintName" original="Suspense Balancing Acct">Balanceo de Cuenta en Suspenso</value>
+		<value column="Name" original="Suspense Balancing Acct">Cuenta Puente Balanceo</value>
+		<value column="PrintName" original="Suspense Balancing Acct">Cuenta Puente Balanceo</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -3263,8 +3263,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="581" trl="Y">
-		<value column="Name" original="Suspense Error Acct">Cuenta Puente de Error</value>
-		<value column="PrintName" original="Suspense Error Acct">Cuenta de Error en Suspenso</value>
+		<value column="Name" original="Suspense Error Acct">Cuenta Puente Error</value>
+		<value column="PrintName" original="Suspense Error Acct">Cuenta Puente Error</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -3503,8 +3503,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="611" trl="Y">
-		<value column="Name" original="Use Suspense Balancing">Usar Balance Suspendido</value>
-		<value column="PrintName" original="Use Suspense Balancing">Usar Balance Suspendido</value>
+		<value column="Name" original="Use Suspense Balancing">Usar Cuenta Puente Balanceo</value>
+		<value column="PrintName" original="Use Suspense Balancing">Usar Cuenta Puente Balanceo</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -3513,8 +3513,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="612" trl="Y">
-		<value column="Name" original="Use Suspense Error">Usar Error en Suspenso</value>
-		<value column="PrintName" original="Use Suspense Error">Usar Error en Suspenso</value>
+		<value column="Name" original="Use Suspense Error">Usar Cuenta Puente Error</value>
+		<value column="PrintName" original="Use Suspense Error">Usar Cuenta Puente Error</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
