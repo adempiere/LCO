@@ -3103,10 +3103,10 @@
 		<value column="PO_PrintName" original="Order Line">Línea Orden de Compra</value>
 	</row>
 	<row id="563" trl="Y">
-		<value column="Name" original="Sales Volume in 1.000">Volúmen de Ventas</value>
-		<value column="PrintName" original="Sales Volume">Volúmen de Ventas</value>
-		<value column="Description" original="Total Volume of Sales in Thousands of Currency">Volúmen total de Ventas</value>
-		<value column="Help" original="The Sales Volume indicates the total volume of sales for a Business Partner.">El Volúmen de ventas indica el volúmen total de ventas para un tercero</value>
+		<value column="Name" original="Sales Volume in 1.000">Volumen de Ventas</value>
+		<value column="PrintName" original="Sales Volume">Volumen de Ventas</value>
+		<value column="Description" original="Total Volume of Sales in Thousands of Currency">Volumen total de Ventas</value>
+		<value column="Help" original="The Sales Volume indicates the total volume of sales for a Business Partner.">El Volumen de ventas indica el volumen total de ventas para un tercero</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -3633,10 +3633,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="627" trl="Y">
-		<value column="Name" original="Volume">Volúmen</value>
-		<value column="PrintName" original="Volume">Volúmen</value>
-		<value column="Description" original="Volume of a product">Volúmen del producto</value>
-		<value column="Help" original="The Volume indicates the volume of the product in the Volume UOM of the Client">El Volumen indica el volumen del producto en la UM de volúmen del cliente</value>
+		<value column="Name" original="Volume">Volumen</value>
+		<value column="PrintName" original="Volume">Volumen</value>
+		<value column="Description" original="Volume of a product">Volumen del producto</value>
+		<value column="Help" original="The Volume indicates the volume of the product in the Volume UOM of the Client">El Volumen indica el volumen del producto en la UM de volumen del cliente</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -5533,10 +5533,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1174" trl="Y">
-		<value column="Name" original="High Volume">Volúmen Alto</value>
-		<value column="PrintName" original="High Volume">Volúmen Alto</value>
+		<value column="Name" original="High Volume">Volumen Alto</value>
+		<value column="PrintName" original="High Volume">Volumen Alto</value>
 		<value column="Description" original="Use Search instead of Pick list">Use búsqueda en lugar de lista de recolección</value>
-		<value column="Help" original="The High Volume Checkbox indicates if a search screen will display as opposed to a pick list for selecting records from this table.">El cuadro de verificación volúmen alto indica si una pantalla de búsqueda se desplegará en lugar de una lista de recolección para seleccionar registros de esta tabla</value>
+		<value column="Help" original="The High Volume Checkbox indicates if a search screen will display as opposed to a pick list for selecting records from this table.">El cuadro de verificación volumen alto indica si una pantalla de búsqueda se desplegará en lugar de una lista de recolección para seleccionar registros de esta tabla</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
