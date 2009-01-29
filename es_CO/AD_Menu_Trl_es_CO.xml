@@ -1463,8 +1463,8 @@
 		<value column="Description" original="Register your System">Registrar su sistema</value>
 	</row>
 	<row id="499" trl="Y">
-		<value column="Name" original="Reapply Customizations">Replica Costumización</value>
-		<value column="Description" original="If you identified customizations in the Change Log, you can reapply them">If you identified customizations in the Change Log, you can reapply them</value>
+		<value column="Name" original="Reapply Customizations">Replica Personalización</value>
+		<value column="Description" original="If you identified customizations in the Change Log, you can reapply them">Si usted identificó personalización en el log de cambios, puede reaplicarlos</value>
 	</row>
 	<row id="500" trl="Y">
 		<value column="Name" original="Workflow to Client">Mueve Flujo de Trabajo</value>

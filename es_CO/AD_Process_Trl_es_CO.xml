@@ -1016,8 +1016,8 @@ Si está funcionando para el sistema, todos los roles de todos los clientes son 
 		<value column="Help" original="You can reapply certain changes.">Usted puede replicar ciertos cambios.</value>
 	</row>
 	<row id="308" trl="Y">
-		<value column="Name" original="Reapply Customizations">Replica Costumización</value>
-		<value column="Description" original="If you identified customizations in the Change Log, you can reapply them">If you identified customizations in the Change Log, you can reapply them</value>
+		<value column="Name" original="Reapply Customizations">Replica Personalización</value>
+		<value column="Description" original="If you identified customizations in the Change Log, you can reapply them">Si usted identificó personalización en el log de cambios, puede reaplicarlos</value>
 		<value column="Help" original="The migration &quot;resets&quot; the system to the current/original setting.  If selected in the Change Log, you can save the customization and re-apply them.  Please note that you need to check, if your customization has no negative side effect in the new release. &lt;br&gt;&#10;Shut down the Application Server before running this process and set the Trace level (in Preference) higher or equals  WARNING.">The migration "resets" the system to the current/original setting. If selected in the Change Log, you can save the customization and re-apply them. Please note that you need to check, if your customization has no negative side effect in the new release.</value>
 	</row>
 	<row id="309" trl="Y">

@@ -9683,9 +9683,9 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1724" trl="Y">
-		<value column="Name" original="Statistic Seconds">Segundos Estáticos</value>
-		<value column="PrintName" original="Statistic Seconds">Segundos Estaticos</value>
-		<value column="Description" original="Internal statistics how many seconds a process took">Estadísticas internas de qué tantos segundos toma un proceso</value>
+		<value column="Name" original="Statistic Seconds">Estadística de Segundos</value>
+		<value column="PrintName" original="Statistic Seconds">Estadística de Segundos</value>
+		<value column="Description" original="Internal statistics how many seconds a process took">Estadísticas internas de cuántos segundos tomó ejecutar un proceso</value>
 		<value column="Help" original="For internal use">Para uso interno</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -21883,7 +21883,7 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="Name" original="Media Server">Servidor media</value>
 		<value column="PrintName" original="Media Server">Servidor media</value>
 		<value column="Description" original="Media Server list to which content should get transfered">La lista del Servidor media contiene la finformación que debe ser transferida.</value>
-		<value column="Help" original="For performance optimization we save media content on static servers">Para optimización de desempeño nosotros tenemos contenido media en servidores estaticos.</value>
+		<value column="Help" original="For performance optimization we save media content on static servers">Para optimización de desempeño nosotros tenemos contenido media en servidores estáticos.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>

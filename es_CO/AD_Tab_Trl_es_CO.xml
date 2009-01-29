@@ -711,7 +711,7 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="248" trl="Y">
-		<value column="Name" original="Report Translation">Traducción de Informe</value>
+		<value column="Name" original="Report Translation">Traducción de Informe y Proceso</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
@@ -969,10 +969,10 @@
 		<value column="Help" original="The Workflow Access Tab defines the Workflows and type of access that this Role is granted.">La pestaña Acceso de Flujo de Trabajo define los flujos de trabajo y el tipo de acceso que este rol tiene.</value>
 	</row>
 	<row id="308" trl="Y">
-		<value column="Name" original="Report Access">Acceso a Informe</value>
+		<value column="Name" original="Report Access">Acceso a Informe y Proceso</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Report Access">Acceso a Informe</value>
-		<value column="Help" original="The Report Access Tab determines who can access a report or process">La pestaña Acceso de Informes determina quien puede tener acceso a un Informe o proceso</value>
+		<value column="Description" original="Report Access">Acceso a Informe y Proceso</value>
+		<value column="Help" original="The Report Access Tab determines who can access a report or process">La pestaña Acceso a Informe y Proceso determina quien puede tener acceso a un Informe o proceso</value>
 	</row>
 	<row id="309" trl="Y">
 		<value column="Name" original="Access">Acceso</value>
