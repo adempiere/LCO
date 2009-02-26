@@ -517,7 +517,9 @@ public class VLocationDialog extends CDialog
 		fCityList.removeAllItems();
 		try
 		{
-			PreparedStatement pstmt = DB.prepareStatement("SELECT C_City_ID, Name From C_City Where IsActive='Y' AND C_Region_ID=? ORDER BY Name", null);
+			PreparedStatement pstmt = DB.prepareStatement("SELECT C_City_ID, Name From C_City Where IsActive='Y' AND C_Region_ID=? ORDER BY "
+					+ (m_location.getCountry().getC_Country_ID() == 156 /*Colombia*/ ? "Postal, " : "")
+					+ "Name", null);
 			pstmt.setInt(1, region_ID);
 			ResultSet rs = pstmt.executeQuery();
 			while (rs.next())
