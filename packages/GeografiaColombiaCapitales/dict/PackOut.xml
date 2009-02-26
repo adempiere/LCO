@@ -143,6 +143,7 @@
 <dcolumn name="Description" class="String" value="99 - VICHADA"/>
 <dcolumn name="C_Country_ID" lookupname="Colombia"/>
 </drow>
+</dtable>
 <dtable name="C_City">
 <drow name="MEDELLÍN"><dcolumn name="C_Region_ID" lookupname="ANTIOQUIA"/><dcolumn name="Postal" class="String" value="05001"/><dcolumn name="C_Country_ID" lookupname="Colombia"/></drow>
 <drow name="BARRANQUILLA"><dcolumn name="C_Region_ID" lookupname="ATLÁNTICO"/><dcolumn name="Postal" class="String" value="08001"/><dcolumn name="C_Country_ID" lookupname="Colombia"/></drow>
