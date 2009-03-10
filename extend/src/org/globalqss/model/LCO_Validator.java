@@ -422,7 +422,7 @@ public class LCO_Validator implements ModelValidator
 					pay.getC_Invoice_ID());
 			if (sumwhamt == null)
 				sumwhamt = Env.ZERO;
-			if (wo.compareTo(sumwhamt) < 0)
+			if (wo.compareTo(sumwhamt) < 0 && sumwhamt.compareTo(Env.ZERO) != 0)
 				return Msg.getMsg(pay.getCtx(), "LCO_WriteOffLowerThanWithholdings");
 		} else {
 			// validate every C_PaymentAllocate
