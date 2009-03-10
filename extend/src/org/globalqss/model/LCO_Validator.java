@@ -242,11 +242,17 @@ public class LCO_Validator implements ModelValidator
 			+ "  FROM LCO_WithholdingType wt, LCO_WithholdingCalc wc "
 			+ " WHERE wt.LCO_WithholdingType_ID = wc.LCO_WithholdingType_ID";
 		PreparedStatement pstmtwccoi = DB.prepareStatement(sqlwccoi, inv.get_TrxName());
-		ResultSet rswccoi = pstmtwccoi.executeQuery();
-		if (rswccoi.next())
-			thereAreCalc = true;
-		rswccoi.close();
-		pstmtwccoi.close();
+		ResultSet rswccoi = null;
+		try {
+			rswccoi = pstmtwccoi.executeQuery();
+			if (rswccoi.next())
+				thereAreCalc = true;
+		} catch (SQLException e) {
+			throw e;
+		} finally {
+			DB.close(rswccoi, pstmtwccoi);
+			rswccoi = null; pstmtwccoi = null;
+		}
 		return thereAreCalc;
 	}
 
@@ -290,11 +296,12 @@ public class LCO_Validator implements ModelValidator
 						+ " WHERE C_Invoice_ID = ? "
 						+ " ORDER BY LCO_InvoiceWithholding_ID";
 					PreparedStatement pstmt = null;
+					ResultSet rs = null;
 					try
 					{
 						pstmt = DB.prepareStatement(sql, inv.get_TrxName());
 						pstmt.setInt(1, invreverted.getC_Invoice_ID());
-						ResultSet rs = pstmt.executeQuery();
+						rs = pstmt.executeQuery();
 						while (rs.next()) {
 							MLCOInvoiceWithholding iwh = new MLCOInvoiceWithholding(inv.getCtx(), rs.getInt(1), inv.get_TrxName());
 							MLCOInvoiceWithholding newiwh = new MLCOInvoiceWithholding(inv.getCtx(), 0, inv.get_TrxName());
@@ -307,25 +314,12 @@ public class LCO_Validator implements ModelValidator
 							if (!newiwh.save())
 								return "Error saving LCO_InvoiceWithholding docValidate";
 						}
-
-						rs.close();
-						pstmt.close();
-						pstmt = null;
-					}
-					catch (Exception e)
-					{
+					} catch (Exception e) {
 						log.log(Level.SEVERE, sql, e);
 						return "Error creating LCO_InvoiceWithholding for reversal invoice";
-					}
-					try
-					{
-						if (pstmt != null)
-							pstmt.close();
-						pstmt = null;
-					}
-					catch (Exception e)
-					{
-						pstmt = null;
+					} finally {
+						DB.close(rs, pstmt);
+						rs = null; pstmt = null;
 					}
 				} else {
 					return "Can't get the number of the invoice reversed";
@@ -437,9 +431,10 @@ public class LCO_Validator implements ModelValidator
 				"FROM C_PaymentAllocate " +
 				"WHERE C_Payment_ID = ?";
 			PreparedStatement pstmt = DB.prepareStatement(sql, pay.get_TrxName());
+			ResultSet rs = null;
 			try {
 				pstmt.setInt(1, pay.getC_Payment_ID());
-				ResultSet rs = pstmt.executeQuery();
+				rs = pstmt.executeQuery();
 				while (rs.next()) {
 					int palid = rs.getInt(1);
 					MPaymentAllocate pal = new MPaymentAllocate(pay.getCtx(), palid, pay.get_TrxName());
@@ -457,14 +452,15 @@ public class LCO_Validator implements ModelValidator
 							pal.getC_Invoice_ID());
 					if (sumwhamt == null)
 						sumwhamt = Env.ZERO;
-					if (wo.compareTo(sumwhamt) < 0)
+					if (wo.compareTo(sumwhamt) < 0 && sumwhamt.compareTo(Env.ZERO) != 0)
 						return Msg.getMsg(pay.getCtx(), "LCO_WriteOffLowerThanWithholdings");
 				}
-				rs.close();
-				pstmt.close();
 			} catch (SQLException e) {
 				e.printStackTrace();
 				return e.getLocalizedMessage();
+			} finally {
+				DB.close(rs, pstmt);
+				rs = null; pstmt = null;
 			}
 		}
 
@@ -485,9 +481,10 @@ public class LCO_Validator implements ModelValidator
 					"Processed = 'N' AND " +
 					"C_AllocationLine_ID IS NULL";
 				PreparedStatement pstmt = DB.prepareStatement(sql, ah.get_TrxName());
+				ResultSet rs = null;
 				try {
 					pstmt.setInt(1, al.getC_Invoice_ID());
-					ResultSet rs = pstmt.executeQuery();
+					rs = pstmt.executeQuery();
 					while (rs.next()) {
 						int iwhid = rs.getInt(1);
 						MLCOInvoiceWithholding iwh = new MLCOInvoiceWithholding(
@@ -499,11 +496,12 @@ public class LCO_Validator implements ModelValidator
 						if (!iwh.save())
 							return "Error saving LCO_InvoiceWithholding completePaymentWithholdings";
 					}
-					rs.close();
-					pstmt.close();
 				} catch (SQLException e) {
 					e.printStackTrace();
 					return e.getLocalizedMessage();
+				} finally {
+					DB.close(rs, pstmt);
+					rs = null; pstmt = null;
 				}
 			}
 		}
@@ -524,10 +522,11 @@ public class LCO_Validator implements ModelValidator
 					"Processed = 'Y' AND " +
 					"C_AllocationLine_ID = ?";
 				PreparedStatement pstmt = DB.prepareStatement(sql, ah.get_TrxName());
+				ResultSet rs = null;
 				try {
 					pstmt.setInt(1, al.getC_Invoice_ID());
 					pstmt.setInt(2, al.getC_AllocationLine_ID());
-					ResultSet rs = pstmt.executeQuery();
+					rs = pstmt.executeQuery();
 					while (rs.next()) {
 						int iwhid = rs.getInt(1);
 						MLCOInvoiceWithholding iwh = new MLCOInvoiceWithholding(
@@ -537,11 +536,12 @@ public class LCO_Validator implements ModelValidator
 						if (!iwh.save())
 							return "Error saving LCO_InvoiceWithholding reversePaymentWithholdings";
 					}
-					rs.close();
-					pstmt.close();
 				} catch (SQLException e) {
 					e.printStackTrace();
 					return e.getLocalizedMessage();
+				} finally {
+					DB.close(rs, pstmt);
+					rs = null; pstmt = null;
 				}
 			}
 		}
@@ -588,12 +588,13 @@ public class LCO_Validator implements ModelValidator
 							 "i.C_Tax_ID = t.C_Tax_ID "
 					+ "GROUP BY i.C_Tax_ID, t.Name, t.Rate, t.IsSalesTax";
 				PreparedStatement pstmt = null;
+				ResultSet rs = null;
 				try
 				{
 					pstmt = DB.prepareStatement(sql, ah.get_TrxName());
 					pstmt.setInt(1, invoice.getC_Invoice_ID());
 					pstmt.setInt(2, alloc_line.getC_AllocationLine_ID());
-					ResultSet rs = pstmt.executeQuery();
+					rs = pstmt.executeQuery();
 					while (rs.next()) {
 						int tax_ID = rs.getInt(1);
 						BigDecimal taxBaseAmt = rs.getBigDecimal(2);
@@ -620,25 +621,12 @@ public class LCO_Validator implements ModelValidator
 							tottax = tottax.add(amount);
 						}
 					}
-
-					rs.close();
-					pstmt.close();
-					pstmt = null;
-				}
-				catch (Exception e)
-				{
+				} catch (Exception e) {
 					log.log(Level.SEVERE, sql, e);
 					return "Error posting C_InvoiceTax from LCO_InvoiceWithholding";
-				}
-				try
-				{
-					if (pstmt != null)
-						pstmt.close();
-					pstmt = null;
-				}
-				catch (Exception e)
-				{
-					pstmt = null;
+				} finally {
+					DB.close(rs, pstmt);
+					rs = null; pstmt = null;
 				}
 				
 				//	Write off		DR
@@ -736,21 +724,22 @@ public class LCO_Validator implements ModelValidator
 			// document configured to not manage withholdings - delete any
 			String sqldel = "DELETE FROM LCO_InvoiceWithholding "
 				+ " WHERE C_Invoice_ID = ?";
+			PreparedStatement pstmtdel = null;
 			try
 			{
 				// Delete previous records generated
-				PreparedStatement pstmtdel = DB.prepareStatement(sqldel,
+				pstmtdel = DB.prepareStatement(sqldel,
 						ResultSet.TYPE_FORWARD_ONLY,
 						ResultSet.CONCUR_UPDATABLE, inv.get_TrxName());
 				pstmtdel.setInt(1, inv.getC_Invoice_ID());
 				int nodel = pstmtdel.executeUpdate();
 				log.config("LCO_InvoiceWithholding deleted="+nodel);
-				pstmtdel.close();
-			}
-			catch (Exception e)
-			{
+			} catch (Exception e) {
 				log.log(Level.SEVERE, sqldel, e);
 				return "Error creating C_InvoiceTax from LCO_InvoiceWithholding -delete";
+			} finally {
+				DB.close(pstmtdel);
+				pstmtdel = null;
 			}
 			inv.set_CustomColumn("WithholdingAmt", Env.ZERO);
 			
@@ -762,11 +751,12 @@ public class LCO_Validator implements ModelValidator
 				+ " WHERE C_Invoice_ID = ? AND IsCalcOnPayment = 'N' AND IsActive = 'Y' "
 				+ "GROUP BY C_Tax_ID";
 			PreparedStatement pstmt = null;
+			ResultSet rs = null;
 			try
 			{
 				pstmt = DB.prepareStatement(sql, inv.get_TrxName());
 				pstmt.setInt(1, inv.getC_Invoice_ID());
-				ResultSet rs = pstmt.executeQuery();
+				rs = pstmt.executeQuery();
 				while (rs.next()) {
 					MInvoiceTax it = new MInvoiceTax(inv.getCtx(), 0, inv.get_TrxName());
 					it.setAD_Org_ID(inv.getAD_Org_ID());
@@ -775,12 +765,8 @@ public class LCO_Validator implements ModelValidator
 					it.setTaxBaseAmt(rs.getBigDecimal(2));
 					it.setTaxAmt(rs.getBigDecimal(3).negate());
 					sumit = sumit.add(rs.getBigDecimal(3));
-					if (!it.save()) {
-						rs.close();
-						pstmt.close();
-						pstmt = null;
+					if (!it.save())
 						return "Error creating C_InvoiceTax from LCO_InvoiceWithholding - save InvoiceTax";
-					}
 				}
 				inv.set_CustomColumn("WithholdingAmt", sumit);
 				// Subtract to invoice grand total the value of withholdings
@@ -792,25 +778,12 @@ public class LCO_Validator implements ModelValidator
 				MPaymentTerm pt = (MPaymentTerm) inv.getC_PaymentTerm();
 				boolean valid = pt.apply (inv.getC_Invoice_ID());
 				inv.setIsPayScheduleValid(valid);
-
-				rs.close();
-				pstmt.close();
-				pstmt = null;
-			}
-			catch (Exception e)
-			{
+			} catch (Exception e) {
 				log.log(Level.SEVERE, sql, e);
 				return "Error creating C_InvoiceTax from LCO_InvoiceWithholding - select InvoiceTax";
-			}
-			try
-			{
-				if (pstmt != null)
-					pstmt.close();
-				pstmt = null;
-			}
-			catch (Exception e)
-			{
-				pstmt = null;
+			} finally {
+				DB.close(rs, pstmt);
+				rs = null; pstmt = null;
 			}
 		}
 
