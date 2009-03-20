@@ -87,7 +87,7 @@
 		<value column="Name" original="Calculations">Cálculos</value>
 	</row>
 	<row id="129" trl="Y">
-		<value column="Name" original="Proxy">Proxy</value>
+		<value column="Name" original="Proxy">Apoderado</value>
 	</row>
 	<row id="130" trl="Y">
 		<value column="Name" original="Delivery">Entrega</value>

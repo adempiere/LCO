@@ -1967,7 +1967,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="592" trl="Y">
-		<value column="MsgText" original="&amp;Key">&amp;Llave</value>
+		<value column="MsgText" original="&amp;Key">&amp;Código</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="593" trl="Y">
@@ -3081,7 +3081,7 @@ Compruebe el registro de errores y el formato del archivo Accounting*.cvs - Ning
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="880" trl="Y">
-		<value column="MsgText" original="URL not valid or cannot be displayed.">URL no valida o no puede ser mostrada.</value>
+		<value column="MsgText" original="URL not valid or cannot be displayed.">Dirección web no valida o no puede ser mostrada.</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="881" trl="Y">

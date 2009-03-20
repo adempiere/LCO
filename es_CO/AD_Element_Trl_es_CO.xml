@@ -1433,8 +1433,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="298" trl="Y">
-		<value column="Name" original="Phone Format">Formato de Teléfono</value>
-		<value column="PrintName" original="Phone Format">Formato de Teléfono</value>
+		<value column="Name" original="Phone Format">Formato Teléfono</value>
+		<value column="PrintName" original="Phone Format">Formato Teléfono</value>
 		<value column="Description" original="Format of the phone; Can contain fixed format elements, Variables: &quot;_lLoOaAcCa09&quot;">Formato del teléfono; puede contener elementos de formato fijo; Variables: "_lLoOaAcCa09"</value>
 		<value column="Help" original="&lt;B&gt;Validation elements:&lt;/B&gt;&#10; &#9;(Space) any character&#10;_&#9;Space (fixed character)&#10;l&#9;any Letter a..Z NO space&#10;L&#9;any Letter a..Z NO space converted to upper case&#10;o&#9;any Letter a..Z or space&#10;O&#9;any Letter a..Z or space converted to upper case&#10;a&#9;any Letters &amp; Digits NO space&#10;A&#9;any Letters &amp; Digits NO space converted to upper case&#10;c&#9;any Letters &amp; Digits or space&#10;C&#9;any Letters &amp; Digits or space converted to upper case&#10;0&#9;Digits 0..9 NO space&#10;9&#9;Digits 0..9 or space&#10;&#10;Example of format &quot;(000)_000-0000&quot;">&lt;B&gt;Elementos de validación&lt;/B&gt;</value>
 		<value column="PO_Description" original=""/>
@@ -2703,8 +2703,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="506" trl="Y">
-		<value column="Name" original="2nd Phone">Teléfono 2</value>
-		<value column="PrintName" original="2nd Phone">Teléfono 2</value>
+		<value column="Name" original="2nd Phone">Teléfono Móvil</value>
+		<value column="PrintName" original="2nd Phone">Teléfono Móvil</value>
 		<value column="Description" original="Identifies an alternate telephone number.">Identifica un número telefónico alterno</value>
 		<value column="Help" original="The 2nd Phone field identifies an alternate telephone number.">El campo teléfono 2 identifica un número telefónico alterno.</value>
 		<value column="PO_Description" original=""/>
@@ -3333,8 +3333,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="590" trl="Y">
-		<value column="Name" original="Tax ID">NIT</value>
-		<value column="PrintName" original="Tax ID">NIT</value>
+		<value column="Name" original="Tax ID">Número Identificación</value>
+		<value column="PrintName" original="Tax ID">Número Identificación</value>
 		<value column="Description" original="Tax Identification">Número de Identificación Tributaria</value>
 		<value column="Help" original="The Tax ID field identifies the legal Identification number of this Entity.">Número de Identificación Tributaria es el número de identificación gubernamental de esta entidad</value>
 		<value column="PO_Description" original=""/>
@@ -4413,10 +4413,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="983" trl="Y">
-		<value column="Name" original="URL">URL</value>
-		<value column="PrintName" original="URL">URL</value>
-		<value column="Description" original="Full URL address - e.g. http://www.adempiere.org">URL</value>
-		<value column="Help" original="The URL defines an fully qualified web address like http://www.adempiere.org">El URL define una dirección en línea para este Tercero</value>
+		<value column="Name" original="URL">Dirección Web</value>
+		<value column="PrintName" original="URL">Dirección Web</value>
+		<value column="Description" original="Full URL address - e.g. http://www.adempiere.org">Dirección Web complete - e.g. http://www.globalqss.com</value>
+		<value column="Help" original="The URL defines an fully qualified web address like http://www.adempiere.org">El URL define una dirección web para este Tercero</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -5873,8 +5873,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1253" trl="Y">
-		<value column="Name" original="Mail Host">Nombre del Host SMTP</value>
-		<value column="PrintName" original="Mail Host">Nombre del Host SMTP</value>
+		<value column="Name" original="Mail Host">Servidor Correo Electrónico</value>
+		<value column="PrintName" original="Mail Host">Nombre Servidor Correo Electrónico</value>
 		<value column="Description" original="Hostname of Mail Server for SMTP and IMAP">Nombre del servidor de correos.</value>
 		<value column="Help" original="The host name of the Mail Server for this client with SMTP services to send mail, and IMAP to process incoming mail.">El servidor SMTP define el nombre del servidor de correos para este registro</value>
 		<value column="PO_Description" original=""/>
@@ -7073,8 +7073,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1411" trl="Y">
-		<value column="Name" original="Page URL">URL de la Página</value>
-		<value column="PrintName" original="Page URL">URL de la Página</value>
+		<value column="Name" original="Page URL">Página Web</value>
+		<value column="PrintName" original="Page URL">Página Web</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -7993,10 +7993,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1521" trl="Y">
-		<value column="Name" original="Summary">Resúmen</value>
-		<value column="PrintName" original="Summary">Resúmen</value>
-		<value column="Description" original="Textual summary of this request">Resúmen textual de esta solicitud</value>
-		<value column="Help" original="The Summary allows free form text entry of a recap of this request.">El resúmen permite texto en formato libre sobre esta solicitud.</value>
+		<value column="Name" original="Summary">Resumen</value>
+		<value column="PrintName" original="Summary">Resumen</value>
+		<value column="Description" original="Textual summary of this request">Resumen textual de esta solicitud</value>
+		<value column="Help" original="The Summary allows free form text entry of a recap of this request.">El resumen permite texto en formato libre sobre esta solicitud.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -9453,8 +9453,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1698" trl="Y">
-		<value column="Name" original="Request EMail">Correo Electrónico de la Solicitud</value>
-		<value column="PrintName" original="Request EMail">Correo Electronico de la Petición</value>
+		<value column="Name" original="Request EMail">EMail Envío Solicitudes</value>
+		<value column="PrintName" original="Request EMail">EMail Envío Solicitudes</value>
 		<value column="Description" original="EMail address to send automated mails from or receive mails for automated processing (fully qualified)">Dirección de correo electrónico desde el que se envían solicitudes (completamente calificado)</value>
 		<value column="Help" original="EMails for requests, alerts and escalation are sent from this email address as well as delivery information if the sales rep does not have an email account. The address must be filly qualified (e.g. joe.smith@company.com) and should be a valid address.">Email para alertas y escalación son enviadas desde esta dirección de correo. La dirección debe ser totalmente calificada (Ej.joe@company.com) y debería ser una dirección válida</value>
 		<value column="PO_Description" original=""/>
@@ -9463,8 +9463,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1699" trl="Y">
-		<value column="Name" original="Request Folder">Carpeta de Solicitudes</value>
-		<value column="PrintName" original="Request Folder">Folder de la Petición</value>
+		<value column="Name" original="Request Folder">Carpeta Solicitudes</value>
+		<value column="PrintName" original="Request Folder">Carpeta Solicitudes</value>
 		<value column="Description" original="EMail folder to process incoming emails; if empty INBOX is used">Carpeta para procesar correos que se reciben, si está vacío se usa la bandeja de entrada</value>
 		<value column="Help" original="Email folder used to read emails to process as requests, If left empty the default mailbox (INBOX) will be used. Requires IMAP services.">Carpeta de Email usada para leer correos electrónicos a procesar como requerimientos. Si se deja vacía el buzón de Ingreso predeterminado (INBOX) será usado.</value>
 		<value column="PO_Description" original=""/>
@@ -9473,8 +9473,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1700" trl="Y">
-		<value column="Name" original="Request User">Usuario de la Solicitud</value>
-		<value column="PrintName" original="Request User">Usuario de la Solicitud</value>
+		<value column="Name" original="Request User">Usuario Solicitud</value>
+		<value column="PrintName" original="Request User">Usuario Solicitud</value>
 		<value column="Description" original="User Name (ID) of the email owner">ID de usuario de propietario del correo electrónico que recibe las solicitudes</value>
 		<value column="Help" original="EMail user name for requests, alerts and escalation are sent from this email address as well as delivery information if the sales rep does not have an email account. Required, if your mail server requires authentification as well as for processing incoming mails."/>
 		<value column="PO_Description" original=""/>
@@ -9483,9 +9483,9 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1701" trl="Y">
-		<value column="Name" original="Request User Password">Contraseña de Usuario de la Solicitud</value>
-		<value column="PrintName" original="Request User PW">Clave de Usuario de la petición</value>
-		<value column="Description" original="Password of the user name (ID) for mail processing">Contraseña del usuario para el proceso de solicitudes</value>
+		<value column="Name" original="Request User Password">Contraseña Usuario Solicitud</value>
+		<value column="PrintName" original="Request User PW">Contraseña de Usuario de la solicitud</value>
+		<value column="Description" original="Password of the user name (ID) for mail processing">Contraseña del usuario para enviar correos en el proceso de solicitudes</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -9643,10 +9643,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1720" trl="Y">
-		<value column="Name" original="Image URL">URL de la Imagen</value>
-		<value column="PrintName" original="Image URL">URL de la Imagen</value>
-		<value column="Description" original="URL of  image">URL de la estructura de la imagen</value>
-		<value column="Help" original="URL of image; The image is not stored in the database, but retrieved at runtime. The image can be a gif, jpeg or png.">URL de imagen de la textura; La imagen no se almacena en la base de datos;</value>
+		<value column="Name" original="Image URL">Dirección Web Imagen</value>
+		<value column="PrintName" original="Image URL">Dirección Web Imagen</value>
+		<value column="Description" original="URL of  image">Dirección web de la imagen</value>
+		<value column="Help" original="URL of image; The image is not stored in the database, but retrieved at runtime. The image can be a gif, jpeg or png.">Dirección web de la imagen, la imagen no se almacena en la base de datos;</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -11093,10 +11093,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1876" trl="Y">
-		<value column="Name" original="BP Search Key">Llave de Búsqueda de Tercero</value>
-		<value column="PrintName" original="Customer No">Número de Cliente</value>
-		<value column="Description" original="Business Partner Key Value">Valor de la Llave de búsqueda del tercero</value>
-		<value column="Help" original="Search Key of Business Partner">Valor de la Llave de búsqueda del tercero</value>
+		<value column="Name" original="BP Search Key">Código Tercero</value>
+		<value column="PrintName" original="Customer No">Código Tercero</value>
+		<value column="Description" original="Business Partner Key Value">Código  tercero</value>
+		<value column="Help" original="Search Key of Business Partner">Código del tercero</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -11293,8 +11293,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1897" trl="Y">
-		<value column="Name" original="EMail User Password">Contraseña</value>
-		<value column="PrintName" original="EMail Password">Contraseña</value>
+		<value column="Name" original="EMail User Password">Contraseña Usuario EMail</value>
+		<value column="PrintName" original="EMail Password">Contraseña Usuario EMail</value>
 		<value column="Description" original="Password of your email user id">Contraseña de su usuario de email</value>
 		<value column="Help" original="Required if the mail server requires authentification to send emails.">Requerido si el servidor de correo requiere autenticación para mandar e-mail</value>
 		<value column="PO_Description" original=""/>
@@ -11303,8 +11303,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1898" trl="Y">
-		<value column="Name" original="SMTP Authentication">Autorización servidor SMTP</value>
-		<value column="PrintName" original="SMTP Authentication">Autorización servidor SMTP</value>
+		<value column="Name" original="SMTP Authentication">SMTP requiere autorización</value>
+		<value column="PrintName" original="SMTP Authentication">SMTP requiere autorización</value>
 		<value column="Description" original="Your mail server requires Authentication">Su servidor SMTP requiere autorización</value>
 		<value column="Help" original="Some email servers require authentication before sending emails.  If yes, users are required to define their email user name and password.  If authentication is required and no user name and password is required, delivery will fail.">Algunos servidores de e-mail requieren de autenticación antes de enviar email. Si se selecciona; se requiere que el usuario defina su user id y password</value>
 		<value column="PO_Description" original=""/>
@@ -11413,9 +11413,9 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1910" trl="Y">
-		<value column="Name" original="Element Key">Llave de Elemento</value>
-		<value column="PrintName" original="Element Key">Llave de Elemento</value>
-		<value column="Description" original="Key of the element">Llave del elemento.</value>
+		<value column="Name" original="Element Key">Código Elemento</value>
+		<value column="PrintName" original="Element Key">Código Elemento</value>
+		<value column="Description" original="Key of the element">Código elemento.</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -11503,9 +11503,9 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1920" trl="Y">
-		<value column="Name" original="Description URL">Descripción URL</value>
-		<value column="PrintName" original="Description URL">Descripción URL</value>
-		<value column="Description" original="URL for the description">Descripción de la URL</value>
+		<value column="Name" original="Description URL">Dirección Web Descripción</value>
+		<value column="PrintName" original="Description URL">Dirección Web Descripción</value>
+		<value column="Description" original="URL for the description">Dirección Web Descripción</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -12313,10 +12313,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2005" trl="Y">
-		<value column="Name" original="Target URL">Destino URL</value>
-		<value column="PrintName" original="Target URL">Destino URL</value>
-		<value column="Description" original="URL for the Target">URL para la tarjeta</value>
-		<value column="Help" original="URL of the Target Site">URL de el sitio de la tarjeta</value>
+		<value column="Name" original="Target URL">Dirección Web Destino</value>
+		<value column="PrintName" original="Target URL">Dirección Web Destino</value>
+		<value column="Description" original="URL for the Target">Dirección Web Destino</value>
+		<value column="Help" original="URL of the Target Site">Dirección web del sitio destino</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -12613,9 +12613,9 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2038" trl="Y">
-		<value column="Name" original="Download URL">Descargas URL</value>
-		<value column="PrintName" original="Download URL">Descargas URL</value>
-		<value column="Description" original="URL of the Download files">URL de los archivos de la transferencia directa</value>
+		<value column="Name" original="Download URL">Dirección Web Descarga</value>
+		<value column="PrintName" original="Download URL">Dirección Web Descarga</value>
+		<value column="Description" original="URL of the Download files">Dirección web de los archivos para descarga directa</value>
 		<value column="Help" original="Semicolon separated list of URLs to be downloaded or distributed">El punto y coma son separadores de la lista de URL que se descargará o distribuirá</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -13467,10 +13467,10 @@ El honorario está por 10 usuarios internos. El número de las unidades de ayuda
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2127" trl="Y">
-		<value column="Name" original="Tracking URL">Seguimiento URL</value>
-		<value column="PrintName" original="Tracking URL">Seguimiento URL</value>
-		<value column="Description" original="URL of the shipper to track shipments">URL de la entrega, seguimiento de entrega</value>
-		<value column="Help" original="The variable @TrackingNo@ in the URL is replaced by the actual tracking number of the shipment.">La variable @No seguir@ en el URL es remplazado por el actual número de seguimiento de envio.</value>
+		<value column="Name" original="Tracking URL">Dirección Web Seguimiento</value>
+		<value column="PrintName" original="Tracking URL">Dirección Web Seguimiento</value>
+		<value column="Description" original="URL of the shipper to track shipments">Dirección web de la entrega, seguimiento de entrega</value>
+		<value column="Help" original="The variable @TrackingNo@ in the URL is replaced by the actual tracking number of the shipment.">La variable @TrackingNo@ en la dirección web es remplazado por el actual número de seguimiento de envio.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -14785,8 +14785,8 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2266" trl="Y">
-		<value column="Name" original="Partner Tax ID">NIT tercero</value>
-		<value column="PrintName" original="BP Tax TD">NIT</value>
+		<value column="Name" original="Partner Tax ID">Número Identificación Tercero</value>
+		<value column="PrintName" original="BP Tax TD">Número Identificación Tercero</value>
 		<value column="Description" original="Tax ID of the Business Partner">NIT del tercero.</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -14895,9 +14895,9 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2279" trl="Y">
-		<value column="Name" original="Currency Type Key">Tipo de llave de Conversión</value>
-		<value column="PrintName" original="Currency Conversion Type">Tipo de llave de Conversión</value>
-		<value column="Description" original="Key value for the Currency Conversion Rate Type">Valor de la llave para el tipo del índice de conversión.</value>
+		<value column="Name" original="Currency Type Key">Código Tipo Conversión</value>
+		<value column="PrintName" original="Currency Conversion Type">Código Tipo Conversión</value>
+		<value column="Description" original="Key value for the Currency Conversion Rate Type">Código para el tipo del índice de conversión.</value>
 		<value column="Help" original="The date type key for the conversion of foreign currency transactions">El valor de tipo de llave para la conversión de las transacciones de moneda extranjera.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -20303,7 +20303,7 @@ Note que usted puede  Sobre o Sub Asignar el Pago.Durante el procesamiento  del 
 	<row id="2845" trl="Y">
 		<value column="Name" original="Cost Queue">Costo de cola</value>
 		<value column="PrintName" original="Cost Queue">Costo de cola</value>
-		<value column="Description" original="FiFo/LiFo Cost Queue">Peps/Ueps Costo de cola</value>
+		<value column="Description" original="FiFo/LiFo Cost Queue">PePs/UePs Costo de cola</value>
 		<value column="Help" original="Note that the cost queue may not be the same as the physical movement cost queue due to differences in costing level and warehouse priority.">Observe que el costo de cola podria no ser el mismo que el movimiento fisico, debido a las diferencias en nivel de costeo y prioridades de almacen.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -23170,9 +23170,9 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50041" trl="Y">
-		<value column="Name" original="Store Attachments On File System">Grabar archivos adjuntos en archivos del sistema.</value>
-		<value column="PrintName" original="Store Attachments On File System">Grabar archivos adjuntos en archivos del sistema.</value>
-		<value column="Description" original=""/>
+		<value column="Name" original="Store Attachments On File System">Grabar Adjuntos en Sistema (no BD)</value>
+		<value column="PrintName" original="Store Attachments On File System">Grabar Adjuntos en Sistema (no BD)</value>
+		<value column="Description" original="">Grabar archivos adjuntos en el sistema de archivos del sistema operativo, no en la base de datos</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -23180,7 +23180,7 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50042" trl="Y">
-		<value column="Name" original="Windows Attachment Path">Ruta de Windows de adjuntos.</value>
+		<value column="Name" original="Windows Attachment Path">Carpeta Windows Adjuntos</value>
 		<value column="PrintName" original="Windows Attachment Path">Ruta de Windows de adjuntos.</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
@@ -23190,7 +23190,7 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50043" trl="Y">
-		<value column="Name" original="Unix Attachment Path">Ruta de Unix de adjuntos.</value>
+		<value column="Name" original="Unix Attachment Path">Carpeta Unix Adjuntos.</value>
 		<value column="PrintName" original="Unix Attachment Path">Ruta de Unix de adjuntos.</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
@@ -23380,8 +23380,8 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50062" trl="Y">
-		<value column="Name" original="Request Folder">Carpeta de solicitud</value>
-		<value column="PrintName" original="Request Folder">Carpeta de solicitud</value>
+		<value column="Name" original="Request Folder">Carpeta Solicitudes</value>
+		<value column="PrintName" original="Request Folder">Carpeta Solicitudes</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23430,9 +23430,9 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50071" trl="Y">
-		<value column="Name" original="Store Archive On File System">Grabar archivo en el sistema de archivos.</value>
-		<value column="PrintName" original="Store Archive On File System">Store Archive On File System</value>
-		<value column="Description" original=""/>
+		<value column="Name" original="Store Archive On File System">Grabar Archivador en Sistema (no BD)</value>
+		<value column="PrintName" original="Store Archive On File System">Grabar Archivador en Sistema (no BD)</value>
+		<value column="Description" original="">Grabar archivos del Archivador en el sistema de archivos del sistema operativo, no en la base de datos</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -23440,7 +23440,7 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50072" trl="Y">
-		<value column="Name" original="Windows Archive Path">Ruta de archivos de Windows</value>
+		<value column="Name" original="Windows Archive Path">Carpeta Windows Archivador</value>
 		<value column="PrintName" original="Windows Archive Path">Ruta de archivos de Windows</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
@@ -23450,7 +23450,7 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50073" trl="Y">
-		<value column="Name" original="Unix Archive Path">Ruta de archivos de Unix</value>
+		<value column="Name" original="Unix Archive Path">Carpeta Unix Archivador</value>
 		<value column="PrintName" original="Unix Archive Path">Unix Archive Path</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
@@ -23460,8 +23460,8 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50074" trl="Y">
-		<value column="Name" original="Mandatory Logic">Logica Obligatoria</value>
-		<value column="PrintName" original="Mandatory Logic">Logica Obligatoria</value>
+		<value column="Name" original="Mandatory Logic">Lógica Obligatoria</value>
+		<value column="PrintName" original="Mandatory Logic">Lógica Obligatoria</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>

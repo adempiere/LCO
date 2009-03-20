@@ -1827,7 +1827,7 @@
 		<value column="Name" original="Web Container Trl">Web Container **</value>
 	</row>
 	<row id="865" trl="N">
-		<value column="Name" original="Container URL">Container URL</value>
+		<value column="Name" original="Container URL">Dirección Web Contenedor</value>
 	</row>
 	<row id="866" trl="N">
 		<value column="Name" original="Web Container Stage">Web Container Stage</value>

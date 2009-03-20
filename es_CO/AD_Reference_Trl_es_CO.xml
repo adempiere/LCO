@@ -178,8 +178,8 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="40" trl="Y">
-		<value column="Name" original="URL">URL</value>
-		<value column="Description" original="URL">URL</value>
+		<value column="Name" original="URL">Dirección Web</value>
+		<value column="Description" original="URL">Dirección Web</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="42" trl="Y">

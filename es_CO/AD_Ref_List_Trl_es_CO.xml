@@ -223,12 +223,12 @@
 		<value column="Description" original="Weighted Average Purchase Order Price Costing">Costo Promedio Ponderado de la orden de compra</value>
 	</row>
 	<row id="148" trl="Y">
-		<value column="Name" original="Lifo">UEPS</value>
-		<value column="Description" original="Last In First Out Costing">Costo de Últimas Entradas Primeras salidas</value>
+		<value column="Name" original="Lifo">Ueps (Lifo)</value>
+		<value column="Description" original="Last In First Out Costing">Costeo Ultimo en entrar Primero en salir</value>
 	</row>
 	<row id="149" trl="Y">
-		<value column="Name" original="Fifo">PEPS</value>
-		<value column="Description" original="First In First Out Costing">Costo de Primeras Entradas Primeras Salidas</value>
+		<value column="Name" original="Fifo">Peps (Fifo)</value>
+		<value column="Description" original="First In First Out Costing">Costeo Primero en entrar Primero en Salir</value>
 	</row>
 	<row id="150" trl="Y">
 		<value column="Name" original="International GAAP">GAAP internacional</value>
@@ -1803,11 +1803,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="595" trl="Y">
-		<value column="Name" original="LiFo">UePs</value>
-		<value column="Description" original="Last In First Out">Ultimas entradas Primeras Salidas</value>
+		<value column="Name" original="LiFo">UePs (LiFo)</value>
+		<value column="Description" original="Last In First Out">Ultimo en entrar Primero en salir</value>
 	</row>
 	<row id="596" trl="Y">
-		<value column="Name" original="FiFo">PePs</value>
+		<value column="Name" original="FiFo">PePs (FiFo)</value>
 		<value column="Description" original="First In First Out">Primero en entrar Primero en salir</value>
 	</row>
 	<row id="597" trl="Y">
@@ -2255,12 +2255,12 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="712" trl="Y">
-		<value column="Name" original="LiFo">UePs</value>
-		<value column="Description" original="">LiFo</value>
+		<value column="Name" original="LiFo">UePs (LiFo)</value>
+		<value column="Description" original="">UePs (LiFo)</value>
 	</row>
 	<row id="713" trl="Y">
-		<value column="Name" original="FiFo">PePs</value>
-		<value column="Description" original="">FiFo</value>
+		<value column="Name" original="FiFo">PePs (FiFo)</value>
+		<value column="Description" original="">PePs (FiFo)</value>
 	</row>
 	<row id="714" trl="Y">
 		<value column="Name" original="Material">Material</value>
@@ -2635,11 +2635,11 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="809" trl="Y">
-		<value column="Name" original="FiFo">PePs</value>
-		<value column="Description" original="">PePs</value>
+		<value column="Name" original="FiFo">PePs (FiFo)</value>
+		<value column="Description" original="">PePs (FiFo)</value>
 	</row>
 	<row id="810" trl="Y">
-		<value column="Name" original="LiFo">UePs</value>
+		<value column="Name" original="LiFo">UePs (LiFo)</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="811" trl="Y">
@@ -2999,7 +2999,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="902" trl="Y">
-		<value column="Name" original="External URL">URL Externa</value>
+		<value column="Name" original="External URL">Dirección Web Externa</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="903" trl="Y">
