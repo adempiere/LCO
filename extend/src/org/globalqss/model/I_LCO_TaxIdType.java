@@ -30,14 +30,15 @@
  * Sponsors:                                                          *
  * - Company (http://www.site.com)                                    *
  **********************************************************************/
-package org.compiere.model;
+package org.globalqss.model;
 
 import java.math.BigDecimal;
+import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
 /** Generated Interface for LCO_TaxIdType
  *  @author Trifon Trifonov (generated) 
- *  @version Release 3.4.0s
+ *  @version Release 3.4.2s
  */
 public interface I_LCO_TaxIdType 
 {
@@ -50,9 +51,9 @@ public interface I_LCO_TaxIdType
 
     KeyNamePair Model = new KeyNamePair(Table_ID, Table_Name);
 
-    /** AccessLevel = 1 - Org 
+    /** AccessLevel = 2 - Client 
      */
-    BigDecimal accessLevel = BigDecimal.valueOf(1);
+    BigDecimal accessLevel = BigDecimal.valueOf(2);
 
     /** Load Meta Data */
 
@@ -103,12 +104,12 @@ public interface I_LCO_TaxIdType
     /** Column name IsUseTaxIdDigit */
     public static final String COLUMNNAME_IsUseTaxIdDigit = "IsUseTaxIdDigit";
 
-	/** Set Is Juridical.
+	/** Set Use Tax Id Digit.
 	  * N
 	  */
 	public void setIsUseTaxIdDigit (boolean IsUseTaxIdDigit);
 
-	/** Get Is Juridical.
+	/** Get Use Tax Id Digit.
 	  * N
 	  */
 	public boolean isUseTaxIdDigit();

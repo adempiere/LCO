@@ -15,16 +15,17 @@
  * or via info@compiere.org or http://www.compiere.org/license.html           *
  *****************************************************************************/
 /** Generated Model - DO NOT CHANGE */
-package org.compiere.model;
+package org.globalqss.model;
 
 import java.lang.reflect.Constructor;
 import java.sql.ResultSet;
 import java.util.Properties;
 import java.util.logging.Level;
+import org.compiere.model.*;
 
 /** Generated Model for LCO_WithholdingRuleConf
  *  @author Adempiere (generated) 
- *  @version Release 3.4.0s - $Id$ */
+ *  @version Release 3.4.2s - $Id$ */
 public class X_LCO_WithholdingRuleConf extends PO implements I_LCO_WithholdingRuleConf, I_Persistent 
 {
 
@@ -71,6 +72,27 @@ public class X_LCO_WithholdingRuleConf extends PO implements I_LCO_WithholdingRu
       return sb.toString();
     }
 
+	/** Set Is Use BP City.
+		@param IsUseBPCity Is Use BP City	  */
+	public void setIsUseBPCity (boolean IsUseBPCity)
+	{
+		set_Value (COLUMNNAME_IsUseBPCity, Boolean.valueOf(IsUseBPCity));
+	}
+
+	/** Get Is Use BP City.
+		@return Is Use BP City	  */
+	public boolean isUseBPCity () 
+	{
+		Object oo = get_Value(COLUMNNAME_IsUseBPCity);
+		if (oo != null) 
+		{
+			 if (oo instanceof Boolean) 
+				 return ((Boolean)oo).booleanValue(); 
+			return "Y".equals(oo);
+		}
+		return false;
+	}
+
 	/** Set Is Use BP ISIC.
 		@param IsUseBPISIC Is Use BP ISIC	  */
 	public void setIsUseBPISIC (boolean IsUseBPISIC)
@@ -104,6 +126,27 @@ public class X_LCO_WithholdingRuleConf extends PO implements I_LCO_WithholdingRu
 	public boolean isUseBPTaxPayerType () 
 	{
 		Object oo = get_Value(COLUMNNAME_IsUseBPTaxPayerType);
+		if (oo != null) 
+		{
+			 if (oo instanceof Boolean) 
+				 return ((Boolean)oo).booleanValue(); 
+			return "Y".equals(oo);
+		}
+		return false;
+	}
+
+	/** Set Is Use Org City.
+		@param IsUseOrgCity Is Use Org City	  */
+	public void setIsUseOrgCity (boolean IsUseOrgCity)
+	{
+		set_Value (COLUMNNAME_IsUseOrgCity, Boolean.valueOf(IsUseOrgCity));
+	}
+
+	/** Get Is Use Org City.
+		@return Is Use Org City	  */
+	public boolean isUseOrgCity () 
+	{
+		Object oo = get_Value(COLUMNNAME_IsUseOrgCity);
 		if (oo != null) 
 		{
 			 if (oo instanceof Boolean) 
@@ -197,14 +240,14 @@ public class X_LCO_WithholdingRuleConf extends PO implements I_LCO_WithholdingRu
 		return false;
 	}
 
-	public I_LCO_WithholdingType getLCO_WithholdingType() throws Exception 
+	public org.globalqss.model.I_LCO_WithholdingType getLCO_WithholdingType() throws Exception 
     {
-        Class<?> clazz = MTable.getClass(I_LCO_WithholdingType.Table_Name);
-        I_LCO_WithholdingType result = null;
+        Class<?> clazz = MTable.getClass(org.globalqss.model.I_LCO_WithholdingType.Table_Name);
+        org.globalqss.model.I_LCO_WithholdingType result = null;
         try	{
 	        Constructor<?> constructor = null;
 	    	constructor = clazz.getDeclaredConstructor(new Class[]{Properties.class, int.class, String.class});
-    	    result = (I_LCO_WithholdingType)constructor.newInstance(new Object[] {getCtx(), new Integer(getLCO_WithholdingType_ID()), get_TrxName()});
+    	    result = (org.globalqss.model.I_LCO_WithholdingType)constructor.newInstance(new Object[] {getCtx(), new Integer(getLCO_WithholdingType_ID()), get_TrxName()});
         } catch (Exception e) {
 	        log.log(Level.SEVERE, "(id) - Table=" + Table_Name + ",Class=" + clazz, e);
 	        log.saveError("Error", "Table=" + Table_Name + ",Class=" + clazz);

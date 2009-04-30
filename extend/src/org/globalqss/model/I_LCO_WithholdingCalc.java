@@ -30,14 +30,15 @@
  * Sponsors:                                                          *
  * - Company (http://www.site.com)                                    *
  **********************************************************************/
-package org.compiere.model;
+package org.globalqss.model;
 
 import java.math.BigDecimal;
+import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
 /** Generated Interface for LCO_WithholdingCalc
  *  @author Trifon Trifonov (generated) 
- *  @version Release 3.4.0s
+ *  @version Release 3.4.2s
  */
 public interface I_LCO_WithholdingCalc 
 {
@@ -55,6 +56,15 @@ public interface I_LCO_WithholdingCalc
     BigDecimal accessLevel = BigDecimal.valueOf(2);
 
     /** Load Meta Data */
+
+    /** Column name AmountRefunded */
+    public static final String COLUMNNAME_AmountRefunded = "AmountRefunded";
+
+	/** Set AmountRefunded	  */
+	public void setAmountRefunded (BigDecimal AmountRefunded);
+
+	/** Get AmountRefunded	  */
+	public BigDecimal getAmountRefunded();
 
     /** Column name BaseType */
     public static final String COLUMNNAME_BaseType = "BaseType";
@@ -147,7 +157,7 @@ public interface I_LCO_WithholdingCalc
 	/** Get Withholding Type	  */
 	public int getLCO_WithholdingType_ID();
 
-	public I_LCO_WithholdingType getLCO_WithholdingType() throws Exception;
+	public org.globalqss.model.I_LCO_WithholdingType getLCO_WithholdingType() throws Exception;
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";
@@ -161,6 +171,19 @@ public interface I_LCO_WithholdingCalc
 	  * Alphanumeric identifier of the entity
 	  */
 	public String getName();
+
+    /** Column name ThresholdMax */
+    public static final String COLUMNNAME_ThresholdMax = "ThresholdMax";
+
+	/** Set Threshold max.
+	  * Maximum gross amount for withholding calculation  (0=no limit)
+	  */
+	public void setThresholdMax (BigDecimal ThresholdMax);
+
+	/** Get Threshold max.
+	  * Maximum gross amount for withholding calculation  (0=no limit)
+	  */
+	public BigDecimal getThresholdMax();
 
     /** Column name Thresholdmin */
     public static final String COLUMNNAME_Thresholdmin = "Thresholdmin";

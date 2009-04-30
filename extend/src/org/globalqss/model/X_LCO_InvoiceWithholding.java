@@ -15,7 +15,7 @@
  * or via info@compiere.org or http://www.compiere.org/license.html           *
  *****************************************************************************/
 /** Generated Model - DO NOT CHANGE */
-package org.compiere.model;
+package org.globalqss.model;
 
 import java.lang.reflect.Constructor;
 import java.math.BigDecimal;
@@ -23,11 +23,12 @@ import java.sql.ResultSet;
 import java.sql.Timestamp;
 import java.util.Properties;
 import java.util.logging.Level;
+import org.compiere.model.*;
 import org.compiere.util.Env;
 
 /** Generated Model for LCO_InvoiceWithholding
  *  @author Adempiere (generated) 
- *  @version Release 3.4.0s - $Id$ */
+ *  @version Release 3.4.2s - $Id$ */
 public class X_LCO_InvoiceWithholding extends PO implements I_LCO_InvoiceWithholding, I_Persistent 
 {
 
@@ -296,14 +297,14 @@ public class X_LCO_InvoiceWithholding extends PO implements I_LCO_InvoiceWithhol
 		return ii.intValue();
 	}
 
-	public I_LCO_WithholdingRule getLCO_WithholdingRule() throws Exception 
+	public org.globalqss.model.I_LCO_WithholdingRule getLCO_WithholdingRule() throws Exception 
     {
-        Class<?> clazz = MTable.getClass(I_LCO_WithholdingRule.Table_Name);
-        I_LCO_WithholdingRule result = null;
+        Class<?> clazz = MTable.getClass(org.globalqss.model.I_LCO_WithholdingRule.Table_Name);
+        org.globalqss.model.I_LCO_WithholdingRule result = null;
         try	{
 	        Constructor<?> constructor = null;
 	    	constructor = clazz.getDeclaredConstructor(new Class[]{Properties.class, int.class, String.class});
-    	    result = (I_LCO_WithholdingRule)constructor.newInstance(new Object[] {getCtx(), new Integer(getLCO_WithholdingRule_ID()), get_TrxName()});
+    	    result = (org.globalqss.model.I_LCO_WithholdingRule)constructor.newInstance(new Object[] {getCtx(), new Integer(getLCO_WithholdingRule_ID()), get_TrxName()});
         } catch (Exception e) {
 	        log.log(Level.SEVERE, "(id) - Table=" + Table_Name + ",Class=" + clazz, e);
 	        log.saveError("Error", "Table=" + Table_Name + ",Class=" + clazz);
@@ -332,14 +333,14 @@ public class X_LCO_InvoiceWithholding extends PO implements I_LCO_InvoiceWithhol
 		return ii.intValue();
 	}
 
-	public I_LCO_WithholdingType getLCO_WithholdingType() throws Exception 
+	public org.globalqss.model.I_LCO_WithholdingType getLCO_WithholdingType() throws Exception 
     {
-        Class<?> clazz = MTable.getClass(I_LCO_WithholdingType.Table_Name);
-        I_LCO_WithholdingType result = null;
+        Class<?> clazz = MTable.getClass(org.globalqss.model.I_LCO_WithholdingType.Table_Name);
+        org.globalqss.model.I_LCO_WithholdingType result = null;
         try	{
 	        Constructor<?> constructor = null;
 	    	constructor = clazz.getDeclaredConstructor(new Class[]{Properties.class, int.class, String.class});
-    	    result = (I_LCO_WithholdingType)constructor.newInstance(new Object[] {getCtx(), new Integer(getLCO_WithholdingType_ID()), get_TrxName()});
+    	    result = (org.globalqss.model.I_LCO_WithholdingType)constructor.newInstance(new Object[] {getCtx(), new Integer(getLCO_WithholdingType_ID()), get_TrxName()});
         } catch (Exception e) {
 	        log.log(Level.SEVERE, "(id) - Table=" + Table_Name + ",Class=" + clazz, e);
 	        log.saveError("Error", "Table=" + Table_Name + ",Class=" + clazz);

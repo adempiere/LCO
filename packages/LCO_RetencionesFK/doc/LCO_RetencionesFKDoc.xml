@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/css" href="adempiereDocument.css"?>
 <adempiereDocument>
-	<header>LCO_Retenciones Package Description</header>
+	<header>LCO_RetencionesFK Package Description</header>
 	<H1>Package Name:</H1>
-	<packagename>LCO_Retenciones</packagename>
+	<packagename>LCO_RetencionesFK</packagename>
 	<H1>Creator:</H1>
 	<creator>info@globalqss.com</creator>
 	<H1>Email Address:</H1>
@@ -11,7 +11,7 @@
 	<H1>Created:</H1>
 	<createddate>2007-05-09 06:28:47.0</createddate>
 	<H1>Updated:</H1>
-	<updateddate>2009-04-29 16:11:47.0</updateddate>
+	<updateddate>2007-09-05 00:44:27.0</updateddate>
 	<H1>Description:</H1>
 	<description>Localizacion Colombia</description>
 	<H1>Instructions:</H1>

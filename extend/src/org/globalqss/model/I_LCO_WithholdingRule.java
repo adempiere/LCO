@@ -30,15 +30,16 @@
  * Sponsors:                                                          *
  * - Company (http://www.site.com)                                    *
  **********************************************************************/
-package org.compiere.model;
+package org.globalqss.model;
 
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
 /** Generated Interface for LCO_WithholdingRule
  *  @author Trifon Trifonov (generated) 
- *  @version Release 3.4.0s
+ *  @version Release 3.4.2s
  */
 public interface I_LCO_WithholdingRule 
 {
@@ -94,6 +95,15 @@ public interface I_LCO_WithholdingRule
 	  */
 	public boolean isDefault();
 
+    /** Column name IsUseBPCity */
+    public static final String COLUMNNAME_IsUseBPCity = "IsUseBPCity";
+
+	/** Set Is Use BP City	  */
+	public void setIsUseBPCity (boolean IsUseBPCity);
+
+	/** Get Is Use BP City	  */
+	public boolean isUseBPCity();
+
     /** Column name IsUseBPISIC */
     public static final String COLUMNNAME_IsUseBPISIC = "IsUseBPISIC";
 
@@ -111,6 +121,15 @@ public interface I_LCO_WithholdingRule
 
 	/** Get Is Use BP Tax Payer Type	  */
 	public boolean isUseBPTaxPayerType();
+
+    /** Column name IsUseOrgCity */
+    public static final String COLUMNNAME_IsUseOrgCity = "IsUseOrgCity";
+
+	/** Set Is Use Org City	  */
+	public void setIsUseOrgCity (boolean IsUseOrgCity);
+
+	/** Get Is Use Org City	  */
+	public boolean isUseOrgCity();
 
     /** Column name IsUseOrgISIC */
     public static final String COLUMNNAME_IsUseOrgISIC = "IsUseOrgISIC";
@@ -148,6 +167,15 @@ public interface I_LCO_WithholdingRule
 	/** Get Is Use Withholding Category	  */
 	public boolean isUseWithholdingCategory();
 
+    /** Column name LCO_BP_City_ID */
+    public static final String COLUMNNAME_LCO_BP_City_ID = "LCO_BP_City_ID";
+
+	/** Set City Business Partner	  */
+	public void setLCO_BP_City_ID (int LCO_BP_City_ID);
+
+	/** Get City Business Partner	  */
+	public int getLCO_BP_City_ID();
+
     /** Column name LCO_BP_ISIC_ID */
     public static final String COLUMNNAME_LCO_BP_ISIC_ID = "LCO_BP_ISIC_ID";
 
@@ -165,6 +193,15 @@ public interface I_LCO_WithholdingRule
 
 	/** Get Tax Payer Type Business Partner	  */
 	public int getLCO_BP_TaxPayerType_ID();
+
+    /** Column name LCO_Org_City_ID */
+    public static final String COLUMNNAME_LCO_Org_City_ID = "LCO_Org_City_ID";
+
+	/** Set City Organization	  */
+	public void setLCO_Org_City_ID (int LCO_Org_City_ID);
+
+	/** Get City Organization	  */
+	public int getLCO_Org_City_ID();
 
     /** Column name LCO_Org_ISIC_ID */
     public static final String COLUMNNAME_LCO_Org_ISIC_ID = "LCO_Org_ISIC_ID";
@@ -193,7 +230,7 @@ public interface I_LCO_WithholdingRule
 	/** Get Withholding Calculation	  */
 	public int getLCO_WithholdingCalc_ID();
 
-	public I_LCO_WithholdingCalc getLCO_WithholdingCalc() throws Exception;
+	public org.globalqss.model.I_LCO_WithholdingCalc getLCO_WithholdingCalc() throws Exception;
 
     /** Column name LCO_WithholdingCategory_ID */
     public static final String COLUMNNAME_LCO_WithholdingCategory_ID = "LCO_WithholdingCategory_ID";
@@ -204,7 +241,7 @@ public interface I_LCO_WithholdingRule
 	/** Get Withholding Category	  */
 	public int getLCO_WithholdingCategory_ID();
 
-	public I_LCO_WithholdingCategory getLCO_WithholdingCategory() throws Exception;
+	public org.globalqss.model.I_LCO_WithholdingCategory getLCO_WithholdingCategory() throws Exception;
 
     /** Column name LCO_WithholdingRule_ID */
     public static final String COLUMNNAME_LCO_WithholdingRule_ID = "LCO_WithholdingRule_ID";
@@ -224,7 +261,7 @@ public interface I_LCO_WithholdingRule
 	/** Get Withholding Type	  */
 	public int getLCO_WithholdingType_ID();
 
-	public I_LCO_WithholdingType getLCO_WithholdingType() throws Exception;
+	public org.globalqss.model.I_LCO_WithholdingType getLCO_WithholdingType() throws Exception;
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";

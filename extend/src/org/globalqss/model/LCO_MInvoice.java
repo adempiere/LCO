@@ -26,14 +26,9 @@ import java.util.logging.Level;
 import org.compiere.model.MBPartner;
 import org.compiere.model.MDocType;
 import org.compiere.model.MInvoice;
-import org.compiere.model.MLCOInvoiceWithholding;
 import org.compiere.model.MOrgInfo;
 import org.compiere.model.MPriceList;
 import org.compiere.model.MTax;
-import org.compiere.model.X_LCO_WithholdingCalc;
-import org.compiere.model.X_LCO_WithholdingRule;
-import org.compiere.model.X_LCO_WithholdingRuleConf;
-import org.compiere.model.X_LCO_WithholdingType;
 import org.compiere.util.DB;
 import org.compiere.util.Env;
 
@@ -46,6 +41,11 @@ import org.compiere.util.Env;
 public class LCO_MInvoice extends MInvoice
 {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -1492548097559463360L;
+
 	public LCO_MInvoice(Properties ctx, int C_Invoice_ID, String trxName) {
 		super(ctx, C_Invoice_ID, trxName);
 	}

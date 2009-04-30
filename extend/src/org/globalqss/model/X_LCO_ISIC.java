@@ -15,16 +15,17 @@
  * or via info@compiere.org or http://www.compiere.org/license.html           *
  *****************************************************************************/
 /** Generated Model - DO NOT CHANGE */
-package org.compiere.model;
+package org.globalqss.model;
 
 import java.sql.ResultSet;
 import java.util.Properties;
+import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
-/** Generated Model for LCO_WithholdingCategory
+/** Generated Model for LCO_ISIC
  *  @author Adempiere (generated) 
- *  @version Release 3.4.0s - $Id$ */
-public class X_LCO_WithholdingCategory extends PO implements I_LCO_WithholdingCategory, I_Persistent 
+ *  @version Release 3.4.2s - $Id$ */
+public class X_LCO_ISIC extends PO implements I_LCO_ISIC, I_Persistent 
 {
 
 	/**
@@ -33,18 +34,18 @@ public class X_LCO_WithholdingCategory extends PO implements I_LCO_WithholdingCa
 	private static final long serialVersionUID = 1L;
 
     /** Standard Constructor */
-    public X_LCO_WithholdingCategory (Properties ctx, int LCO_WithholdingCategory_ID, String trxName)
+    public X_LCO_ISIC (Properties ctx, int LCO_ISIC_ID, String trxName)
     {
-      super (ctx, LCO_WithholdingCategory_ID, trxName);
-      /** if (LCO_WithholdingCategory_ID == 0)
+      super (ctx, LCO_ISIC_ID, trxName);
+      /** if (LCO_ISIC_ID == 0)
         {
-			setLCO_WithholdingCategory_ID (0);
+			setLCO_ISIC_ID (0);
 			setName (null);
         } */
     }
 
     /** Load Constructor */
-    public X_LCO_WithholdingCategory (Properties ctx, ResultSet rs, String trxName)
+    public X_LCO_ISIC (Properties ctx, ResultSet rs, String trxName)
     {
       super (ctx, rs, trxName);
     }
@@ -66,7 +67,7 @@ public class X_LCO_WithholdingCategory extends PO implements I_LCO_WithholdingCa
 
     public String toString()
     {
-      StringBuffer sb = new StringBuffer ("X_LCO_WithholdingCategory[")
+      StringBuffer sb = new StringBuffer ("X_LCO_ISIC[")
         .append(get_ID()).append("]");
       return sb.toString();
     }
@@ -118,20 +119,44 @@ public class X_LCO_WithholdingCategory extends PO implements I_LCO_WithholdingCa
 		return false;
 	}
 
-	/** Set Withholding Category.
-		@param LCO_WithholdingCategory_ID Withholding Category	  */
-	public void setLCO_WithholdingCategory_ID (int LCO_WithholdingCategory_ID)
+	/** Set Summary Level.
+		@param IsSummary 
+		This is a summary entity
+	  */
+	public void setIsSummary (boolean IsSummary)
 	{
-		if (LCO_WithholdingCategory_ID < 1)
-			 throw new IllegalArgumentException ("LCO_WithholdingCategory_ID is mandatory.");
-		set_ValueNoCheck (COLUMNNAME_LCO_WithholdingCategory_ID, Integer.valueOf(LCO_WithholdingCategory_ID));
+		set_Value (COLUMNNAME_IsSummary, Boolean.valueOf(IsSummary));
 	}
 
-	/** Get Withholding Category.
-		@return Withholding Category	  */
-	public int getLCO_WithholdingCategory_ID () 
+	/** Get Summary Level.
+		@return This is a summary entity
+	  */
+	public boolean isSummary () 
 	{
-		Integer ii = (Integer)get_Value(COLUMNNAME_LCO_WithholdingCategory_ID);
+		Object oo = get_Value(COLUMNNAME_IsSummary);
+		if (oo != null) 
+		{
+			 if (oo instanceof Boolean) 
+				 return ((Boolean)oo).booleanValue(); 
+			return "Y".equals(oo);
+		}
+		return false;
+	}
+
+	/** Set ISIC.
+		@param LCO_ISIC_ID ISIC	  */
+	public void setLCO_ISIC_ID (int LCO_ISIC_ID)
+	{
+		if (LCO_ISIC_ID < 1)
+			 throw new IllegalArgumentException ("LCO_ISIC_ID is mandatory.");
+		set_ValueNoCheck (COLUMNNAME_LCO_ISIC_ID, Integer.valueOf(LCO_ISIC_ID));
+	}
+
+	/** Get ISIC.
+		@return ISIC	  */
+	public int getLCO_ISIC_ID () 
+	{
+		Integer ii = (Integer)get_Value(COLUMNNAME_LCO_ISIC_ID);
 		if (ii == null)
 			 return 0;
 		return ii.intValue();
@@ -169,4 +194,27 @@ public class X_LCO_WithholdingCategory extends PO implements I_LCO_WithholdingCa
     {
         return new KeyNamePair(get_ID(), getName());
     }
+
+	/** Set Search Key.
+		@param Value 
+		Search key for the record in the format required - must be unique
+	  */
+	public void setValue (String Value)
+	{
+
+		if (Value != null && Value.length() > 40)
+		{
+			log.warning("Length > 40 - truncated");
+			Value = Value.substring(0, 40);
+		}
+		set_Value (COLUMNNAME_Value, Value);
+	}
+
+	/** Get Search Key.
+		@return Search key for the record in the format required - must be unique
+	  */
+	public String getValue () 
+	{
+		return (String)get_Value(COLUMNNAME_Value);
+	}
 }

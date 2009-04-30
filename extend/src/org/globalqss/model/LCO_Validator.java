@@ -37,14 +37,12 @@ import org.compiere.model.MDocType;
 import org.compiere.model.MInvoice;
 import org.compiere.model.MInvoiceLine;
 import org.compiere.model.MInvoiceTax;
-import org.compiere.model.MLCOInvoiceWithholding;
 import org.compiere.model.MPayment;
 import org.compiere.model.MPaymentAllocate;
 import org.compiere.model.MPaymentTerm;
 import org.compiere.model.ModelValidationEngine;
 import org.compiere.model.ModelValidator;
 import org.compiere.model.PO;
-import org.compiere.model.X_LCO_TaxIdType;
 import org.compiere.util.CLogger;
 import org.compiere.util.DB;
 import org.compiere.util.Env;
@@ -94,7 +92,7 @@ public class LCO_Validator implements ModelValidator
 		engine.addModelChange(MInvoiceLine.Table_Name, this);
 		engine.addModelChange(MBPartner.Table_Name, this);
 		engine.addModelChange(X_LCO_TaxIdType.Table_Name, this);
-
+		engine.addModelChange(X_LCO_WithholdingCalc.Table_Name, this);
 
 		//	Documents to be monitored
 		engine.addDocValidate(MInvoice.Table_Name, this);
@@ -157,6 +155,13 @@ public class LCO_Validator implements ModelValidator
 				taxidtype.setIsDigitChecked(false);
 		}
 		
+		if (po.get_TableName().equals(X_LCO_WithholdingCalc.Table_Name)
+				&& (type == ModelValidator.TYPE_BEFORE_CHANGE || type == ModelValidator.TYPE_BEFORE_NEW)) {
+			X_LCO_WithholdingCalc lwc = (X_LCO_WithholdingCalc) po;
+			if (lwc.isCalcOnInvoice() && lwc.isCalcOnPayment())
+				lwc.setIsCalcOnPayment(false);
+		}
+
 		return null;
 	}	//	modelChange
 	

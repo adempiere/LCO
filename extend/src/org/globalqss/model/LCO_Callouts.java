@@ -22,7 +22,6 @@ import org.compiere.model.CalloutEngine;
 import org.compiere.model.GridField;
 import org.compiere.model.GridTab;
 import org.compiere.model.MBPartner;
-import org.compiere.model.X_LCO_TaxIdType;
 import org.compiere.util.Env;
 import org.globalqss.util.LCO_Utils;
 

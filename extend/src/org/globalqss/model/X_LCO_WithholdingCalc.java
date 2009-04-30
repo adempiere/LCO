@@ -15,19 +15,20 @@
  * or via info@compiere.org or http://www.compiere.org/license.html           *
  *****************************************************************************/
 /** Generated Model - DO NOT CHANGE */
-package org.compiere.model;
+package org.globalqss.model;
 
 import java.lang.reflect.Constructor;
 import java.math.BigDecimal;
 import java.sql.ResultSet;
 import java.util.Properties;
 import java.util.logging.Level;
+import org.compiere.model.*;
 import org.compiere.util.Env;
 import org.compiere.util.KeyNamePair;
 
 /** Generated Model for LCO_WithholdingCalc
  *  @author Adempiere (generated) 
- *  @version Release 3.4.0s - $Id$ */
+ *  @version Release 3.4.2s - $Id$ */
 public class X_LCO_WithholdingCalc extends PO implements I_LCO_WithholdingCalc, I_Persistent 
 {
 
@@ -75,6 +76,23 @@ public class X_LCO_WithholdingCalc extends PO implements I_LCO_WithholdingCalc, 
         .append(get_ID()).append("]");
       return sb.toString();
     }
+
+	/** Set AmountRefunded.
+		@param AmountRefunded AmountRefunded	  */
+	public void setAmountRefunded (BigDecimal AmountRefunded)
+	{
+		set_Value (COLUMNNAME_AmountRefunded, AmountRefunded);
+	}
+
+	/** Get AmountRefunded.
+		@return AmountRefunded	  */
+	public BigDecimal getAmountRefunded () 
+	{
+		BigDecimal bd = (BigDecimal)get_Value(COLUMNNAME_AmountRefunded);
+		if (bd == null)
+			 return Env.ZERO;
+		return bd;
+	}
 
 	/** BaseType AD_Reference_ID=1000000 */
 	public static final int BASETYPE_AD_Reference_ID=1000000;
@@ -271,14 +289,14 @@ public class X_LCO_WithholdingCalc extends PO implements I_LCO_WithholdingCalc, 
 		return ii.intValue();
 	}
 
-	public I_LCO_WithholdingType getLCO_WithholdingType() throws Exception 
+	public org.globalqss.model.I_LCO_WithholdingType getLCO_WithholdingType() throws Exception 
     {
-        Class<?> clazz = MTable.getClass(I_LCO_WithholdingType.Table_Name);
-        I_LCO_WithholdingType result = null;
+        Class<?> clazz = MTable.getClass(org.globalqss.model.I_LCO_WithholdingType.Table_Name);
+        org.globalqss.model.I_LCO_WithholdingType result = null;
         try	{
 	        Constructor<?> constructor = null;
 	    	constructor = clazz.getDeclaredConstructor(new Class[]{Properties.class, int.class, String.class});
-    	    result = (I_LCO_WithholdingType)constructor.newInstance(new Object[] {getCtx(), new Integer(getLCO_WithholdingType_ID()), get_TrxName()});
+    	    result = (org.globalqss.model.I_LCO_WithholdingType)constructor.newInstance(new Object[] {getCtx(), new Integer(getLCO_WithholdingType_ID()), get_TrxName()});
         } catch (Exception e) {
 	        log.log(Level.SEVERE, "(id) - Table=" + Table_Name + ",Class=" + clazz, e);
 	        log.saveError("Error", "Table=" + Table_Name + ",Class=" + clazz);
@@ -339,6 +357,26 @@ public class X_LCO_WithholdingCalc extends PO implements I_LCO_WithholdingCalc, 
     {
         return new KeyNamePair(get_ID(), getName());
     }
+
+	/** Set Threshold max.
+		@param ThresholdMax 
+		Maximum gross amount for withholding calculation  (0=no limit)
+	  */
+	public void setThresholdMax (BigDecimal ThresholdMax)
+	{
+		set_Value (COLUMNNAME_ThresholdMax, ThresholdMax);
+	}
+
+	/** Get Threshold max.
+		@return Maximum gross amount for withholding calculation  (0=no limit)
+	  */
+	public BigDecimal getThresholdMax () 
+	{
+		BigDecimal bd = (BigDecimal)get_Value(COLUMNNAME_ThresholdMax);
+		if (bd == null)
+			 return Env.ZERO;
+		return bd;
+	}
 
 	/** Set Threshold min.
 		@param Thresholdmin 

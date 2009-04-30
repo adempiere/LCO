@@ -14,14 +14,13 @@
  * ComPiere, Inc., 2620 Augustine Dr. #245, Santa Clara, CA 95054, USA        *
  * or via info@compiere.org or http://www.compiere.org/license.html           *
  *****************************************************************************/
-package org.compiere.model;
+package org.globalqss.model;
 
 import java.sql.ResultSet;
 import java.util.Properties;
 
 import org.compiere.model.MInvoice;
 import org.compiere.util.CLogger;
-import org.globalqss.model.LCO_MInvoice;
 
 /**
  *	Invoice Withholding Model
@@ -31,6 +30,10 @@ import org.globalqss.model.LCO_MInvoice;
  */
 public class MLCOInvoiceWithholding extends X_LCO_InvoiceWithholding
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3086189821486687908L;
 	/**	Static Logger	*/
 	private static CLogger	s_log	= CLogger.getCLogger (MLCOInvoiceWithholding.class);
 

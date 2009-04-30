@@ -15,16 +15,17 @@
  * or via info@compiere.org or http://www.compiere.org/license.html           *
  *****************************************************************************/
 /** Generated Model - DO NOT CHANGE */
-package org.compiere.model;
+package org.globalqss.model;
 
 import java.sql.ResultSet;
 import java.util.Properties;
+import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
-/** Generated Model for LCO_TaxIdType
+/** Generated Model for LCO_TaxPayerType
  *  @author Adempiere (generated) 
- *  @version Release 3.4.0s - $Id$ */
-public class X_LCO_TaxIdType extends PO implements I_LCO_TaxIdType, I_Persistent 
+ *  @version Release 3.4.2s - $Id$ */
+public class X_LCO_TaxPayerType extends PO implements I_LCO_TaxPayerType, I_Persistent 
 {
 
 	/**
@@ -33,29 +34,24 @@ public class X_LCO_TaxIdType extends PO implements I_LCO_TaxIdType, I_Persistent
 	private static final long serialVersionUID = 1L;
 
     /** Standard Constructor */
-    public X_LCO_TaxIdType (Properties ctx, int LCO_TaxIdType_ID, String trxName)
+    public X_LCO_TaxPayerType (Properties ctx, int LCO_TaxPayerType_ID, String trxName)
     {
-      super (ctx, LCO_TaxIdType_ID, trxName);
-      /** if (LCO_TaxIdType_ID == 0)
+      super (ctx, LCO_TaxPayerType_ID, trxName);
+      /** if (LCO_TaxPayerType_ID == 0)
         {
-			setIsDetailedNames (false);
-// N
-			setIsDigitChecked (false);
-// N
-			setIsUseTaxIdDigit (false);
-			setLCO_TaxIdType_ID (0);
+			setLCO_TaxPayerType_ID (0);
 			setName (null);
         } */
     }
 
     /** Load Constructor */
-    public X_LCO_TaxIdType (Properties ctx, ResultSet rs, String trxName)
+    public X_LCO_TaxPayerType (Properties ctx, ResultSet rs, String trxName)
     {
       super (ctx, rs, trxName);
     }
 
     /** AccessLevel
-      * @return 1 - Org 
+      * @return 2 - Client 
       */
     protected int get_AccessLevel()
     {
@@ -71,7 +67,7 @@ public class X_LCO_TaxIdType extends PO implements I_LCO_TaxIdType, I_Persistent
 
     public String toString()
     {
-      StringBuffer sb = new StringBuffer ("X_LCO_TaxIdType[")
+      StringBuffer sb = new StringBuffer ("X_LCO_TaxPayerType[")
         .append(get_ID()).append("]");
       return sb.toString();
     }
@@ -123,106 +119,20 @@ public class X_LCO_TaxIdType extends PO implements I_LCO_TaxIdType, I_Persistent
 		return false;
 	}
 
-	/** Set Is Detailed Names.
-		@param IsDetailedNames Is Detailed Names	  */
-	public void setIsDetailedNames (boolean IsDetailedNames)
+	/** Set Tax Payer Type.
+		@param LCO_TaxPayerType_ID Tax Payer Type	  */
+	public void setLCO_TaxPayerType_ID (int LCO_TaxPayerType_ID)
 	{
-		set_Value (COLUMNNAME_IsDetailedNames, Boolean.valueOf(IsDetailedNames));
+		if (LCO_TaxPayerType_ID < 1)
+			 throw new IllegalArgumentException ("LCO_TaxPayerType_ID is mandatory.");
+		set_ValueNoCheck (COLUMNNAME_LCO_TaxPayerType_ID, Integer.valueOf(LCO_TaxPayerType_ID));
 	}
 
-	/** Get Is Detailed Names.
-		@return Is Detailed Names	  */
-	public boolean isDetailedNames () 
+	/** Get Tax Payer Type.
+		@return Tax Payer Type	  */
+	public int getLCO_TaxPayerType_ID () 
 	{
-		Object oo = get_Value(COLUMNNAME_IsDetailedNames);
-		if (oo != null) 
-		{
-			 if (oo instanceof Boolean) 
-				 return ((Boolean)oo).booleanValue(); 
-			return "Y".equals(oo);
-		}
-		return false;
-	}
-
-	/** Set Is Digit Checked.
-		@param IsDigitChecked Is Digit Checked	  */
-	public void setIsDigitChecked (boolean IsDigitChecked)
-	{
-		set_Value (COLUMNNAME_IsDigitChecked, Boolean.valueOf(IsDigitChecked));
-	}
-
-	/** Get Is Digit Checked.
-		@return Is Digit Checked	  */
-	public boolean isDigitChecked () 
-	{
-		Object oo = get_Value(COLUMNNAME_IsDigitChecked);
-		if (oo != null) 
-		{
-			 if (oo instanceof Boolean) 
-				 return ((Boolean)oo).booleanValue(); 
-			return "Y".equals(oo);
-		}
-		return false;
-	}
-
-	/** Set Is Juridical.
-		@param IsUseTaxIdDigit 
-		N
-	  */
-	public void setIsUseTaxIdDigit (boolean IsUseTaxIdDigit)
-	{
-		set_Value (COLUMNNAME_IsUseTaxIdDigit, Boolean.valueOf(IsUseTaxIdDigit));
-	}
-
-	/** Get Is Juridical.
-		@return N
-	  */
-	public boolean isUseTaxIdDigit () 
-	{
-		Object oo = get_Value(COLUMNNAME_IsUseTaxIdDigit);
-		if (oo != null) 
-		{
-			 if (oo instanceof Boolean) 
-				 return ((Boolean)oo).booleanValue(); 
-			return "Y".equals(oo);
-		}
-		return false;
-	}
-
-	/** Set Tax Code DIAN.
-		@param LCO_TaxCodeDian Tax Code DIAN	  */
-	public void setLCO_TaxCodeDian (String LCO_TaxCodeDian)
-	{
-
-		if (LCO_TaxCodeDian != null && LCO_TaxCodeDian.length() > 40)
-		{
-			log.warning("Length > 40 - truncated");
-			LCO_TaxCodeDian = LCO_TaxCodeDian.substring(0, 40);
-		}
-		set_Value (COLUMNNAME_LCO_TaxCodeDian, LCO_TaxCodeDian);
-	}
-
-	/** Get Tax Code DIAN.
-		@return Tax Code DIAN	  */
-	public String getLCO_TaxCodeDian () 
-	{
-		return (String)get_Value(COLUMNNAME_LCO_TaxCodeDian);
-	}
-
-	/** Set Tax ID Type.
-		@param LCO_TaxIdType_ID Tax ID Type	  */
-	public void setLCO_TaxIdType_ID (int LCO_TaxIdType_ID)
-	{
-		if (LCO_TaxIdType_ID < 1)
-			 throw new IllegalArgumentException ("LCO_TaxIdType_ID is mandatory.");
-		set_ValueNoCheck (COLUMNNAME_LCO_TaxIdType_ID, Integer.valueOf(LCO_TaxIdType_ID));
-	}
-
-	/** Get Tax ID Type.
-		@return Tax ID Type	  */
-	public int getLCO_TaxIdType_ID () 
-	{
-		Integer ii = (Integer)get_Value(COLUMNNAME_LCO_TaxIdType_ID);
+		Integer ii = (Integer)get_Value(COLUMNNAME_LCO_TaxPayerType_ID);
 		if (ii == null)
 			 return 0;
 		return ii.intValue();

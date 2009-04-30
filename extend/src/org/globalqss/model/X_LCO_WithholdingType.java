@@ -15,15 +15,16 @@
  * or via info@compiere.org or http://www.compiere.org/license.html           *
  *****************************************************************************/
 /** Generated Model - DO NOT CHANGE */
-package org.compiere.model;
+package org.globalqss.model;
 
 import java.sql.ResultSet;
 import java.util.Properties;
+import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
 /** Generated Model for LCO_WithholdingType
  *  @author Adempiere (generated) 
- *  @version Release 3.4.0s - $Id$ */
+ *  @version Release 3.4.2s - $Id$ */
 public class X_LCO_WithholdingType extends PO implements I_LCO_WithholdingType, I_Persistent 
 {
 

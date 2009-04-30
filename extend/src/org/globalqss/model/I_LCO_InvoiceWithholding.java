@@ -30,15 +30,16 @@
  * Sponsors:                                                          *
  * - Company (http://www.site.com)                                    *
  **********************************************************************/
-package org.compiere.model;
+package org.globalqss.model;
 
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
 /** Generated Interface for LCO_InvoiceWithholding
  *  @author Trifon Trifonov (generated) 
- *  @version Release 3.4.0s
+ *  @version Release 3.4.2s
  */
 public interface I_LCO_InvoiceWithholding 
 {
@@ -168,7 +169,7 @@ public interface I_LCO_InvoiceWithholding
 	/** Get Withholding Rule	  */
 	public int getLCO_WithholdingRule_ID();
 
-	public I_LCO_WithholdingRule getLCO_WithholdingRule() throws Exception;
+	public org.globalqss.model.I_LCO_WithholdingRule getLCO_WithholdingRule() throws Exception;
 
     /** Column name LCO_WithholdingType_ID */
     public static final String COLUMNNAME_LCO_WithholdingType_ID = "LCO_WithholdingType_ID";
@@ -179,7 +180,7 @@ public interface I_LCO_InvoiceWithholding
 	/** Get Withholding Type	  */
 	public int getLCO_WithholdingType_ID();
 
-	public I_LCO_WithholdingType getLCO_WithholdingType() throws Exception;
+	public org.globalqss.model.I_LCO_WithholdingType getLCO_WithholdingType() throws Exception;
 
     /** Column name Percent */
     public static final String COLUMNNAME_Percent = "Percent";

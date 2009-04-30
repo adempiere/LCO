@@ -30,22 +30,23 @@
  * Sponsors:                                                          *
  * - Company (http://www.site.com)                                    *
  **********************************************************************/
-package org.compiere.model;
+package org.globalqss.model;
 
 import java.math.BigDecimal;
+import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
-/** Generated Interface for LCO_ISIC
+/** Generated Interface for LCO_WithholdingType
  *  @author Trifon Trifonov (generated) 
- *  @version Release 3.4.0s
+ *  @version Release 3.4.2s
  */
-public interface I_LCO_ISIC 
+public interface I_LCO_WithholdingType 
 {
 
-    /** TableName=LCO_ISIC */
-    public static final String Table_Name = "LCO_ISIC";
+    /** TableName=LCO_WithholdingType */
+    public static final String Table_Name = "LCO_WithholdingType";
 
-    /** AD_Table_ID=1000000 */
+    /** AD_Table_ID=1000003 */
     public static final int Table_ID = MTable.getTable_ID(Table_Name);
 
     KeyNamePair Model = new KeyNamePair(Table_ID, Table_Name);
@@ -55,6 +56,19 @@ public interface I_LCO_ISIC
     BigDecimal accessLevel = BigDecimal.valueOf(2);
 
     /** Load Meta Data */
+
+    /** Column name Counter */
+    public static final String COLUMNNAME_Counter = "Counter";
+
+	/** Set Counter.
+	  * Count Value
+	  */
+	public void setCounter (int Counter);
+
+	/** Get Counter.
+	  * Count Value
+	  */
+	public int getCounter();
 
     /** Column name Description */
     public static final String COLUMNNAME_Description = "Description";
@@ -69,40 +83,27 @@ public interface I_LCO_ISIC
 	  */
 	public String getDescription();
 
-    /** Column name IsDefault */
-    public static final String COLUMNNAME_IsDefault = "IsDefault";
+    /** Column name IsSOTrx */
+    public static final String COLUMNNAME_IsSOTrx = "IsSOTrx";
 
-	/** Set Default.
-	  * Default value
+	/** Set Sales Transaction.
+	  * This is a Sales Transaction
 	  */
-	public void setIsDefault (boolean IsDefault);
+	public void setIsSOTrx (boolean IsSOTrx);
 
-	/** Get Default.
-	  * Default value
+	/** Get Sales Transaction.
+	  * This is a Sales Transaction
 	  */
-	public boolean isDefault();
+	public boolean isSOTrx();
 
-    /** Column name IsSummary */
-    public static final String COLUMNNAME_IsSummary = "IsSummary";
+    /** Column name LCO_WithholdingType_ID */
+    public static final String COLUMNNAME_LCO_WithholdingType_ID = "LCO_WithholdingType_ID";
 
-	/** Set Summary Level.
-	  * This is a summary entity
-	  */
-	public void setIsSummary (boolean IsSummary);
+	/** Set Withholding Type	  */
+	public void setLCO_WithholdingType_ID (int LCO_WithholdingType_ID);
 
-	/** Get Summary Level.
-	  * This is a summary entity
-	  */
-	public boolean isSummary();
-
-    /** Column name LCO_ISIC_ID */
-    public static final String COLUMNNAME_LCO_ISIC_ID = "LCO_ISIC_ID";
-
-	/** Set ISIC	  */
-	public void setLCO_ISIC_ID (int LCO_ISIC_ID);
-
-	/** Get ISIC	  */
-	public int getLCO_ISIC_ID();
+	/** Get Withholding Type	  */
+	public int getLCO_WithholdingType_ID();
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";
@@ -116,17 +117,4 @@ public interface I_LCO_ISIC
 	  * Alphanumeric identifier of the entity
 	  */
 	public String getName();
-
-    /** Column name Value */
-    public static final String COLUMNNAME_Value = "Value";
-
-	/** Set Search Key.
-	  * Search key for the record in the format required - must be unique
-	  */
-	public void setValue (String Value);
-
-	/** Get Search Key.
-	  * Search key for the record in the format required - must be unique
-	  */
-	public String getValue();
 }

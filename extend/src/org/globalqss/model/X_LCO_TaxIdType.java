@@ -15,16 +15,17 @@
  * or via info@compiere.org or http://www.compiere.org/license.html           *
  *****************************************************************************/
 /** Generated Model - DO NOT CHANGE */
-package org.compiere.model;
+package org.globalqss.model;
 
 import java.sql.ResultSet;
 import java.util.Properties;
+import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
-/** Generated Model for LCO_ISIC
+/** Generated Model for LCO_TaxIdType
  *  @author Adempiere (generated) 
- *  @version Release 3.4.0s - $Id$ */
-public class X_LCO_ISIC extends PO implements I_LCO_ISIC, I_Persistent 
+ *  @version Release 3.4.2s - $Id$ */
+public class X_LCO_TaxIdType extends PO implements I_LCO_TaxIdType, I_Persistent 
 {
 
 	/**
@@ -33,18 +34,24 @@ public class X_LCO_ISIC extends PO implements I_LCO_ISIC, I_Persistent
 	private static final long serialVersionUID = 1L;
 
     /** Standard Constructor */
-    public X_LCO_ISIC (Properties ctx, int LCO_ISIC_ID, String trxName)
+    public X_LCO_TaxIdType (Properties ctx, int LCO_TaxIdType_ID, String trxName)
     {
-      super (ctx, LCO_ISIC_ID, trxName);
-      /** if (LCO_ISIC_ID == 0)
+      super (ctx, LCO_TaxIdType_ID, trxName);
+      /** if (LCO_TaxIdType_ID == 0)
         {
-			setLCO_ISIC_ID (0);
+			setIsDetailedNames (false);
+// N
+			setIsDigitChecked (false);
+// N
+			setIsUseTaxIdDigit (false);
+// N
+			setLCO_TaxIdType_ID (0);
 			setName (null);
         } */
     }
 
     /** Load Constructor */
-    public X_LCO_ISIC (Properties ctx, ResultSet rs, String trxName)
+    public X_LCO_TaxIdType (Properties ctx, ResultSet rs, String trxName)
     {
       super (ctx, rs, trxName);
     }
@@ -66,7 +73,7 @@ public class X_LCO_ISIC extends PO implements I_LCO_ISIC, I_Persistent
 
     public String toString()
     {
-      StringBuffer sb = new StringBuffer ("X_LCO_ISIC[")
+      StringBuffer sb = new StringBuffer ("X_LCO_TaxIdType[")
         .append(get_ID()).append("]");
       return sb.toString();
     }
@@ -118,21 +125,18 @@ public class X_LCO_ISIC extends PO implements I_LCO_ISIC, I_Persistent
 		return false;
 	}
 
-	/** Set Summary Level.
-		@param IsSummary 
-		This is a summary entity
-	  */
-	public void setIsSummary (boolean IsSummary)
+	/** Set Is Detailed Names.
+		@param IsDetailedNames Is Detailed Names	  */
+	public void setIsDetailedNames (boolean IsDetailedNames)
 	{
-		set_Value (COLUMNNAME_IsSummary, Boolean.valueOf(IsSummary));
+		set_Value (COLUMNNAME_IsDetailedNames, Boolean.valueOf(IsDetailedNames));
 	}
 
-	/** Get Summary Level.
-		@return This is a summary entity
-	  */
-	public boolean isSummary () 
+	/** Get Is Detailed Names.
+		@return Is Detailed Names	  */
+	public boolean isDetailedNames () 
 	{
-		Object oo = get_Value(COLUMNNAME_IsSummary);
+		Object oo = get_Value(COLUMNNAME_IsDetailedNames);
 		if (oo != null) 
 		{
 			 if (oo instanceof Boolean) 
@@ -142,20 +146,85 @@ public class X_LCO_ISIC extends PO implements I_LCO_ISIC, I_Persistent
 		return false;
 	}
 
-	/** Set ISIC.
-		@param LCO_ISIC_ID ISIC	  */
-	public void setLCO_ISIC_ID (int LCO_ISIC_ID)
+	/** Set Is Digit Checked.
+		@param IsDigitChecked Is Digit Checked	  */
+	public void setIsDigitChecked (boolean IsDigitChecked)
 	{
-		if (LCO_ISIC_ID < 1)
-			 throw new IllegalArgumentException ("LCO_ISIC_ID is mandatory.");
-		set_ValueNoCheck (COLUMNNAME_LCO_ISIC_ID, Integer.valueOf(LCO_ISIC_ID));
+		set_Value (COLUMNNAME_IsDigitChecked, Boolean.valueOf(IsDigitChecked));
 	}
 
-	/** Get ISIC.
-		@return ISIC	  */
-	public int getLCO_ISIC_ID () 
+	/** Get Is Digit Checked.
+		@return Is Digit Checked	  */
+	public boolean isDigitChecked () 
 	{
-		Integer ii = (Integer)get_Value(COLUMNNAME_LCO_ISIC_ID);
+		Object oo = get_Value(COLUMNNAME_IsDigitChecked);
+		if (oo != null) 
+		{
+			 if (oo instanceof Boolean) 
+				 return ((Boolean)oo).booleanValue(); 
+			return "Y".equals(oo);
+		}
+		return false;
+	}
+
+	/** Set Use Tax Id Digit.
+		@param IsUseTaxIdDigit 
+		N
+	  */
+	public void setIsUseTaxIdDigit (boolean IsUseTaxIdDigit)
+	{
+		set_Value (COLUMNNAME_IsUseTaxIdDigit, Boolean.valueOf(IsUseTaxIdDigit));
+	}
+
+	/** Get Use Tax Id Digit.
+		@return N
+	  */
+	public boolean isUseTaxIdDigit () 
+	{
+		Object oo = get_Value(COLUMNNAME_IsUseTaxIdDigit);
+		if (oo != null) 
+		{
+			 if (oo instanceof Boolean) 
+				 return ((Boolean)oo).booleanValue(); 
+			return "Y".equals(oo);
+		}
+		return false;
+	}
+
+	/** Set Tax Code DIAN.
+		@param LCO_TaxCodeDian Tax Code DIAN	  */
+	public void setLCO_TaxCodeDian (String LCO_TaxCodeDian)
+	{
+
+		if (LCO_TaxCodeDian != null && LCO_TaxCodeDian.length() > 40)
+		{
+			log.warning("Length > 40 - truncated");
+			LCO_TaxCodeDian = LCO_TaxCodeDian.substring(0, 40);
+		}
+		set_Value (COLUMNNAME_LCO_TaxCodeDian, LCO_TaxCodeDian);
+	}
+
+	/** Get Tax Code DIAN.
+		@return Tax Code DIAN	  */
+	public String getLCO_TaxCodeDian () 
+	{
+		return (String)get_Value(COLUMNNAME_LCO_TaxCodeDian);
+	}
+
+	/** Set Tax ID Type.
+		@param LCO_TaxIdType_ID Tax ID Type	  */
+	public void setLCO_TaxIdType_ID (int LCO_TaxIdType_ID)
+	{
+		if (LCO_TaxIdType_ID < 1)
+			 throw new IllegalArgumentException ("LCO_TaxIdType_ID is mandatory.");
+		set_ValueNoCheck (COLUMNNAME_LCO_TaxIdType_ID, Integer.valueOf(LCO_TaxIdType_ID));
+	}
+
+	/** Get Tax ID Type.
+		@return Tax ID Type	  */
+	public int getLCO_TaxIdType_ID () 
+	{
+		Integer ii = (Integer)get_Value(COLUMNNAME_LCO_TaxIdType_ID);
 		if (ii == null)
 			 return 0;
 		return ii.intValue();
@@ -193,27 +262,4 @@ public class X_LCO_ISIC extends PO implements I_LCO_ISIC, I_Persistent
     {
         return new KeyNamePair(get_ID(), getName());
     }
-
-	/** Set Search Key.
-		@param Value 
-		Search key for the record in the format required - must be unique
-	  */
-	public void setValue (String Value)
-	{
-
-		if (Value != null && Value.length() > 40)
-		{
-			log.warning("Length > 40 - truncated");
-			Value = Value.substring(0, 40);
-		}
-		set_Value (COLUMNNAME_Value, Value);
-	}
-
-	/** Get Search Key.
-		@return Search key for the record in the format required - must be unique
-	  */
-	public String getValue () 
-	{
-		return (String)get_Value(COLUMNNAME_Value);
-	}
 }

@@ -15,16 +15,17 @@
  * or via info@compiere.org or http://www.compiere.org/license.html           *
  *****************************************************************************/
 /** Generated Model - DO NOT CHANGE */
-package org.compiere.model;
+package org.globalqss.model;
 
 import java.sql.ResultSet;
 import java.util.Properties;
+import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
-/** Generated Model for LCO_TaxPayerType
+/** Generated Model for LCO_WithholdingCategory
  *  @author Adempiere (generated) 
- *  @version Release 3.4.0s - $Id$ */
-public class X_LCO_TaxPayerType extends PO implements I_LCO_TaxPayerType, I_Persistent 
+ *  @version Release 3.4.2s - $Id$ */
+public class X_LCO_WithholdingCategory extends PO implements I_LCO_WithholdingCategory, I_Persistent 
 {
 
 	/**
@@ -33,18 +34,18 @@ public class X_LCO_TaxPayerType extends PO implements I_LCO_TaxPayerType, I_Pers
 	private static final long serialVersionUID = 1L;
 
     /** Standard Constructor */
-    public X_LCO_TaxPayerType (Properties ctx, int LCO_TaxPayerType_ID, String trxName)
+    public X_LCO_WithholdingCategory (Properties ctx, int LCO_WithholdingCategory_ID, String trxName)
     {
-      super (ctx, LCO_TaxPayerType_ID, trxName);
-      /** if (LCO_TaxPayerType_ID == 0)
+      super (ctx, LCO_WithholdingCategory_ID, trxName);
+      /** if (LCO_WithholdingCategory_ID == 0)
         {
-			setLCO_TaxPayerType_ID (0);
+			setLCO_WithholdingCategory_ID (0);
 			setName (null);
         } */
     }
 
     /** Load Constructor */
-    public X_LCO_TaxPayerType (Properties ctx, ResultSet rs, String trxName)
+    public X_LCO_WithholdingCategory (Properties ctx, ResultSet rs, String trxName)
     {
       super (ctx, rs, trxName);
     }
@@ -66,7 +67,7 @@ public class X_LCO_TaxPayerType extends PO implements I_LCO_TaxPayerType, I_Pers
 
     public String toString()
     {
-      StringBuffer sb = new StringBuffer ("X_LCO_TaxPayerType[")
+      StringBuffer sb = new StringBuffer ("X_LCO_WithholdingCategory[")
         .append(get_ID()).append("]");
       return sb.toString();
     }
@@ -118,20 +119,20 @@ public class X_LCO_TaxPayerType extends PO implements I_LCO_TaxPayerType, I_Pers
 		return false;
 	}
 
-	/** Set Tax Payer Type.
-		@param LCO_TaxPayerType_ID Tax Payer Type	  */
-	public void setLCO_TaxPayerType_ID (int LCO_TaxPayerType_ID)
+	/** Set Withholding Category.
+		@param LCO_WithholdingCategory_ID Withholding Category	  */
+	public void setLCO_WithholdingCategory_ID (int LCO_WithholdingCategory_ID)
 	{
-		if (LCO_TaxPayerType_ID < 1)
-			 throw new IllegalArgumentException ("LCO_TaxPayerType_ID is mandatory.");
-		set_ValueNoCheck (COLUMNNAME_LCO_TaxPayerType_ID, Integer.valueOf(LCO_TaxPayerType_ID));
+		if (LCO_WithholdingCategory_ID < 1)
+			 throw new IllegalArgumentException ("LCO_WithholdingCategory_ID is mandatory.");
+		set_ValueNoCheck (COLUMNNAME_LCO_WithholdingCategory_ID, Integer.valueOf(LCO_WithholdingCategory_ID));
 	}
 
-	/** Get Tax Payer Type.
-		@return Tax Payer Type	  */
-	public int getLCO_TaxPayerType_ID () 
+	/** Get Withholding Category.
+		@return Withholding Category	  */
+	public int getLCO_WithholdingCategory_ID () 
 	{
-		Integer ii = (Integer)get_Value(COLUMNNAME_LCO_TaxPayerType_ID);
+		Integer ii = (Integer)get_Value(COLUMNNAME_LCO_WithholdingCategory_ID);
 		if (ii == null)
 			 return 0;
 		return ii.intValue();
