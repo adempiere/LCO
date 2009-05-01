@@ -12875,10 +12875,10 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2065" trl="Y">
-		<value column="Name" original="New Value">Nuevo Valor</value>
-		<value column="PrintName" original="New Value">Nuevo Valor</value>
-		<value column="Description" original="New field value">Nuevo valor de campo</value>
-		<value column="Help" original="New data entered in the field">Los nuevos datos entrarón en el campo.</value>
+		<value column="Name" original="New Value">Valor Nuevo</value>
+		<value column="PrintName" original="New Value">Valor Nuevo</value>
+		<value column="Description" original="New field value">Valor nuevo del campo</value>
+		<value column="Help" original="New data entered in the field">Los nuevos datos que ingresaron en el campo.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -12886,9 +12886,9 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 	</row>
 	<row id="2066" trl="Y">
 		<value column="Name" original="Old Value">Valor Anterior</value>
-		<value column="PrintName" original="Old Value">Valor Antiguo</value>
-		<value column="Description" original="The old file data">Anterior antiguo de datos</value>
-		<value column="Help" original="Old data overwritten in the field">Antiguos datos sobreescritos en el campo</value>
+		<value column="PrintName" original="Old Value">Valor Anterior</value>
+		<value column="Description" original="The old file data">Datos anteriores</value>
+		<value column="Help" original="Old data overwritten in the field">Datos anteriores sobreescritos en el campo</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -24106,8 +24106,8 @@ O - Parametro configurable de la organización.</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="53345" trl="Y">
-		<value column="Name" original="Event Change Log">Log de cabmios de evento</value>
-		<value column="PrintName" original="Event Change Log">Log de cabmios de evento</value>
+		<value column="Name" original="Event Change Log">Evento Cambio</value>
+		<value column="PrintName" original="Event Change Log">Evento Cambio</value>
 		<value column="Description" original="Type of Event in Change Log">Tipo de evento en el log de cambios.</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
