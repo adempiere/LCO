@@ -377,10 +377,12 @@ public class LCO_MInvoice extends MInvoice
 					}
 					log.info("Base: "+base+ " Thresholdmin:"+wc.getThresholdmin());
 
-					// if base >= threshold
+					// if base between thresholdmin and thresholdmax inclusive
+					// if thresholdmax = 0 it is ignored
 					if (base != null && 
 							base.compareTo(Env.ZERO) != 0 && 
 							base.compareTo(wc.getThresholdmin()) >= 0 &&
+							(wc.getThresholdMax() == null || wc.getThresholdMax().compareTo(Env.ZERO) == 0 || base.compareTo(wc.getThresholdMax()) <= 0) &&
 							tax.getRate() != null &&
 							tax.getRate().compareTo(Env.ZERO) != 0) {
 						
@@ -400,6 +402,10 @@ public class LCO_MInvoice extends MInvoice
 						iwh.setProcessed(false);
 						int stdPrecision = MPriceList.getStandardPrecision(getCtx(), getM_PriceList_ID());
 						BigDecimal taxamt = tax.calculateTax(base, false, stdPrecision);
+						if (wc.getAmountRefunded() != null &&
+								wc.getAmountRefunded().compareTo(Env.ZERO) > 0) {
+							taxamt = taxamt.subtract(wc.getAmountRefunded());
+						}
 						iwh.setTaxAmt(taxamt);
 						iwh.setTaxBaseAmt(base);
 						iwh.save();
