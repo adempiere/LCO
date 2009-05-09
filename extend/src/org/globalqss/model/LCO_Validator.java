@@ -224,14 +224,12 @@ public class LCO_Validator implements ModelValidator
 			BigDecimal curWithholdingAmt = (BigDecimal) inv.get_Value("WithholdingAmt");
 			if (thereAreCalc) {
 				if (curWithholdingAmt != null) {
-					inv.set_CustomColumn("WithholdingAmt", null);
-					if (!inv.save())
+					if (!LCO_MInvoice.setWithholdingAmtWithoutLogging(inv, null))
 						return "Error saving C_Invoice clearInvoiceWithholdingAmtFromInvoiceLine";
 				}
 			} else {
 				if (curWithholdingAmt == null) {
-					inv.set_CustomColumn("WithholdingAmt", Env.ZERO);
-					if (!inv.save())
+					if (!LCO_MInvoice.setWithholdingAmtWithoutLogging(inv, Env.ZERO))
 						return "Error saving C_Invoice clearInvoiceWithholdingAmtFromInvoiceLine";
 				}
 			}

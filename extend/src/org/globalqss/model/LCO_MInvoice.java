@@ -449,4 +449,15 @@ public class LCO_MInvoice extends MInvoice
 		return no == 1;
 	}	//	updateHeaderWithholding
 
+	/*
+	 * Set Withholding Amount without Logging (via direct SQL UPDATE)
+	 */
+	public static boolean setWithholdingAmtWithoutLogging(MInvoice inv, BigDecimal wamt) {
+		DB.executeUpdate("UPDATE C_Invoice SET WithholdingAmt=? WHERE C_Invoice_ID=?", 
+				new Object[] {wamt, inv.getC_Invoice_ID()}, 
+				true, 
+				inv.get_TrxName());
+		return true;
+	}
+
 }	//	LCO_MInvoice
