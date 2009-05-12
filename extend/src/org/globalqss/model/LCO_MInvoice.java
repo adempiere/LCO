@@ -24,8 +24,10 @@ import java.util.Properties;
 import java.util.logging.Level;
 
 import org.compiere.model.MBPartner;
+import org.compiere.model.MBPartnerLocation;
 import org.compiere.model.MDocType;
 import org.compiere.model.MInvoice;
+import org.compiere.model.MLocation;
 import org.compiere.model.MOrgInfo;
 import org.compiere.model.MPriceList;
 import org.compiere.model.MTax;
@@ -82,6 +84,12 @@ public class LCO_MInvoice extends MInvoice
 			int bp_taxpayertype_id = 0;
 			if (bp_taxpayertype_int != null)
 				bp_taxpayertype_id = bp_taxpayertype_int.intValue();
+			MBPartnerLocation mbpl = new MBPartnerLocation(getCtx(), getC_BPartner_Location_ID(), get_TrxName());
+			MLocation bpl = MLocation.get(getCtx(), mbpl.getC_Location_ID(), get_TrxName());
+			Integer bp_city_int = (Integer) bpl.getC_City_ID();
+			int bp_city_id = 0;
+			if (bp_city_int != null)
+				bp_city_id = bp_city_int.intValue();
 			// OrgInfo variables
 			MOrgInfo oi = MOrgInfo.get(getCtx(), getAD_Org_ID());
 			Integer org_isic_int = (Integer) oi.get_Value("LCO_ISIC_ID");
@@ -92,6 +100,11 @@ public class LCO_MInvoice extends MInvoice
 			int org_taxpayertype_id = 0;
 			if (org_taxpayertype_int != null)
 				org_taxpayertype_id = org_taxpayertype_int.intValue();
+			MLocation ol = MLocation.get(getCtx(), oi.getC_Location_ID(), get_TrxName());
+			Integer org_city_int = (Integer) ol.getC_City_ID();
+			int org_city_id = 0;
+			if (org_city_int != null)
+				org_city_id = org_city_int.intValue();
 
 			// Search withholding types applicable depending on IsSOTrx
 			String sqlt = "SELECT LCO_WithholdingType_ID "
@@ -139,6 +152,10 @@ public class LCO_MInvoice extends MInvoice
 					sqlr.append(" AND LCO_Org_ISIC_ID = ? ");
 				if (wrc.isUseOrgTaxPayerType())
 					sqlr.append(" AND LCO_Org_TaxPayerType_ID = ? ");
+				if (wrc.isUseBPCity())
+					sqlr.append(" AND LCO_BP_City_ID = ? ");
+				if (wrc.isUseOrgCity())
+					sqlr.append(" AND LCO_Org_City_ID = ? ");
 
 				// Add withholding categories of lines
 				if (wrc.isUseWithholdingCategory()) {
@@ -228,6 +245,14 @@ public class LCO_MInvoice extends MInvoice
 				if (wrc.isUseOrgTaxPayerType()) {
 					idxpar++;
 					pstmtr.setInt(idxpar, org_taxpayertype_id);
+				}
+				if (wrc.isUseBPCity()) {
+					idxpar++;
+					pstmtr.setInt(idxpar, bp_city_id);
+				}
+				if (wrc.isUseOrgCity()) {
+					idxpar++;
+					pstmtr.setInt(idxpar, org_city_id);
 				}
 
 				ResultSet rsr = pstmtr.executeQuery();
