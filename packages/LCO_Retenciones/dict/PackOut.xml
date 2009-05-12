@@ -18,6 +18,15 @@
 				<dcolumn name="ModelValidationClass" class="String" value="org.globalqss.model.LCO_Validator"/>
 			</drow>
 		</dtable>
+		<!-- System Configurator -->
+		<dtable name="AD_SysConfig">
+			<drow name="LCO_USE_CITY_LIST">
+				<dcolumn name="Value" class="String" value="N"/>
+				<dcolumn name="Description" class="String" value="Use city lists in address"/>
+				<dcolumn name="EntityType" class="String" value="QSS_LCO"/>
+				<dcolumn name="ConfigurationLevel" class="String" value="C"/>
+			</drow>
+		</dtable>
 	</data>
 	<!-- Messages -->
 	<message MsgText="Withholding Not Generated" MsgType="I" Value="LCO_WithholdingNotGenerated" EntityType="QSS_LCO"/>

@@ -42,11 +42,10 @@ import org.compiere.util.Env;
  */
 public class LCO_MInvoice extends MInvoice
 {
-	
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = -1492548097559463360L;
+	private static final long serialVersionUID = -924606040343895114L;
 
 	public LCO_MInvoice(Properties ctx, int C_Invoice_ID, String trxName) {
 		super(ctx, C_Invoice_ID, trxName);
@@ -86,10 +85,7 @@ public class LCO_MInvoice extends MInvoice
 				bp_taxpayertype_id = bp_taxpayertype_int.intValue();
 			MBPartnerLocation mbpl = new MBPartnerLocation(getCtx(), getC_BPartner_Location_ID(), get_TrxName());
 			MLocation bpl = MLocation.get(getCtx(), mbpl.getC_Location_ID(), get_TrxName());
-			Integer bp_city_int = (Integer) bpl.getC_City_ID();
-			int bp_city_id = 0;
-			if (bp_city_int != null)
-				bp_city_id = bp_city_int.intValue();
+			int bp_city_id = bpl.getC_City_ID();
 			// OrgInfo variables
 			MOrgInfo oi = MOrgInfo.get(getCtx(), getAD_Org_ID());
 			Integer org_isic_int = (Integer) oi.get_Value("LCO_ISIC_ID");
@@ -101,10 +97,7 @@ public class LCO_MInvoice extends MInvoice
 			if (org_taxpayertype_int != null)
 				org_taxpayertype_id = org_taxpayertype_int.intValue();
 			MLocation ol = MLocation.get(getCtx(), oi.getC_Location_ID(), get_TrxName());
-			Integer org_city_int = (Integer) ol.getC_City_ID();
-			int org_city_id = 0;
-			if (org_city_int != null)
-				org_city_id = org_city_int.intValue();
+			int org_city_id = ol.getC_City_ID();
 
 			// Search withholding types applicable depending on IsSOTrx
 			String sqlt = "SELECT LCO_WithholdingType_ID "
@@ -249,10 +242,14 @@ public class LCO_MInvoice extends MInvoice
 				if (wrc.isUseBPCity()) {
 					idxpar++;
 					pstmtr.setInt(idxpar, bp_city_id);
+					if (bp_city_id <= 0)
+						log.warning("Possible configuration error bp city is used but not set");
 				}
 				if (wrc.isUseOrgCity()) {
 					idxpar++;
 					pstmtr.setInt(idxpar, org_city_id);
+					if (org_city_id <= 0)
+						log.warning("Possible configuration error org city is used but not set");
 				}
 
 				ResultSet rsr = pstmtr.executeQuery();
