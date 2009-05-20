@@ -91,8 +91,8 @@
 		<value column="Description" original="Maintain Tax Categories">Mantener Categorías de Impuestos</value>
 	</row>
 	<row id="125" trl="Y">
-		<value column="Name" original="Warehouse &amp; Locators">Almacén y Ubicación</value>
-		<value column="Description" original="Maintain Warehouses and Locators">Mantener Almacenes y Ubicación</value>
+		<value column="Name" original="Warehouse &amp; Locators">Bodega y Ubicaciones</value>
+		<value column="Description" original="Maintain Warehouses and Locators">Mantener Bodegas y Ubicaciones</value>
 	</row>
 	<row id="126" trl="Y">
 		<value column="Name" original="Product">Producto</value>
@@ -1155,8 +1155,8 @@
 		<value column="Description" original="Set and verify Organization ownership of Products">Determinado y verifique la propiedad de la organización de productos</value>
 	</row>
 	<row id="422" trl="Y">
-		<value column="Name" original="Warehouse Organization">Almacén de Organización</value>
-		<value column="Description" original="Set and verify Organization ownership of Warehouse">Active y verifique la propiedad de la organización del almacén.</value>
+		<value column="Name" original="Warehouse Organization">Bodega de Organización</value>
+		<value column="Description" original="Set and verify Organization ownership of Warehouse">Active y verifique la propiedad de la organización sobre la bodega.</value>
 	</row>
 	<row id="423" trl="Y">
 		<value column="Name" original="Load Bank Statement">Carga de Estado de cuentas</value>
@@ -1615,8 +1615,8 @@
 		<value column="Description" original="Maintain (Engineering) Change Notice (Version)"/>
 	</row>
 	<row id="537" trl="Y">
-		<value column="Name" original="Storage Cleanup">Limpieza General del Almacén</value>
-		<value column="Description" original="Inventory Storage Cleanup">Limpieza General del Almacenaje de Inventario</value>
+		<value column="Name" original="Storage Cleanup">Limpieza General del Almacenamiento</value>
+		<value column="Description" original="Inventory Storage Cleanup">Limpieza general del almacenamiento de inventario</value>
 	</row>
 	<row id="538" trl="Y">
 		<value column="Name" original="Invoice Not Realized Gain/Loss">Factura no realizada Perdida/Aumento</value>

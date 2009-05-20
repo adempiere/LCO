@@ -2364,9 +2364,9 @@
 	</row>
 	<row id="448" trl="Y">
 		<value column="Name" original="Locator">Ubicación</value>
-		<value column="PrintName" original="Locator">Localizador</value>
-		<value column="Description" original="Warehouse Locator">Ubicación de Almacén</value>
-		<value column="Help" original="The Locator indicates where in a Warehouse a product is located.">El ID de la ubicación indica en que parte del almacén se localiza el producto</value>
+		<value column="PrintName" original="Locator">Ubicación</value>
+		<value column="Description" original="Warehouse Locator">Ubicación de Bodega</value>
+		<value column="Help" original="The Locator indicates where in a Warehouse a product is located.">El ID de la ubicación indica en que parte de la bodega se localiza el producto</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -2423,10 +2423,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="459" trl="Y">
-		<value column="Name" original="Warehouse">Almacén</value>
-		<value column="PrintName" original="Warehouse">Almacén</value>
-		<value column="Description" original="Storage Warehouse and Service Point">Almacén</value>
-		<value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">El Almacén indica un Almacén único donde los productos son almacenados</value>
+		<value column="Name" original="Warehouse">Bodega</value>
+		<value column="PrintName" original="Warehouse">Bodega</value>
+		<value column="Description" original="Storage Warehouse and Service Point">Bodega de almacenamiento y punto de servicio</value>
+		<value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">La bodega identifica una bodega única donde los productos son almacenados</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -4813,10 +4813,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1061" trl="Y">
-		<value column="Name" original="Warehouse Differences">Discrepancia en Almacén</value>
-		<value column="PrintName" original="Warehouse Differences">Discrepancia en Almacén</value>
-		<value column="Description" original="Warehouse Differences Account">Cuenta de discrepancias en almacén</value>
-		<value column="Help" original="The Warehouse Differences Account indicates the account used recording differences identified during inventory counts.">La cuenta diferencia en almacenes indica la cuenta usada para registrar las diferencias identificadas durante el conteo de inventario</value>
+		<value column="Name" original="Warehouse Differences">Discrepancia en Bodega</value>
+		<value column="PrintName" original="Warehouse Differences">Discrepancia en Bodega</value>
+		<value column="Description" original="Warehouse Differences Account">Cuenta de discrepancias en bodega</value>
+		<value column="Help" original="The Warehouse Differences Account indicates the account used recording differences identified during inventory counts.">La cuenta diferencia en bodegas indica la cuenta usada para registrar las diferencias identificadas durante el conteo de inventario</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -11083,10 +11083,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1875" trl="Y">
-		<value column="Name" original="Warehouse Address">Localización de Almacén</value>
-		<value column="PrintName" original="Warehouse Address">Localización de Almacén</value>
-		<value column="Description" original="Warehouse Location/Address">Localización de la Almacén / Dirección</value>
-		<value column="Help" original="Address of Warehouse">Dirección de la Almacén</value>
+		<value column="Name" original="Warehouse Address">Dirección Bodega</value>
+		<value column="PrintName" original="Warehouse Address">Dirección Bodega</value>
+		<value column="Description" original="Warehouse Location/Address">Localización de la Bodega / Dirección</value>
+		<value column="Help" original="Address of Warehouse">Dirección de la Bodega</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -12925,10 +12925,10 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2070" trl="Y">
-		<value column="Name" original="Warehouse Key">Clave de Almacén</value>
-		<value column="PrintName" original="Warehouse Key">Clave de Almacén</value>
-		<value column="Description" original="Key of the Warehouse">Clave de almacén</value>
-		<value column="Help" original="Key to identify the Warehouse">Clave para identificar el almacén</value>
+		<value column="Name" original="Warehouse Key">Código Bodega</value>
+		<value column="PrintName" original="Warehouse Key">Código Bodega</value>
+		<value column="Description" original="Key of the Warehouse">Código de la bodega</value>
+		<value column="Help" original="Key to identify the Warehouse">Código para identificar la bodega</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -13285,9 +13285,9 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2109" trl="Y">
-		<value column="Name" original="Locator Key">Clave de Ubicación</value>
-		<value column="PrintName" original="Locator Key">Clave de Ubicación</value>
-		<value column="Description" original="Key of the Warehouse Locator">Clave de ubicación de almacén</value>
+		<value column="Name" original="Locator Key">Código Ubicación</value>
+		<value column="PrintName" original="Locator Key">Código Ubicación</value>
+		<value column="Description" original="Key of the Warehouse Locator">Código de la ubicación en la bodega</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -13899,8 +13899,8 @@ Impuesto de compras: el impuesto cargado al comprar - ejemplos: impuesto de uso,
 	<row id="2174" trl="Y">
 		<value column="Name" original="Web Store Info">Info Tienda Web</value>
 		<value column="PrintName" original="Web Info">Info Tienda Web</value>
-		<value column="Description" original="Web Store Header Information">Información del jefe de almacen de la Web</value>
-		<value column="Help" original="Display HTML Info in the Web Store - by default in the header.&#10;">Exhibición de información HTML en el almacén de la Web.</value>
+		<value column="Description" original="Web Store Header Information">Información de encabezado en la tienda Web</value>
+		<value column="Help" original="Display HTML Info in the Web Store - by default in the header.&#10;">Despliega información en la tienda web, por defecto en el encabezado.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -14179,10 +14179,10 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2202" trl="Y">
-		<value column="Name" original="Inventory Type">Tipo de Inventario</value>
-		<value column="PrintName" original="Inventory Type">Tipo de Inventario</value>
-		<value column="Description" original="Type of inventory difference">Diferentes tipos de inventario</value>
-		<value column="Help" original="The type of inventory difference determines which account is used. The default is the Inventory Difference account defined for the warehouse.  Alternatively, you could select any charge.  This allows you to account for Internal Use or extraordinary inventory losses.">El tipo de diferencia del inventario determina que cuenta es usada. Por default es la cuenta de la diferencia del inventario definida para el almacén. Alternativamente, usted podría seleccionar cualquier carga. Esto permite que usted explique uso interno o pérdidas extraordinarias del inventario.</value>
+		<value column="Name" original="Inventory Type">Tipo Inventario</value>
+		<value column="PrintName" original="Inventory Type">Tipo Inventario</value>
+		<value column="Description" original="Type of inventory difference">Diferencia en tipos de inventario</value>
+		<value column="Help" original="The type of inventory difference determines which account is used. The default is the Inventory Difference account defined for the warehouse.  Alternatively, you could select any charge.  This allows you to account for Internal Use or extraordinary inventory losses.">El tipo de diferencia del inventario determina qué cuenta es usada. Por defecto es la cuenta de la diferencia del inventario definida para la bodega. Alternativamente, usted podría seleccionar algún cargo. Esto permite que usted contabilice uso interno o pérdidas extraordinarias del inventario.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -14875,10 +14875,10 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2277" trl="Y">
-		<value column="Name" original="Featured in Web Store">Presentación del Almacen Web</value>
-		<value column="PrintName" original="Featured">Presentación</value>
+		<value column="Name" original="Featured in Web Store">Destacado Tienda Web</value>
+		<value column="PrintName" original="Featured">Destacado</value>
 		<value column="Description" original="If selected, the product is displayed in the inital or any empy search">Si esta seleccionado, el producto es exhibido en búsqueda inicial o cualquier otra.</value>
-		<value column="Help" original="In the display of products in the Web Store, the product is displayed in the inital view or if no search criteria are entered. To be displayed, the product must be in the price list used.">En la exhibición de productos en almacén de la Web, el producto se exhibe en la visión inicial o si no ninguno incorporará criterios de búsqueda. Para ser exhibido, el producto debe estar en la lista de precios usada.</value>
+		<value column="Help" original="In the display of products in the Web Store, the product is displayed in the inital view or if no search criteria are entered. To be displayed, the product must be in the price list used.">En la exhibición de productos en la tienda web, el producto se exhibe en la visión inicial o si no ninguno incorporará criterios de búsqueda. Para ser exhibido, el producto debe estar en la lista de precios usada.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -14905,10 +14905,10 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2280" trl="Y">
-		<value column="Name" original="Warehouse">Almacén</value>
-		<value column="PrintName" original="Warehouse">Almacén</value>
-		<value column="Description" original="Warehouse Name">Nombre del almacén</value>
-		<value column="Help" original="">El Almacén indica un almacén único donde los productos son almacenados.</value>
+		<value column="Name" original="Warehouse">Bodega</value>
+		<value column="PrintName" original="Warehouse">Bodega</value>
+		<value column="Description" original="Warehouse Name">Nombre de la bodega</value>
+		<value column="Help" original=""></value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -19175,10 +19175,10 @@ Si usted tiene multiples líneas, un activo es creado por línea.</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2731" trl="Y">
-		<value column="Name" original="Web Store EMail">Email para Tienda Web</value>
-		<value column="PrintName" original="Web Store EMail">Email para Tienda Web</value>
+		<value column="Name" original="Web Store EMail">Email Tienda Web</value>
+		<value column="PrintName" original="Web Store EMail">Email Tienda Web</value>
 		<value column="Description" original="EMail address used as the sender (From)">Dirección del email usada como el remitente (de)</value>
-		<value column="Help" original="The EMail address is used to send mails to useres of the web store">La dirección del email se utiliza para enviar correos a los usuarios del almacén de la tienda</value>
+		<value column="Help" original="The EMail address is used to send mails to useres of the web store">La dirección del email se utiliza para enviar correos a los usuarios de la tienda web</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -19187,7 +19187,7 @@ Si usted tiene multiples líneas, un activo es creado por línea.</value>
 	<row id="2732" trl="Y">
 		<value column="Name" original="WebStore User">Usuario Tienda Web</value>
 		<value column="PrintName" original="Web Store User">Usuario Tienda Web</value>
-		<value column="Description" original="User ID of the Web Store EMail address">ID del usuario de la dirección del email del almacén de la tienda</value>
+		<value column="Description" original="User ID of the Web Store EMail address">ID del usuario de la dirección de email de la tienda web</value>
 		<value column="Help" original="User ID to connect to the Mail Server">Identificación del usuario a conectar con el servidor del email</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -19197,7 +19197,7 @@ Si usted tiene multiples líneas, un activo es creado por línea.</value>
 	<row id="2733" trl="Y">
 		<value column="Name" original="WebStore Password">Contraseña Tienda Web</value>
 		<value column="PrintName" original="WebStore Password">Contraseña Tienda Web</value>
-		<value column="Description" original="Password of the Web Store EMail address">Contraseña de la dirección del Email de la tienda Web del almacén</value>
+		<value column="Description" original="Password of the Web Store EMail address">Contraseña de la dirección del Email de la tienda Web</value>
 		<value column="Help" original="Password to connect to the Mail Server">Contraseña para conectar con el mail servidor</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -19325,9 +19325,9 @@ Si usted tiene multiples líneas, un activo es creado por línea.</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2746" trl="Y">
-		<value column="Name" original="Mail Message">Mensaje de Correo</value>
-		<value column="PrintName" original="Mail Message">Mensaje de Correo</value>
-		<value column="Description" original="Web Store Mail Message Template">Almacen de la Web plantilla del mensaje del mail</value>
+		<value column="Name" original="Mail Message">Mensaje Correo</value>
+		<value column="PrintName" original="Mail Message">Mensaje Correo</value>
+		<value column="Description" original="Web Store Mail Message Template">Plantilal para mensaje de correo de la tienda web</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -19987,22 +19987,20 @@ El Contexto Web Usualmente inicia con / y debe ser un nombre de contexto válido
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2814" trl="Y">
-		<value column="Name" original="Source Warehouse">Almacén Fuente</value>
-		<value column="PrintName" original="Source Warehouse">Almacén Fuente</value>
-		<value column="Description" original="Optional Warehouse to replenish from">Almacén Opcional de Reabastecimiento para</value>
-		<value column="Help" original="If defined, the warehouse selected is used to replenish the product(s)">Si seleccionó, el almacén seleccionado es empleado para reabastecimiento de producto(s)
-
-</value>
+		<value column="Name" original="Source Warehouse">Bodega Fuente</value>
+		<value column="PrintName" original="Source Warehouse">Bodega Fuente</value>
+		<value column="Description" original="Optional Warehouse to replenish from">Bodega opcional para reabastecimiento</value>
+		<value column="Help" original="If defined, the warehouse selected is used to replenish the product(s)">Si se define, esta bodega será seleccionada para reabastecimiento de producto</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original="">n seleccionado</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2815" trl="Y">
-		<value column="Name" original="Replenishment Class">Clase de Reabastecimiento</value>
-		<value column="PrintName" original="Replenishment Class">Clase de Reabastecimiento</value>
+		<value column="Name" original="Replenishment Class">Clase Reabastecimiento</value>
+		<value column="PrintName" original="Replenishment Class">Clase Reabastecimiento</value>
 		<value column="Description" original="Custom class to calculate Quantity to Order">Clase personalizada para calcular Cantidad a Ordenar</value>
-		<value column="Help" original="If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">Si usted selecciona un tipo reabastecimiento personalizado, debe crear una implementación de la clase org.compiere.util.ReplenishInterface y definirlo en la pestaña almacén.</value>
+		<value column="Help" original="If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">Si selecciona un tipo de reabastecimiento personalizado, debe crear una implementación de la clase org.compiere.util.ReplenishInterface y definirlo a nivel de bodega.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -20012,7 +20010,7 @@ El Contexto Web Usualmente inicia con / y debe ser un nombre de contexto válido
 		<value column="Name" original="Costing Level">Nivel de Costeo</value>
 		<value column="PrintName" original="Costing Level">Nivel de Costeo</value>
 		<value column="Description" original="The lowest level to accumulate Costing Information">El nivel mas bajo para acumular información del costeo</value>
-		<value column="Help" original="If you want to maintain different costs per organization (warehouse) or per Batch/Lot, you need to make sure that you define the costs for each of the organizations or batch/lot. The Costing Level is defined per Accounting Schema and can be overwritten by Product Category and Accounting Schema.">Si desea mantener diferentes costos por organización (Almacén) o por Lote/No de Lote, cerciórese que usted define el costo para cada organización o Lote/No de Lote. El nivel de Costeo es definido por Esquema Contable y puede ser sobreescrito mediante Categoría de Producto y Esquema Contable.</value>
+		<value column="Help" original="If you want to maintain different costs per organization (warehouse) or per Batch/Lot, you need to make sure that you define the costs for each of the organizations or batch/lot. The Costing Level is defined per Accounting Schema and can be overwritten by Product Category and Accounting Schema.">Si desea mantener diferentes costos por organización (Bodega) o por Lote/No de Lote, cerciórese que usted define el costo para cada organización o Lote/No de Lote. El nivel de Costeo es definido por Esquema Contable y puede ser sobreescrito mediante Categoría de Producto y Esquema Contable.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -20304,7 +20302,7 @@ Note que usted puede  Sobre o Sub Asignar el Pago.Durante el procesamiento  del 
 		<value column="Name" original="Cost Queue">Costo de cola</value>
 		<value column="PrintName" original="Cost Queue">Costo de cola</value>
 		<value column="Description" original="FiFo/LiFo Cost Queue">PePs/UePs Costo de cola</value>
-		<value column="Help" original="Note that the cost queue may not be the same as the physical movement cost queue due to differences in costing level and warehouse priority.">Observe que el costo de cola podria no ser el mismo que el movimiento fisico, debido a las diferencias en nivel de costeo y prioridades de almacen.</value>
+		<value column="Help" original="Note that the cost queue may not be the same as the physical movement cost queue due to differences in costing level and warehouse priority.">Observe que el costo de cola podria no ser el mismo que el movimiento físico, debido a las diferencias en nivel de costeo y prioridades de bodega.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -23250,8 +23248,8 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50049" trl="Y">
-		<value column="Name" original="Allow Info InOut">Permitir Información de Entradas/Salidas de Almacén</value>
-		<value column="PrintName" original="Allow Info InOut">Permitir Información de Entradas/Salidas de Almacén</value>
+		<value column="Name" original="Allow Info InOut">Permitir Información de Entradas/Salidas de Bodega</value>
+		<value column="PrintName" original="Allow Info InOut">Permitir Información de Entradas/Salidas de Bodega</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>

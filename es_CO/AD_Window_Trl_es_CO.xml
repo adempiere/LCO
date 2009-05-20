@@ -173,9 +173,9 @@
 		<value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">Esta ventana se usa para definir y mantener las categorías de impuestos. Cada producto es asociado con una categoría de impuestos lo cual facilita la actualización cuando los impuestos cambian.</value>
 	</row>
 	<row id="139" trl="Y">
-		<value column="Name" original="Warehouse &amp; Locators">Almacén y Ubicación</value>
-		<value column="Description" original="Maintain Warehouses and Locators">Mantener Almacenes y Ubicación</value>
-		<value column="Help" original="The Warehouse and Locators Window defines each Warehouse, any Locators for that Warehouse and the Accounting parameters to be used for inventory in that Warehouse.">La ventana se usa para definir los almacenes y sus ubicaciones así como los parámetros contables que deberán ser utilizados para el inventario en ese almacén.</value>
+		<value column="Name" original="Warehouse &amp; Locators">Bodega y Ubicaciones</value>
+		<value column="Description" original="Maintain Warehouses and Locators">Mantener Bodega y Ubicaciones</value>
+		<value column="Help" original="The Warehouse and Locators Window defines each Warehouse, any Locators for that Warehouse and the Accounting parameters to be used for inventory in that Warehouse.">La ventana se usa para definir las bodegas y sus ubicaciones así como los parámetros contables que deberán ser utilizados para el inventario en esa bodega.</value>
 	</row>
 	<row id="140" trl="Y">
 		<value column="Name" original="Product">Producto</value>
@@ -295,7 +295,7 @@
 	<row id="170" trl="Y">
 		<value column="Name" original="Inventory Move">Movimiento de Inventario</value>
 		<value column="Description" original="Inventory Move">Movimiento de Inventario</value>
-		<value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">Permite mover inventario desde una localización del almacén a otra. Cuando las líneas de movimientos son entradas y se selecciona el botón de `Procesar Movimientos` el inventario se ajustará.</value>
+		<value column="Help" original="The Inventory Move Window allows you to move inventory from one location or warehouse to another.  After the appropriate lines are entered selecting the 'Process Movements' button will adjust the inventory.">Permite mover inventario desde una ubicación de la bodega a otra. Cuando las líneas de movimientos son entradas y se selecciona el botón de `Procesar Movimientos` el inventario se ajustará.</value>
 	</row>
 	<row id="172" trl="Y">
 		<value column="Name" original="Import Business Partner">Importar Terceros</value>
@@ -1199,7 +1199,7 @@ Segmentos Contables de la organización deseada, Cuentas, Productos pueden tener
 	<row id="365" trl="Y">
 		<value column="Name" original="Performance Benchmark">Desempeño Punto de Control</value>
 		<value column="Description" original="Performance Benchmark">Desempeño Punto de Control</value>
-		<value column="Help" original="Data Series to compare internal performance with (e.g. stock price, ...)">Series de datos para comparar el desempeño interno con (ej precio de almacén,  . . .)
+		<value column="Help" original="Data Series to compare internal performance with (e.g. stock price, ...)">Series de datos para comparar el desempeño interno con (ej precio de cotización,  . . .)
 </value>
 	</row>
 	<row id="366" trl="Y">

@@ -2047,7 +2047,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="612" trl="Y">
-		<value column="MsgText" original="&amp;Warehouse">Almacén</value>
+		<value column="MsgText" original="&amp;Warehouse">&amp;Bodega</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="613" trl="Y">
@@ -2619,7 +2619,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="765" trl="Y">
-		<value column="MsgText" original="Warehouse Organization is not Document Organization">La organización del almacén no es la organización del documento</value>
+		<value column="MsgText" original="Warehouse Organization is not Document Organization">La organización de la bodega no es la organización del documento</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="766" trl="Y">
@@ -4938,7 +4938,7 @@ Compruebe el registro de errores y el formato del archivo Accounting*.cvs - Ning
 		<value column="MsgTip" original="Suivant">Siguiente</value>
 	</row>
 	<row id="53001" trl="Y">
-		<value column="MsgText" original="Item Availability in other Warehouses">Disponibilidad de artículos en otros almacenes</value>
+		<value column="MsgText" original="Item Availability in other Warehouses">Disponibilidad de artículos en otras bodegas</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="53002" trl="Y">
@@ -4994,8 +4994,8 @@ Compruebe el registro de errores y el formato del archivo Accounting*.cvs - Ning
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="53027" trl="Y">
-		<value column="MsgText" original="Only from same warehouse">Solo del mismo almacén</value>
-		<value column="MsgTip" original="Show only orders with the same warehouse as selected in the material receipt">Muestra solo las ordenes del mismo almacén que el seleccionado en el recibo de material</value>
+		<value column="MsgText" original="Only from same warehouse">Solo de la misma bodega</value>
+		<value column="MsgTip" original="Show only orders with the same warehouse as selected in the material receipt">Muestra solo las ordenes de la misma bodega que la seleccionada en el recibo de material</value>
 	</row>
 	<row id="520010" trl="Y">
 		<value column="MsgText" original="1 Rupee">1 Rupia</value>

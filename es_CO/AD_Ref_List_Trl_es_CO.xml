@@ -387,7 +387,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="206" trl="Y">
-		<value column="Name" original="Warehouse Order">Orden de Almacén</value>
+		<value column="Name" original="Warehouse Order">Orden de Bodega</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="207" trl="Y">
