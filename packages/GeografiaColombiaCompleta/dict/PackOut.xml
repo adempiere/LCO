@@ -3,12 +3,13 @@
 <adempieredata clientname="System">
 <SQLStatement DBType="ALL" statement="UPDATE ad_column SET isupdateable = 'Y' WHERE ad_column_id IN (866, 7057)"/>
 <dtable name="C_Country">
-<drow name="Colombia">
-<dcolumn name="HasRegion" class="Boolean" value="true"/>
-<dcolumn name="RegionName" class="String" value="Departamento"/>
-<dcolumn name="DisplaySequence" class="String" value="@C@, @R@"/>
-</drow>
+	<drow name="Colombia">
+		<dcolumn name="HasRegion" class="Boolean" value="true"/>
+		<dcolumn name="RegionName" class="String" value="Departamento"/>
+		<dcolumn name="DisplaySequence" class="String" value="@C@, @R@"/>
+	</drow>
 </dtable>
+
 <dtable name="C_Region">
 <drow name="ANTIOQUIA">
 <dcolumn name="Description" class="String" value="05 - ANTIOQUIA"/>
