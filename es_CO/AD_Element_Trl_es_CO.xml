@@ -265,7 +265,7 @@
 	<row id="133" trl="Y">
 		<value column="Name" original="Menu Tree">Arbol de Menú</value>
 		<value column="PrintName" original="Menu Tree">Arbol de Menú</value>
-		<value column="Description" original="Tree of the menu">Arbol de el Menú</value>
+		<value column="Description" original="Tree of the menu">Arbol de Menú</value>
 		<value column="Help" original="Menu access tree"/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -2916,7 +2916,7 @@
 		<value column="Name" original="Realized Gain Acct">Cta. Ganancia Realizada</value>
 		<value column="PrintName" original="Realized Gain Acct">Ganancia Realizada</value>
 		<value column="Description" original="Realized Gain Account">Cuenta de ganancia realizada</value>
-		<value column="Help" original="The Realized Gain Account indicates the account to be used when recording gains achieved from currency revaluation that have been realized.">La cuenta de ganancia realizada indica la cuenta a ser usada cuando se registran ganancias realizadas por reevaluación de moneda</value>
+		<value column="Help" original="The Realized Gain Account indicates the account to be used when recording gains achieved from currency revaluation that have been realized.">La cuenta de ganancia realizada indica la cuenta a ser usada cuando se registran ganancias realizadas por revaluación de moneda</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -2926,7 +2926,7 @@
 		<value column="Name" original="Realized Loss Acct">Pérdida Realizada</value>
 		<value column="PrintName" original="Realized Loss Acct">Pérdida Realizada</value>
 		<value column="Description" original="Realized Loss Account">Cuenta de pérdida realizada</value>
-		<value column="Help" original="The Realized Loss Account indicates the account to be used when recording losses incurred from currency revaluation that have yet to be realized.">La cuenta de pérdida realizada indica la cuenta a ser usada cuando se registran pérdidas realizadas por reevaluación de moneda</value>
+		<value column="Help" original="The Realized Loss Account indicates the account to be used when recording losses incurred from currency revaluation that have yet to be realized.">La cuenta de pérdida realizada indica la cuenta a ser usada cuando se registran pérdidas realizadas por revaluación de moneda</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -3455,8 +3455,8 @@
 	<row id="605" trl="Y">
 		<value column="Name" original="Unrealized Gain Acct">Cta. Ganancia No Realizada</value>
 		<value column="PrintName" original="Unrealized Gain Acct">Ganancia No Realizada</value>
-		<value column="Description" original="Unrealized Gain Account for currency revaluation">Cuenta de ganancia no realizada para reevaluación monedas</value>
-		<value column="Help" original="The Unrealized Gain Account indicates the account to be used when recording gains achieved from currency revaluation that have yet to be realized.">La cuenta de ganancia no realizada indica la cuenta a ser usada cuando se registran las ganancias logradas; por la reevaluación de la moneda; que aún no han sido realizadas</value>
+		<value column="Description" original="Unrealized Gain Account for currency revaluation">Cuenta de ganancia no realizada para revaluación monedas</value>
+		<value column="Help" original="The Unrealized Gain Account indicates the account to be used when recording gains achieved from currency revaluation that have yet to be realized.">La cuenta de ganancia no realizada indica la cuenta a ser usada cuando se registran las ganancias logradas; por la revaluación de la moneda; que aún no han sido realizadas</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -3465,8 +3465,8 @@
 	<row id="606" trl="Y">
 		<value column="Name" original="Unrealized Loss Acct">Pérdida No Realizada</value>
 		<value column="PrintName" original="Unrealized Loss Acct">Pérdida No Realizada</value>
-		<value column="Description" original="Unrealized Loss Account for currency revaluation">Cuenta de pérdida no realizada para reevaluación monedas</value>
-		<value column="Help" original="The Unrealized Loss Account indicates the account to be used when recording losses incurred from currency revaluation that have yet to be realized.">La cuenta de pérdida no realizada indica la cuenta a ser usada cuando se registran las pérdidas incurridas; por reevaluación de la moneda; que aún no han sido realizadas</value>
+		<value column="Description" original="Unrealized Loss Account for currency revaluation">Cuenta de pérdida no realizada para revaluación monedas</value>
+		<value column="Help" original="The Unrealized Loss Account indicates the account to be used when recording losses incurred from currency revaluation that have yet to be realized.">La cuenta de pérdida no realizada indica la cuenta a ser usada cuando se registran las pérdidas incurridas; por revaluación de la moneda; que aún no han sido realizadas</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -3603,19 +3603,19 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="622" trl="Y">
-		<value column="Name" original="Partner Category">Categoría del Proveedor</value>
-		<value column="PrintName" original="BPartner Category">Categoría del Proveedor</value>
-		<value column="Description" original="Product Category of the Business Partner">Proveedor</value>
-		<value column="Help" original="The Business Partner Category identifies the category used by the Business Partner for this product.">La categoría del proveedor identifica la categoría usada por el proveedor para este producto</value>
+		<value column="Name" original="Partner Category">Categoría del Tercero</value>
+		<value column="PrintName" original="BPartner Category">Categoría del Tercero</value>
+		<value column="Description" original="Product Category of the Business Partner">Categoría de producto del tercero</value>
+		<value column="Help" original="The Business Partner Category identifies the category used by the Business Partner for this product.">La categoría del tercero identifica la categoría usada por el tercero para este producto</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="623" trl="Y">
-		<value column="Name" original="Partner Product Key">No. de Producto del Proveedor</value>
-		<value column="PrintName" original="BPartner Product Key">No. de Producto del Proveedor</value>
-		<value column="Description" original="Product Key of the Business Partner">Proveedor</value>
+		<value column="Name" original="Partner Product Key">No. de Producto del Tercero</value>
+		<value column="PrintName" original="BPartner Product Key">No. de Producto del Tercero</value>
+		<value column="Description" original="Product Key of the Business Partner">Código de producto del tercero</value>
 		<value column="Help" original="The Business Partner Product Key identifies the number used by the Business Partner for this product. It can be printed on orders and invoices when you include the Product Key in the print format.">El número de producto del proveedor identifica el número usado por el proveedor para este producto.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -4366,7 +4366,7 @@
 		<value column="Name" original="Charge">Cargo</value>
 		<value column="PrintName" original="Charge">Cargo</value>
 		<value column="Description" original="Additional document charges">Cargos adicionales del documento</value>
-		<value column="Help" original="The Charge indicates a type of Charge (Handling, Shipping, Restocking)">El cargo indica un tipo de cargo (manejo; despacho; reposición)</value>
+		<value column="Help" original="The Charge indicates a type of Charge (Handling, Shipping, Restocking)">El cargo indica un tipo de cargo (manejo, embalaje, reposición)</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -4555,7 +4555,7 @@
 	<row id="1025" trl="Y">
 		<value column="Name" original="Shipment/Receipt">Entrega / Recibo</value>
 		<value column="PrintName" original="Shipment/Receipt">Entrega / Recibo</value>
-		<value column="Description" original="Material Shipment Document">Entrega o documento de despacho</value>
+		<value column="Description" original="Material Shipment Document">Documento de entrega</value>
 		<value column="Help" original="The Material Shipment / Receipt ">La ID de Entrega / Recibo indica el documento único para esta entrega o recibo</value>
 		<value column="PO_Description" original="Material Receipt Document"/>
 		<value column="PO_Help" original="The Material Shipment / Receipt "/>
@@ -4703,18 +4703,18 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1044" trl="Y">
-		<value column="Name" original="Product Expense">Gastos Producto</value>
-		<value column="PrintName" original="Product Expense">Gastos Producto</value>
-		<value column="Description" original="Account for Product Expense">Cuenta para gastos por el producto</value>
-		<value column="Help" original="The Product Expense Account indicates the account used to record expenses associated with this product.">La cuenta gastos para el producto indica la cuenta usada para registrar gastos asociados con estos productos.</value>
+		<value column="Name" original="Product Expense">Costos o Gastos Producto</value>
+		<value column="PrintName" original="Product Expense">Costos o Gastos Producto</value>
+		<value column="Description" original="Account for Product Expense">Cuenta para costos o gastos del producto</value>
+		<value column="Help" original="The Product Expense Account indicates the account used to record expenses associated with this product.">La cuenta costos o gastos para el producto indica la cuenta usada para registrar costos o gastos asociados con estos productos.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1045" trl="Y">
-		<value column="Name" original="Product Revenue">Ventas</value>
-		<value column="PrintName" original="Product Revenue">Ventas</value>
+		<value column="Name" original="Product Revenue">Ingresos Producto</value>
+		<value column="PrintName" original="Product Revenue">Ingresos Producto</value>
 		<value column="Description" original="Account for Product Revenue (Sales Account)">Cuenta de Ingresos por el producto (Cuenta de Ventas)</value>
 		<value column="Help" original="The Product Revenue Account indicates the account used for recording sales revenue for this product.">Cuenta de Ingresos por el producto (Cuenta de Ventas) indica la cuenta usada para registrar ingresos de ventas para este producto</value>
 		<value column="PO_Description" original=""/>
@@ -4866,7 +4866,7 @@
 		<value column="Name" original="Charges">Cargos</value>
 		<value column="PrintName" original="Charges">Cargos</value>
 		<value column="Description" original="Charges can be added to the document">Cargos pueden ser agregados al documento</value>
-		<value column="Help" original="The Charges checkbox indicates that charges can be added to this document.  Charges can include items like shipping, handling or bank charges.">El cuadro de verificación indica que algún cargo puede ser agregado a este documento. Los cargos pueden incluir artículos como despacho; manejo o cargos bancarios.</value>
+		<value column="Help" original="The Charges checkbox indicates that charges can be added to this document.  Charges can include items like shipping, handling or bank charges.">El cuadro de verificación indica que algún cargo puede ser agregado a este documento. Los cargos pueden incluir artículos como embalaje, manejo o cargos bancarios.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -6243,8 +6243,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1290" trl="Y">
-		<value column="Name" original="Request Ship date">Solicitud de fecha de despacho</value>
-		<value column="PrintName" original="Request Ship date">Solicitud de fecha de despacho</value>
+		<value column="Name" original="Request Ship date">Fecha Entrega Solicitada</value>
+		<value column="PrintName" original="Request Ship date">Fecha Entrega Solicitada</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -6783,30 +6783,30 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1372" trl="Y">
-		<value column="Name" original="Bank In Transit">Banco en Tránsito</value>
-		<value column="PrintName" original="Bank In Transit">Banco En Tránsito</value>
-		<value column="Description" original="Bank In Transit Account">Cuenta de banco en tránsito</value>
-		<value column="Help" original="The Bank in Transit Account identifies the account to be used for funds which are in transit.">La cuenta banco en tránsito identifica la cuenta a ser usada para fondos que están en tránsito</value>
+		<value column="Name" original="Bank In Transit">Banco Movimientos no Conciliados</value>
+		<value column="PrintName" original="Bank In Transit">Banco Movimientos no Conciliados</value>
+		<value column="Description" original="Bank In Transit Account">Cuenta de banco para registrar movimientos no conciliados</value>
+		<value column="Help" original="The Bank in Transit Account identifies the account to be used for funds which are in transit.">La cuenta banco movimientos no conciliados identifica la cuenta a ser usada para fondos que están sin conciliar</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1373" trl="Y">
-		<value column="Name" original="Bank Revaluation Gain">Ganancias por Reevaluación (Bancos)</value>
-		<value column="PrintName" original="Bank Revaluation Gain">Ganancias por Reevaluación (Bancos)</value>
-		<value column="Description" original="Bank Revaluation Gain Account">Cuenta de ganancias por reevaluación (Bancos)</value>
-		<value column="Help" original="The Bank Revaluation Gain Account identifies the account to be used for recording gains that are recognized when converting currencies.">La cuenta de ganancias por reevaluación en bancos identifica la cuenta a ser usada para registrar ganancias que son reconocidas cuando se convierten las monedas</value>
+		<value column="Name" original="Bank Revaluation Gain">Ganancias por Revaluación (Bancos)</value>
+		<value column="PrintName" original="Bank Revaluation Gain">Ganancias por Revaluación (Bancos)</value>
+		<value column="Description" original="Bank Revaluation Gain Account">Cuenta de ganancias por revaluación (Bancos)</value>
+		<value column="Help" original="The Bank Revaluation Gain Account identifies the account to be used for recording gains that are recognized when converting currencies.">La cuenta de ganancias por revaluación en bancos identifica la cuenta a ser usada para registrar ganancias que son reconocidas cuando se convierten las monedas</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1374" trl="Y">
-		<value column="Name" original="Bank Revaluation Loss">Pérdida por Reevaluación (Bancos)</value>
-		<value column="PrintName" original="Bank Revaluation Loss">Pérdida por Reevaluación (Bancos)</value>
-		<value column="Description" original="Bank Revaluation Loss Account">Cuenta de pérdida por reevaluación (Bancos)</value>
-		<value column="Help" original="The Bank Revaluation Loss Account identifies the account to be used for recording losses that are recognized when converting currencies.">La cuenta de pérdidas por reevaluación en bancos identifica la cuenta a ser usada para registrar pérdidas que son reconocidas cuando se convierten las monedas</value>
+		<value column="Name" original="Bank Revaluation Loss">Pérdida por Revaluación (Bancos)</value>
+		<value column="PrintName" original="Bank Revaluation Loss">Pérdida por Revaluación (Bancos)</value>
+		<value column="Description" original="Bank Revaluation Loss Account">Cuenta de pérdida por revaluación (Bancos)</value>
+		<value column="Help" original="The Bank Revaluation Loss Account identifies the account to be used for recording losses that are recognized when converting currencies.">La cuenta de pérdidas por revaluación en bancos identifica la cuenta a ser usada para registrar pérdidas que son reconocidas cuando se convierten las monedas</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -7083,20 +7083,20 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1412" trl="Y">
-		<value column="Name" original="Payment Discount Expense">Gastos de Descuentos en Pagos</value>
-		<value column="PrintName" original="Pay discount expense">Gastos por Descuentos en Pagos</value>
-		<value column="Description" original="Payment Discount Expense Account">Gastos de Descuentos en Pagos</value>
-		<value column="Help" original="Indicates the account to be charged for payment discount expenses.">Indica la cuenta a ser cargada para gastos por descuentos en pagos</value>
+		<value column="Name" original="Payment Discount Expense">Gastos por Descuentos Financieros</value>
+		<value column="PrintName" original="Pay discount expense">Gastos por Descuentos Financieros</value>
+		<value column="Description" original="Payment Discount Expense Account">Gastos por Descuentos Financieros</value>
+		<value column="Help" original="Indicates the account to be charged for payment discount expenses.">Indica la cuenta a ser cargada para gastos por descuentos financieros otorgados en recaudos</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1413" trl="Y">
-		<value column="Name" original="Payment Discount Revenue">Ingresos de Descuentos en Pagos</value>
-		<value column="PrintName" original="Pay discount revenue">Ingresos por Descuentos en Pagos</value>
-		<value column="Description" original="Payment Discount Revenue Account">Ingresos de descuentos en pagos</value>
-		<value column="Help" original="Indicates the account to be charged for payment discount revenues.">Indica la cuenta a ser cargada por ingresos por descuentos en pagos.</value>
+		<value column="Name" original="Payment Discount Revenue">Ingresos por Descuentos Financieros</value>
+		<value column="PrintName" original="Pay discount revenue">Ingresos por Descuentos Financieros</value>
+		<value column="Description" original="Payment Discount Revenue Account">Ingresos por Descuentos Financieros</value>
+		<value column="Help" original="Indicates the account to be charged for payment discount revenues.">Indica la cuenta a ser cargada para ingresos por descuentos financieros recibidos en pagos</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -7313,20 +7313,20 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1436" trl="Y">
-		<value column="Name" original="Tax Credit">Impuesto por Acreditar</value>
-		<value column="PrintName" original="Tax Credit">Impuesto por Acreditar</value>
-		<value column="Description" original="Account for Tax you can reclaim">Cuenta para impuestos a reclamar</value>
-		<value column="Help" original="The Tax Credit Account indicates the account used to record taxes that can be reclaimed">La cuenta de Impuesto por Acreditar indica la cuenta usada para acumular impuestos que pueden ser reclamados</value>
+		<value column="Name" original="Tax Credit">Impuesto al Comprar</value>
+		<value column="PrintName" original="Tax Credit">Impuesto al Comprar</value>
+		<value column="Description" original="Account for Tax you can reclaim">Cuenta para impuestos utilizado en la compra</value>
+		<value column="Help" original="The Tax Credit Account indicates the account used to record taxes that can be reclaimed">La cuenta de Impuesto al Comprar indica la cuenta usada para acumular impuestos al momento de la compra</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1437" trl="Y">
-		<value column="Name" original="Tax Due">Impuestos por pagar</value>
-		<value column="PrintName" original="Tax Due">Impuestos por pagar</value>
-		<value column="Description" original="Account for Tax you have to pay">Cuenta para impuestos a pagar.</value>
-		<value column="Help" original="The Tax Due Account indicates the account used to record taxes that you are liable to pay.">La cuenta de impuestos por pagar indica la cuenta usada para acumular impuestos que se deben pagar.</value>
+		<value column="Name" original="Tax Due">Impuesto al Vender</value>
+		<value column="PrintName" original="Tax Due">Impuesto al Vender</value>
+		<value column="Description" original="Account for Tax you have to pay">Cuenta para impuestos utilizada en la venta</value>
+		<value column="Help" original="The Tax Due Account indicates the account used to record taxes that you are liable to pay.">La cuenta de impuestos pl vender indica la cuenta usada para acumular impuestos al momento de la venta</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -7403,9 +7403,9 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1447" trl="Y">
-		<value column="Name" original="Inventory Revaluation">Reevaluación de Inventario</value>
-		<value column="PrintName" original="Inventory Revaluation">Reevaluación de Inventario</value>
-		<value column="Description" original="Account for Inventory Revaluation">Cuenta de Reevaluación de Inventarios</value>
+		<value column="Name" original="Inventory Revaluation">Revaluación de Inventario</value>
+		<value column="PrintName" original="Inventory Revaluation">Revaluación de Inventario</value>
+		<value column="Description" original="Account for Inventory Revaluation">Cuenta de Revaluación de Inventarios</value>
 		<value column="Help" original="The Inventory Revaluation Account identifies the account used to records changes in inventory value due to currency revaluation.">La cuenta de Revaluación de Inventarios identifica la cuenta usada y los cambios del inventario debido a la evaluación actual.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -8813,8 +8813,8 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1623" trl="Y">
-		<value column="Name" original="Post Trade Discount">Aplicar Descuento Comercial</value>
-		<value column="PrintName" original="Trade Discount">Aplicar Descuento Comercial</value>
+		<value column="Name" original="Post Trade Discount">Contabilizar Descuento Comercial</value>
+		<value column="PrintName" original="Trade Discount">Contabilizar Descuento Comercial</value>
 		<value column="Description" original="Generate postings for trade discounts">Genera registro para descuentos comerciales</value>
 		<value column="Help" original="If the invoice is based on an item with a list price, the amount based on the list price and the discount is posted instead of the net amount.&#10;Example: Quantity 10 - List Price: 20 - Actual Price: 17&#10;If selected for a sales invoice 200 is posted to Product Revenue and 30 to Discount Granted - rather than 170 to Product Revenue.&#10;The same applies to vendor invoices.">Si la factura se basa en un artículo con un precio de lista; el Total basado en el precio de lista y el descuento es registrado en lugar del Total neto</value>
 		<value column="PO_Description" original=""/>
@@ -9353,9 +9353,9 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1686" trl="Y">
-		<value column="Name" original="Payment Selection">Selección de Pagos</value>
-		<value column="PrintName" original="Payment selection">Selección de Pagos</value>
-		<value column="Description" original="AP Payment Selection Clearing Account">Cuenta de limpieza de selección de pagos de Cuentas por Pagar</value>
+		<value column="Name" original="Payment Selection">Pagos sin Asignar</value>
+		<value column="PrintName" original="Payment selection">Pagos sin Asignar</value>
+		<value column="Description" original="AP Payment Selection Clearing Account">Cuenta de conciliación para pagos sin asignar</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -9363,10 +9363,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1687" trl="Y">
-		<value column="Name" original="Unallocated Cash">Efectivo no asignado</value>
-		<value column="PrintName" original="Unallocated Cash">Efectivo no asignado</value>
-		<value column="Description" original="Unallocated Cash Clearing Account">Cuenta de limpieza para efectivo no asignado</value>
-		<value column="Help" original="Receipts not allocated to Invoices">Recibos no asignados a facturas</value>
+		<value column="Name" original="Unallocated Cash">Recaudos sin Asignar</value>
+		<value column="PrintName" original="Unallocated Cash">Recaudos sin Asignar</value>
+		<value column="Description" original="Unallocated Cash Clearing Account">Cuenta de conciliación para recaudos sin asignar</value>
+		<value column="Help" original="Receipts not allocated to Invoices">Recaudos no asignados a facturas</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -10643,9 +10643,9 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1825" trl="Y">
-		<value column="Name" original="Shipment Print Format">Formato Impresión Despacho</value>
-		<value column="PrintName" original="Shipment Print Format">Formato de Impresión de despachos</value>
-		<value column="Description" original="Print Format for Shipments, Receipts, Pick Lists">Formato de impresión usado para imprimir despachos; recibos y listas de recolección.</value>
+		<value column="Name" original="Shipment Print Format">Formato Impresión Entrega</value>
+		<value column="PrintName" original="Shipment Print Format">Formato de Impresión de Entrega</value>
+		<value column="Description" original="Print Format for Shipments, Receipts, Pick Lists">Formato de impresión usado para imprimir entregas, recibos y listas de recolección.</value>
 		<value column="Help" original="You need to define a Print Format to print the document.">Es necesario definir un formato para imprimir el documento.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -12546,7 +12546,7 @@
 		<value column="Name" original="Partner Parent">Tercero Padre</value>
 		<value column="PrintName" original="Partner Parent">Tercero Padre</value>
 		<value column="Description" original="Business Partner Parent">Tercero Padre</value>
-		<value column="Help" original="The parent (organization) of the Business Partner for reporting purposes.">El padre (organización) de el tercero para reportar propositos.</value>
+		<value column="Help" original="The parent (organization) of the Business Partner for reporting purposes.">El padre (organización) del tercero para reportar propósitos.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -12555,7 +12555,7 @@
 	<row id="2032" trl="Y">
 		<value column="Name" original="Standard Phase">Fase Estándar</value>
 		<value column="PrintName" original="Std Phase">Fase Estándar</value>
-		<value column="Description" original="Standard Phase of the Project Type">Fase estándar de el tipo de proyecto</value>
+		<value column="Description" original="Standard Phase of the Project Type">Fase estándar del tipo de proyecto</value>
 		<value column="Help" original="Phase of the project with standard performance information with standard work">Fase del proyecto con la información estándar del funcionamiento con el trabajo estándar.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -12746,7 +12746,7 @@
 		<value column="Name" original="Printer Name">Nombre Impresión</value>
 		<value column="PrintName" original="Printer Name">Nombre Impresión</value>
 		<value column="Description" original="Name of the Printer">Nombre de la Impresión</value>
-		<value column="Help" original="Internal (Opereating System) Name of the Printer; Please mote that the printer name may be different on different clients. Enter a printer name, which applies to ALL clients (e.g. printer on a server). &lt;p&gt;&#10;If none is entered, the default printer is used. You specify your default printer when you log in. You can also change the default printer in Preferences.">(Nombre interno de el sistema operativo) de la impresora; Por favor note que el nombre de la impresora puede ser diferente en diversos clientes. Incorpore un nombre de la impresora, que se aplica a TODOS LOS clientes (ej. Impresora en un servidor) &lt;p&gt; 
+		<value column="Help" original="Internal (Opereating System) Name of the Printer; Please mote that the printer name may be different on different clients. Enter a printer name, which applies to ALL clients (e.g. printer on a server). &lt;p&gt;&#10;If none is entered, the default printer is used. You specify your default printer when you log in. You can also change the default printer in Preferences.">(Nombre interno del sistema operativo) de la impresora; Por favor note que el nombre de la impresora puede ser diferente en diversos clientes. Incorpore un nombre de la impresora, que se aplica a TODOS LOS clientes (ej. Impresora en un servidor) &lt;p&gt; 
 
 Si no se incorpora ninguna, se utiliza la impresora por default. Usted especifica su impresora a utilizar cuando abre una sesión. Tambien puede cambiar la impresora por default en preferencias.</value>
 		<value column="PO_Description" original=""/>
@@ -13035,9 +13035,9 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2084" trl="Y">
-		<value column="Name" original="Account Schema Name">Nombre de el Esquema de Cuentas</value>
-		<value column="PrintName" original="AcctSchema Name">Nombre de el Esquema de Cuentas</value>
-		<value column="Description" original="Name of the Accounting Schema">Nombre de el esquema de cuentas</value>
+		<value column="Name" original="Account Schema Name">Nombre del Esquema de Cuentas</value>
+		<value column="PrintName" original="AcctSchema Name">Nombre del Esquema de Cuentas</value>
+		<value column="Description" original="Name of the Accounting Schema">Nombre del esquema de cuentas</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -13098,7 +13098,7 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="Name" original="Alert Message">Mensaje de Alerta</value>
 		<value column="PrintName" original="Alert Message">Mensaje de Alerta</value>
 		<value column="Description" original="Message of the Alert">Menseje de alerta</value>
-		<value column="Help" original="The message of the email sent for the alert">El mensaje de el mail se envia para la alerta.</value>
+		<value column="Help" original="The message of the email sent for the alert">El mensaje del mail se envia para la alerta.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -13816,7 +13816,7 @@ La fusión significa que los datos en este sistema están sincronizados con el o
 	</row>
 	<row id="2165" trl="Y">
 		<value column="Name" original="Cycle Step Name">Nombre del Paso del Ciclo</value>
-		<value column="PrintName" original="Cycle Step">Paso de el ciclo</value>
+		<value column="PrintName" original="Cycle Step">Paso del ciclo</value>
 		<value column="Description" original="Name of the Prohect Cycle Step">Nombre del paso de ciclo de proyecto</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -14172,7 +14172,7 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="Name" original="Industry Info">Información de la Industria</value>
 		<value column="PrintName" original="Industry Info">Información de la Industria</value>
 		<value column="Description" original="Information of the industry (e.g. professional service, distribution of furnitures, ..)">Información de la industria ej. (servicio profesional, distribución de muebles)</value>
-		<value column="Help" original="Description if the industry ad precise as possible.">Descripción de el anuncio de la industria exacto como sea posible.</value>
+		<value column="Help" original="Description if the industry ad precise as possible.">Descripción del anuncio de la industria exacto como sea posible.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -15067,7 +15067,7 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2300" trl="Y">
 		<value column="Name" original="Statement Line Date">Fecha de Estado de Línea</value>
 		<value column="PrintName" original="Statement Line Date">F. Edo de Línea</value>
-		<value column="Description" original="Date of the Statement Line">Fecha de el estado de línea</value>
+		<value column="Description" original="Date of the Statement Line">Fecha del estado de línea</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -15198,7 +15198,7 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="Name" original="Workflow Process Data">Fecha de Proceso de Flujo de Trabajo</value>
 		<value column="PrintName" original="Wf Process Data">F. de Proceso de FT</value>
 		<value column="Description" original="Workflow Process Context">Contexto de proceso flujo de trabajo</value>
-		<value column="Help" original="Context information of the workflow process and activity">Contexto de información del proceso y actividad de el flujo de trabajo.</value>
+		<value column="Help" original="Context information of the workflow process and activity">Contexto de información del proceso y actividad del flujo de trabajo.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -15227,7 +15227,7 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2317" trl="Y">
 		<value column="Name" original="Attribute Value">Valor de Atributo</value>
 		<value column="PrintName" original="Attribute Value">Valor de Atributo</value>
-		<value column="Description" original="Value of the Attribute">Valor de el atributo</value>
+		<value column="Description" original="Value of the Attribute">Valor del atributo</value>
 		<value column="Help" original="Adempiere converts the (string) field values to the attribute data type.  Booleans (Yes-No) may have the values &quot;true&quot; and &quot;false&quot;, the date format is YYYY-MM-DD"/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -15607,8 +15607,8 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2359" trl="Y">
 		<value column="Name" original="Workflow Processorl Log">Log Procesador de Flujo de Trabajo</value>
 		<value column="PrintName" original="Workflow Processor Log">Log Procesador de Flujo de Trabajo</value>
-		<value column="Description" original="Result of the execution of the Workflow Processor">Resultado de la ejecución de el procesador de flujo de trabajo.</value>
-		<value column="Help" original="Result of the execution of the Workflow Processor">Resultado de la ejecución de el procesador de flujo de trabajo.</value>
+		<value column="Description" original="Result of the execution of the Workflow Processor">Resultado de la ejecución del procesador de flujo de trabajo.</value>
+		<value column="Help" original="Result of the execution of the Workflow Processor">Resultado de la ejecución del procesador de flujo de trabajo.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -15727,8 +15727,8 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2371" trl="Y">
 		<value column="Name" original="Alert Processor Log">Log Procesador de Alertas</value>
 		<value column="PrintName" original="Alert Processor Log">Log Procesador de Alertas</value>
-		<value column="Description" original="Result of the execution of the Alert Processor">Resultado de la ejecución de el procesador de alertas.</value>
-		<value column="Help" original="Result of the execution of the Alert Processor">Resultado de la ejecución de el procesador de alertas.</value>
+		<value column="Description" original="Result of the execution of the Alert Processor">Resultado de la ejecución del procesador de alertas.</value>
+		<value column="Help" original="Result of the execution of the Alert Processor">Resultado de la ejecución del procesador de alertas.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -15757,7 +15757,7 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2374" trl="Y">
 		<value column="Name" original="Related Partner Location">Dirección de Tercero Relacionado</value>
 		<value column="PrintName" original="Related Partner Location">Dirección de Tercero Relacionado</value>
-		<value column="Description" original="Location of the related Business Partner">Localización de el tercero relacionado.</value>
+		<value column="Description" original="Location of the related Business Partner">Localización del tercero relacionado.</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -16147,7 +16147,7 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2415" trl="Y">
 		<value column="Name" original="Membership">Miembro</value>
 		<value column="PrintName" original="Membership">Miembro</value>
-		<value column="Description" original="Product used to deternine the price of the membership for the topic type">Producto usado para determinar el precio de calidad de el miembro para el tipo de asunto.</value>
+		<value column="Description" original="Product used to deternine the price of the membership for the topic type">Producto usado para determinar el precio de calidad del miembro para el tipo de asunto.</value>
 		<value column="Help" original="A topic can require to pay a membership fee.">El asunto se puede requerir para pagar un horario de la calidad de miembro.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -16207,7 +16207,7 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2421" trl="Y">
 		<value column="Name" original="Payment Location">Localización Pago</value>
 		<value column="PrintName" original="Payment Location">Localización Pago</value>
-		<value column="Description" original="Location of the Business Partner responsible for the payment">Localización de el tercero responsable para el pago.</value>
+		<value column="Description" original="Location of the Business Partner responsible for the payment">Localización del tercero responsable para el pago.</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -17773,8 +17773,8 @@ Invoices and Payment Allocations determine the Open Balance (i.e. not Orders or 
 	<row id="2587" trl="Y">
 		<value column="Name" original="Access all Orgs">Acceso a todas las Organizaciones</value>
 		<value column="PrintName" original="Access all Orgs">Acceso a todas las Organizaciones</value>
-		<value column="Description" original="Access all Organizations (no org access control) of the client">Acceso a todas las Organizaciones (no controla acceso a organización) de el cliente.</value>
-		<value column="Help" original="When selected, the role has access to all organizations of the client automatically. This also increases performance where you have many organizations.">Cuando selecciona la regla, le da acceso a todas las organizaciones de el cliente automaticamente. Esta tambien aumenta funcionamientos donde usted tiene muchas organizaciones.</value>
+		<value column="Description" original="Access all Organizations (no org access control) of the client">Acceso a todas las Organizaciones (no controla acceso a organización) del cliente.</value>
+		<value column="Help" original="When selected, the role has access to all organizations of the client automatically. This also increases performance where you have many organizations.">Cuando selecciona la regla, le da acceso a todas las organizaciones del cliente automaticamente. Esta tambien aumenta funcionamientos donde usted tiene muchas organizaciones.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -17831,8 +17831,8 @@ Invoices and Payment Allocations determine the Open Balance (i.e. not Orders or 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2593" trl="Y">
-		<value column="Name" original="Any Bus.Partner">Cualquier Soc.Neg.</value>
-		<value column="PrintName" original="Any BPartner">Cualquier Soc.Neg.</value>
+		<value column="Name" original="Any Bus.Partner">Cualquier Tercero</value>
+		<value column="PrintName" original="Any BPartner">Cualquier Tercero</value>
 		<value column="Description" original="Match any value of the Business Partner segment">Coincide cualquier valor del segmento del tercero</value>
 		<value column="Help" original="If selected, any value of the account segment will match. If not selected, but no value of the accounting segment is selected, the matched value must be null (i.e. not defined).">Si está seleccionado, cualquier valor del segmento de la cuenta se asignará. Si no está seleccionado, pero no se selecciona ningún valor del segmento de la contabilidad, el valor asignado debe ser nulo (es decir no definido).</value>
 		<value column="PO_Description" original=""/>
@@ -18281,7 +18281,7 @@ La secuencia de Ciudad/Región/Postal es determinada con la dirección de format
 	<row id="2637" trl="Y">
 		<value column="Name" original="Dyn Priority Start">Prioridad Inicial Dinámica</value>
 		<value column="PrintName" original="Dyn Priority Start">Dinámica Prioridad inicial</value>
-		<value column="Description" original="Starting priority before changed dynamically">Comenzando prioridad antes de el cambio dinámicamente.</value>
+		<value column="Description" original="Starting priority before changed dynamically">Prioridad inicial antes de cambiar dinámicamente.</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -19660,7 +19660,7 @@ Si usted tiene multiples líneas, un activo es creado por línea.</value>
 		<value column="Name" original="BOM">LDM</value>
 		<value column="PrintName" original="BOM">LDM</value>
 		<value column="Description" original="Bill of Material">Lista de materiales</value>
-		<value column="Help" original="The composition of the Product">La composición de el producto.</value>
+		<value column="Help" original="The composition of the Product">La composición del producto.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -20321,10 +20321,10 @@ Note que usted puede  Sobre o Sub Asignar el Pago.Durante el procesamiento  del 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2847" trl="Y">
-		<value column="Name" original="Inventory Clearing">Limpieza de Inventario</value>
-		<value column="PrintName" original="Inventory Clearing">Limpieza de Inventario</value>
-		<value column="Description" original="Product Inventory Clearing Account">Inventario de productos Cuenta de limpieza</value>
-		<value column="Help" original="Account used for posting matched product (item) expenses (e.g. AP Invoice, Invoice Match).  You would use a different account then Product Expense, if you want to differentate service related costs from item related costs. The balance on the clearing account should be zero and accounts for the timing difference between invoice receipt and matching.&#10;">Cuenta usada para publicar gastos de productos coincidentes. Usted usaria una cuenta diferente  y discrepancia en Producto, si se quiere diferenciar los costos relacionados al serviciodesde los costos relacionados con el producto. El balance en la cuenta de limpieza debería ser cero y las cuentas para diferencia de tiempo entre recibo de factura y búsqueda.
+		<value column="Name" original="Inventory Clearing">Conciliación de Inventario</value>
+		<value column="PrintName" original="Inventory Clearing">Conciliación de Inventario</value>
+		<value column="Description" original="Product Inventory Clearing Account">Inventario de productos Cuenta de conciliación</value>
+		<value column="Help" original="Account used for posting matched product (item) expenses (e.g. AP Invoice, Invoice Match).  You would use a different account then Product Expense, if you want to differentate service related costs from item related costs. The balance on the clearing account should be zero and accounts for the timing difference between invoice receipt and matching.&#10;">Cuenta usada para publicar gastos de productos coincidentes. Usted usaria una cuenta diferente  y discrepancia en Producto, si se quiere diferenciar los costos relacionados al servicio desde los costos relacionados con el producto. El balance en la cuenta de limpieza debería ser cero y las cuentas para diferencia de tiempo entre recibo de factura y búsqueda.
 
 </value>
 		<value column="PO_Description" original=""/>
@@ -21821,7 +21821,7 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="Name" original="Actual Impression Count">Contador de impresión actual</value>
 		<value column="PrintName" original="Actual Impression Count">Contador de impresión actual</value>
 		<value column="Description" original="How many impressions have been counted">Cuantas expresiones han sido contadas.</value>
-		<value column="Help" original="Contains info on the actual impression count until now">Contiene información de el contador de impresión actual hasta el momento.</value>
+		<value column="Help" original="Contains info on the actual impression count until now">Contiene información del contador de impresión actual hasta el momento.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -22291,7 +22291,7 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="Name" original="Modification">Modificación</value>
 		<value column="PrintName" original="Modification">Modificación</value>
 		<value column="Description" original="System Modification or Extension">Systema de modificación o extensión.</value>
-		<value column="Help" original="Description of the System modification or extension">Descripción de el sistema de modificación o extensión.</value>
+		<value column="Help" original="Description of the System modification or extension">Descripción del sistema de modificación o extensión.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -22470,7 +22470,7 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 	<row id="3073" trl="Y">
 		<value column="Name" original="Query Result">Resultado de consulta</value>
 		<value column="PrintName" original="Result">Resultado</value>
-		<value column="Description" original="Result of the text query">Resultado de el texto de consulta</value>
+		<value column="Description" original="Result of the text query">Resultado del texto de consulta</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -23778,10 +23778,10 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="52024" trl="Y">
-		<value column="Name" original="UserDiscount">Descuento de usuario</value>
-		<value column="PrintName" original="UserDiscount">Descuento de usuario</value>
-		<value column="Description" original=""/>
-		<value column="Help" original=""/>
+		<value column="Name" original="UserDiscount">Descuento Máximo</value>
+		<value column="PrintName" original="UserDiscount">Descuento Máximo</value>
+		<value column="Description" original="Descuento máximo que puede ingresar este rol"/>
+		<value column="Help" original="Descuento máximo que puede otorgar ingresar rol"/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -24136,8 +24136,8 @@ O - Parametro configurable de la organización.</value>
 	<row id="53348" trl="Y">
 		<value column="Name" original="Order By Value">Orden por valor</value>
 		<value column="PrintName" original="Order By Value">Orden por valor</value>
-		<value column="Description" original="Order list using the value column instead of the name column">Lista de orden usando el valor de la columna en vez de el nombre de la columna.</value>
-		<value column="Help" original="Order list using the value column instead of the name column">Lista de orden usando el valor de la columna en vez de el nombre de la columna.</value>
+		<value column="Description" original="Order list using the value column instead of the name column">Lista de orden usando el valor de la columna en vez del nombre de la columna.</value>
+		<value column="Help" original="Order list using the value column instead of the name column">Lista de orden usando el valor de la columna en vez del nombre de la columna.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>

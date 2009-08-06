@@ -409,12 +409,12 @@
 	</row>
 	<row id="151" trl="Y">
 		<value column="Name" original="C_Order DeliveryRule">C_Order DeliveryRule</value>
-		<value column="Description" original="Delivery Rules list">Lista de Reglas de Despacho</value>
+		<value column="Description" original="Delivery Rules list">Lista de Reglas de Envío</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="152" trl="Y">
 		<value column="Name" original="C_Order DeliveryViaRule">C_Order DeliveryViaRule</value>
-		<value column="Description" original="Delivery via Rule list">Lista de Reglas de vías de despacho</value>
+		<value column="Description" original="Delivery via Rule list">Lista de Reglas de vías de envío</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="153" trl="Y">

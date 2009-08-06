@@ -1286,8 +1286,8 @@ y Recibi/Línea o directamente para el producto.</value>
 		<value column="Help" original="Generate Order from RMA will create an order based on this RMA document.">Generar una orden desde devolución creara una orden basada en este doc devolución.</value>
 	</row>
 	<row id="52001" trl="Y">
-		<value column="Name" original="Generate Shipments for Vendor RMA">Generar despachos para vendedor ADM</value>
-		<value column="Description" original="Generate Shipments from open vendor RMA based on selection.">Generar despachos desde ADM abierto, basado en selección.</value>
+		<value column="Name" original="Generate Shipments for Vendor RMA">Generar Entregas para Devolución de Proveedor</value>
+		<value column="Description" original="Generate Shipments from open vendor RMA based on selection.">Generar entregas desde devoluciones de proveedor abiertas, basado en selección.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="52002" trl="Y">

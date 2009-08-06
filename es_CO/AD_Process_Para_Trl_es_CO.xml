@@ -68,9 +68,9 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="50019" trl="Y">
-		<value column="Name" original="Shipment Date">Fecha de despacho</value>
-		<value column="Description" original="Date printed on shipment">Fecha impresa de despacho</value>
-		<value column="Help" original="The Shipment Date indicates the date printed on the shipment.">La fecha de despacho indica la fecha impresa en el envio.</value>
+		<value column="Name" original="Shipment Date">Fecha Entrega</value>
+		<value column="Description" original="Date printed on shipment">Fecha impresa en la entrega</value>
+		<value column="Help" original="The Shipment Date indicates the date printed on the shipment.">La fecha de entrega indica la fecha impresa en el envio.</value>
 	</row>
 	<row id="53011" trl="Y">
 		<value column="Name" original="Print Unprocessed Entries Only">Imprimir unicamente Entradas no procesadas</value>

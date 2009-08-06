@@ -33,18 +33,18 @@
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="120" trl="N">
-		<value column="Name" original="MM Shipment">Despacho de Productos</value>
-		<value column="PrintName" original="Delivery Note">Nota de entrega</value>
+		<value column="Name" original="MM Shipment">Entrega de Productos</value>
+		<value column="PrintName" original="Delivery Note">Nota de Entrega</value>
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="121" trl="N">
-		<value column="Name" original="MM Shipment Indirect">Despacho de Productos Indirecto</value>
-		<value column="PrintName" original="Delivery Note">Nota Despacho</value>
+		<value column="Name" original="MM Shipment Indirect">Entrega de Productos Indirecto</value>
+		<value column="PrintName" original="Delivery Note">Nota Entrega</value>
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="122" trl="N">
 		<value column="Name" original="MM Receipt">Recepción de Productos</value>
-		<value column="PrintName" original="Vendor Delivery">Despacho Proveedor</value>
+		<value column="PrintName" original="Vendor Delivery">Envío Proveedor</value>
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="123" trl="N">
@@ -169,12 +169,12 @@
 	</row>
 	<row id="147" trl="N">
 		<value column="Name" original="MM Receipt with Confirmation">Recibo de Productos con Confirmación</value>
-		<value column="PrintName" original="Vendor Delivery">Despacho Proveedor</value>
+		<value column="PrintName" original="Vendor Delivery">Envío Proveedor</value>
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="148" trl="N">
-		<value column="Name" original="MM Shipment with Pick">Despacho Productos con Recogida</value>
-		<value column="PrintName" original="Delivery Note">Nota de Despacho</value>
+		<value column="Name" original="MM Shipment with Pick">Entrega Productos con Recogida</value>
+		<value column="PrintName" original="Delivery Note">Nota de Entrega</value>
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="149" trl="N">

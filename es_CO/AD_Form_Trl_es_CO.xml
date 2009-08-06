@@ -53,9 +53,9 @@
 		<value column="Help" original="Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage.">Importar/Exportar Traducción desde/hacia xml para traducir con una herramienta externa. Por favor note que el lenguaje DEBE estar habilitado y verificado en Lenguaje del Sistema</value>
 	</row>
 	<row id="110" trl="Y">
-		<value column="Name" original="Generate Shipments (manual)">Generar Despachos (manual)</value>
-		<value column="Description" original="Select and generate shipments">Seleccionar y Generar Despachos</value>
-		<value column="Help" original="Generate Shipments from Orders.">Generar Despachos a partir de Ordenes</value>
+		<value column="Name" original="Generate Shipments (manual)">Generar Entregas (manual)</value>
+		<value column="Description" original="Select and generate shipments">Seleccionar y Generar Entregas</value>
+		<value column="Help" original="Generate Shipments from Orders.">Generar Entregas a partir de Ordenes</value>
 	</row>
 	<row id="111" trl="Y">
 		<value column="Name" original="SQL Process">Proceso SQL</value>

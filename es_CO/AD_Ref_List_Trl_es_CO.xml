@@ -211,7 +211,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="145" trl="Y">
-		<value column="Name" original="Drop-off Location">Localización Despacho directo</value>
+		<value column="Name" original="Drop-off Location">Localización entrega directa</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="146" trl="Y">
@@ -2115,7 +2115,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="676" trl="Y">
-		<value column="Name" original="Ship/Receipt Confirm">Confirmación Despacho/Recibo</value>
+		<value column="Name" original="Ship/Receipt Confirm">Confirmación Entrega/Recibo</value>
 		<value column="Description" original=""></value>
 	</row>
 	<row id="677" trl="Y">

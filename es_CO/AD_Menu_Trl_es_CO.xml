@@ -360,7 +360,7 @@
 	</row>
 	<row id="204" trl="Y">
 		<value column="Name" original="Material Receipt">Recibo de Material</value>
-		<value column="Description" original="Vendor Shipments (Receipts)">Despachos de Proveedor (Recibos)</value>
+		<value column="Description" original="Vendor Shipments (Receipts)">Recibos de Material de Proveedor</value>
 	</row>
 	<row id="205" trl="Y">
 		<value column="Name" original="Purchase Order">Ordenes de Compra</value>

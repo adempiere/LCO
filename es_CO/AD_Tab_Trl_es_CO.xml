@@ -354,7 +354,7 @@
 		<value column="Name" original="Tax">Impuesto</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Tax definition">Definir Impuestos</value>
-		<value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example, Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes, create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines, the tax is estimated, the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax, you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax.">La ventana permite definir los diferentes impuestos usados para cada categoría de impuestos. Por ejemplo, el impuesto de ventas debe estar definido para cada estado en el cual aplique. Si se tienen múltiples impuestos, se crea un impuesto sumario con la tasa de impuesto total aproximada y las tasas reales de los múltiples impuestos apuntando a la tasa sumaria como su impuesto padre. El impuesto correcto es calculado cuando se procesan los documentos de la transacción. En ese caso, si un impuesto tiene como base el Total neto de la línea y otro impuesto tiene como base otro impuesto, se necesitará ajustar el porcentaje para que el cálculo de el Total correcto.</value>
+		<value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example, Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes, create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines, the tax is estimated, the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax, you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax.">La ventana permite definir los diferentes impuestos usados para cada categoría de impuestos. Por ejemplo, el impuesto de ventas debe estar definido para cada estado en el cual aplique. Si se tienen múltiples impuestos, se crea un impuesto sumario con la tasa de impuesto total aproximada y las tasas reales de los múltiples impuestos apuntando a la tasa sumaria como su impuesto padre. El impuesto correcto es calculado cuando se procesan los documentos de la transacción. En ese caso, si un impuesto tiene como base el Total neto de la línea y otro impuesto tiene como base otro impuesto, se necesitará ajustar el porcentaje para que el cálculo del Total correcto.</value>
 	</row>
 	<row id="176" trl="Y">
 		<value column="Name" original="Tax Category">Categoría de Impuesto</value>
@@ -906,7 +906,7 @@
 		<value column="Name" original="Material Receipt">Recibo de Material</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Enter Receipts and Vendor Returns">Generar recibos y devoluciones del proveedor</value>
-		<value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments from a Vendor or Returns to a Vendor. ">La pestaña de despachos permite generar, mantener, entrar y procesar despachos de un proveedor o devoluciones al proveedor.</value>
+		<value column="Help" original="The Shipments Tab allows you to generate, maintain, enter and process Shipments from a Vendor or Returns to a Vendor. ">La pestaña de entregas permite generar, mantener, entrar y procesar entregas de un proveedor o devoluciones al proveedor.</value>
 	</row>
 	<row id="297" trl="Y">
 		<value column="Name" original="Receipt Line">Línea del Recibo</value>
@@ -1026,7 +1026,7 @@
 		<value column="Name" original="Bill of Materials">Lista de Materiales</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Bill of Material product lines">Lista de Materiales de líneas de producto</value>
-		<value column="Help" original="The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.&#10;&#10;Available Quantity:&#10;- Stored BOMs have to be created via &quot;Production&quot;&#10;- The available quantity of a non-stored BOMs is dynamically calculated&#10;- The attribute &quot;Stored&quot; is defined in the &quot;Product&quot; tab&#10;&#10;Price:&#10;- BOMs must be listed in Pricelists&#10;- If the price is 0.00, the price is dynamically calculated&#10;&#10;Printing:&#10;- Usually, only the BOM information is printed&#10;- For invoices, delivery slips and pick lists, you have the option to print the details&#10;- In the details, the quantity is listed - and the price, if this is dynamically calculated&#10;">La pestaña Lista de Matriales define aquellos productos que son generados a partir de otros productos. Una lista de materialess (LDM) consta de uno o más productos o LDM`s. Cantidad Disponible: 1. LDM almacenadas tienen que ser creadas via producción. 2. La cantidad disponible de una LDM que no se almacena es calculada dinámicamente. 3. El atributo `Almacenada` que califica a una LDM es definida en la pestaña Producto. Precio: 1. LDM tienen que estar enlistadas en listas de precios. 2. Si el precio es 0.00, el precio es calculado dinámicamente como la suma del precio de cada ítem que compone la LDM. Impresión: 1. Usualmente, solo la información de la LDM es impresa. 2. Para facturas, boletas de despacho y boletas de recolección, se tiene la opción de imprimir los detalles. 3. En los detalles, la cantidad es listada y también el precio si este es calculado dinámicamente.</value>
+		<value column="Help" original="The Bill of Materials tab defines those products that are generated from other products.  A Bill of Material (BOM) is one or more Products or BOMs.&#10;&#10;Available Quantity:&#10;- Stored BOMs have to be created via &quot;Production&quot;&#10;- The available quantity of a non-stored BOMs is dynamically calculated&#10;- The attribute &quot;Stored&quot; is defined in the &quot;Product&quot; tab&#10;&#10;Price:&#10;- BOMs must be listed in Pricelists&#10;- If the price is 0.00, the price is dynamically calculated&#10;&#10;Printing:&#10;- Usually, only the BOM information is printed&#10;- For invoices, delivery slips and pick lists, you have the option to print the details&#10;- In the details, the quantity is listed - and the price, if this is dynamically calculated&#10;">La pestaña Lista de Matriales define aquellos productos que son generados a partir de otros productos. Una lista de materialess (LDM) consta de uno o más productos o LDM`s. Cantidad Disponible: 1. LDM almacenadas tienen que ser creadas via producción. 2. La cantidad disponible de una LDM que no se almacena es calculada dinámicamente. 3. El atributo `Almacenada` que califica a una LDM es definida en la pestaña Producto. Precio: 1. LDM tienen que estar enlistadas en listas de precios. 2. Si el precio es 0.00, el precio es calculado dinámicamente como la suma del precio de cada ítem que compone la LDM. Impresión: 1. Usualmente, solo la información de la LDM es impresa. 2. Para facturas, boletas de entrega y boletas de recolección, se tiene la opción de imprimir los detalles. 3. En los detalles, la cantidad es listada y también el precio si este es calculado dinámicamente.</value>
 	</row>
 	<row id="319" trl="Y">
 		<value column="Name" original="Production Header">Encabezado de Producción</value>
@@ -2358,9 +2358,9 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Help" original=""/>
 	</row>
 	<row id="552" trl="Y">
-		<value column="Name" original="Partner Shipments">Despachos Terceros</value>
+		<value column="Name" original="Partner Shipments">Entregas Terceros</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Business Partner Shipments">Despachos Terceros</value>
+		<value column="Description" original="Business Partner Shipments">Entregas Terceros</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="553" trl="Y">
@@ -2589,7 +2589,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Name" original="Log">Log</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Scheduler Log">Planificador de Log</value>
-		<value column="Help" original="Result of the execution of the Scheduler">Resultado de la ejecución de el planificador</value>
+		<value column="Help" original="Result of the execution of the Scheduler">Resultado de la ejecución del planificador</value>
 	</row>
 	<row id="592" trl="Y">
 		<value column="Name" original="Workflow Processor">Procesador de Flujo de Trabajo</value>
@@ -2601,7 +2601,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Name" original="Log">Log</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Workflow Processor Log">Procesador de Log de flujo de trabajo</value>
-		<value column="Help" original="Result of the execution of the Workflow Processor">Resultado de la ejecución de el procesador de flujo de trabajo</value>
+		<value column="Help" original="Result of the execution of the Workflow Processor">Resultado de la ejecución del procesador de flujo de trabajo</value>
 	</row>
 	<row id="594" trl="Y">
 		<value column="Name" original="Bid Topic">Tema de Oferta</value>
@@ -2696,8 +2696,8 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="609" trl="Y">
 		<value column="Name" original="Log">Log</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Result of the execution of the Accounting Processor">Resultados de la ejecución de el procesador de contabilidad</value>
-		<value column="Help" original="Result of the execution of the Accounting Processor">Resultados de la ejecución de el procesador de contabilidad</value>
+		<value column="Description" original="Result of the execution of the Accounting Processor">Resultados de la ejecución del procesador de contabilidad</value>
+		<value column="Help" original="Result of the execution of the Accounting Processor">Resultados de la ejecución del procesador de contabilidad</value>
 	</row>
 	<row id="612" trl="Y">
 		<value column="Name" original="Relation">Relación</value>
@@ -3573,7 +3573,7 @@ La asignación es creada al momento de procesar el pago.
 		<value column="Help" original=""/>
 	</row>
 	<row id="759" trl="Y">
-		<value column="Name" original="Shipment, Receipt">Despacho, Recibo</value>
+		<value column="Name" original="Shipment, Receipt">Entrega, Recibo</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Material Shipment and Receipt Lines">Entrega de Material y Líneas de Recibo</value>
 		<value column="Help" original=""/>

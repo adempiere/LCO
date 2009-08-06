@@ -731,7 +731,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="283" trl="Y">
-		<value column="MsgText" original="Generate">Generar</value>
+		<value column="MsgText" original="Generate">Generado</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="284" trl="Y">
@@ -803,7 +803,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="301" trl="Y">
-		<value column="MsgText" original="Shipment Info">Información de Despacho</value>
+		<value column="MsgText" original="Shipment Info">Información de Entrega</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="302" trl="Y">
@@ -839,7 +839,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="310" trl="Y">
-		<value column="MsgText" original="Select shipments to generate invoices">Seleccione despachos para generar de facturas</value>
+		<value column="MsgText" original="Select shipments to generate invoices">Seleccione entregas para generar facturas</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="311" trl="Y">
@@ -851,7 +851,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="313" trl="Y">
-		<value column="MsgText" original="Receipt (Shipment) already exists for this invoice">Recibo (Despacho) ya existe para esta factura</value>
+		<value column="MsgText" original="Receipt (Shipment) already exists for this invoice">Recibo (Entrega) ya existe para esta factura</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="314" trl="Y">
@@ -2083,7 +2083,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="621" trl="Y">
-		<value column="MsgText" original="Print only most recent Shipment ?&#10;(No: print all shipments of order)">¿Imprimir solamente el despacho más reciente?&#10;(No: imprime todos los despachos de la orden)</value>
+		<value column="MsgText" original="Print only most recent Shipment ?&#10;(No: print all shipments of order)">¿Imprimir solamente la entrega más reciente?&#10;(No: imprime todas las entregas de la orden)</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="622" trl="Y">
@@ -2283,7 +2283,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="672" trl="Y">
-		<value column="MsgText" original="Shipment">Despacho</value>
+		<value column="MsgText" original="Shipment">Entrega</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="673" trl="Y">
@@ -2635,7 +2635,7 @@
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="769" trl="Y">
-		<value column="MsgText" original="Business Partner with open Shipments over Credit Hold">Tercero con Despachos pendientes por encima de cŕedito en espera</value>
+		<value column="MsgText" original="Business Partner with open Shipments over Credit Hold">Tercero con entregas pendientes por encima de cŕedito en espera</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="770" trl="Y">
@@ -4134,7 +4134,7 @@ Compruebe el registro de errores y el formato del archivo Accounting*.cvs - Ning
 		<value column="MsgTip" original=" "></value>
 	</row>
 	<row id="52239" trl="Y">
-		<value column="MsgText" original="No Shipment">No de despacho</value>
+		<value column="MsgText" original="No Shipment">No entrega</value>
 		<value column="MsgTip" original=" "></value>
 	</row>
 	<row id="52240" trl="Y">
@@ -4510,16 +4510,16 @@ Compruebe el registro de errores y el formato del archivo Accounting*.cvs - Ning
 		<value column="MsgTip" original=" "></value>
 	</row>
 	<row id="52333" trl="Y">
-		<value column="MsgText" original="Shipment No">Despacho No</value>
+		<value column="MsgText" original="Shipment No">No.Entrega</value>
 		<value column="MsgTip" original=" "></value>
 	</row>
 	<row id="52334" trl="Y">
-		<value column="MsgText" original="Shipment Required">Despacho Requerido</value>
+		<value column="MsgText" original="Shipment Required">Entrega Requerida</value>
 		<value column="MsgTip" original=" "></value>
 	</row>
 	<row id="52335" trl="Y">
-		<value column="MsgText" original="Shipment Status">Estado de despacho</value>
-		<value column="MsgTip" original="Shipment Status">Estado de despacho</value>
+		<value column="MsgText" original="Shipment Status">Estado de Entrega</value>
+		<value column="MsgTip" original="Shipment Status">Estado de entrega</value>
 	</row>
 	<row id="52336" trl="Y">
 		<value column="MsgText" original="Show Details">Mostrar Detalles</value>

@@ -190,7 +190,7 @@
 	<row id="142" trl="Y">
 		<value column="Name" original="Shipper">Transportista</value>
 		<value column="Description" original="Maintain Shippers">Mantener Transportistas</value>
-		<value column="Help" original="The Shipper Window defines the different shipping provides used by an Organization.  When a delivery method of Shipper is used on an Order a predefined Shipper must be selected.">La ventana define los diferentes proveedores de despachos que usa una organización. Cuando un método de despacho es usado en una orden, un transportador debe ser seleccionado</value>
+		<value column="Help" original="The Shipper Window defines the different shipping provides used by an Organization.  When a delivery method of Shipper is used on an Order a predefined Shipper must be selected.">La ventana define los diferentes transportadores que usa una organización. Cuando un método de envío es usado en una orden, un transportador debe ser seleccionado</value>
 	</row>
 	<row id="143" trl="Y">
 		<value column="Name" original="Sales Order">Ordenes de Venta</value>
@@ -210,7 +210,7 @@
 	<row id="147" trl="Y">
 		<value column="Name" original="Invoice Schedule">Programa de Facturación</value>
 		<value column="Description" original="Maintain Invoicing Schedule">Mantener Programa de Facturación</value>
-		<value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer.">Esta ventana define la frecuencia y las fechas de corte para generar facturas. Si un cliente requiere una única factura para despachos múltiples se define el programa de facturación apropiado y se asocia con el cliente.</value>
+		<value column="Help" original="The Invoice Schedule Window defines the frequency and cut off dates for generating summary invoices.  If a customer requires a single invoice for multiple shipments you would define the appropriate invoice schedule and associate it with the Customer.">Esta ventana define la frecuencia y las fechas de corte para generar facturas. Si un cliente requiere una única factura para entregas múltiples se define el programa de facturación apropiado y se asocia con el cliente.</value>
 	</row>
 	<row id="149" trl="Y">
 		<value column="Name" original="Marketing Campaign">Campaña de Mercadeo</value>
@@ -280,7 +280,7 @@
 	<row id="167" trl="Y">
 		<value column="Name" original="Invoice (Customer)">Facturas y CxC (Cliente)</value>
 		<value column="Description" original="Customer Invoice Entry">Entrar factura de cliente</value>
-		<value column="Help" original="The Customer Invoice Window allows you to display and enter invoices for a customer.  Invoices can also be generated from Sales Orders or Delivery documents.">La ventana permite desplegar y entrar facturas para un cliente. Las facturas pueden también ser generadas desde una orden de ventas o un despacho.</value>
+		<value column="Help" original="The Customer Invoice Window allows you to display and enter invoices for a customer.  Invoices can also be generated from Sales Orders or Delivery documents.">La ventana permite desplegar y entrar facturas para un cliente. Las facturas pueden también ser generadas desde una orden de ventas o una entrega.</value>
 	</row>
 	<row id="168" trl="Y">
 		<value column="Name" original="Physical Inventory">Inventario Físico</value>
@@ -288,7 +288,7 @@
 		<value column="Help" original="The Physical Inventory Window allows you to generate inventory count lists.  These counts can then be processed which will update the actual inventory with the new counts. Normally you would create inventory count lines automaticelly. If you create them manually, make sure that the book value is correct.">Permite generar listas de conteo del inventario físico. Estos conteos pueden ser procesados para actualizar el inventario real con las cantidades contadas.</value>
 	</row>
 	<row id="169" trl="Y">
-		<value column="Name" original="Shipment (Customer)">Despachos (Cliente)</value>
+		<value column="Name" original="Shipment (Customer)">Entregas (Cliente)</value>
 		<value column="Description" original="Customer Inventory Shipments Customer Returns">Entrega de Inventario a Clientes</value>
 		<value column="Help" original="The Shipment Window defines shipments made or to be made to a customer.  They are generated from an Customer Order.  The Shipment Document will generate the Customer Invoice.">Define las entregas hechos o por hacer a un cliente. Las entregas son generadas desde una orden de un cliente. Los documentos de entrega generarán la factura del cliente.</value>
 	</row>
@@ -330,17 +330,17 @@
 	<row id="181" trl="Y">
 		<value column="Name" original="Purchase Order">Ordenes de Compra</value>
 		<value column="Description" original="Manage Purchase Orders">Administrar Ordenes de Compra</value>
-		<value column="Help" original="The Purchase Order Window defines a purchase order for an organization.  When a Purchase Order has been entered you can generate a Shipment Document or Invoice from this Purchase Order">La ventana define una orden de compra para una organización. Cuando una orden de compra ya ha sido entrada, es posible generar un documento de despacho o factura desde esta orden.</value>
+		<value column="Help" original="The Purchase Order Window defines a purchase order for an organization.  When a Purchase Order has been entered you can generate a Shipment Document or Invoice from this Purchase Order">La ventana define una orden de compra para una organización. Cuando una orden de compra ya ha sido entrada, es posible generar un documento de entrega o factura desde esta orden.</value>
 	</row>
 	<row id="183" trl="Y">
 		<value column="Name" original="Invoice (Vendor)">Facturas y CxP (Proveedor)</value>
 		<value column="Description" original="Vendor Invoice Entry">Entrar Facturas de Proveedor</value>
-		<value column="Help" original="The Vendor Invoice Window allows you to display and enter Invoices from a Vendor.  Vendor Invoices can also be generated from Purchase Orders or Delivery Receipts.">La ventana permite desplegar y entrar facturas para un proveedor. Facturas de proveedores pueden ser generadas desde una orden de compra o desde un recibo de despacho.</value>
+		<value column="Help" original="The Vendor Invoice Window allows you to display and enter Invoices from a Vendor.  Vendor Invoices can also be generated from Purchase Orders or Delivery Receipts.">La ventana permite desplegar y entrar facturas para un proveedor. Facturas de proveedores pueden ser generadas desde una orden de compra o desde un recibo de envíos.</value>
 	</row>
 	<row id="184" trl="Y">
 		<value column="Name" original="Material Receipt">Recepción de Productos</value>
-		<value column="Description" original="Vendor Shipments (Receipts)">Despachos de Proveedor (Recibos)</value>
-		<value column="Help" original="The Vendor Shipment Window defines the receipt of product or material from a Vendor.  The Shipment may be manually entered or may be generated from a Purchase Order or Vendor Invoice.">La ventana permite definir el recibo de un producto o material desde un proveedor. El despacho puede ser entrado manualmente o puede ser generado desde una orden de compra o factura de proveedor.</value>
+		<value column="Description" original="Vendor Shipments (Receipts)">Recibos de Materiales de Proveedor (Recibos)</value>
+		<value column="Help" original="The Vendor Shipment Window defines the receipt of product or material from a Vendor.  The Shipment may be manually entered or may be generated from a Purchase Order or Vendor Invoice.">La ventana permite definir el recibo de un producto o material desde un proveedor. El recibo puede ser entrado manualmente o puede ser generado desde una orden de compra o factura de proveedor.</value>
 	</row>
 	<row id="185" trl="Y">
 		<value column="Name" original="EDI Definition">Definición de EDI</value>
@@ -1240,7 +1240,7 @@ Segmentos Contables de la organización deseada, Cuentas, Productos pueden tener
 	<row id="373" trl="Y">
 		<value column="Name" original="Web Project">Proyecto Web</value>
 		<value column="Description" original="Maintain Web Project (Content Management)">Mantener proyecto web (Administración de contenido)</value>
-		<value column="Help" original="At the level of the web project you define the project itself, it's domains and media servers. Each project needs to have at least one domain and one media server.">AL nivel de el proyecto web usted define el proyecto en si mismos, sus dominios y servidores media. Cada proyecto necesita tener al menos un dominio y un servidor media.</value>
+		<value column="Help" original="At the level of the web project you define the project itself, it's domains and media servers. Each project needs to have at least one domain and one media server.">A nivel del proyecto web usted define el proyecto en si mismo, sus dominios y servidores de medios. Cada proyecto necesita tener al menos un dominio y un servidor de medios.</value>
 	</row>
 	<row id="374" trl="Y">
 		<value column="Name" original="Template">Plantilla</value>
