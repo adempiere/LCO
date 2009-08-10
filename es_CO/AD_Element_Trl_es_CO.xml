@@ -20207,7 +20207,7 @@ Note que usted puede  Sobre o Sub Asignar el Pago.Durante el procesamiento  del 
 	<row id="2835" trl="Y">
 		<value column="Name" original="Full BP Access">Acceso Total Tercero</value>
 		<value column="PrintName" original="Full BP Access">Acceso Total Tercero</value>
-		<value column="Description" original="The user/concat has full access to Business Partner information and resources">El Usuario/contacto tiene un acceso total a la información del Tercero y recursos</value>
+		<value column="Description" original="The user/contact has full access to Business Partner information and resources">El Usuario/contacto tiene un acceso total a la información del Tercero y recursos</value>
 		<value column="Help" original="If selected, the user has full access to the Business Partner (BP) information (Business Documents like Orders, Invoices - Requests) or resources (Assets, Downloads). If you deselet it, the user has no access rights unless, you explicitly grant it in tab &quot;BP Access&quot;">Si se selecciona, el usuario tiene acceso total a la información del Tercero tal como (Documento, Ordenes, Facturas, Solicitudes) o recursos (Activos, Descargas). Si no lo selecciona, el usuario no tiene ningún derecho de acceso a menos que usted lo conceda explícitamente en la pestaña "Acceso Usuario Tercero"</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -20217,7 +20217,7 @@ Note que usted puede  Sobre o Sub Asignar el Pago.Durante el procesamiento  del 
 	<row id="2836" trl="Y">
 		<value column="Name" original="User BP Access">Acceso Usuario Tercero</value>
 		<value column="PrintName" original="User BP Access">Acceso Usuario Tercero</value>
-		<value column="Description" original="User/concat access to Business Partner information and resources">Usuario/contacto acceso información Tercero y recursos</value>
+		<value column="Description" original="User/contact access to Business Partner information and resources">Usuario/contacto acceso información Tercero y recursos</value>
 		<value column="Help" original="If on User level, &quot;Full BP Access&quot; is NOT selected, you need to give access explicitly here. ">Si en Nivel de Usuario, "Acceso Total Tercero" NO es seleccionado, usted debe dar acceso explicítamente aquí.
 
 </value>

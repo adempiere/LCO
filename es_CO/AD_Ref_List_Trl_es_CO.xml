@@ -3250,7 +3250,7 @@
 		<value column="Name" original="Workflow">Flujo de trabajo</value>
 		<value column="Description" original=""/>
 	</row>
-	<row id="50024" trl="y">
+	<row id="50024" trl="Y">
 		<value column="Name" original="Import Format">Formato de importación</value>
 		<value column="Description" original="Exports Import Format">Exportar formato de importación</value>
 	</row>
