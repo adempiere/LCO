@@ -95,11 +95,17 @@ then
     cp -p -r $PATCHES_SOURCE/zkwebui/images/* $BUILD_DIR/images
 fi
 
-jar cf $ADEMPIERE_INSTALL/zkpackages_LCO$ADEMPIERE_VERSION_FILE.jar -C $BUILD_DIR .
+TODAY=`date +%Y%m%d`
+mkdir -p $ADEMPIERE_INSTALL/$TODAY
+cd $ADEMPIERE_INSTALL/$TODAY
 
-ls -l $ADEMPIERE_INSTALL/zkpackages_LCO$ADEMPIERE_VERSION_FILE.jar
+rm -rf $BUILD_DIR/WEB-INF/classes/org/compiere
 
-cp $ADEMPIERE_INSTALL/zkpackages_LCO$ADEMPIERE_VERSION_FILE.jar $ADEMPIERE_ROOT/zkpackages/LCO/lib/zkpackages_LCO.jar
+jar cf $ADEMPIERE_INSTALL/zkpackages_LCO${ADEMPIERE_VERSION_FILE}_$TODAY.jar -C $BUILD_DIR .
+
+ls -l $ADEMPIERE_INSTALL/zkpackages_LCO${ADEMPIERE_VERSION_FILE}_$TODAY.jar
+
+cp $ADEMPIERE_INSTALL/zkpackages_LCO${ADEMPIERE_VERSION_FILE}_$TODAY.jar $ADEMPIERE_ROOT/zkpackages/LCO/lib/zkpackages_LCO.jar
 
 rm -rf $TMPWEBINFLIB
 
