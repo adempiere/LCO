@@ -896,7 +896,7 @@ Antes(!) incorporando transacciones, comience la réplica funcionada al sistema 
 	<row id="304" trl="Y">
 		<value column="Name" original="Organization Type">Tipo Organización</value>
 		<value column="Description" original="Maintain Organization Types">Mantiene tipos de organización</value>
-		<value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">El tipo de la organización permite que usted categorice sus organizaciones para definir propósitos</value>
+		<value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">El tipo de organización permite que usted categorice sus organizaciones para propósitos de reportes.</value>
 	</row>
 	<row id="305" trl="Y">
 		<value column="Name" original="Scheduler">Agenda</value>

@@ -15567,8 +15567,8 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2355" trl="Y">
 		<value column="Name" original="Organization Type">Tipo de Organización</value>
 		<value column="PrintName" original="Org Type">Tipo Org.</value>
-		<value column="Description" original="Organization Type allows you to categorize your organizations">El tipo de la organización permite que usted categorice sus organizaciones.</value>
-		<value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">El tipo de la organización permite que usted categorice sus organizaciones para definir propósitos.</value>
+		<value column="Description" original="Organization Type allows you to categorize your organizations">Tipo de Organización</value>
+		<value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">El tipo de organización permite que usted categorice sus organizaciones para propósitos de reportes.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
