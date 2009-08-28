@@ -36,17 +36,17 @@ import java.math.BigDecimal;
 import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
-/** Generated Interface for LCO_TaxIdType
+/** Generated Interface for LCO_DIAN_XML_Header
  *  @author Trifon Trifonov (generated) 
  *  @version Release 3.4.2s
  */
-public interface I_LCO_TaxIdType 
+public interface I_LCO_DIAN_XML_Header 
 {
 
-    /** TableName=LCO_TaxIdType */
-    public static final String Table_Name = "LCO_TaxIdType";
+    /** TableName=LCO_DIAN_XML_Header */
+    public static final String Table_Name = "LCO_DIAN_XML_Header";
 
-    /** AD_Table_ID=1000010 */
+    /** AD_Table_ID=1000019 */
     public static final int Table_ID = MTable.getTable_ID(Table_Name);
 
     KeyNamePair Model = new KeyNamePair(Table_ID, Table_Name);
@@ -57,87 +57,61 @@ public interface I_LCO_TaxIdType
 
     /** Load Meta Data */
 
-    /** Column name Description */
-    public static final String COLUMNNAME_Description = "Description";
+    /** Column name CumulatedAmt */
+    public static final String COLUMNNAME_CumulatedAmt = "CumulatedAmt";
 
-	/** Set Description.
-	  * Optional short description of the record
+	/** Set Accumulated Amt.
+	  * Total Amount
 	  */
-	public void setDescription (String Description);
+	public void setCumulatedAmt (BigDecimal CumulatedAmt);
 
-	/** Get Description.
-	  * Optional short description of the record
+	/** Get Accumulated Amt.
+	  * Total Amount
 	  */
-	public String getDescription();
+	public BigDecimal getCumulatedAmt();
 
-    /** Column name IsDefault */
-    public static final String COLUMNNAME_IsDefault = "IsDefault";
+    /** Column name ExportXML */
+    public static final String COLUMNNAME_ExportXML = "ExportXML";
 
-	/** Set Default.
-	  * Default value
-	  */
-	public void setIsDefault (boolean IsDefault);
+	/** Set Export XML	  */
+	public void setExportXML (String ExportXML);
 
-	/** Get Default.
-	  * Default value
-	  */
-	public boolean isDefault();
+	/** Get Export XML	  */
+	public String getExportXML();
 
-    /** Column name IsDetailedNames */
-    public static final String COLUMNNAME_IsDetailedNames = "IsDetailedNames";
+    /** Column name LCO_DIAN_SendSchedule_ID */
+    public static final String COLUMNNAME_LCO_DIAN_SendSchedule_ID = "LCO_DIAN_SendSchedule_ID";
 
-	/** Set Detailed Names	  */
-	public void setIsDetailedNames (boolean IsDetailedNames);
+	/** Set DIAN Send Schedule	  */
+	public void setLCO_DIAN_SendSchedule_ID (int LCO_DIAN_SendSchedule_ID);
 
-	/** Get Detailed Names	  */
-	public boolean isDetailedNames();
+	/** Get DIAN Send Schedule	  */
+	public int getLCO_DIAN_SendSchedule_ID();
 
-    /** Column name IsDigitChecked */
-    public static final String COLUMNNAME_IsDigitChecked = "IsDigitChecked";
+    /** Column name LCO_DIAN_XML_Header_ID */
+    public static final String COLUMNNAME_LCO_DIAN_XML_Header_ID = "LCO_DIAN_XML_Header_ID";
 
-	/** Set Is Digit Checked	  */
-	public void setIsDigitChecked (boolean IsDigitChecked);
+	/** Set DIAN XML Header	  */
+	public void setLCO_DIAN_XML_Header_ID (int LCO_DIAN_XML_Header_ID);
 
-	/** Get Is Digit Checked	  */
-	public boolean isDigitChecked();
+	/** Get DIAN XML Header	  */
+	public int getLCO_DIAN_XML_Header_ID();
 
-    /** Column name IsUseTaxIdDigit */
-    public static final String COLUMNNAME_IsUseTaxIdDigit = "IsUseTaxIdDigit";
+    /** Column name RecordsQty */
+    public static final String COLUMNNAME_RecordsQty = "RecordsQty";
 
-	/** Set Use Tax Id Digit	  */
-	public void setIsUseTaxIdDigit (boolean IsUseTaxIdDigit);
+	/** Set RecordsQty	  */
+	public void setRecordsQty (BigDecimal RecordsQty);
 
-	/** Get Use Tax Id Digit	  */
-	public boolean isUseTaxIdDigit();
+	/** Get RecordsQty	  */
+	public BigDecimal getRecordsQty();
 
-    /** Column name LCO_TaxCodeDian */
-    public static final String COLUMNNAME_LCO_TaxCodeDian = "LCO_TaxCodeDian";
+    /** Column name Sequence */
+    public static final String COLUMNNAME_Sequence = "Sequence";
 
-	/** Set Tax Code DIAN	  */
-	public void setLCO_TaxCodeDian (String LCO_TaxCodeDian);
+	/** Set Sequence	  */
+	public void setSequence (int Sequence);
 
-	/** Get Tax Code DIAN	  */
-	public String getLCO_TaxCodeDian();
-
-    /** Column name LCO_TaxIdType_ID */
-    public static final String COLUMNNAME_LCO_TaxIdType_ID = "LCO_TaxIdType_ID";
-
-	/** Set Tax ID Type	  */
-	public void setLCO_TaxIdType_ID (int LCO_TaxIdType_ID);
-
-	/** Get Tax ID Type	  */
-	public int getLCO_TaxIdType_ID();
-
-    /** Column name Name */
-    public static final String COLUMNNAME_Name = "Name";
-
-	/** Set Name.
-	  * Alphanumeric identifier of the entity
-	  */
-	public void setName (String Name);
-
-	/** Get Name.
-	  * Alphanumeric identifier of the entity
-	  */
-	public String getName();
+	/** Get Sequence	  */
+	public int getSequence();
 }

@@ -36,17 +36,17 @@ import java.math.BigDecimal;
 import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
-/** Generated Interface for LCO_TaxIdType
+/** Generated Interface for LCO_DIAN_FieldFormat
  *  @author Trifon Trifonov (generated) 
  *  @version Release 3.4.2s
  */
-public interface I_LCO_TaxIdType 
+public interface I_LCO_DIAN_FieldFormat 
 {
 
-    /** TableName=LCO_TaxIdType */
-    public static final String Table_Name = "LCO_TaxIdType";
+    /** TableName=LCO_DIAN_FieldFormat */
+    public static final String Table_Name = "LCO_DIAN_FieldFormat";
 
-    /** AD_Table_ID=1000010 */
+    /** AD_Table_ID=1000017 */
     public static final int Table_ID = MTable.getTable_ID(Table_Name);
 
     KeyNamePair Model = new KeyNamePair(Table_ID, Table_Name);
@@ -57,76 +57,63 @@ public interface I_LCO_TaxIdType
 
     /** Load Meta Data */
 
-    /** Column name Description */
-    public static final String COLUMNNAME_Description = "Description";
+    /** Column name CalcColumnPosition */
+    public static final String COLUMNNAME_CalcColumnPosition = "CalcColumnPosition";
 
-	/** Set Description.
-	  * Optional short description of the record
+	/** Set CalcColumnPosition	  */
+	public void setCalcColumnPosition (int CalcColumnPosition);
+
+	/** Get CalcColumnPosition	  */
+	public int getCalcColumnPosition();
+
+    /** Column name FieldPrintFormat */
+    public static final String COLUMNNAME_FieldPrintFormat = "FieldPrintFormat";
+
+	/** Set Field Print Format	  */
+	public void setFieldPrintFormat (String FieldPrintFormat);
+
+	/** Get Field Print Format	  */
+	public String getFieldPrintFormat();
+
+    /** Column name LCO_DIAN_FieldFormat_ID */
+    public static final String COLUMNNAME_LCO_DIAN_FieldFormat_ID = "LCO_DIAN_FieldFormat_ID";
+
+	/** Set DIAN Field Format	  */
+	public void setLCO_DIAN_FieldFormat_ID (int LCO_DIAN_FieldFormat_ID);
+
+	/** Get DIAN Field Format	  */
+	public int getLCO_DIAN_FieldFormat_ID();
+
+    /** Column name LCO_DIAN_Format_ID */
+    public static final String COLUMNNAME_LCO_DIAN_Format_ID = "LCO_DIAN_Format_ID";
+
+	/** Set DIAN Format	  */
+	public void setLCO_DIAN_Format_ID (int LCO_DIAN_Format_ID);
+
+	/** Get DIAN Format	  */
+	public int getLCO_DIAN_Format_ID();
+
+    /** Column name LCO_DIAN_XMLPrintLabel_ID */
+    public static final String COLUMNNAME_LCO_DIAN_XMLPrintLabel_ID = "LCO_DIAN_XMLPrintLabel_ID";
+
+	/** Set DIAN XML Print Label	  */
+	public void setLCO_DIAN_XMLPrintLabel_ID (int LCO_DIAN_XMLPrintLabel_ID);
+
+	/** Get DIAN XML Print Label	  */
+	public int getLCO_DIAN_XMLPrintLabel_ID();
+
+    /** Column name Line */
+    public static final String COLUMNNAME_Line = "Line";
+
+	/** Set Line No.
+	  * Unique line for this document
 	  */
-	public void setDescription (String Description);
+	public void setLine (int Line);
 
-	/** Get Description.
-	  * Optional short description of the record
+	/** Get Line No.
+	  * Unique line for this document
 	  */
-	public String getDescription();
-
-    /** Column name IsDefault */
-    public static final String COLUMNNAME_IsDefault = "IsDefault";
-
-	/** Set Default.
-	  * Default value
-	  */
-	public void setIsDefault (boolean IsDefault);
-
-	/** Get Default.
-	  * Default value
-	  */
-	public boolean isDefault();
-
-    /** Column name IsDetailedNames */
-    public static final String COLUMNNAME_IsDetailedNames = "IsDetailedNames";
-
-	/** Set Detailed Names	  */
-	public void setIsDetailedNames (boolean IsDetailedNames);
-
-	/** Get Detailed Names	  */
-	public boolean isDetailedNames();
-
-    /** Column name IsDigitChecked */
-    public static final String COLUMNNAME_IsDigitChecked = "IsDigitChecked";
-
-	/** Set Is Digit Checked	  */
-	public void setIsDigitChecked (boolean IsDigitChecked);
-
-	/** Get Is Digit Checked	  */
-	public boolean isDigitChecked();
-
-    /** Column name IsUseTaxIdDigit */
-    public static final String COLUMNNAME_IsUseTaxIdDigit = "IsUseTaxIdDigit";
-
-	/** Set Use Tax Id Digit	  */
-	public void setIsUseTaxIdDigit (boolean IsUseTaxIdDigit);
-
-	/** Get Use Tax Id Digit	  */
-	public boolean isUseTaxIdDigit();
-
-    /** Column name LCO_TaxCodeDian */
-    public static final String COLUMNNAME_LCO_TaxCodeDian = "LCO_TaxCodeDian";
-
-	/** Set Tax Code DIAN	  */
-	public void setLCO_TaxCodeDian (String LCO_TaxCodeDian);
-
-	/** Get Tax Code DIAN	  */
-	public String getLCO_TaxCodeDian();
-
-    /** Column name LCO_TaxIdType_ID */
-    public static final String COLUMNNAME_LCO_TaxIdType_ID = "LCO_TaxIdType_ID";
-
-	/** Set Tax ID Type	  */
-	public void setLCO_TaxIdType_ID (int LCO_TaxIdType_ID);
-
-	/** Get Tax ID Type	  */
-	public int getLCO_TaxIdType_ID();
+	public int getLine();
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";

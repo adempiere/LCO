@@ -125,15 +125,15 @@ public class X_LCO_TaxIdType extends PO implements I_LCO_TaxIdType, I_Persistent
 		return false;
 	}
 
-	/** Set Is Detailed Names.
-		@param IsDetailedNames Is Detailed Names	  */
+	/** Set Detailed Names.
+		@param IsDetailedNames Detailed Names	  */
 	public void setIsDetailedNames (boolean IsDetailedNames)
 	{
 		set_Value (COLUMNNAME_IsDetailedNames, Boolean.valueOf(IsDetailedNames));
 	}
 
-	/** Get Is Detailed Names.
-		@return Is Detailed Names	  */
+	/** Get Detailed Names.
+		@return Detailed Names	  */
 	public boolean isDetailedNames () 
 	{
 		Object oo = get_Value(COLUMNNAME_IsDetailedNames);
@@ -168,17 +168,14 @@ public class X_LCO_TaxIdType extends PO implements I_LCO_TaxIdType, I_Persistent
 	}
 
 	/** Set Use Tax Id Digit.
-		@param IsUseTaxIdDigit 
-		N
-	  */
+		@param IsUseTaxIdDigit Use Tax Id Digit	  */
 	public void setIsUseTaxIdDigit (boolean IsUseTaxIdDigit)
 	{
 		set_Value (COLUMNNAME_IsUseTaxIdDigit, Boolean.valueOf(IsUseTaxIdDigit));
 	}
 
 	/** Get Use Tax Id Digit.
-		@return N
-	  */
+		@return Use Tax Id Digit	  */
 	public boolean isUseTaxIdDigit () 
 	{
 		Object oo = get_Value(COLUMNNAME_IsUseTaxIdDigit);

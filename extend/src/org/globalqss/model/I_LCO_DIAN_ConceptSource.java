@@ -36,17 +36,17 @@ import java.math.BigDecimal;
 import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
-/** Generated Interface for LCO_TaxIdType
+/** Generated Interface for LCO_DIAN_ConceptSource
  *  @author Trifon Trifonov (generated) 
  *  @version Release 3.4.2s
  */
-public interface I_LCO_TaxIdType 
+public interface I_LCO_DIAN_ConceptSource 
 {
 
-    /** TableName=LCO_TaxIdType */
-    public static final String Table_Name = "LCO_TaxIdType";
+    /** TableName=LCO_DIAN_ConceptSource */
+    public static final String Table_Name = "LCO_DIAN_ConceptSource";
 
-    /** AD_Table_ID=1000010 */
+    /** AD_Table_ID=1000018 */
     public static final int Table_ID = MTable.getTable_ID(Table_Name);
 
     KeyNamePair Model = new KeyNamePair(Table_ID, Table_Name);
@@ -57,87 +57,71 @@ public interface I_LCO_TaxIdType
 
     /** Load Meta Data */
 
-    /** Column name Description */
-    public static final String COLUMNNAME_Description = "Description";
+    /** Column name CalcColumnPosition */
+    public static final String COLUMNNAME_CalcColumnPosition = "CalcColumnPosition";
 
-	/** Set Description.
-	  * Optional short description of the record
+	/** Set CalcColumnPosition	  */
+	public void setCalcColumnPosition (int CalcColumnPosition);
+
+	/** Get CalcColumnPosition	  */
+	public int getCalcColumnPosition();
+
+    /** Column name C_ElementValue_ID */
+    public static final String COLUMNNAME_C_ElementValue_ID = "C_ElementValue_ID";
+
+	/** Set Account Element.
+	  * Account Element
 	  */
-	public void setDescription (String Description);
+	public void setC_ElementValue_ID (int C_ElementValue_ID);
 
-	/** Get Description.
-	  * Optional short description of the record
+	/** Get Account Element.
+	  * Account Element
 	  */
-	public String getDescription();
+	public int getC_ElementValue_ID();
 
-    /** Column name IsDefault */
-    public static final String COLUMNNAME_IsDefault = "IsDefault";
+	public I_C_ElementValue getC_ElementValue() throws Exception;
 
-	/** Set Default.
-	  * Default value
+    /** Column name FieldExpression */
+    public static final String COLUMNNAME_FieldExpression = "FieldExpression";
+
+	/** Set Field Expression	  */
+	public void setFieldExpression (String FieldExpression);
+
+	/** Get Field Expression	  */
+	public String getFieldExpression();
+
+    /** Column name GL_Category_ID */
+    public static final String COLUMNNAME_GL_Category_ID = "GL_Category_ID";
+
+	/** Set GL Category.
+	  * General Ledger Category
 	  */
-	public void setIsDefault (boolean IsDefault);
+	public void setGL_Category_ID (int GL_Category_ID);
 
-	/** Get Default.
-	  * Default value
+	/** Get GL Category.
+	  * General Ledger Category
 	  */
-	public boolean isDefault();
+	public int getGL_Category_ID();
 
-    /** Column name IsDetailedNames */
-    public static final String COLUMNNAME_IsDetailedNames = "IsDetailedNames";
+	public I_GL_Category getGL_Category() throws Exception;
 
-	/** Set Detailed Names	  */
-	public void setIsDetailedNames (boolean IsDetailedNames);
+    /** Column name LCO_DIAN_Concept_ID */
+    public static final String COLUMNNAME_LCO_DIAN_Concept_ID = "LCO_DIAN_Concept_ID";
 
-	/** Get Detailed Names	  */
-	public boolean isDetailedNames();
+	/** Set DIAN Concept	  */
+	public void setLCO_DIAN_Concept_ID (int LCO_DIAN_Concept_ID);
 
-    /** Column name IsDigitChecked */
-    public static final String COLUMNNAME_IsDigitChecked = "IsDigitChecked";
+	/** Get DIAN Concept	  */
+	public int getLCO_DIAN_Concept_ID();
 
-	/** Set Is Digit Checked	  */
-	public void setIsDigitChecked (boolean IsDigitChecked);
+	public org.globalqss.model.I_LCO_DIAN_Concept getLCO_DIAN_Concept() throws Exception;
 
-	/** Get Is Digit Checked	  */
-	public boolean isDigitChecked();
+    /** Column name LCO_DIAN_ConceptSource_ID */
+    public static final String COLUMNNAME_LCO_DIAN_ConceptSource_ID = "LCO_DIAN_ConceptSource_ID";
 
-    /** Column name IsUseTaxIdDigit */
-    public static final String COLUMNNAME_IsUseTaxIdDigit = "IsUseTaxIdDigit";
+	/** Set DIAN Concept Source	  */
+	public void setLCO_DIAN_ConceptSource_ID (int LCO_DIAN_ConceptSource_ID);
 
-	/** Set Use Tax Id Digit	  */
-	public void setIsUseTaxIdDigit (boolean IsUseTaxIdDigit);
-
-	/** Get Use Tax Id Digit	  */
-	public boolean isUseTaxIdDigit();
-
-    /** Column name LCO_TaxCodeDian */
-    public static final String COLUMNNAME_LCO_TaxCodeDian = "LCO_TaxCodeDian";
-
-	/** Set Tax Code DIAN	  */
-	public void setLCO_TaxCodeDian (String LCO_TaxCodeDian);
-
-	/** Get Tax Code DIAN	  */
-	public String getLCO_TaxCodeDian();
-
-    /** Column name LCO_TaxIdType_ID */
-    public static final String COLUMNNAME_LCO_TaxIdType_ID = "LCO_TaxIdType_ID";
-
-	/** Set Tax ID Type	  */
-	public void setLCO_TaxIdType_ID (int LCO_TaxIdType_ID);
-
-	/** Get Tax ID Type	  */
-	public int getLCO_TaxIdType_ID();
-
-    /** Column name Name */
-    public static final String COLUMNNAME_Name = "Name";
-
-	/** Set Name.
-	  * Alphanumeric identifier of the entity
-	  */
-	public void setName (String Name);
-
-	/** Get Name.
-	  * Alphanumeric identifier of the entity
-	  */
-	public String getName();
+	/** Get DIAN Concept Source	  */
+	public int getLCO_DIAN_ConceptSource_ID();
 }

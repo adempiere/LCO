@@ -36,17 +36,17 @@ import java.math.BigDecimal;
 import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
-/** Generated Interface for LCO_TaxIdType
+/** Generated Interface for LCO_Conversion
  *  @author Trifon Trifonov (generated) 
  *  @version Release 3.4.2s
  */
-public interface I_LCO_TaxIdType 
+public interface I_LCO_Conversion 
 {
 
-    /** TableName=LCO_TaxIdType */
-    public static final String Table_Name = "LCO_TaxIdType";
+    /** TableName=LCO_Conversion */
+    public static final String Table_Name = "LCO_Conversion";
 
-    /** AD_Table_ID=1000010 */
+    /** AD_Table_ID=1000020 */
     public static final int Table_ID = MTable.getTable_ID(Table_Name);
 
     KeyNamePair Model = new KeyNamePair(Table_ID, Table_Name);
@@ -57,76 +57,44 @@ public interface I_LCO_TaxIdType
 
     /** Load Meta Data */
 
-    /** Column name Description */
-    public static final String COLUMNNAME_Description = "Description";
+    /** Column name AD_Column_ID */
+    public static final String COLUMNNAME_AD_Column_ID = "AD_Column_ID";
 
-	/** Set Description.
-	  * Optional short description of the record
+	/** Set Column.
+	  * Column in the table
 	  */
-	public void setDescription (String Description);
+	public void setAD_Column_ID (int AD_Column_ID);
 
-	/** Get Description.
-	  * Optional short description of the record
+	/** Get Column.
+	  * Column in the table
 	  */
-	public String getDescription();
+	public int getAD_Column_ID();
 
-    /** Column name IsDefault */
-    public static final String COLUMNNAME_IsDefault = "IsDefault";
+	public I_AD_Column getAD_Column() throws Exception;
 
-	/** Set Default.
-	  * Default value
+    /** Column name AD_Table_ID */
+    public static final String COLUMNNAME_AD_Table_ID = "AD_Table_ID";
+
+	/** Set Table.
+	  * Database Table information
 	  */
-	public void setIsDefault (boolean IsDefault);
+	public void setAD_Table_ID (int AD_Table_ID);
 
-	/** Get Default.
-	  * Default value
+	/** Get Table.
+	  * Database Table information
 	  */
-	public boolean isDefault();
+	public int getAD_Table_ID();
 
-    /** Column name IsDetailedNames */
-    public static final String COLUMNNAME_IsDetailedNames = "IsDetailedNames";
+	public I_AD_Table getAD_Table() throws Exception;
 
-	/** Set Detailed Names	  */
-	public void setIsDetailedNames (boolean IsDetailedNames);
+    /** Column name LCO_Conversion_ID */
+    public static final String COLUMNNAME_LCO_Conversion_ID = "LCO_Conversion_ID";
 
-	/** Get Detailed Names	  */
-	public boolean isDetailedNames();
+	/** Set LCO_Conversion	  */
+	public void setLCO_Conversion_ID (int LCO_Conversion_ID);
 
-    /** Column name IsDigitChecked */
-    public static final String COLUMNNAME_IsDigitChecked = "IsDigitChecked";
-
-	/** Set Is Digit Checked	  */
-	public void setIsDigitChecked (boolean IsDigitChecked);
-
-	/** Get Is Digit Checked	  */
-	public boolean isDigitChecked();
-
-    /** Column name IsUseTaxIdDigit */
-    public static final String COLUMNNAME_IsUseTaxIdDigit = "IsUseTaxIdDigit";
-
-	/** Set Use Tax Id Digit	  */
-	public void setIsUseTaxIdDigit (boolean IsUseTaxIdDigit);
-
-	/** Get Use Tax Id Digit	  */
-	public boolean isUseTaxIdDigit();
-
-    /** Column name LCO_TaxCodeDian */
-    public static final String COLUMNNAME_LCO_TaxCodeDian = "LCO_TaxCodeDian";
-
-	/** Set Tax Code DIAN	  */
-	public void setLCO_TaxCodeDian (String LCO_TaxCodeDian);
-
-	/** Get Tax Code DIAN	  */
-	public String getLCO_TaxCodeDian();
-
-    /** Column name LCO_TaxIdType_ID */
-    public static final String COLUMNNAME_LCO_TaxIdType_ID = "LCO_TaxIdType_ID";
-
-	/** Set Tax ID Type	  */
-	public void setLCO_TaxIdType_ID (int LCO_TaxIdType_ID);
-
-	/** Get Tax ID Type	  */
-	public int getLCO_TaxIdType_ID();
+	/** Get LCO_Conversion	  */
+	public int getLCO_Conversion_ID();
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";
@@ -140,4 +108,17 @@ public interface I_LCO_TaxIdType
 	  * Alphanumeric identifier of the entity
 	  */
 	public String getName();
+
+    /** Column name Value */
+    public static final String COLUMNNAME_Value = "Value";
+
+	/** Set Search Key.
+	  * Search key for the record in the format required - must be unique
+	  */
+	public void setValue (String Value);
+
+	/** Get Search Key.
+	  * Search key for the record in the format required - must be unique
+	  */
+	public String getValue();
 }

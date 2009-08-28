@@ -36,17 +36,17 @@ import java.math.BigDecimal;
 import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
-/** Generated Interface for LCO_TaxIdType
+/** Generated Interface for LCO_DIAN_Concept
  *  @author Trifon Trifonov (generated) 
  *  @version Release 3.4.2s
  */
-public interface I_LCO_TaxIdType 
+public interface I_LCO_DIAN_Concept 
 {
 
-    /** TableName=LCO_TaxIdType */
-    public static final String Table_Name = "LCO_TaxIdType";
+    /** TableName=LCO_DIAN_Concept */
+    public static final String Table_Name = "LCO_DIAN_Concept";
 
-    /** AD_Table_ID=1000010 */
+    /** AD_Table_ID=1000012 */
     public static final int Table_ID = MTable.getTable_ID(Table_Name);
 
     KeyNamePair Model = new KeyNamePair(Table_ID, Table_Name);
@@ -70,63 +70,14 @@ public interface I_LCO_TaxIdType
 	  */
 	public String getDescription();
 
-    /** Column name IsDefault */
-    public static final String COLUMNNAME_IsDefault = "IsDefault";
+    /** Column name LCO_DIAN_Concept_ID */
+    public static final String COLUMNNAME_LCO_DIAN_Concept_ID = "LCO_DIAN_Concept_ID";
 
-	/** Set Default.
-	  * Default value
-	  */
-	public void setIsDefault (boolean IsDefault);
+	/** Set DIAN Concept	  */
+	public void setLCO_DIAN_Concept_ID (int LCO_DIAN_Concept_ID);
 
-	/** Get Default.
-	  * Default value
-	  */
-	public boolean isDefault();
-
-    /** Column name IsDetailedNames */
-    public static final String COLUMNNAME_IsDetailedNames = "IsDetailedNames";
-
-	/** Set Detailed Names	  */
-	public void setIsDetailedNames (boolean IsDetailedNames);
-
-	/** Get Detailed Names	  */
-	public boolean isDetailedNames();
-
-    /** Column name IsDigitChecked */
-    public static final String COLUMNNAME_IsDigitChecked = "IsDigitChecked";
-
-	/** Set Is Digit Checked	  */
-	public void setIsDigitChecked (boolean IsDigitChecked);
-
-	/** Get Is Digit Checked	  */
-	public boolean isDigitChecked();
-
-    /** Column name IsUseTaxIdDigit */
-    public static final String COLUMNNAME_IsUseTaxIdDigit = "IsUseTaxIdDigit";
-
-	/** Set Use Tax Id Digit	  */
-	public void setIsUseTaxIdDigit (boolean IsUseTaxIdDigit);
-
-	/** Get Use Tax Id Digit	  */
-	public boolean isUseTaxIdDigit();
-
-    /** Column name LCO_TaxCodeDian */
-    public static final String COLUMNNAME_LCO_TaxCodeDian = "LCO_TaxCodeDian";
-
-	/** Set Tax Code DIAN	  */
-	public void setLCO_TaxCodeDian (String LCO_TaxCodeDian);
-
-	/** Get Tax Code DIAN	  */
-	public String getLCO_TaxCodeDian();
-
-    /** Column name LCO_TaxIdType_ID */
-    public static final String COLUMNNAME_LCO_TaxIdType_ID = "LCO_TaxIdType_ID";
-
-	/** Set Tax ID Type	  */
-	public void setLCO_TaxIdType_ID (int LCO_TaxIdType_ID);
-
-	/** Get Tax ID Type	  */
-	public int getLCO_TaxIdType_ID();
+	/** Get DIAN Concept	  */
+	public int getLCO_DIAN_Concept_ID();
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";
@@ -140,4 +91,30 @@ public interface I_LCO_TaxIdType
 	  * Alphanumeric identifier of the entity
 	  */
 	public String getName();
+
+    /** Column name Value */
+    public static final String COLUMNNAME_Value = "Value";
+
+	/** Set Search Key.
+	  * Search key for the record in the format required - must be unique
+	  */
+	public void setValue (String Value);
+
+	/** Get Search Key.
+	  * Search key for the record in the format required - must be unique
+	  */
+	public String getValue();
+
+    /** Column name ValueMin */
+    public static final String COLUMNNAME_ValueMin = "ValueMin";
+
+	/** Set Min. Value.
+	  * Minimum Value for a field
+	  */
+	public void setValueMin (BigDecimal ValueMin);
+
+	/** Get Min. Value.
+	  * Minimum Value for a field
+	  */
+	public BigDecimal getValueMin();
 }

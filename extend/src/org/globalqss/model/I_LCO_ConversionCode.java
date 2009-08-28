@@ -36,17 +36,17 @@ import java.math.BigDecimal;
 import org.compiere.model.*;
 import org.compiere.util.KeyNamePair;
 
-/** Generated Interface for LCO_TaxIdType
+/** Generated Interface for LCO_ConversionCode
  *  @author Trifon Trifonov (generated) 
  *  @version Release 3.4.2s
  */
-public interface I_LCO_TaxIdType 
+public interface I_LCO_ConversionCode 
 {
 
-    /** TableName=LCO_TaxIdType */
-    public static final String Table_Name = "LCO_TaxIdType";
+    /** TableName=LCO_ConversionCode */
+    public static final String Table_Name = "LCO_ConversionCode";
 
-    /** AD_Table_ID=1000010 */
+    /** AD_Table_ID=1000021 */
     public static final int Table_ID = MTable.getTable_ID(Table_Name);
 
     KeyNamePair Model = new KeyNamePair(Table_ID, Table_Name);
@@ -57,87 +57,41 @@ public interface I_LCO_TaxIdType
 
     /** Load Meta Data */
 
-    /** Column name Description */
-    public static final String COLUMNNAME_Description = "Description";
+    /** Column name ExternalCode */
+    public static final String COLUMNNAME_ExternalCode = "ExternalCode";
 
-	/** Set Description.
-	  * Optional short description of the record
-	  */
-	public void setDescription (String Description);
+	/** Set External Code	  */
+	public void setExternalCode (String ExternalCode);
 
-	/** Get Description.
-	  * Optional short description of the record
-	  */
-	public String getDescription();
+	/** Get External Code	  */
+	public String getExternalCode();
 
-    /** Column name IsDefault */
-    public static final String COLUMNNAME_IsDefault = "IsDefault";
+    /** Column name InternalCode */
+    public static final String COLUMNNAME_InternalCode = "InternalCode";
 
-	/** Set Default.
-	  * Default value
-	  */
-	public void setIsDefault (boolean IsDefault);
+	/** Set Internal Code	  */
+	public void setInternalCode (String InternalCode);
 
-	/** Get Default.
-	  * Default value
-	  */
-	public boolean isDefault();
+	/** Get Internal Code	  */
+	public String getInternalCode();
 
-    /** Column name IsDetailedNames */
-    public static final String COLUMNNAME_IsDetailedNames = "IsDetailedNames";
+    /** Column name LCO_ConversionCode_ID */
+    public static final String COLUMNNAME_LCO_ConversionCode_ID = "LCO_ConversionCode_ID";
 
-	/** Set Detailed Names	  */
-	public void setIsDetailedNames (boolean IsDetailedNames);
+	/** Set LCO_ConversionCode	  */
+	public void setLCO_ConversionCode_ID (int LCO_ConversionCode_ID);
 
-	/** Get Detailed Names	  */
-	public boolean isDetailedNames();
+	/** Get LCO_ConversionCode	  */
+	public int getLCO_ConversionCode_ID();
 
-    /** Column name IsDigitChecked */
-    public static final String COLUMNNAME_IsDigitChecked = "IsDigitChecked";
+    /** Column name LCO_Conversion_ID */
+    public static final String COLUMNNAME_LCO_Conversion_ID = "LCO_Conversion_ID";
 
-	/** Set Is Digit Checked	  */
-	public void setIsDigitChecked (boolean IsDigitChecked);
+	/** Set LCO_Conversion	  */
+	public void setLCO_Conversion_ID (int LCO_Conversion_ID);
 
-	/** Get Is Digit Checked	  */
-	public boolean isDigitChecked();
+	/** Get LCO_Conversion	  */
+	public int getLCO_Conversion_ID();
 
-    /** Column name IsUseTaxIdDigit */
-    public static final String COLUMNNAME_IsUseTaxIdDigit = "IsUseTaxIdDigit";
-
-	/** Set Use Tax Id Digit	  */
-	public void setIsUseTaxIdDigit (boolean IsUseTaxIdDigit);
-
-	/** Get Use Tax Id Digit	  */
-	public boolean isUseTaxIdDigit();
-
-    /** Column name LCO_TaxCodeDian */
-    public static final String COLUMNNAME_LCO_TaxCodeDian = "LCO_TaxCodeDian";
-
-	/** Set Tax Code DIAN	  */
-	public void setLCO_TaxCodeDian (String LCO_TaxCodeDian);
-
-	/** Get Tax Code DIAN	  */
-	public String getLCO_TaxCodeDian();
-
-    /** Column name LCO_TaxIdType_ID */
-    public static final String COLUMNNAME_LCO_TaxIdType_ID = "LCO_TaxIdType_ID";
-
-	/** Set Tax ID Type	  */
-	public void setLCO_TaxIdType_ID (int LCO_TaxIdType_ID);
-
-	/** Get Tax ID Type	  */
-	public int getLCO_TaxIdType_ID();
-
-    /** Column name Name */
-    public static final String COLUMNNAME_Name = "Name";
-
-	/** Set Name.
-	  * Alphanumeric identifier of the entity
-	  */
-	public void setName (String Name);
-
-	/** Get Name.
-	  * Alphanumeric identifier of the entity
-	  */
-	public String getName();
+	public org.globalqss.model.I_LCO_Conversion getLCO_Conversion() throws Exception;
 }
