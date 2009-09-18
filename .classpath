@@ -4,7 +4,6 @@
 	<classpathentry kind="src" path="client/src"/>
 	<classpathentry kind="src" path="zkwebui/WEB-INF/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/patches_342"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/adempiere342"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/adempiere355a"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

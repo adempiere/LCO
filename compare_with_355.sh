@@ -1,4 +1,4 @@
-BASE=~/srcAdempiere/branches/adempiere343
+BASE=~/srcAdempiere/globalqss/branches/adempiere355a
 for SRC in `find . -name "*.java" | fgrep -v "/X_" | fgrep -v "/I_"`
 do
     if [ -s $BASE/$SRC ]
