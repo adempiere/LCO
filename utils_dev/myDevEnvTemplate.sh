@@ -46,7 +46,7 @@ fi
 
 #  Set Version
 export ADEMPIERE_VERSION=Adempiere
-export ADEMPIERE_VERSION_FILE=342s
+export ADEMPIERE_VERSION_FILE=355a
 export ADEMPIERE_VENDOR=Adempiere
 
 export CURRENTDIR=`pwd`
