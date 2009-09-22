@@ -3,17 +3,10 @@
 	CompVer="all" DataBase="2007-04-01"
 	Description="Registro de regiones, y ciudades capitales de Colombia en Adempiere."
 	creator="Quality Systems &amp; Solutions - Carlos Ruiz" creatorcontact="info@globalqss.com"
-	createddate="2007-04-23" updateddate="2009-02-25" PackOutVer="005">
+	createddate="2007-04-23" updateddate="2009-09-22" PackOutVer="005">
 	<adempieredata clientname="System">
 		<SQLStatement DBType="ALL"
 			statement="UPDATE ad_column SET isupdateable = 'Y' WHERE ad_column_id IN (866, 7057)" />
-		<dtable name="C_Country">
-			<drow name="Colombia">
-				<dcolumn name="HasRegion" class="Boolean" value="true" />
-				<dcolumn name="RegionName" class="String" value="Departamento" />
-				<dcolumn name="DisplaySequence" class="String" value="@C@, @R@" />
-			</drow>
-		</dtable>
 		<dtable name="C_Region">
 			<drow name="ANTIOQUIA">
 				<dcolumn name="Description" class="String" value="05 - ANTIOQUIA" />
