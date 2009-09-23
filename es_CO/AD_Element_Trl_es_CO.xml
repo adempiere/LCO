@@ -21979,10 +21979,10 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="3020" trl="Y">
-		<value column="Name" original="Status">Estatus</value>
-		<value column="PrintName" original="Status">Estatus</value>
-		<value column="Description" original="Status of the currently running check">Estatus del cheque que esta en trasmite actualmente.</value>
-		<value column="Help" original="Status of the currently running check">Estatus del cheque que esta en trasmite actualmente.</value>
+		<value column="Name" original="Status">Estado</value>
+		<value column="PrintName" original="Status">Estado</value>
+		<value column="Description" original="Status of the currently running check">Estado de la actual ejecución</value>
+		<value column="Help" original="Status of the currently running check">Estado de la actual ejecución</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>

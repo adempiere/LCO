@@ -3,7 +3,7 @@
 <!--<!DOCTYPE adempiereTrl PUBLIC "-//ComPiere, Inc.//DTD Adempiere Translation 1.0//EN" "http://www.adempiere.com/dtd/adempiereTrl.dtd">-->
 <adempiereTrl language="es_CO" table="AD_Process_Para">
 	<row id="227" trl="Y">
-		<value column="Name" original="Delete existing Accounting Entries">Delete existing Accounting Entries</value>
+		<value column="Name" original="Delete existing Accounting Entries">Borrar entradas existentes de contabilidad</value>
 		<value column="Description" original="The selected accounting entries will be deleted!  DANGEROUS !!!">Las entradas contables seleccionadas van a ser borradas! PELIGROSO !!!</value>
 		<value column="Help" original=""/>
 	</row>
@@ -13,9 +13,9 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="302" trl="Y">
-		<value column="Name" original="Overwrite Payment Rule">Target Payment Rule</value>
-		<value column="Description" original="Overwrite how to pay the invoice">How you pay the invoice</value>
-		<value column="Help" original="The Payment Rule indicates how the incoice will be settled - you can overwrite the value from the invoice.">The Payment Rule indicates the method of invoice payment.</value>
+		<value column="Name" original="Overwrite Payment Rule">Sobreescribir Regla de Pago</value>
+		<value column="Description" original="Overwrite how to pay the invoice">Sobreescribe como se paga la factura</value>
+		<value column="Help" original="The Payment Rule indicates how the incoice will be settled - you can overwrite the value from the invoice.">La regla de pago indica el método como la factura será pagada - puede sobreescribir el valor de la factura.</value>
 	</row>
 	<row id="315" trl="Y">
 		<value column="Name" original="From User">Desde Usuario</value>
@@ -23,12 +23,12 @@
 		<value column="Help" original="The email is sent from the user selected - otherwise it is sent from the request email address of the client">El email es enviado desde un usuario especifico - de otra manera este es enviado desde una petición de dirección de email del cliente</value>
 	</row>
 	<row id="452" trl="Y">
-		<value column="Name" original="Maintenance Mode">Maintenance Mode</value>
-		<value column="Description" original="Language Maintenance Mode">Language Maintenance Mode</value>
+		<value column="Name" original="Maintenance Mode">Modo Mantenimiento</value>
+		<value column="Description" original="Language Maintenance Mode">Modo Mantenimiento Lenguaje</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="467" trl="Y">
-		<value column="Name" original="Existing Organization">Existing Organization</value>
+		<value column="Name" original="Existing Organization">Organización Existente</value>
 		<value column="Description" original="Organizational entity within client - set to empty if you want to create a new organization">Organizational entity within client - set to empty if you want to create a new organization</value>
 		<value column="Help" original="An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.">An organization is a unit of your client or legal entity - examples are store, department. You can share data between organizations.</value>
 	</row>

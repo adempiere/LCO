@@ -68,27 +68,27 @@
 		<value column="Description" original="Check Business Partners for Request processing">Verificar Terceros para procesamiento de Solicitudes.</value>
 		<value column="Help" original="You can send EMails to businbess partners.  Make sure, that the business partners and/or the Contacts have email addresses.">Puede enviar email para los terceros. Asegúrese que los terceros y/o los contactos tienen direcciones de email.</value>
 	</row>
-	<row id="166" trl="N">
+	<row id="166" trl="Y">
 		<value column="Name" original="Tax Category">Categoría de Impuesto</value>
 		<value column="Description" original="Maintain Tax Categories">Mantener Categorías de Impuestos</value>
 		<value column="Help" original="The Tax Category Window is used to enter and maintain Tax Categories.  Each product is associated with a tax category which facilitates reacting changing tax rates.">Esta ventana se usa para definir y mantener las categorías de impuestos. Cada producto es asociado con una categoría de impuestos lo cual facilita la actualización cuando los impuestos cambian.</value>
 	</row>
-	<row id="167" trl="N">
+	<row id="167" trl="Y">
 		<value column="Name" original="Product">Producto</value>
 		<value column="Description" original="Maintain Products">Mantener Productos</value>
 		<value column="Help" original="The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.">La ventana define todos los productos usados por una organización. Estos productos incluyen aquellos vendidos a clientes; los usados para fabricar los productos que son vendidos a clientes y los productos que son comprados por una organización</value>
 	</row>
-	<row id="168" trl="N">
+	<row id="168" trl="Y">
 		<value column="Name" original="Charge">Cargo</value>
 		<value column="Description" original="Maintain Charges">Mantener Cargos</value>
 		<value column="Help" original="The Charges Window defines the different charges that may be incurred.  These can include Bank Charges, Vendor Charges and Handling Charges.">Define los diferentes cargos adicionales en que se puede incurrir en una transacción. Estos pueden incluir cargos de servicio bancario; cargos del proveedor; cargos de manejo entre otros.</value>
 	</row>
-	<row id="169" trl="N">
+	<row id="169" trl="Y">
 		<value column="Name" original="Tax Rate">Tasa de Impuesto</value>
 		<value column="Description" original="Maintain Taxes and their Rates">Mantener Impuestos y sus tasas</value>
 		<value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">La ventana permite definir los diferentes impuestos usados para cada categoría de impuestos. Por ejemplo; el impuesto de ventas debe estar definido para cada estado en el cual aplique.</value>
 	</row>
-	<row id="170" trl="N">
+	<row id="170" trl="Y">
 		<value column="Name" original="Accounting Schema">Esquema Contable</value>
 		<value column="Description" original="Maintain Accounting Schema - For changes to become effective you must re-login">Mantener esquema de contabilidad-para que los cambios aparezcan hay que salir y entrar a la aplicación de nuevo</value>
 		<value column="Help" original="The Accounting Schema Window defines an accounting method and the elements that will comprise an account structure. Create and activate elements for detailed accounting for Business Partners, Products, Locations, etc.&#10;Review and change the GL and Default accounts. The actual accounts used in transactions depend on the executing organization; Most of the information is derived from the context.">Esta ventana define un método contable y los elementos que comprenderán la estructura de cuentas. Permite crear y activar elementos para la contabilidad detallada de Socios de Negocio; Productos; Localizaciones; etc. También permite revisar y cambiar las cuentas del libro mayor y los valores predeterminados. Las cuentas que son usadas en las transacciones dependen de la organización que ejecuta la transacción.</value>
