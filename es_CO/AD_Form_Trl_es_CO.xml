@@ -131,7 +131,7 @@ La configuración de LDM es utilizada para crear dinámicamente "items-finales" 
 	<row id="53003" trl="Y">
 		<value column="Name" original="MRP Info">Info MRP</value>
 		<value column="Description" original="Show the detail of MRP calculation">Muestra el detalle del cálculo de MRP (Planificación de requerimientos de materiales)</value>
-		<value column="Help" original="Muestra el detalle del cálculo de MRP (Planificación de requerimientos de materiales)</value>
+		<value column="Help" original="Show the detail of MRP calculation">Muestra el detalle del cálculo de MRP (Planificación de requerimientos de materiales)</value>
 	</row>
 	<row id="53004" trl="Y">
 		<value column="Name" original="Planned Order Approval ">Aprobación Orden Planeada</value>
