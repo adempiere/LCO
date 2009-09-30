@@ -2928,10 +2928,10 @@ Compruebe el registro de errores y el formato del archivo Accounting*.cvs - Ning
 	</row>
 	<row id="835" trl="Y">
 		<value column="MsgText" original="Show Advanced Tabs">Mostrar pestañas avanzadas</value>
-		<value column="MsgTip" original="Show Tabs with advanced functionality like Matching, Allocation, etc.">Muestra pestañas con funciones avanzadas como cotajear, asignación, Etc.</value>
+		<value column="MsgTip" original="Show Tabs with advanced functionality like Matching, Allocation, etc.">Muestra pestañas con funciones avanzadas como asignaciones, atributos, etc.</value>
 	</row>
 	<row id="836" trl="Y">
-		<value column="MsgText" original="Request Status Timeout">Tiempo máximo Estado de la Solicitud</value>
+		<value column="MsgText" original="Request Status Timeout">Tiempo Máximo Estado Solicitud</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="837" trl="Y">
