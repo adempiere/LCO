@@ -20284,7 +20284,7 @@ Note que usted puede  Sobre o Sub Asignar el Pago.Durante el procesamiento  del 
 	<row id="2843" trl="Y">
 		<value column="Name" original="Post Immediately">Aplicar Inmediatamente</value>
 		<value column="PrintName" original="Post Immediate">Aplicar Inmediatamente</value>
-		<value column="Description" original="Post the accounting immediately for testing">Aplique la Contabilidad inmediatamente para comprobación</value>
+		<value column="Description" original="Post the accounting immediately for testing">Aplique la Contabilidad inmediatamente (para pruebas)</value>
 		<value column="Help" original="If selected, the accouning consequences are immediately generated when completing a doecument.  Otherwise the document is posted by a batch process.  You should select this only if you are testing,">Si seleccionó, las consecuencias contables son generadas inmediatamente al completar un documento. Sino el documento es aplicado mediante un proceso por lotes. Esto sólo debe ser seleccionádo si usted está comprobando.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -20294,7 +20294,7 @@ Note que usted puede  Sobre o Sub Asignar el Pago.Durante el procesamiento  del 
 	<row id="2844" trl="Y">
 		<value column="Name" original="Cost Immediately">Costo Inmediato</value>
 		<value column="PrintName" original="Cost Immediate">Costo Inmediato</value>
-		<value column="Description" original="Update Costs immediately for testing">Actualiza Costo Inmediatamente para Comprobación</value>
+		<value column="Description" original="Update Costs immediately for testing">Actualiza Costo Inmediatamente (para pruebas)</value>
 		<value column="Help" original="If selected, costs are updated immediately when a Cost Detail record is created (by matching or shipping).  Otherwise the costs are updated by batch or when the costs are needed for posting. You should select this only if you are testing,">Si se selecciona, los costos son actualizados inmediatamente cuando un registro Detalle Costo es creado (mediante asignación o entrega). Sino los costos son actualizados mediante Lote o cuando son requeridos para su aplicación. Solo deberá seleccionar esto si está comprobando.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>

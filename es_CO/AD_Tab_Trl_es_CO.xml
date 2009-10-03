@@ -3729,7 +3729,7 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original="Data Series Point to compare internal performance with (e.g. stock price, ...)">Series de Datos Puntuales para comparar desempeño interno (ej. Precio de Inventario, ...)</value>
 	</row>
 	<row id="784" trl="Y">
-		<value column="Name" original="Ratio">Relación</value>
+		ívalue column="Name" original="Ratio">Relación</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Performance Ratio">Relación de Desempeño</value>
 		<value column="Help" original="Calculation instruction set  for a performance ratio">Ajusta instrucción de cálculo para una Relación de Desempeño.
@@ -3786,10 +3786,10 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="795" trl="Y">
-		<value column="Name" original="Status Category">Caregoria de estado</value>
+		<value column="Name" original="Status Category">Categoría de Estado</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Request Status Category">Solicitud de Caregoria de estado</value>
-		<value column="Help" original="Category of Request Status enables to maintain different set of Status for different Request Categories">Categoria de solicitud de estado permite mantener diferentes conjuntos de estados para diferentes solicitudes de categorias</value>
+		<value column="Description" original="Request Status Category">Categoría de Estado de Solicitud</value>
+		<value column="Help" original="Category of Request Status enables to maintain different set of Status for different Request Categories">Categoría de solicitud de estado permite mantener conjuntos de estados para diferentes solicitudes de categorías</value>
 	</row>
 	<row id="796" trl="Y">
 		<value column="Name" original="Task Line">Línea de Tarea</value>
