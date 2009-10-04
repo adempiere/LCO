@@ -3729,7 +3729,7 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original="Data Series Point to compare internal performance with (e.g. stock price, ...)">Series de Datos Puntuales para comparar desempeño interno (ej. Precio de Inventario, ...)</value>
 	</row>
 	<row id="784" trl="Y">
-		ívalue column="Name" original="Ratio">Relación</value>
+		<value column="Name" original="Ratio">Relación</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Performance Ratio">Relación de Desempeño</value>
 		<value column="Help" original="Calculation instruction set  for a performance ratio">Ajusta instrucción de cálculo para una Relación de Desempeño.
