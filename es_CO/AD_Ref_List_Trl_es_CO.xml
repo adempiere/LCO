@@ -320,7 +320,7 @@
 	</row>
 	<row id="182" trl="Y">
 		<value column="Name" original="Void">Cancelar</value>
-		<value column="Description" original="Set all quantities to zero and complete transaction">Pone a cero las canticades y completa la transacción</value>
+		<value column="Description" original="Set all quantities to zero and complete transaction">Pone a cero las cantidades y completa la transacción</value>
 	</row>
 	<row id="183" trl="Y">
 		<value column="Name" original="Close">Cerrar</value>

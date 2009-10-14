@@ -1024,7 +1024,7 @@ Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que los 
 		<value column="Name" original="Format Field">Campo de Formato</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Format Fields">Mantener Campos de Formato</value>
-		<value column="Help" original="Define the individual field based on the table definition.  Please note that you have to make sure that a Constant has the correct  SQL data type (i.e. if it is a 'string', you need to enclose it like 'this').&#10;&lt;p&gt;Product mapping (for details see documentation):&#10;&lt;pre&gt;&#10;H_Item =&gt; Value&#10;H_ItemDesc =&gt; Name / Description&#10;H_ItemDefn =&gt; Help&#10;H_ItemType =&gt; ProductCategory&#10;H_PartnrID =&gt; Value of Business Partner&#10;H_Commodity1 =&gt; Vendor Product No&#10;H_Commodity2 =&gt; SKU&#10;H_ItemClass =&gt; Classification (A,B,C..)&#10;V_OperAmt_T_Cur =&gt; Currency&#10;V_OperAmt_T =&gt; Price &#10;&lt;/pre&gt;">Define los Campos individuales basado en la definición de la tabla. Asegúrese que una constante tenga el tipo de dato SQL correcto. (ej. Si es una cadena de texto; esta debe estar entre apóstrofes como `estos`). &lt;p&gt; Traza del Producto (Para los detalles vea la documentación): &lt;pre&gt; H_Item =&gt; Valor H_ItemDesc =&gt; Nombre / Descripción; H_ItemDefn =&gt; Help H_Item Tipo =&gt; Categoria de Producto H_PartnrID =&gt; Valor de Terceros H_Commodity1 =&gt; Vendor Product No H_Commodity2 =&gt; SKU H_ItemClass =&gt; Clasificación (A;B;C..) V_OperAmt_T_Cur =&gt; Currency V_OperAmt_T =&gt; Precio &lt;/pre&gt;</value>
+		<value column="Help" original="Define the individual field based on the table definition.  Please note that you have to make sure that a Constant has the correct  SQL data type (i.e. if it is a 'string', you need to enclose it like 'this').&#10;&lt;p&gt;Product mapping (for details see documentation):&#10;&lt;pre&gt;&#10;H_Item =&gt; Value&#10;H_ItemDesc =&gt; Name / Description&#10;H_ItemDefn =&gt; Help&#10;H_ItemType =&gt; ProductCategory&#10;H_PartnrID =&gt; Value of Business Partner&#10;H_Commodity1 =&gt; Vendor Product No&#10;H_Commodity2 =&gt; SKU&#10;H_ItemClass =&gt; Classification (A,B,C..)&#10;V_OperAmt_T_Cur =&gt; Currency&#10;V_OperAmt_T =&gt; Price &#10;&lt;/pre&gt;">Define los Campos individuales basado en la definición de la tabla. Asegúrese que una constante tenga el tipo de dato SQL correcto. (ej. Si es una cadena de texto; esta debe estar entre apóstrofes como `estos`). &lt;p&gt; Traza del Producto (Para los detalles vea la documentación): &lt;pre&gt; H_Item =&gt; Valor H_ItemDesc =&gt; Nombre / Descripción; H_ItemDefn =&gt; Help H_Item Tipo =&gt; Categoría de Producto H_PartnrID =&gt; Valor de Terceros H_Commodity1 =&gt; Vendor Product No H_Commodity2 =&gt; SKU H_ItemClass =&gt; Clasificación (A;B;C..) V_OperAmt_T_Cur =&gt; Currency V_OperAmt_T =&gt; Precio &lt;/pre&gt;</value>
 	</row>
 	<row id="317" trl="Y">
 		<value column="Name" original="Bill of Materials">Lista de Materiales</value>
@@ -1726,7 +1726,7 @@ Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 		<value column="Name" original="Import Product">Importar Productos</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Import Products">Importar Productos</value>
-		<value column="Help" original="Before importing, Adempiere checks the Unit of Measure (default if not set), the Product Category (default if not set), the Business Partner, the Currency (defaults to accounting currency if not set), the Product Type (only Items and Services), the uniqueness of UPC, Key and uniqueness and existence of the Vendor Product No.&lt;br&gt;&#10;Adempiere tries to map to existing products, if the UPC, the Key and the Vendor Product No matches (in this sequence). If the imported record could be matched, product field values will only be overwritten, if the corresponding  Import field is explicitly defined.  Example: the Product Category will only be overwritten if explicitly set in the Import.">Antes de importar, Adempiere comprueba la unidad de la medida (por default si no es fijado), La categoria del producto (por default si no es fijado), El tercero, la moneda (Por default la moneda de la contabilidad si no es fijada), El tipo de producto (solamente artículos y servicios), la unicidad de UPC, llave y existencia del No. de producto.&lt;br&gt;
+		<value column="Help" original="Before importing, Adempiere checks the Unit of Measure (default if not set), the Product Category (default if not set), the Business Partner, the Currency (defaults to accounting currency if not set), the Product Type (only Items and Services), the uniqueness of UPC, Key and uniqueness and existence of the Vendor Product No.&lt;br&gt;&#10;Adempiere tries to map to existing products, if the UPC, the Key and the Vendor Product No matches (in this sequence). If the imported record could be matched, product field values will only be overwritten, if the corresponding  Import field is explicitly defined.  Example: the Product Category will only be overwritten if explicitly set in the Import.">Antes de importar, Adempiere comprueba la unidad de la medida (por default si no es fijado), La categoría del producto (por default si no es fijado), El tercero, la moneda (Por default la moneda de la contabilidad si no es fijada), El tipo de producto (solamente artículos y servicios), la unicidad de UPC, llave y existencia del No. de producto.&lt;br&gt;
 Adempiere intenta asignar a productos existentes, si el UPC, La llave y el proveedor del producto no coinciden (en esta secuencia). Si el registro importado pudo ser asignado, los valores del campo del producto serán sobreescritos solamente, si el campo correspondiente de la importación se define explícitamente. Ejemplo: la categoría del producto será sobreescrita solamente si está fijada explícitamente en la importación.</value>
 	</row>
 	<row id="443" trl="Y">
@@ -2106,7 +2106,7 @@ Un inventario físico se crea por Bodega y Fecha de Movimiento.</value>
 		<value column="Name" original="General Ledger">Libro Mayor General</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Import General Ledger">Importación del libro mayor general</value>
-		<value column="Help" original="A new Journal Batch is created, if the Batch Document No or accounting schema are different. A new Journal is created, if the Document No, Currency, Document Type, GL Category, Posting Type or Accounting type is different. You can also force the creation of a new Batch or Jornal by selecting the creat new flag.&lt;p&gt;&#10;Please note that there are three Organization Fields: The Document Organization is the owner of the document and set directly or per parameter default. The Organization is part of the accounting key and only required id no Valid Account Comination is specified; If not defined it is derived from the Document Organization. The Transaction Organization is part of the account combination.&lt;br&gt;&#10;The optional balance check applies to the entire import, not for individual batches or journals.&#10;&lt;br&gt;The document numbers will be overwritten if the document type is not set to manual sequences.">Una nueva jornada de diario es creado, si el documento de la jornada no es diferente. Una nueva jornada es creada, si el No. de documento,esquema de la contabilidad, moneda, tipo de documento, Categoria GL, Fijando el tipo o el tipo de contabilidad es diferente.&lt;p &gt;
+		<value column="Help" original="A new Journal Batch is created, if the Batch Document No or accounting schema are different. A new Journal is created, if the Document No, Currency, Document Type, GL Category, Posting Type or Accounting type is different. You can also force the creation of a new Batch or Jornal by selecting the creat new flag.&lt;p&gt;&#10;Please note that there are three Organization Fields: The Document Organization is the owner of the document and set directly or per parameter default. The Organization is part of the accounting key and only required id no Valid Account Comination is specified; If not defined it is derived from the Document Organization. The Transaction Organization is part of the account combination.&lt;br&gt;&#10;The optional balance check applies to the entire import, not for individual batches or journals.&#10;&lt;br&gt;The document numbers will be overwritten if the document type is not set to manual sequences.">Una nueva jornada de diario es creado, si el documento de la jornada no es diferente. Una nueva jornada es creada, si el No. de documento,esquema de la contabilidad, moneda, tipo de documento, Categoría GL, Fijando el tipo o el tipo de contabilidad es diferente.&lt;p &gt;
 Observe por favor que hay tres campos de la organización: La organización del documento es el dueño del documento y del sistema directamente o por default del parámetro . La organización es parte de la llave de la contabilidad y solamente se especifica la identificación requerida ninguna combinación de cuenta válida, si no esta definido se deriva de la organización del documento. La organización de la transacción es parte de la combinación de la cuenta.</value>
 	</row>
 	<row id="510" trl="Y">
@@ -2136,7 +2136,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="514" trl="Y">
 		<value column="Name" original="Freight Category">Categoría Fletes</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Category of the Freight">Categoria de Fletes</value>
+		<value column="Description" original="Category of the Freight">Categoría de Fletes</value>
 		<value column="Help" original="Freight Categories are used to calculate the Freight for the Shipper selected">Las Categorías de la Fletes se utilizan para calcular los fletes para el expedidor seleccionado</value>
 	</row>
 	<row id="515" trl="Y">
@@ -2292,8 +2292,8 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="540" trl="Y">
 		<value column="Name" original="Category Value">Valor Categoría</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="The value of the category is a keyword">El valor de la categoria es una llave de trabajo</value>
-		<value column="Help" original="The value of the category is a keyword">El valor de la categoria es una llave de trabajo</value>
+		<value column="Description" original="The value of the category is a keyword">El valor de la categoría es una llave de trabajo</value>
+		<value column="Help" original="The value of the category is a keyword">El valor de la categoría es una llave de trabajo</value>
 	</row>
 	<row id="541" trl="Y">
 		<value column="Name" original="Type">Tipo</value>
@@ -2316,8 +2316,8 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="544" trl="Y">
 		<value column="Name" original="Category">Categoría</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Knowledge Category">Categoria de Conocimiento</value>
-		<value column="Help" original="Assiged Category - Value for the Knowlede Entry">Asignación de categoria - Valor para la entrada de conocimiento</value>
+		<value column="Description" original="Knowledge Category">Categoría de Conocimiento</value>
+		<value column="Help" original="Assiged Category - Value for the Knowlede Entry">Asignación de categoría - Valor para la entrada de conocimiento</value>
 	</row>
 	<row id="545" trl="Y">
 		<value column="Name" original="Related">Relacionado</value>
@@ -2646,7 +2646,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="600" trl="Y">
 		<value column="Name" original="Type Category">Tipo Categoría</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Auction Topic Type Category">Categoria del tipo de asunto de la subasta</value>
+		<value column="Description" original="Auction Topic Type Category">Categoría del tipo de asunto de la subasta</value>
 		<value column="Help" original="For an Auction Topic Type, define the different Categories used.">Para un tipo del asunto de la subasta, defina las diversas categorías usadas.</value>
 	</row>
 	<row id="601" trl="Y">
@@ -3269,9 +3269,9 @@ También seleccionar un Recibo, Línea de Recibo o Prducto Específico para asig
 Si una LDM es referencia y permite el tipo de solicitud, una solicitud del cambio de LDM se crea automáticamente.</value>
 	</row>
 	<row id="706" trl="Y">
-		<value column="Name" original="Request Category">Categoria de Solicitud</value>
+		<value column="Name" original="Request Category">Categoría de Solicitud</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain Request Category">Mantener Solicitud de Categoria</value>
+		<value column="Description" original="Maintain Request Category">Mantener Solicitud de Categoría</value>
 		<value column="Help" original="Category or Topic of the Request ">Categoría o asunto de la solicitud</value>
 	</row>
 	<row id="707" trl="Y">
@@ -3373,9 +3373,9 @@ Indirecto: Usuarios con rol, suscriptores de las actualizaciones para la categor
 		<value column="Help" original=""/>
 	</row>
 	<row id="724" trl="Y">
-		<value column="Name" original="Position Category">Categoria de la Posición</value>
+		<value column="Name" original="Position Category">Categoría de la Posición</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain Job Position Categories">Mantener Categoria de la Posición</value>
+		<value column="Description" original="Maintain Job Position Categories">Mantener Categoría de la Posición</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="725" trl="Y">
@@ -3553,8 +3553,8 @@ Note que la información es almacenada en cache. Para que adquiera valor debe re
 		<value column="Name" original="Allocate">Pagar Varias Facturas</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Allocate Payments to Invoices">Asignación de Pagos a Facturas</value>
-		<value column="Help" original="You can directly allocate payments to invoices with the same currency when creating the Payment. &#10;Note that you can over- or under-allocate the payment.&lt;b&gt;&#10;When processing the payment, the allocation is created.&lt;b&gt;&#10;The Organization is set to the invoice organization">Usted puede asignar pagos a Facturas directamente con lamisma monéda al crear el pago.
-Note que usted puede sobe asignar o sub asignar un pago. 
+		<value column="Help" original="You can directly allocate payments to invoices with the same currency when creating the Payment. &#10;Note that you can over- or under-allocate the payment.&lt;b&gt;&#10;When processing the payment, the allocation is created.&lt;b&gt;&#10;The Organization is set to the invoice organization">Usted puede asignar pagos a Facturas directamente con la misma moneda al crear el pago.
+Note que usted puede sobre asignar o sub asignar un pago. 
 La asignación es creada al momento de procesar el pago.
 </value>
 	</row>
@@ -3846,7 +3846,7 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="807" trl="Y">
-		<value column="Name" original="Advertisement Category">Categoria de publicidad</value>
+		<value column="Name" original="Advertisement Category">Categoría de publicidad</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Defines the categories to group Ads">Define las categorias para gupos de Ads</value>
 		<value column="Help" original=""/>
@@ -3978,16 +3978,16 @@ La medida debe soportar la información, sino es ignorada.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="829" trl="Y">
-		<value column="Name" original="Ad Cat Template">Adicionar Categoria de plantilla</value>
+		<value column="Name" original="Ad Cat Template">Adicionar Categoría de plantilla</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Advertisement Category link to Template">Categoria de publicidad enlazada a una plantilla.</value>
+		<value column="Description" original="Advertisement Category link to Template">Categoría de publicidad enlazada a una plantilla.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="830" trl="Y">
-		<value column="Name" original="Template Ad Category">Plantilla de categoria de Ad</value>
+		<value column="Name" original="Template Ad Category">Plantilla de categoría de Ad</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Maintain Template Advertisement Category">Mantener plantilla de categoria de publicidad</value>
-		<value column="Help" original="Link a Template with an Advertisement Category">Enlaza a una plantilla con una categoria de publicidad</value>
+		<value column="Description" original="Maintain Template Advertisement Category">Mantener plantilla de categoría de publicidad</value>
+		<value column="Help" original="Link a Template with an Advertisement Category">Enlaza a una plantilla con una categoría de publicidad</value>
 	</row>
 	<row id="831" trl="Y">
 		<value column="Name" original="Entity Type">Tipo de entidad</value>

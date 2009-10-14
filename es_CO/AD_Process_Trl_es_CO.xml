@@ -696,7 +696,7 @@ Los costos estan en el actual esquema contable - Las líneas estan en la actual 
 		<value column="Name" original="Product Organization">Organización del Producto</value>
 		<value column="Description" original="Set and verify Organization ownership of Products">Determinado y verifique la propiedad de la organización de productos</value>
 		<value column="Help" original="The process allows you to change or verify the organization ownership of Products and its dependent entities (BOM, Substitute, Replenish, Purchasing, Business Partner Info, Costing). &lt;br&gt;&#10;Select either a Product Category ar a specific Product.">El proceso permite que usted cambie o que verifique la propiedad de la organización de productos y de sus entidades independientes. (LDM, Sustituto, Llenado, Comprado, Info de Tercero, Costos). &lt;br&gt;
-Seleccione cualquier categoria de producto o un producto en especifico.</value>
+Seleccione cualquier categoría de producto o un producto en especifico.</value>
 	</row>
 	<row id="246" trl="Y">
 		<value column="Name" original="Business Partner Organization">Organización del Tercero</value>
@@ -1101,7 +1101,7 @@ Si se selecciona una cuenta, el balance es calculado en base al  tipo de cuenta 
 	<row id="324" trl="Y">
 		<value column="Name" original="Invoice Requests">Facturar Solicitudes</value>
 		<value column="Description" original="Create Invoice for Requests">Crear factura para solicitud</value>
-		<value column="Help" original="Create invoice for Request Type with optional Request Group, Category for Business Partner.  If the used product for invoicing is not defined, the product defined in the parameter is used.">Cree la factura para el tipo de la solicitud con el grupo opcional de categoria de solicitud, para el tercero. Si el producto usado para facturar no se define, el producto definido en el parámetro se utiliza.</value>
+		<value column="Help" original="Create invoice for Request Type with optional Request Group, Category for Business Partner.  If the used product for invoicing is not defined, the product defined in the parameter is used.">Cree la factura para el tipo de la solicitud con el grupo opcional de categoría de solicitud, para el tercero. Si el producto usado para facturar no se define, el producto definido en el parámetro se utiliza.</value>
 	</row>
 	<row id="325" trl="Y">
 		<value column="Name" original="Storage Cleanup">Limpieza General de Almacenamiento</value>

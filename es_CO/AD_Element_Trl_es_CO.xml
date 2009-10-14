@@ -456,7 +456,7 @@
 		<value column="Name" original="Address 2">Dirección 2</value>
 		<value column="PrintName" original="Address 2">Dirección 2</value>
 		<value column="Description" original="Address line 2 for this location">Dirección 2 para esta ubicación</value>
-		<value column="Help" original="The Address 2 provides additional address information for an entity.  It can be used for building location, apartment number or similar information.">La Dirección 2 provee información de la dirección adicional para una entidad. Puede ser usada para integrar la ubicación; número de apartamento; o información similar</value>
+		<value column="Help" original="The Address 2 provides additional address information for an entity.  It can be used for building location, apartment number or similar information.">La Dirección 2 provee información de la dirección adicional para una entidad. Puede ser usada para integrar la ubicación, número de apartamento, o información similar</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -483,10 +483,10 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="160" trl="Y">
-		<value column="Name" original="Amount">Total</value>
-		<value column="PrintName" original="Amt">Total</value>
-		<value column="Description" original="Amount">Total límite para el envío de facturas</value>
-		<value column="Help" original="Amount">El campo total indica el límite en el que las facturas no serán generadas. Si el total total de la factura esta por debajo de este total; la factura no será enviada en esta ejecución programada. Este campo es solamente desplegado si el cuadro de verificación de total límite es seleccionado</value>
+		<value column="Name" original="Amount">Monto</value>
+		<value column="PrintName" original="Amt">Monto</value>
+		<value column="Description" original="Amount">Monto</value>
+		<value column="Help" original="Amount">Monto</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -513,30 +513,30 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="163" trl="Y">
-		<value column="Name" original="Approval Amount">Total Aprobado</value>
-		<value column="PrintName" original="Approval Amt">Total Aprobado</value>
-		<value column="Description" original="The approval amount limit for this role">Total límite aprobado para este perfil</value>
-		<value column="Help" original="The Approval Amount field indicates the amount limit this Role has for approval of documents.">El campo total aprobado indica el total límite que esta perfil tiene para aprobación de documentos</value>
+		<value column="Name" original="Approval Amount">Monto Aprobación</value>
+		<value column="PrintName" original="Approval Amt">Monto Aprobación</value>
+		<value column="Description" original="The approval amount limit for this role">Monto límite de aprobación permitido para este perfil</value>
+		<value column="Help" original="The Approval Amount field indicates the amount limit this Role has for approval of documents.">El campo monto aprobación indica el monto máximo que este perfil tiene para aprobación de documentos</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="164" trl="Y">
-		<value column="Name" original="Source Credit">Fuente de credito</value>
-		<value column="PrintName" original="Source Credit">Fuente de credito</value>
-		<value column="Description" original="Source Credit Amount">Monto de Fuente de credito</value>
-		<value column="Help" original="The Source Credit Amount indicates the credit amount for this line in the source currency.">El Total crédito fuente indica el Total de crédito para esta línea en la moneda fuente.</value>
+		<value column="Name" original="Source Credit">Crédito Fuente</value>
+		<value column="PrintName" original="Source Credit">Crédito Fuente</value>
+		<value column="Description" original="Source Credit Amount">Monto Crédito Fuente</value>
+		<value column="Help" original="The Source Credit Amount indicates the credit amount for this line in the source currency.">El monto de crédito fuente indica el valor crédito para esta línea en la moneda fuente.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="165" trl="Y">
-		<value column="Name" original="Source Debit">Fuente de Debito</value>
-		<value column="PrintName" original="Source Debit">Fuente de Debito</value>
-		<value column="Description" original="Source Debit Amount">Monto de Fuente de Debito</value>
-		<value column="Help" original="The Source Debit Amount indicates the credit amount for this line in the source currency.">El total débito fuente indica el total debito para esta línea en la moneda fuente</value>
+		<value column="Name" original="Source Debit">Débito Fuente</value>
+		<value column="PrintName" original="Source Debit">Débito Fuente</value>
+		<value column="Description" original="Source Debit Amount">Monto Débito Fuente</value>
+		<value column="Help" original="The Source Debit Amount indicates the credit amount for this line in the source currency.">El monto de débito fuente indica el valor débito para esta línea en la moneda fuente</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -4026,8 +4026,8 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="912" trl="Y">
-		<value column="Name" original="Import Error Message">Mensajes de Error al Importar</value>
-		<value column="PrintName" original="Import Error Message">Mensajes de Error al Importar</value>
+		<value column="Name" original="Import Error Message">Mensaje Error Importación</value>
+		<value column="PrintName" original="Import Error Message">Mensaje Error Importación</value>
 		<value column="Description" original="Messages generated from import process">Mensajes generados desde procesos de importación</value>
 		<value column="Help" original="The Import Error Message displays any error messages generated during the import process.">El mensaje de error de Importación despliega cualquier mensaje de error generado durante el proceso de importación.</value>
 		<value column="PO_Description" original=""/>
@@ -4036,8 +4036,8 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="913" trl="Y">
-		<value column="Name" original="Imported">Importar</value>
-		<value column="PrintName" original="Imported">Importar</value>
+		<value column="Name" original="Imported">Importado</value>
+		<value column="PrintName" original="Imported">Importado</value>
 		<value column="Description" original="Has this import been processed">Esta importación ha sido procesada</value>
 		<value column="Help" original="The Imported check box indicates if this import has been processed.">El cuadro de verificación Importado indica si esta importación ha sido procesada</value>
 		<value column="PO_Description" original=""/>
@@ -9236,9 +9236,9 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1674" trl="Y">
-		<value column="Name" original="Only Due">Sólo por vencer</value>
-		<value column="PrintName" original="Only Due">Solo Vecidas</value>
-		<value column="Description" original="Include only due invoices">Incluye solamente facturas por vencer</value>
+		<value column="Name" original="Only Due">Sólo vencidas</value>
+		<value column="PrintName" original="Only Due">Solo vencidas</value>
+		<value column="Description" original="Include only due invoices">Incluye solamente facturas que se encuentren vencidas en la fecha de pago seleccionada</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -13611,7 +13611,7 @@ La fusión significa que los datos en este sistema están sincronizados con el o
 		<value column="Name" original="Category Value">Valor de la Categoría</value>
 		<value column="PrintName" original="Value">Valor</value>
 		<value column="Description" original="The value of the category">El valor de la Categoría</value>
-		<value column="Help" original="The value of the category is a keyword">El valor de la categoria es una llave de trabajo.</value>
+		<value column="Help" original="The value of the category is a keyword">El valor de la categoría es una llave de trabajo.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -15680,7 +15680,7 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2366" trl="Y">
 		<value column="Name" original="Topic Category">Categoría del Asunto</value>
 		<value column="PrintName" original="Topic Category">Categoría del Asunto</value>
-		<value column="Description" original="Auction Topic Category">Categoria del asunto de la subasta</value>
+		<value column="Description" original="Auction Topic Category">Categoría del asunto de la subasta</value>
 		<value column="Help" original="For an Auction Topic Type, define the different Categories used.">Para un tipo de asunto de la subasta, defina las diversas categorías usadas.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -17460,20 +17460,20 @@ Si usted define una relación aquí, usted sobreescribe el tipo de documento del
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2555" trl="Y">
-		<value column="Name" original="Address 3">Barrio</value>
-		<value column="PrintName" original="Address 3">Barrio</value>
+		<value column="Name" original="Address 3">Dirección 3</value>
+		<value column="PrintName" original="Address 3">Dirección 3</value>
 		<value column="Description" original="Address Line 3 for the location">Línea dirección 3</value>
-		<value column="Help" original="The Address 2 provides additional address information for an entity.  It can be used for building location, apartment number or similar information."/>
+		<value column="Help" original="The Address 2 provides additional address information for an entity.  It can be used for building location, apartment number or similar information.">La Dirección 3 provee información de la dirección adicional para una entidad. Puede ser usada para integrar la ubicación, número de apartamento, o información similar</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2556" trl="Y">
-		<value column="Name" original="Address 4">Más Información</value>
-		<value column="PrintName" original="Address 4">Más Información</value>
+		<value column="Name" original="Address 4">Dirección 4</value>
+		<value column="PrintName" original="Address 4">Dirección 4</value>
 		<value column="Description" original="Address Line 4 for the location">Línea dirección 4</value>
-		<value column="Help" original="The Address 4 provides additional address information for an entity.  It can be used for building location, apartment number or similar information."/>
+		<value column="Help" original="The Address 4 provides additional address information for an entity.  It can be used for building location, apartment number or similar information.">La Dirección 4 provee información de la dirección adicional para una entidad. Puede ser usada para integrar la ubicación, número de apartamento, o información similar</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -18937,7 +18937,7 @@ Si el patrón del lenguaje no es correcto, porfavor cree una petición en la ayu
 		<value column="Name" original="Category">Categoría</value>
 		<value column="PrintName" original="Category">Categoría</value>
 		<value column="Description" original="Request Category">Categoría de Solicitud</value>
-		<value column="Help" original="Category or Topic of the Request ">Categoria o asunto de la solicitud</value>
+		<value column="Help" original="Category or Topic of the Request ">Categoría o asunto de la solicitud</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -20832,9 +20832,9 @@ Ejemplo: si el precio de compra es $100 y la tolerancia es 1 ( porciento), el pr
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2897" trl="Y">
-		<value column="Name" original="Include All Currencies">Incluir Todas las Monédas</value>
-		<value column="PrintName" original="All Currencies">Todas las Monédas</value>
-		<value column="Description" original="Report not just foreign currency Invoices">El Reporte no incluye Facturas en monéda extranjera</value>
+		<value column="Name" original="Include All Currencies">Incluir Todas las Monedas</value>
+		<value column="PrintName" original="All Currencies">Todas las Monedas</value>
+		<value column="Description" original="Report not just foreign currency Invoices">El Reporte no incluye Facturas en moneda extranjera</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -20842,10 +20842,10 @@ Ejemplo: si el precio de compra es $100 y la tolerancia es 1 ( porciento), el pr
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2898" trl="Y">
-		<value column="Name" original="Task Status">Estado Taréa</value>
-		<value column="PrintName" original="Task Status">Estado Taréa</value>
-		<value column="Description" original="Status of the Task">Estado de la Taréa</value>
-		<value column="Help" original="Completion Rate and Status of the Task">Valoración de la culminación y estado de la taréa.
+		<value column="Name" original="Task Status">Estado Tarea</value>
+		<value column="PrintName" original="Task Status">Estado Tarea</value>
+		<value column="Description" original="Status of the Task">Estado de la Tarea</value>
+		<value column="Help" original="Completion Rate and Status of the Task">Valoración de la culminación y estado de la tarea.
 
 </value>
 		<value column="PO_Description" original=""/>
@@ -21480,7 +21480,7 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="Name" original="Status Category">Condición de Categoría</value>
 		<value column="PrintName" original="Status Category">Condición de Categoría</value>
 		<value column="Description" original="Request Status Category">Solicitud de Condición de Categoría</value>
-		<value column="Help" original="Category of Request Status enables to maintain different set of Status for different Request Categories">Categoria del estado de solicitud permite mntener diferentes conjuntos de estados para diferentes categorias de solicitudes.</value>
+		<value column="Help" original="Category of Request Status enables to maintain different set of Status for different Request Categories">Categoría del estado de solicitud permite mntener diferentes conjuntos de estados para diferentes categorías de solicitudes.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -21779,10 +21779,10 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2996" trl="Y">
-		<value column="Name" original="Advertisement Category">Categoria de publicidad</value>
-		<value column="PrintName" original="Advertisement Category">Categoria de publicidad</value>
-		<value column="Description" original="Advertisement Category like Banner Homepage ">Categoria de publicidad como Banner Homepage</value>
-		<value column="Help" original="The advertisement category defines a container for ad's like for example all banners used on the homepage in rotation are stored in a category &quot;Banner Homepage&quot; etc.">La categoria de publicidad define un contenedor para Ad´s como por ejemplo todos los banners usados en la homepage en rotación son almacenados en categoria.</value>
+		<value column="Name" original="Advertisement Category">Categoría de publicidad</value>
+		<value column="PrintName" original="Advertisement Category">Categoría de publicidad</value>
+		<value column="Description" original="Advertisement Category like Banner Homepage ">Categoría de publicidad como Banner Homepage</value>
+		<value column="Help" original="The advertisement category defines a container for ad's like for example all banners used on the homepage in rotation are stored in a category &quot;Banner Homepage&quot; etc.">La categoría de publicidad define un contenedor para Ad´s como por ejemplo todos los banners usados en la homepage en rotación son almacenados en categoría.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -23449,8 +23449,8 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50070" trl="Y">
-		<value column="Name" original="Parent Product Category">Categoria de producto padre</value>
-		<value column="PrintName" original="Parent Product Category">Categoria de producto padre</value>
+		<value column="Name" original="Parent Product Category">Categoría de producto padre</value>
+		<value column="PrintName" original="Parent Product Category">Categoría de producto padre</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -23739,8 +23739,8 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="52017" trl="Y">
-		<value column="Name" original="Category">Categoria</value>
-		<value column="PrintName" original="Category">Categoria</value>
+		<value column="Name" original="Category">Categoría</value>
+		<value column="PrintName" original="Category">Categoría</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>

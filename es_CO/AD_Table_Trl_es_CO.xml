@@ -1806,7 +1806,7 @@
 		<value column="Name" original="Web Container">Contenedor Web</value>
 	</row>
 	<row id="856" trl="N">
-		<value column="Name" original="Advertisement Category">Categoria de publicidad</value>
+		<value column="Name" original="Advertisement Category">Categoría de publicidad</value>
 	</row>
 	<row id="857" trl="N">
 		<value column="Name" original="Media Item">Media Item</value>

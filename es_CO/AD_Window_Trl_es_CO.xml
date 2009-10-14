@@ -1099,9 +1099,9 @@ Antes(!) incorporando transacciones, comience la réplica funcionada al sistema 
 		<value column="Help" original="Maintain Product Cost Elements"/>
 	</row>
 	<row id="345" trl="Y">
-		<value column="Name" original="Request Category">Categoria de la Solicitud</value>
-		<value column="Description" original="Maintain Request Category">Mantener categoria de solicitud</value>
-		<value column="Help" original="Category or Topic of the Request ">Categoria o asunto de la solicitud</value>
+		<value column="Name" original="Request Category">Categoría de la Solicitud</value>
+		<value column="Description" original="Maintain Request Category">Mantener categoría de solicitud</value>
+		<value column="Help" original="Category or Topic of the Request ">Categoría o asunto de la solicitud</value>
 	</row>
 	<row id="346" trl="Y">
 		<value column="Name" original="Request Group">Grupo de Solicitud</value>
@@ -1134,8 +1134,8 @@ Antes(!) incorporando transacciones, comience la réplica funcionada al sistema 
 		<value column="Help" original="Maintain internal (employee) or external positions"/>
 	</row>
 	<row id="352" trl="Y">
-		<value column="Name" original="Position Category">Categoria de posición</value>
-		<value column="Description" original="Maintain Job Position Categories">Categoria de posición</value>
+		<value column="Name" original="Position Category">Categoría de posición</value>
+		<value column="Description" original="Maintain Job Position Categories">Categoría de posición</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="353" trl="Y">

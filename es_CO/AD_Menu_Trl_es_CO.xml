@@ -1575,8 +1575,8 @@
 		<value column="Description" original="Maintain Request Group">Mantener grupo de solicitud</value>
 	</row>
 	<row id="527" trl="Y">
-		<value column="Name" original="Request Category">Categoria de la Solicitud</value>
-		<value column="Description" original="Maintain Request Category">Mantener categoria de solicitud</value>
+		<value column="Name" original="Request Category">Categoría de la Solicitud</value>
+		<value column="Description" original="Maintain Request Category">Mantener categoría de solicitud</value>
 	</row>
 	<row id="528" trl="Y">
 		<value column="Name" original="Request">Solicitudes</value>
@@ -1591,8 +1591,8 @@
 		<value column="Description" original="Maintain Job Positions">Mantener posiciones.</value>
 	</row>
 	<row id="531" trl="Y">
-		<value column="Name" original="Position Category">Categoria de posición</value>
-		<value column="Description" original="Maintain Job Position Categories">Categoria de posición</value>
+		<value column="Name" original="Position Category">Categoría de posición</value>
+		<value column="Description" original="Maintain Job Position Categories">Categoría de posición</value>
 	</row>
 	<row id="532" trl="Y">
 		<value column="Name" original="Remuneration">Renumeración</value>
