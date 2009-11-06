@@ -757,6 +757,7 @@
 	<SQLStatement DBType="Oracle" statement="ALTER TABLE LCO_WithholdingRule ADD (CONSTRAINT LCOWithholdingType_LCOWHRule FOREIGN KEY (LCO_WithholdingType_ID) REFERENCES LCO_WithholdingType);"/>
 	<SQLStatement DBType="Oracle" statement="ALTER TABLE LCO_WithholdingRuleConf ADD (CONSTRAINT LCOWithholdingType_LCOWHRC FOREIGN KEY (LCO_WithholdingType_ID) REFERENCES LCO_WithholdingType);"/>
 	<SQLStatement DBType="Oracle" statement="ALTER TABLE M_Product ADD (CONSTRAINT LCOWithholdingCategory_MProduc FOREIGN KEY (LCO_WithholdingCategory_ID) REFERENCES LCO_WithholdingCategory);"/>
+	<SQLStatement DBType="Oracle" statement="ALTER TABLE LCO_WithholdingRuleConf ADD (CONSTRAINT LCO_WithholdingRuleConf_pkey PRIMARY KEY (LCO_WithholdingType_ID)); COMMIT;"/>
 	<!-- create foreign keys PostgreSQL -->
 	<SQLStatement DBType="PostgreSQL" statement="ALTER TABLE AD_OrgInfo ADD CONSTRAINT LCOISIC_ADOrgInfo FOREIGN KEY (LCO_ISIC_ID) REFERENCES LCO_ISIC; COMMIT;"/>
 	<SQLStatement DBType="PostgreSQL" statement="ALTER TABLE AD_OrgInfo ADD CONSTRAINT LCOTaxPayerType_ADOrgInfo FOREIGN KEY (LCO_TaxPayerType_ID) REFERENCES LCO_TaxPayerType; COMMIT;"/>
@@ -784,4 +785,5 @@
 	<SQLStatement DBType="PostgreSQL" statement="ALTER TABLE LCO_WithholdingRule ADD CONSTRAINT LCOWithholdingType_LCOWHRule FOREIGN KEY (LCO_WithholdingType_ID) REFERENCES LCO_WithholdingType; COMMIT;"/>
 	<SQLStatement DBType="PostgreSQL" statement="ALTER TABLE LCO_WithholdingRuleConf ADD CONSTRAINT LCOWithholdingType_LCOWHRC FOREIGN KEY (LCO_WithholdingType_ID) REFERENCES LCO_WithholdingType; COMMIT;"/>
 	<SQLStatement DBType="PostgreSQL" statement="ALTER TABLE M_Product ADD CONSTRAINT LCOWithholdingCategory_MProduc FOREIGN KEY (LCO_WithholdingCategory_ID) REFERENCES LCO_WithholdingCategory; COMMIT;"/>
+	<SQLStatement DBType="PostgreSQL" statement="ALTER TABLE LCO_WithholdingRuleConf ADD CONSTRAINT LCO_WithholdingRuleConf_pkey PRIMARY KEY (LCO_WithholdingType_ID); COMMIT;"/>
 </adempiereAD>
