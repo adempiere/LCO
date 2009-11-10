@@ -2062,7 +2062,7 @@ Detalles: </value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="612" trl="Y">
-		<value column="MsgText" original="&amp;Warehouse">&amp;Bodega</value>
+		<value column="MsgText" original="&amp;Warehouse">&amp;Almacén</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="613" trl="Y">
@@ -2645,7 +2645,7 @@ Gracias por utilizar el Administrador de Activos de Cliente de Adempiere
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="765" trl="Y">
-		<value column="MsgText" original="Warehouse Organization is not Document Organization">La organización de la bodega no es la organización del documento</value>
+		<value column="MsgText" original="Warehouse Organization is not Document Organization">La organización del almacén no es la organización del documento</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="766" trl="Y">
@@ -5181,7 +5181,7 @@ Compruebe el registro de errores y el formato del archivo Accounting*.cvs - Ning
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="53001" trl="Y">
-		<value column="MsgText" original="Item Availability in other Warehouses">Disponibilidad de artículos en otras bodegas</value>
+		<value column="MsgText" original="Item Availability in other Warehouses">Disponibilidad de artículos en otros almacenes</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="53002" trl="Y">
@@ -5287,8 +5287,8 @@ Por favor contacte al ADMINISTRADOR.</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="53027" trl="Y">
-		<value column="MsgText" original="Only from same warehouse">Sólo de la misma bodega</value>
-		<value column="MsgTip" original="Show only orders with the same warehouse as selected in the material receipt">Muestra sólo las ordenes de la misma bodega que la seleccionada en el recibo de material</value>
+		<value column="MsgText" original="Only from same warehouse">Sólo del mismo almacén</value>
+		<value column="MsgTip" original="Show only orders with the same warehouse as selected in the material receipt">Muestra sólo las ordenes del mismo almacén que el seleccionado en el recibo de material</value>
 	</row>
 	<row id="53029" trl="Y">
 		<value column="MsgText" original="Choose the date of the most recent payment that you plan to allocate, but it must be in an open accounting period or it will not post.">Elija la fecha del pago más reciente que planea asignar, debe estar un un período contable abierto o no contabilizará.</value>
@@ -5303,8 +5303,8 @@ Por favor contacte al ADMINISTRADOR.</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="53035" trl="Y">
-		<value column="MsgText" original="Do not exist Transit Warehouse to this Organization">No existe bodega tránsito para esta organización</value>
-		<value column="MsgTip" original="Do not exist Transit Warehouse to this Organization">No existe bodega tránsito para esta organización</value>
+		<value column="MsgText" original="Do not exist Transit Warehouse to this Organization">No existe almacén tránsito para esta organización</value>
+		<value column="MsgTip" original="Do not exist Transit Warehouse to this Organization">No existe almacén tránsito para esta organización</value>
 	</row>
 	<row id="53036" trl="Y">
 		<value column="MsgText" original="Org targer do not linked to BPartner">Org destino no enlazada a un Tercero</value>
@@ -5315,8 +5315,8 @@ Por favor contacte al ADMINISTRADOR.</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="53039" trl="Y">
-		<value column="MsgText" original="Do not exist default Locator for this Warehouse">No existe Ubicación por defecto en la bodega</value>
-		<value column="MsgTip" original="Do not exist default Locator for this Warehouse">No existe Ubicación por defecto en la bodega</value>
+		<value column="MsgText" original="Do not exist default Locator for this Warehouse">No existe Ubicación por defecto en el almacén</value>
+		<value column="MsgTip" original="Do not exist default Locator for this Warehouse">No existe Ubicación por defecto en el almacén</value>
 	</row>
 	<row id="53040" trl="Y">
 		<value column="MsgText" original="Do not exist Shipper for Create Distribution Order">No existe Transportista para crear orden de distribución</value>
@@ -5356,7 +5356,7 @@ Por favor contacte al ADMINISTRADOR.</value>
 	</row>
 	<row id="53051" trl="Y">
 		<value column="MsgText" original="Shipment Due">Despacho Por Vencer</value>
-		<value column="MsgTip" original="Indicates that a shipment for a Order Distribution is due.You should be taken at the source warehouse to ensure that the order is received on time.">Indica que un despacho para una orden de distribución está por vencer.  Debe tomarlo de la bodega fuente para asegurar que la orden es recibida a tiempo.</value>
+		<value column="MsgTip" original="Indicates that a shipment for a Order Distribution is due.You should be taken at the source warehouse to ensure that the order is received on time.">Indica que un despacho para una orden de distribución está por vencer.  Debe tomarlo del almacén fuente para asegurar que la orden es recibida a tiempo.</value>
 	</row>
 	<row id="53052" trl="Y">
 		<value column="MsgText" original="Shipment Past Due">Despacho Vencido</value>

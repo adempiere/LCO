@@ -2368,8 +2368,8 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 	<row id="448" trl="Y">
 		<value column="Name" original="Locator">Ubicación</value>
 		<value column="PrintName" original="Locator">Ubicación</value>
-		<value column="Description" original="Warehouse Locator">Ubicación de Bodega</value>
-		<value column="Help" original="The Locator indicates where in a Warehouse a product is located.">El ID de la ubicación indica en que parte de la bodega se localiza el producto</value>
+		<value column="Description" original="Warehouse Locator">Ubicación de Almacén</value>
+		<value column="Help" original="The Locator indicates where in a Warehouse a product is located.">El ID de la ubicación indica en que parte del almacén se localiza el producto</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -2426,10 +2426,10 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="459" trl="Y">
-		<value column="Name" original="Warehouse">Bodega</value>
-		<value column="PrintName" original="Warehouse">Bodega</value>
-		<value column="Description" original="Storage Warehouse and Service Point">Bodega de almacenamiento y punto de servicio</value>
-		<value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">La bodega identifica una bodega única donde los productos son almacenados</value>
+		<value column="Name" original="Warehouse">Almacén</value>
+		<value column="PrintName" original="Warehouse">Almacén</value>
+		<value column="Description" original="Storage Warehouse and Service Point">Almacén y punto de servicio</value>
+		<value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">El almacén identifica un punto único donde los productos son almacenados</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -4816,10 +4816,10 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1061" trl="Y">
-		<value column="Name" original="Warehouse Differences">Discrepancia en Bodega</value>
-		<value column="PrintName" original="Warehouse Differences">Discrepancia en Bodega</value>
-		<value column="Description" original="Warehouse Differences Account">Cuenta de discrepancias en bodega</value>
-		<value column="Help" original="The Warehouse Differences Account indicates the account used recording differences identified during inventory counts.">La cuenta diferencia en bodegas indica la cuenta usada para registrar las diferencias identificadas durante el conteo de inventario</value>
+		<value column="Name" original="Warehouse Differences">Diferencia en Almacén</value>
+		<value column="PrintName" original="Warehouse Differences">Diferencia en Almacén</value>
+		<value column="Description" original="Warehouse Differences Account">Cuenta de discrepancias en almacén</value>
+		<value column="Help" original="The Warehouse Differences Account indicates the account used recording differences identified during inventory counts.">La cuenta diferencia en almacén indica la cuenta usada para registrar las diferencias identificadas durante el conteo de inventario</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -11086,10 +11086,10 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1875" trl="Y">
-		<value column="Name" original="Warehouse Address">Dirección Bodega</value>
-		<value column="PrintName" original="Warehouse Address">Dirección Bodega</value>
-		<value column="Description" original="Warehouse Location/Address">Localización de la Bodega / Dirección</value>
-		<value column="Help" original="Address of Warehouse">Dirección de la Bodega</value>
+		<value column="Name" original="Warehouse Address">Dirección Almacén</value>
+		<value column="PrintName" original="Warehouse Address">Dirección Almacén</value>
+		<value column="Description" original="Warehouse Location/Address">Localización del Almacén / Dirección</value>
+		<value column="Help" original="Address of Warehouse">Dirección del Almacén</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -12386,10 +12386,10 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2012" trl="Y">
-		<value column="Name" original="Instance Attribute">Instancia del Atributo</value>
-		<value column="PrintName" original="Instance Attribute">Instancia del Atributo</value>
-		<value column="Description" original="The product attribute is specific to the instance (like Serial No, Lot or Guarantee Date)">Los atributos del producto son especificados por una instancia (como No. serie, lote o la fecha de garantía)</value>
-		<value column="Help" original="If selected, the individual instance of the product has this attribute - like the individual Serial or Lot Numbers or  Guarantee Date of a product instance.  If not selected, all instances of the product share the attribute (e.g. color=green).">Si está seleccionado, la instancia del producto tiene este atributo - como los números de serie, lote o fecha de garantía de una instancia de producto. Si no esta seleccionado, todos las instancias del producto comparten los atributos (p.ej. color = verde).</value>
+		<value column="Name" original="Instance Attribute">Atributo de Instancia</value>
+		<value column="PrintName" original="Instance Attribute">Atributo de Instancia</value>
+		<value column="Description" original="The product attribute is specific to the instance (like Serial No, Lot or Guarantee Date)">El atributo de producto es específico para una instancia(como No. serie, lote o la fecha de garantía)</value>
+		<value column="Help" original="If selected, the individual instance of the product has this attribute - like the individual Serial or Lot Numbers or  Guarantee Date of a product instance.  If not selected, all instances of the product share the attribute (e.g. color=green).">Si se selecciona, la instancia del producto tiene este atributo - como los números de serie, lote o fecha de garantía de una instancia de producto. Si no se selecciona, todos las instancias del producto comparten este atributo (p.ej. color = verde).</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -12397,18 +12397,18 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 	</row>
 	<row id="2013" trl="Y">
 		<value column="Name" original="Lot">Lote</value>
-		<value column="PrintName" original="Lot">Lote</value>
+		<value column="PrintName" original="Lote">Lote</value>
 		<value column="Description" original="The product instances have a Lot Number">Las instancias del producto tienen un número de lote.</value>
-		<value column="Help" original="For individual products, you can define Lot Numbers">Para los productos individuales, usted puede definir números de lote.</value>
+		<value column="Help" original="For individual products, you can define Lot Numbers">Para productos individuales, usted puede definir números de lote.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2014" trl="Y">
-		<value column="Name" original="Serial No">No. de Serie</value>
-		<value column="PrintName" original="Serial No">No. de Serie</value>
-		<value column="Description" original="The product instances have Serial Numbers">Los casos del producto tienen número de serie.</value>
+		<value column="Name" original="Serial No">No. Serie</value>
+		<value column="PrintName" original="Serial No">No. Serie</value>
+		<value column="Description" original="The product instances have Serial Numbers">Las instancias del producto tienen número de serie.</value>
 		<value column="Help" original="For individual products, you can define Serial Numbers">Para productos individuales, usted puede definir números de serie.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -12418,8 +12418,8 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 	<row id="2015" trl="Y">
 		<value column="Name" original="Attribute">Atributo</value>
 		<value column="PrintName" original="Attribute">Atributo</value>
-		<value column="Description" original="Product Attribute">Atributo del Producto</value>
-		<value column="Help" original="Product Attribute like Color, Size">Cualidad del producto como el color y tamaño</value>
+		<value column="Description" original="Product Attribute">Atributo de Producto</value>
+		<value column="Help" original="Product Attribute like Color, Size">Atributo del producto como color, tamaño</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -12436,9 +12436,9 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2019" trl="Y">
-		<value column="Name" original="Attribute Set Instance">Atributos del Producto</value>
-		<value column="PrintName" original="Attribute Set Instance">Atributos del Producto</value>
-		<value column="Description" original="Product Attribute Set Instance">Instancia del conjunto de atributos del producto</value>
+		<value column="Name" original="Attribute Set Instance">Instancia Conjunto de Atributos</value>
+		<value column="PrintName" original="Attribute Set Instance">Instancia Conjunto de Atributos</value>
+		<value column="Description" original="Product Attribute Set Instance">Instancia de conjunto de atributos del producto</value>
 		<value column="Help" original="The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.">Valor actual de Instancia del conjunto de atributos del producto</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -12928,10 +12928,10 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2070" trl="Y">
-		<value column="Name" original="Warehouse Key">Código Bodega</value>
-		<value column="PrintName" original="Warehouse Key">Código Bodega</value>
-		<value column="Description" original="Key of the Warehouse">Código de la bodega</value>
-		<value column="Help" original="Key to identify the Warehouse">Código para identificar la bodega</value>
+		<value column="Name" original="Warehouse Key">Código Almacén</value>
+		<value column="PrintName" original="Warehouse Key">Código Almacén</value>
+		<value column="Description" original="Key of the Warehouse">Código del Almacén</value>
+		<value column="Help" original="Key to identify the Warehouse">Código para identificar el almacén</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -13290,7 +13290,7 @@ Si no se incorpora ninguna, se utiliza la impresora por default. Usted especific
 	<row id="2109" trl="Y">
 		<value column="Name" original="Locator Key">Código Ubicación</value>
 		<value column="PrintName" original="Locator Key">Código Ubicación</value>
-		<value column="Description" original="Key of the Warehouse Locator">Código de la ubicación en la bodega</value>
+		<value column="Description" original="Key of the Warehouse Locator">Código de la ubicación en el almacén</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -14185,7 +14185,7 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="Name" original="Inventory Type">Tipo Inventario</value>
 		<value column="PrintName" original="Inventory Type">Tipo Inventario</value>
 		<value column="Description" original="Type of inventory difference">Diferencia en tipos de inventario</value>
-		<value column="Help" original="The type of inventory difference determines which account is used. The default is the Inventory Difference account defined for the warehouse.  Alternatively, you could select any charge.  This allows you to account for Internal Use or extraordinary inventory losses.">El tipo de diferencia del inventario determina qué cuenta es usada. Por defecto es la cuenta de la diferencia del inventario definida para la bodega. Alternativamente, usted podría seleccionar algún cargo. Esto permite que usted contabilice uso interno o pérdidas extraordinarias del inventario.</value>
+		<value column="Help" original="The type of inventory difference determines which account is used. The default is the Inventory Difference account defined for the warehouse.  Alternatively, you could select any charge.  This allows you to account for Internal Use or extraordinary inventory losses.">El tipo de diferencia del inventario determina qué cuenta es usada. Por defecto es la cuenta de la diferencia del inventario definida para el almacén. Alternativamente, usted podría seleccionar algún cargo. Esto permite que usted contabilice uso interno o pérdidas extraordinarias del inventario.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -14908,9 +14908,9 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2280" trl="Y">
-		<value column="Name" original="Warehouse">Bodega</value>
-		<value column="PrintName" original="Warehouse">Bodega</value>
-		<value column="Description" original="Warehouse Name">Nombre de la bodega</value>
+		<value column="Name" original="Warehouse">Almacén</value>
+		<value column="PrintName" original="Warehouse">Almacén</value>
+		<value column="Description" original="Warehouse Name">Nombre del almacén</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -19990,10 +19990,10 @@ El Contexto Web Usualmente inicia con / y debe ser un nombre de contexto válido
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2814" trl="Y">
-		<value column="Name" original="Source Warehouse">Bodega Fuente</value>
-		<value column="PrintName" original="Source Warehouse">Bodega Fuente</value>
-		<value column="Description" original="Optional Warehouse to replenish from">Bodega opcional para reabastecimiento</value>
-		<value column="Help" original="If defined, the warehouse selected is used to replenish the product(s)">Si se define, esta bodega será seleccionada para reabastecimiento de producto</value>
+		<value column="Name" original="Source Warehouse">Almacén Fuente</value>
+		<value column="PrintName" original="Source Warehouse">Almacén Fuente</value>
+		<value column="Description" original="Optional Warehouse to replenish from">Almacén opcional para reabastecimiento</value>
+		<value column="Help" original="If defined, the warehouse selected is used to replenish the product(s)">Si se define, este almacén será seleccionado para reabastecimiento de producto</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original="">n seleccionado</value>
@@ -20003,7 +20003,7 @@ El Contexto Web Usualmente inicia con / y debe ser un nombre de contexto válido
 		<value column="Name" original="Replenishment Class">Clase Reabastecimiento</value>
 		<value column="PrintName" original="Replenishment Class">Clase Reabastecimiento</value>
 		<value column="Description" original="Custom class to calculate Quantity to Order">Clase personalizada para calcular Cantidad a Ordenar</value>
-		<value column="Help" original="If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">Si selecciona un tipo de reabastecimiento personalizado, debe crear una implementación de la clase org.compiere.util.ReplenishInterface y definirlo a nivel de bodega.</value>
+		<value column="Help" original="If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">Si selecciona un tipo de reabastecimiento personalizado, debe crear una implementación de la clase org.compiere.util.ReplenishInterface y definirlo a nivel de almacén.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -20013,7 +20013,7 @@ El Contexto Web Usualmente inicia con / y debe ser un nombre de contexto válido
 		<value column="Name" original="Costing Level">Nivel de Costeo</value>
 		<value column="PrintName" original="Costing Level">Nivel de Costeo</value>
 		<value column="Description" original="The lowest level to accumulate Costing Information">El nivel mas bajo para acumular información del costeo</value>
-		<value column="Help" original="If you want to maintain different costs per organization (warehouse) or per Batch/Lot, you need to make sure that you define the costs for each of the organizations or batch/lot. The Costing Level is defined per Accounting Schema and can be overwritten by Product Category and Accounting Schema.">Si desea mantener diferentes costos por organización (Bodega) o por Lote/No de Lote, cerciórese que usted define el costo para cada organización o Lote/No de Lote. El nivel de Costeo es definido por Esquema Contable y puede ser sobreescrito mediante Categoría de Producto y Esquema Contable.</value>
+		<value column="Help" original="If you want to maintain different costs per organization (warehouse) or per Batch/Lot, you need to make sure that you define the costs for each of the organizations or batch/lot. The Costing Level is defined per Accounting Schema and can be overwritten by Product Category and Accounting Schema.">Si desea mantener diferentes costos por organización (almacén) o por Lote/No de Lote, cerciórese que usted define el costo para cada organización o Lote/No de Lote. El nivel de Costeo es definido por Esquema Contable y puede ser sobreescrito mediante Categoría de Producto y Esquema Contable.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -20305,7 +20305,7 @@ Note que usted puede  Sobre o Sub Asignar el Pago.Durante el procesamiento  del 
 		<value column="Name" original="Cost Queue">Costo de cola</value>
 		<value column="PrintName" original="Cost Queue">Costo de cola</value>
 		<value column="Description" original="FiFo/LiFo Cost Queue">PePs/UePs Costo de cola</value>
-		<value column="Help" original="Note thet the cost queue may not be the same as the physical movement cost queue due to differences in costing level and warehouse priority.">Observe que el costo de cola podria no ser el mismo que el movimiento físico, debido a las diferencias en nivel de costeo y prioridades de bodega.</value>
+		<value column="Help" original="Note thet the cost queue may not be the same as the physical movement cost queue due to differences in costing level and warehouse priority.">Observe que el costo de cola podria no ser el mismo que el movimiento físico, debido a las diferencias en nivel de costeo y prioridades de almacén.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -23279,8 +23279,8 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50049" trl="Y">
-		<value column="Name" original="Allow Info InOut">Permitir Información de Entradas/Salidas de Bodega</value>
-		<value column="PrintName" original="Allow Info InOut">Permitir Información de Entradas/Salidas de Bodega</value>
+		<value column="Name" original="Allow Info InOut">Permitir Información de Entradas/Salidas de Almacén</value>
+		<value column="PrintName" original="Allow Info InOut">Permitir Información de Entradas/Salidas de Almacén</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>

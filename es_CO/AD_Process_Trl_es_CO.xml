@@ -110,7 +110,7 @@
 	<row id="122" trl="Y">
 		<value column="Name" original="Process Movements">Procesar Movimientos</value>
 		<value column="Description" original="Process Inventory Movements">Procesar movimientos de inventario</value>
-		<value column="Help" original="Process Inventory Movements will update inventory quantities based on the defined movements between warehouses or locations.">Procesar movimientos de inventario actualizará cantidades en inventario basados en los movimientos definidos entre bodegas o localizaciones</value>
+		<value column="Help" original="Process Inventory Movements will update inventory quantities based on the defined movements between warehouses or locations.">Procesar movimientos de inventario actualizará cantidades en inventario basados en los movimientos definidos entre almacenes o localizaciones</value>
 	</row>
 	<row id="123" trl="Y">
 		<value column="Name" original="Generate Commission">Generar Comisión</value>
@@ -290,7 +290,7 @@
 	<row id="164" trl="Y">
 		<value column="Name" original="Generate Order">Generar Orden</value>
 		<value column="Description" original="Generate Order from Project">Generar orden desde un proyecto</value>
-		<value column="Help" original="The Generate Order process will generate a new Order document based on the project phase. A price list and warehouse/service point must be defined on the project.">El proceso de Generar Orden generará una nueva orden basado en el proyecto. Una lista de precios debe ser seleccionada en el proyecto. Cuando el proceso arranca una bodega debe ser seleccionada</value>
+		<value column="Help" original="The Generate Order process will generate a new Order document based on the project phase. A price list and warehouse/service point must be defined on the project.">El proceso de Generar Orden generará una nueva orden basado en el proyecto. Una lista de precios debe ser seleccionada en el proyecto. Cuando el proceso arranca un almacén debe ser seleccionado</value>
 	</row>
 	<row id="165" trl="Y">
 		<value column="Name" original="Copy Lines">Copiar De</value>
@@ -542,7 +542,7 @@ El usuario para enviar emails de necesidades para tener valida la información d
 	<row id="216" trl="Y">
 		<value column="Name" original="Generate Order">Generar Orden</value>
 		<value column="Description" original="Generate Order from Project Phase">Generar Orden desde una Fase de Proyecto</value>
-		<value column="Help" original="The Generate Order process will generate a new Order document based on the project phase or tasks. A price list and warehouse/service point must be defined on the project.  If a product is defined on phase level, the Phase information is used as the basis for the Order (milestone invoicing) - otherwise the individual tasks.">Una fase puede ser facturada completa en lugar de facturar los productos de las tareas dependientes de la fase. El Proceso generar orden generará un documento de orden nueva basada en en la fase del proyecto o las tareas. En el Proyecto debe estar definida una lista de Precios y una bodega/punto de servicio. Si se define un producto al nivel de fase, se usa la información de la fase como la base para la orden (control de facturación) - de otra manera se facturan las tareas individuales.</value>
+		<value column="Help" original="The Generate Order process will generate a new Order document based on the project phase or tasks. A price list and warehouse/service point must be defined on the project.  If a product is defined on phase level, the Phase information is used as the basis for the Order (milestone invoicing) - otherwise the individual tasks.">Una fase puede ser facturada completa en lugar de facturar los productos de las tareas dependientes de la fase. El Proceso generar orden generará un documento de orden nueva basada en en la fase del proyecto o las tareas. En el Proyecto debe estar definida una lista de Precios y un almacén/punto de servicio. Si se define un producto al nivel de fase, se usa la información de la fase como la base para la orden (control de facturación) - de otra manera se facturan las tareas individuales.</value>
 	</row>
 	<row id="217" trl="Y">
 		<value column="Name" original="Project Print">Impresión del Proyecto</value>
@@ -688,9 +688,9 @@ Los costos estan en el actual esquema contable - Las líneas estan en la actual 
 		<value column="Help" original=""/>
 	</row>
 	<row id="244" trl="Y">
-		<value column="Name" original="Warehouse Organization">Bodega de Organización</value>
-		<value column="Description" original="Set and verify Organization ownership of Warehouse">Active y verifique la propiedad de la organización sobre la bodega.</value>
-		<value column="Help" original="The process allows you to change or verify the organization ownership of a warehouse and its dependent entities (Location, Storage).">El proceso permite que usted cambie o que verifique la propiedad de la organización sobre una bodega y de sus entidades dependientes, (Localización, Almacenamiento).</value>
+		<value column="Name" original="Warehouse Organization">Almacén Organización</value>
+		<value column="Description" original="Set and verify Organization ownership of Warehouse">Active y verifique la propiedad de la organización sobre el almacén.</value>
+		<value column="Help" original="The process allows you to change or verify the organization ownership of a warehouse and its dependent entities (Location, Storage).">El proceso permite que usted cambie o que verifique la propiedad de la organización sobre un almacén y de sus entidades dependientes, (Localización, Almacenamiento).</value>
 	</row>
 	<row id="245" trl="Y">
 		<value column="Name" original="Product Organization">Organización del Producto</value>
@@ -1106,7 +1106,7 @@ Si se selecciona una cuenta, el balance es calculado en base al  tipo de cuenta 
 	<row id="325" trl="Y">
 		<value column="Name" original="Storage Cleanup">Limpieza General de Almacenamiento</value>
 		<value column="Description" original="Inventory Storage Cleanup">Limpieza General del Almacenamiento de Inventario</value>
-		<value column="Help" original="Create Inventory Movements for unbalanced Inventory Location Storage (i.e. within a warehouse move inventory to locations with negative on hand quantity).">Cree los movimientos de inventario para el almacenaje desequilibrado de la localización de inventario (ej. Dentro de una bodega el movimiento de inventario y las localizaciones de cantidad a la mano son negativas)</value>
+		<value column="Help" original="Create Inventory Movements for unbalanced Inventory Location Storage (i.e. within a warehouse move inventory to locations with negative on hand quantity).">Cree los movimientos de inventario para el almacenaje desequilibrado de la localización de inventario (ej. Dentro de un almacén el movimiento de inventario y las localizaciones de cantidad a la mano son negativas)</value>
 	</row>
 	<row id="326" trl="Y">
 		<value column="Name" original="Invoice Not Realized Gain/Loss">Factura no realizada Perdida/Aumento</value>

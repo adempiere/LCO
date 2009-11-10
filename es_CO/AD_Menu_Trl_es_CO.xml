@@ -91,8 +91,8 @@
 		<value column="Description" original="Maintain Tax Categories">Mantener Categorías de Impuestos</value>
 	</row>
 	<row id="125" trl="Y">
-		<value column="Name" original="Warehouse &amp; Locators">Bodega y Ubicaciones</value>
-		<value column="Description" original="Maintain Warehouses and Locators">Mantener Bodega y Ubicaciones</value>
+		<value column="Name" original="Warehouse &amp; Locators">Almacén y Ubicaciones</value>
+		<value column="Description" original="Maintain Warehouses and Locators">Mantener Almacén y Ubicaciones</value>
 	</row>
 	<row id="126" trl="Y">
 		<value column="Name" original="Product">Producto</value>
@@ -1155,8 +1155,8 @@
 		<value column="Description" original="Set and verify Organization ownership of Products">Determinado y verifique la propiedad de la organización de productos</value>
 	</row>
 	<row id="422" trl="Y">
-		<value column="Name" original="Warehouse Organization">Bodega de Organización</value>
-		<value column="Description" original="Set and verify Organization ownership of Warehouse">Active y verifique la propiedad de la organización sobre la bodega.</value>
+		<value column="Name" original="Warehouse Organization">Almacén Organización</value>
+		<value column="Description" original="Set and verify Organization ownership of Warehouse">Active y verifique la propiedad de la organización sobre el almacén.</value>
 	</row>
 	<row id="423" trl="Y">
 		<value column="Name" original="Load Bank Statement">Carga de Estado de cuentas</value>

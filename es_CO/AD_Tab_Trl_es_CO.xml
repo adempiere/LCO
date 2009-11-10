@@ -364,16 +364,16 @@ Debe reiniciar su servidor de aplicaciones para que la mayoría de los cambios h
 		<value column="Help" original="The Tax Category Tab is used to define and maintain Tax Categories.  Each Product is associated with a Tax Category.  This facilitates adapting to changes in taxation.">La pestaña de Categoría de Impuesto es usada para definir y mantener las categorías de impuestos. Cada producto es asociado a una categoría. Esto facilita generar cambios como resultado de cambios en los regímenes de impuestos dictados por entidades gubernamentales.</value>
 	</row>
 	<row id="177" trl="Y">
-		<value column="Name" original="Warehouse">Bodega</value>
+		<value column="Name" original="Warehouse">Almacén</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Warehouse">Bodega</value>
-		<value column="Help" original="The Warehouse Tab defines each Warehouse that is used to store products.  If a Source warehouse is selected, all product replenishment is from that warehouse.  If you use custom replenishment algorithms, you need to define the class used per warehouse.">La pestaña de bodegas define cada bodega que es usada para guardar productos.</value>
+		<value column="Description" original="Warehouse">Almacén</value>
+		<value column="Help" original="The Warehouse Tab defines each Warehouse that is used to store products.  If a Source warehouse is selected, all product replenishment is from that warehouse.  If you use custom replenishment algorithms, you need to define the class used per warehouse.">La pestaña de almacenes define cada almacén que es usado para guardar productos.</value>
 	</row>
 	<row id="178" trl="Y">
 		<value column="Name" original="Locator">Ubicación</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Locator">Ubicación</value>
-		<value column="Help" original="The Locator Tab defines any Locators for that Warehouse.">La pestaña de Ubicación define las ubicaciones de una bodega.</value>
+		<value column="Help" original="The Locator Tab defines any Locators for that Warehouse.">La pestaña de Ubicación define las ubicaciones de un almacén.</value>
 	</row>
 	<row id="179" trl="Y">
 		<value column="Name" original="Storage">Almacenamiento</value>
@@ -524,7 +524,7 @@ Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que los 
 		<value column="Name" original="Accounting">Contabilidad</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Accounting">Contabilidad</value>
-		<value column="Help" original="The Accounting Tab defines the Accounting parameters to be used for inventory in that Warehouse.">La pestaña de Contabilidad define los parámetros contables a ser usados para el inventario de esa bodega.</value>
+		<value column="Help" original="The Accounting Tab defines the Accounting parameters to be used for inventory in that Warehouse.">La pestaña de Contabilidad define los parámetros contables a ser usados para el inventario de ese almacén.</value>
 	</row>
 	<row id="210" trl="Y">
 		<value column="Name" original="Accounting">Contabilidad</value>
@@ -1955,8 +1955,8 @@ Adempiere intenta asignar a productos existentes, si el UPC, La llave y el prove
 		<value column="Name" original="Inventory">Inventario</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Import Inventory">Importar Inventario</value>
-		<value column="Help" original="Validate and Import Inventory Transactions. The Locator is primarily determined by the Locator Key, then the Warehouse and X,Y,Z fields.&lt;p&gt;&#10;A Physical Inventory is created per Warehouse and Movement Date.">Importar y validar transacciones de inventario. La ubicación es determinado sobre todo por la llave de la ubicación, luego por la bodega y los campos X,Y,Z.&lt;p &gt;
-Un inventario físico se crea por Bodega y Fecha de Movimiento.</value>
+		<value column="Help" original="Validate and Import Inventory Transactions. The Locator is primarily determined by the Locator Key, then the Warehouse and X,Y,Z fields.&lt;p&gt;&#10;A Physical Inventory is created per Warehouse and Movement Date.">Importar y validar transacciones de inventario. La ubicación es determinada sobre todo por la llave de la ubicación, luego por el almacén y los campos X,Y,Z.&lt;p &gt;
+Un inventario físico se crea por Almacén y Fecha de Movimiento.</value>
 	</row>
 	<row id="482" trl="Y">
 		<value column="Name" original="Table Access">Acceso a Tablas</value>
@@ -3502,7 +3502,7 @@ Indirecto: Usuarios con rol, suscriptores de las actualizaciones para la categor
 		<value column="Name" original="Replenish">Reabastecimiento</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Product Replenishment">Define Reabastecimiento de Producto</value>
-		<value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.  If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">La pestaña Reabastecimiento define el tipo de cantidad reabastecimiento. Esto es empleado para ordenes automatizadas. Si seleccionó tipo reabastecimiento personalizado, debe realizar una implementación de clase org.compiere.util.ReplenishInterface y fijarlo al nivel de bodega.</value>
+		<value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.  If you select a custom replenishment type, you need to create a class implementing org.compiere.util.ReplenishInterface and set that on warehouse level.">La pestaña Reabastecimiento define el tipo de cantidad reabastecimiento. Esto es empleado para ordenes automatizadas. Si seleccionó tipo reabastecimiento personalizado, debe realizar una implementación de clase org.compiere.util.ReplenishInterface y fijarla al nivel de almacén.</value>
 	</row>
 	<row id="748" trl="Y">
 		<value column="Name" original="Cost Details">Detalle de Costo</value>

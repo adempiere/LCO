@@ -133,8 +133,8 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="31" trl="Y">
-		<value column="Name" original="Locator (WH)">Ubicación (Bodega)</value>
-		<value column="Description" original="Warehouse Locator Data type">Tipo de datos de ubicación en bodega</value>
+		<value column="Name" original="Locator (WH)">Ubicación (Almacén)</value>
+		<value column="Description" original="Warehouse Locator Data type">Tipo de datos de ubicación en almacén</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="32" trl="Y">
@@ -584,7 +584,7 @@
 	</row>
 	<row id="191" trl="Y">
 		<value column="Name" original="M_Locator">M_Locator</value>
-		<value column="Description" original="Warehouse Locator">Ubicación de Bodega</value>
+		<value column="Description" original="Warehouse Locator">Ubicación Almacén</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="192" trl="Y">

@@ -168,7 +168,7 @@
 		<value column="Name" original="Account Element">Elemento Contable</value>
 	</row>
 	<row id="190" trl="Y">
-		<value column="Name" original="Warehouse">Bodega</value>
+		<value column="Name" original="Warehouse">Almacén</value>
 	</row>
 	<row id="191" trl="Y">
 		<value column="Name" original="M_Warehouse_Acct">M_Warehouse_Acct</value>

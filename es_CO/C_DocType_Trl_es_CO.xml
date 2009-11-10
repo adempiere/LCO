@@ -103,7 +103,7 @@
 		<value column="DocumentNote" original=""/>
 	</row>
 	<row id="134" trl="Y">
-		<value column="Name" original="Warehouse Order">Orden de Bodega</value>
+		<value column="Name" original="Warehouse Order">Orden de Almacén</value>
 		<value column="PrintName" original="Order Confirmation">Confirmación de orden</value>
 		<value column="DocumentNote" original=""/>
 	</row>

@@ -24,7 +24,7 @@
 		<value column="Name" original="Business Partner">Tercero</value>
 	</row>
 	<row id="108" trl="Y">
-		<value column="Name" original="Warehouse">Bodega</value>
+		<value column="Name" original="Warehouse">Almacén</value>
 	</row>
 	<row id="109" trl="Y">
 		<value column="Name" original="Bank">Banco</value>
