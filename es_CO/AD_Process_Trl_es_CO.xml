@@ -894,7 +894,7 @@ Entonces las valuaciones de todas las respuestas de cantidad se adicionan a la v
 		<value column="Help" original=""/>
 	</row>
 	<row id="283" trl="Y">
-		<value column="Name" original="Process RMA">Proceso ADM (RMA)</value>
+		<value column="Name" original="Process RMA">Proceso Autorización Devolución</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
@@ -1295,7 +1295,7 @@ y Recibi/Línea o directamente para el producto.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="52002" trl="Y">
-		<value column="Name" original="Generate Invoices for Vendor RMA">Generar Facturas para Devolución de Proveedor</value>
+		<value column="Name" original="Generate Invoices for Vendor RMA">Generar Facturas para Devolución a Proveedor</value>
 		<value column="Description" original="Generate Invoices from open vendor RMA based on selection.">Generar facturas desde devoluciones de proveedor abiertas, basado en selección.</value>
 		<value column="Help" original=""/>
 	</row>
@@ -1305,7 +1305,7 @@ y Recibi/Línea o directamente para el producto.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="53002" trl="Y">
-		<value column="Name" original="Setup Web POS">Configuración del PDV Web</value>
+		<value column="Name" original="Setup Web POS">Configuración Web POS</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
@@ -1745,18 +1745,18 @@ The Parameters are default values for null import record values they do not over
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
-	<row id="53153" trl="N">
-		<value column="Name" original="Bank Transfer">Bank Transfer</value>
-		<value column="Description" original="Bank Transfer let money tranfer between Banks"/>
+	<row id="53153" trl="Y">
+		<value column="Name" original="Bank Transfer">Transferencia Bancaria</value>
+		<value column="Description" original="Bank Transfer let money tranfer between Banks">Transferencia bancaria permite transferir dinero entre cuentas bancarias</value>
 		<value column="Help" original=""/>
 	</row>
-	<row id="53154" trl="N">
-		<value column="Name" original="HouseKeeping">HouseKeeping</value>
+	<row id="53154" trl="Y">
+		<value column="Name" original="HouseKeeping">Recorte de Información</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
-	<row id="53155" trl="N">
-		<value column="Name" original="House Keeping">House Keeping</value>
+	<row id="53155" trl="Y">
+		<value column="Name" original="House Keeping">Recorte de Información</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
@@ -1777,19 +1777,19 @@ This process should be implemented when the users are not connected.</value>
 		<value column="Description" original="Frozen or UnFrozen Cost">Frozen or UnFrozen Cost</value>
 		<value column="Help" original="Lets freeze or unfreeze the cost, If the Cost is UnFrozen then can be changed">Lets freeze or unfreeze the cost, If the Cost is UnFrozen then can be changed</value>
 	</row>
-	<row id="53161" trl="N">
-		<value column="Name" original="Initial Client Setup Process">Initial Client Setup Process</value>
+	<row id="53161" trl="Y">
+		<value column="Name" original="Initial Client Setup Process">Configuración Inicial de Cliente</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
-	<row id="53163" trl="N">
-		<value column="Name" original="Import Price Lists">Import Price Lists</value>
-		<value column="Description" original="Imports price lists from a file into the application">Imports price lists from a file into the application</value>
+	<row id="53163" trl="Y">
+		<value column="Name" original="Import Price Lists">Importar Listas de Precio</value>
+		<value column="Description" original="Imports price lists from a file into the application">Importa listas de precio desde un archivo hacia el aplicativo</value>
 		<value column="Help" original=""/>
 	</row>
-	<row id="53166" trl="N">
-		<value column="Name" original="Recalculate Fact Summary">Recalculate Fact Summary</value>
-		<value column="Description" original="Recalculate summary facts based on report cube definitions.">Recalculate summary facts based on report cube definitions.</value>
+	<row id="53166" trl="Y">
+		<value column="Name" original="Recalculate Fact Summary">Recalcular Cubo</value>
+		<value column="Description" original="Recalculate summary facts based on report cube definitions.">Recalcula el cubo basado en la definición de cubos.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="53176" trl="N">
@@ -1797,14 +1797,14 @@ This process should be implemented when the users are not connected.</value>
 		<value column="Description" original="Sales Order Transaction Report">Sales Order Transaction Report</value>
 		<value column="Help" original=""/>
 	</row>
-	<row id="53179" trl="N">
-		<value column="Name" original="Copy From Report and Process">Copy From Report and Process</value>
-		<value column="Description" original="Copy settings from one report and process to another.">Copy settings from one report and process to another.</value>
-		<value column="Help" original="Copy the settings from the selected report and process to the current one.  This overwrites existing settings and translations.">Copy the settings from the selected report and process to the current one.  This overwrites existing settings and translations.</value>
+	<row id="53179" trl="Y">
+		<value column="Name" original="Copy From Report and Process">Copiar parámetros de otro proceso o reporte</value>
+		<value column="Description" original="Copy settings from one report and process to another.">Copia los parámetros de un reporte o proceso en otro.</value>
+		<value column="Help" original="Copy the settings from the selected report and process to the current one.  This overwrites existing settings and translations.">Copia los parámetros de un reporte o proceso en otro.  Sobreescribe los parámetros actuales y traducciones.</value>
 	</row>
-	<row id="53187" trl="N">
-		<value column="Name" original="Client Accounting Processor">Client Accounting Processor</value>
-		<value column="Description" original="Client Accounting Processor">Client Accounting Processor</value>
-		<value column="Help" original="The client accounting processor allows a user to run the accounting processor in a client session.  The system configurator parameter CLIENT_ACCOUNTING must be enabled (configured as [I]mmediate or [Q]ueue).">The client accounting processor allows a user to run the accounting processor in a client session.  The system configurator parameter CLIENT_ACCOUNTING must be enabled (configured as [I]mmediate or [Q]ueue).</value>
+	<row id="53187" trl="Y">
+		<value column="Name" original="Client Accounting Processor">Procesador Contabilidad (Cliente)</value>
+		<value column="Description" original="Client Accounting Processor">Procesador Contabilidad (Cliente)</value>
+		<value column="Help" original="The client accounting processor allows a user to run the accounting processor in a client session.  The system configurator parameter CLIENT_ACCOUNTING must be enabled (configured as [I]mmediate or [Q]ueue).">El procesador de contabilidad (cliente) permite a un usuario correr el procesador contable desde la sesión del cliente.  El parámetro de configuración del sistema CLIENT_ACCOUNTING debe estar habilitado (configurado como I/Inmediato o Q/Cola).</value>
 	</row>
 </adempiereTrl>

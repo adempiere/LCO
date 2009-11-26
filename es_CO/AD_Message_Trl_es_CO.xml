@@ -3212,11 +3212,11 @@ Compruebe el registro de errores y el formato del archivo Accounting*.cvs - Ning
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="52000" trl="Y">
-		<value column="MsgText" original="Either Order or RMA can be process on this document.">Cualquier Orden RMA o proceso puede ser procesado en este documento.</value>
+		<value column="MsgText" original="Either Order or RMA can be process on this document.">Una Orden o una devolución pueden ser procesadas en este documento.</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="52001" trl="Y">
-		<value column="MsgText" original="Vendor RMA">Proveedor RMA</value>
+		<value column="MsgText" original="Vendor RMA">Devolución a Proveedor</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="52003" trl="Y">
@@ -5435,7 +5435,7 @@ Por favor contacte al ADMINISTRADOR.</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="53082" trl="Y">
-		<value column="MsgText" original="Customer RMA">Autorización Devolución Cliente</value>
+		<value column="MsgText" original="Customer RMA">Devolución Cliente</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="53083" trl="Y">

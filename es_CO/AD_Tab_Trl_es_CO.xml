@@ -1088,13 +1088,13 @@ Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que los 
 		<value column="Help" original="The Accounting Tab is used to define the accounts used for transactions with this Bank.">La pestaña Contabilidad es usada para definir las cuentas usadas para transacciones con este banco.</value>
 	</row>
 	<row id="328" trl="Y">
-		<value column="Name" original="Bank Statement">Edo. de Cuentas</value>
+		<value column="Name" original="Bank Statement">Estado Cuentas Bancario</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Bank Statement">Estado de Cuentas Bancario</value>
 		<value column="Help" original="The Bank Statement Tab defines the Bank Statement to be reconciled.">La pestaña Edo. de Cuentas define el estado de cuentas bancario que va a ser conciliado.</value>
 	</row>
 	<row id="329" trl="Y">
-		<value column="Name" original="Statement Line">Línea Edo. de Cuentas</value>
+		<value column="Name" original="Statement Line">Línea Estado Cuentas</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Statement Line">Línea del Estado de Cuentas</value>
 		<value column="Help" original="The Statement Line Tab defines the individual line items on the Bank Statement.  They can be entered manually or generated from payments entered.&#10;&lt;br&gt;For Posting, the bank account organization is used, if it is not a charge.">La pestaña Línea Edo. de Cuentas define las líneas individuales en el Estado de Cuentas bancario. Las líneas pueden ser introducidas manualmente o generadas desde entradas de pagos.</value>
@@ -2561,7 +2561,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Help" original="Indivifual values of Registration Attribute">Valores Individuales de atributos del registro</value>
 	</row>
 	<row id="586" trl="Y">
-		<value column="Name" original="Bank Statement Matcher">Conciliador de Extracto Bancario</value>
+		<value column="Name" original="Bank Statement Matcher">Conciliador de Estado Cuenta Bancario</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">Algoritmo para coincidir el estado de cuenta que es Información a los terceros, las facturas y los pagos.</value>
 		<value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements. The class need to implement the interface org.compiere.impexp.BankStatementMatcherInterface">Un algoritmo para encontrar a terceros, facturas, pagos en estados de cuenta importados. La clase debe implementar la interface org.compiere.impexp.BankStatementMatcherInterface</value>
@@ -2801,15 +2801,15 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Help" original="Link to the shipment line">Acoplamiento a la línea de envío.</value>
 	</row>
 	<row id="628" trl="Y">
-		<value column="Name" original="Customer RMA">ADM (RMA)</value>
+		<value column="Name" original="Customer RMA">Autorización Devolución Cliente</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Customer Return Material Authorization">Autorización de Devolución de Material</value>
 		<value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">Una Autorización de Devolución de Material puede ser requerida para crear notas de crédito.</value>
 	</row>
 	<row id="629" trl="Y">
-		<value column="Name" original="RMA Line">Línea ADM (RMA)</value>
+		<value column="Name" original="RMA Line">Línea Autorización Devolución Client</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Return Material Authorization Line">Línea de ADM (RMA)</value>
+		<value column="Description" original="Return Material Authorization Line">Línea Autorización Devolución Client</value>
 		<value column="Help" original="Detail information about the returned goods">Información del detalle sobre los productos devueltos.</value>
 	</row>
 	<row id="630" trl="Y">
@@ -2989,10 +2989,10 @@ Usted puede definir el contra de documentos para todas las organizaciones (de la
 		<value column="Help" original="The quantities are in the storage Unit of Measure!">Detalles de Confirmación</value>
 	</row>
 	<row id="660" trl="Y">
-		<value column="Name" original="RMA Type">Tipo ADM (RMA)</value>
+		<value column="Name" original="RMA Type">Tipo Autorización Devolución</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Return Material Authorization Type">Tipo Autorización para Devoluciones de Material</value>
-		<value column="Help" original="Maintain the types of RMA">Tipo Autorización para Devoluciones de Material</value>
+		<value column="Description" original="Return Material Authorization Type">Tipo Autorización para Devoluciones</value>
+		<value column="Help" original="Maintain the types of RMA">Tipo Autorización para Devoluciones</value>
 	</row>
 	<row id="661" trl="Y">
 		<value column="Name" original="Allocation">Asignación</value>
@@ -5310,17 +5310,17 @@ Valid From/To is determined by the parent tax.</value>
 		<value column="Description" original="Product Instance Attribute Material Allocation">Product Instance Attribute Material Allocation</value>
 		<value column="Help" original=""/>
 	</row>
-	<row id="53280" trl="N">
-		<value column="Name" original="Vendor RMA">Customer RMA</value>
+	<row id="53280" trl="Y">
+		<value column="Name" original="Vendor RMA">Autorización Devolución Cliente</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Vendor Return Material Authorization">Customer Return Material Authorization</value>
-		<value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">A Return Material Authorization may be required to accept returns and to create Credit Memos</value>
+		<value column="Description" original="Vendor Return Material Authorization">Autorización Devolución Cliente</value>
+		<value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">Una autorización de devolución se erquiere para aceptar devoluciones y para crear notas crédito</value>
 	</row>
-	<row id="53281" trl="N">
-		<value column="Name" original="RMA Line">RMA Line</value>
+	<row id="53281" trl="Y">
+		<value column="Name" original="RMA Line">Línea Autorización Devolución</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Return Material Authorization Line">Return Material Authorization Line</value>
-		<value column="Help" original="Detail information about the returned goods">Detail information about the returned goods</value>
+		<value column="Description" original="Return Material Authorization Line">Línea Autorización Devolución</value>
+		<value column="Help" original="Detail information about the returned goods">Información detallada acerca de los productos devueltos</value>
 	</row>
 	<row id="53282" trl="N">
 		<value column="Name" original="User Contact">User Contact</value>

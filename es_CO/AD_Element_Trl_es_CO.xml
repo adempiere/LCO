@@ -14440,26 +14440,26 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2231" trl="Y">
 		<value column="Name" original="EFT Memo">Memo TEF</value>
 		<value column="PrintName" original="EFT Memo">Memo TEF</value>
-		<value column="Description" original="Electronic Funds Transfer Memo">Memo de Transferencia Electronica de Fondos.</value>
-		<value column="Help" original="Information from EFT media">Información de medios de Transferencia Electronica de Fondos.</value>
+		<value column="Description" original="Electronic Funds Transfer Memo">Memo de Transferencia Electrónica de Fondos.</value>
+		<value column="Help" original="Information from EFT media">Información de medios de Transferencia Electrónica de Fondos.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2232" trl="Y">
-		<value column="Name" original="EFT Payee">TFE Beneficiario</value>
-		<value column="PrintName" original="EFT Payee">TFE Beneficiario</value>
-		<value column="Description" original="Electronic Funds Transfer Payee information">Información del beneficiario para Transferencia Elecronica de Fondos.</value>
-		<value column="Help" original="Information from EFT media">Información de pagos de Transferencia Electronica de Fondos.</value>
+		<value column="Name" original="EFT Payee">Beneficiario TEF</value>
+		<value column="PrintName" original="EFT Payee">Beneficiario TEF</value>
+		<value column="Description" original="Electronic Funds Transfer Payee information">Información del beneficiario para Transferencia Electrónica de Fondos.</value>
+		<value column="Help" original="Information from EFT media">Información de pagos de Transferencia Electrónica de Fondos.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2233" trl="Y">
-		<value column="Name" original="EFT Payee Account">Cuenta del Beneficiario de TEF</value>
-		<value column="PrintName" original="EFT Payee Account">Cuenta del Beneficiario de TEF</value>
+		<value column="Name" original="EFT Payee Account">Cuenta Beneficiario TEF</value>
+		<value column="PrintName" original="EFT Payee Account">Cuenta Beneficiario TEF</value>
 		<value column="Description" original="Electronic Funds Transfer Payyee Account Information">Información de la cuenta del beneficiario de la transferencia de fondos electrónica</value>
 		<value column="Help" original="Information from EFT media">Información de medios de TEF</value>
 		<value column="PO_Description" original=""/>
@@ -14470,7 +14470,7 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2234" trl="Y">
 		<value column="Name" original="EFT Reference">Referencia TEF</value>
 		<value column="PrintName" original="EFT Reference">Referencia TEF</value>
-		<value column="Description" original="Electronic Funds Transfer Reference">Referencia de Transferencia Electronica de Fondos</value>
+		<value column="Description" original="Electronic Funds Transfer Reference">Referencia de Transferencia Electrónica de Fondos</value>
 		<value column="Help" original="Information from EFT media">Información de medios TEF</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -14480,8 +14480,8 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2235" trl="Y">
 		<value column="Name" original="EFT Trx ID">ID Trans TEF</value>
 		<value column="PrintName" original="EFT Trx ID">ID Trans TEF</value>
-		<value column="Description" original="Electronic Funds Transfer Transaction ID">ID transacción de Transferencia Electronica de fondos</value>
-		<value column="Help" original="Information from EFT media">Información de los medios de Transferencia Electronica de Fondos.</value>
+		<value column="Description" original="Electronic Funds Transfer Transaction ID">ID transacción de Transferencia Electrónica de fondos</value>
+		<value column="Help" original="Information from EFT media">Información de los medios de Transferencia Electrónica de Fondos.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -14490,7 +14490,7 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2236" trl="Y">
 		<value column="Name" original="EFT Trx Type">Tipo Trans TEF</value>
 		<value column="PrintName" original="EFT Trx Type">Tipo Trans TEF</value>
-		<value column="Description" original="Electronic Funds Transfer Transaction Type">Tipo de Transferencia Electronica de Fondos</value>
+		<value column="Description" original="Electronic Funds Transfer Transaction Type">Tipo de Transferencia Electrónica de Fondos</value>
 		<value column="Help" original="Information from EFT media">Información de medios de TEF</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -14980,8 +14980,8 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2290" trl="Y">
 		<value column="Name" original="EFT Currency">Moneda de TEF</value>
 		<value column="PrintName" original="EFT Currency">Moneda de TEF</value>
-		<value column="Description" original="Electronic Funds Transfer Currency">Moneda de Transferencia Electronica de Fondos</value>
-		<value column="Help" original="Information from EFT media">Información de medios Transferencia Electronica de Fondos.</value>
+		<value column="Description" original="Electronic Funds Transfer Currency">Moneda de Transferencia Electrónica de Fondos</value>
+		<value column="Help" original="Information from EFT media">Información de medios Transferencia Electrónica de Fondos.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -14991,7 +14991,7 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="Name" original="EFT Statement Date">Estado de la TEF a la Fecha</value>
 		<value column="PrintName" original="EFT Statement Date">Estado de la TEF a la Fecha</value>
 		<value column="Description" original="Electronic Funds Transfer Statement Date">Fecha de declaración de la transferencia electrónica de fondos.</value>
-		<value column="Help" original="Information from EFT media">Información de medios de transferencia electronica de fondos.</value>
+		<value column="Help" original="Information from EFT media">Información de medios de transferencia electrónica de fondos.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -15000,8 +15000,8 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2292" trl="Y">
 		<value column="Name" original="EFT Statement Line Date">Línea Estado de la TEF a la Fecha</value>
 		<value column="PrintName" original="EFT Statement Line Date">Línea Estado de la TEF a la Fecha</value>
-		<value column="Description" original="Electronic Funds Transfer Statement Line Date">Fecha de la línea de Transferencia Electronica de Fondos.</value>
-		<value column="Help" original="Information from EFT media">Información media de Transferencia Electronica de Fondos.</value>
+		<value column="Description" original="Electronic Funds Transfer Statement Line Date">Fecha de la línea de Transferencia Electrónica de Fondos.</value>
+		<value column="Help" original="Information from EFT media">Información media de Transferencia Electrónica de Fondos.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -15010,7 +15010,7 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2293" trl="Y">
 		<value column="Name" original="EFT Statement Reference">Referencia Estado de la TEF</value>
 		<value column="PrintName" original="EFT Statement Reference">Referencia Estado de la TEF</value>
-		<value column="Description" original="Electronic Funds Transfer Statement Reference">Referencia del Estado de la Transferencia Electronica de Fondos</value>
+		<value column="Description" original="Electronic Funds Transfer Statement Reference">Referencia del Estado de la Transferencia Electrónica de Fondos</value>
 		<value column="Help" original="Information from EFT media">Información de medios de TEF.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -15020,8 +15020,8 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2294" trl="Y">
 		<value column="Name" original="EFT Effective Date">Fecha Efectiva para TEF</value>
 		<value column="PrintName" original="EFT Effective Date">F. Efectiva para TEF</value>
-		<value column="Description" original="Electronic Funds Transfer Valuta (effective) Date">Fecha efectiva para la Transferencia Electronica de Fondos.</value>
-		<value column="Help" original="Information from EFT media">Información de Transferencia Electronica de Fondos</value>
+		<value column="Description" original="Electronic Funds Transfer Valuta (effective) Date">Fecha efectiva para la Transferencia Electrónica de Fondos.</value>
+		<value column="Help" original="Information from EFT media">Información de Transferencia Electrónica de Fondos</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -16118,19 +16118,19 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2412" trl="Y">
-		<value column="Name" original="RMA">ADM (RMA)</value>
-		<value column="PrintName" original="RMA">ADM (RMA)</value>
-		<value column="Description" original="Return Material Authorization">Autorización de Devolución de Material</value>
-		<value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">La Autorización de Devolución de Material se requiere para aceptar devoluciones y para crear memos de credito.</value>
+		<value column="Name" original="RMA">Autorización Devolución</value>
+		<value column="PrintName" original="RMA">Autorización Devolución</value>
+		<value column="Description" original="Return Material Authorization">Autorización de Devolución</value>
+		<value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">La Autorización de Devolución se requiere para aceptar devoluciones y para crear notas crédito.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2413" trl="Y">
-		<value column="Name" original="RMA Line">Línea ADM (RMA)</value>
-		<value column="PrintName" original="RMA Line">Línea ADM (RMA)</value>
-		<value column="Description" original="Return Material Authorization Line">Línea Autorización de Devolución de Material</value>
+		<value column="Name" original="RMA Line">Línea Autorización Devolución</value>
+		<value column="PrintName" original="RMA Line">Línea Autorización Devolución</value>
+		<value column="Description" original="Return Material Authorization Line">Línea Autorización de Devolución</value>
 		<value column="Help" original="Detail information about the returned goods">Información del detalle sobre los productos devueltos</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -17260,10 +17260,10 @@ Si usted define una relación aquí, usted sobreescribe el tipo de documento del
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2530" trl="Y">
-		<value column="Name" original="RMA Type">Tipo de ADM (RMA)</value>
-		<value column="PrintName" original="RMA Type">Tipo de ADM (RMA)</value>
-		<value column="Description" original="Return Material Authorization Type">Tipo Autorización de Devolución de Material</value>
-		<value column="Help" original="Types of RMA">Tipos de ADM (RMA)</value>
+		<value column="Name" original="RMA Type">Tipo Autorización Devolución</value>
+		<value column="PrintName" original="RMA Type">Tipo de Autorización de Devolución</value>
+		<value column="Description" original="Return Material Authorization Type">Tipo de Autorización de Devolución</value>
+		<value column="Help" original="Types of RMA">Tipos de Autorización de Devolución</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>

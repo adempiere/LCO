@@ -892,7 +892,7 @@ Antes(!) incorporando transacciones, comience la réplica funcionada al sistema 
 	<row id="303" trl="Y">
 		<value column="Name" original="Payment Batch">Remesa de Pagos</value>
 		<value column="Description" original="Process Payment Patches for EFT">Remiendos de procesos del pago para EFT</value>
-		<value column="Help" original="Electronic Fund Transfer Payment Batch.">Transferencia electronica de fondo</value>
+		<value column="Help" original="Electronic Fund Transfer Payment Batch.">Transferencia electrónica de fondo</value>
 	</row>
 	<row id="304" trl="Y">
 		<value column="Name" original="Organization Type">Tipo Organización</value>
@@ -975,9 +975,9 @@ Antes(!) incorporando transacciones, comience la réplica funcionada al sistema 
 		<value column="Help" original="A Shipment can have one or more Packages.  A Package may be tracked.">Un envío puede tener uno o mas paquetes. Un paquete puede ser seguido</value>
 	</row>
 	<row id="320" trl="Y">
-		<value column="Name" original="Customer RMA">ADM (RMA)</value>
-		<value column="Description" original="Manage Return Material Authorization">Manajador de autorización para devoluciones de material</value>
-		<value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">Una autorización de devolución de material puede ser requerida para crear notas de crédito.</value>
+		<value column="Name" original="Customer RMA">Autorización Devolución Cliente</value>
+		<value column="Description" original="Manage Return Material Authorization">Maneja autorizaciones para devoluciones de cliente</value>
+		<value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">Una autorización de devolución puede ser requerida para crear notas de crédito.</value>
 	</row>
 	<row id="321" trl="Y">
 		<value column="Name" original="Dunning Run">Cálculo de Morosidad</value>
@@ -1030,9 +1030,9 @@ Antes(!) incorporando transacciones, comience la réplica funcionada al sistema 
 		<value column="Help" original="Confirmation of Shipment or Receipt - Created from the Shipment/Receipt">Confirmación de entrega o recibo - Creado por una entrega/Recibo</value>
 	</row>
 	<row id="331" trl="Y">
-		<value column="Name" original="RMA Type">Tipo ADM (RMA)</value>
+		<value column="Name" original="RMA Type">Tipo Autorización Devolución</value>
 		<value column="Description" original="Return Material Authorization Type">Tipo autorización para devoluciones de material</value>
-		<value column="Help" original="Maintain the types of RMA">Mantenimiento a tipos de ADM (RMA)</value>
+		<value column="Help" original="Maintain the types of RMA">Mantenimiento a tipos de Autorización de Devolución</value>
 	</row>
 	<row id="332" trl="Y">
 		<value column="Name" original="Process Audit">Auditoría de Procesos</value>
@@ -1349,27 +1349,27 @@ Segmentos Contables de la organización deseada, Cuentas, Productos pueden tener
 		<value column="Help" original=""/>
 	</row>
 	<row id="52000" trl="Y">
-		<value column="Name" original="Web POS Menu">Posterita Web Menu</value>
+		<value column="Name" original="Web POS Menu">Menu Web POS</value>
 		<value column="Description" original="To dynamically generate the menu links in web POS">Para dinamicamente genera el enlace al menu en web POS</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="52001" trl="Y">
-		<value column="Name" original="Web POS Role Menu">Menu de rol posterita</value>
+		<value column="Name" original="Web POS Role Menu">Menu de Rol Web POS</value>
 		<value column="Description" original="Depending on Which Role, Different set of Menus are generated and made available.">Dependiendo del rol, diferentes conjuntos de menus son generados y mostrados.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="52002" trl="Y">
-		<value column="Name" original="Web POS Properties">Posterita Propiedades Web</value>
+		<value column="Name" original="Web POS Properties">Propiedades Web POS</value>
 		<value column="Description" original="Stores the message tags to be picked up from AD_MESSAGE ">Almacena las mensajes etiqueta para ser tomados de AD_MESSAGE</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="52003" trl="Y">
-		<value column="Name" original="Web POS BlackListCheque">Cheques con Orden de No Cobro Posterita</value>
+		<value column="Name" original="Web POS BlackListCheque">Cheques con Orden de No Cobro (Web POS)</value>
 		<value column="Description" original="Black Listed Cheque">Cheques con Orden de No Cobro</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="53003" trl="Y">
-		<value column="Name" original="Model Validator">Validador de modelo</value>
+		<value column="Name" original="Model Validator">Validador de Modelo</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
@@ -1688,13 +1688,13 @@ MRP - 110	 No exists Dem</value>
 		<value column="Description" original="Define Calculation Methods used in depreciation expense calculation">Define Calculation Methods used in depreciation expense calculation</value>
 		<value column="Help" original="The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled">The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled</value>
 	</row>
-	<row id="53062" trl="N">
-		<value column="Name" original="Charge Type">Charge Type</value>
+	<row id="53062" trl="Y">
+		<value column="Name" original="Charge Type">Tipo de Cargo</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
-	<row id="53063" trl="N">
-		<value column="Name" original="House Keeping">House Keeping</value>
+	<row id="53063" trl="Y">
+		<value column="Name" original="House Keeping">Recorte de Información</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
@@ -1708,15 +1708,15 @@ MRP - 110	 No exists Dem</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 	</row>
-	<row id="53069" trl="N">
-		<value column="Name" original="Search Definition">Search Definition</value>
-		<value column="Description" original="Define transactioncodes for the QuickSearch bar">Define transactioncodes for the QuickSearch bar</value>
+	<row id="53069" trl="Y">
+		<value column="Name" original="Search Definition">Definición Atajos</value>
+		<value column="Description" original="Define transactioncodes for the QuickSearch bar">Define códigos de atajo (accesos directos) para la barra de búsqueda</value>
 		<value column="Help" original=""/>
 	</row>
-	<row id="53071" trl="N">
-		<value column="Name" original="Import Price List">Import Price List</value>
-		<value column="Description" original="Import Price Lists">Import Price Lists</value>
-		<value column="Help" original="The Import Price List Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">The Import Price List Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.</value>
+	<row id="53071" trl="Y">
+		<value column="Name" original="Import Price List">Importar Listas de Precios</value>
+		<value column="Description" original="Import Price Lists">Importar Listas de Precios</value>
+		<value column="Help" original="The Import Price List Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">La ventana importar listas de precios es un tabla intermedia que es utilizada para importar datos externos en el sistema.  Seleccionando el botón de Importar añadirá o modificará los registros apropiados.</value>
 	</row>
 	<row id="53073" trl="N">
 		<value column="Name" original="Promotion Group">Promotion Group</value>
@@ -1728,10 +1728,10 @@ MRP - 110	 No exists Dem</value>
 		<value column="Description" original="Setup promotion rule">Setup promotion rule</value>
 		<value column="Help" original=""/>
 	</row>
-	<row id="53078" trl="N">
-		<value column="Name" original="Report Cube">Report Cube</value>
-		<value column="Description" original="Define reporting cube for pre-calculation of summary accounting data.">Define reporting cube for pre-calculation of summary accounting data.</value>
-		<value column="Help" original="Summary data will be generated for each period of the selected calendar, grouped by the selected dimensions..">Summary data will be generated for each period of the selected calendar, grouped by the selected dimensions..</value>
+	<row id="53078" trl="Y">
+		<value column="Name" original="Report Cube">Cubo de Reportes</value>
+		<value column="Description" original="Define reporting cube for pre-calculation of summary accounting data.">Define un cubo de reportes para pre-cálculo de datos contables sumarizados.</value>
+		<value column="Help" original="Summary data will be generated for each period of the selected calendar, grouped by the selected dimensions..">Los datos resumidos serán generados para cada período del calendario seleccionado, agrupados por las dimensiones seleccionadas.</value>
 	</row>
 	<row id="53085" trl="N">
 		<value column="Name" original="MRP Notice (all)">MRP Notice (all)</value>
@@ -1739,34 +1739,34 @@ MRP - 110	 No exists Dem</value>
 		<value column="Help" original="The system creates notices will running MRP process. In this window you can view them.&#10;">The system creates notices will running MRP process. In this window you can view them.
 </value>
 	</row>
-	<row id="53086" trl="N">
-		<value column="Name" original="My Unprocessed Documents">My UnProcessed Documents</value>
-		<value column="Description" original="My Unprocessed Documents">My UnProcessed Documents</value>
-		<value column="Help" original="View my unprocessed documents">View my unprocessed documents</value>
+	<row id="53086" trl="Y">
+		<value column="Name" original="My Unprocessed Documents">Mis Documentos sin Procesar</value>
+		<value column="Description" original="My Unprocessed Documents">Mis Documentos sin Procesar</value>
+		<value column="Help" original="View my unprocessed documents">Ver mis documentos sin procesar</value>
 	</row>
-	<row id="53087" trl="N">
-		<value column="Name" original="Unprocessed Documents (All)">Unprocessed Documents (All)</value>
-		<value column="Description" original="Unprocessed Documents (All)">Unprocessed Documents (All)</value>
-		<value column="Help" original="View all unprocessed documents">View all unprocessed documents</value>
+	<row id="53087" trl="Y">
+		<value column="Name" original="Unprocessed Documents (All)">Documentos sin Procesar (Todos)</value>
+		<value column="Description" original="Unprocessed Documents (All)">Documentos sin Procesar (Todos)</value>
+		<value column="Help" original="View all unprocessed documents">Ver todos los documentos sin procesar</value>
 	</row>
-	<row id="53097" trl="N">
-		<value column="Name" original="Customer Return">Customer Return</value>
-		<value column="Description" original="Customer Return (Receipts)">Customer Return (Receipts)</value>
-		<value column="Help" original="The Customer Return Window defines the receipt of product or material from a Customer Return.">The Customer Return Window defines the receipt of product or material from a Customer Return.</value>
+	<row id="53097" trl="Y">
+		<value column="Name" original="Customer Return">Devolución Cliente</value>
+		<value column="Description" original="Customer Return (Receipts)">Devolución Cliente</value>
+		<value column="Help" original="The Customer Return Window defines the receipt of product or material from a Customer Return.">La ventana devolución cliente define la recepcuión de productos desde una devolución de cliente.</value>
 	</row>
-	<row id="53098" trl="N">
-		<value column="Name" original="Return to Vendor">Return to Vendor</value>
-		<value column="Description" original="Vendor Returns">Vendor Returns</value>
-		<value column="Help" original="The Return to Vendor Window defines shipments made or to be made to a vendor as part of a return.">The Return to Vendor Window defines shipments made or to be made to a vendor as part of a return.</value>
+	<row id="53098" trl="Y">
+		<value column="Name" original="Return to Vendor">Devolución a Proveedor</value>
+		<value column="Description" original="Vendor Returns">Devolución a Proveedor</value>
+		<value column="Help" original="The Return to Vendor Window defines shipments made or to be made to a vendor as part of a return.">La ventana devolución a proveedor define los despachos hechos o por hacer para devolver a un proveedor productos recibidos.</value>
 	</row>
-	<row id="53099" trl="N">
-		<value column="Name" original="Vendor RMA">Vendor RMA</value>
-		<value column="Description" original="Manage Return Material Authorization">Manage Return Material Authorization</value>
-		<value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">A Return Material Authorization may be required to accept returns and to create Credit Memos</value>
+	<row id="53099" trl="Y">
+		<value column="Name" original="Vendor RMA">Autorización Devolución a Proveedor</value>
+		<value column="Description" original="Manage Return Material Authorization">Maneja Autorizaciones de Devolución a Proveedor</value>
+		<value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">Una autorización de devolución puede ser requerida para aceptar devoluciones y para crear notas crédito</value>
 	</row>
-	<row id="53100" trl="N">
-		<value column="Name" original="My Profile">My Profile</value>
-		<value column="Description" original="My user information">My user information</value>
+	<row id="53100" trl="Y">
+		<value column="Name" original="My Profile">Mi Perfil</value>
+		<value column="Description" original="My user information">Mi información de usuario</value>
 		<value column="Help" original=""/>
 	</row>
 </adempiereTrl>

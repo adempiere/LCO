@@ -463,8 +463,8 @@
 		<value column="Description" original="View System Notices">Ver avisos del sistema</value>
 	</row>
 	<row id="234" trl="Y">
-		<value column="Name" original="Bank Statement">Estado de Cuentas Bancario</value>
-		<value column="Description" original="Process Bank Statements">Procesar conciliación del estado de cuentas bancario</value>
+		<value column="Name" original="Bank Statement">Estado Cuentas Banco</value>
+		<value column="Description" original="Process Bank Statements">Procesar estados de cuentas de bancos</value>
 	</row>
 	<row id="235" trl="Y">
 		<value column="Name" original="Payment">Pagos/Recaudos</value>
@@ -1287,8 +1287,8 @@
 		<value column="Description" original="Manage Request for Quotations">Mantenimiento a Solicitudes para Cotización</value>
 	</row>
 	<row id="455" trl="Y">
-		<value column="Name" original="Customer RMA">ADM (RMA)</value>
-		<value column="Description" original="Manage Return Material Authorization">Manajador de autorización para devoluciones de material</value>
+		<value column="Name" original="Customer RMA">Autorización Devolución Cliente</value>
+		<value column="Description" original="Manage Return Material Authorization">Maneja autorizaciones para devoluciones de clientes</value>
 	</row>
 	<row id="456" trl="Y">
 		<value column="Name" original="Server">Servidor</value>
@@ -1387,8 +1387,8 @@
 		<value column="Description" original="Material Shipment or Receipt Confirmation">Confirmación de entrega o recibo de material</value>
 	</row>
 	<row id="480" trl="Y">
-		<value column="Name" original="RMA Type">Tipo ADM (RMA)</value>
-		<value column="Description" original="Return Material Authorization Type">Tipo autorización para devoluciones de material</value>
+		<value column="Name" original="RMA Type">Tipo Autorización Devolución</value>
+		<value column="Description" original="Return Material Authorization Type">Tipo autorización para devoluciones</value>
 	</row>
 	<row id="481" trl="Y">
 		<value column="Name" original="Open Confirmation Details">Detalle de Confirmaciones Abiertas</value>
@@ -2546,12 +2546,12 @@
 		<value column="Name" original="Bank Transfer">Bank Transfer</value>
 		<value column="Description" original="Bank Transfer let money tranfer between Banks"/>
 	</row>
-	<row id="53191" trl="N">
-		<value column="Name" original="House Keeping">House Keeping</value>
+	<row id="53191" trl="Y">
+		<value column="Name" original="House Keeping">Recorte de Información</value>
 		<value column="Description" original=""/>
 	</row>
-	<row id="53192" trl="N">
-		<value column="Name" original="HouseKeeping">HouseKeeping</value>
+	<row id="53192" trl="Y">
+		<value column="Name" original="HouseKeeping">Recorte de Información</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53193" trl="N">
@@ -2570,8 +2570,8 @@
 		<value column="Name" original="Frozen/UnFrozen Cost">Frozen/UnFrozen Cost</value>
 		<value column="Description" original="Frozen or UnFrozen Cost">Frozen or UnFrozen Cost</value>
 	</row>
-	<row id="53202" trl="N">
-		<value column="Name" original="Initial Client Setup Process">Initial Client Setup Process</value>
+	<row id="53202" trl="Y">
+		<value column="Name" original="Initial Client Setup Process">Configuración Inicial de Cliente</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53203" trl="N">
@@ -2606,33 +2606,33 @@
 		<value column="Name" original="MRP Notice (all)">MRP Notice (all)</value>
 		<value column="Description" original="View all MRP Notices">View all MRP Notices</value>
 	</row>
-	<row id="53225" trl="N">
-		<value column="Name" original="My Unprocessed Documents">My UnProcessed Documents</value>
-		<value column="Description" original="My Unprocessed Documents">My UnProcessed Documents</value>
+	<row id="53225" trl="Y">
+		<value column="Name" original="My Unprocessed Documents">Mis Documentos sin Procesar</value>
+		<value column="Description" original="My Unprocessed Documents">Mis Documentos sin Procesar</value>
 	</row>
-	<row id="53226" trl="N">
-		<value column="Name" original="Unprocessed Documents (All)">Unprocessed Documents (All)</value>
-		<value column="Description" original="Unprocessed Documents (All)">Unprocessed Documents (All)</value>
+	<row id="53226" trl="Y">
+		<value column="Name" original="Unprocessed Documents (All)">Documentos sin Procesar (Todos)</value>
+		<value column="Description" original="Unprocessed Documents (All)">Documentos sin Procesar (Todos)</value>
 	</row>
-	<row id="53242" trl="N">
-		<value column="Name" original="Returns">Returns</value>
+	<row id="53242" trl="Y">
+		<value column="Name" original="Returns">Devoluciones</value>
 		<value column="Description" original=""/>
 	</row>
-	<row id="53243" trl="N">
-		<value column="Name" original="Customer Return">Customer Return</value>
-		<value column="Description" original="Customer Return (Receipts)">Customer Return (Receipts)</value>
+	<row id="53243" trl="Y">
+		<value column="Name" original="Customer Return">Devolución Cliente</value>
+		<value column="Description" original="Customer Return (Receipts)">Devolución Cliente (Recibo)</value>
 	</row>
-	<row id="53244" trl="N">
-		<value column="Name" original="Vendor RMA">Vendor RMA</value>
-		<value column="Description" original="Manage Return Material Authorization">Manage Return Material Authorization</value>
+	<row id="53244" trl="Y">
+		<value column="Name" original="Vendor RMA">Autorización Devolución Proveedor</value>
+		<value column="Description" original="Manage Return Material Authorization">Maneja autorizaciones de devolución de proveedor</value>
 	</row>
-	<row id="53245" trl="N">
-		<value column="Name" original="Return to Vendor">Return to Vendor</value>
-		<value column="Description" original="Vendor Returns">Vendor Returns</value>
+	<row id="53245" trl="Y">
+		<value column="Name" original="Return to Vendor">Devolución a Proveedor</value>
+		<value column="Description" original="Vendor Returns">Devolución a Proveedor</value>
 	</row>
-	<row id="53246" trl="N">
-		<value column="Name" original="My Profile">My Profile</value>
-		<value column="Description" original="My user information">My user information</value>
+	<row id="53246" trl="Y">
+		<value column="Name" original="My Profile">Mi Perfil</value>
+		<value column="Description" original="My user information">Mi información de usuario</value>
 	</row>
 	<row id="53247" trl="N">
 		<value column="Name" original="EDI">EDI</value>
