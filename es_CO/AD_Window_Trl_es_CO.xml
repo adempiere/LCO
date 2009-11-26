@@ -713,9 +713,10 @@
 		<value column="Help" original="Validate and Import Inventory Transactions">Validar e Importar transacciones de Inventario</value>
 	</row>
 	<row id="268" trl="Y">
-		<value column="Name" original="Role Data Access">Acceso a Roles</value>
-		<value column="Description" original="Maintain Data Access Rules">Mantener el acceso a roles</value>
-		<value column="Help" original="Maintain Data Access Roles of Roles/Responsibilties.&#10;Note that access information is cached and requires re-login or reset of cache.">Mantener los datos de acceso a roles para Roles/Responsabilidades</value>
+		<value column="Name" original="Role Data Access">Acceso a Datos de Roles</value>
+		<value column="Description" original="Maintain Data Access Rules">Mantener reglas de acceso a datos para roles</value>
+		<value column="Help" original="Maintain Data Access Roles of Roles/Responsibilties.&#10;Note that access information is cached and requires re-login or reset of cache.">Mantener las reglas de acceso a datos para roles.
+Tenga en cuenta que el acceso a la información está en caché y requiere volver a ingresar o resetear el caché.</value>
 	</row>
 	<row id="269" trl="Y">
 		<value column="Name" original="Advertisement">Anuncio</value>

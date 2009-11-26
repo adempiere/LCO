@@ -180,10 +180,10 @@ Finalmente una caja de mensaje le preguntará si desea cerrar el documento de OM
 		<value column="Help" original=""/>
 	</row>
 	<row id="53010" trl="Y">
-		<value column="Name" original="Generate Shipments &amp; Invoices (manual)">Generar Despachos y Facturas (manual)</value>
-		<value column="Description" original="Select and generate shipments &amp; Invoices">Seleccionar y generar despachos y facturas</value>
-		<value column="Help" original="Generate Shipments &amp; Invoices from Orders.  &#10;Select the orders to generate the shipments &amp; Invoices for.">Generar Despachos y Facturas a partir de ordenes.
-Seleccione las ordenes con las cuales desea generar despachos y facturas</value>
+		<value column="Name" original="Generate Shipments &amp; Invoices (manual)">Generar Entregas y Facturas (manual)</value>
+		<value column="Description" original="Select and generate shipments &amp; Invoices">Seleccionar y generar entregas y facturas</value>
+		<value column="Help" original="Generate Shipments &amp; Invoices from Orders.  &#10;Select the orders to generate the shipments &amp; Invoices for.">Generar Entregas y Facturas a partir de ordenes.
+Seleccione las ordenes con las cuales desea generar entregas y facturas</value>
 	</row>
 	<row id="53012" trl="Y">
 		<value column="Name" original="Material Receipt Distribution Order">Orden Distribución Recibo Materiales</value>

@@ -5355,12 +5355,12 @@ Por favor contacte al ADMINISTRADOR.</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="53051" trl="Y">
-		<value column="MsgText" original="Shipment Due">Despacho Por Vencer</value>
-		<value column="MsgTip" original="Indicates that a shipment for a Order Distribution is due.You should be taken at the source warehouse to ensure that the order is received on time.">Indica que un despacho para una orden de distribución está por vencer.  Debe tomarlo del almacén fuente para asegurar que la orden es recibida a tiempo.</value>
+		<value column="MsgText" original="Shipment Due">Entregas Por Vencer</value>
+		<value column="MsgTip" original="Indicates that a shipment for a Order Distribution is due.You should be taken at the source warehouse to ensure that the order is received on time.">Indica que una entrega para una orden de distribución está por vencer.  Debe tomarlo del almacén fuente para asegurar que la orden es recibida a tiempo.</value>
 	</row>
 	<row id="53052" trl="Y">
-		<value column="MsgText" original="Shipment Past Due">Despacho Vencido</value>
-		<value column="MsgTip" original="Indicates that a shipment for a Order Distribution is past due. You should either delay the orders created the requirement for the product or expedite them when the product does arrive.">Indica que un despacho de una orden de distribución está vencido.  Debe retrasar las ordenes creadas por el requerimiento del producto, o acelerarlas cuando el producto llegue.</value>
+		<value column="MsgText" original="Shipment Past Due">Entrega Vencida</value>
+		<value column="MsgTip" original="Indicates that a shipment for a Order Distribution is past due. You should either delay the orders created the requirement for the product or expedite them when the product does arrive.">Indica que una entrega de una orden de distribución está vencido.  Debe retrasar las ordenes creadas por el requerimiento del producto, o acelerarlas cuando el producto llegue.</value>
 	</row>
 	<row id="53053" trl="Y">
 		<value column="MsgText" original="No source of supply">No hay fuente de suministro</value>
@@ -5375,7 +5375,7 @@ Por favor contacte al ADMINISTRADOR.</value>
 		<value column="MsgTip" original="Indicates that a demand order is past due.">Indica que una orden de demanda está vencida.</value>
 	</row>
 	<row id="53056" trl="Y">
-		<value column="MsgText" original="Business Partner has no Ship To Address">Tercero no tiene dirección de despacho</value>
+		<value column="MsgText" original="Business Partner has no Ship To Address">Tercero no tiene dirección de entrega</value>
 		<value column="MsgTip" original=""/>
 	</row>
 	<row id="53057" trl="Y">

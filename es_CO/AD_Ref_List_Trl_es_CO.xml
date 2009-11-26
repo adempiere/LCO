@@ -1919,7 +1919,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="624" trl="Y">
-		<value column="Name" original="Aborted">Abortado</value>
+		<value column="Name" original="Aborted">Anulado</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="625" trl="Y">
@@ -1931,15 +1931,15 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="627" trl="Y">
-		<value column="Name" original="State Changed">Estado de Proceso Modificado</value>
+		<value column="Name" original="State Changed">Estado Modificado</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="628" trl="Y">
-		<value column="Name" original="Asynchronously">Des-Sincronizado</value>
-		<value column="Description" original="Fork">Fork</value>
+		<value column="Name" original="Asynchronously">Asincrónicamente</value>
+		<value column="Description" original="Fork">Bifurcación</value>
 	</row>
 	<row id="629" trl="Y">
-		<value column="Name" original="Synchronously">Sincronizado</value>
+		<value column="Name" original="Synchronously">Sincrónicamente</value>
 		<value column="Description" original="Serial">Serial</value>
 	</row>
 	<row id="630" trl="Y">
@@ -2531,7 +2531,7 @@
 		<value column="Description" original=""/>
 	</row>
 	<row id="783" trl="Y">
-		<value column="Name" original="Reservation">Reservación</value>
+		<value column="Name" original="Reservation">Reserva</value>
 		<value column="Description" original="Internal Commitment">Compromiso Interno</value>
 	</row>
 	<row id="784" trl="Y">
@@ -4083,8 +4083,8 @@
 		<value column="Description" original="Business Activity"/>
 	</row>
 	<row id="53420" trl="Y">
-		<value column="Name" original="BPartner">Socio del Negocio</value>
-		<value column="Description" original="Business Partner">Socio del Negocio</value>
+		<value column="Name" original="BPartner">Tercero</value>
+		<value column="Description" original="Business Partner">Tercero</value>
 	</row>
 	<row id="53421" trl="Y">
 		<value column="Name" original="Location From">Localización Desde</value>
@@ -4146,20 +4146,20 @@
 		<value column="Name" original="Distribution Order">Distribution Order</value>
 		<value column="Description" original=""/>
 	</row>
-	<row id="53436" trl="N">
-		<value column="Name" original="Thousand">Thousand</value>
-		<value column="Description" original="Thousand">Thousand</value>
+	<row id="53436" trl="Y">
+		<value column="Name" original="Thousand">Mil</value>
+		<value column="Description" original="Thousand">Mil</value>
 	</row>
-	<row id="53437" trl="N">
-		<value column="Name" original="Million">Million</value>
-		<value column="Description" original="Million">Million</value>
+	<row id="53437" trl="Y">
+		<value column="Name" original="Million">Millón</value>
+		<value column="Description" original="Million">Millón</value>
 	</row>
-	<row id="53438" trl="N">
-		<value column="Name" original="Cash">Cash</value>
+	<row id="53438" trl="Y">
+		<value column="Name" original="Cash">Caja</value>
 		<value column="Description" original=""/>
 	</row>
 	<row id="53441" trl="N">
-		<value column="Name" original="Natural Balance">Natural Balance</value>
+		<value column="Name" original="Natural Balance">Balance Natural</value>
 		<value column="Description" original="BY for P &amp; L account, BT for Balance Sheet account">BY for P &amp; L account, BT for Balance Sheet account</value>
 	</row>
 	<row id="53442" trl="N">

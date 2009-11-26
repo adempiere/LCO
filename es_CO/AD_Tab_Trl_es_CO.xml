@@ -294,25 +294,25 @@ Debe reiniciar su servidor de aplicaciones para que la mayoría de los cambios h
 	<row id="158" trl="Y">
 		<value column="Name" original="GL Category">Categoría Contabilidad</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Define General Ledger Categories">Definir categorías de Libro Mayor</value>
-		<value column="Help" original="The GL Category Tab defines optional identifiers for a document or journal.  Each Category may be used on a document, manual journal or import">La pestaña de Categoría de Libro Mayor define identificadores opcionales para un documento o entrada de diario. Cada categoría puede ser usada en un documento. Entrada de diario o un archivo a importar.</value>
+		<value column="Description" original="Define General Ledger Categories">Definir categorías de contabilidad</value>
+		<value column="Help" original="The GL Category Tab defines optional identifiers for a document or journal.  Each Category may be used on a document, manual journal or import">La pestaña de Categoría Contabilidad define identificadores opcionales para un documento o entrada de diario. Cada categoría puede ser usada en un documento. Entrada de diario o un archivo a importar.</value>
 	</row>
 	<row id="159" trl="Y">
 		<value column="Name" original="Batch">Lote</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="General Ledger Journal Batch">Lote de entrada de diarios del libro mayor</value>
-		<value column="Help" original="The GL Journal Batch Tab defines the control parameters for a Journal Batch.  A Batch can consist of multiple Journals.&#10;If the Control Amount is not zero, it is compared to the Total Debit Amount. The Control/Debit/Credit Amount is in Source Document Currency.">La pestaña de lote de entradas de diario del GL define los parámetros de control para un lote de entradas de diario. Un lote consiste en múltiples entradas de diario.</value>
+		<value column="Description" original="General Ledger Journal Batch">Lote de notas contables</value>
+		<value column="Help" original="The GL Journal Batch Tab defines the control parameters for a Journal Batch.  A Batch can consist of multiple Journals.&#10;If the Control Amount is not zero, it is compared to the Total Debit Amount. The Control/Debit/Credit Amount is in Source Document Currency.">La pestaña lote de notas contables define los parámetros de control para un lote de notas. Un lote consiste en múltiples notas.</value>
 	</row>
 	<row id="160" trl="Y">
-		<value column="Name" original="Journal">Diario</value>
+		<value column="Name" original="Journal">Nota Contable</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="General Ledger Journal">Diario del libro mayor</value>
-		<value column="Help" original="The GL Journal Tab defines the control parameters for a single GL Journal.&#10;If the Control Amount is not zero, it is compared to the Total Debit Amount. The Control/Debit/Credit Amount is in Source Document Currency.">La pestaña de entrada de diario del GL define los parámetros de control para una entrada de diario.</value>
+		<value column="Description" original="General Ledger Journal">Nota Contable</value>
+		<value column="Help" original="The GL Journal Tab defines the control parameters for a single GL Journal.&#10;If the Control Amount is not zero, it is compared to the Total Debit Amount. The Control/Debit/Credit Amount is in Source Document Currency.">La pestaña nota contable define los parámetros de control para una nota.</value>
 	</row>
 	<row id="161" trl="Y">
 		<value column="Name" original="Line">Línea</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="General Ledger Journal Line">Línea de diario del libro mayor</value>
+		<value column="Description" original="General Ledger Journal Line">Línea de nota contable</value>
 		<value column="Help" original="The GL Journal Line Tab defines the individual debit and credit transactions that comprise a journal.">La pestaña de línea de la entrada de diario del GL define las transacciones de débito y crédito individuales que comprenden una entrada de diario.</value>
 	</row>
 	<row id="167" trl="Y">
@@ -464,13 +464,14 @@ Debe reiniciar su servidor de aplicaciones para que la mayoría de los cambios h
 		<value column="CommitWarning" original="If you change the currency or costing method, you must reset all accounting transactions.&#10;For changes to become effective, you must re-login and re-start the Application Server. ">Si cambia la moneda o el método de costeo, debe resetear todas las transacciones contables.
 Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que los cambios surtan efecto.</value>
 		<value column="Description" original="Define your Account Schema Structure">Definir estructura del esquema contable</value>
-		<value column="Help" original="The Accounting Schema Tab defines the controls used for accounting.  You can define multiple accounting schema per client (for parallel accounting).  &#10;Postings are generated for an accounting schema, if the schema is valid and you have defined GL and Default accounts and after completion of the Add / Copy Accounts process.">La pestaña de Esquema Contable define los controles para la contabilidad. Cada organización selecciona un esquema contable para su uso.</value>
+		<value column="Help" original="The Accounting Schema Tab defines the controls used for accounting.  You can define multiple accounting schema per client (for parallel accounting).  &#10;Postings are generated for an accounting schema, if the schema is valid and you have defined GL and Default accounts and after completion of the Add / Copy Accounts process.">La pestaña de Esquema Contable define los controles para la contabilidad. Puede definir múltiples esquemas contables por compañía (para contabilidades simultáneas, ej: en dólares y pesos).
+Los registros contables son generados para un esquema contable, si el esquema es válido y usted ha definido cuentas de contabilidad y por defecto, y despues de que complete el proceso de Añadir / Copiar cuentas.</value>
 	</row>
 	<row id="200" trl="Y">
 		<value column="Name" original="General Ledger">Contabilidad General</value>
 		<value column="CommitWarning" original="For changes to become effective, you must re-login and re-start the Application Server.">Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que los cambios surtan efecto.</value>
 		<value column="Description" original="Accounts for GL">Cuentas de la Contabilidad General (CG)</value>
-		<value column="Help" original="The General Ledger Tab defines error and balance handling to use as well as  the necessary accounts for posting to General Ledger.  ">La pestaña Contabilidad General (CG)) define el manejo de error y de balance a usar así como las cuentas necesarias para registrar las transacciones en el libro mayor.</value>
+		<value column="Help" original="The General Ledger Tab defines error and balance handling to use as well as  the necessary accounts for posting to General Ledger.  ">La pestaña Contabilidad General define el manejo de error y de balanceo a usar así como las cuentas necesarias para registrar las transacciones en la contabilidad.</value>
 	</row>
 	<row id="201" trl="Y">
 		<value column="Name" original="Campaign">Campaña</value>
@@ -517,8 +518,8 @@ Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que los 
 	<row id="208" trl="Y">
 		<value column="Name" original="Budget">Presupuesto</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="The GL Budget Tab defines a General Ledger Budget">La pestaña de presupuesto define un presupuesto de Libro Mayor</value>
-		<value column="Help" original="The GL Budgets are used to define the anticipated costs of doing business.  They are used in reporting as a comparison to actual amounts.">Los presupuestos del libro mayor son usados para definir los costos anticipados de conducir el negocio. Son usados para reportar comparaciones con los Totales reales.</value>
+		<value column="Description" original="The GL Budget Tab defines a General Ledger Budget">La pestaña de presupuesto define un presupuesto contable</value>
+		<value column="Help" original="The GL Budgets are used to define the anticipated costs of doing business.  They are used in reporting as a comparison to actual amounts.">Los presupuestos de contabilidad son usados para definir los costos anticipados de conducir el negocio. Son usados para reportar comparaciones con los Totales reales.</value>
 	</row>
 	<row id="209" trl="Y">
 		<value column="Name" original="Accounting">Contabilidad</value>
@@ -539,22 +540,22 @@ Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que los 
 		<value column="Help" original="The Accounting Tab is used to define the Asset Account to use when a project is completed and the associated asset realized.">La pestaña de Contabilidad es usada para definir la cuenta de activos que se usa cuando un proyecto es completado y el activo asociado es colocado en libros.</value>
 	</row>
 	<row id="212" trl="Y">
-		<value column="Name" original="Customer Accounting">Contabilidad del Cliente</value>
+		<value column="Name" original="Customer Accounting">Contabilidad Cliente</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Customer Accounting">Definir Contabilidad del Cliente</value>
-		<value column="Help" original="The Customer Accounting Tab defines the default accounts to use when this business partner is referenced on an accounts receivable transaction.">La pestaña Contabilidad del Cliente define los valores predeterminados usados cuando este tercero es seleccionado en una transacción de cuentas por recibir.</value>
+		<value column="Help" original="The Customer Accounting Tab defines the default accounts to use when this business partner is referenced on an accounts receivable transaction.">La pestaña Contabilidad del Cliente define las cuentas por defecto usadas cuando este cliente es seleccionado en una transacción de cuentas por cobrar.</value>
 	</row>
 	<row id="213" trl="Y">
-		<value column="Name" original="Vendor Accounting">Contabilidad del Proveedor</value>
+		<value column="Name" original="Vendor Accounting">Contabilidad Proveedor</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Vendor Accounting">Definir Contabilidad del Proveedor</value>
-		<value column="Help" original="The Vendor Accounting Tab defines the default accounts to use when this business partner is referenced in an accounts payable transaction.">La pestaña de Contabilidad del Proveedor define los valores predeterminados usados cuando este proveedor es seleccionado en una transacción de cuentas por pagar.</value>
+		<value column="Help" original="The Vendor Accounting Tab defines the default accounts to use when this business partner is referenced in an accounts payable transaction.">La pestaña de Contabilidad del Proveedor define las cuentas por defecto usadas cuando este proveedor es seleccionado en una transacción de cuentas por pagar.</value>
 	</row>
 	<row id="214" trl="Y">
-		<value column="Name" original="Employee Accounting">Contabilidad del Empleado</value>
+		<value column="Name" original="Employee Accounting">Contabilidad Empleado</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Define Employee Accounting">Definir Contabilidad del Empleado</value>
-		<value column="Help" original="The Employee Accounting Tab defines the default accounts to use when this business partner is referenced on a expense reimbursement.">La pestaña de Contabilidad del Empleado define los valores predeterminados usados cuando este tercero es seleccionado para transacciones de reembolso de gastos.</value>
+		<value column="Help" original="The Employee Accounting Tab defines the default accounts to use when this business partner is referenced on a expense reimbursement.">La pestaña de Contabilidad del Empleado define las cuentas por defecto usadas cuando este empleado es seleccionado para transacciones de reembolso de gastos.</value>
 	</row>
 	<row id="215" trl="Y">
 		<value column="Name" original="City">Ciudad</value>
@@ -727,10 +728,10 @@ Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que los 
 		<value column="Help" original=""/>
 	</row>
 	<row id="252" trl="Y">
-		<value column="Name" original="Defaults">Predeterminados</value>
+		<value column="Name" original="Defaults">Por Defecto</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Default Accounts">Cuentas Predeterminadas</value>
-		<value column="Help" original="The Defaults Tab displays the Default accounts for an Accounting Schema.  These values will display when a new document is opened.  The user can override these defaults within the document.">La pestaña de Predeterminados despliega las cuentas predeterminadas para un esquema contable. Estos valores se despliegan cuando una nueva cuenta es creada. El usuario puede cambiar estos valores predeterminados en los diferentes documentos donde se usan.</value>
+		<value column="Description" original="Default Accounts">Cuentas por Defecto</value>
+		<value column="Help" original="The Defaults Tab displays the Default accounts for an Accounting Schema.  These values will display when a new document is opened.  The user can override these defaults within the document.">La pestaña Por Defecto despliega las cuentas por defecto para un esquema contable. Estos valores se despliegan cuando una nueva cuenta es creada. El usuario puede cambiar estos valores predeterminados en los diferentes documentos donde se usan.</value>
 	</row>
 	<row id="254" trl="Y">
 		<value column="Name" original="Costing (old)">Costeo</value>
@@ -1730,13 +1731,13 @@ Nuevo precio de lista: Base =Lista, Recargo=0, Descuento=0, Redondeo</value>
 Adempiere intenta asignar a productos existentes, si el UPC, La llave y el proveedor del producto no coinciden (en esta secuencia). Si el registro importado pudo ser asignado, los valores del campo del producto serán sobreescritos solamente, si el campo correspondiente de la importación se define explícitamente. Ejemplo: la categoría del producto será sobreescrita solamente si está fijada explícitamente en la importación.</value>
 	</row>
 	<row id="443" trl="Y">
-		<value column="Name" original="Import Account">Importar Cuenta Contable</value>
+		<value column="Name" original="Import Account">Importar Cuentas Contables</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="">Importar Cuentas Contables</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="444" trl="Y">
-		<value column="Name" original="Import Report Line Set">Importar Informes de Líneas fijo</value>
+		<value column="Name" original="Import Report Line Set">Importar Conjunto de Líneas</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
@@ -2103,10 +2104,10 @@ Un inventario físico se crea por Almacén y Fecha de Movimiento.</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="508" trl="Y">
-		<value column="Name" original="General Ledger">Libro Mayor General</value>
+		<value column="Name" original="General Ledger">Contabilidad General</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Import General Ledger">Importación del libro mayor general</value>
-		<value column="Help" original="A new Journal Batch is created, if the Batch Document No or accounting schema are different. A new Journal is created, if the Document No, Currency, Document Type, GL Category, Posting Type or Accounting type is different. You can also force the creation of a new Batch or Jornal by selecting the creat new flag.&lt;p&gt;&#10;Please note that there are three Organization Fields: The Document Organization is the owner of the document and set directly or per parameter default. The Organization is part of the accounting key and only required id no Valid Account Comination is specified; If not defined it is derived from the Document Organization. The Transaction Organization is part of the account combination.&lt;br&gt;&#10;The optional balance check applies to the entire import, not for individual batches or journals.&#10;&lt;br&gt;The document numbers will be overwritten if the document type is not set to manual sequences.">Una nueva jornada de diario es creado, si el documento de la jornada no es diferente. Una nueva jornada es creada, si el No. de documento,esquema de la contabilidad, moneda, tipo de documento, Categoría GL, Fijando el tipo o el tipo de contabilidad es diferente.&lt;p &gt;
+		<value column="Description" original="Import General Ledger">Importar Contabilidad</value>
+		<value column="Help" original="A new Journal Batch is created, if the Batch Document No or accounting schema are different. A new Journal is created, if the Document No, Currency, Document Type, GL Category, Posting Type or Accounting type is different. You can also force the creation of a new Batch or Jornal by selecting the creat new flag.&lt;p&gt;&#10;Please note that there are three Organization Fields: The Document Organization is the owner of the document and set directly or per parameter default. The Organization is part of the accounting key and only required id no Valid Account Comination is specified; If not defined it is derived from the Document Organization. The Transaction Organization is part of the account combination.&lt;br&gt;&#10;The optional balance check applies to the entire import, not for individual batches or journals.&#10;&lt;br&gt;The document numbers will be overwritten if the document type is not set to manual sequences.">Una nueva nota contable es creada, si el documento de la nota no es diferente. Una nueva nota contable es creada, si el No. de documento,esquema de la contabilidad, moneda, tipo de documento, Categoría contable, tipo de contabilización o el tipo de contabilidad es diferente.&lt;p &gt;
 Observe por favor que hay tres campos de la organización: La organización del documento es el dueño del documento y del sistema directamente o por default del parámetro . La organización es parte de la llave de la contabilidad y solamente se especifica la identificación requerida ninguna combinación de cuenta válida, si no esta definido se deriva de la organización del documento. La organización de la transacción es parte de la combinación de la cuenta.</value>
 	</row>
 	<row id="510" trl="Y">
@@ -2146,19 +2147,19 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">¡Observe por favor que usted no podrá crear entidades nuevas en esta ventana si usted no tiene defecto fijado para todos los valores obligatorios!.</value>
 	</row>
 	<row id="516" trl="Y">
-		<value column="Name" original="Product Dimension">Dimensión Productos</value>
+		<value column="Name" original="Product Dimension">Dimensión Producto</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Product Accounting Dimension Tree">Mantenga la dimensión del árbol del producto.</value>
 		<value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">¡Observe por favor que usted no podrá crear entidades nuevas en esta ventana si usted no tiene defecto fijado para todos los valores obligatorios!.</value>
 	</row>
 	<row id="517" trl="Y">
-		<value column="Name" original="Acitivity Dimension">Dimensión de Actividad</value>
+		<value column="Name" original="Acitivity Dimension">Dimensión Actividad</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Acitivity Accounting Dimension Tree">Mantenga el árbol de la dimensión de la actividad de contabilidad</value>
 		<value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">¡Observe por favor que usted no podrá crear entidades nuevas en esta ventana si usted no tiene defecto fijado para todos los valores obligatorios!</value>
 	</row>
 	<row id="518" trl="Y">
-		<value column="Name" original="Project Dimension">Dimensión de Proyecto</value>
+		<value column="Name" original="Project Dimension">Dimensión Proyecto</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Project Accounting Dimension Tree">Mantener el árbol de dimensiones contables de un proyecto</value>
 		<value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">¡Observe por favor que usted no podrá crear entidades nuevas en esta ventana si usted no tiene defecto fijado para todos los valores obligatorios!</value>
@@ -2206,7 +2207,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Help" original="Determines how the table is replicated. You have full access to Local tables, Reference tables are on Remote systems and are read-only. The data of Merge tables on Remote systems is copied to the central system.">Determina cómo se repliega la tabla. Usted tiene acceso completo a las tablas locales, las tablas de la referencia son en sistemas alejados y son inalterables. Los datos de las tablas de la fusión en sistemas alejados se copian al sistema central.</value>
 	</row>
 	<row id="526" trl="Y">
-		<value column="Name" original="Campaign Dimension">Dimensión de Campaña</value>
+		<value column="Name" original="Campaign Dimension">Dimensión Campaña</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Maintain Marketing Campaign Accounting Dimension Tree">Mantenga el árbol de dimensión de la contabilidad de la campaña de comercialización</value>
 		<value column="Help" original="Please note that you will not be able to create new entities in this window if you have not default set for all mandatory values!&#10;">¡Observe por favor que usted no podrá crear entidades nuevas en esta ventana si usted no tiene defecto fijado para todos los valores obligatorios!</value>
@@ -2518,7 +2519,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Help" original="The ultimate responsibility for a workflow is with an actual user. The Workflow Responsible allows to define ways to find that actual User.">La última responsabilidad de un flujo de trabajo está con un usuario real. El flujo de trabajo responsable permite definir maneras de encontrar a ese usuario real.</value>
 	</row>
 	<row id="579" trl="Y">
-		<value column="Name" original="Block">Bloques</value>
+		<value column="Name" original="Block">Bloque</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Workflow Transaction Execution Block">Bloque de Ejecución en Transacción de Flujo de Trabajo.</value>
 		<value column="Help" original="A workflow execution block is optional and allows all work to be performed in a single transaction. If one step (node activity) fails, the entire work is rolled back.">Un Bloque de Ejecución de Flujo de Trabajo es opcional y permite que todo el trabajo sea realizado en una sola transacción. Si un paso (actividad del nodo) falla, el trabajo entero se rueda detrás.</value>
@@ -2560,7 +2561,7 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Help" original="Indivifual values of Registration Attribute">Valores Individuales de atributos del registro</value>
 	</row>
 	<row id="586" trl="Y">
-		<value column="Name" original="Bank Statement Matcher">Estado de Cuenta</value>
+		<value column="Name" original="Bank Statement Matcher">Conciliador de Extracto Bancario</value>
 		<value column="CommitWarning" original=""/>
 		<value column="Description" original="Algorithm to match Bank Statement Info to Business Partners, Invoices and Payments">Algoritmo para coincidir el estado de cuenta que es Información a los terceros, las facturas y los pagos.</value>
 		<value column="Help" original="An algorithm to find Business Partners, Invoices, Payments in imported Bank Statements. The class need to implement the interface org.compiere.impexp.BankStatementMatcherInterface">Un algoritmo para encontrar a terceros, facturas, pagos en estados de cuenta importados. La clase debe implementar la interface org.compiere.impexp.BankStatementMatcherInterface</value>
@@ -2578,10 +2579,10 @@ Observe por favor que hay tres campos de la organización: La organización del 
 		<value column="Help" original="Organization Type allows you to categorize your organizations for reporting purposes">El tipo de organización permite que usted categorice sus organizaciones para propósitos de reportes.</value>
 	</row>
 	<row id="589" trl="Y">
-		<value column="Name" original="Schedule Process">Procesos de Agenda</value>
+		<value column="Name" original="Schedule Process">Agendar Proceso</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="Schedule processes">Procesos del horario</value>
-		<value column="Help" original="Schedule processes to be executed asynchronously">Procesos del horario que se ejecutarán una sincronización</value>
+		<value column="Description" original="Schedule processes">Agendar procesos</value>
+		<value column="Help" original="Schedule processes to be executed asynchronously">Agendar procesos para ser ejecutados asincrónicamente</value>
 	</row>
 	<row id="590" trl="Y">
 		<value column="Name" original="Parameter">Parámetro</value>
@@ -2904,13 +2905,13 @@ Observe por favor que hay tres campos de la organización: La organización del 
 	<row id="646" trl="Y">
 		<value column="Name" original="Distribution">Distribución</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="General Ledger Distribution">Distribución general del libro mayor</value>
+		<value column="Description" original="General Ledger Distribution">Distribución general de contabilidad</value>
 		<value column="Help" original="If the account combination criteria of the Distribution is met, the posting to the account combination is replaced by the account combinations of the distribution lines.  &#10;The distribution is prorated based on the percentage of the lines. If the total percent is less then 100 and one line is 0 (null), it gets the remainder.  If there is no line with 0, any rounding is adjusted in the line with the biggest amount.">Si los criterios de la combinación de la cuenta de distribución se resuelven, la fijación a la combinación de cuenta es substituida por las combinaciones de cuenta de las líneas de distribución. La distribución está prorrateada basada en el cociente de las líneas. La distribución debe ser válida para ser utilizada.</value>
 	</row>
 	<row id="647" trl="Y">
 		<value column="Name" original="Line">Línea</value>
 		<value column="CommitWarning" original=""/>
-		<value column="Description" original="General Ledger Distribution Target Line">Línea de la distribución del libro mayor general</value>
+		<value column="Description" original="General Ledger Distribution Target Line">Línea objetivo de la distribución de contabilidad</value>
 		<value column="Help" original="If the account combination criteria of the Distribution is met, the posting to the account combination is replaced by the account combinations of the distribution lines.  The distribution is prorated based on the perecent value of the lines. A Percent value of 0 (null) indicates the remainder to 100. There can only be one line with 0 percent.">Si los criterios de la combinación de la cuenta de la distribución se resuelven, la fijación a la combinación de la cuenta es substituida por las combinaciones de la cuenta de las líneas de la distribución. La distribución está prorrateada basada en el cociente de las líneas.</value>
 	</row>
 	<row id="648" trl="Y">

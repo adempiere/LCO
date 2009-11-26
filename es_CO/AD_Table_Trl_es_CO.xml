@@ -1725,7 +1725,7 @@
 		<value column="Name" original="Client Share">Compartir Compañía</value>
 	</row>
 	<row id="828" trl="N">
-		<value column="Name" original="System Issue">Fondos Contabilidad</value>
+		<value column="Name" original="System Issue">Problema Sistema</value>
 	</row>
 	<row id="829" trl="N">
 		<value column="Name" original="Invoice ProductQtr">C_Invoice_ProductQtr</value>

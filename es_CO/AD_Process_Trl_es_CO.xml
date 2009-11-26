@@ -38,9 +38,9 @@
 		<value column="Help" original=""/>
 	</row>
 	<row id="108" trl="Y">
-		<value column="Name" original="Add or Copy Accounts">Copiar Cuentas</value>
-		<value column="Description" original="Add missing Accounts - or Copy&amp;Overwrite Accounts (DANGEROUS!!)">Copiar y sobreescribir todas las cuentas a los valores preestablecidos del sistema (PELIGROSO!!!)</value>
-		<value column="Help" original="Either add missing accounts - or copy and overwrite all default accounts.  If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the bank account asset accounts, ...).  If no Accounting Schema is selected all Accounting Schemas will be updated / inserted."/>
+		<value column="Name" original="Add or Copy Accounts">Añadir o Copiar Cuentas</value>
+		<value column="Description" original="Add missing Accounts - or Copy&amp;Overwrite Accounts (DANGEROUS!!)">Añadir cuentas faltantes - o Copiar y Sobreescribir todas las cuentas a los valores por defecto del sistema (PELIGROSO!!!)</value>
+		<value column="Help" original="Either add missing accounts - or copy and overwrite all default accounts.  If you copy and overwrite the current default values, you may have to repeat previous updates (e.g. set the bank account asset accounts, ...).  If no Accounting Schema is selected all Accounting Schemas will be updated / inserted.">O añade cuentas faltantes - o copia y sobreescribe todas las cuentas por defecto.  Si copia y sobreescribe las cuentas por defecto actuales, debe repetir las actualizaciones que previamente haya realizado (por ejemplo: fijar las cuentas bancarias de activos, ...)  Si no se selecciona esquema contable entonces todos los esquemas serán actualizados / añadidos.</value>
 	</row>
 	<row id="109" trl="Y">
 		<value column="Name" original="Process Shipment ">Procesar Entrega</value>
@@ -349,13 +349,14 @@
 	</row>
 	<row id="176" trl="Y">
 		<value column="Name" original="Reset Accounting">Restablecer Contabilidad</value>
-		<value column="Description" original="Reset Accounting Entries ** Stop Accounting Server before starting **">Restablecer entradas contables</value>
-		<value column="Help" original="Delete accounting records of documents to be re-created by the next run of the accounting engine.  This is a dramatic step and you want to do this ONLY after changes of the accounting structure (e.g. different default accounts, etc.) and if fixing via manual Journal entries is not sensible.">Borra los registros contables de documentos para ser recreados la próxima vez que el motor contable corra. Este es un paso dramático y solo debe ser ejecutado después de cambiar la estructura contable (ej. cambiar las cuentas predeterminadas) si el solucionar el problema a través de entradas de diario manuales no es adecuado.</value>
+		<value column="Description" original="Reset Accounting Entries ** Stop Accounting Server before starting **">Restablecer entradas contables ** Detenga el Procesador de Contabilidad antes de iniciar **</value>
+		<value column="Help" original="Delete accounting records of documents to be re-created by the next run of the accounting engine.  This is a dramatic step and you want to do this ONLY after changes of the accounting structure (e.g. different default accounts, etc.) and if fixing via manual Journal entries is not sensible.">Borra los registros contables de los documentos para ser recreados la próxima vez que el motor contable corra. Este es un paso dramático y solo debe ser ejecutado después de cambiar la estructura contable (ej. cambiar las cuentas por defecto) si no es adecuado solucionar el problema a través de notas contables.</value>
 	</row>
 	<row id="179" trl="Y">
-		<value column="Name" original="Language Maintenance">Verificar Lenguajes</value>
-		<value column="Description" original="Maintain language translation in system">Verificar existencia de lenguaje de traducción en el sistema (se requiere despues de la creación de un nuevo lenguaje)</value>
-		<value column="Help" original="You can Add Missing Translation entries (required after activating an additional System Language) - Delete Translation Records - or Re-Create the translation Records (first delete and add missing entries).&#10;Note that Adding the Missing Translation records creates them by copying the System Language (English).  You would apply the Language Pack after that process.  Run Syncronize Terminology after importing the translation.">Verificar la Traducción crea los registros de traducción faltántes. Arranque este proceso después de crear un nuevo lenguaje. El proceso crea los registros copiando de las entradas del lenguaje base</value>
+		<value column="Name" original="Language Maintenance">Mantenimiento Lenguaje</value>
+		<value column="Description" original="Maintain language translation in system">Mantiene traducciones de diferentes lenguajes en el sistema</value>
+		<value column="Help" original="You can Add Missing Translation entries (required after activating an additional System Language) - Delete Translation Records - or Re-Create the translation Records (first delete and add missing entries).&#10;Note that Adding the Missing Translation records creates them by copying the System Language (English).  You would apply the Language Pack after that process.  Run Syncronize Terminology after importing the translation.">Puede Añadir traducciones faltantes (requerido despues de activar un lenguaje del sistema adicional) - Borrar registros de traducción - o recrear los registros de traducción (primero borra y luego adiciona registros faltantes).
+Nótese que Añadir traducciones faltantes las crea a partir del lenguaje del sistema (Inglés de Estados Unidos).  Debe aplicar un paquete de lenguaje después de este proceso.  Corra Sincronizar Terminología después de importar la traducción.</value>
 	</row>
 	<row id="180" trl="Y">
 		<value column="Name" original="Inventory Valuation Report">Reporte de Valor de Inventario</value>
@@ -445,7 +446,10 @@
 	<row id="197" trl="Y">
 		<value column="Name" original="Import Accounts">Importa Cuentas</value>
 		<value column="Description" original="Import Natural Accounts">Importa Cuentas Naturales</value>
-		<value column="Help" original="Import accounts and their hierarchies and optional update the default accounts.  &#10;Updating the Default Accounts changes the natural account segment of the used account, e.g. account 01-240 becomes 01-300).  If you create a new combination, the old account (e.g. 01-240) will remain, otherwise replaced.&#10;If you select this, make sure that you not multiple default accounts using one natural account and HAVE A BACKUP !!&#10;&lt;p&gt;The Parameters are default values for null import record values, they do not overwrite any data.">Cuentas de la importación y su actualización de jerarquía y opcional a cuentas por default. la actualización a cuentas considera los cambios el segmento natural de la cuenta usada, ejm. la cuenta 01-240 se convierte en 01-300). Si usted crea una nueva combinación, seguirá existiendo cuenta anterior (ejm. 01-240), si no es substituido. ¡Si usted selecciona esto, cerciórese de que por default duplique una cuenta natural y TENGA Una RESERVA!!</value>
+		<value column="Help" original="Import accounts and their hierarchies and optional update the default accounts.  &#10;Updating the Default Accounts changes the natural account segment of the used account, e.g. account 01-240 becomes 01-300).  If you create a new combination, the old account (e.g. 01-240) will remain, otherwise replaced.&#10;If you select this, make sure that you not multiple default accounts using one natural account and HAVE A BACKUP !!&#10;&lt;p&gt;The Parameters are default values for null import record values, they do not overwrite any data.">Importa cuentas y sus jerarquías y opcionalmente actualiza las cuentas por defecto.
+Al actualizar las cuentas por defecto cambia el segmento natural de la cuenta usada, por ejemplo cuenta 01-240 se vuelve la 01-300.  Si usted crea una nueva combinación, la cuenta antigua (ej: 01-240) se mantiene, si no es reemplazada.
+Si selecciona esto asegúrese que no tiene múltiples cuentas por defecto usando una cuenta natural y TENGA UN RESPALDO!!
+Los parámetros son valores por defecto que se asignan a valores nulos que vengan en los registros importados, estos no sobreescriben datos.</value>
 	</row>
 	<row id="198" trl="Y">
 		<value column="Name" original="Import Report Line Set">Importa lote de líneas de Informe</value>
@@ -530,7 +534,7 @@ El usuario para enviar emails de necesidades para tener valida la información d
 	</row>
 	<row id="214" trl="Y">
 		<value column="Name" original="Copy Details">Copia Detalles</value>
-		<value column="Description" original="Copy Journal/Lines from other Journal Batch">Copia líneas de Poliza de diario de otra poliza de diario</value>
+		<value column="Description" original="Copy Journal/Lines from other Journal Batch">Copia líneas de nota contable a otra nota contable</value>
 		<value column="Help" original=""/>
 	</row>
 	<row id="215" trl="Y">
@@ -560,9 +564,9 @@ El usuario para enviar emails de necesidades para tener valida la información d
 		<value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">Los parámetros son valores prefijados para los valores nulos del registro de la importación, ellos no sobreescriben ningunos datos.</value>
 	</row>
 	<row id="220" trl="Y">
-		<value column="Name" original="Import Journal">Importa Polizas</value>
-		<value column="Description" original="Import General Ledger Batch/Journal/Line">Importa Contabilidad General Lote/Poliza/Línea</value>
-		<value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">Los parámetros son valores prefijados para los valores nulos del expediente de la importación, ellos no sobreescriben ningunos datos.</value>
+		<value column="Name" original="Import Journal">Importa Nota Contable</value>
+		<value column="Description" original="Import General Ledger Batch/Journal/Line">Importa Contabilidad General Lote/Nota/Línea</value>
+		<value column="Help" original="The Parameters are default values for null import record values, they do not overwrite any data.">Los parámetros son valores prefijados para los valores nulos del registro de la importación, ellos no sobreescriben ningunos datos.</value>
 	</row>
 	<row id="221" trl="Y">
 		<value column="Name" original="Import Bank Statement">Importar Extractos de Cuentas</value>
@@ -1173,9 +1177,9 @@ y Recibi/Línea o directamente para el producto.</value>
 		<value column="Help" original="Create Purchase orders from Purchase Requisitions.">Crear Orden de Compra desde una Requisición</value>
 	</row>
 	<row id="338" trl="Y">
-		<value column="Name" original="Create GL/Default">Crear Contabilidad/Predeterminado</value>
+		<value column="Name" original="Create GL/Default">Crear Contabilidad/Por Defecto</value>
 		<value column="Description" original="Copy matching account element values from existing Accounting Schema">Copia valores de Elementos de Cuenta coincidentes desde esquema contable existente</value>
-		<value column="Help" original="Create the GL and Default accounts for this accounting schema and copy matching account element values.">Crear Contabilidad y predeterminar cuentas para este Esquema Contable y copia valores de elementos de cuenta coincidentes.
+		<value column="Help" original="Create the GL and Default accounts for this accounting schema and copy matching account element values.">Crear Contabilidad y cuentas por defecto para este Esquema Contable y copia valores de elementos de cuenta coincidentes.
 </value>
 	</row>
 	<row id="339" trl="Y">
@@ -1513,7 +1517,7 @@ Total BOM Cost = Sum every Element Cost</value>
 	<row id="53063" trl="Y">
 		<value column="Name" original="Create Report (Jasper)">Crear Reporte (Jasper)</value>
 		<value column="Description" original="Create Financial Report  (Jasper)">Crear Reporte Financiero (Jasper)</value>
-		<value column="Help" original="The default period is the current period. You can optionally enter other restrictions.  You can select an alternative Reporting Hierarchy.">El periodo por defecto es el periodo actual. Usted puede opcionalmente ingresar otras restricciones Tambien puede seleccionar una herencia alternativa de reporte.</value>
+		<value column="Help" original="The default period is the current period. You can optionally enter other restrictions.  You can select an alternative Reporting Hierarchy.">El periodo por defecto es el periodo actual. Usted puede opcionalmente ingresar otras restricciones Tambien puede seleccionar una jerarquía alternativa de reporte.</value>
 	</row>
 	<row id="53065" trl="Y">
 		<value column="Name" original="ASP Generate Fields">Genera Campos SaaS</value>

@@ -915,8 +915,8 @@
 		<value column="Description" original="Recurring Document">Documentos Recurrentes</value>
 	</row>
 	<row id="362" trl="Y">
-		<value column="Name" original="Role Data Access">Acceso a Roles</value>
-		<value column="Description" original="Maintain Data Access Rules">Mantener el acceso a roles</value>
+		<value column="Name" original="Role Data Access">Acceso a Datos de Roles</value>
+		<value column="Description" original="Maintain Data Access Rules">Mantener reglas de acceso a datos para roles</value>
 	</row>
 	<row id="363" trl="Y">
 		<value column="Name" original="Import Inventory">Importar Inventario</value>

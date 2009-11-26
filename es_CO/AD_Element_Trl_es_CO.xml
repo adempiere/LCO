@@ -243,9 +243,9 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="131" trl="Y">
-		<value column="Name" original="BPartner Tree">Arbol Tercero</value>
-		<value column="PrintName" original="BPartner Tree">Arbol Tercero</value>
-		<value column="Description" original="Tree to determine business partner hierarchy">Arbol para determinar la herencia del tercero</value>
+		<value column="Name" original="BPartner Tree">Arbol de Tercero</value>
+		<value column="PrintName" original="BPartner Tree">Arbol de Tercero</value>
+		<value column="Description" original="Tree to determine business partner hierarchy">Arbol para determinar la jerarquía del tercero</value>
 		<value column="Help" original="Trees are used for (finanial) reporting">Arboles son usados para reportes (Financieros)</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -275,7 +275,7 @@
 	<row id="134" trl="Y">
 		<value column="Name" original="Organization Tree">Arbol de Organización</value>
 		<value column="PrintName" original="Organization Tree">Arbol de Organización</value>
-		<value column="Description" original="Tree to determine organizational hierarchy">Arbol para determinar la herencia organizacional</value>
+		<value column="Description" original="Tree to determine organizational hierarchy">Arbol para determinar la jerarquía de las organizaciones</value>
 		<value column="Help" original="Trees are used for (finanial) reporting and security access (via role)">Arboles usados para reportes (Financieros) y seguridad de acceso (Via rol)</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -285,7 +285,7 @@
 	<row id="135" trl="Y">
 		<value column="Name" original="Product Tree">Arbol de Producto</value>
 		<value column="PrintName" original="Product Tree">Arbol de Producto</value>
-		<value column="Description" original="Tree to determine product hierarchy">Arbol para determinar la herencia de un producto</value>
+		<value column="Description" original="Tree to determine product hierarchy">Arbol para determinar la jerarquía de productos</value>
 		<value column="Help" original="Trees are used for (finanial) reporting">Arboles usados para reportes (Financieros)</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -293,9 +293,9 @@
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="136" trl="Y">
-		<value column="Name" original="Project Tree">Arbol de Proyectos</value>
+		<value column="Name" original="Project Tree">Arbol de Proyecto</value>
 		<value column="PrintName" original="Project Tree">Arbol de Proyecto</value>
-		<value column="Description" original="Tree to determine project hierarchy">Arbol para determinar la herencia de un proyecto</value>
+		<value column="Description" original="Tree to determine project hierarchy">Arbol para determinar la jerarquía de proyectos</value>
 		<value column="Help" original="Trees are used for (finanial) reporting">Arboles usados para reportes (Financieros)</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -304,8 +304,8 @@
 	</row>
 	<row id="137" trl="Y">
 		<value column="Name" original="Sales Region Tree">Arbol de Región de Venta</value>
-		<value column="PrintName" original="Sales Region Tree">Arbol de Región de Venta Primario</value>
-		<value column="Description" original="Tree to determine sales regional hierarchy">Arbol para determinar la herencia de ventas regionales</value>
+		<value column="PrintName" original="Sales Region Tree">Arbol de Región de Venta</value>
+		<value column="Description" original="Tree to determine sales regional hierarchy">Arbol para determinar la jerarquía de regiones de ventas</value>
 		<value column="Help" original="Trees are used for (finanial) reporting">Arboles usados para reportes (Financieros)</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -1314,9 +1314,9 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="283" trl="Y">
-		<value column="Name" original="Display Logic">Despliegue Lógico</value>
-		<value column="PrintName" original="Display Logic">Despliegue Lógico</value>
-		<value column="Description" original="If the Field is displayed, the result determines if the field is actually displayed">Si el campo es desplegado; el resultado determina si el campo es efectivamente desplegado</value>
+		<value column="Name" original="Display Logic">Lógica Despliegue</value>
+		<value column="PrintName" original="Display Logic">Lógica Despliegue</value>
+		<value column="Description" original="If the Field is displayed, the result determines if the field is actually displayed">Si el campo es desplegado, el resultado determina si el campo es efectivamente desplegado</value>
 		<value column="Help" original="format := {expression} [{logic} {expression}]&lt;br&gt; &#10;expression := @{context}@{operand}{value} or @{context}@{operand}{value}&lt;br&gt; &#10;logic := {|}|{&amp;}&lt;br&gt;&#10;context := any global or window context &lt;br&gt;&#10;value := strings or numbers&lt;br&gt;&#10;logic operators&#9;:= AND or OR with the previous result from left to right &lt;br&gt;&#10;operand := eq{=}, gt{&amp;gt;}, le{&amp;lt;}, not{~^!} &lt;br&gt;&#10;Examples: &lt;br&gt;&#10;@AD_Table_ID@=14 | @Language@!GERGER &lt;br&gt;&#10;@PriceLimit@&gt;10 | @PriceList@&gt;@PriceActual@&lt;br&gt;&#10;@Name@&gt;J&lt;br&gt;&#10;Strings may be in single quotes (optional)">formato:= &lt;expresion&gt; [&lt;logica&gt; &lt;expresion&gt;] expresion	:= @&lt;contexto&gt;@=&lt;valor&gt; o @&lt;contexto&gt;@!&lt;valor&gt; logica:= &lt;|&gt;|&lt;&amp;&gt;contexto:= cualquier valor global o de la ventana del contexto		:= secuencia a operadores de la logica:=  Y/O con el previo resultado de izquierda a derecha E</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -2716,10 +2716,10 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="508" trl="Y">
-		<value column="Name" original="Post Actual">Aplicar Reales</value>
-		<value column="PrintName" original="Post Actual">Aplicar Reales</value>
-		<value column="Description" original="Actual Values can be posted">Valores reales pueden ser aplicados</value>
-		<value column="Help" original="The Post Actual indicates if actual values can be posted to this element value.">El campo Aplicar Reales indica si valores reales pueden ser aplicados a este elemento contable</value>
+		<value column="Name" original="Post Actual">Aplicar Actuales</value>
+		<value column="PrintName" original="Post Actual">Aplicar Actuales</value>
+		<value column="Description" original="Actual Values can be posted">Valores actuales pueden ser contabilizados</value>
+		<value column="Help" original="The Post Actual indicates if actual values can be posted to this element value.">El campo Aplicar Actuales indica si valores actuales pueden ser aplicados a este elemento contable</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -5816,10 +5816,10 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1241" trl="Y">
-		<value column="Name" original="Calculate Sum (?)">Suma Calculada</value>
-		<value column="PrintName" original="Sum">Suma</value>
-		<value column="Description" original="Calculate the Sum of numeric content or length">Calcula la suma total del contenido numérico o longitud.</value>
-		<value column="Help" original="Calculate the Sum (?) of the data if the field is numeric, otherwise total sum length of the field.">Calcula la suma total de los datos si el campo es numérico; de otra manera calcula la longitud total del campo.</value>
+		<value column="Name" original="Calculate Sum (?)">Calcular Sumatoria (Σ)</value>
+		<value column="PrintName" original="Sum">Sumatoria</value>
+		<value column="Description" original="Calculate the Sum of numeric content or length">Calcular la sumatoria del contenido numérico o longitud.</value>
+		<value column="Help" original="Calculate the Sum (?) of the data if the field is numeric, otherwise total sum length of the field.">Calcular la sumatoria (Σ) de los datos si el campo es numérico; de otra manera calcula la sumatoria de la longitud del campo.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -10706,30 +10706,30 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1834" trl="Y">
-		<value column="Name" original="Calculate Mean (?)">Calcular Promedio</value>
+		<value column="Name" original="Calculate Mean (?)">Calcular Promedio (μ)</value>
 		<value column="PrintName" original="Mean">Promedio</value>
 		<value column="Description" original="Calculate Average of numeric content or length">Calcular promedio del contenido numérico o longitud</value>
-		<value column="Help" original="Calculate the Mean (?) of the data if the field is numeric, otherwise calculate the average length of the field.">Calcula el promedio de los datos si el campo es numérico; de otra manera calcula el promedio de la longitud del campo</value>
+		<value column="Help" original="Calculate the Mean (?) of the data if the field is numeric, otherwise calculate the average length of the field.">Calcula el promedio (μ) de los datos si el campo es numérico, de otra manera calcula el promedio de la longitud del campo</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1835" trl="Y">
-		<value column="Name" original="Calculate Count (?)">Calcula Conteo</value>
+		<value column="Name" original="Calculate Count (?)">Calcular Conteo (№)</value>
 		<value column="PrintName" original="Count">Conteo</value>
 		<value column="Description" original="Count number of not empty elements">Cuenta el número de elementos no vacíos</value>
-		<value column="Help" original="Calculate the total number (?) of not empty (NULL) elements (maximum is the number of lines).">Calcula el número total de elemento nos vacíos (nulos); el máximo es el número de líneas</value>
+		<value column="Help" original="Calculate the total number (?) of not empty (NULL) elements (maximum is the number of lines).">Calcula el número total (№) de elemento no vacíos (nulos). El máximo es el número de líneas</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1836" trl="Y">
-		<value column="Name" original="Amt in Words">Cant. En Palabras</value>
-		<value column="PrintName" original="Amt in Words">Cant. En Palabras</value>
-		<value column="Description" original="Amount in words">Cantidad en palabras</value>
-		<value column="Help" original="Amount in words will be printed.">La cantidad en palabras será impresa</value>
+		<value column="Name" original="Amt in Words">Monto Escrito</value>
+		<value column="PrintName" original="Amt in Words">Monto Escrito</value>
+		<value column="Description" original="Amount in words">Monto en palabras</value>
+		<value column="Help" original="Amount in words will be printed.">El monto será impreso en palabras</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -11556,9 +11556,9 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="1926" trl="Y">
-		<value column="Name" original="Update Default Accounts">Actualiza Cuentas Predeterminadas</value>
-		<value column="PrintName" original="Update Default Accounts">Actualiza Cuentas Predeterminadas</value>
-		<value column="Description" original="Update Default Accounts">Actualiza Cuentas Predeterminadas</value>
+		<value column="Name" original="Update Default Accounts">Actualiza Cuentas por Defecto</value>
+		<value column="PrintName" original="Update Default Accounts">Actualiza Cuentas por Defecto</value>
+		<value column="Description" original="Update Default Accounts">Actualiza Cuentas por Defecto</value>
 		<value column="Help" original="">Permite actualizar cuentas predeterminadas.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -14192,9 +14192,9 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2203" trl="Y">
-		<value column="Name" original="Allowed to be Published">Mostrar lo Publicado</value>
-		<value column="PrintName" original="Allow Publish">Mostar la Publicación</value>
-		<value column="Description" original="You allow to publish the information, not just statistical summary info">Usted permite publicar la información, no resumen estadístico de Información.</value>
+		<value column="Name" original="Allowed to be Published">Permitido que sea Publicado</value>
+		<value column="PrintName" original="Allow Publish">Permitir Publicar</value>
+		<value column="Description" original="You allow to publish the information, not just statistical summary info">Usted permite publicar la información, no sólo el resumen estadístico de información.</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -14232,20 +14232,20 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2207" trl="Y">
-		<value column="Name" original="Calculate Maximim (?)">Calcular Máximo</value>
+		<value column="Name" original="Calculate Maximim (?)">Calcular Máximo (↑)</value>
 		<value column="PrintName" original="Calc Max">Calcular Máximo</value>
-		<value column="Description" original="Calculate the maximim amount">Cálculo de la suma Máxima</value>
-		<value column="Help" original="Calculate the Maximum (?)  of the data if the field is numeric, otherwise maximum length of the field."/>
+		<value column="Description" original="Calculate the maximim amount">Calcular el monto máximo</value>
+		<value column="Help" original="Calculate the Maximum (?)  of the data if the field is numeric, otherwise maximum length of the field.">Calcula el máximo (↑) si los datos son numéricos, de otra forma calcula el máximo tamaño de los datos.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2208" trl="Y">
-		<value column="Name" original="Calculate Minimum (?)">Calcular Mínimo</value>
+		<value column="Name" original="Calculate Minimum (?)">Calcular Mínimo (↓)</value>
 		<value column="PrintName" original="Calc Min">Calcular Mínimo</value>
-		<value column="Description" original="Calculate the minimum amount">Cálculo de la suma Mínima</value>
-		<value column="Help" original="Calculate the Minimum (?) of the data if the field is numeric, otherwise minimum length of the field."/>
+		<value column="Description" original="Calculate the minimum amount">Calcular el monto mínimo</value>
+		<value column="Help" original="Calculate the Minimum (?) of the data if the field is numeric, otherwise minimum length of the field.">Calcula el mínimo (↓) de los datos si el campo es numérico, de otra forma el mínimo tamaño de los campos.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -14254,8 +14254,8 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2209" trl="Y">
 		<value column="Name" original="Personal Access">Acceso Personal</value>
 		<value column="PrintName" original="Personal Access">Acceso Personal</value>
-		<value column="Description" original="Allow access to all personal records">Permite el acceso para todo los registros de personal.</value>
-		<value column="Help" original="Users of this role have access to all records locked as personal.">Usar de este rol tiene acceso a todos los registros del personal.</value>
+		<value column="Description" original="Allow access to all personal records">Permite el acceso para todos los registros incluso bloqueados.</value>
+		<value column="Help" original="Users of this role have access to all records locked as personal.">Los usuarios con este rol tienen acceso a todos los registros incluso bloqueados.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -14264,8 +14264,8 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2210" trl="Y">
 		<value column="Name" original="Personal Lock">Bloqueo Personal</value>
 		<value column="PrintName" original="Personal Lock">Bloqueo Personal</value>
-		<value column="Description" original="Allow users with role to lock access to personal records">Permita que los usuarios con papel bloqueen el acceso a los expedientes personales</value>
-		<value column="Help" original="If enabled, the user with the role can prevent access of others to personal records.  If a record is locked, only the user or people who can read personal locked records can see the record.">Si está permitido, el usuario con el papel puede prevenir el acceso de otros a los expedientes personales. Si un expediente es bloqueado, sólo el usuario o la gente que puede leer expedientes bloqueados personales puede ver el expediente.</value>
+		<value column="Description" original="Allow users with role to lock access to personal records">Permita que los usuarios con papel bloqueen el acceso a los registros</value>
+		<value column="Help" original="If enabled, the user with the role can prevent access of others to personal records.  If a record is locked, only the user or people who can read personal locked records can see the record.">Si está permitido, el usuario con este rol puede prevenir el acceso de otros a los registros. Si un registro es bloqueado, sólo el usuario o aquellos configurados con Acceso Personal podrán ver el registro.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -14342,10 +14342,10 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2218" trl="Y">
-		<value column="Name" original="Running Total Lines">Línea Total de la Ejecución</value>
-		<value column="PrintName" original="RT Lines">Total de las ejecuciones líneas.</value>
-		<value column="Description" original="Create Running Total Lines (page break) every x lines">Crea las líneas totales de funcionamiento (rotura de página) las líneas de cada x</value>
-		<value column="Help" original="When you want to print running totals, enter the number of lines per page after you want to create a running total line and page break. You should define running total only once per format.">Cuando usted desea imprimir totales corrientes, incorpore el número de líneas por la página después de usted desean crear una línea total de funcionamiento y una rotura de página.</value>
+		<value column="Name" original="Running Total Lines">Línea de Totales que pasan</value>
+		<value column="PrintName" original="RT Lines">Líneas de totales que pasan</value>
+		<value column="Description" original="Create Running Total Lines (page break) every x lines">Crea líneas de totales que pasan (en rompimiento de página) cada n líneas</value>
+		<value column="Help" original="When you want to print running totals, enter the number of lines per page after you want to create a running total line and page break. You should define running total only once per format.">Cuando desea imprimir totales que pasan, ingrese el número de líneas por página donde usted quiere escribir después la línea de total que pasa y el rompimiento de página)</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -14790,7 +14790,7 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2266" trl="Y">
 		<value column="Name" original="Partner Tax ID">Número Identificación Tercero</value>
 		<value column="PrintName" original="BP Tax TD">Número Identificación Tercero</value>
-		<value column="Description" original="Tax ID of the Business Partner">NIT del tercero.</value>
+		<value column="Description" original="Tax ID of the Business Partner">Número Identificación del tercero.</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -14858,20 +14858,20 @@ de proyecto - capacidad de publicar el material</value>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2275" trl="Y">
-		<value column="Name" original="Calculate Deviation (?)">Calcular Desviación (Ã)</value>
+		<value column="Name" original="Calculate Deviation (?)">Calcular Desviación (σ)</value>
 		<value column="PrintName" original="Deviation">Desviación</value>
 		<value column="Description" original="Calculate Standard Deviation">Calcular Desviación Estándar</value>
-		<value column="Help" original="The Standard Deviation (?) is the a measure of dispersion - used in combination with the Mean (?)">La desviación estándar (Ã) es una medida de disperción - usada conjuntamente con el medio (¼)</value>
+		<value column="Help" original="The Standard Deviation (?) is the a measure of dispersion - used in combination with the Mean (?)">La desviación estándar (σ) es una medida de disperción - usada en combinación con el promedio</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2276" trl="Y">
-		<value column="Name" original="Calculate Variance (?�)">Calcular Variación (Ã²)</value>
-		<value column="PrintName" original="Variance">Variación</value>
-		<value column="Description" original="Calculate Variance">Cálculo de la Variación</value>
-		<value column="Help" original="The Variance (?�) is the a measure of dispersion - used in combination with the Mean (?)">La variación (Ã²) es una medida de disperción - utilizada conjuntamente con el medio</value>
+		<value column="Name" original="Calculate Variance (?�)">Calcular Varianza (σ²)</value>
+		<value column="PrintName" original="Variance">Varianza</value>
+		<value column="Description" original="Calculate Variance">Calcular Varianza</value>
+		<value column="Help" original="The Variance (?�) is the a measure of dispersion - used in combination with the Mean (?)">La varianza (σ²) es una medida de dispersión - utilizada en combinación con el promedio</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -16690,7 +16690,7 @@ de proyecto - capacidad de publicar el material</value>
 	<row id="2470" trl="Y">
 		<value column="Name" original="GL Distribution Line">Línea Distribución Contabilidad</value>
 		<value column="PrintName" original="GL Distribution Line">Línea Distribución Contabilidad</value>
-		<value column="Description" original="General Ledger Distribution Line">Línea de la distribución del libro mayor general.</value>
+		<value column="Description" original="General Ledger Distribution Line">Línea de la distribución de la contabilidad.</value>
 		<value column="Help" original="If the account combination criteria of the Distribution is met, the posting to the account combination is replaced by the account combinations of the distribution lines.  The distribution is prorated based on the ratio of the lines. ">Si los criterios de combinación de la cuenta de distribución se resuelven, la fijación a la combinación de cuenta es substituida por las combinaciones de cuenta de las líneas de distribución. La distribución está prorrateada en el cociente de las líneas.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -17110,20 +17110,20 @@ Si usted define una relación aquí, usted sobreescribe el tipo de documento del
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2514" trl="Y">
-		<value column="Name" original="Activity Tree">Actividad Arbol primario</value>
-		<value column="PrintName" original="Activity Tree">Actividad del Arbol</value>
-		<value column="Description" original="Tree to determine activity hierarchy"/>
-		<value column="Help" original="Trees are used for (finanial) reporting"/>
+		<value column="Name" original="Activity Tree">Arbol de Actividad</value>
+		<value column="PrintName" original="Activity Tree">Arbol de Actividad</value>
+		<value column="Description" original="Tree to determine activity hierarchy">Arbol para determinar la jerarquía de actividades</value>
+		<value column="Help" original="Trees are used for (finanial) reporting">Arboles usados para reportes (Financieros)</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2515" trl="Y">
-		<value column="Name" original="Campaign Tree">Campaña Arbol primario</value>
-		<value column="PrintName" original="Campaign Tree">Campaña Arbol primario</value>
-		<value column="Description" original="Tree to determine marketing campaign hierarchy"/>
-		<value column="Help" original="Trees are used for (finanial) reporting"/>
+		<value column="Name" original="Campaign Tree">Arbol de Campaña</value>
+		<value column="PrintName" original="Campaign Tree">Arbol de Campaña</value>
+		<value column="Description" original="Tree to determine marketing campaign hierarchy">Arbol para determinar la jerarquía de campañas</value>
+		<value column="Help" original="Trees are used for (finanial) reporting">Arboles usados para reportes (Financieros)</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -17150,10 +17150,10 @@ Si usted define una relación aquí, usted sobreescribe el tipo de documento del
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2518" trl="Y">
-		<value column="Name" original="Abort Process">Aborta Proceso</value>
-		<value column="PrintName" original="Abort Process">Aborta Proceso</value>
-		<value column="Description" original="Aborts the current process">Aborta el proceso actual.</value>
-		<value column="Help" original="">Abortar el proceso actual.</value>
+		<value column="Name" original="Abort Process">Anula Proceso</value>
+		<value column="PrintName" original="Abort Process">Anula Proceso</value>
+		<value column="Description" original="Aborts the current process">Anula el proceso actual</value>
+		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -18192,8 +18192,8 @@ La secuencia de Ciudad/Región/Postal es determinada con la dirección de format
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2628" trl="Y">
-		<value column="Name" original="Details/Source First">Detalles / Primer Fuente</value>
-		<value column="PrintName" original="Details/Source First">Detalles / Primer Fuente</value>
+		<value column="Name" original="Details/Source First">Listas fuentes primero</value>
+		<value column="PrintName" original="Details/Source First">Listas fuentes primero</value>
 		<value column="Description" original="Details and Sources are printed before the Line">Los detalles y las fuentes se imprimen antes de la línea.</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
@@ -18202,10 +18202,10 @@ La secuencia de Ciudad/Región/Postal es determinada con la dirección de format
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2629" trl="Y">
-		<value column="Name" original="Last Alert">ID de Planeación Mensual</value>
-		<value column="PrintName" original="Last Alert">ID de Planeación Mensual</value>
-		<value column="Description" original="Date when last alert were sent"/>
-		<value column="Help" original="The last alert date is updated when a reminder email is sent"/>
+		<value column="Name" original="Last Alert">Ultima Alerta</value>
+		<value column="PrintName" original="Last Alert">Ultima Alerta</value>
+		<value column="Description" original="Date when last alert were sent">Fecha cuando se envió la última alerta</value>
+		<value column="Help" original="The last alert date is updated when a reminder email is sent">La última fecha de alerta es actualizada cuando un correo de recordatorio se envía</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -18584,9 +18584,9 @@ La secuencia de Ciudad/Región/Postal es determinada con la dirección de format
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2668" trl="Y">
-		<value column="Name" original="Fill Shape">Llene la forma</value>
-		<value column="PrintName" original="Fill Shape">Llene la forma</value>
-		<value column="Description" original="Fill the shape with the color selected">Llene la forma del color seleccionado</value>
+		<value column="Name" original="Fill Shape">Llenar Forma</value>
+		<value column="PrintName" original="Fill Shape">Llenar Forma</value>
+		<value column="Description" original="Fill the shape with the color selected">Llene la forma con el color seleccionado</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -18604,8 +18604,8 @@ La secuencia de Ciudad/Región/Postal es determinada con la dirección de format
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2670" trl="Y">
-		<value column="Name" original="Model Validation Classes">Clases de Validación del modelo</value>
-		<value column="PrintName" original="Model Validation Classes">Clases de Validación del modelo</value>
+		<value column="Name" original="Model Validation Classes">Clases Validación Modelo</value>
+		<value column="PrintName" original="Model Validation Classes">Clases Validación Modelo</value>
 		<value column="Description" original="List of data model validation classes separated by ;">La lista de datos modela las clases de la validación por separado;</value>
 		<value column="Help" original="List of classes implementing the interface org.compiere.model.ModelValidator, separaed by semicolon.&#10;The class is called for the client and alows to validate documents in the prepare stage and monitor model changes.">La lista de las clases que ponían el interfaz en ejecución org.compiere.model.ModelValidator, separados por punto y coma. La clase es llamada para el cliente para validar documentos en la preparación y el modelo del monitor cambia.</value>
 		<value column="PO_Description" original=""/>
@@ -18854,8 +18854,8 @@ Si el patrón del lenguaje no es correcto, porfavor cree una petición en la ayu
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2696" trl="Y">
-		<value column="Name" original="Use User Org Access">El Usuario usa Acceso a Organización</value>
-		<value column="PrintName" original="Use User Org Access">El Usuario usa Acceso a Organización</value>
+		<value column="Name" original="Use User Org Access">Usa acceso org por usuario</value>
+		<value column="PrintName" original="Use User Org Access">Usa acceso a organizacion por usuario</value>
 		<value column="Description" original="Use Org Access defined by user instead of Role Org Access">Utilice el acceso de Org. definido por el usuario en vez del acceso de Org. de rol</value>
 		<value column="Help" original="You can define the access to Organization either by Role or by User.  You would select this, if you have many organizations.">Usted puede definir el acceso a la organización por Rol o por User. Usted seleccionaría esto, si usted tiene muchas organizaciones.</value>
 		<value column="PO_Description" original=""/>
@@ -19784,8 +19784,8 @@ Si usted tiene multiples líneas, un activo es creado por línea.</value>
 	<row id="2794" trl="Y">
 		<value column="Name" original="Confidential Info">Info Confidencial</value>
 		<value column="PrintName" original="Confidential Info">Info Confidencial</value>
-		<value column="Description" original="Can enter confidential information">Puede dar entrada a informacióm confidencial.</value>
-		<value column="Help" original="When entering/updating Requests over the web, the user can mark his info as confidential">Cuando las peticiones entran/puesta al día sobre la Web, el usuario pueden marcar su Información como confidencial.</value>
+		<value column="Description" original="Can enter confidential information">Puede ingresar información confidencial.</value>
+		<value column="Help" original="When entering/updating Requests over the web, the user can mark his info as confidential">Cuando se ingresan solicitudes a través de la webm el usuario puede marcar su información como confidencial.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -19996,7 +19996,7 @@ El Contexto Web Usualmente inicia con / y debe ser un nombre de contexto válido
 		<value column="Help" original="If defined, the warehouse selected is used to replenish the product(s)">Si se define, este almacén será seleccionado para reabastecimiento de producto</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
-		<value column="PO_Name" original="">n seleccionado</value>
+		<value column="PO_Name" original=""/>
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2815" trl="Y">
@@ -20096,7 +20096,7 @@ El Contexto Web Usualmente inicia con / y debe ser un nombre de contexto válido
 	<row id="2824" trl="Y">
 		<value column="Name" original="Copy Overwrite">Copiar Sobreescrbir</value>
 		<value column="PrintName" original="Copy Overwrite">Copiar Sobreescrbir</value>
-		<value column="Description" original="Copy and Overwrite Default Accounts (DANGEROUS!!)">Copia y Sobreescribe Cuentas Predeterminadas (PELIGRO!!)</value>
+		<value column="Description" original="Copy and Overwrite Default Accounts (DANGEROUS!!)">Copia y Sobreescribe Cuentas por Defecto (PELIGRO!!)</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -20546,9 +20546,9 @@ Segmentos contables deseadosm Organizaciones, Cuentas, Productos pueden tener al
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2869" trl="Y">
-		<value column="Name" original="Account Tree">Arbol de Cuentas</value>
-		<value column="PrintName" original="Account Tree">Arbol de Cuentas</value>
-		<value column="Description" original="Tree for Natural Account Tree">Arbol de Cuentas Naturales</value>
+		<value column="Name" original="Account Tree">Arbol de Cuenta</value>
+		<value column="PrintName" original="Account Tree">Arbol de Cuenta</value>
+		<value column="Description" original="Tree for Natural Account Tree">Arbol para Cuentas Naturales</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -20730,10 +20730,10 @@ Ejemplo: si el precio de compra es $100 y la tolerancia es 1 ( porciento), el pr
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="2887" trl="Y">
-		<value column="Name" original="System Issue">Fondos Contabilidad</value>
-		<value column="PrintName" original="System Issue">Edición del Sistema</value>
-		<value column="Description" original="Automatically created or manually entered System Issue">Edición del Sistema Creada Automáticamente o Ingresada Manualmente  </value>
-		<value column="Help" original="System Issues are created to speed up the resolution of any system related issues (potential bugs).  If enabled, they are automatically reported to Adempiere.  No data or confidential information is transferred.">Las ediciónes de  sistema son creadas para acelerar la resolución de cualquier edición relacionada del sistema (errores potenciales). Si es habilitado, serán reportados automáticamente a Adempiere. No se transfiere información confidencial.</value>
+		<value column="Name" original="System Issue">Problema Sistema</value>
+		<value column="PrintName" original="System Issue">Problema Sistema</value>
+		<value column="Description" original="Automatically created or manually entered System Issue">Problema del Sistema creado automáticamente o ingresada manualmente </value>
+		<value column="Help" original="System Issues are created to speed up the resolution of any system related issues (potential bugs).  If enabled, they are automatically reported to Adempiere.  No data or confidential information is transferred.">Los problemas del sistema son creados para acelerar la resolución de cualquier problema relacionado del sistema (errores potenciales). Si es habilitado, serán reportados automáticamente a Adempiere. No se transfiere información confidencial.</value>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
 		<value column="PO_Name" original=""/>
@@ -23439,9 +23439,9 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50065" trl="Y">
-		<value column="Name" original="Allow Negative Posting">Permitir publicación negativa</value>
-		<value column="PrintName" original="Allow Negative Posting">Permitir publicación negativa</value>
-		<value column="Description" original="Allow to post negative accounting values">Permite la publicación de valores negativos de contabilidad.</value>
+		<value column="Name" original="Allow Negative Posting">Permitir contabilización negativa</value>
+		<value column="PrintName" original="Allow Negative Posting">Permitir contabilización negativa</value>
+		<value column="Description" original="Allow to post negative accounting values">Permite la contabilización de valores negativos.</value>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>
 		<value column="PO_Help" original=""/>
@@ -23489,8 +23489,8 @@ El tiempo representa un valor en un tiempo dado (ej Cantidad Facturada en 1/1 ) 
 		<value column="PO_PrintName" original=""/>
 	</row>
 	<row id="50074" trl="Y">
-		<value column="Name" original="Mandatory Logic">Lógica Obligatoria</value>
-		<value column="PrintName" original="Mandatory Logic">Lógica Obligatoria</value>
+		<value column="Name" original="Mandatory Logic">Lógica Obligatorio</value>
+		<value column="PrintName" original="Mandatory Logic">Lógica Obligatorio</value>
 		<value column="Description" original=""/>
 		<value column="Help" original=""/>
 		<value column="PO_Description" original=""/>

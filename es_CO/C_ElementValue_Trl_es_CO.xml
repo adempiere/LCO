@@ -1111,8 +1111,8 @@
 		<value column="Description" original="Temporary accounts - balance should be zero">79--</value>
 	</row>
 	<row id="697" trl="N">
-		<value column="Name" original="Default account">Default account</value>
-		<value column="Description" original="Default Account (if no other account is defined) V1.1">7910-0-</value>
+		<value column="Name" original="Default account">Cuenta por defecto</value>
+		<value column="Description" original="Default Account (if no other account is defined) V1.1">Cuenta por defecto (si ninguna otra cuenta es definida) V1.1</value>
 	</row>
 	<row id="698" trl="N">
 		<value column="Name" original="Suspense balancing">Suspense balancing</value>
