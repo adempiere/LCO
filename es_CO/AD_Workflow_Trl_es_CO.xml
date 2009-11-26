@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--Adempiere(r) 3.5.5g+P20090921_2009-09-15 -Smart Suite ERP,CRM and SCM- (c) 1999-2009 Adempiere (r); Implementation: ADempiere - Supported by ADempiere community-->
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--ADempiere(r) Release 3.5.4a_2009-09-15 -Smart Suite ERP,CRM and SCM- (c) 1999-2009 ADempiere(r); Implementation: ADempiere - Supported by ADempiere community-->
 <!--<!DOCTYPE adempiereTrl PUBLIC "-//ComPiere, Inc.//DTD Adempiere Translation 1.0//EN" "http://www.adempiere.com/dtd/adempiereTrl.dtd">-->
 <adempiereTrl language="es_CO" table="AD_Workflow">
 	<row id="101" trl="Y">
@@ -40,25 +40,25 @@
 	<row id="109" trl="Y">
 		<value column="Name" original="Replication Setup">Configuración de Replicación</value>
 		<value column="Description" original="Setup of data replication">Configuración de replicación de datos</value>
-		<value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- setup system with all organizations, roles, etc.&lt;br&gt;&#10;- run the migration to make sure that it is up-to-date&lt;br&gt;&#10;- export the central system&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&#10;- install the exact version as Central System&lt;br&gt;&#10;- import data from Central System in the remote locations&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&#10;- Define Replication per Remote&lt;br&gt;&#10;- Make sure that the ID range is unique per remote - otherwise you will loose transactions!&lt;br&gt;&#10;- Initially Start the Replication Run to setup Remote&#10;&lt;p&gt;&#10;** Enter Transactions **&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- Start the Replication Run when required">La replicación de datos le permite sincronizar datos de instancias remotas con una oficina central.  Todas las acciones son inicializadas desde la oficina central.&lt;p&gt;
-&lt;b&gt;Sistema Central:&lt;/b&gt;&lt;br&gt;
-- configurar el sistema con todas las organizaciones, ROLES, etc.&lt;br&gt;
-- correr la migración para asegurar que todo esté actualizado&lt;br&gt;
+		<value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- setup system with all organizations, roles, etc.&lt;br&gt;&#10;- run the migration to make sure that it is up-to-date&lt;br&gt;&#10;- export the central system&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&#10;- install the exact version as Central System&lt;br&gt;&#10;- import data from Central System in the remote locations&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&#10;- Define Replication per Remote&lt;br&gt;&#10;- Make sure that the ID range is unique per remote - otherwise you will loose transactions!&lt;br&gt;&#10;- Initially Start the Replication Run to setup Remote&#10;&lt;p&gt;&#10;** Enter Transactions **&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- Start the Replication Run when required"><![CDATA[La replicación de datos le permite sincronizar datos de instancias remotas con una oficina central.  Todas las acciones son inicializadas desde la oficina central.<p>
+<b>Sistema Central:</b><br>
+- configurar el sistema con todas las organizaciones, ROLES, etc.<br>
+- correr la migración para asegurar que todo esté actualizado<br>
 - exportar el sistema central
-&lt;p&gt;
-&lt;b&gt;Sistema Remoto:&lt;/b&gt;
-- instalar la versión exacta como en el sistema central&lt;br&gt;
+<p>
+<b>Sistema Remoto:</b>
+- instalar la versión exacta como en el sistema central<br>
 - importar datos del sistema central en las localizaciones remotas
-&lt;p&gt;
-&lt;b&gt;Sistema Central:&lt;/b&gt;
-- Definir Replicación por cada Remoto&lt;br&gt;
-- Asegurarse que el rango de IDs es único por remoto - de lo contrario se perderán transacciones!&lt;br&gt;
+<p>
+<b>Sistema Central:</b>
+- Definir Replicación por cada Remoto<br>
+- Asegurarse que el rango de IDs es único por remoto - de lo contrario se perderán transacciones!<br>
 - Inicialmente empezar la ejecución de replicación para fijar el Remoto
-&lt;p&gt;
+<p>
 ** Ingresar Transacciones **
-&lt;p&gt;
-&lt;b&gt;Sistema Central:&lt;/b&gt;&lt;br&gt;
-- Empezar la ejecución de replicación cuando se requiera</value>
+<p>
+<b>Sistema Central:</b><br>
+- Empezar la ejecución de replicación cuando se requiera]]></value>
 	</row>
 	<row id="110" trl="Y">
 		<value column="Name" original="Tax Setup">Definición de Impuestos</value>
@@ -181,9 +181,9 @@
 		<value column="Help" original="This workflow defines the Manufacturing Workflow  Setup">This workflow defines the Manufacturing Workflow  Setup</value>
 	</row>
 	<row id="50002" trl="N">
-		<value column="Name" original="Bill of Material &amp; Formula Setup">Bill of Material &amp; Formula Setup</value>
-		<value column="Description" original="Setup Bill of Material &amp; Formula">Setup Bill of Material &amp; Formula</value>
-		<value column="Help" original="This workflow defines the Bill of Material &amp; Formula">This workflow defines the Bill of Material &amp; Formula</value>
+		<value column="Name" original="Bill of Material &amp; Formula Setup"><![CDATA[Bill of Material & Formula Setup]]></value>
+		<value column="Description" original="Setup Bill of Material &amp; Formula"><![CDATA[Setup Bill of Material & Formula]]></value>
+		<value column="Help" original="This workflow defines the Bill of Material &amp; Formula"><![CDATA[This workflow defines the Bill of Material & Formula]]></value>
 	</row>
 	<row id="50003" trl="N">
 		<value column="Name" original="Planning Management Setup">Planning Management Setup</value>
@@ -246,26 +246,26 @@ If you cannot cover the MPS as you had planned, this module gives you informatio
 	<row id="50012" trl="N">
 		<value column="Name" original="Setup Replication">Setup Replication</value>
 		<value column="Description" original="Setup of data replication">Setup of data replication</value>
-		<value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- setup system with all organizations, roles, etc.&lt;br&gt;&#10;- run the migration to make sure that it is up-to-date&lt;br&gt;&#10;- export the central system&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&#10;- install the exact version as Central System&lt;br&gt;&#10;- import data from Central System in the remote locations&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&#10;- Replication Strategy&lt;br&gt;&#10;- Define Export Format&lt;br&gt;&#10;- Config Export Processor&lt;br&gt;&#10;- Start JMS Server&lt;br&gt;&#10;&lt;p&gt;&#10;** Enter Transactions **&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&lt;br&gt;&#10;- Config Import Processor&lt;br&gt;">Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;
-&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;
-- setup system with all organizations, roles, etc.&lt;br&gt;
-- run the migration to make sure that it is up-to-date&lt;br&gt;
-- export the central system&lt;br&gt;
-&lt;p&gt;
-&lt;b&gt;Remote System:&lt;/b&gt;
-- install the exact version as Central System&lt;br&gt;
-- import data from Central System in the remote locations&lt;br&gt;
-&lt;p&gt;
-&lt;b&gt;Central System:&lt;/b&gt;
-- Replication Strategy&lt;br&gt;
-- Define Export Format&lt;br&gt;
-- Config Export Processor&lt;br&gt;
-- Start JMS Server&lt;br&gt;
-&lt;p&gt;
+		<value column="Help" original="Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&lt;br&gt;&#10;- setup system with all organizations, roles, etc.&lt;br&gt;&#10;- run the migration to make sure that it is up-to-date&lt;br&gt;&#10;- export the central system&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&#10;- install the exact version as Central System&lt;br&gt;&#10;- import data from Central System in the remote locations&lt;br&gt;&#10;&lt;p&gt;&#10;&lt;b&gt;Central System:&lt;/b&gt;&#10;- Replication Strategy&lt;br&gt;&#10;- Define Export Format&lt;br&gt;&#10;- Config Export Processor&lt;br&gt;&#10;- Start JMS Server&lt;br&gt;&#10;&lt;p&gt;&#10;** Enter Transactions **&#10;&lt;p&gt;&#10;&lt;b&gt;Remote System:&lt;/b&gt;&lt;br&gt;&#10;- Config Import Processor&lt;br&gt;"><![CDATA[Data Replication allows you to synchronize data of remote instances with a central office.  All actions are initialized from the central office.<p>
+<b>Central System:</b><br>
+- setup system with all organizations, roles, etc.<br>
+- run the migration to make sure that it is up-to-date<br>
+- export the central system<br>
+<p>
+<b>Remote System:</b>
+- install the exact version as Central System<br>
+- import data from Central System in the remote locations<br>
+<p>
+<b>Central System:</b>
+- Replication Strategy<br>
+- Define Export Format<br>
+- Config Export Processor<br>
+- Start JMS Server<br>
+<p>
 ** Enter Transactions **
-&lt;p&gt;
-&lt;b&gt;Remote System:&lt;/b&gt;&lt;br&gt;
-- Config Import Processor&lt;br&gt;</value>
+<p>
+<b>Remote System:</b><br>
+- Config Import Processor<br>]]></value>
 	</row>
 	<row id="50013" trl="Y">
 		<value column="Name" original="Process_Payroll">Proceso Nómina</value>

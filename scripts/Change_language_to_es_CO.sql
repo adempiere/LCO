@@ -103,4 +103,17 @@ UPDATE W_STORE_TRL SET AD_LANGUAGE='es_CO' WHERE AD_LANGUAGE='es_MX';
 -- Table C_Charge_Trl added in 2009-04-17, this command will show error in 3.4.2s
 UPDATE C_CHARGE_TRL SET AD_LANGUAGE='es_CO' WHERE AD_LANGUAGE='es_MX';
 
+-- Tables PP added in manufacturing, these commands will show errors in 3.4.2s
+UPDATE pp_order_bom_trl SET AD_LANGUAGE='es_CO' WHERE AD_LANGUAGE='es_MX';
+
+UPDATE pp_order_bomline_trl SET AD_LANGUAGE='es_CO' WHERE AD_LANGUAGE='es_MX';
+
+UPDATE pp_order_node_trl SET AD_LANGUAGE='es_CO' WHERE AD_LANGUAGE='es_MX';
+
+UPDATE pp_order_workflow_trl SET AD_LANGUAGE='es_CO' WHERE AD_LANGUAGE='es_MX';
+
+UPDATE pp_product_bom_trl SET AD_LANGUAGE='es_CO' WHERE AD_LANGUAGE='es_MX';
+
+UPDATE pp_product_bomline_trl SET AD_LANGUAGE='es_CO' WHERE AD_LANGUAGE='es_MX';
+
 -- COMMIT;

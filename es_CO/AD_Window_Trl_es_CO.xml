@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--Adempiere(r) 3.5.5g+P20090921_2009-09-15 -Smart Suite ERP,CRM and SCM- (c) 1999-2009 Adempiere (r); Implementation: ADempiere - Supported by ADempiere community-->
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--ADempiere(r) Release 3.5.4a_2009-09-15 -Smart Suite ERP,CRM and SCM- (c) 1999-2009 ADempiere(r); Implementation: ADempiere - Supported by ADempiere community-->
 <!--<!DOCTYPE adempiereTrl PUBLIC "-//ComPiere, Inc.//DTD Adempiere Translation 1.0//EN" "http://www.adempiere.com/dtd/adempiereTrl.dtd">-->
 <adempiereTrl language="es_CO" table="AD_Window">
 	<row id="100" trl="Y">
@@ -796,8 +796,8 @@ Tenga en cuenta que el acceso a la información está en caché y requiere volve
 	<row id="284" trl="Y">
 		<value column="Name" original="Replication">Replicación</value>
 		<value column="Description" original="Maintain Data Replication Targets">Mantener los destinos de replicación de datos</value>
-		<value column="Help" original="Data Replication Target Details. Set up your system completely on the central system, before setting up the replication. Define the Replication target here and export the database and import it on the remote system.&lt;p&gt;&#10;Before(!) entering transactions, Start the Replication Run to set up the remote system.">Detalles de la tarjeta de la réplica de los datos. Instale su sistema totalmente en el sistema central, antes de la creación de réplica. Defina la tarjeta de la réplica aquí y exporte la base de datos e impórtela en el alejado system.&lt;p &gt;
-Antes(!) incorporando transacciones, comience la réplica funcionada al sistema para arriba el sistema alejado.</value>
+		<value column="Help" original="Data Replication Target Details. Set up your system completely on the central system, before setting up the replication. Define the Replication target here and export the database and import it on the remote system.&lt;p&gt;&#10;Before(!) entering transactions, Start the Replication Run to set up the remote system."><![CDATA[Detalles de la tarjeta de la réplica de los datos. Instale su sistema totalmente en el sistema central, antes de la creación de réplica. Defina la tarjeta de la réplica aquí y exporte la base de datos e impórtela en el alejado system.<p >
+Antes(!) incorporando transacciones, comience la réplica funcionada al sistema para arriba el sistema alejado.]]></value>
 	</row>
 	<row id="285" trl="Y">
 		<value column="Name" original="Replication Strategy">Estrategia de Replicación</value>
@@ -1388,8 +1388,8 @@ A Specific production facility consisting of one or more people and/or machines 
 		<value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.</value>
 	</row>
 	<row id="53006" trl="N">
-		<value column="Name" original="Bill of Materials &amp; Formula ">Bill of Materials &amp; Formula </value>
-		<value column="Description" original="Maintain Product Bill of Materials &amp; Formula ">Maintain Product Bill of Materials &amp; Formula </value>
+		<value column="Name" original="Bill of Materials &amp; Formula "><![CDATA[Bill of Materials & Formula ]]></value>
+		<value column="Description" original="Maintain Product Bill of Materials &amp; Formula "><![CDATA[Maintain Product Bill of Materials & Formula ]]></value>
 		<value column="Help" original="It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called &quot;formula&quot;, &quot;recipe&quot;, &quot;ingredients list&quot; in certain industries.&#10;It answers the question, what are the components of the product?">It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called formula, recipe, ingredients list in certain industries.
 
 It answers the question, what are the components of the product?</value>
