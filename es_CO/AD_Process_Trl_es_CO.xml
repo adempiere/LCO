@@ -995,7 +995,7 @@ Si está funcionando para el sistema, todos los roles de todos los clientes son 
   <value column="Help" original="Try to allocate invoices to payments for a business partner or group.  You may want to reset existing allocations first.&lt;br&gt;&#10;The allocation is based on (1) payments entered with reference to invoices (2) payment selections (3) business partner balance (4) matching amount of invoice &amp; payment.  Allocation is based on exact amount and includes AP/AR imvoices/payments.&lt;br&gt;&#10;Optionally as (5), you can enable to allocate payments to the oldest invoice. In this case, there might be an unallocated amount remaining.">Asignar facturas a los pagos para un Tercero o un Grupo de Terceros. Usted puede restaurar asignaciones existentes primero.</value>
  </row>
  <row id="303" trl="Y">
-  <value column="Name" original="Reset Allocation">Asignación (Restaura)</value>
+  <value column="Name" original="Reset Allocation">Asignación (Reinicia)</value>
   <value column="Description" original="Reset (delete) allocation of invoices to payments">Reinicia (Borra) Asignación automática de facturas a los pagos</value>
   <value column="Help" original="Delete Allocations for a business partner or business partner group, accounting date range or individual allocation. In contrast to &quot;Void&quot; in &quot;View Allocation&quot;, the allocation is deleted (no trace), if the period is open.">Borra Asignaciones para un Tercero o para un Grupo de Terceros</value>
  </row>
@@ -1006,7 +1006,7 @@ Si está funcionando para el sistema, todos los roles de todos los clientes son 
  </row>
  <row id="305" trl="Y">
   <value column="Name" original="Document Value based Workflows">El valor del documento basado en Flujos de Trabajo</value>
-  <value column="Description" original="*** DO NOT MODIFY ***">*** NO SE MODIFIQUE ***</value>
+  <value column="Description" original="*** DO NOT MODIFY ***">*** NO MODIFICAR ***</value>
   <value column="Help" original=""/>
  </row>
  <row id="306" trl="Y">

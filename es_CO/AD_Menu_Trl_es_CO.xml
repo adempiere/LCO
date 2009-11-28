@@ -1451,7 +1451,7 @@
   <value column="Description" original="Update the access rights of a role or roles of a client">Actualizar las reglas de acceso de un rol o roles de un cliente.</value>
  </row>
  <row id="496" trl="Y">
-  <value column="Name" original="Reset Allocation">Asignación (Restaura)</value>
+  <value column="Name" original="Reset Allocation">Asignación (Reinicia)</value>
   <value column="Description" original="Reset (delete) allocation of invoices to payments">Reinicia (Borra) Asignación automática de facturas a los pagos</value>
  </row>
  <row id="497" trl="Y">

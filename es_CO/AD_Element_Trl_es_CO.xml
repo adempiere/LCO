@@ -6916,29 +6916,29 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1387" trl="Y">
-  <value column="Name" original="Charge Expense">Cargo Gastos</value>
-  <value column="PrintName" original="Charge Expense">Cargo Gastos</value>
-  <value column="Description" original="Charge Expense Account">Cuenta cargo gastos</value>
-  <value column="Help" original="The Charge Expense Account identifies the account to use when recording charges paid to vendors.">La cuenta de otros gastos identifica la cuenta a usar cuando se registran cargos pagados a proveedores.</value>
+  <value column="Name" original="Charge Expense">Cargo Gasto</value>
+  <value column="PrintName" original="Charge Expense">Cargo Gasto</value>
+  <value column="Description" original="Charge Expense Account">Cuenta gasto para el cargo</value>
+  <value column="Help" original="The Charge Expense Account identifies the account to use when recording charges paid to vendors.">La cuenta de gasto para el cargo identifica la cuenta a usar cuando se registran cargos pagados a proveedores.</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1388" trl="Y">
-  <value column="Name" original="Charge Revenue">Cuenta Abono</value>
-  <value column="PrintName" original="Charge Revenue">Otros Ingresos</value>
-  <value column="Description" original="Charge Revenue Account">Cuenta de otros ingresos</value>
-  <value column="Help" original="The Charge Revenue Account identifies the account to use when recording charges paid by customers.">La cuenta de otros ingresos identifica la cuenta a usar cuando se registran cargos pagados por los clientes</value>
+  <value column="Name" original="Charge Revenue">Cargo Ingreso</value>
+  <value column="PrintName" original="Charge Revenue">Cargo Ingreso</value>
+  <value column="Description" original="Charge Revenue Account">Cuenta de ingreso para el cargo</value>
+  <value column="Help" original="The Charge Revenue Account identifies the account to use when recording charges paid by customers.">La cuenta de ingreso para el cargo dentifica la cuenta a usar cuando se registran cargos pagados por los clientes</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1389" trl="Y">
-  <value column="Name" original="Check No">No. de Cheque</value>
-  <value column="PrintName" original="Check No">No. de Cheque</value>
-  <value column="Description" original="Check Number">No. de Cheque</value>
+  <value column="Name" original="Check No">No. Cheque</value>
+  <value column="PrintName" original="Check No">No. Cheque</value>
+  <value column="Description" original="Check Number">No. Cheque</value>
   <value column="Help" original="The Check Number indicates the number on the check.">El Número de Cheque indica el número en el cheque</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -6946,8 +6946,8 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1393" trl="Y">
-  <value column="Name" original="Verification Code">Verificación de Tarjeta de Crédito</value>
-  <value column="PrintName" original="Verification">Verificación de Tarjeta de Crédito</value>
+  <value column="Name" original="Verification Code">Código Verificación</value>
+  <value column="PrintName" original="Verification">Verificación</value>
   <value column="Description" original="Credit Card Verification code on credit card">Código de verificación en la tarjeta de crédito</value>
   <value column="Help" original="The Credit Card Verification indicates the verification code on the credit card (AMEX 4 digits on front; MC,Visa 3 digits back)">La verificación de la tarjeta de crédito indica el código de verificación en la tarjeta de crédito (AMEX 4 digitos en frente; MC;Visa 3 digitos)</value>
   <value column="PO_Description" original=""/>
@@ -6966,9 +6966,9 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1395" trl="Y">
-  <value column="Name" original="Discount Amount">Total del Descuento</value>
-  <value column="PrintName" original="Discount">Total del Descuento</value>
-  <value column="Description" original="Calculated amount of discount">Total de descuento calculado</value>
+  <value column="Name" original="Discount Amount">Total Descuento</value>
+  <value column="PrintName" original="Discount">Total Descuento</value>
+  <value column="Description" original="Calculated amount of discount">Total descuento calculado</value>
   <value column="Help" original="The Discount Amount indicates the discount amount for a document or line.">El Total descuento indica el total de descuento para un documento o línea</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
@@ -12116,20 +12116,20 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1983" trl="Y">
-  <value column="Name" original="List Sources">Lista de Fuentes</value>
-  <value column="PrintName" original="List Sources">Lista de Fuentes</value>
-  <value column="Description" original="List Report Line Sources">Informe de la lista de líneas de entrada</value>
-  <value column="Help" original="List the Source Accounts for Summary Accounts selected">Lista también las fuentes de la línea del informe</value>
+  <value column="Name" original="List Sources">Lista Fuentes</value>
+  <value column="PrintName" original="List Sources">Lista Fuentes</value>
+  <value column="Description" original="List Report Line Sources">Lista las líneas fuente del reporte</value>
+  <value column="Help" original="List the Source Accounts for Summary Accounts selected">Lista las cuentas fuente para las cuentas totales seleccionadas</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1984" trl="Y">
-  <value column="Name" original="List Transactions">Lista de Transacciones</value>
-  <value column="PrintName" original="List Trx">Lista de Transacciones</value>
-  <value column="Description" original="List the report transactions">Lista de informes de transacciones</value>
-  <value column="Help" original="List the transactions of the report source lines">Enumera la transacción de las líneas fuente del informe</value>
+  <value column="Name" original="List Transactions">Lista Transacciones</value>
+  <value column="PrintName" original="List Trx">Lista Transacciones</value>
+  <value column="Description" original="List the report transactions">Lista el reporte de transaccciones</value>
+  <value column="Help" original="List the transactions of the report source lines">Lista las transacciones de las líneas fuente del reporte</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -12256,8 +12256,8 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1998" trl="Y">
-  <value column="Name" original="Discount Date">F. Descuento</value>
-  <value column="PrintName" original="Discount Date">F. Descuento</value>
+  <value column="Name" original="Discount Date">Fecha Descuento</value>
+  <value column="PrintName" original="Discount Date">Fecha Descuento</value>
   <value column="Description" original="Last Date for payments with discount">Última fecha para pagos con descuentos</value>
   <value column="Help" original="Last Date where a deduction of the payment discount is allowed">La fecha pasada donde una deducción del descuento de pago se permite.</value>
   <value column="PO_Description" original=""/>
@@ -29015,206 +29015,6 @@ Credit Work in Process Account </value>
   <value column="Name" original="Is Statement">Is Statement</value>
   <value column="PrintName" original="Is Statement">Is Statement</value>
   <value column="Description" original="Dunning Level is a definition of a statement">Dunning Level is a definition of a statement</value>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000000" trl="N">
-  <value column="Name" original="AdminUserName">AdminUserName</value>
-  <value column="PrintName" original="Administrative User Name">Administrative User Name</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000001" trl="N">
-  <value column="Name" original="CityName">CityName</value>
-  <value column="PrintName" original="City Name">City Name</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000002" trl="N">
-  <value column="Name" original="ClientName">ClientName</value>
-  <value column="PrintName" original="Client Name">Client Name</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000003" trl="N">
-  <value column="Name" original="CoAFile">CoAFile</value>
-  <value column="PrintName" original="Chart of Accounts File">Chart of Accounts File</value>
-  <value column="Description" original="Location of the chart of accounts to be used with this client.  At this stage just the default accounts will be created.">Location of the chart of accounts to be used with this client.  At this stage just the default accounts will be created.</value>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000004" trl="N">
-  <value column="Name" original="Force">Force</value>
-  <value column="PrintName" original="Force">Force</value>
-  <value column="Description" original="Force rebuild of cube even if locked.">Force rebuild of cube even if locked.</value>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000005" trl="N">
-  <value column="Name" original="From_C_BankAccount_ID">From_C_BankAccount_ID</value>
-  <value column="PrintName" original="Bank Account From">Bank Account From</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000006" trl="N">
-  <value column="Name" original="IsGenerateFields">IsGenerateFields</value>
-  <value column="PrintName" original="Generate Fields">Generate Fields</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000007" trl="N">
-  <value column="Name" original="IsPrintPackingList">IsPrintPackingList</value>
-  <value column="PrintName" original="Is Print Pack &amp; Tools List"><![CDATA[Is Print Pack & Tools List]]></value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000008" trl="N">
-  <value column="Name" original="IsPrintPickList">IsPrintPickList</value>
-  <value column="PrintName" original="Is Print Pick List">Is Print Pick List</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000009" trl="N">
-  <value column="Name" original="IsPrintWorkflow">IsPrintWorkflow</value>
-  <value column="PrintName" original="Is Print Workflow">Is Print Workflow</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000010" trl="N">
-  <value column="Name" original="IsUseBPDimension">IsUseBPDimension</value>
-  <value column="PrintName" original="BP Accounting">BP Accounting</value>
-  <value column="Description" original="Use BP accounting dimension">Use BP accounting dimension</value>
-  <value column="Help" original="Define if this client will use business partner accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use business partner accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000011" trl="N">
-  <value column="Name" original="IsUseCampaignDimension">IsUseCampaignDimension</value>
-  <value column="PrintName" original="Campaign Accounting">Campaign Accounting</value>
-  <value column="Description" original="Use Campaign accounting dimension">Use Campaign accounting dimension</value>
-  <value column="Help" original="Define if this client will use campaign accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use campaign accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000012" trl="N">
-  <value column="Name" original="IsUseProductDimension">IsUseProductDimension</value>
-  <value column="PrintName" original="Product Accounting">Product Accounting</value>
-  <value column="Description" original="Use Product accounting dimension">Use Product accounting dimension</value>
-  <value column="Help" original="Define if this client will use product accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use product accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000013" trl="N">
-  <value column="Name" original="IsUseProjectDimension">IsUseProjectDimension</value>
-  <value column="PrintName" original="Project Accounting">Project Accounting</value>
-  <value column="Description" original="Use Project accounting dimension">Use Project accounting dimension</value>
-  <value column="Help" original="Define if this client will use project accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use project accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000014" trl="N">
-  <value column="Name" original="IsUseSalesRegionDimension">IsUseSalesRegionDimension</value>
-  <value column="PrintName" original="Sales Region Accounting">Sales Region Accounting</value>
-  <value column="Description" original="Use Sales Region accounting dimension">Use Sales Region accounting dimension</value>
-  <value column="Help" original="Define if this client will use sales region accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use sales region accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000015" trl="N">
-  <value column="Name" original="NormalUserName">NormalUserName</value>
-  <value column="PrintName" original="Normal User Name">Normal User Name</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000016" trl="N">
-  <value column="Name" original="PriceList_Version_ID">PriceList_Version_ID</value>
-  <value column="PrintName" original="Purchase Price List Version">Purchase Price List Version</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000017" trl="N">
-  <value column="Name" original="Reset">Reset</value>
-  <value column="PrintName" original="Full rebuild">Full rebuild</value>
-  <value column="Description" original="Delete all existing summary data and recalculate.">Delete all existing summary data and recalculate.</value>
-  <value column="Help" original="If not selected, only those periods with recently posted accounting facts will be recalculated.">If not selected, only those periods with recently posted accounting facts will be recalculated.</value>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000018" trl="N">
-  <value column="Name" original="ScriptsPath">ScriptsPath</value>
-  <value column="PrintName" original="Scripts Path">Scripts Path</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000019" trl="N">
-  <value column="Name" original="To_C_BankAccount_ID">To_C_BankAccount_ID</value>
-  <value column="PrintName" original="Bank Account To">Bank Account To</value>
-  <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>

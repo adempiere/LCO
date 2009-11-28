@@ -1498,7 +1498,7 @@
   <value column="Name" original="Cost Of Production">Cost Of Production</value>
   <value column="Description" original="Cost Of Production Account">Cost Of Production Account</value>
  </row>
- <row id="50011" trl="Y">
+ <row id="50011" trl="N">
   <value column="Name" original="Outside Processing (Subcontract)">Outside Processing (Subcontract)</value>
   <value column="Description" original="Outside Processing Account">Outside Processing Account</value>
  </row>
