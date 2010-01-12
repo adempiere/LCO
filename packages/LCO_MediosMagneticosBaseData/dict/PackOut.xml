@@ -34,7 +34,7 @@
 	</data>
 	<data>
 		<dtable name="LCO_ConversionCode">
-			<drow name="" key1name="LCO_Conversion_ID" lookupkey1name="(SELECT LCO_Conversion_ID FROM LCO_Conversion WHERE value='DIAN_Country')" key2name="InternalCode" lookupkey2name="'156'">
+			<drow name="" key1name="LCO_Conversion_ID" lookupkey1name="(SELECT LCO_Conversion_ID FROM LCO_Conversion WHERE value='DIAN_Country' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="InternalCode" lookupkey2name="'156'">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="LCO_Conversion_ID" class="Table Direct" lookupvalue="DIAN_Country"/>
@@ -261,7 +261,7 @@
 	</data>
 	<data>
 		<dtable name="LCO_DIAN_ConceptSource">
-			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2302')" key2name="CalcColumnPosition" lookupkey2name="2">
+			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2302' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="CalcColumnPosition" lookupkey2name="2">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="C_ElementValue_ID" class="Table Direct" lookupvalue="21610"/>
 				<!-- Colombia = 236540 -->
@@ -270,7 +270,7 @@
 				<dcolumn name="LCO_DIAN_Concept_ID" class="Table Direct" lookupvalue="2302"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="2"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2302')" key2name="CalcColumnPosition" lookupkey2name="1">
+			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2302' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="CalcColumnPosition" lookupkey2name="1">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="C_ElementValue_ID" class="Table Direct" lookupvalue="21610"/>
 				<!-- Colombia = 236540 -->
@@ -279,7 +279,7 @@
 				<dcolumn name="LCO_DIAN_Concept_ID" class="Table Direct" lookupvalue="2302"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="1"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2304')" key2name="CalcColumnPosition" lookupkey2name="2">
+			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2304' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="CalcColumnPosition" lookupkey2name="2">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="C_ElementValue_ID" class="Table Direct" lookupvalue="21620"/>
 				<!-- Colombia = 236515 -->
@@ -288,7 +288,7 @@
 				<dcolumn name="LCO_DIAN_Concept_ID" class="Table Direct" lookupvalue="2304"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="2"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2304')" key2name="CalcColumnPosition" lookupkey2name="1">
+			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2304' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="CalcColumnPosition" lookupkey2name="1">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="C_ElementValue_ID" class="Table Direct" lookupvalue="21620"/>
 				<!-- Colombia = 236515 -->
@@ -297,7 +297,7 @@
 				<dcolumn name="LCO_DIAN_Concept_ID" class="Table Direct" lookupvalue="2304"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="1"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2305')" key2name="CalcColumnPosition" lookupkey2name="2">
+			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2305' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="CalcColumnPosition" lookupkey2name="2">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="C_ElementValue_ID" class="Table Direct" lookupvalue="12610"/>
 				<!-- Colombia = 236525 -->
@@ -306,7 +306,7 @@
 				<dcolumn name="LCO_DIAN_Concept_ID" class="Table Direct" lookupvalue="2305"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="2"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2305')" key2name="CalcColumnPosition" lookupkey2name="1">
+			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2305' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="CalcColumnPosition" lookupkey2name="1">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="C_ElementValue_ID" class="Table Direct" lookupvalue="12610"/>
 				<!-- Colombia = 236525 -->
@@ -315,7 +315,7 @@
 				<dcolumn name="LCO_DIAN_Concept_ID" class="Table Direct" lookupvalue="2305"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="1"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2306')" key2name="CalcColumnPosition" lookupkey2name="2">
+			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2306' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="CalcColumnPosition" lookupkey2name="2">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="C_ElementValue_ID" class="Table Direct" lookupvalue="12620"/>
 				<!-- Colombia = 236530 -->
@@ -324,7 +324,7 @@
 				<dcolumn name="LCO_DIAN_Concept_ID" class="Table Direct" lookupvalue="2306"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="2"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2306')" key2name="CalcColumnPosition" lookupkey2name="1">
+			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2306' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="CalcColumnPosition" lookupkey2name="1">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="C_ElementValue_ID" class="Table Direct" lookupvalue="12620"/>
 				<!-- Colombia = 236530 -->
@@ -371,25 +371,25 @@
 	</data>
 	<data>
 		<dtable name="LCO_DIAN_ConceptFormat">
-			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2302')" key2name="LCO_DIAN_Format_ID" lookupkey2name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')">
+			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2302' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="LCO_DIAN_Format_ID" lookupkey2name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="LCO_DIAN_Concept_ID" class="Table" lookupvalue="2302"/>
 				<dcolumn name="LCO_DIAN_Format_ID" class="Table" lookupvalue="1002"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2304')" key2name="LCO_DIAN_Format_ID" lookupkey2name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')">
+			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2304' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="LCO_DIAN_Format_ID" lookupkey2name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="LCO_DIAN_Concept_ID" class="Table" lookupvalue="2304"/>
 				<dcolumn name="LCO_DIAN_Format_ID" class="Table" lookupvalue="1002"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2305')" key2name="LCO_DIAN_Format_ID" lookupkey2name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')">
+			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2305' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="LCO_DIAN_Format_ID" lookupkey2name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="LCO_DIAN_Concept_ID" class="Table" lookupvalue="2305"/>
 				<dcolumn name="LCO_DIAN_Format_ID" class="Table" lookupvalue="1002"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2306')" key2name="LCO_DIAN_Format_ID" lookupkey2name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')">
+			<drow name="" key1name="LCO_DIAN_Concept_ID" lookupkey1name="(SELECT LCO_DIAN_Concept_ID FROM LCO_DIAN_Concept WHERE value='2306' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="LCO_DIAN_Format_ID" lookupkey2name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
 				<dcolumn name="LCO_DIAN_Concept_ID" class="Table" lookupvalue="2306"/>
@@ -399,7 +399,7 @@
 	</data>
 	<data>
 		<dtable name="LCO_DIAN_FieldFormat">
-			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')" key2name="Line" lookupkey2name="10">
+			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="Line" lookupkey2name="10">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
@@ -407,7 +407,7 @@
 				<dcolumn name="Line" class="Integer" value="10"/>
 				<dcolumn name="LCO_DIAN_XMLPrintLabel_ID" class="Table" lookupvalue="cpt"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')" key2name="Line" lookupkey2name="20">
+			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="Line" lookupkey2name="20">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
@@ -415,7 +415,7 @@
 				<dcolumn name="Line" class="Integer" value="20"/>
 				<dcolumn name="LCO_DIAN_XMLPrintLabel_ID" class="Table" lookupvalue="tdoc"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')" key2name="Line" lookupkey2name="30">
+			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="Line" lookupkey2name="30">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
@@ -423,7 +423,7 @@
 				<dcolumn name="Line" class="Integer" value="30"/>
 				<dcolumn name="LCO_DIAN_XMLPrintLabel_ID" class="Table" lookupvalue="nid"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')" key2name="Line" lookupkey2name="40">
+			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="Line" lookupkey2name="40">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
@@ -431,7 +431,7 @@
 				<dcolumn name="Line" class="Integer" value="40"/>
 				<dcolumn name="LCO_DIAN_XMLPrintLabel_ID" class="Table" lookupvalue="dv"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')" key2name="Line" lookupkey2name="50">
+			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="Line" lookupkey2name="50">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
@@ -439,7 +439,7 @@
 				<dcolumn name="Line" class="Integer" value="50"/>
 				<dcolumn name="LCO_DIAN_XMLPrintLabel_ID" class="Table" lookupvalue="apl1"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')" key2name="Line" lookupkey2name="60">
+			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="Line" lookupkey2name="60">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
@@ -447,7 +447,7 @@
 				<dcolumn name="Line" class="Integer" value="60"/>
 				<dcolumn name="LCO_DIAN_XMLPrintLabel_ID" class="Table" lookupvalue="apl2"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')" key2name="Line" lookupkey2name="70">
+			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="Line" lookupkey2name="70">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
@@ -455,7 +455,7 @@
 				<dcolumn name="Line" class="Integer" value="70"/>
 				<dcolumn name="LCO_DIAN_XMLPrintLabel_ID" class="Table" lookupvalue="nom1"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')" key2name="Line" lookupkey2name="80">
+			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="Line" lookupkey2name="80">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
@@ -463,7 +463,7 @@
 				<dcolumn name="Line" class="Integer" value="80"/>
 				<dcolumn name="LCO_DIAN_XMLPrintLabel_ID" class="Table" lookupvalue="nom2"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')" key2name="Line" lookupkey2name="90">
+			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="Line" lookupkey2name="90">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
@@ -471,7 +471,7 @@
 				<dcolumn name="Line" class="Integer" value="90"/>
 				<dcolumn name="LCO_DIAN_XMLPrintLabel_ID" class="Table" lookupvalue="raz"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')" key2name="Line" lookupkey2name="100">
+			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="Line" lookupkey2name="100">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
@@ -479,7 +479,7 @@
 				<dcolumn name="Line" class="Integer" value="100"/>
 				<dcolumn name="LCO_DIAN_XMLPrintLabel_ID" class="Table" lookupvalue="dir"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')" key2name="Line" lookupkey2name="110">
+			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="Line" lookupkey2name="110">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
@@ -487,7 +487,7 @@
 				<dcolumn name="Line" class="Integer" value="110"/>
 				<dcolumn name="LCO_DIAN_XMLPrintLabel_ID" class="Table" lookupvalue="dpto"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')" key2name="Line" lookupkey2name="120">
+			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="Line" lookupkey2name="120">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
@@ -495,7 +495,7 @@
 				<dcolumn name="Line" class="Integer" value="120"/>
 				<dcolumn name="LCO_DIAN_XMLPrintLabel_ID" class="Table" lookupvalue="mun"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')" key2name="Line" lookupkey2name="130">
+			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="Line" lookupkey2name="130">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="0"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
@@ -503,7 +503,7 @@
 				<dcolumn name="Line" class="Integer" value="130"/>
 				<dcolumn name="LCO_DIAN_XMLPrintLabel_ID" class="Table" lookupvalue="pais"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')" key2name="Line" lookupkey2name="140">
+			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="Line" lookupkey2name="140">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="2"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
@@ -511,7 +511,7 @@
 				<dcolumn name="Line" class="Integer" value="140"/>
 				<dcolumn name="LCO_DIAN_XMLPrintLabel_ID" class="Table" lookupvalue="vabo"/>
 			</drow>
-			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002')" key2name="Line" lookupkey2name="150">
+			<drow name="" key1name="LCO_DIAN_Format_ID" lookupkey1name="(SELECT LCO_DIAN_Format_ID FROM LCO_DIAN_Format WHERE value='1002' AND AD_Client_ID = (SELECT AD_Client_ID FROM AD_Client WHERE Name = 'GardenWorld'))" key2name="Line" lookupkey2name="150">
 				<dcolumn name="AD_Org_ID" class="Table Direct" value="0"/>
 				<dcolumn name="CalcColumnPosition" class="Integer" value="1"/>
 				<dcolumn name="IsActive" class="Yes-No" value="Y"/>
