@@ -277,20 +277,9 @@ public class LCO_Validator implements ModelValidator
 		if (po.get_TableName().equals(MInvoice.Table_Name)
 				&& timing == TIMING_BEFORE_PREPARE) {
 			MInvoice inv = (MInvoice) po;
-			/* @TODO: Change this to IsReversal & Reversal_ID on 3.5 */
-			if (inv.getDescription() != null 
-					&& inv.getDescription().contains("{->")
-					&& inv.getDescription().endsWith(")")) {
-				// is a reversal invoice - add the invoice withholding taxes
-				// from the original invoice
-				String desc = inv.getDescription();
-				String reversedocno = desc.substring(desc.indexOf("{->")+3, desc.length() - 1); // it depends on {-> starting of description HARDCODED
-				int invid = DB.getSQLValue(inv.get_TrxName(), 
-						"SELECT C_Invoice_ID FROM C_Invoice WHERE DocumentNo = ? AND AD_Client_ID = " + inv.getAD_Client_ID() + 
-						" AND AD_Org_ID = " + inv.getAD_Org_ID() +
-						" AND C_BPartner_ID = " + inv.getC_BPartner_ID() +
-						" AND Processed = 'Y'",
-						reversedocno);
+			if (inv.isReversal()) {
+				int invid = inv.getReversal_ID();
+				
 				if (invid > 0) {
 					MInvoice invreverted = new MInvoice(inv.getCtx(), invid, inv.get_TrxName());
 					String sql = 
