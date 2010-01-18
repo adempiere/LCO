@@ -291,6 +291,78 @@
 				<dcolumn name="Date1" class="Date" value="2009-12-25 00:00:00.00"/>
 				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
 			</drow>
+			<drow name="2010 - Año Nuevo">
+				<dcolumn name="Date1" class="Date" value="2010-01-01 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - Epifanía - Reyes Magos">
+				<dcolumn name="Date1" class="Date" value="2010-01-11 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - San José">
+				<dcolumn name="Date1" class="Date" value="2010-03-22 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - Jueves Santo">
+				<dcolumn name="Date1" class="Date" value="2010-04-01 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - Viernes Santo">
+				<dcolumn name="Date1" class="Date" value="2010-04-02 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - Fiesta del Trabajo">
+				<dcolumn name="Date1" class="Date" value="2010-05-01 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - Ascensión">
+				<dcolumn name="Date1" class="Date" value="2010-05-17 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - Día del Corpus">
+				<dcolumn name="Date1" class="Date" value="2010-06-07 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - Sagrado Corazón">
+				<dcolumn name="Date1" class="Date" value="2010-06-14 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - San Pedro y San Pablo">
+				<dcolumn name="Date1" class="Date" value="2010-07-05 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - Día de la independencia">
+				<dcolumn name="Date1" class="Date" value="2010-07-20 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - Batalla de Boyacá">
+				<dcolumn name="Date1" class="Date" value="2010-08-07 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - Asunción">
+				<dcolumn name="Date1" class="Date" value="2010-08-16 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - Día de la raza">
+				<dcolumn name="Date1" class="Date" value="2010-10-18 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - Todos los santos">
+				<dcolumn name="Date1" class="Date" value="2010-11-01 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - Independencia de Cartagena">
+				<dcolumn name="Date1" class="Date" value="2010-11-15 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - La Inmaculada">
+				<dcolumn name="Date1" class="Date" value="2010-12-08 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
+			<drow name="2010 - Navidad">
+				<dcolumn name="Date1" class="Date" value="2010-12-25 00:00:00.00"/>
+				<dcolumn name="C_Calendar_ID" lookupname="GardenWorld Calendar"/>
+			</drow>
 		</dtable>
 		<SQLStatement DBType="ALL" statement="UPDATE ad_column SET isupdateable = 'N' WHERE ad_column_id IN (827, 836)"/>
 	</adempieredata>
