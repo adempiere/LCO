@@ -5442,26 +5442,6 @@ Por favor contacte al ADMINISTRADOR.</value>
   <value column="MsgText" original="Client Accounting is not enabled">Contabilidad en cliente no habilitada</value>
   <value column="MsgTip" original="In order to run this process you need to enable client accounting, this can be done in window System Configurator, setting the parameter CLIENT_ACCOUNTING to [I]mmediate or [Q]ueue">Para ejecutar este proceso debe habilitar la contabilidad en cliente, esto se hace en la ventana Configurador del Sistema, fijando el parámetro CLIENT_ACCOUNTING en [I] Inmediato, o [Q] En cola</value>
  </row>
- <row id="53084" trl="N">
-  <value column="MsgText" original="Not exists a Business Partner linked for Organization">Not exists a Business Partner linked for Organization</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row id="53085" trl="N">
-  <value column="MsgText" original="Print Movements">Print Movements</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row id="53086" trl="N">
-  <value column="MsgText" original="Select Distribution Orders to generate Inventory Moves">Select Distribution Orders to generate Inventory Moves</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row id="53087" trl="N">
-  <value column="MsgText" original="Inventory Moves are generated depending on the &quot;Delivery Rule&quot; selection in the Distribution Order">Inventory Moves are generated depending on the "Delivery Rule" selection in the Distribution Order</value>
-  <value column="MsgTip" original=""/>
- </row>
- <row id="53090" trl="N">
-  <value column="MsgText" original="Must be a positive number!">Must be a positive number!</value>
-  <value column="MsgTip" original=" "> </value>
- </row>
  <row id="520010" trl="Y">
   <value column="MsgText" original="1 Rupee">1 Rupia</value>
   <value column="MsgTip" original=" "/>
@@ -5469,5 +5449,29 @@ Por favor contacte al ADMINISTRADOR.</value>
  <row id="523847" trl="Y">
   <value column="MsgText" original="Slow Moving Items">Artículos de bajo movimiento</value>
   <value column="MsgTip" original=" "/>
+ </row>
+ <row id="523848" trl="Y">
+  <value column="MsgText" original="The parent record (document) is already processed">El registro padre (documento) ya está procesado</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="523849" trl="Y">
+  <value column="MsgText" original="Shipment/Receipt Line or charge should be entered">Debe ingresar línea de recibo/entrega o cargo</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="523850" trl="Y">
+  <value column="MsgText" original="Either shipment/receipt line or charge should be selected">Debe elegir solamente línea de recibo/entrega o cargo, no ambos</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="523851" trl="Y">
+  <value column="MsgText" original="Amount to be returned is greater than the amount shipped">Cantidad a devolver es mayor que la cantidad despachada</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="523852" trl="Y">
+  <value column="MsgText" original="Shipment/Receipt line is already defined in another line">Línea de recibo/entrega ya fue definida en otro renglón</value>
+  <value column="MsgTip" original=""/>
+ </row>
+ <row id="523853" trl="Y">
+  <value column="MsgText" original="Shipment/Receipt has different Sales/Purchase transaction than RMA">Recibo/Entrega tiene diferente transacción de ventas/compras que la autorización de devolución</value>
+  <value column="MsgTip" original=""/>
  </row>
 </adempiereTrl>

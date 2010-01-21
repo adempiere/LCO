@@ -1373,100 +1373,95 @@ Segmentos Contables de la organización deseada, Cuentas, Productos pueden tener
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53004" trl="N">
-  <value column="Name" original="Manufacturing Resource">Manufacturing Resource</value>
-  <value column="Description" original="Manufacturing Resource">Manufacturing Resource</value>
-  <value column="Help" original="A Manufacturing Resource is defined as anything required for production and its unavailability can affect the Production Plan. Manufacturing Resources can be: Plants, Production lines, Work Centers and Work Stations.&#10;&#10;It mainly answers the question: Where is the product made?&#10;&#10;A Specific production facility consisting of one or more people and/or machines which can be considered as one unit for purposes of capacity requiremets planning and detailed scheduling.">A Manufacturing Resource is defined as anything required for production and its unavailability can affect the Production Plan. Manufacturing Resources can be: Plants, Production lines, Work Centers and Work Stations.
+ <row id="53004" trl="Y">
+  <value column="Name" original="Manufacturing Resource">Recurso Manufactura</value>
+  <value column="Description" original="Manufacturing Resource">Recurso Manufactura</value>
+  <value column="Help" original="A Manufacturing Resource is defined as anything required for production and its unavailability can affect the Production Plan. Manufacturing Resources can be: Plants, Production lines, Work Centers and Work Stations.&#10;&#10;It mainly answers the question: Where is the product made?&#10;&#10;A Specific production facility consisting of one or more people and/or machines which can be considered as one unit for purposes of capacity requiremets planning and detailed scheduling.">Un recurso de manufactura es definido como algo requerido para producción y su indisponibilidad puede afectar el Plan de Producción. Los recursos de manufactura pueden ser: Planta, Líneas de Producción, Centro de Trabajo y Estaciones de Trabajo.
 
-It mainly answers the question: Where is the product made?
+Principalmente responde la pregunta: ¿Dónde es hecho el producto?
 
-A Specific production facility consisting of one or more people and/or machines which can be considered as one unit for purposes of capacity requiremets planning and detailed scheduling.</value>
+Una instalación de producción específica consistiendo de una o más personas y/o máquinas las cuales pueden ser consideradas como una unidad para propósitos de planeación de capacidad y agendamiento detallado.</value>
  </row>
- <row id="53005" trl="N">
-  <value column="Name" original="Manufacturing Workflows">Manufacturing Workflows</value>
-  <value column="Description" original="Maintain Manufacturing Workflows (Routing)">Maintain Manufacturing Workflows (Routing)</value>
-  <value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.</value>
+ <row id="53005" trl="Y">
+  <value column="Name" original="Manufacturing Workflows">Flujos Trabajo Manufactura</value>
+  <value column="Description" original="Maintain Manufacturing Workflows (Routing)">Mantenimiento de Flujos de Trabajo de Manufactura (Enrutamiento)</value>
+  <value column="Help" original="Manufacturing Workflows (Routing) is a set of information detailing the method of manufacture of a particular item .It includes the operations to be performed their sequence the various work centers to be involved and the standards for setup and run. In some companies routing also includes information on tooling operator skill levels inspection operationstesting requirements etc.">El flujo de trabajo de manufactura (enrutamiento) es un conjunto de información detallando el metodo de manufacturar un artículo particular. Incluye las operaciones a ser ejecutadas y su secuencia, los diferentes centros de trabajo envueltos y los estándares para configurar y ejecutar. En algunas compañías el enrutamiento incluye información de las herramientas, niveles de inspección, aptitudes, requerimientos de pruebas, etc.</value>
  </row>
- <row id="53006" trl="N">
-  <value column="Name" original="Bill of Materials &amp; Formula "><![CDATA[Bill of Materials & Formula ]]></value>
-  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula "><![CDATA[Maintain Product Bill of Materials & Formula ]]></value>
-  <value column="Help" original="It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called &quot;formula&quot;, &quot;recipe&quot;, &quot;ingredients list&quot; in certain industries.&#10;It answers the question, what are the components of the product?">It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called formula, recipe, ingredients list in certain industries.
+ <row id="53006" trl="Y">
+  <value column="Name" original="Bill of Materials &amp; Formula "><![CDATA[Lista de Materiales & Fórmula]]></value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula "><![CDATA[Mantiene listas de materiales de producdtos & fórmula]]></value>
+  <value column="Help" original="It is a list of all the subassemblies, intermediates, parts and raw material that go into a parent assembly showing the quantity of each required to make an assembly. There are a variety of display formats of bill of material, including single level bill of material, indented bill of material, modular (planning), costed bill of material, etc. May also be called &quot;formula&quot;, &quot;recipe&quot;, &quot;ingredients list&quot; in certain industries.&#10;It answers the question, what are the components of the product?">Es una lista de todos los subensamblajes, pasos intermedios, partes y materia prima que se usan para ensamblar un padre mostrando la cantidad requerida de cada uno. Hay una variedad de formatos de despliegue de una lista de materiales, incluyendo LDM de nivel simple, LDM indentada, modular (planeación), LDM costeada, etc. Puede ser llamada también fórmula, receta, lista de ingredientes en ciertas industrias.
 
-It answers the question, what are the components of the product?</value>
+Responde la pregunta: ¿de qué está compuesto el producto?</value>
  </row>
- <row id="53007" trl="N">
-  <value column="Name" original="Product Planning Data">Product Planning</value>
-  <value column="Description" original="Maintain Product Planning Data">Maintain Product Planning</value>
-  <value column="Help" original="in the Window Product Planning Data you enter the product information which will serve as a base to execute the algorithms of Material Requirement Planning, along with MPS, open orders and inventories">in the Window Product Planning you enter the product information which will serve as a base to execute the algorithms of Material Requirement Planning, along with MPS, open orders and inventories</value>
+ <row id="53007" trl="Y">
+  <value column="Name" original="Product Planning Data">Planeación Datos Producto</value>
+  <value column="Description" original="Maintain Product Planning Data">Mantiene la Planeación de Datos del Producto</value>
+  <value column="Help" original="in the Window Product Planning Data you enter the product information which will serve as a base to execute the algorithms of Material Requirement Planning, along with MPS, open orders and inventories">En la ventana Planeación Datos Producto usted ingresa la información del producto que servirá como base para ejecutar el algoritmo de Planeación de Requerimientos de Materiales (MRP), junto con MPS, órdenes abiertas e inventarios</value>
  </row>
- <row id="53008" trl="N">
-  <value column="Name" original="MRP Notice">MRP Notice</value>
-  <value column="Description" original="View MRP Notices">View System Notices</value>
-  <value column="Help" original="The system creates messages while performing processes. In this window you can view them.&#10;&#10;MRP Notice&#10;It is a group of messages generated for the MRP process. It indicates to the scheduler the actions he needs to do to reach the Master Production Schedule. The action messages are set as notices for the planner when he sign up the Compiere session.&#10;&#10;The possible action messages are:&#10;&#10;MRP Code&#9; Action Message&#10;MRP - 001&#9; Beginning Quantity Less Than Zero.&#10;MRP - 020&#9; Create - A Supply Order should be created to satisfy a negative projected on hand balance.&#10;This message is only generate if Create Plan is No or if a new requirement appears the time fence.&#10;&#10;MRP - 030&#9; De Expedite - Indicates that a scheduled supply order is due before it is needed&#10;and should be delayed, or demand rescheduled to an earlier date.&#10;&#10;MRP - 040&#9; Expedite - Indicates that a scheduled supply order is due after is needed&#10;and should be rescheduled to an earlier date, or demand rescheduled to a later date.&#10;&#10;MRP - 050&#9; Cancel - Indicate that a scheduled supply order is no longer needed and should be deleted.&#10;MRP - 060&#9; Release Due For - Indicate that a schedule order should be released.&#10;MRP - 070&#9; Release Past Due For - Indicate that a supply order was not released when it was due,&#10;and should be either released or expedited now, or the demand rescheduled for a later date.&#10;&#10;MRP - 080&#9; Quantity Less than Minimum - Indicates that a supply order was created for&#10;a quantity less than the minimum quantity set in the product planning&#10;&#10;MRP - 090&#9; Quantity Less than Maximum - Indicates that a supply order was created for a quantity&#10;for a quantity greater than than maximum quantity set in the product planning&#10;&#10;MRP - 100&#9; Past Due Time Fence - Indicates that there is an unsatisfied material requirement inside&#10;the planning time fence for this item. You should either manually schedule and expedite orders to&#10;&#10;fill this demand or delay fulfillment of the requirement that created the demand.&#10;&#10;MRP - 110&#9; No exists Dem">The system creates messages while performing processes. In this window you can view them.
+ <row id="53008" trl="Y">
+  <value column="Name" original="MRP Notice">Aviso MRP</value>
+  <value column="Description" original="View MRP Notices">Ver Avisos MRP</value>
+  <value column="Help" original="The system creates messages while performing processes. In this window you can view them.&#10;&#10;MRP Notice&#10;It is a group of messages generated for the MRP process. It indicates to the scheduler the actions he needs to do to reach the Master Production Schedule. The action messages are set as notices for the planner when he sign up the Compiere session.&#10;&#10;The possible action messages are:&#10;&#10;MRP Code&#9; Action Message&#10;MRP - 001&#9; Beginning Quantity Less Than Zero.&#10;MRP - 020&#9; Create - A Supply Order should be created to satisfy a negative projected on hand balance.&#10;This message is only generate if Create Plan is No or if a new requirement appears the time fence.&#10;&#10;MRP - 030&#9; De Expedite - Indicates that a scheduled supply order is due before it is needed&#10;and should be delayed, or demand rescheduled to an earlier date.&#10;&#10;MRP - 040&#9; Expedite - Indicates that a scheduled supply order is due after is needed&#10;and should be rescheduled to an earlier date, or demand rescheduled to a later date.&#10;&#10;MRP - 050&#9; Cancel - Indicate that a scheduled supply order is no longer needed and should be deleted.&#10;MRP - 060&#9; Release Due For - Indicate that a schedule order should be released.&#10;MRP - 070&#9; Release Past Due For - Indicate that a supply order was not released when it was due,&#10;and should be either released or expedited now, or the demand rescheduled for a later date.&#10;&#10;MRP - 080&#9; Quantity Less than Minimum - Indicates that a supply order was created for&#10;a quantity less than the minimum quantity set in the product planning&#10;&#10;MRP - 090&#9; Quantity Less than Maximum - Indicates that a supply order was created for a quantity&#10;for a quantity greater than than maximum quantity set in the product planning&#10;&#10;MRP - 100&#9; Past Due Time Fence - Indicates that there is an unsatisfied material requirement inside&#10;the planning time fence for this item. You should either manually schedule and expedite orders to&#10;&#10;fill this demand or delay fulfillment of the requirement that created the demand.&#10;&#10;MRP - 110&#9; No exists Dem">El sistema crea mensajes cuando está ejecutando procesos.  En esta ventna puede verlos.
 
-MRP Notice
-It is a group of messages generated for the MRP process. It indicates to the scheduler the actions he needs to do to reach the Master Production Schedule. The action messages are set as notices for the planner when he sign up the Compiere session.
+Aviso MRP
+Es un grupo de mensajes generado por el proceso MRP.  Indica al agendador las acciones necesarias para alcanzar el Plan Maestro de Producción.  Los mensajes de acción son mostrados como avisos al planeador cuando ingresa a ADempiere.
 
-The possible action messages are:
+Los posibles mensajes de acción son:
 
-MRP Code	 Action Message
-MRP - 001	 Beginning Quantity Less Than Zero.
-MRP - 020	 Create - A Supply Order should be created to satisfy a negative projected on hand balance.
-This message is only generate if Create Plan is No or if a new requirement appears the time fence.
+Código MRP	 Mensaje Acción
+MRP - 001	 Cantidad inicial menor que cero
+MRP - 020	 Crear - Una orden de suministro debe ser creada para satisfacer una existencia negativa proyectada
+Este mensaje es solo generado si Crea Plan es No o si un nuevo requerimiento aparece dentro de la protección de tiempo.
 
-MRP - 030	 De Expedite - Indicates that a scheduled supply order is due before it is needed
-and should be delayed, or demand rescheduled to an earlier date.
+MRP - 030	 Demorar - Indica que una orden de suministro programada se vence antes de que se requiera 
+y debe ser demorada, o la demanda reprogramada para una fecha anterior.
 
-MRP - 040	 Expedite - Indicates that a scheduled supply order is due after is needed
-and should be rescheduled to an earlier date, or demand rescheduled to a later date.
+MRP - 040	 Acelerar - Indica que una orden de suministro se vence después de que se requiere 
+y debe ser reprogramada para una fecha previa o la demanda reprogramada para una fecha posterior.
 
-MRP - 050	 Cancel - Indicate that a scheduled supply order is no longer needed and should be deleted.
-MRP - 060	 Release Due For - Indicate that a schedule order should be released.
-MRP - 070	 Release Past Due For - Indicate that a supply order was not released when it was due,
-and should be either released or expedited now, or the demand rescheduled for a later date.
+MRP - 050	 Cancelar - Indica que una orden de suministro no es necesaria y puede ser borrada
+MRP - 060	 Liberar Por-Vencer - Indica que una orden de suministro debe ser liberada si está en estado brorador, debe ser aprobada.
+MRP - 070	 Liberar Vencida - Indica que una orden de suministro no fue liberada cuando se venció,
+y debe ser o liberada o acelerada ahora, o la demanda reprogramada para una fecha posterior
 
-MRP - 080	 Quantity Less than Minimum - Indicates that a supply order was created for
-a quantity less than the minimum quantity set in the product planning
+MRP - 080	 Cantidad Menor que el Mínimo - Indica que una orden de suministro fue creada por
+una cantidad menor que la cantidad mínima fijada en Planeación de Producto
 
-MRP - 090	 Quantity Less than Maximum - Indicates that a supply order was created for a quantity
-for a quantity greater than than maximum quantity set in the product planning
+MRP - 090	 Cantidad Mayor al Máximo - Indica que una orden de suministro fue creada
+por una cantidad mayor que la cantidad máxima fijada en Planeación de Producto
 
-MRP - 100	 Past Due Time Fence - Indicates that there is an unsatisfied material requirement inside
-the planning time fence for this item. You should either manually schedule and expedite orders to
-
-fill this demand or delay fulfillment of the requirement that created the demand.
-
-MRP - 110	 No exists Dem</value>
+y otros</value>
  </row>
- <row id="53009" trl="N">
-  <value column="Name" original="Manufacturing Order">Manufacturing Order</value>
-  <value column="Description" original="Maintain Manufacturing Order">Maintain Manufacturing Order</value>
-  <value column="Help" original="Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities.">Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities.</value>
+ <row id="53009" trl="Y">
+  <value column="Name" original="Manufacturing Order">Orden de Manufactura</value>
+  <value column="Description" original="Maintain Manufacturing Order">Mantenimiento de órdenes de manufactura</value>
+  <value column="Help" original="Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities."/>
  </row>
- <row id="53010" trl="N">
-  <value column="Name" original="Spare parts">Spare parts</value>
-  <value column="Description" original="Spare parts">Spare parts</value>
+ <row id="53010" trl="Y">
+  <value column="Name" original="Spare parts">Partes de Repuesto</value>
+  <value column="Description" original="Spare parts">Partes de Repuesto</value>
   <value column="Help" original=""/>
  </row>
- <row id="53011" trl="N">
-  <value column="Name" original="Activity Control Report">Activity Control Report</value>
-  <value column="Description" original="Activity Control">Activity Control</value>
-  <value column="Help" original="This window is reported the real issue the shop floor">This window is reported the real issue the shop floor</value>
+ <row id="53011" trl="Y">
+  <value column="Name" original="Activity Control Report">Reporte Control Actividades</value>
+  <value column="Description" original="Activity Control">Control Actividades</value>
+  <value column="Help" original="This window is reported the real issue the shop floor">Esta ventana es reportada la emisión real del control de piso</value>
  </row>
- <row id="53012" trl="N">
-  <value column="Name" original="Distribution Order">Distribution Order </value>
-  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distribution Order allow create Order inter warehouse to supply a demand </value>
-  <value column="Help" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distribution Order allow create Order inter warehouse to supply a demand </value>
+ <row id="53012" trl="Y">
+  <value column="Name" original="Distribution Order">Orden de Distribución</value>
+  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">La orden de distribución permite crear órdenes entre almacenes para suplir la demanda</value>
+  <value column="Help" original="Distribution Order allow create Order inter warehouse to supply a demand ">La orden de distribución permite crear órdenes entre almacenes para suplir la demanda</value>
  </row>
- <row id="53013" trl="N">
-  <value column="Name" original="Quality Specifications">Quality Specifications</value>
-  <value column="Description" original="Maintain Quality Specifications">Maintain Quality Specifications</value>
+ <row id="53013" trl="Y">
+  <value column="Name" original="Quality Specifications">Especificaciones de Calidad</value>
+  <value column="Description" original="Maintain Quality Specifications">Mantiene Especificaciones de Calidad</value>
   <value column="Help" original=""/>
  </row>
- <row id="53014" trl="N">
-  <value column="Name" original="Cost Collector">Cost Collector</value>
-  <value column="Description" original="The cost collector is a repository of all the MO transactions.">The cost collector is a repository of all the MO transactions.</value>
-  <value column="Help" original="The cost collector is a repository of all the MO transactions. This real transactions relation allows to compare it with the standard transactions in order to be able to calculate variations by cost element.">The cost collector is a repository of all the MO transactions. This real transactions relation allows to compare it with the standard transactions in order to be able to calculate variations by cost element.</value>
+ <row id="53014" trl="Y">
+  <value column="Name" original="Cost Collector">Colector de Costos</value>
+  <value column="Description" original="The cost collector is a repository of all the MO transactions.">El colector de costos es un repositorio de todas las transacciones de órdenes de manufactura.</value>
+  <value column="Help" original="The cost collector is a repository of all the MO transactions. This real transactions relation allows to compare it with the standard transactions in order to be able to calculate variations by cost element.">El colector de costos es un repositorio de todas las transacciones de órdenes de manufactura. Esta relación de transacciones reales permite comparar con las transacciones estándar para permitir calcular variaciones en los elementos de costeo.</value>
  </row>
  <row id="53015" trl="Y">
   <value column="Name" original="ASP Modules">Módulos SaaS</value>
@@ -1483,63 +1478,63 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53018" trl="N">
-  <value column="Name" original="Distribution Network">Distribution Network</value>
-  <value column="Description" original="Distribution Network define the supply relationships">Distribution Network define the supply relationships</value>
-  <value column="Help" original="Each realtionship in the network contains a receiving warehouse and a warehouse source and a supply percentage. A relationship is one-way, warehouse to warehouse relationship.">Each realtionship in the network contains a receiving warehouse and a warehouse source and a supply percentage. A relationship is one-way, warehouse to warehouse relationship.</value>
+ <row id="53018" trl="Y">
+  <value column="Name" original="Distribution Network">Red Distribución</value>
+  <value column="Description" original="Distribution Network define the supply relationships">Red de Distribución define las relaciones de suministros</value>
+  <value column="Help" original="Each realtionship in the network contains a receiving warehouse and a warehouse source and a supply percentage. A relationship is one-way, warehouse to warehouse relationship.">Cada relación en la red contiene un almacén que recibe y un almacén fuente y un porcentaje de suministro. Una relación es en una sola vía, relación almacén a almacén.</value>
  </row>
  <row id="53019" trl="Y">
   <value column="Name" original="Migration Scripts">Scripts de Migración</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53020" trl="N">
-  <value column="Name" original="Tax Group">Tax Group</value>
-  <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">Tax Groups let you group the business partner with a reference tax.</value>
+ <row id="53020" trl="Y">
+  <value column="Name" original="Tax Group">Grupo de Impuestos</value>
+  <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">Los grupos de impuestos permiten agrupar terceros con un impuesto de referencia.</value>
   <value column="Help" original=""/>
  </row>
- <row id="53021" trl="N">
-  <value column="Name" original="Tax Definition">Tax Definition</value>
-  <value column="Description" original="Lets you define different tax combinations.">Lets you define different tax combinations.</value>
-  <value column="Help" original="You can use the tax dfinition information to create the logic necessary to get the tax rate to your document">You can use the tax dfinition information to create the logic necessary to get the tax rate to your document</value>
+ <row id="53021" trl="Y">
+  <value column="Name" original="Tax Definition">Definición de Impuestos</value>
+  <value column="Description" original="Lets you define different tax combinations.">Permite definir las diferentes combinaciones de impuestos.</value>
+  <value column="Help" original="You can use the tax dfinition information to create the logic necessary to get the tax rate to your document">Puede usar la definición de información para crear la lógica necesaria para obtener la tasa de impuestos de su documento</value>
  </row>
- <row id="53022" trl="N">
-  <value column="Name" original="Tax Rate Parent">Tax Rate Parent</value>
-  <value column="Description" original="Maintain Taxes and their Rates">Maintain Taxes and their Rates</value>
-  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.</value>
+ <row id="53022" trl="Y">
+  <value column="Name" original="Tax Rate Parent">Tasa Impuesto Padre</value>
+  <value column="Description" original="Maintain Taxes and their Rates">Mantiene Impuestos y sus Tasas</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.">La ventana tasa de impuesto define los diferentes impuestos usados por cada categoría de impuesto.  Por ejemplo Impuesto de Ventas debe ser definido para cada estado en el cual aplica.</value>
  </row>
- <row id="53023" trl="N">
-  <value column="Name" original="Tax Type">Tax Type</value>
-  <value column="Description" original="Tax Types let you group taxes together.">Tax Types let you group taxes together.</value>
+ <row id="53023" trl="Y">
+  <value column="Name" original="Tax Type">Tipo Impuesto</value>
+  <value column="Description" original="Tax Types let you group taxes together.">Los tipos de impuestos agrupan impuestos.</value>
   <value column="Help" original=""/>
  </row>
- <row id="53024" trl="N">
-  <value column="Name" original="Tax Base">Tax Base</value>
-  <value column="Description" original="Defines tax base for a tax">Defines tax base for a tax</value>
-  <value column="Help" original="The Tax Base can be based on price , cost and quantity">The Tax Base can be based on price , cost and quantity</value>
+ <row id="53024" trl="Y">
+  <value column="Name" original="Tax Base">Impuesto Base</value>
+  <value column="Description" original="Defines tax base for a tax">Define impuestos base para un impuesto</value>
+  <value column="Help" original="The Tax Base can be based on price , cost and quantity">El impuesto base puede ser basado en precio, costo y cantidad</value>
  </row>
- <row id="53025" trl="N">
-  <value column="Name" original="Export Format">Export Format</value>
+ <row id="53025" trl="Y">
+  <value column="Name" original="Export Format">Formato Exportación</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53026" trl="N">
-  <value column="Name" original="Export Processor">Export Processor</value>
+ <row id="53026" trl="Y">
+  <value column="Name" original="Export Processor">Procesador Exportación</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53027" trl="N">
-  <value column="Name" original="Export Processor Type">Export Processor Type</value>
+ <row id="53027" trl="Y">
+  <value column="Name" original="Export Processor Type">Tipo Procesador Exportación</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53028" trl="N">
-  <value column="Name" original="Import Processor">Import Processor</value>
+ <row id="53028" trl="Y">
+  <value column="Name" original="Import Processor">Procesador Importación</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53029" trl="N">
-  <value column="Name" original="Import Processor Type">Import Processor Type</value>
+ <row id="53029" trl="Y">
+  <value column="Name" original="Import Processor Type">Tipo Procesador Importación</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -1598,95 +1593,95 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original="History of Payroll Movement">Histórico de movimientos de nómina</value>
   <value column="Help" original="The Payroll Movement Window is use to show the history the any calculated payroll">La ventana movimientos de nómina se utiliza para mostrar la historia de cualquier nómina calculada</value>
  </row>
- <row id="53044" trl="N">
-  <value column="Name" original="Asset Revaluation Processing">Asset Revaluation Processing</value>
-  <value column="Description" original="Process Revaluation of Assets">Process Revaluation of Assets</value>
-  <value column="Help" original="This window allows you to select and process what assets are revalued">This window allows you to select and process what assets are revalued</value>
+ <row id="53044" trl="Y">
+  <value column="Name" original="Asset Revaluation Processing">Procesamiento Revaluación Activos</value>
+  <value column="Description" original="Process Revaluation of Assets">Procesamiento Revaluación de Activos</value>
+  <value column="Help" original="This window allows you to select and process what assets are revalued">Esta ventana permite seleccionar y procesar que activos serán revaluados</value>
  </row>
- <row id="53045" trl="N">
-  <value column="Name" original="Asset Revaluation Index">Asset Revaluation Index</value>
-  <value column="Description" original="Set the Revaluate Assets Index or Factors">Set the Revaluate Assets Index or Factors</value>
-  <value column="Help" original="The Asset Revaluation Index window allow you to setup the values of indexs or factors to be used in revaluation of assets">The Asset Revaluation Index window allow you to setup the values of indexs or factors to be used in revaluation of assets</value>
+ <row id="53045" trl="Y">
+  <value column="Name" original="Asset Revaluation Index">Indice Revaluación Activo</value>
+  <value column="Description" original="Set the Revaluate Assets Index or Factors">Fija el índice o factores de revaluación de activos</value>
+  <value column="Help" original="The Asset Revaluation Index window allow you to setup the values of indexs or factors to be used in revaluation of assets">La ventana Indice Revaluación Activo permite fijar el índice o factores de revaluación de activos</value>
  </row>
- <row id="53046" trl="N">
-  <value column="Name" original="Transfer Asset Entry">Transfer Asset Entry</value>
-  <value column="Description" original="Create Transfer Asset Entry">Create Transfer Asset Entry</value>
-  <value column="Help" original="The Transfer Asset Entry window allows you to create and post asset transfers to the GL">The Transfer Asset Entry window allows you to create and post asset transfers to the GL</value>
+ <row id="53046" trl="Y">
+  <value column="Name" original="Transfer Asset Entry">Entrada Transferencia Activo</value>
+  <value column="Description" original="Create Transfer Asset Entry">Crear Entrada Transferencia Activo</value>
+  <value column="Help" original="The Transfer Asset Entry window allows you to create and post asset transfers to the GL">La ventana Entrada Transferencia Activo permite crear y contabilizar Entradas de Transferencia Activo</value>
  </row>
- <row id="53047" trl="N">
-  <value column="Name" original="Disposed Asset Entry">Disposed Asset Entry</value>
-  <value column="Description" original="Create Disposed Asset Entry">Create Disposed Asset Entry</value>
-  <value column="Help" original="The Disposed Asset Entry window allows you to create and post assets that have been disposed to the GL">The Disposed Asset Entry window allows you to create and post assets that have been disposed to the GL</value>
+ <row id="53047" trl="Y">
+  <value column="Name" original="Disposed Asset Entry">Entrada Activo Desechado</value>
+  <value column="Description" original="Create Disposed Asset Entry">Crear Entrada Activo Desechado</value>
+  <value column="Help" original="The Disposed Asset Entry window allows you to create and post assets that have been disposed to the GL">La ventana Entrada Activo Desechado permite crear y contabilizar activos que han sido desechados</value>
  </row>
- <row id="53048" trl="N">
-  <value column="Name" original="Asset Split">Asset Split</value>
-  <value column="Description" original="Split Assets Process">Split Assets Process</value>
-  <value column="Help" original="The Asset Split window allows you to process asset splits">The Asset Split window allows you to process asset splits</value>
+ <row id="53048" trl="Y">
+  <value column="Name" original="Asset Split">División Activo</value>
+  <value column="Description" original="Split Assets Process">Proceso División Activos</value>
+  <value column="Help" original="The Asset Split window allows you to process asset splits">La ventana División Activo permite procesar la división de activos</value>
  </row>
- <row id="53049" trl="N">
-  <value column="Name" original="Asset Disposal">Asset Disposal</value>
-  <value column="Description" original="Dispose of Assets">Dispose of Assets</value>
-  <value column="Help" original="The Asset Disposal window allows you to create the necessary GL entries to dispose of an asset">The Asset Disposal window allows you to create the necessary GL entries to dispose of an asset</value>
+ <row id="53049" trl="Y">
+  <value column="Name" original="Asset Disposal">Desechamiento Activo</value>
+  <value column="Description" original="Dispose of Assets">Desechamiento de activos</value>
+  <value column="Help" original="The Asset Disposal window allows you to create the necessary GL entries to dispose of an asset">La ventana Desechamiento Activo permite crear las entradas contables necesarias para desecharun activo</value>
  </row>
- <row id="53050" trl="N">
-  <value column="Name" original="Asset Transfers">Asset Transfers</value>
-  <value column="Description" original="Process transfers of assets">Process transfers of assets</value>
-  <value column="Help" original="The Asset Transfer window allows you to transfer assets">The Asset Transfer window allows you to transfer assets</value>
+ <row id="53050" trl="Y">
+  <value column="Name" original="Asset Transfers">Transferencias Activo</value>
+  <value column="Description" original="Process transfers of assets">Procesa transferencias de activos</value>
+  <value column="Help" original="The Asset Transfer window allows you to transfer assets">La ventana Transferencias Activo permite transferir activos</value>
  </row>
- <row id="53051" trl="N">
-  <value column="Name" original="Split Asset Entry">Split Asset Entry</value>
-  <value column="Description" original="Create Split Asset Entries">Create Split Asset Entries</value>
-  <value column="Help" original="The Split Asset Entry window allows you to create and post assets that have been split to the GL">The Split Asset Entry window allows you to create and post assets that have been split to the GL</value>
+ <row id="53051" trl="Y">
+  <value column="Name" original="Split Asset Entry">Entrada División Activo</value>
+  <value column="Description" original="Create Split Asset Entries">Crear Entrada División Activo</value>
+  <value column="Help" original="The Split Asset Entry window allows you to create and post assets that have been split to the GL">La ventana Entrada División Activo permite crear y contabilizar activos que han sido divididos</value>
  </row>
- <row id="53052" trl="N">
-  <value column="Name" original="Build Depreciation Workfile">Build Depreciation Workfile</value>
-  <value column="Description" original="Build Depreciation Expense File">Build Depreciation Expense File</value>
-  <value column="Help" original="The Deprecaiton Build Workfile window allow you to build current depreciation expense for various posting types including actual budget and tax as defined by the user">The Deprecaiton Build Workfile window allow you to build current depreciation expense for various posting types including actual budget and tax as defined by the user</value>
+ <row id="53052" trl="Y">
+  <value column="Name" original="Build Depreciation Workfile">Construir Archivo Depreciación</value>
+  <value column="Description" original="Build Depreciation Expense File">Construir Archivo de Gastos de Depreciación</value>
+  <value column="Help" original="The Deprecaiton Build Workfile window allow you to build current depreciation expense for various posting types including actual budget and tax as defined by the user">La ventana Construir Archivo Depreciación permite construir los gastos de depreciación actual para varios tipos de contabilización, incñuyendo contabilidad actual e impuestos como sea definido por el usuario</value>
  </row>
- <row id="53053" trl="N">
-  <value column="Name" original="Post Depreciation Entry">Post Depreciation Entry</value>
-  <value column="Description" original="Create Depreciation Entry">Create Depreciation Entry</value>
-  <value column="Help" original="The Depreciation Entry window allows you to create and post the depreciation expense entry to the GL">The Depreciation Entry window allows you to create and post the depreciation expense entry to the GL</value>
+ <row id="53053" trl="Y">
+  <value column="Name" original="Post Depreciation Entry">Entrada Post Depreciación</value>
+  <value column="Description" original="Create Depreciation Entry">Crear Entrada Post Depreciación</value>
+  <value column="Help" original="The Depreciation Entry window allows you to create and post the depreciation expense entry to the GL">La ventana Entrada Post Depreciación permite crear y contabilizar los gastos de depreciación</value>
  </row>
- <row id="53054" trl="N">
-  <value column="Name" original="Build Depreciation Forecast">Build Depreciation Forecast</value>
+ <row id="53054" trl="Y">
+  <value column="Name" original="Build Depreciation Forecast">Construir Pronóstico Depreciación</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53055" trl="N">
-  <value column="Name" original="Inbound Asset Entry">Inbound Asset Entry</value>
-  <value column="Description" original="Create Inbound Asset Entry">Create Inbound Asset Entry</value>
-  <value column="Help" original="The Inbound Asset Entry window allows you to create and post asset AP to the GL">The Inbound Asset Entry window allows you to create and post asset AP to the GL</value>
+ <row id="53055" trl="Y">
+  <value column="Name" original="Inbound Asset Entry">Entrada Activo Interior</value>
+  <value column="Description" original="Create Inbound Asset Entry">Crear Entrada Activo Interior</value>
+  <value column="Help" original="The Inbound Asset Entry window allows you to create and post asset AP to the GL">La ventana Entrada Activo Interior permite crear y contabilizar activos</value>
  </row>
- <row id="53056" trl="N">
-  <value column="Name" original="Post Imported Assets">Post Imported Assets</value>
-  <value column="Description" original="Import Fixed Assets">Import Fixed Assets</value>
-  <value column="Help" original="The Import Asset window allow the user to import assets to Adempiere">The Import Asset window allow the user to import assets to Adempiere</value>
+ <row id="53056" trl="Y">
+  <value column="Name" original="Post Imported Assets">Importa Activos</value>
+  <value column="Description" original="Import Fixed Assets">Importa Activos Fijos</value>
+  <value column="Help" original="The Import Asset window allow the user to import assets to Adempiere">La ventana Importa Activos permite al usuario importar activos</value>
  </row>
- <row id="53057" trl="N">
-  <value column="Name" original="Depreciation Period Spread Type">Depreciation Period Spread Type</value>
-  <value column="Description" original="Period Spread Type">Period Spread Type</value>
-  <value column="Help" original="The Period Spread Type window allows you to setup and review depreciation spread by period">The Period Spread Type window allows you to setup and review depreciation spread by period</value>
+ <row id="53057" trl="Y">
+  <value column="Name" original="Depreciation Period Spread Type">Tipo Propagación Período Depreciación</value>
+  <value column="Description" original="Period Spread Type">Tipo Propagación Período Depreciación</value>
+  <value column="Help" original="The Period Spread Type window allows you to setup and review depreciation spread by period">La ventana Tipo Propagación Período Depreciación permite configurar y revisar la propagación de depreciación por período</value>
  </row>
- <row id="53058" trl="N">
-  <value column="Name" original="Depreciation Methods">Depreciation Methods</value>
-  <value column="Description" original="Depreciation Methods">Depreciation Methods</value>
-  <value column="Help" original="The Depreciation method windows allows the user to review the depreciation calculations available in Adempiere">The Depreciation method windows allows the user to review the depreciation calculations available in Adempiere</value>
+ <row id="53058" trl="Y">
+  <value column="Name" original="Depreciation Methods">Métodos Depreciación</value>
+  <value column="Description" original="Depreciation Methods">Métodos Depreciación</value>
+  <value column="Help" original="The Depreciation method windows allows the user to review the depreciation calculations available in Adempiere">La ventana Métodos Depreciación permite al usuario revisar los cálculos de depreciación disponibles en ADempiere</value>
  </row>
- <row id="53059" trl="N">
-  <value column="Name" original="Depreciation Tables">Depreciation Tables</value>
-  <value column="Description" original="Allows users to create multiple depreciation schedules">Allows users to create multiple depreciation schedules</value>
+ <row id="53059" trl="Y">
+  <value column="Name" original="Depreciation Tables">Tablas de Depreciación</value>
+  <value column="Description" original="Allows users to create multiple depreciation schedules">Permite a los usuarios crear múltiples calendarios de depreciación</value>
   <value column="Help" original=""/>
  </row>
- <row id="53060" trl="N">
-  <value column="Name" original="Depreciation First Year Conventions ">Depreciation First Year Conventions </value>
-  <value column="Description" original="Setup for depreciation Setups">Setup for depreciation Setups</value>
-  <value column="Help" original="Allows user to define what depreciation conventions are available in Adempiere">Allows user to define what depreciation conventions are available in Adempiere</value>
+ <row id="53060" trl="Y">
+  <value column="Name" original="Depreciation First Year Conventions ">Convenciones Depreciación Primer Año</value>
+  <value column="Description" original="Setup for depreciation Setups">Configuración para convenciones de depreciación</value>
+  <value column="Help" original="Allows user to define what depreciation conventions are available in Adempiere">Permite usuario definir qué convenciones de depreciación estarán disponibles</value>
  </row>
- <row id="53061" trl="N">
-  <value column="Name" original="Depreciation Calculation Method">Depreciation Calculation Method</value>
-  <value column="Description" original="Define Calculation Methods used in depreciation expense calculation">Define Calculation Methods used in depreciation expense calculation</value>
-  <value column="Help" original="The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled">The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled</value>
+ <row id="53061" trl="Y">
+  <value column="Name" original="Depreciation Calculation Method">Método Cálculo Depreciación</value>
+  <value column="Description" original="Define Calculation Methods used in depreciation expense calculation">Define Métodos de Cálculo usados en los cálculos de gastos de depreciación</value>
+  <value column="Help" original="The Depreciation Calcualtion Method window allows the user to define how adjustments to the fixed asset depreciation expense are handled">La ventana Método Cálculo Depreciación permite al usuario definir cómo serán manejados los ajustes de la depreciación de activos fijos</value>
  </row>
  <row id="53062" trl="Y">
   <value column="Name" original="Charge Type">Tipo de Cargo</value>
@@ -1698,19 +1693,19 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53064" trl="N">
-  <value column="Name" original="View MRP Records">View MRP Records</value>
+ <row id="53064" trl="Y">
+  <value column="Name" original="View MRP Records">Ver Registros MRP</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53065" trl="N">
-  <value column="Name" original="Web POS Terminal">Web POS Terminal</value>
+ <row id="53065" trl="Y">
+  <value column="Name" original="Web POS Terminal">Terminal PDV Web</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53069" trl="Y">
-  <value column="Name" original="Search Definition">Definición Atajos</value>
-  <value column="Description" original="Define transactioncodes for the QuickSearch bar">Define códigos de atajo (accesos directos) para la barra de búsqueda</value>
+  <value column="Name" original="Search Definition">Definición Búsquedas</value>
+  <value column="Description" original="Define transactioncodes for the QuickSearch bar">Define códigos de búsqueda (accesos directos) para la barra de búsqueda</value>
   <value column="Help" original=""/>
  </row>
  <row id="53071" trl="Y">
@@ -1718,14 +1713,14 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original="Import Price Lists">Importar Listas de Precios</value>
   <value column="Help" original="The Import Price List Window is an interim table which is used when importing external data into the system.  Selecting the 'Process' button will either add or modify the appropriate records.">La ventana importar listas de precios es un tabla intermedia que es utilizada para importar datos externos en el sistema.  Seleccionando el botón de Importar añadirá o modificará los registros apropiados.</value>
  </row>
- <row id="53073" trl="N">
-  <value column="Name" original="Promotion Group">Promotion Group</value>
-  <value column="Description" original="Grouping of product for promotion setup">Grouping of product for promotion setup</value>
+ <row id="53073" trl="Y">
+  <value column="Name" original="Promotion Group">Grupo Promoción</value>
+  <value column="Description" original="Grouping of product for promotion setup">Agrupamiento para configuración de promociones por producto</value>
   <value column="Help" original=""/>
  </row>
- <row id="53074" trl="N">
-  <value column="Name" original="Promotion">Promotion</value>
-  <value column="Description" original="Setup promotion rule">Setup promotion rule</value>
+ <row id="53074" trl="Y">
+  <value column="Name" original="Promotion">Promoción</value>
+  <value column="Description" original="Setup promotion rule">Configura reglas de promoción</value>
   <value column="Help" original=""/>
  </row>
  <row id="53078" trl="Y">
@@ -1733,10 +1728,10 @@ MRP - 110	 No exists Dem</value>
   <value column="Description" original="Define reporting cube for pre-calculation of summary accounting data.">Define un cubo de reportes para pre-cálculo de datos contables sumarizados.</value>
   <value column="Help" original="Summary data will be generated for each period of the selected calendar, grouped by the selected dimensions..">Los datos resumidos serán generados para cada período del calendario seleccionado, agrupados por las dimensiones seleccionadas.</value>
  </row>
- <row id="53085" trl="N">
-  <value column="Name" original="MRP Notice (all)">MRP Notice (all)</value>
-  <value column="Description" original="View all MRP Notices">View all MRP Notices</value>
-  <value column="Help" original="The system creates notices will running MRP process. In this window you can view them.&#10;">The system creates notices will running MRP process. In this window you can view them.
+ <row id="53085" trl="Y">
+  <value column="Name" original="MRP Notice (all)">Avisos MRP (Todos)</value>
+  <value column="Description" original="View all MRP Notices">Ver todos los avisos de MRP</value>
+  <value column="Help" original="The system creates notices will running MRP process. In this window you can view them.&#10;">El sistema crea avisos al correr el proceso MRP. En esta ventana puede verlos.
 </value>
  </row>
  <row id="53086" trl="Y">

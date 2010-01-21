@@ -1890,17 +1890,17 @@
   <value column="Name" original="Resource Manufacturing">Resource Manufacturing</value>
   <value column="Description" original="Resource Manufacturing">Resource Manufacturing</value>
  </row>
- <row id="53018" trl="N">
-  <value column="Name" original="Manufacturing Resource">Manufacturing Resource</value>
-  <value column="Description" original="Manufacturing Resource">Manufacturing Resource</value>
+ <row id="53018" trl="Y">
+  <value column="Name" original="Manufacturing Resource">Recurso Manufactura</value>
+  <value column="Description" original="Manufacturing Resource">Recurso Manufactura</value>
  </row>
  <row id="53019" trl="N">
   <value column="Name" original="Manufacturing Workflow">Manufacturing Workflow</value>
   <value column="Description" original=""/>
  </row>
- <row id="53020" trl="N">
-  <value column="Name" original="Manufacturing Workflows">Manufacturing Workflows</value>
-  <value column="Description" original="Maintain Manufacturing Workflows (Routing)">Maintain Manufacturing Workflows (Routing)</value>
+ <row id="53020" trl="Y">
+  <value column="Name" original="Manufacturing Workflows">Flujos Trabajo Manufactura</value>
+  <value column="Description" original="Maintain Manufacturing Workflows (Routing)">Mantenimiento de Flujos de Trabajo de Manufactura (Enrutamiento)</value>
  </row>
  <row id="53021" trl="N">
   <value column="Name" original="Manufacturing Workflow Setup">Manufacturing Workflow Setup</value>
@@ -1914,9 +1914,9 @@
   <value column="Name" original="Bill of Material &amp; Formula Setup"><![CDATA[Bill of Material & Formula Setup]]></value>
   <value column="Description" original="Setup Bill of Material &amp; Formula"><![CDATA[Setup Bill of Material & Formula]]></value>
  </row>
- <row id="53024" trl="N">
-  <value column="Name" original="Bill of Materials &amp; Formula "><![CDATA[Bill of Materials & Formula ]]></value>
-  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula "><![CDATA[Maintain Product Bill of Materials & Formula ]]></value>
+ <row id="53024" trl="Y">
+  <value column="Name" original="Bill of Materials &amp; Formula "><![CDATA[Lista de Materiales & Fórmula]]></value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula "><![CDATA[Mantiene listas de materiales de producdtos & fórmula]]></value>
  </row>
  <row id="53025" trl="Y">
   <value column="Name" original="BOM &amp; Formula Info">Info LDM y Formula</value>
@@ -1946,9 +1946,9 @@
   <value column="Name" original="Product Planning">Product Data Planning</value>
   <value column="Description" original="Product Planning">Product Data Planning</value>
  </row>
- <row id="53032" trl="N">
-  <value column="Name" original="Product Planning Data">Product Planning</value>
-  <value column="Description" original="Maintain Product Planning Data">Maintain Product Planning</value>
+ <row id="53032" trl="Y">
+  <value column="Name" original="Product Planning Data">Planeación Datos Producto</value>
+  <value column="Description" original="Maintain Product Planning Data">Mantiene la Planeación de Datos del Producto</value>
  </row>
  <row id="53033" trl="N">
   <value column="Name" original="Create Product Planning">Create Product Planning</value>
@@ -1978,9 +1978,9 @@
   <value column="Name" original="MRP Info">Info MRP</value>
   <value column="Description" original="Show the detail of MRP calculation">Muestra el detalle del cálculo de MRP (Planificación de requerimientos de materiales)</value>
  </row>
- <row id="53040" trl="N">
-  <value column="Name" original="MRP Notice">MRP Notice</value>
-  <value column="Description" original="View MRP Notices">View System Notices</value>
+ <row id="53040" trl="Y">
+  <value column="Name" original="MRP Notice">Aviso MRP</value>
+  <value column="Description" original="View MRP Notices">Ver Avisos MRP</value>
  </row>
  <row id="53041" trl="N">
   <value column="Name" original="MRP Details">MRP Details</value>
@@ -2038,9 +2038,9 @@
   <value column="Name" original="Discrete Manufacturing Setup">Discrete Manufacturing Setup</value>
   <value column="Description" original="Once the production planning process is completed, the production control process let us to check the execution activities in order to be sure we can reach the material plan.">Once the production planning process is completed, the production control process let us to check the execution activities in order to be sure we can reach the material plan.</value>
  </row>
- <row id="53055" trl="N">
-  <value column="Name" original="Manufacturing Order">Manufacturing Order</value>
-  <value column="Description" original="Maintain Manufacturing Order">Maintain Manufacturing Order</value>
+ <row id="53055" trl="Y">
+  <value column="Name" original="Manufacturing Order">Orden de Manufactura</value>
+  <value column="Description" original="Maintain Manufacturing Order">Mantenimiento de órdenes de manufactura</value>
  </row>
  <row id="53056" trl="N">
   <value column="Name" original="Manufacturing Orders Review  ">Manufacturing Orders Review  </value>
@@ -2066,17 +2066,17 @@
   <value column="Name" original="Management Maintenance">Management Maintenance</value>
   <value column="Description" original="Management Maintenance">Management Maintenance</value>
  </row>
- <row id="53062" trl="N">
-  <value column="Name" original="Spare parts">Spare parts</value>
-  <value column="Description" original="Spare parts">Spare parts</value>
+ <row id="53062" trl="Y">
+  <value column="Name" original="Spare parts">Partes de Repuesto</value>
+  <value column="Description" original="Spare parts">Partes de Repuesto</value>
  </row>
  <row id="53063" trl="N">
   <value column="Name" original="Activity Control">Shop Floor Control</value>
   <value column="Description" original="Activity Control">Shop Floor Control</value>
  </row>
- <row id="53064" trl="N">
-  <value column="Name" original="Activity Control Report">Activity Control Report</value>
-  <value column="Description" original="Activity Control">Activity Control</value>
+ <row id="53064" trl="Y">
+  <value column="Name" original="Activity Control Report">Reporte Control Actividades</value>
+  <value column="Description" original="Activity Control">Control Actividades</value>
  </row>
  <row id="53065" trl="N">
   <value column="Name" original="Shop Floor Transaction Details">Shop Floor Transaction Details</value>
@@ -2090,9 +2090,9 @@
   <value column="Name" original="Distribution Management Setup">Distribution Management Setup</value>
   <value column="Description" original="Setup Distribution Management">Setup Distribution Management</value>
  </row>
- <row id="53068" trl="N">
-  <value column="Name" original="Distribution Order">Distribution Order </value>
-  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distribution Order allow create Order inter warehouse to supply a demand </value>
+ <row id="53068" trl="Y">
+  <value column="Name" original="Distribution Order">Orden de Distribución</value>
+  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">La orden de distribución permite crear órdenes entre almacenes para suplir la demanda</value>
  </row>
  <row id="53069" trl="Y">
   <value column="Name" original="Generate Movement Manual">Generar Movimiento Manual</value>
@@ -2106,9 +2106,9 @@
   <value column="Name" original="Quality Management">Quality Management</value>
   <value column="Description" original="Quality Management">Quality Management</value>
  </row>
- <row id="53072" trl="N">
-  <value column="Name" original="Quality Specifications">Quality Specifications</value>
-  <value column="Description" original="Maintain Quality Specifications">Maintain Quality Specifications</value>
+ <row id="53072" trl="Y">
+  <value column="Name" original="Quality Specifications">Especificaciones de Calidad</value>
+  <value column="Description" original="Maintain Quality Specifications">Mantiene Especificaciones de Calidad</value>
  </row>
  <row id="53073" trl="N">
   <value column="Name" original="Print Test Results">Print Test Results</value>
@@ -2146,9 +2146,9 @@
   <value column="Name" original="Bill of Material &amp; Formula Cost Roll-UP"><![CDATA[Bill of Material & Formula Cost Roll-UP]]></value>
   <value column="Description" original="This Process allow integrate Bill of Material &amp; Formula Cost"><![CDATA[This Process allow integrate Bill of Material & Formula Cost]]></value>
  </row>
- <row id="53082" trl="N">
-  <value column="Name" original="Cost Collector">Cost Collector</value>
-  <value column="Description" original="The cost collector is a repository of all the MO transactions.">The cost collector is a repository of all the MO transactions.</value>
+ <row id="53082" trl="Y">
+  <value column="Name" original="Cost Collector">Colector de Costos</value>
+  <value column="Description" original="The cost collector is a repository of all the MO transactions.">El colector de costos es un repositorio de todas las transacciones de órdenes de manufactura.</value>
  </row>
  <row id="53083" trl="Y">
   <value column="Name" original="ASP Modules">Módulos SaaS</value>
@@ -2166,9 +2166,9 @@
   <value column="Name" original="Update Sequence No">Actualizar Secuencia No</value>
   <value column="Description" original=""/>
  </row>
- <row id="53088" trl="N">
-  <value column="Name" original="Distribution Network">Distribution Network</value>
-  <value column="Description" original="Distribution Network define the supply relationships">Distribution Network define the supply relationships</value>
+ <row id="53088" trl="Y">
+  <value column="Name" original="Distribution Network">Red Distribución</value>
+  <value column="Description" original="Distribution Network define the supply relationships">Red de Distribución define las relaciones de suministros</value>
  </row>
  <row id="53089" trl="Y">
   <value column="Name" original="Migration Scripts">Scripts de Migración</value>
@@ -2182,29 +2182,29 @@
   <value column="Name" original="Global Tax Management">Global Tax Management</value>
   <value column="Description" original=""/>
  </row>
- <row id="53092" trl="N">
-  <value column="Name" original="Tax Group">Tax Group</value>
-  <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">Tax Groups let you group the business partner with a reference tax.</value>
+ <row id="53092" trl="Y">
+  <value column="Name" original="Tax Group">Grupo de Impuestos</value>
+  <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">Los grupos de impuestos permiten agrupar terceros con un impuesto de referencia.</value>
  </row>
  <row id="53093" trl="N">
   <value column="Name" original="C_Invoce Calculate Tax">C_Invoce Calculate Tax</value>
   <value column="Description" original=""/>
  </row>
- <row id="53094" trl="N">
-  <value column="Name" original="Tax Definition">Tax Definition</value>
-  <value column="Description" original="Lets you define different tax combinations.">Lets you define different tax combinations.</value>
+ <row id="53094" trl="Y">
+  <value column="Name" original="Tax Definition">Definición de Impuestos</value>
+  <value column="Description" original="Lets you define different tax combinations.">Permite definir las diferentes combinaciones de impuestos.</value>
  </row>
- <row id="53095" trl="N">
-  <value column="Name" original="Tax Rate Parent">Tax Rate Parent</value>
-  <value column="Description" original="Maintain Taxes and their Rates">Maintain Taxes and their Rates</value>
+ <row id="53095" trl="Y">
+  <value column="Name" original="Tax Rate Parent">Tasa Impuesto Padre</value>
+  <value column="Description" original="Maintain Taxes and their Rates">Mantiene Impuestos y sus Tasas</value>
  </row>
- <row id="53096" trl="N">
-  <value column="Name" original="Tax Type">Tax Type</value>
-  <value column="Description" original="Tax Types let you group taxes together.">Tax Types let you group taxes together.</value>
+ <row id="53096" trl="Y">
+  <value column="Name" original="Tax Type">Tipo Impuesto</value>
+  <value column="Description" original="Tax Types let you group taxes together.">Los tipos de impuestos agrupan impuestos.</value>
  </row>
- <row id="53097" trl="N">
-  <value column="Name" original="Tax Base">Tax Base</value>
-  <value column="Description" original="Defines tax base for a tax">Defines tax base for a tax</value>
+ <row id="53097" trl="Y">
+  <value column="Name" original="Tax Base">Impuesto Base</value>
+  <value column="Description" original="Defines tax base for a tax">Define impuestos base para un impuesto</value>
  </row>
  <row id="53098" trl="N">
   <value column="Name" original="Replication Data">Replication Data</value>
@@ -2214,24 +2214,24 @@
   <value column="Name" original="Setup Replication">Setup Replication</value>
   <value column="Description" original="Setup of data replication">Setup of data replication</value>
  </row>
- <row id="53100" trl="N">
-  <value column="Name" original="Export Format">Export Format</value>
+ <row id="53100" trl="Y">
+  <value column="Name" original="Export Format">Formato Exportación</value>
   <value column="Description" original=""/>
  </row>
- <row id="53101" trl="N">
-  <value column="Name" original="Export Processor">Export Processor</value>
+ <row id="53101" trl="Y">
+  <value column="Name" original="Export Processor">Procesador Exportación</value>
   <value column="Description" original=""/>
  </row>
- <row id="53102" trl="N">
-  <value column="Name" original="Export Processor Type">Export Processor Type</value>
+ <row id="53102" trl="Y">
+  <value column="Name" original="Export Processor Type">Tipo Procesador Exportación</value>
   <value column="Description" original=""/>
  </row>
- <row id="53103" trl="N">
-  <value column="Name" original="Import Processor">Import Processor</value>
+ <row id="53103" trl="Y">
+  <value column="Name" original="Import Processor">Procesador Importación</value>
   <value column="Description" original=""/>
  </row>
- <row id="53104" trl="N">
-  <value column="Name" original="Import Processor Type">Import Processor Type</value>
+ <row id="53104" trl="Y">
+  <value column="Name" original="Import Processor Type">Tipo Procesador Importación</value>
   <value column="Description" original=""/>
  </row>
  <row id="53108" trl="Y">
@@ -2314,9 +2314,9 @@
   <value column="Name" original="Manufacturing Workflow Editor">Editor Flujo Trabajo Manufactura</value>
   <value column="Description" original="Edit Manufacturing Workflows">Editor de Flujos de Trabajo de Manufactura</value>
  </row>
- <row id="53129" trl="N">
-  <value column="Name" original="Bill of Materials &amp; Formula "><![CDATA[Bill of Materials & Formula ]]></value>
-  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula "><![CDATA[Maintain Product Bill of Materials & Formula ]]></value>
+ <row id="53129" trl="Y">
+  <value column="Name" original="Bill of Materials &amp; Formula "><![CDATA[Lista de Materiales & Fórmula]]></value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula "><![CDATA[Mantiene listas de materiales de producdtos & fórmula]]></value>
  </row>
  <row id="53130" trl="N">
   <value column="Name" original="Test Export Model">Test Export Model</value>
@@ -2346,25 +2346,25 @@
   <value column="Name" original="Asset Revaluation">Asset Revaluation</value>
   <value column="Description" original="Process Asset Revaluations">Process Asset Revaluations</value>
  </row>
- <row id="53137" trl="N">
-  <value column="Name" original="Asset Revaluation Processing">Asset Revaluation Processing</value>
-  <value column="Description" original="Process Revaluation of Assets">Process Revaluation of Assets</value>
+ <row id="53137" trl="Y">
+  <value column="Name" original="Asset Revaluation Processing">Procesamiento Revaluación Activos</value>
+  <value column="Description" original="Process Revaluation of Assets">Procesamiento Revaluación de Activos</value>
  </row>
- <row id="53138" trl="N">
-  <value column="Name" original="Asset Revaluation Index">Asset Revaluation Index</value>
-  <value column="Description" original="Set the Revaluate Assets Index or Factors">Set the Revaluate Assets Index or Factors</value>
+ <row id="53138" trl="Y">
+  <value column="Name" original="Asset Revaluation Index">Indice Revaluación Activo</value>
+  <value column="Description" original="Set the Revaluate Assets Index or Factors">Fija el índice o factores de revaluación de activos</value>
  </row>
  <row id="53139" trl="N">
   <value column="Name" original="Splits Transfers and Disposals">Splits Transfers and Disposals</value>
   <value column="Description" original="Process Assets Splits Transfers and Disposals">Process Assets Splits Transfers and Disposals</value>
  </row>
- <row id="53140" trl="N">
-  <value column="Name" original="Transfer Asset Entry">Transfer Asset Entry</value>
-  <value column="Description" original="Create Transfer Asset Entry">Create Transfer Asset Entry</value>
+ <row id="53140" trl="Y">
+  <value column="Name" original="Transfer Asset Entry">Entrada Transferencia Activo</value>
+  <value column="Description" original="Create Transfer Asset Entry">Crear Entrada Transferencia Activo</value>
  </row>
- <row id="53141" trl="N">
-  <value column="Name" original="Disposed Asset Entry">Disposed Asset Entry</value>
-  <value column="Description" original="Create Disposed Asset Entry">Create Disposed Asset Entry</value>
+ <row id="53141" trl="Y">
+  <value column="Name" original="Disposed Asset Entry">Entrada Activo Desechado</value>
+  <value column="Description" original="Create Disposed Asset Entry">Crear Entrada Activo Desechado</value>
  </row>
  <row id="53142" trl="N">
   <value column="Name" original="Asset Disposal Expense Entry Rpt">Asset Disposal Expense Entry Rpt</value>
@@ -2374,21 +2374,21 @@
   <value column="Name" original="Asset Transfer Entry">Asset Transfer Entry</value>
   <value column="Description" original="Used to review Assets Transfered Entry ">Used to review Assets Transfered Entry </value>
  </row>
- <row id="53144" trl="N">
-  <value column="Name" original="Asset Split">Asset Split</value>
-  <value column="Description" original="Split Assets Process">Split Assets Process</value>
+ <row id="53144" trl="Y">
+  <value column="Name" original="Asset Split">División Activo</value>
+  <value column="Description" original="Split Assets Process">Proceso División Activos</value>
  </row>
- <row id="53145" trl="N">
-  <value column="Name" original="Asset Disposal">Asset Disposal</value>
-  <value column="Description" original="Dispose of Assets">Dispose of Assets</value>
+ <row id="53145" trl="Y">
+  <value column="Name" original="Asset Disposal">Desechamiento Activo</value>
+  <value column="Description" original="Dispose of Assets">Desechamiento de activos</value>
  </row>
- <row id="53146" trl="N">
-  <value column="Name" original="Asset Transfers">Asset Transfers</value>
-  <value column="Description" original="Process transfers of assets">Process transfers of assets</value>
+ <row id="53146" trl="Y">
+  <value column="Name" original="Asset Transfers">Transferencias Activo</value>
+  <value column="Description" original="Process transfers of assets">Procesa transferencias de activos</value>
  </row>
- <row id="53147" trl="N">
-  <value column="Name" original="Split Asset Entry">Split Asset Entry</value>
-  <value column="Description" original="Create Split Asset Entries">Create Split Asset Entries</value>
+ <row id="53147" trl="Y">
+  <value column="Name" original="Split Asset Entry">Entrada División Activo</value>
+  <value column="Description" original="Create Split Asset Entries">Crear Entrada División Activo</value>
  </row>
  <row id="53148" trl="N">
   <value column="Name" original="Asset Split Entry">Asset Split Entry</value>
@@ -2402,20 +2402,20 @@
   <value column="Name" original="Depreciation Expense Entry">Depreciation Expense Entry</value>
   <value column="Description" original="Used to review Depreciation Expense Entry not yet booked">Used to review Depreciation Expense Entry not yet booked</value>
  </row>
- <row id="53151" trl="N">
-  <value column="Name" original="Build Depreciation Workfile">Build Depreciation Workfile</value>
-  <value column="Description" original="Build Depreciation Expense File">Build Depreciation Expense File</value>
+ <row id="53151" trl="Y">
+  <value column="Name" original="Build Depreciation Workfile">Construir Archivo Depreciación</value>
+  <value column="Description" original="Build Depreciation Expense File">Construir Archivo de Gastos de Depreciación</value>
  </row>
- <row id="53152" trl="N">
-  <value column="Name" original="Post Depreciation Entry">Post Depreciation Entry</value>
-  <value column="Description" original="Create Depreciation Entry">Create Depreciation Entry</value>
+ <row id="53152" trl="Y">
+  <value column="Name" original="Post Depreciation Entry">Entrada Post Depreciación</value>
+  <value column="Description" original="Create Depreciation Entry">Crear Entrada Post Depreciación</value>
  </row>
  <row id="53153" trl="N">
   <value column="Name" original="Asset Depreciation Forecast">Asset Depreciation Forecast</value>
   <value column="Description" original="Used to review Assets Forecast">Used to review Assets Forecast</value>
  </row>
- <row id="53154" trl="N">
-  <value column="Name" original="Build Depreciation Forecast">Build Depreciation Forecast</value>
+ <row id="53154" trl="Y">
+  <value column="Name" original="Build Depreciation Forecast">Construir Pronóstico Depreciación</value>
   <value column="Description" original=""/>
  </row>
  <row id="53155" trl="N">
@@ -2462,9 +2462,9 @@
   <value column="Name" original="Inbound Charges for GL">Inbound Charges for GL</value>
   <value column="Description" original="Process invoice charges from GL">Process invoice charges from GL</value>
  </row>
- <row id="53166" trl="N">
-  <value column="Name" original="Inbound Asset Entry">Inbound Asset Entry</value>
-  <value column="Description" original="Create Inbound Asset Entry">Create Inbound Asset Entry</value>
+ <row id="53166" trl="Y">
+  <value column="Name" original="Inbound Asset Entry">Entrada Activo Interior</value>
+  <value column="Description" original="Create Inbound Asset Entry">Crear Entrada Activo Interior</value>
  </row>
  <row id="53167" trl="N">
   <value column="Name" original="Inbound Charge Entry Report">Inbound Charge Entry Report</value>
@@ -2478,33 +2478,33 @@
   <value column="Name" original="Import File Loader">Cargador de Archivos</value>
   <value column="Description" original="Load flat Files into import tables">Cargar archivos planos en las tablas de importación</value>
  </row>
- <row id="53170" trl="N">
-  <value column="Name" original="Post Imported Assets">Post Imported Assets</value>
-  <value column="Description" original="Import Fixed Assets">Import Fixed Assets</value>
+ <row id="53170" trl="Y">
+  <value column="Name" original="Post Imported Assets">Importa Activos</value>
+  <value column="Description" original="Import Fixed Assets">Importa Activos Fijos</value>
  </row>
  <row id="53171" trl="N">
   <value column="Name" original="Depreciation Setup">Depreciation Setup</value>
   <value column="Description" original="Applications to setup and maintain depreciation">Applications to setup and maintain depreciation</value>
  </row>
- <row id="53172" trl="N">
-  <value column="Name" original="Depreciation Period Spread Type">Depreciation Period Spread Type</value>
-  <value column="Description" original="Period Spread Type">Period Spread Type</value>
+ <row id="53172" trl="Y">
+  <value column="Name" original="Depreciation Period Spread Type">Tipo Propagación Período Depreciación</value>
+  <value column="Description" original="Period Spread Type">Tipo Propagación Período Depreciación</value>
  </row>
- <row id="53173" trl="N">
-  <value column="Name" original="Depreciation Methods">Depreciation Methods</value>
-  <value column="Description" original="Depreciation Methods">Depreciation Methods</value>
+ <row id="53173" trl="Y">
+  <value column="Name" original="Depreciation Methods">Métodos Depreciación</value>
+  <value column="Description" original="Depreciation Methods">Métodos Depreciación</value>
  </row>
- <row id="53174" trl="N">
-  <value column="Name" original="Depreciation Tables">Depreciation Tables</value>
-  <value column="Description" original="Allows users to create multiple depreciation schedules">Allows users to create multiple depreciation schedules</value>
+ <row id="53174" trl="Y">
+  <value column="Name" original="Depreciation Tables">Tablas de Depreciación</value>
+  <value column="Description" original="Allows users to create multiple depreciation schedules">Permite a los usuarios crear múltiples calendarios de depreciación</value>
  </row>
- <row id="53175" trl="N">
-  <value column="Name" original="Depreciation First Year Conventions ">Depreciation First Year Conventions </value>
-  <value column="Description" original="Setup for depreciation Setups">Setup for depreciation Setups</value>
+ <row id="53175" trl="Y">
+  <value column="Name" original="Depreciation First Year Conventions ">Convenciones Depreciación Primer Año</value>
+  <value column="Description" original="Setup for depreciation Setups">Configuración para convenciones de depreciación</value>
  </row>
- <row id="53176" trl="N">
-  <value column="Name" original="Depreciation Calculation Method">Depreciation Calculation Method</value>
-  <value column="Description" original="Define Calculation Methods used in depreciation expense calculation">Define Calculation Methods used in depreciation expense calculation</value>
+ <row id="53176" trl="Y">
+  <value column="Name" original="Depreciation Calculation Method">Método Cálculo Depreciación</value>
+  <value column="Description" original="Define Calculation Methods used in depreciation expense calculation">Define Métodos de Cálculo usados en los cálculos de gastos de depreciación</value>
  </row>
  <row id="53180" trl="N">
   <value column="Name" original="Forecast Management">Forecast Management</value>
@@ -2558,8 +2558,8 @@
   <value column="Name" original="Enable Native Sequence">Enable Native Sequence</value>
   <value column="Description" original="Enable Native Sequence">Enable Native Sequence</value>
  </row>
- <row id="53196" trl="N">
-  <value column="Name" original="Web POS Terminal">Web POS Terminal</value>
+ <row id="53196" trl="Y">
+  <value column="Name" original="Web POS Terminal">Terminal PDV Web</value>
   <value column="Description" original=""/>
  </row>
  <row id="53198" trl="N">
@@ -2575,36 +2575,36 @@
   <value column="Description" original=""/>
  </row>
  <row id="53203" trl="Y">
-  <value column="Name" original="Search Definition">Definición Atajos</value>
-  <value column="Description" original="Define transactioncodes for the QuickSearch bar">Define códigos de atajo (accesos directos) para la barra de búsqueda</value>
+  <value column="Name" original="Search Definition">Definición Búsquedas</value>
+  <value column="Description" original="Define transactioncodes for the QuickSearch bar">Define códigos de búsqueda (accesos directos) para la barra de búsqueda</value>
  </row>
  <row id="53206" trl="Y">
   <value column="Name" original="Import Price List">Importar Listas de Precios</value>
   <value column="Description" original="Import Price Lists">Importar Listas de Precios</value>
  </row>
- <row id="53210" trl="N">
-  <value column="Name" original="Promotion Group">Promotion Group</value>
-  <value column="Description" original="Grouping of product for promotion setup">Grouping of product for promotion setup</value>
+ <row id="53210" trl="Y">
+  <value column="Name" original="Promotion Group">Grupo Promoción</value>
+  <value column="Description" original="Grouping of product for promotion setup">Agrupamiento para configuración de promociones por producto</value>
  </row>
- <row id="53211" trl="N">
-  <value column="Name" original="Promotion">Promotion</value>
-  <value column="Description" original="Setup promotion rule">Setup promotion rule</value>
+ <row id="53211" trl="Y">
+  <value column="Name" original="Promotion">Promoción</value>
+  <value column="Description" original="Setup promotion rule">Configura reglas de promoción</value>
  </row>
  <row id="53214" trl="Y">
   <value column="Name" original="Report Cube">Cubo de Reportes</value>
   <value column="Description" original="Define reporting cube for pre-calculation of summary accounting data.">Define un cubo de reportes para pre-cálculo de datos contables sumarizados.</value>
  </row>
  <row id="53215" trl="Y">
-  <value column="Name" original="Recalculate Fact Summary">Recalcular Cubo</value>
+  <value column="Name" original="Recalculate Cube">Recalcular Cubo</value>
   <value column="Description" original="Recalculate summary facts based on report cube definitions.">Recalcula el cubo basado en la definición de cubos.</value>
  </row>
  <row id="53223" trl="N">
   <value column="Name" original="Order Transactions">Order Transactions</value>
   <value column="Description" original="Sales Order Transaction Report">Sales Order Transaction Report</value>
  </row>
- <row id="53224" trl="N">
-  <value column="Name" original="MRP Notice (all)">MRP Notice (all)</value>
-  <value column="Description" original="View all MRP Notices">View all MRP Notices</value>
+ <row id="53224" trl="Y">
+  <value column="Name" original="MRP Notice (all)">Avisos MRP (Todos)</value>
+  <value column="Description" original="View all MRP Notices">Ver todos los avisos de MRP</value>
  </row>
  <row id="53225" trl="Y">
   <value column="Name" original="My Unprocessed Documents">Mis Documentos sin Procesar</value>

@@ -4294,10 +4294,6 @@
   <value column="Name" original="Chart">Chart</value>
   <value column="Description" original=""/>
  </row>
- <row id="53503" trl="N">
-  <value column="Name" original="Broadcast">Broadcast</value>
-  <value column="Description" original="Broadcast &lt;&lt;-&gt;&gt;"/>
- </row>
  <row id="53504" trl="N">
   <value column="Name" original="Model Validator">Model Validator</value>
   <value column="Description" original=""/>
@@ -4388,10 +4384,6 @@
  </row>
  <row id="53534" trl="N">
   <value column="Name" original="Other">Other</value>
-  <value column="Description" original=""/>
- </row>
- <row id="53551" trl="N">
-  <value column="Name" original="Human Resource &amp; Payroll"><![CDATA[Human Resource & Payroll]]></value>
   <value column="Description" original=""/>
  </row>
 </adempiereTrl>

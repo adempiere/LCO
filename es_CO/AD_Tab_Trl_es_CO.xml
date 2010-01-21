@@ -4425,9 +4425,9 @@ La medida debe soportar la información, sino es ignorada.</value>
   <value column="Help" original=""/>
  </row>
  <row id="53050" trl="N">
-  <value column="Name" original="Distribution Order Line">Order Line</value>
+  <value column="Name" original="Order Line">Order Line</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Distribution Order Line"/>
+  <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
  <row id="53051" trl="N">
@@ -4455,7 +4455,7 @@ La medida debe soportar la información, sino es ignorada.</value>
   <value column="Help" original="Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities.">Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities.</value>
  </row>
  <row id="53055" trl="N">
-  <value column="Name" original="Distribution Order">Order</value>
+  <value column="Name" original="Order">Order</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distribution Order allow create Order inter warehouse to supply a demand </value>
   <value column="Help" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distribution Order allow create Order inter warehouse to supply a demand </value>

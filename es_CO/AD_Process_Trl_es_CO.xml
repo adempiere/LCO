@@ -1788,7 +1788,7 @@ This process should be implemented when the users are not connected.</value>
   <value column="Help" original=""/>
  </row>
  <row id="53166" trl="Y">
-  <value column="Name" original="Recalculate Fact Summary">Recalcular Cubo</value>
+  <value column="Name" original="Recalculate Cube">Recalcular Cubo</value>
   <value column="Description" original="Recalculate summary facts based on report cube definitions.">Recalcula el cubo basado en la definición de cubos.</value>
   <value column="Help" original=""/>
  </row>
