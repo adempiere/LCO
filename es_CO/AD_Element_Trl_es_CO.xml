@@ -28441,9 +28441,9 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53760" trl="N">
-  <value column="Name" original="Gross Requirements Quantity">Gross Requirements Quantity</value>
-  <value column="PrintName" original="Gross Req. Qty">Gross Req. Qty</value>
+ <row id="53760" trl="Y">
+  <value column="Name" original="Gross Requirements Quantity">Cantidad Requerimiento Bruta</value>
+  <value column="PrintName" original="Gross Req. Qty">Cantidad Requerimiento Bruta</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -28451,9 +28451,9 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53761" trl="N">
-  <value column="Name" original="Scheduled Receipts Quantity">Scheduled Receipts Quantity</value>
-  <value column="PrintName" original="Scheduled Receipts Qty">Scheduled Receipts Qty</value>
+ <row id="53761" trl="Y">
+  <value column="Name" original="Scheduled Receipts Quantity">Cantidad Agendada Recibos</value>
+  <value column="PrintName" original="Scheduled Receipts Qty">Cantidad Agendada Recibos</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -28461,11 +28461,11 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53762" trl="N">
-  <value column="Name" original="On Hand Projected Quantity">On Hand Projected Quantity</value>
-  <value column="PrintName" original="On Hand Projected Qty">On Hand Projected Qty</value>
-  <value column="Description" original="On Hand Projected Quantity">On Hand Projected Quantity</value>
-  <value column="Help" original="The On Hand Projected Quantity indicates the quantity of a product that is on hand in time line.">The On Hand Projected Quantity indicates the quantity of a product that is on hand in time line.</value>
+ <row id="53762" trl="Y">
+  <value column="Name" original="On Hand Projected Quantity">Cantidad Proyectada en Existencia</value>
+  <value column="PrintName" original="On Hand Projected Qty">Cantidad Proyectada en Existencia</value>
+  <value column="Description" original="On Hand Projected Quantity">Cantidad Proyectada en Existencia</value>
+  <value column="Help" original="The On Hand Projected Quantity indicates the quantity of a product that is on hand in time line."></value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
@@ -28751,7 +28751,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53823" trl="N">
+ <row id="53823" trl="Y">
   <value column="Name" original="OrgTrx Dimension">Dimensión Org Transacción</value>
   <value column="PrintName" original="OrgTrx Dimension">Dimensión Org Transacción</value>
   <value column="Description" original="Include OrgTrx as a cube dimension">Incluye la organización de la transacción como dimensión del cubo</value>
@@ -28761,7 +28761,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53824" trl="N">
+ <row id="53824" trl="Y">
   <value column="Name" original="Business Partner Dimension">Dimensión Tercero</value>
   <value column="PrintName" original="Business Partner Dimension">Dimensión Tercero</value>
   <value column="Description" original="Include Business Partner as a cube dimension">Incluye el tercero como dimensión del cubo</value>
@@ -28771,7 +28771,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53825" trl="N">
+ <row id="53825" trl="Y">
   <value column="Name" original="Campaign Dimension">Dimensión Campaña</value>
   <value column="PrintName" original="Campaign Dimension">Dimensión Campaña</value>
   <value column="Description" original="Include Campaign as a cube dimension">Incluye la campaña como dimensión del cubo</value>
@@ -28781,7 +28781,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53826" trl="N">
+ <row id="53826" trl="Y">
   <value column="Name" original="Location From Dimension">Dimensión Dirección Desde</value>
   <value column="PrintName" original="Location From Dimension">Dimensión Dirección Desde</value>
   <value column="Description" original="Include Location From as a cube dimension">Incluye la dirección desde como dimensión del cubo</value>
@@ -28791,7 +28791,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53827" trl="N">
+ <row id="53827" trl="Y">
   <value column="Name" original="Location To  Dimension">Dimensión Dirección Hacia</value>
   <value column="PrintName" original="Location To Dimension">Dimensión Dirección Hacia</value>
   <value column="Description" original="Include Location To as a cube dimension">Incluye la dirección hacia como dimensión del cubo</value>
@@ -28801,7 +28801,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53828" trl="N">
+ <row id="53828" trl="Y">
   <value column="Name" original="Project Phase  Dimension">Dimensión Fase Proyecto</value>
   <value column="PrintName" original="Project Phase Dimension">Dimensión Fase Proyecto</value>
   <value column="Description" original="Include Project Phase as a cube dimension">Incluye la fase proyecto como dimensión del cubo</value>
@@ -28811,7 +28811,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53829" trl="N">
+ <row id="53829" trl="Y">
   <value column="Name" original="Project Task  Dimension">Dimensión Tarea Proyecto</value>
   <value column="PrintName" original="Project Task Dimension">Dimensión Tarea Proyecto</value>
   <value column="Description" original="Include Project Task as a cube dimension">Incluye la tarea proyecto como dimensión del cubo</value>
@@ -28821,7 +28821,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53830" trl="N">
+ <row id="53830" trl="Y">
   <value column="Name" original="Project Dimension">Dimensión Proyecto</value>
   <value column="PrintName" original="Project Dimension">Dimensión Proyecto</value>
   <value column="Description" original="Include Project as a cube dimension">Incluye el proyecto como dimensión del cubo</value>
@@ -28831,7 +28831,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53831" trl="N">
+ <row id="53831" trl="Y">
   <value column="Name" original="Sales Region Dimension">Dimensión Región Ventas</value>
   <value column="PrintName" original="Sales Region Dimension">Dimensión Región Ventas</value>
   <value column="Description" original="Include Sales Region as a cube dimension">Incluye la región de ventas como dimensión del cubo</value>
@@ -28841,7 +28841,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53832" trl="N">
+ <row id="53832" trl="Y">
   <value column="Name" original="Sub Acct Dimension">Dimensión Subcuenta</value>
   <value column="PrintName" original="Sub Acct Dimension">Dimensión Subcuenta</value>
   <value column="Description" original="Include Sub Acct as a cube dimension">Incluye la subcuenta como dimensión del cubo</value>
@@ -28851,7 +28851,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53833" trl="N">
+ <row id="53833" trl="Y">
   <value column="Name" original="GL Budget Dimension">Dimensión Presupuesto</value>
   <value column="PrintName" original="GL Budget Dimension">Dimensión Presupuesto</value>
   <value column="Description" original="Include GL Budget as a cube dimension">Incluye el presupuesto como dimensión del cubo</value>
@@ -28861,7 +28861,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53834" trl="N">
+ <row id="53834" trl="Y">
   <value column="Name" original="Product Dimension">Dimensión Producto</value>
   <value column="PrintName" original="Product Dimension">Dimensión Producto</value>
   <value column="Description" original="Include Product as a cube dimension">Incluye el producto como dimensión del cubo</value>
@@ -28871,7 +28871,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53835" trl="N">
+ <row id="53835" trl="Y">
   <value column="Name" original="User 1 Dimension">Dimensión Usuario 1</value>
   <value column="PrintName" original="User 1 Dimension">Dimensión Usuario 1</value>
   <value column="Description" original="Include User 1 as a cube dimension">Incluye el campo usuario 1 como dimensión del cubo</value>
@@ -28881,7 +28881,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53836" trl="N">
+ <row id="53836" trl="Y">
   <value column="Name" original="User 2 Dimension">Dimensión Usuario 2</value>
   <value column="PrintName" original="User 2 Dimension">Dimensión Usuario 2</value>
   <value column="Description" original="Include User 2 as a cube dimension">Incluye el campo usuario 2 como dimensión del cubo</value>
@@ -28891,7 +28891,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53837" trl="N">
+ <row id="53837" trl="Y">
   <value column="Name" original="Last Recalculated">Ultimo Recálculo</value>
   <value column="PrintName" original="Last Recalculated">Ultimo Recálculo</value>
   <value column="Description" original="The time last recalculated.">La fecha-hora del último recálculo.</value>
@@ -28901,7 +28901,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53838" trl="N">
+ <row id="53838" trl="Y">
   <value column="Name" original="Allow Cities out of List">Permite ciudades fuera de la lista</value>
   <value column="PrintName" original="Allow Cities out of List">Permite ciudades fuera de la lista</value>
   <value column="Description" original="A flag to allow cities, currently not in the list, to be entered">Esta bandera indica si se permite ingresa ciudades que no están en la lista en la ventana de captura de direcciones</value>
@@ -28911,7 +28911,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53839" trl="N">
+ <row id="53839" trl="Y">
   <value column="Name" original="Capture Sequence">Secuencia de Captura</value>
   <value column="PrintName" original="Capture Sequence">Secuencia de Captura</value>
   <value column="Description" original=""/>
@@ -28921,7 +28921,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53866" trl="N">
+ <row id="53866" trl="Y">
   <value column="Name" original="Referenced RMA">Autorización Devolución Referenciada</value>
   <value column="PrintName" original="Ref RMA">Autorización Devolución Referenciada</value>
   <value column="Description" original=""/>
@@ -28931,7 +28931,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53867" trl="N">
+ <row id="53867" trl="Y">
   <value column="Name" original="Referenced RMA Line">Línea Autorización Devolución Referenciada</value>
   <value column="PrintName" original="Ref RMA Line">Línea Autorización Devolución Referenciada</value>
   <value column="Description" original=""/>
@@ -28941,7 +28941,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53874" trl="N">
+ <row id="53874" trl="Y">
   <value column="Name" original="Parent Column">Columna Padre</value>
   <value column="PrintName" original="Parent Column">Columna Padre</value>
   <value column="Description" original="The link column on the parent tab.">La columna enlace con la pestaña padre.</value>
@@ -28951,7 +28951,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53891" trl="N">
+ <row id="53891" trl="Y">
   <value column="Name" original="Promotion Distribution">Distribución Promoción</value>
   <value column="PrintName" original="Promotion Distribution">Distribución Promoción</value>
   <value column="Description" original=""/>
@@ -28961,7 +28961,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53893" trl="N">
+ <row id="53893" trl="Y">
   <value column="Name" original="Copy From Report and Process">Copiar de Reporte y Proceso</value>
   <value column="PrintName" original="Copy From Report and Process">Copiar de Reporte y Proceso</value>
   <value column="Description" original="Copy settings from one report and process to another.">Copia la configuración de un reporte y proceso en otro.</value>
@@ -28971,7 +28971,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53894" trl="N">
+ <row id="53894" trl="Y">
   <value column="Name" original="Chart Type">Tipo Cuadro</value>
   <value column="PrintName" original="Chart Type">Tipo Cuadro</value>
   <value column="Description" original="Type fo chart to render">Tipo de cuadro para desplegar</value>
@@ -28981,7 +28981,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53895" trl="N">
+ <row id="53895" trl="Y">
   <value column="Name" original="Goal Display">Despliegue Objetivo</value>
   <value column="PrintName" original="Goal Display">Despliegue Objetivo</value>
   <value column="Description" original="Type of goal display on dashboard">Tipo de despliegue objetivo en el tablero de control</value>
@@ -28991,7 +28991,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53897" trl="N">
+ <row id="53897" trl="Y">
   <value column="Name" original="User Element 2 Dimension">Dimensión Elemento Usuario 2</value>
   <value column="PrintName" original="User Element 2 Dimension">Dimensión Elemento Usuario 2</value>
   <value column="Description" original="Include User Element 2 as a cube dimension">Incluye el elemento usuario 2 como dimensión del cubo</value>
@@ -29001,7 +29001,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53898" trl="N">
+ <row id="53898" trl="Y">
   <value column="Name" original="User Element 1 Dimension">Dimensión Elemento Usuario 1</value>
   <value column="PrintName" original="User Element 1 Dimension">Dimensión Elemento Usuario 1</value>
   <value column="Description" original="Include User Element 1 as a cube dimension">Incluye el elemento usuario 1 como dimensión del cubo</value>
@@ -29011,7 +29011,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53909" trl="N">
+ <row id="53909" trl="Y">
   <value column="Name" original="Logo">Logo</value>
   <value column="PrintName" original="Logo">Logo</value>
   <value column="Description" original=""/>
@@ -29021,7 +29021,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53910" trl="N">
+ <row id="53910" trl="Y">
   <value column="Name" original="Logo Report">Logo Reporte</value>
   <value column="PrintName" original="Logo Report">Logo Reporte</value>
   <value column="Description" original=""/>
@@ -29031,7 +29031,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53911" trl="N">
+ <row id="53911" trl="Y">
   <value column="Name" original="Logo Web">Logo Web</value>
   <value column="PrintName" original="Logo Web">Logo Web</value>
   <value column="Description" original=""/>
@@ -29041,7 +29041,7 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53926" trl="N">
+ <row id="53926" trl="Y">
   <value column="Name" original="PO Tax exempt">Exento de Impuesto en Compra</value>
   <value column="PrintName" original="PO Tax exempt">Exento de Impuesto en Compra</value>
   <value column="Description" original="Business partner is exempt from tax on purchases">Este tercero es exento (o no debe facturar) impuesto de ventas.</value>
@@ -29051,211 +29051,11 @@ Crédito Cuenta Trabajo en Proceso</value>
   <value column="PO_Name" original=""/>
   <value column="PO_PrintName" original=""/>
  </row>
- <row id="53927" trl="N">
+ <row id="53927" trl="Y">
   <value column="Name" original="UOM Type">Tipo Unidad de Medida</value>
   <value column="PrintName" original="UOM Type">Tipo Unidad de Medida</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000000" trl="N">
-  <value column="Name" original="CoAFile">CoAFile</value>
-  <value column="PrintName" original="Chart of Accounts File">Chart of Accounts File</value>
-  <value column="Description" original="Location of the chart of accounts to be used with this client.  At this stage just the default accounts will be created.">Location of the chart of accounts to be used with this client.  At this stage just the default accounts will be created.</value>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000001" trl="N">
-  <value column="Name" original="IsPrintPackingList">IsPrintPackingList</value>
-  <value column="PrintName" original="Is Print Pack &amp; Tools List"><![CDATA[Is Print Pack & Tools List]]></value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000002" trl="N">
-  <value column="Name" original="ScriptsPath">ScriptsPath</value>
-  <value column="PrintName" original="Scripts Path">Scripts Path</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000003" trl="N">
-  <value column="Name" original="ClientName">ClientName</value>
-  <value column="PrintName" original="Client Name">Client Name</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000004" trl="N">
-  <value column="Name" original="IsUseProductDimension">IsUseProductDimension</value>
-  <value column="PrintName" original="Product Accounting">Product Accounting</value>
-  <value column="Description" original="Use Product accounting dimension">Use Product accounting dimension</value>
-  <value column="Help" original="Define if this client will use product accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use product accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000005" trl="N">
-  <value column="Name" original="IsUseCampaignDimension">IsUseCampaignDimension</value>
-  <value column="PrintName" original="Campaign Accounting">Campaign Accounting</value>
-  <value column="Description" original="Use Campaign accounting dimension">Use Campaign accounting dimension</value>
-  <value column="Help" original="Define if this client will use campaign accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use campaign accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000006" trl="N">
-  <value column="Name" original="Force">Force</value>
-  <value column="PrintName" original="Force">Force</value>
-  <value column="Description" original="Force rebuild of cube even if locked.">Force rebuild of cube even if locked.</value>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000007" trl="N">
-  <value column="Name" original="Reset">Reset</value>
-  <value column="PrintName" original="Full rebuild">Full rebuild</value>
-  <value column="Description" original="Delete all existing summary data and recalculate.">Delete all existing summary data and recalculate.</value>
-  <value column="Help" original="If not selected, only those periods with recently posted accounting facts will be recalculated.">If not selected, only those periods with recently posted accounting facts will be recalculated.</value>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000008" trl="N">
-  <value column="Name" original="IsPrintPickList">IsPrintPickList</value>
-  <value column="PrintName" original="Is Print Pick List">Is Print Pick List</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000009" trl="N">
-  <value column="Name" original="PriceList_Version_ID">PriceList_Version_ID</value>
-  <value column="PrintName" original="Purchase Price List Version">Purchase Price List Version</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000010" trl="N">
-  <value column="Name" original="NormalUserName">NormalUserName</value>
-  <value column="PrintName" original="Normal User Name">Normal User Name</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000011" trl="N">
-  <value column="Name" original="AdminUserName">AdminUserName</value>
-  <value column="PrintName" original="Administrative User Name">Administrative User Name</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000012" trl="N">
-  <value column="Name" original="CityName">CityName</value>
-  <value column="PrintName" original="City Name">City Name</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000013" trl="N">
-  <value column="Name" original="From_C_BankAccount_ID">From_C_BankAccount_ID</value>
-  <value column="PrintName" original="Bank Account From">Bank Account From</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000014" trl="N">
-  <value column="Name" original="IsPrintWorkflow">IsPrintWorkflow</value>
-  <value column="PrintName" original="Is Print Workflow">Is Print Workflow</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000015" trl="N">
-  <value column="Name" original="To_C_BankAccount_ID">To_C_BankAccount_ID</value>
-  <value column="PrintName" original="Bank Account To">Bank Account To</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000016" trl="N">
-  <value column="Name" original="IsUseBPDimension">IsUseBPDimension</value>
-  <value column="PrintName" original="BP Accounting">BP Accounting</value>
-  <value column="Description" original="Use BP accounting dimension">Use BP accounting dimension</value>
-  <value column="Help" original="Define if this client will use business partner accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use business partner accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000017" trl="N">
-  <value column="Name" original="IsUseSalesRegionDimension">IsUseSalesRegionDimension</value>
-  <value column="PrintName" original="Sales Region Accounting">Sales Region Accounting</value>
-  <value column="Description" original="Use Sales Region accounting dimension">Use Sales Region accounting dimension</value>
-  <value column="Help" original="Define if this client will use sales region accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use sales region accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000018" trl="N">
-  <value column="Name" original="IsGenerateFields">IsGenerateFields</value>
-  <value column="PrintName" original="Generate Fields">Generate Fields</value>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
-  <value column="PO_Description" original=""/>
-  <value column="PO_Help" original=""/>
-  <value column="PO_Name" original=""/>
-  <value column="PO_PrintName" original=""/>
- </row>
- <row id="1000019" trl="N">
-  <value column="Name" original="IsUseProjectDimension">IsUseProjectDimension</value>
-  <value column="PrintName" original="Project Accounting">Project Accounting</value>
-  <value column="Description" original="Use Project accounting dimension">Use Project accounting dimension</value>
-  <value column="Help" original="Define if this client will use project accounting dimension.  This can be changed later in Accounting Schema window of the client.">Define if this client will use project accounting dimension.  This can be changed later in Accounting Schema window of the client.</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>

@@ -98,269 +98,269 @@
   <value column="Description" original="Just a test case for a manual interaction.">Solo un caso prueba para una interacción manual</value>
   <value column="Help" original="Enter and maintain Material Requisitions">Ingresar y mantener requisición de materiales</value>
  </row>
- <row id="50000" trl="N">
-  <value column="Name" original="Manufacturing Workflow Setup">Manufacturing Workflow Setup</value>
-  <value column="Description" original="Setup Manufacturing Workflow">Setup Manufacturing Workflow</value>
+ <row id="50000" trl="Y">
+  <value column="Name" original="Manufacturing Workflow Setup">Configuración Flujo Trabajo Manufactura</value>
+  <value column="Description" original="Setup Manufacturing Workflow">Configuración Flujo Trabajo Manufactura</value>
   <value column="Help" original=""/>
  </row>
- <row id="50001" trl="N">
-  <value column="Name" original="Discrete Manufacturing Setup">Discrete Manufacturing Setup</value>
-  <value column="Description" original="Setup Manufacturing Management">Setup Manufacturing Management</value>
+ <row id="50001" trl="Y">
+  <value column="Name" original="Discrete Manufacturing Setup">Configuración Manufactura Discreta</value>
+  <value column="Description" original="Setup Manufacturing Management">Configuración Manufactura Discreta</value>
   <value column="Help" original=""/>
  </row>
- <row id="50002" trl="N">
-  <value column="Name" original="Bill of Material &amp; Formula Setup"><![CDATA[Bill of Material & Formula Setup]]></value>
-  <value column="Description" original="Setup Manufacturing Management">Setup Manufacturing Management</value>
+ <row id="50002" trl="Y">
+  <value column="Name" original="Bill of Material &amp; Formula Setup"><![CDATA[Configuración List de Materiales & Fórmula]]></value>
+  <value column="Description" original="Setup Manufacturing Management">Configuración Administración Manufactura</value>
   <value column="Help" original=""/>
  </row>
- <row id="50003" trl="N">
-  <value column="Name" original="Warehouse &amp; Locators"><![CDATA[Warehouse & Locators]]></value>
-  <value column="Description" original="Warehouse &amp; Locators"><![CDATA[Warehouse & Locators]]></value>
+ <row id="50003" trl="Y">
+  <value column="Name" original="Warehouse &amp; Locators"><![CDATA[Almacén & Ubicaciones]]></value>
+  <value column="Description" original="Warehouse &amp; Locators"><![CDATA[Almacén & Ubicaciones]]></value>
   <value column="Help" original=""/>
  </row>
- <row id="50004" trl="N">
-  <value column="Name" original="Resource Type">Resource Type</value>
-  <value column="Description" original="Resource Type">Resource Type</value>
+ <row id="50004" trl="Y">
+  <value column="Name" original="Resource Type">Tipo Recurso</value>
+  <value column="Description" original="Resource Type">Tipo Recurso</value>
   <value column="Help" original=""/>
  </row>
- <row id="50005" trl="N">
-  <value column="Name" original="Manufacturing Workflows">Manufacturing Workflows</value>
-  <value column="Description" original="Manufacturing Workflows">Manufacturing Workflows</value>
+ <row id="50005" trl="Y">
+  <value column="Name" original="Manufacturing Workflows">Flujos de Trabajo Manufactura</value>
+  <value column="Description" original="Manufacturing Workflows">Flujos de Trabajo Manufactura</value>
   <value column="Help" original=""/>
  </row>
- <row id="50006" trl="N">
-  <value column="Name" original="Manufacturing Resource">Manufacturing Resource</value>
-  <value column="Description" original="Manufacturing Resource">Manufacturing Resource</value>
+ <row id="50006" trl="Y">
+  <value column="Name" original="Manufacturing Resource">Recurso de Manufactura</value>
+  <value column="Description" original="Manufacturing Resource">Recurso de Manufactura</value>
   <value column="Help" original=""/>
  </row>
- <row id="50007" trl="N">
-  <value column="Name" original="Unit of Measure">Unit of Measure</value>
-  <value column="Description" original="Maintain Unit of Measure ">Maintain Unit of Measure </value>
+ <row id="50007" trl="Y">
+  <value column="Name" original="Unit of Measure">Unidad de Medida</value>
+  <value column="Description" original="Maintain Unit of Measure ">Mantenimiento Unidad de Medida</value>
   <value column="Help" original=""/>
  </row>
- <row id="50008" trl="N">
-  <value column="Name" original="Product">Product</value>
-  <value column="Description" original="Maintain Products">Maintain Products</value>
+ <row id="50008" trl="Y">
+  <value column="Name" original="Product">Producto</value>
+  <value column="Description" original="Maintain Products">Mantenimiento de Productos</value>
   <value column="Help" original=""/>
  </row>
- <row id="50009" trl="N">
-  <value column="Name" original="Material Requirement Planning Setup">Material Requirement Planning Setup</value>
-  <value column="Description" original="Setup Material Requirement Planning">Setup Material Requirement Planning</value>
+ <row id="50009" trl="Y">
+  <value column="Name" original="Material Requirement Planning Setup">Configuración Planeación Requerimientos de Materiales</value>
+  <value column="Description" original="Setup Material Requirement Planning">Configuración Planeación Requerimientos de Materiales</value>
   <value column="Help" original=""/>
  </row>
- <row id="50010" trl="N">
-  <value column="Name" original="Capacity Requirement Planning Setup">Capacity Requirement Planning Setup</value>
-  <value column="Description" original="Setup Capacity Requirement Planning">Setup Capacity Requirement Planning</value>
+ <row id="50010" trl="Y">
+  <value column="Name" original="Capacity Requirement Planning Setup">Configuración Planeación Requerimientos de Capacidad</value>
+  <value column="Description" original="Setup Capacity Requirement Planning">Configuración Planeación Requerimientos de Capacidad</value>
   <value column="Help" original=""/>
  </row>
- <row id="50011" trl="N">
-  <value column="Name" original="Forecast">Forecast</value>
-  <value column="Description" original="Forecast">Forecast</value>
+ <row id="50011" trl="Y">
+  <value column="Name" original="Forecast">Pronóstico</value>
+  <value column="Description" original="Forecast">Pronóstico</value>
   <value column="Help" original=""/>
  </row>
- <row id="50012" trl="N">
-  <value column="Name" original="Manufacturing Management Setup">Manufacturing Management Setup</value>
-  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.</value>
+ <row id="50012" trl="Y">
+  <value column="Name" original="Manufacturing Management Setup">Configuración Administración Manufactura</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP es un conjunto de técnicas que usan Listas de Materiales, Datos de Inventario, y Plan Maestro de Producción para calcular requerimientos de materiales.</value>
   <value column="Help" original=""/>
  </row>
- <row id="50013" trl="N">
-  <value column="Name" original="Notice">Notice</value>
-  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.</value>
+ <row id="50013" trl="Y">
+  <value column="Name" original="Notice">Aviso</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP es un conjunto de técnicas que usan Listas de Materiales, Datos de Inventario, y Plan Maestro de Producción para calcular requerimientos de materiales.</value>
   <value column="Help" original=""/>
  </row>
- <row id="50014" trl="N">
-  <value column="Name" original="Discrete Manufacturing Setup">Discrete Manufacturing Setup</value>
-  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.</value>
+ <row id="50014" trl="Y">
+  <value column="Name" original="Discrete Manufacturing Setup">Configuración Manufactura Discreta</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP es un conjunto de técnicas que usan Listas de Materiales, Datos de Inventario, y Plan Maestro de Producción para calcular requerimientos de materiales.</value>
   <value column="Help" original=""/>
  </row>
- <row id="50015" trl="N">
-  <value column="Name" original="Material Requirement Planning Setup">Material Requirement Planning Setup</value>
-  <value column="Description" original="Setup Material Requirement Planning">Setup Material Requirement Planning</value>
+ <row id="50015" trl="Y">
+  <value column="Name" original="Material Requirement Planning Setup">Configuración Planeación Requerimientos de Materiales</value>
+  <value column="Description" original="Setup Material Requirement Planning">Configuración Planeación Requerimientos de Materiale</value>
   <value column="Help" original=""/>
  </row>
- <row id="50016" trl="N">
-  <value column="Name" original="Manufacturing Workflow Setup">Manufacturing Workflow Setup</value>
-  <value column="Description" original="Setup Manufacturing Workflow">Setup Manufacturing Workflow</value>
+ <row id="50016" trl="Y">
+  <value column="Name" original="Manufacturing Workflow Setup">Configuración Flujos de Trabajo de Manufactura</value>
+  <value column="Description" original="Setup Manufacturing Workflow">Configuración Flujos de Trabajo de Manufactura</value>
   <value column="Help" original=""/>
  </row>
- <row id="50017" trl="N">
-  <value column="Name" original="Calculate Capacity Plan">Calculate Capacity Plan</value>
-  <value column="Description" original="Calculate Capacity Plan">Calculate Capacity Plan</value>
+ <row id="50017" trl="Y">
+  <value column="Name" original="Calculate Capacity Plan">Calcular Plan de Capacidad</value>
+  <value column="Description" original="Calculate Capacity Plan">Calcular Plan de Capacidad</value>
   <value column="Help" original=""/>
  </row>
- <row id="50018" trl="N">
-  <value column="Name" original="Resource Load View">Resource Load View</value>
-  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">It shows graphically of the required and available time for each manufacturing resource.</value>
+ <row id="50018" trl="Y">
+  <value column="Name" original="Resource Load View">Vista Carga Recursos</value>
+  <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">Muestra gráficamente el tiempo requerido y disponible para cada recurso de manufactura.</value>
   <value column="Help" original=""/>
  </row>
- <row id="50019" trl="N">
-  <value column="Name" original="Material Requirement Planning Setup">Material Requirement Planning Setup</value>
-  <value column="Description" original="Setup Material Requirement Planning">Setup Material Requirement Planning</value>
+ <row id="50019" trl="Y">
+  <value column="Name" original="Material Requirement Planning Setup">Configuración Planeación Requerimientos de Materiales</value>
+  <value column="Description" original="Setup Material Requirement Planning">Configuración Planeación Requerimientos de Materiales</value>
   <value column="Help" original=""/>
  </row>
- <row id="50020" trl="N">
-  <value column="Name" original="Manufacturing Management Setup">Manufacturing Management Setup</value>
-  <value column="Description" original="Setup Manufacturing Management">Setup Manufacturing Management</value>
+ <row id="50020" trl="Y">
+  <value column="Name" original="Manufacturing Management Setup">Configuración Administración Manufactura</value>
+  <value column="Description" original="Setup Manufacturing Management">Configuración Administración Manufactura</value>
   <value column="Help" original=""/>
  </row>
- <row id="50021" trl="N">
-  <value column="Name" original="Distribution Management Setup">Distribution Management Setup</value>
-  <value column="Description" original="Setup Distribution Management">Setup Distribution Management</value>
+ <row id="50021" trl="Y">
+  <value column="Name" original="Distribution Management Setup">Configuración Administración de Distribución</value>
+  <value column="Description" original="Setup Distribution Management">Configuración Administración de Distribución</value>
   <value column="Help" original=""/>
  </row>
- <row id="50022" trl="N">
-  <value column="Name" original="Planned Order Approval">Planned Order Approval</value>
-  <value column="Description" original="Planned Order Approval">Planned Order Approval</value>
+ <row id="50022" trl="Y">
+  <value column="Name" original="Planned Order Approval">Aprobación Orden Planeada</value>
+  <value column="Description" original="Planned Order Approval">Aprobación Orden Planeada</value>
   <value column="Help" original=""/>
  </row>
- <row id="50023" trl="N">
-  <value column="Name" original="MRP Notice">MRP Notice</value>
-  <value column="Description" original="MRP Notice">MRP Notice</value>
+ <row id="50023" trl="Y">
+  <value column="Name" original="MRP Notice">Aviso MRP</value>
+  <value column="Description" original="MRP Notice">Aviso MRP</value>
   <value column="Help" original=""/>
  </row>
- <row id="50024" trl="N">
-  <value column="Name" original="MRP Info">MRP Info</value>
-  <value column="Description" original="MRP Info">MRP Info</value>
+ <row id="50024" trl="Y">
+  <value column="Name" original="MRP Info">Información MRP</value>
+  <value column="Description" original="MRP Info">Información MRP</value>
   <value column="Help" original=""/>
  </row>
- <row id="50025" trl="N">
-  <value column="Name" original="Calculate Distribution Plan">Calculate Distribution Plan</value>
-  <value column="Description" original="Calculate Distribution Plan">Calculate Distribution Plan</value>
+ <row id="50025" trl="Y">
+  <value column="Name" original="Calculate Distribution Plan">Calcular Plan de Distribución</value>
+  <value column="Description" original="Calculate Distribution Plan">Calcular Plan de Distribución</value>
   <value column="Help" original=""/>
  </row>
- <row id="50027" trl="N">
+ <row id="50027" trl="Y">
   <value column="Name" original="(DocComplete)">(DocComplete)</value>
   <value column="Description" original="(Standard Node)">(Standard Node)</value>
   <value column="Help" original=""/>
  </row>
- <row id="50028" trl="N">
+ <row id="50028" trl="Y">
   <value column="Name" original="(DocPrepare)">(DocPrepare)</value>
   <value column="Description" original="(Standard Node)">(Standard Node)</value>
   <value column="Help" original=""/>
  </row>
- <row id="50029" trl="N">
+ <row id="50029" trl="Y">
   <value column="Name" original="(Start)">(Start)</value>
   <value column="Description" original="(Standard Node)">(Standard Node)</value>
   <value column="Help" original=""/>
  </row>
- <row id="50034" trl="N">
-  <value column="Name" original="Freight Category">Freight Category</value>
-  <value column="Description" original="Maintain Freight Categories">Maintain Freight Categories</value>
+ <row id="50034" trl="Y">
+  <value column="Name" original="Freight Category">Categoría de Fletes</value>
+  <value column="Description" original="Maintain Freight Categories">Mantenimiento de Categoría de Fletes</value>
   <value column="Help" original=""/>
  </row>
- <row id="50035" trl="N">
-  <value column="Name" original="Inventory Move">Inventory Move</value>
-  <value column="Description" original="Inventory Move">Inventory Move</value>
+ <row id="50035" trl="Y">
+  <value column="Name" original="Inventory Move">Movimiento de Inventarios</value>
+  <value column="Description" original="Inventory Move">Movimiento de Inventarios</value>
   <value column="Help" original=""/>
  </row>
- <row id="50036" trl="N">
-  <value column="Name" original="Shipper">Shipper</value>
-  <value column="Description" original="Maintain Shippers">Maintain Shippers</value>
+ <row id="50036" trl="Y">
+  <value column="Name" original="Shipper">Transportador</value>
+  <value column="Description" original="Maintain Shippers">Mantenimiento de Transportadores</value>
   <value column="Help" original=""/>
  </row>
- <row id="50049" trl="N">
-  <value column="Name" original="Multi Level BOM &amp; Formula Detail"><![CDATA[Multi Level BOM & Formula Detail]]></value>
-  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Shows in two different panels the parent-component relationship for the product entered in the Product field.</value>
+ <row id="50049" trl="Y">
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail"><![CDATA[Detalle LDM Multi Nivel & Fórmula]]></value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Muestra en dos páneles diferentes la relación padre-componente para el producto ingresado en el campo Producto.</value>
   <value column="Help" original=""/>
  </row>
- <row id="50050" trl="N">
-  <value column="Name" original="BOM &amp; Formula Info"><![CDATA[BOM & Formula Info]]></value>
-  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Shows in two different panels the parent-component relationship for the product entered in the Product field.</value>
+ <row id="50050" trl="Y">
+  <value column="Name" original="BOM &amp; Formula Info"><![CDATA[Información LDM & Fórmula]]></value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Muestra en dos páneles diferentes la relación padre-componente para el producto ingresado en el campo Producto.</value>
   <value column="Help" original=""/>
  </row>
- <row id="50051" trl="N">
-  <value column="Name" original="Bill of Materials &amp; Formula"><![CDATA[Bill of Materials & Formula]]></value>
-  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula "><![CDATA[Maintain Product Bill of Materials & Formula ]]></value>
+ <row id="50051" trl="Y">
+  <value column="Name" original="Bill of Materials &amp; Formula"><![CDATA[Lista de Materiales & Fórmula]]></value>
+  <value column="Description" original="Maintain Product Bill of Materials &amp; Formula "><![CDATA[Mantiene Productos Lista de Materiales & Fórmula]]></value>
   <value column="Help" original=""/>
  </row>
- <row id="50052" trl="N">
-  <value column="Name" original="Product Planning">Product Planning</value>
-  <value column="Description" original="Product Planning">Product Planning</value>
+ <row id="50052" trl="Y">
+  <value column="Name" original="Product Planning">Planeación Producto</value>
+  <value column="Description" original="Product Planning">Planeación Producto</value>
   <value column="Help" original=""/>
  </row>
- <row id="50053" trl="N">
-  <value column="Name" original="Calculate Low Level">Calculate Low Level</value>
-  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.</value>
+ <row id="50053" trl="Y">
+  <value column="Name" original="Calculate Low Level">Calcular Nivel Menor</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP es un conjunto de técnicas que usan Listas de Materiales, Datos de Inventario, y Plan Maestro de Producción para calcular requerimientos de materiales.</value>
   <value column="Help" original=""/>
  </row>
- <row id="50054" trl="N">
-  <value column="Name" original="Calculate Material Plan">Calculate Material Plan</value>
-  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.</value>
+ <row id="50054" trl="Y">
+  <value column="Name" original="Calculate Material Plan">Calcular Plan de Materiales</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP es un conjunto de técnicas que usan Listas de Materiales, Datos de Inventario, y Plan Maestro de Producción para calcular requerimientos de materiales.</value>
   <value column="Help" original=""/>
  </row>
- <row id="50055" trl="N">
-  <value column="Name" original="Planned Order Approval">Planned Order Approval</value>
-  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.</value>
+ <row id="50055" trl="Y">
+  <value column="Name" original="Planned Order Approval">Aprobación Orden Planeada</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP es un conjunto de técnicas que usan Listas de Materiales, Datos de Inventario, y Plan Maestro de Producción para calcular requerimientos de materiales.</value>
   <value column="Help" original=""/>
  </row>
- <row id="50056" trl="N">
-  <value column="Name" original="MRP Info">MRP Info</value>
-  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.</value>
+ <row id="50056" trl="Y">
+  <value column="Name" original="MRP Info">Información MRP</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP es un conjunto de técnicas que usan Listas de Materiales, Datos de Inventario, y Plan Maestro de Producción para calcular requerimientos de materiales.</value>
   <value column="Help" original=""/>
  </row>
- <row id="50057" trl="N">
-  <value column="Name" original="Print &amp; Release Order"><![CDATA[Print & Release Order]]></value>
-  <value column="Description" original="Print &amp; Release Order"><![CDATA[Print & Release Order]]></value>
+ <row id="50057" trl="Y">
+  <value column="Name" original="Print &amp; Release Order"><![CDATA[Imprimir y Liberar Orden]]></value>
+  <value column="Description" original="Print &amp; Release Order"><![CDATA[Imprimir y Liberar Orden]]></value>
   <value column="Help" original=""/>
  </row>
- <row id="50058" trl="N">
-  <value column="Name" original="Order Receipt &amp; Issue"><![CDATA[Order Receipt & Issue]]></value>
-  <value column="Description" original="Order Receipt &amp; Issue"><![CDATA[Order Receipt & Issue]]></value>
+ <row id="50058" trl="Y">
+  <value column="Name" original="Order Receipt &amp; Issue"><![CDATA[Emitir Orden y Recibo]]></value>
+  <value column="Description" original="Order Receipt &amp; Issue"><![CDATA[Emitir Orden y Recibo]]></value>
   <value column="Help" original=""/>
  </row>
- <row id="50059" trl="N">
-  <value column="Name" original="Manufacturing Order">Manufacturing Order</value>
-  <value column="Description" original="Manufacturing Order">Manufacturing Order</value>
+ <row id="50059" trl="Y">
+  <value column="Name" original="Manufacturing Order">Orden de Manufactura</value>
+  <value column="Description" original="Manufacturing Order">Orden de Manufactura</value>
   <value column="Help" original=""/>
  </row>
- <row id="50060" trl="N">
-  <value column="Name" original="Component Check">Component Check</value>
-  <value column="Description" original="Component Check">Component Check</value>
+ <row id="50060" trl="Y">
+  <value column="Name" original="Component Check">Chequear Componentes</value>
+  <value column="Description" original="Component Check">Chequear Componentes</value>
   <value column="Help" original=""/>
  </row>
- <row id="50061" trl="N">
-  <value column="Name" original="Generate Movement">Generate Movement</value>
-  <value column="Description" original="Generate and print Movement from open Distribution Orders">Generate and print Movement from open Distribution Orders</value>
+ <row id="50061" trl="Y">
+  <value column="Name" original="Generate Movement">Generar Movimiento</value>
+  <value column="Description" original="Generate and print Movement from open Distribution Orders">Generar e imprimir movimientos de órdenes de distribución abiertas</value>
   <value column="Help" original=""/>
  </row>
- <row id="50062" trl="N">
-  <value column="Name" original="Generate Movement Manual">Generate Movement Manual</value>
-  <value column="Description" original="Generate Movement to a Order Distribution">Generate Movement to a Order Distribution</value>
+ <row id="50062" trl="Y">
+  <value column="Name" original="Generate Movement Manual">Generar Movimiento Manual</value>
+  <value column="Description" original="Generate Movement to a Order Distribution">Generar Movimiento a una Orden de Distribución</value>
   <value column="Help" original=""/>
  </row>
- <row id="50063" trl="N">
-  <value column="Name" original="Distribution Order">Distribution Order</value>
-  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distribution Order allow create Order inter warehouse to supply a demand </value>
+ <row id="50063" trl="Y">
+  <value column="Name" original="Distribution Order">Orden de Distribución</value>
+  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">La Orden de Distribución permite crear órdenes entre almacenes para suplir la demanda</value>
   <value column="Help" original=""/>
  </row>
- <row id="50064" trl="N">
-  <value column="Name" original="Import Proccesor">Setup Replication</value>
-  <value column="Description" original="Import Proccesor">Setup of data replication</value>
+ <row id="50064" trl="Y">
+  <value column="Name" original="Import Proccesor">Procesador de Importación</value>
+  <value column="Description" original="Import Proccesor">Procesador de Importación</value>
   <value column="Help" original=""/>
  </row>
- <row id="50065" trl="N">
-  <value column="Name" original="Import Processor Type">Import Processor Type</value>
-  <value column="Description" original="Import Processor Type">Import Processor Type</value>
+ <row id="50065" trl="Y">
+  <value column="Name" original="Import Processor Type">Tipo Procesador de Importación</value>
+  <value column="Description" original="Import Processor Type">Tipo Procesador de Importación</value>
   <value column="Help" original=""/>
  </row>
- <row id="50066" trl="N">
-  <value column="Name" original="Export Format">Export Format</value>
-  <value column="Description" original="Export Format">Export Format</value>
+ <row id="50066" trl="Y">
+  <value column="Name" original="Export Format">Formato de Exportación</value>
+  <value column="Description" original="Export Format">Formato de Exportación</value>
   <value column="Help" original=""/>
  </row>
- <row id="50067" trl="N">
-  <value column="Name" original="Export Processor">Export Processor</value>
-  <value column="Description" original="Export Processor">Export Processor</value>
+ <row id="50067" trl="Y">
+  <value column="Name" original="Export Processor">Procesador de Exportación</value>
+  <value column="Description" original="Export Processor">Procesador de Exportación</value>
   <value column="Help" original=""/>
  </row>
- <row id="50068" trl="N">
-  <value column="Name" original="Export Processor Type">Export Processor Type</value>
-  <value column="Description" original="Export Processor Type">Export Processor Type</value>
+ <row id="50068" trl="Y">
+  <value column="Name" original="Export Processor Type">Tipo Procesador de Exportación</value>
+  <value column="Description" original="Export Processor Type">Tipo Procesador de Exportación</value>
   <value column="Help" original=""/>
  </row>
- <row id="50069" trl="N">
-  <value column="Name" original="Replication Strategy">Replication Strategy</value>
-  <value column="Description" original="Replication Strategy">Replication Strategy</value>
+ <row id="50069" trl="Y">
+  <value column="Name" original="Replication Strategy">Estrategia Replicación</value>
+  <value column="Description" original="Replication Strategy">Estrategia Replicación</value>
   <value column="Help" original=""/>
  </row>
  <row id="50074" trl="Y">

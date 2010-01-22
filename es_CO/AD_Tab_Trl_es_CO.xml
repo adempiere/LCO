@@ -3282,13 +3282,13 @@ Si una LDM es referencia y permite el tipo de solicitud, una solicitud del cambi
   <value column="Help" original="Define downloads for a product.  If the product is an asset, the user can download the data.">Define transferencias directas para un producto. Si el producto es un activo, el usuario puede descargar los datos.</value>
  </row>
  <row id="708" trl="Y">
-  <value column="Name" original="User Mail">Usuario de Mail</value>
+  <value column="Name" original="User Mail">Correo Usuario</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Mail sent to the user">Mail enviado al usario</value>
   <value column="Help" original=""/>
  </row>
  <row id="709" trl="Y">
-  <value column="Name" original="User Mail">Usuario de Mail</value>
+  <value column="Name" original="User Mail">Correo Usuario</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Mail sent to the user">Mail enviado para el usuario</value>
   <value column="Help" original="Archive of mails sent to users">Archivos de mails enviados para usuarios</value>
@@ -4218,247 +4218,245 @@ La medida debe soportar la información, sino es ignorada.</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53015" trl="N">
-  <value column="Name" original="Manufacturing Resource">Manufacturing Resource</value>
+ <row id="53015" trl="Y">
+  <value column="Name" original="Manufacturing Resource">Recurso Manufactura</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53016" trl="N">
-  <value column="Name" original="Product">Product</value>
+ <row id="53016" trl="Y">
+  <value column="Name" original="Product">Producto</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53017" trl="N">
-  <value column="Name" original="Tools">Tools</value>
+ <row id="53017" trl="Y">
+  <value column="Name" original="Tools">Herramientas</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53019" trl="N">
-  <value column="Name" original="Manufacturing Workflows Translation">Manufacturing Workflows Translation</value>
+ <row id="53019" trl="Y">
+  <value column="Name" original="Manufacturing Workflows Translation">Traducción Flujos Trabajo Manufactura</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53020" trl="N">
-  <value column="Name" original="Access">Access</value>
+ <row id="53020" trl="Y">
+  <value column="Name" original="Access">Accesso</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53021" trl="N">
-  <value column="Name" original="Block">Block</value>
+ <row id="53021" trl="Y">
+  <value column="Name" original="Block">Bloque</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original="  ">  </value>
  </row>
- <row id="53022" trl="N">
-  <value column="Name" original="Parameter">Parameter</value>
+ <row id="53022" trl="Y">
+  <value column="Name" original="Parameter">Parámetro</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53023" trl="N">
-  <value column="Name" original="Node Translation">Node Translation</value>
+ <row id="53023" trl="Y">
+  <value column="Name" original="Node Translation">Traducción Nodo</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53024" trl="N">
-  <value column="Name" original="Condition">Condition</value>
+ <row id="53024" trl="Y">
+  <value column="Name" original="Condition">Condición</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53025" trl="N">
-  <value column="Name" original="Activity">Operation</value>
+ <row id="53025" trl="Y">
+  <value column="Name" original="Activity">Actividad</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Introduce the Name to identify the operations from the manufacturing routing. If desired give a Description for activity.">Introduce the Name to identify the operations from the manufacturing routing. If desired give a Description for operation.</value>
-  <value column="Help" original="Introduce the Name to identify the operations from the manufacturing routing. If desired give a Description for activity.">Introduce the Name to identify the operations from the manufacturing routing. If desired give a Description for operation.</value>
+  <value column="Description" original="Introduce the Name to identify the operations from the manufacturing routing. If desired give a Description for activity.">Ingrese el nombre para identificar las operaciones de la ruta de manufactura.  Si desea puede dar una descripción para la actividad.</value>
+  <value column="Help" original="Introduce the Name to identify the operations from the manufacturing routing. If desired give a Description for activity.">Ingrese el nombre para identificar las operaciones de la ruta de manufactura.  Si desea puede dar una descripción para la actividad.</value>
  </row>
- <row id="53026" trl="N">
-  <value column="Name" original="Transition">Transition</value>
+ <row id="53026" trl="Y">
+  <value column="Name" original="Transition">Transición</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Node Transition">Workflow Node Transition</value>
-  <value column="Help" original="The Next Nodes Tab defines the order or Nodes or Steps in a Workflow.">The Next Nodes Tab defines the order or Nodes or Steps in a Workflow.</value>
+  <value column="Description" original="Workflow Node Transition">Transición Nodo Flujo Trabajo</value>
+  <value column="Help" original="The Next Nodes Tab defines the order or Nodes or Steps in a Workflow.">La pestaña siguiente nodo define el órden o nodos o pasos en un flujo de trabajo.</value>
  </row>
- <row id="53027" trl="N">
-  <value column="Name" original="Manufacturing Workflows">Manufacturing Workflows</value>
+ <row id="53027" trl="Y">
+  <value column="Name" original="Manufacturing Workflows">Flujos Trabajo Manufactura</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflows used by manufacture a product">Workflows used by manufacture a product</value>
+  <value column="Description" original="Workflows used by manufacture a product">Flujos de trabajo usados para manufacturar un producto</value>
   <value column="Help" original=""/>
  </row>
- <row id="53028" trl="N">
-  <value column="Name" original="Parent Product">Parent Product</value>
+ <row id="53028" trl="Y">
+  <value column="Name" original="Parent Product">Producto Padre</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define the Parent Product to this BOM &amp; Formula"><![CDATA[Define the Parent Product to this BOM & Formula]]></value>
-  <value column="Help" original="Define the Parent Product to this BOM &amp; Formula"><![CDATA[Define the Parent Product to this BOM & Formula]]></value>
+  <value column="Description" original="Define the Parent Product to this BOM &amp; Formula">Define el producto padre para esta LDM y Fórmula</value>
+  <value column="Help" original="Define the Parent Product to this BOM &amp; Formula">Define el producto padre para esta LDM y Fórmula</value>
  </row>
- <row id="53029" trl="N">
-  <value column="Name" original="Components of the BOM &amp; Formula"><![CDATA[Components of the BOM & Formula]]></value>
+ <row id="53029" trl="Y">
+  <value column="Name" original="Components of the BOM &amp; Formula"><![CDATA[Componentes de la LDM & Fórmula]]></value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Components of the BOM &amp; Formula"><![CDATA[Components of the BOM & Formula]]></value>
-  <value column="Help" original="The information relative to every component that will be used in the BOM &amp; Formula of the finished product."><![CDATA[The information relative to every component that will be used in the BOM & Formula of the finished product.]]></value>
+  <value column="Description" original="Components of the BOM &amp; Formula"><![CDATA[Componentes de la LDM & Fórmula]]></value>
+  <value column="Help" original="The information relative to every component that will be used in the BOM &amp; Formula of the finished product."><![CDATA[La información relativa a cada componente que será usado en la LDM & Fórmula del producto terminado.]]></value>
  </row>
- <row id="53030" trl="N">
-  <value column="Name" original="Data Planning">Data Planning</value>
+ <row id="53030" trl="Y">
+  <value column="Name" original="Data Planning">Planeación Datos</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53031" trl="N">
-  <value column="Name" original="Purchasing">Purchasing</value>
+ <row id="53031" trl="Y">
+  <value column="Name" original="Purchasing">Compras</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53032" trl="N">
-  <value column="Name" original="Product">Product</value>
+ <row id="53032" trl="Y">
+  <value column="Name" original="Product">Producto</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53033" trl="N">
-  <value column="Name" original="Replenish">Replenish</value>
+ <row id="53033" trl="Y">
+  <value column="Name" original="Replenish">Reabastecimiento</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53034" trl="N">
-  <value column="Name" original="Transaction">Transaction</value>
+ <row id="53034" trl="Y">
+  <value column="Name" original="Transaction">Transacción</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53035" trl="N">
-  <value column="Name" original="Notice">Notice</value>
+ <row id="53035" trl="Y">
+  <value column="Name" original="Notice">Aviso</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="System Notice">System Notice</value>
-  <value column="Help" original="The Notice Tab provides a method of viewing messages that are generated by this system when performing processes.">The Notice Tab provides a method of viewing messages that are generated by this system when performing processes.</value>
+  <value column="Description" original="System Notice">Aviso del Sistema</value>
+  <value column="Help" original="The Notice Tab provides a method of viewing messages that are generated by this system when performing processes.">La pestaña de Aviso provee un método para ver mensajes generados por este sistema cuando ejecuta procesos.</value>
  </row>
- <row id="53036" trl="N">
-  <value column="Name" original="Order Activity">Operation</value>
+ <row id="53036" trl="Y">
+  <value column="Name" original="Order Activity">Orden Actividad</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Introduce the Name to identify the operations from the manufacturing routing. If desired give a Description for activity.">Introduce the Name to identify the operations from the manufacturing routing. If desired give a Description for operation.</value>
-  <value column="Help" original="Introduce the Name to identify the operations from the manufacturing routing. If desired give a Description for activity.">Introduce the Name to identify the operations from the manufacturing routing. If desired give a Description for operation.</value>
+  <value column="Description" original="Introduce the Name to identify the operations from the manufacturing routing. If desired give a Description for activity.">Ingrese el nombre para identificar las operaciones de la ruta de manufactura. Si desea puede dar una descripción para la operación.</value>
+  <value column="Help" original="Introduce the Name to identify the operations from the manufacturing routing. If desired give a Description for activity.">Ingrese el nombre para identificar las operaciones de la ruta de manufactura. Si desea puede dar una descripción para la operación.</value>
  </row>
- <row id="53037" trl="N">
-  <value column="Name" original="Transition Next">Transition Next</value>
+ <row id="53037" trl="Y">
+  <value column="Name" original="Transition Next">Siguiente Transición</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflow Node Transition">Workflow Node Transition</value>
-  <value column="Help" original="The Next Nodes Tab defines the order or Nodes or Steps in a Workflow.">The Next Nodes Tab defines the order or Nodes or Steps in a Workflow.</value>
+  <value column="Description" original="Workflow Node Transition">Siguiente Transición del Flujo de Trabajo</value>
+  <value column="Help" original="The Next Nodes Tab defines the order or Nodes or Steps in a Workflow.">La pestaña Siguiente Nodo define el orden o nodos o pasos en un flujo de trabajo.</value>
  </row>
- <row id="53038" trl="N">
-  <value column="Name" original="Cost">Cost</value>
+ <row id="53038" trl="Y">
+  <value column="Name" original="Cost">Costo</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="In the Cost Tab we have a record for each Cost Element defined in the Product to be produced">In the Cost Tab we have a record for each Cost Element defined in the Product to be produced</value>
-  <value column="Help" original="In the Cost Tab we have a record for each Cost Element defined in the Product to be produced, for these Organization, Warehouse, Cost Type and Resource.&#10;&#10;">In the Cost Tab we have a record for each Cost Element defined in the Product to be produced, for these Organization, Warehouse, Cost Type and Resource.
-
-</value>
+  <value column="Description" original="In the Cost Tab we have a record for each Cost Element defined in the Product to be produced">En la pestaña Costo tenemos un registro para cada elemento de costo definido en el producto a ser producido.</value>
+  <value column="Help" original="In the Cost Tab we have a record for each Cost Element defined in the Product to be produced, for these Organization, Warehouse, Cost Type and Resource.&#10;&#10;">En la pestaña Costo tenemos un registro para cada elemento de costo definido en el producto a ser producido, para esta Organización, Almacén, Tipo Costo y Recurso.</value>
  </row>
- <row id="53039" trl="N">
-  <value column="Name" original="Components of the Manufacturing Order ">Components of the Manufacturing Order </value>
+ <row id="53039" trl="Y">
+  <value column="Name" original="Components of the Manufacturing Order ">Componentes de la Orden de Manufactura</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Components of the Manufacturing Order ">Components of the Manufacturing Order </value>
-  <value column="Help" original="The information relative to every component that will be used in the manufacture of the finished product is taken from the Bill of Materials. This information is contained in the Order BOM/Formula Line tab.">The information relative to every component that will be used in the manufacture of the finished product is taken from the Bill of Materials. This information is contained in the Order BOM/Formula Line tab.</value>
+  <value column="Description" original="Components of the Manufacturing Order ">Componentes de la Orden de Manufactura</value>
+  <value column="Help" original="The information relative to every component that will be used in the manufacture of the finished product is taken from the Bill of Materials. This information is contained in the Order BOM/Formula Line tab.">La información relativa a cada componente component que será usado en la producción del producto terminado es tomada de la Lista de Materiales. Esta información es contenida en la pestaña Línea LDM/Fórmula Orden.</value>
  </row>
- <row id="53040" trl="N">
-  <value column="Name" original="Order Parent Product">Order Parent Product</value>
+ <row id="53040" trl="Y">
+  <value column="Name" original="Order Parent Product">Orden Producto Padre</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Order Parent Product used in the Manufacturing Order">Order Parent Product used in the Manufacturing Order</value>
-  <value column="Help" original="The BOM &amp; Formula used in the Manufacturing Order are taken by default from the Product Planning window."><![CDATA[The BOM & Formula used in the Manufacturing Order are taken by default from the Product Planning window.]]></value>
+  <value column="Description" original="Order Parent Product used in the Manufacturing Order">Orden producto padre usada en la orden de manufactura</value>
+  <value column="Help" original="The BOM &amp; Formula used in the Manufacturing Order are taken by default from the Product Planning window."><![CDATA[La LDM & Fórmula usada en la orden de manufactura es tomada por defecto de la ventana de Planeación de Producto.]]></value>
  </row>
- <row id="53041" trl="N">
-  <value column="Name" original="Workflow">Workflow</value>
+ <row id="53041" trl="Y">
+  <value column="Name" original="Workflow">Flujo de Trabajo</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workflows used by the manufacturing orders">Workflows used by the manufacturing orders</value>
-  <value column="Help" original="Workflows used by the manufacturing orders are taken by default from the Product Data Planning.">Workflows used by the manufacturing orders are taken by default from the Product Data Planning.</value>
+  <value column="Description" original="Workflows used by the manufacturing orders">Flujo de Trabajo usado en las órdenes de manufactura</value>
+  <value column="Help" original="Workflows used by the manufacturing orders are taken by default from the Product Data Planning.">Los flujos de trabajo usado en las órdenes de manufactura son tomados por defecto de la ventana Planeación Datos de Producto.</value>
  </row>
- <row id="53042" trl="N">
-  <value column="Name" original="Node Product">Node Product</value>
+ <row id="53042" trl="Y">
+  <value column="Name" original="Node Product">Nodo Producto</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53043" trl="N">
-  <value column="Name" original="Node Asset">Node Asset</value>
+ <row id="53043" trl="Y">
+  <value column="Name" original="Node Asset">Nodo Activo</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53044" trl="N">
-  <value column="Name" original="Product">Product</value>
+ <row id="53044" trl="Y">
+  <value column="Name" original="Product">Producto</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Product">Define Product</value>
-  <value column="Help" original="The Product Tab defines each product and identifies it for use in price lists and orders. The Location is the default location when receiving the stored product.">The Product Tab defines each product and identifies it for use in price lists and orders. The Location is the default location when receiving the stored product.</value>
+  <value column="Description" original="Define Product">Define Producto</value>
+  <value column="Help" original="The Product Tab defines each product and identifies it for use in price lists and orders. The Location is the default location when receiving the stored product.">La pestaña Producto define cada product y lo identifica para uso en listas de precios y órdenes. La dirección es la dirección por defecto donde se reciben los productos almacenados.</value>
  </row>
- <row id="53045" trl="N">
-  <value column="Name" original="Replenish">Replenish</value>
+ <row id="53045" trl="Y">
+  <value column="Name" original="Replenish">Reabastecimiento</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Replenishment">Define Replenishment</value>
-  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.">The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.</value>
+  <value column="Description" original="Define Replenishment">Define Reabastecimiento</value>
+  <value column="Help" original="The Replenishment Tab defines the type of replenishment quantities.  This is used for automated ordering.">La pestaña Reabastecimiento define el tipo de cantidades de reabastecimiento.  Este es usado para ordenamiento automático.</value>
  </row>
- <row id="53046" trl="N">
-  <value column="Name" original="Purchasing">Purchasing</value>
+ <row id="53046" trl="Y">
+  <value column="Name" original="Purchasing">Compras</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Purchasing">Purchasing</value>
-  <value column="Help" original="The Purchasing Tab define the pricing and rules ( pack quantity UPC minimum order quantity) for each product.">The Purchasing Tab define the pricing and rules ( pack quantity UPC minimum order quantity) for each product.</value>
+  <value column="Description" original="Purchasing">Compras</value>
+  <value column="Help" original="The Purchasing Tab define the pricing and rules ( pack quantity UPC minimum order quantity) for each product.">La pestaña Compras define los precios y reglas (cantidad empaque, UPC, cantidad mínima ordenar) para cada producto.</value>
  </row>
- <row id="53047" trl="N">
-  <value column="Name" original="Business Partner">Business Partner</value>
+ <row id="53047" trl="Y">
+  <value column="Name" original="Business Partner">Tercero</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Business Partner specific Information of a Product">Business Partner specific Information of a Product</value>
-  <value column="Help" original="Note that some information is for reference only!">Note that some information is for reference only!</value>
+  <value column="Description" original="Business Partner specific Information of a Product">Información específica de terceros para un producto</value>
+  <value column="Help" original="Note that some information is for reference only!">¡Note que esta información es simplemente de referencia!</value>
  </row>
- <row id="53048" trl="N">
-  <value column="Name" original="Translation">Translation</value>
+ <row id="53048" trl="Y">
+  <value column="Name" original="Translation">Traducción</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53049" trl="N">
-  <value column="Name" original="Activity Control">Activity Control</value>
+ <row id="53049" trl="Y">
+  <value column="Name" original="Activity Control">Control Actividad</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53050" trl="N">
-  <value column="Name" original="Order Line">Order Line</value>
+ <row id="53050" trl="Y">
+  <value column="Name" original="Order Line">Línea Orden</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53051" trl="N">
-  <value column="Name" original="Quality Specifications">Quality Specifications</value>
+ <row id="53051" trl="Y">
+  <value column="Name" original="Quality Specifications">Especificaciones Calidad</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53052" trl="N">
-  <value column="Name" original="Quality Specifications Line">Quality Specifications Line</value>
+ <row id="53052" trl="Y">
+  <value column="Name" original="Quality Specifications Line">Línea Especificaciones Calidad</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53053" trl="N">
-  <value column="Name" original="Collector Cost">Collector Cost</value>
+ <row id="53053" trl="Y">
+  <value column="Name" original="Collector Cost">Colector de Costos</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53054" trl="N">
-  <value column="Name" original="Manufacturing Order">Manufacturing Order</value>
+ <row id="53054" trl="Y">
+  <value column="Name" original="Manufacturing Order">Orden Manufactura</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Manufacturing Order">Manufacturing Order</value>
-  <value column="Help" original="Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities.">Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities.</value>
+  <value column="Description" original="Manufacturing Order">Orden Manufactura</value>
+  <value column="Help" original="Manufacturing Schedule is a document group of documents or schedule identity  conveying authority for the manufacture of specified parts or products in specified quantities."/>
  </row>
- <row id="53055" trl="N">
-  <value column="Name" original="Order">Order</value>
+ <row id="53055" trl="Y">
+  <value column="Name" original="Order">Orden</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distribution Order allow create Order inter warehouse to supply a demand </value>
-  <value column="Help" original="Distribution Order allow create Order inter warehouse to supply a demand ">Distribution Order allow create Order inter warehouse to supply a demand </value>
+  <value column="Description" original="Distribution Order allow create Order inter warehouse to supply a demand ">Orden de Distribución permite crear ordenes entre almacenes para suplir la demanda</value>
+  <value column="Help" original="Distribution Order allow create Order inter warehouse to supply a demand ">Orden de Distribución permite crear ordenes entre almacenes para suplir la demanda</value>
  </row>
  <row id="53056" trl="Y">
   <value column="Name" original="Window">Ventana</value>
@@ -4544,14 +4542,14 @@ La medida debe soportar la información, sino es ignorada.</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53071" trl="N">
-  <value column="Name" original="Distribution Network">Distribution Network</value>
+ <row id="53071" trl="Y">
+  <value column="Name" original="Distribution Network">Red Distribución</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Distribution Network define the supply relationships">Distribution Network define the supply relationships</value>
-  <value column="Help" original="Each realtionship in the network contains a receiving warehouse and a warehouse source and a supply percentage. A relationship is one-way, warehouse to warehouse relationship.">Each realtionship in the network contains a receiving warehouse and a warehouse source and a supply percentage. A relationship is one-way, warehouse to warehouse relationship.</value>
+  <value column="Description" original="Distribution Network define the supply relationships">Red Distribución define las relaciones de suministros</value>
+  <value column="Help" original="Each realtionship in the network contains a receiving warehouse and a warehouse source and a supply percentage. A relationship is one-way, warehouse to warehouse relationship."/>
  </row>
- <row id="53072" trl="N">
-  <value column="Name" original="Network Line">Network Line</value>
+ <row id="53072" trl="Y">
+  <value column="Name" original="Network Line">Línea Red</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -4562,120 +4560,120 @@ La medida debe soportar la información, sino es ignorada.</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53075" trl="N">
-  <value column="Name" original="Tax Group">Tax Group</value>
+ <row id="53075" trl="Y">
+  <value column="Name" original="Tax Group">Grupo Impuestos</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">Tax Groups let you group the business partner with a reference tax.</value>
+  <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">Grupo Impuestos permite agrupar los terceros con un impuesto de referencia.</value>
   <value column="Help" original=""/>
  </row>
- <row id="53076" trl="N">
-  <value column="Name" original="Tax Definition">Tax Definition</value>
+ <row id="53076" trl="Y">
+  <value column="Name" original="Tax Definition">Definición Impuesto</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Lets you define different tax combinations.">Lets you define different tax combinations.</value>
-  <value column="Help" original="You can use the tax definition information to create the logic necessary to get the tax rate to your document.">You can use the tax definition information to create the logic necessary to get the tax rate to your document.</value>
+  <value column="Description" original="Lets you define different tax combinations.">Permite definir diferentes combinaciones de impuestos.</value>
+  <value column="Help" original="You can use the tax definition information to create the logic necessary to get the tax rate to your document.">Puede usar la información de definición de impuestos para crear la lógica necesaria para obtener la tasa de impuesto de su documento.</value>
  </row>
- <row id="53077" trl="N">
-  <value column="Name" original="Accounting">Accounting</value>
+ <row id="53077" trl="Y">
+  <value column="Name" original="Accounting">Contabilidad</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Accounting">Accounting</value>
-  <value column="Help" original="The Accounting Tab defines the accounting parameters to be used for transactions referencing this Tax Rate.">The Accounting Tab defines the accounting parameters to be used for transactions referencing this Tax Rate.</value>
+  <value column="Description" original="Accounting">Contabilidad</value>
+  <value column="Help" original="The Accounting Tab defines the accounting parameters to be used for transactions referencing this Tax Rate.">La pestaña Contabilidad define los parámetros contables a ser usados para las transacciones referenciando esta tasa de impuesto.</value>
  </row>
- <row id="53078" trl="N">
-  <value column="Name" original="Tax Children">Tax Children</value>
+ <row id="53078" trl="Y">
+  <value column="Name" original="Tax Children">Impuesto Hijo</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Tax definition">Tax definition</value>
-  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax."><![CDATA[The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.<br>
-If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.<br>
-Valid From/To is determined by the parent tax.]]></value>
+  <value column="Description" original="Tax definition">Definición Impuesto</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax."><![CDATA[La ventana tasa de impuesto define las diferentes tasas usadas para cada categoría de impuestos.  Por ejemplo Impuesto Ventas puede ser definido para cada estado en el que aplica.<br>
+Si tiene múltiples impuestos puede crear un impuesto de nivel resumen con la tasa total aproximada y las tasas actuales apuntando al nivel resumen como su padre.  Cuando ingrese la orden o líneas de factura el impuesto es estimado las tasas correctas son calculadas cuando el documento es procesado.  El impuesto es siempre calculado desde el monto neto de la línea.  Si un impuesto tiene una base de impuesto el monto neto de la línea y otro impuesto necesita ajustar el porcentaje para obtener el monto correcto.<br>
+Válido Desde/Hasta es determinado por el impuesto padre.]]></value>
  </row>
- <row id="53079" trl="N">
-  <value column="Name" original="Tax Parent">Tax Parent</value>
+ <row id="53079" trl="Y">
+  <value column="Name" original="Tax Parent">Impuesto Padre</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Tax definition">Tax definition</value>
-  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax."><![CDATA[The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.<br>
-If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.<br>
-Valid From/To is determined by the parent tax.]]></value>
+  <value column="Description" original="Tax definition">Definición Impuesto</value>
+  <value column="Help" original="The Tax Rate Window defines the different taxes used for each tax category.  For example Sales Tax must be defined for each State in which it applies.&lt;br&gt;&#10;If you have multiple taxes create a summary level tax with the approximate total tax rate and the actual tax rates pointing to the summary level tax as their parent. When entering the order or invoice lines the tax is estimated the correct tax is calculated when the document is processed.  The tax is always calculated from the line net amount. If one tax has a the tax basis the line net amount and another tax you need to adjust the percentage to result in the correct amount.&lt;br&gt;&#10;Valid From/To is determined by the parent tax."><![CDATA[La ventana tasa de impuesto define las diferentes tasas usadas para cada categoría de impuestos.  Por ejemplo Impuesto Ventas puede ser definido para cada estado en el que aplica.<br>
+Si tiene múltiples impuestos puede crear un impuesto de nivel resumen con la tasa total aproximada y las tasas actuales apuntando al nivel resumen como su padre.  Cuando ingrese la orden o líneas de factura el impuesto es estimado las tasas correctas son calculadas cuando el documento es procesado.  El impuesto es siempre calculado desde el monto neto de la línea.  Si un impuesto tiene una base de impuesto el monto neto de la línea y otro impuesto necesita ajustar el porcentaje para obtener el monto correcto.<br>
+Válido Desde/Hasta es determinado por el impuesto padre.]]></value>
  </row>
- <row id="53080" trl="N">
-  <value column="Name" original="Tax ZIP">Tax ZIP</value>
+ <row id="53080" trl="Y">
+  <value column="Name" original="Tax ZIP">Impuesto C.P.</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Tax Postal/ZIP">Tax Postal/ZIP</value>
-  <value column="Help" original="For local tax you may have to define a list of (ranges of) postal codes or ZIPs">For local tax you may have to define a list of (ranges of) postal codes or ZIPs</value>
+  <value column="Description" original="Tax Postal/ZIP">Código Postal Impuesto</value>
+  <value column="Help" original="For local tax you may have to define a list of (ranges of) postal codes or ZIPs">Para impuesto local, usted puede tener que definir una lista (los rangos de) código postal.</value>
  </row>
- <row id="53081" trl="N">
-  <value column="Name" original="Translation">Translation</value>
+ <row id="53081" trl="Y">
+  <value column="Name" original="Translation">Traducción</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53082" trl="N">
-  <value column="Name" original="Tax Type">Tax Type</value>
+ <row id="53082" trl="Y">
+  <value column="Name" original="Tax Type">Tipo Impuesto</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Tax Types let you group taxes together.">Tax Types let you group taxes together.</value>
+  <value column="Description" original="Tax Types let you group taxes together.">Los tipos de impuesto permiten agrupar impuestos.</value>
   <value column="Help" original=""/>
  </row>
- <row id="53083" trl="N">
-  <value column="Name" original="Tax Base">Tax Base</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53084" trl="N">
-  <value column="Name" original="Replication Document">Replication Document</value>
+ <row id="53083" trl="Y">
+  <value column="Name" original="Tax Base">Impuesto Base</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53085" trl="N">
-  <value column="Name" original="Export Format">Export Format</value>
+ <row id="53084" trl="Y">
+  <value column="Name" original="Replication Document">Documento Replicación</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53086" trl="N">
-  <value column="Name" original="Export Format Line">Export Format Line</value>
+ <row id="53085" trl="Y">
+  <value column="Name" original="Export Format">Formato Exportación</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53087" trl="N">
-  <value column="Name" original="Export Processor">Export Processor</value>
+ <row id="53086" trl="Y">
+  <value column="Name" original="Export Format Line">Línea Formato Exportación</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53088" trl="N">
-  <value column="Name" original="Export Processor Parameter">Export Processor Parameter</value>
+ <row id="53087" trl="Y">
+  <value column="Name" original="Export Processor">Procesador Exportación</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53089" trl="N">
-  <value column="Name" original="Export Processor Type">Export Processor Type</value>
+ <row id="53088" trl="Y">
+  <value column="Name" original="Export Processor Parameter">Parámetro Procesador Exportación</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53090" trl="N">
-  <value column="Name" original="Import Processor">Import Processor</value>
+ <row id="53089" trl="Y">
+  <value column="Name" original="Export Processor Type">Tipo Procesador Exportación</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53091" trl="N">
-  <value column="Name" original="Parameter">Parameter</value>
+ <row id="53090" trl="Y">
+  <value column="Name" original="Import Processor">Procesador Importación</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53092" trl="N">
-  <value column="Name" original="Log">Log</value>
+ <row id="53091" trl="Y">
+  <value column="Name" original="Parameter">Parámetro</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53093" trl="N">
-  <value column="Name" original="Import Processor Type">Import Processor Type</value>
+ <row id="53092" trl="Y">
+  <value column="Name" original="Log">Bitácora</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53093" trl="Y">
+  <value column="Name" original="Import Processor Type">Tipo Procesador Importación</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
@@ -4830,304 +4828,304 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Description" original="History of Payroll Movement">Histórico de movimientos de nómina</value>
   <value column="Help" original=""/>
  </row>
- <row id="53134" trl="N">
-  <value column="Name" original="Attributes">Attributes</value>
+ <row id="53134" trl="Y">
+  <value column="Name" original="Attributes">Atributos</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53137" trl="N">
-  <value column="Name" original="Access Audit">Access Audit</value>
+ <row id="53137" trl="Y">
+  <value column="Name" original="Access Audit">Auditoría Acceso</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Log of Access to data or resources">Log of Access to data or resources</value>
-  <value column="Help" original="Logging needs to be explicitly enabled / written.">Logging needs to be explicitly enabled / written.</value>
+  <value column="Description" original="Log of Access to data or resources">Bitácora de Acceso a datos o recursos</value>
+  <value column="Help" original="Logging needs to be explicitly enabled / written.">Auditoría requiere ser explícitamente habilitada / escrita.</value>
  </row>
- <row id="53138" trl="N">
-  <value column="Name" original="Revaluation Entry">Revaluation Entry</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53139" trl="N">
-  <value column="Name" original="Maintain Index">Maintain Index</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain Index">Maintain Index</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53140" trl="N">
-  <value column="Name" original="Create Asset Transfer Entry">Create Asset Transfer Entry</value>
+ <row id="53138" trl="Y">
+  <value column="Name" original="Revaluation Entry">Entrada Revaluación</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53141" trl="N">
-  <value column="Name" original="Create Disposal Entry">Create Disposal Entry</value>
+ <row id="53139" trl="Y">
+  <value column="Name" original="Maintain Index">Mantenimiento Indice</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Maintain Index">Mantenimiento Indice</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53140" trl="Y">
+  <value column="Name" original="Create Asset Transfer Entry">Crea Entrada Transferencia Activo</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53142" trl="N">
-  <value column="Name" original="Step4 Process Asset Split">Step4 Process Asset Split</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Split Assets">Split Assets</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53143" trl="N">
-  <value column="Name" original="Step1 Select an Asset">Step1 Select an Asset</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="List of Assets">List of Assets</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53144" trl="N">
-  <value column="Name" original="Step2 Select the Balance">Step2 Select the Balance</value>
+ <row id="53141" trl="Y">
+  <value column="Name" original="Create Disposal Entry">Crea Entrada Desecho</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53145" trl="N">
-  <value column="Name" original="Step3 Select Accounting">Step3 Select Accounting</value>
+ <row id="53142" trl="Y">
+  <value column="Name" original="Step4 Process Asset Split">Paso4 Dividir Activo</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Select the fixed asset setup that you wish to split">Select the fixed asset setup that you wish to split</value>
+  <value column="Description" original="Split Assets">Dividir Activos</value>
   <value column="Help" original=""/>
  </row>
- <row id="53146" trl="N">
-  <value column="Name" original="Step1 Select an Asset">Step1 Select an Asset</value>
+ <row id="53143" trl="Y">
+  <value column="Name" original="Step1 Select an Asset">Paso1 Seleccionar un Activo</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Select Asset for Disposal">Select Asset for Disposal</value>
+  <value column="Description" original="List of Assets">Lista de Activos</value>
   <value column="Help" original=""/>
  </row>
- <row id="53147" trl="N">
-  <value column="Name" original="Step2 Asset Disposal">Step2 Asset Disposal</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Process the Disposal">Process the Disposal</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53148" trl="N">
-  <value column="Name" original="Step2 Select Accounting Setup">Step2 Select Accounting Setup</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Enter accounting setup information">Enter accounting setup information</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53149" trl="N">
-  <value column="Name" original="Step3 Process Transfers">Step3 Process Transfers</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Process asset transfers">Process asset transfers</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53150" trl="N">
-  <value column="Name" original="Step1 Select Asset">Step1 Select Asset</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Select the asset to be transfered">Select the asset to be transfered</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53151" trl="N">
-  <value column="Name" original="Create Split Asset Entry">Create Split Asset Entry</value>
+ <row id="53144" trl="Y">
+  <value column="Name" original="Step2 Select the Balance">Paso2 Seleccionar el Saldo</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53152" trl="N">
-  <value column="Name" original="Build Workfile">Build Workfile</value>
+ <row id="53145" trl="Y">
+  <value column="Name" original="Step3 Select Accounting">Paso3 Seleccionar Contabilidad</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Select the fixed asset setup that you wish to split">Seleccionar la configuración del activo fijo que quiere dividir</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53146" trl="Y">
+  <value column="Name" original="Step1 Select an Asset">Paso1 Seleccionar un Activo</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Select Asset for Disposal">Seleccionar un Activo para Desecho</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53147" trl="Y">
+  <value column="Name" original="Step2 Asset Disposal">Paso2 Desecho Activo</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Process the Disposal">Procesar el Desecho</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53148" trl="Y">
+  <value column="Name" original="Step2 Select Accounting Setup">Paso2 Seleccionar Configuración Contabilidad</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Enter accounting setup information">Ingrese la información de configuración contable</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53149" trl="Y">
+  <value column="Name" original="Step3 Process Transfers">Paso3 Procesa Transferencia</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Process asset transfers">Procesa transferencias activos</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53150" trl="Y">
+  <value column="Name" original="Step1 Select Asset">Paso1 Selecciona Activo</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Select the asset to be transfered">Selecciona el activo a ser transferido</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53151" trl="Y">
+  <value column="Name" original="Create Split Asset Entry">Crear Entrada División Activo</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53153" trl="N">
-  <value column="Name" original="Create Depreciation Entry">Create Depreciation Entry</value>
+ <row id="53152" trl="Y">
+  <value column="Name" original="Build Workfile">Construir Archivo de Trabajo</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53154" trl="N">
-  <value column="Name" original="Depreciation Forecast">Depreciation Forecast</value>
+ <row id="53153" trl="Y">
+  <value column="Name" original="Create Depreciation Entry">Crear Entrada Depreciación</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53155" trl="N">
-  <value column="Name" original="Tax Information">Tax Information</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Tax information for asset">Tax information for asset</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53156" trl="N">
-  <value column="Name" original="Finance Information">Finance Information</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Finace Information for the Asset">Finace Information for the Asset</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53157" trl="N">
-  <value column="Name" original="Accounting Setup">Accounting Setup</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Enter accounting setup information">Enter accounting setup information</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53158" trl="N">
-  <value column="Name" original="Asset History">Asset History</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Detail asset transaction history">Detail asset transaction history</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53159" trl="N">
-  <value column="Name" original="License Information">License Information</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="License Information for Asset">License Information for Asset</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53160" trl="N">
-  <value column="Name" original="Insurance Information">Insurance Information</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Insurance Information for asset">Insurance Information for asset</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53161" trl="N">
-  <value column="Name" original="Other Information">Other Information</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Other information associated with asset">Other information associated with asset</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53162" trl="N">
-  <value column="Name" original="Asset Balances">Asset Balances</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Asset Balance Report and Adjustments">Asset Balance Report and Adjustments</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53163" trl="N">
-  <value column="Name" original="Cost Details">Cost Details</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Cost Detail">Cost Detail</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53164" trl="N">
-  <value column="Name" original="Asset Usage">Asset Usage</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Record Asset Usage">Record Asset Usage</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53165" trl="N">
-  <value column="Name" original="Group Account">Group Account</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Setup for Group Accounts">Setup for Group Accounts</value>
-  <value column="Help" original="Setup of Group Accounts allows the user to set the default values for a particular asset group.  If  &quot;Use as defaults&quot; on this tab is checked then the predefined values on this tab will be populated in the appropriate fields for an individual asset.">Setup of Group Accounts allows the user to set the default values for a particular asset group.  If  "Use as defaults" on this tab is checked then the predefined values on this tab will be populated in the appropriate fields for an individual asset.</value>
- </row>
- <row id="53166" trl="N">
-  <value column="Name" original="Create Inbound AP Assets">Create Inbound AP Assets</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Create Inbound AP Assets">Create Inbound AP Assets</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53167" trl="N">
-  <value column="Name" original="Import Assets Setup">Import Assets Setup</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Review Fixed before Import">Review Fixed before Import</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53168" trl="N">
-  <value column="Name" original="Import Accounting Setup">Import Accounting Setup</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Review Fixed before Import">Review Fixed before Import</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53169" trl="N">
-  <value column="Name" original="Import Asset Balances">Import Asset Balances</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="Review Fixed before Import">Review Fixed before Import</value>
-  <value column="Help" original=""/>
- </row>
- <row id="53170" trl="N">
-  <value column="Name" original="Period Spread Type">Period Spread Type</value>
+ <row id="53154" trl="Y">
+  <value column="Name" original="Depreciation Forecast">Pronóstico Depreciación</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53171" trl="N">
-  <value column="Name" original="Depreciation Functions">Depreciation Functions</value>
+ <row id="53155" trl="Y">
+  <value column="Name" original="Tax Information">Información Impuesto</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Tax information for asset">Información de Impuesto para el activo</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53156" trl="Y">
+  <value column="Name" original="Finance Information">Información Financiera</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Finace Information for the Asset">Información Financiera para el activo</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53157" trl="Y">
+  <value column="Name" original="Accounting Setup">Configuración Contable</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Enter accounting setup information">Ingrese la información de configuración contable</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53158" trl="Y">
+  <value column="Name" original="Asset History">Historia Activo</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Detail asset transaction history">Detalle historia transacciones del activo</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53159" trl="Y">
+  <value column="Name" original="License Information">Información Licencia</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="License Information for Asset">Información Licencia para el activo</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53160" trl="Y">
+  <value column="Name" original="Insurance Information">Información Seguro</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Insurance Information for asset">Información Seguro para el activo</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53161" trl="Y">
+  <value column="Name" original="Other Information">Otra Información</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Other information associated with asset">Otra Información asociada con el activo</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53162" trl="Y">
+  <value column="Name" original="Asset Balances">Saldos Activo</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Asset Balance Report and Adjustments">Reporte Saldos Activo y Ajustes</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53163" trl="Y">
+  <value column="Name" original="Cost Details">Detalles Costo</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Cost Detail">Detalles Costo</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53164" trl="Y">
+  <value column="Name" original="Asset Usage">Uso Activo</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Record Asset Usage">Registro Uso Activo</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53165" trl="Y">
+  <value column="Name" original="Group Account">Grupo Cuenta</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Setup for Group Accounts">Configuración para Grupo de Cuentas</value>
+  <value column="Help" original="Setup of Group Accounts allows the user to set the default values for a particular asset group.  If  &quot;Use as defaults&quot; on this tab is checked then the predefined values on this tab will be populated in the appropriate fields for an individual asset.">Configurar un grupo de cuentas permite al usuario fijar los valores por defecto para un grupo particular de activos.  Si  "Usar como predeterminados" se chequea en esta pestaña entonces los valores predefinidos de esta pestaña se pasarán en los campos apropiados para activos individuales.</value>
+ </row>
+ <row id="53166" trl="Y">
+  <value column="Name" original="Create Inbound AP Assets">Crea Activos AP Interiores</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Create Inbound AP Assets">Crea Activos AP Interiores</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53167" trl="Y">
+  <value column="Name" original="Import Assets Setup">Configuración Importación Activos</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Review Fixed before Import">Revisar activos antes de importar</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53168" trl="Y">
+  <value column="Name" original="Import Accounting Setup">Configuración Importación Contabilidad</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Review Fixed before Import">Revisar activos antes de importar</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53169" trl="Y">
+  <value column="Name" original="Import Asset Balances">Importar Saldos Activos</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="Review Fixed before Import">Revisar activos antes de importar</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53170" trl="Y">
+  <value column="Name" original="Period Spread Type">Tipo Propagación Período</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53172" trl="N">
-  <value column="Name" original="Depreciation Schedules">Depreciation Schedules</value>
+ <row id="53171" trl="Y">
+  <value column="Name" original="Depreciation Functions">Funciones Depreciación</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53173" trl="N">
+ <row id="53172" trl="Y">
+  <value column="Name" original="Depreciation Schedules">Calendarios Depreciación</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53173" trl="Y">
   <value column="Name" original="Depreciation Schedule Details">Depreciation Schedule Details</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53174" trl="N">
-  <value column="Name" original="Setup Conventions">Setup Conventions</value>
+ <row id="53174" trl="Y">
+  <value column="Name" original="Setup Conventions">Configuración Convenciones</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Setup for depreciation conventions">Setup for depreciation conventions</value>
+  <value column="Description" original="Setup for depreciation conventions">Configuración para convenciones de depreciación</value>
   <value column="Help" original=""/>
  </row>
- <row id="53175" trl="N">
-  <value column="Name" original="Define Depreciation Method">Define Depreciation Method</value>
+ <row id="53175" trl="Y">
+  <value column="Name" original="Define Depreciation Method">Definir Método Depreciación</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Define Depreciation Method">Define Depreciation Method</value>
+  <value column="Description" original="Define Depreciation Method">Definir Método Depreciación</value>
   <value column="Help" original=""/>
  </row>
- <row id="53176" trl="N">
-  <value column="Name" original="Charge Type">Charge Type</value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original=""/>
-  <value column="Help" original=""/>
- </row>
- <row id="53177" trl="N">
-  <value column="Name" original="Charge Type by Doc Type">Charge Type by Doc Type</value>
+ <row id="53176" trl="Y">
+  <value column="Name" original="Charge Type">Tipo Cargo</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53178" trl="N">
-  <value column="Name" original="House Keeping">House Keeping</value>
+ <row id="53177" trl="Y">
+  <value column="Name" original="Charge Type by Doc Type">Tipo Cargo por Tipo Doc</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53179" trl="N">
-  <value column="Name" original="BOM &amp; Formula"><![CDATA[BOM & Formula]]></value>
-  <value column="CommitWarning" original=""/>
-  <value column="Description" original="BOM &amp; Formula"><![CDATA[BOM & Formula]]></value>
-  <value column="Help" original=""/>
- </row>
- <row id="53180" trl="N">
-  <value column="Name" original="Records">Records</value>
+ <row id="53178" trl="Y">
+  <value column="Name" original="House Keeping">Recorte de Información</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53181" trl="N">
+ <row id="53179" trl="Y">
+  <value column="Name" original="BOM &amp; Formula"><![CDATA[LDM & Fórmula]]></value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original="BOM &amp; Formula"><![CDATA[LDM & Fórmula]]></value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53180" trl="Y">
+  <value column="Name" original="Records">Registros</value>
+  <value column="CommitWarning" original=""/>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53181" trl="Y">
   <value column="Name" original="Terminal">Terminal</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53192" trl="N">
-  <value column="Name" original="Attributes">Cost Collector MA</value>
+ <row id="53192" trl="Y">
+  <value column="Name" original="Attributes">Atributos</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53193" trl="N">
-  <value column="Name" original="Searches">Searches</value>
+ <row id="53193" trl="Y">
+  <value column="Name" original="Searches">Búsquedas</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53197" trl="N">
-  <value column="Name" original="Product Price Vendor Break">Product Price Vendor Break</value>
+ <row id="53197" trl="Y">
+  <value column="Name" original="Product Price Vendor Break">Rango Precio Producto</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53198" trl="N">
-  <value column="Name" original="Import Price List">Import Price List</value>
+ <row id="53198" trl="Y">
+  <value column="Name" original="Import Price List">Importar Lista Precios</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Import Price Lists">Import Price Lists</value>
+  <value column="Description" original="Import Price Lists">Importar Lista Precios</value>
   <value column="Help" original=""/>
  </row>
  <row id="53200" trl="Y">
@@ -5136,178 +5134,178 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Description" original="Concept Ordering">Ordenamiento Conceptos</value>
   <value column="Help" original=""/>
  </row>
- <row id="53201" trl="N">
-  <value column="Name" original="Promotion Group">Promotion Group</value>
+ <row id="53201" trl="Y">
+  <value column="Name" original="Promotion Group">Grupo Promoción</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53202" trl="N">
-  <value column="Name" original="Group Line">Group Line</value>
+ <row id="53202" trl="Y">
+  <value column="Name" original="Group Line">Línea Grupo</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53203" trl="N">
-  <value column="Name" original="Promotion">Promotion</value>
+ <row id="53203" trl="Y">
+  <value column="Name" original="Promotion">Promoción</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53204" trl="N">
-  <value column="Name" original="Pre Condition">Pre Condition</value>
+ <row id="53204" trl="Y">
+  <value column="Name" original="Pre Condition">Pre Condición</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53205" trl="N">
-  <value column="Name" original="Promotion Line">Promotion Line</value>
+ <row id="53205" trl="Y">
+  <value column="Name" original="Promotion Line">Línea Promoción</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53206" trl="N">
-  <value column="Name" original="Quantity Distribution">Quantity Distribution</value>
+ <row id="53206" trl="Y">
+  <value column="Name" original="Quantity Distribution">Cantidad Distribución</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53207" trl="N">
-  <value column="Name" original="Reward">Reward</value>
+ <row id="53207" trl="Y">
+  <value column="Name" original="Reward">Premio</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53210" trl="N">
-  <value column="Name" original="Translation">Translation</value>
+ <row id="53210" trl="Y">
+  <value column="Name" original="Translation">Traducción</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Translation">Translation</value>
-  <value column="Help" original="The Translation Tab defines a Document Type in an alternate language.">The Translation Tab defines a Document Type in an alternate language.</value>
+  <value column="Description" original="Translation">Traducción</value>
+  <value column="Help" original="The Translation Tab defines a Document Type in an alternate language.">La pestaña traducción define un tipo de documento en un lenguaje alterno.</value>
  </row>
- <row id="53213" trl="N">
-  <value column="Name" original="Workflow Translation">Workflow Translation</value>
+ <row id="53213" trl="Y">
+  <value column="Name" original="Workflow Translation">Traducción Flujo Trabajo</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53214" trl="N">
-  <value column="Name" original="Order Activity Translation">Order Activity Translation</value>
+ <row id="53214" trl="Y">
+  <value column="Name" original="Order Activity Translation">Traducción Actividad Orden</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53215" trl="N">
-  <value column="Name" original="Parent Product Translation">Parent Product Translation</value>
+ <row id="53215" trl="Y">
+  <value column="Name" original="Parent Product Translation">Traducción Producto Padre</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53216" trl="N">
-  <value column="Name" original="Components Translation"><![CDATA[BOM & Formula Line Translation]]></value>
+ <row id="53216" trl="Y">
+  <value column="Name" original="Components Translation"><![CDATA[Traducción LDM & Fórmula]]></value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="BOM &amp; Formula Line Translation"><![CDATA[BOM & Formula Line Translation]]></value>
+  <value column="Description" original="BOM &amp; Formula Line Translation"><![CDATA[Traducción LDM & Fórmula]]></value>
   <value column="Help" original=""/>
  </row>
- <row id="53217" trl="N">
-  <value column="Name" original="Orden BOM Translation">Orden BOM Translation</value>
+ <row id="53217" trl="Y">
+  <value column="Name" original="Orden BOM Translation">Traducción Orden LDM</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Translation">Translation</value>
-  <value column="Help" original="Translation">Translation</value>
+  <value column="Description" original="Translation">Traducción</value>
+  <value column="Help" original="Translation">Traducción</value>
  </row>
- <row id="53218" trl="N">
-  <value column="Name" original="Order Components Translation">Order Components Translation</value>
+ <row id="53218" trl="Y">
+  <value column="Name" original="Order Components Translation">Traducción Componentes Orden</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53219" trl="N">
-  <value column="Name" original="Report Cube">Report Cube</value>
+ <row id="53219" trl="Y">
+  <value column="Name" original="Report Cube">Cubo Reporte</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53237" trl="N">
-  <value column="Name" original="Notice">Notice</value>
+ <row id="53237" trl="Y">
+  <value column="Name" original="Notice">Aviso</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="MRP Notice">MRP Notice</value>
-  <value column="Help" original="The Notice Tab provides a method of viewing messages that are generated by MRP process.">The Notice Tab provides a method of viewing messages that are generated by MRP process.</value>
+  <value column="Description" original="MRP Notice">Aviso MRP</value>
+  <value column="Help" original="The Notice Tab provides a method of viewing messages that are generated by MRP process.">La pestaña Aviso provee un método para ver mensajes que son generados por el proceso MRP.</value>
  </row>
- <row id="53238" trl="N">
-  <value column="Name" original="Unprocessed Documents">Unprocessed Documents</value>
+ <row id="53238" trl="Y">
+  <value column="Name" original="Unprocessed Documents">Documentos sin Procesar</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53239" trl="N">
-  <value column="Name" original="Unprocessed Documents">Unprocessed Documents</value>
+ <row id="53239" trl="Y">
+  <value column="Name" original="Unprocessed Documents">Documentos sin Procesar</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53244" trl="N">
-  <value column="Name" original="Located at">Located at</value>
+ <row id="53244" trl="Y">
+  <value column="Name" original="Located at">Localizado en</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Where are my units located?">Where are my units located?</value>
+  <value column="Description" original="Where are my units located?">¿Dónde están mis unidades localizadas?</value>
   <value column="Help" original=""/>
  </row>
- <row id="53246" trl="N">
-  <value column="Name" original="UOM Conversion">UOM Conversion</value>
+ <row id="53246" trl="Y">
+  <value column="Name" original="UOM Conversion">Conversión Unidad de Medida</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53271" trl="N">
-  <value column="Name" original="Customer Return">Material Receipt</value>
+ <row id="53271" trl="Y">
+  <value column="Name" original="Customer Return">Devolución Cliente</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Enter Customer Returns">Enter Receipts and Vendor Returns</value>
-  <value column="Help" original="The Customer Return Tab allows you to generate, maintain, enter and process Returns from a Customer. ">The Shipments Tab allows you to generate, maintain, enter and process Shipments from a Vendor or Returns to a Vendor. </value>
+  <value column="Description" original="Enter Customer Returns">Ingrese devoluciones de cliente</value>
+  <value column="Help" original="The Customer Return Tab allows you to generate, maintain, enter and process Returns from a Customer. ">La pestaña devoluciones de cliente permite genera generar, mantener, ingresar y procesar devoluciones de un cliente</value>
  </row>
- <row id="53272" trl="N">
-  <value column="Name" original="Receipt Line">Receipt Line</value>
+ <row id="53272" trl="Y">
+  <value column="Name" original="Receipt Line">Línea Recibo</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Shipment Line">Shipment Line</value>
-  <value column="Help" original="The Shipment Line Tab defines the individual items in a Shipment.">The Shipment Line Tab defines the individual items in a Shipment.</value>
+  <value column="Description" original="Shipment Line">Línea de la Entrega</value>
+  <value column="Help" original="The Shipment Line Tab defines the individual items in a Shipment.">La pestaña Línea de la Entrega define cada ítem en una entrega.</value>
  </row>
- <row id="53273" trl="N">
-  <value column="Name" original="Confirmations">Confirmations</value>
+ <row id="53273" trl="Y">
+  <value column="Name" original="Confirmations">Confirmaciones</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Optional Confirmations of Receipt Lines">Optional Confirmations of Receipt Lines</value>
-  <value column="Help" original="The quantities are in the storage Unit of Measure!">The quantities are in the storage Unit of Measure!</value>
+  <value column="Description" original="Optional Confirmations of Receipt Lines">Confirmaciones opcionales para Líneas de Recibo</value>
+  <value column="Help" original="The quantities are in the storage Unit of Measure!">¡Las cantidades están en la unidad de medida de almacenamiento!</value>
  </row>
- <row id="53274" trl="N">
-  <value column="Name" original="Matched POs">Matched POs</value>
+ <row id="53274" trl="Y">
+  <value column="Name" original="Matched POs">OC Asignadas</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Purchase Order Lines matched to this Material Receipt Line">Purchase Order Lines matched to this Material Receipt Line</value>
+  <value column="Description" original="Purchase Order Lines matched to this Material Receipt Line">Las líneas de la orden de compra asignadas a esta línea material del recibo</value>
   <value column="Help" original=""/>
  </row>
- <row id="53275" trl="N">
-  <value column="Name" original="Matched Invoices">Matched Invoices</value>
+ <row id="53275" trl="Y">
+  <value column="Name" original="Matched Invoices">Facturas Asignadas</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Invoice Lines matched to this Material Receipt Line">Invoice Lines matched to this Material Receipt Line</value>
+  <value column="Description" original="Invoice Lines matched to this Material Receipt Line">Líneas de Factura asignadas a esta línea material del recibo.</value>
   <value column="Help" original=""/>
  </row>
- <row id="53276" trl="N">
-  <value column="Name" original="Return to Vendor">Shipment</value>
+ <row id="53276" trl="Y">
+  <value column="Name" original="Return to Vendor">Devolución a Proveedor</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Vendor Returns">Shipments and Customer Returns</value>
-  <value column="Help" original="The Return to Vendor Tab allows you to generate, maintain, enter and process Shipments to a Vendor because of a Return">The Shipments Tab allows you to generate, maintain, enter and process Shipments to a Customer or Returns from a Customer. </value>
+  <value column="Description" original="Vendor Returns">Devoluciones a Proveedor</value>
+  <value column="Help" original="The Return to Vendor Tab allows you to generate, maintain, enter and process Shipments to a Vendor because of a Return">La pestaña Devolución a Proveedor permite generar, mantener, ingresar y procesar despachos a proveedores debido a devoluciones. </value>
  </row>
- <row id="53277" trl="N">
-  <value column="Name" original="Shipment Line">Shipment Line</value>
+ <row id="53277" trl="Y">
+  <value column="Name" original="Shipment Line">Línea de la Entrega</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Shipment Line">Shipment Line</value>
-  <value column="Help" original="The Shipment Line Tab defines the individual items in a Shipment.">The Shipment Line Tab defines the individual items in a Shipment.</value>
+  <value column="Description" original="Shipment Line">Línea de la Entrega</value>
+  <value column="Help" original="The Shipment Line Tab defines the individual items in a Shipment.">La pestaña Línea de la Entrega define cada ítem en una entrega.</value>
  </row>
- <row id="53278" trl="N">
-  <value column="Name" original="Confirmations">Confirmations</value>
+ <row id="53278" trl="Y">
+  <value column="Name" original="Confirmations">Confirmaciones</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Optional Confirmations of Shipment Lines">Optional Confirmations of Shipment Lines</value>
-  <value column="Help" original="The quantities are in the storage Unit of Measure!">The quantities are in the storage Unit of Measure!</value>
+  <value column="Description" original="Optional Confirmations of Shipment Lines">Confirmaciones opcionales de las líneas del recibo.</value>
+  <value column="Help" original="The quantities are in the storage Unit of Measure!">¡Las cantidades están en la unidad del almacenaje de la medida!</value>
  </row>
- <row id="53279" trl="N">
-  <value column="Name" original="Attributes">Attributes</value>
+ <row id="53279" trl="Y">
+  <value column="Name" original="Attributes">Atributos</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Product Instance Attribute Material Allocation">Product Instance Attribute Material Allocation</value>
+  <value column="Description" original="Product Instance Attribute Material Allocation">Asignación de Atributos de Instancia de Producto</value>
   <value column="Help" original=""/>
  </row>
  <row id="53280" trl="Y">
@@ -5322,16 +5320,16 @@ Valid From/To is determined by the parent tax.]]></value>
   <value column="Description" original="Return Material Authorization Line">Línea Autorización Devolución</value>
   <value column="Help" original="Detail information about the returned goods">Información detallada acerca de los productos devueltos</value>
  </row>
- <row id="53282" trl="N">
-  <value column="Name" original="User Contact">User Contact</value>
+ <row id="53282" trl="Y">
+  <value column="Name" original="User Contact">Contacto Usuario</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Maintain User or Business Partner Contact">Maintain User or Business Partner Contact</value>
-  <value column="Help" original="The User Tab defines the log in for Users who have access to the system.  For application access, users need to have a role assigned.">The User Tab defines the log in for Users who have access to the system.  For application access, users need to have a role assigned.</value>
+  <value column="Description" original="Maintain User or Business Partner Contact">Mantiene Usuarios o Contactos de Terceros</value>
+  <value column="Help" original="The User Tab defines the log in for Users who have access to the system.  For application access, users need to have a role assigned.">La pestaña de usuario define la bitácora de usuarios que han tenido acceso al sistema.</value>
  </row>
- <row id="53283" trl="N">
-  <value column="Name" original="User Mail">User Mail</value>
+ <row id="53283" trl="Y">
+  <value column="Name" original="User Mail">Correo Usuario</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Mail sent to the user">Mail sent to the user</value>
-  <value column="Help" original="Archive of mails sent to users">Archive of mails sent to users</value>
+  <value column="Description" original="Mail sent to the user">Mail enviado al usario</value>
+  <value column="Help" original="Archive of mails sent to users">Archivos de mails enviados para usuarios</value>
  </row>
 </adempiereTrl>

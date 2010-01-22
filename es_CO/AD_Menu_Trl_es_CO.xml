@@ -1874,45 +1874,45 @@
   <value column="Name" original="Setup Web POS">Configuración Web POS</value>
   <value column="Description" original=""/>
  </row>
- <row id="53014" trl="N">
-  <value column="Name" original="Manufacturing Management">Manufacturing Management</value>
-  <value column="Description" original="Manufacturing">Manufacturing</value>
+ <row id="53014" trl="Y">
+  <value column="Name" original="Manufacturing Management">Administración de Manufactura</value>
+  <value column="Description" original="Manufacturing">Administración de Manufactura</value>
  </row>
- <row id="53015" trl="N">
-  <value column="Name" original="Manufacturing Management Setup">Manufacturing Management Setup</value>
-  <value column="Description" original="Setup Manufacturing Management">Setup Manufacturing Management</value>
+ <row id="53015" trl="Y">
+  <value column="Name" original="Manufacturing Management Setup">Configuración Administración Manufactura</value>
+  <value column="Description" original="Setup Manufacturing Management">Configuración Administración Manufactura</value>
  </row>
- <row id="53016" trl="N">
-  <value column="Name" original="Engineering Management">Engineering Management</value>
-  <value column="Description" original="Engineering management involves the overall management of organizations with an orientation to manufacturing, engineering, technology or production.">Engineering management involves the overall management of organizations with an orientation to manufacturing, engineering, technology or production.</value>
+ <row id="53016" trl="Y">
+  <value column="Name" original="Engineering Management">Administración de Ingeniería</value>
+  <value column="Description" original="Engineering management involves the overall management of organizations with an orientation to manufacturing, engineering, technology or production.">Administración de Ingeniería involucra la administración global de las organizaciones con una orientación a la manufactura, ingeniería, tecnología o producción.</value>
  </row>
- <row id="53017" trl="N">
-  <value column="Name" original="Resource Manufacturing">Resource Manufacturing</value>
-  <value column="Description" original="Resource Manufacturing">Resource Manufacturing</value>
+ <row id="53017" trl="Y">
+  <value column="Name" original="Resource Manufacturing">Recurso Manufactura</value>
+  <value column="Description" original="Resource Manufacturing">Recurso Manufactura</value>
  </row>
  <row id="53018" trl="Y">
   <value column="Name" original="Manufacturing Resource">Recurso Manufactura</value>
   <value column="Description" original="Manufacturing Resource">Recurso Manufactura</value>
  </row>
- <row id="53019" trl="N">
-  <value column="Name" original="Manufacturing Workflow">Manufacturing Workflow</value>
+ <row id="53019" trl="Y">
+  <value column="Name" original="Manufacturing Workflow">Flujo de Trabajo Manufactura</value>
   <value column="Description" original=""/>
  </row>
  <row id="53020" trl="Y">
   <value column="Name" original="Manufacturing Workflows">Flujos Trabajo Manufactura</value>
   <value column="Description" original="Maintain Manufacturing Workflows (Routing)">Mantenimiento de Flujos de Trabajo de Manufactura (Enrutamiento)</value>
  </row>
- <row id="53021" trl="N">
-  <value column="Name" original="Manufacturing Workflow Setup">Manufacturing Workflow Setup</value>
-  <value column="Description" original="Setup Manufacturing Workflow">Setup Manufacturing Workflow</value>
+ <row id="53021" trl="Y">
+  <value column="Name" original="Manufacturing Workflow Setup">Configuración Manufactura</value>
+  <value column="Description" original="Setup Manufacturing Workflow">Configuración Manufactura</value>
  </row>
- <row id="53022" trl="N">
-  <value column="Name" original="Bill of Material &amp; Formulas"><![CDATA[Bill of Material & Formulas]]></value>
-  <value column="Description" original="Bill of Material &amp; Formulas"><![CDATA[Bill of Material & Formulas]]></value>
+ <row id="53022" trl="Y">
+  <value column="Name" original="Bill of Material &amp; Formulas"><![CDATA[Lista de Materiales & Fórmulas]]></value>
+  <value column="Description" original="Bill of Material &amp; Formulas"><![CDATA[Lista de Materiales & Fórmulas]]></value>
  </row>
- <row id="53023" trl="N">
-  <value column="Name" original="Bill of Material &amp; Formula Setup"><![CDATA[Bill of Material & Formula Setup]]></value>
-  <value column="Description" original="Setup Bill of Material &amp; Formula"><![CDATA[Setup Bill of Material & Formula]]></value>
+ <row id="53023" trl="Y">
+  <value column="Name" original="Bill of Material &amp; Formula Setup">Configuración Listas de Materiales y Fórmula</value>
+  <value column="Description" original="Setup Bill of Material &amp; Formula">Configuración Listas de Materiales y Fórmula</value>
  </row>
  <row id="53024" trl="Y">
   <value column="Name" original="Bill of Materials &amp; Formula "><![CDATA[Lista de Materiales & Fórmula]]></value>
@@ -1922,57 +1922,57 @@
   <value column="Name" original="BOM &amp; Formula Info">Info LDM y Formula</value>
   <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Muestra en dos paneles la relación componente padre para el producto seleccionado.</value>
  </row>
- <row id="53026" trl="N">
-  <value column="Name" original="Multi Level BOM &amp; Formula Detail"><![CDATA[Multi Level BOM & Formula Detail]]></value>
-  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Shows in two different panels the parent-component relationship for the product entered in the Product field.</value>
+ <row id="53026" trl="Y">
+  <value column="Name" original="Multi Level BOM &amp; Formula Detail"><![CDATA[LDM Multi Nivel & Detalle Fórmula]]></value>
+  <value column="Description" original="Shows in two different panels the parent-component relationship for the product entered in the Product field.">Muestra en dos páneles diferentes la relación componente-padre para el producdto ingresado en el campo Producto.</value>
  </row>
- <row id="53027" trl="N">
-  <value column="Name" original="Mutiple Components Change">Mutiple Components Change</value>
-  <value column="Description" original="This option allows the change of any component into BOM or Formula">This option allows the change of any component into BOM or Formula</value>
+ <row id="53027" trl="Y">
+  <value column="Name" original="Mutiple Components Change">Cambio Múltiples Componentes</value>
+  <value column="Description" original="This option allows the change of any component into BOM or Formula">Esta opción permite cambiar cualquier componente en la LDM o Fórmula</value>
  </row>
  <row id="53028" trl="Y">
   <value column="Name" original="Product Configuration BOM">Configuración LDM Producto</value>
   <value column="Description" original="This form let create a product configure with multy level using options and variants">Esta forma permite crear la configuración de un producto con múltiples niveles usando opciones y variantes</value>
  </row>
- <row id="53029" trl="N">
-  <value column="Name" original="Planning Management">Planning Management</value>
-  <value column="Description" original="Using Planning Management you answer the question: When and How Many products we must get?">Using Planning Management you answer the question: When and How Many products we must get?</value>
+ <row id="53029" trl="Y">
+  <value column="Name" original="Planning Management">Administración de Planeación</value>
+  <value column="Description" original="Using Planning Management you answer the question: When and How Many products we must get?">Usando la Administración de Planeación puede contestar la pregunta: ¿Cuándo y Cuántos productos debemos obtener?</value>
  </row>
- <row id="53030" trl="N">
-  <value column="Name" original="Planning Management Setup">Planning Management Setup</value>
-  <value column="Description" original="Setup Planning Management">Setup Planning Management</value>
+ <row id="53030" trl="Y">
+  <value column="Name" original="Planning Management Setup">Configuración Administración Planeación</value>
+  <value column="Description" original="Setup Planning Management">Configuración Administración Planeación</value>
  </row>
- <row id="53031" trl="N">
-  <value column="Name" original="Product Planning">Product Data Planning</value>
-  <value column="Description" original="Product Planning">Product Data Planning</value>
+ <row id="53031" trl="Y">
+  <value column="Name" original="Product Planning">Planeación Producto</value>
+  <value column="Description" original="Product Planning">Planeación Producto</value>
  </row>
  <row id="53032" trl="Y">
   <value column="Name" original="Product Planning Data">Planeación Datos Producto</value>
   <value column="Description" original="Maintain Product Planning Data">Mantiene la Planeación de Datos del Producto</value>
  </row>
- <row id="53033" trl="N">
-  <value column="Name" original="Create Product Planning">Create Product Planning</value>
-  <value column="Description" original="This process will create the data plannig register for every product">This process will create the data plannig register for every product</value>
+ <row id="53033" trl="Y">
+  <value column="Name" original="Create Product Planning">Crear Planeación Producto</value>
+  <value column="Description" original="This process will create the data plannig register for every product">Este proceso creará el registro de planeación para cada producto</value>
  </row>
- <row id="53034" trl="N">
+ <row id="53034" trl="Y">
   <value column="Name" original="MRP">MRP</value>
-  <value column="Description" original="Materials Requirements Planning">Materials Requirements Planning</value>
+  <value column="Description" original="Materials Requirements Planning">Planeación Requerimientos de Materiales</value>
  </row>
- <row id="53035" trl="N">
-  <value column="Name" original="Material Requirement Planning Setup">Material Requirement Planning Setup</value>
-  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.</value>
+ <row id="53035" trl="Y">
+  <value column="Name" original="Material Requirement Planning Setup">Configuración Planeación Requerimientos de Materiales (MRP)</value>
+  <value column="Description" original="MRP is a set of techniques which uses Bills of Material, Inventory Data, and the Master Production Schedule to calculate requirements for materials.">MRP es un conjunto de técnicas que usan las listas de materiales, datos de inventarios, y el plan maestro de producción para calcular requerimientos de materiales.</value>
  </row>
- <row id="53036" trl="N">
-  <value column="Name" original="Calculate Low Level">Calculate Low Level</value>
-  <value column="Description" original="This process calculate and register the lowest level of a product inside any BOM. It is used in the MRP calculations and should be executed when you enter a new BOM.">This process calculate and register the lowest level of a product inside any BOM. It is used in the MRP calculations and should be executed when you enter a new BOM.</value>
+ <row id="53036" trl="Y">
+  <value column="Name" original="Calculate Low Level">Calcular Nivel Menor</value>
+  <value column="Description" original="This process calculate and register the lowest level of a product inside any BOM. It is used in the MRP calculations and should be executed when you enter a new BOM.">Este proceso calcula y registra el nivel menor de un producto dentro de una LDM. Es usado en los cálculos del MRP y debe ser ejecutado cuando ingresa una nueva LDM.</value>
  </row>
- <row id="53037" trl="N">
-  <value column="Name" original="Create Record MRP">Create Record MRP</value>
-  <value column="Description" original="This process recreate the demand, approved and open orders for a product.">This process recreate the demand, approved and open orders for a product.</value>
+ <row id="53037" trl="Y">
+  <value column="Name" original="Create Record MRP">Crear Registros MRP</value>
+  <value column="Description" original="This process recreate the demand, approved and open orders for a product.">Este proceso recrea la demanda, órdenes aprobadas y abiertas para un producto.</value>
  </row>
- <row id="53038" trl="N">
-  <value column="Name" original="Calculate Material Plan">Calculate Material Plan</value>
-  <value column="Description" original="This process calcualte the demand, approved and open orders for a product.">This process calcualte the demand, approved and open orders for a product.</value>
+ <row id="53038" trl="Y">
+  <value column="Name" original="Calculate Material Plan">Calcular Plan Materiales</value>
+  <value column="Description" original="This process calcualte the demand, approved and open orders for a product.">Este proceso calcula la demanda, órdenes aprobadas y abiertas para un producto.</value>
  </row>
  <row id="53039" trl="Y">
   <value column="Name" original="MRP Info">Info MRP</value>
@@ -1982,113 +1982,113 @@
   <value column="Name" original="MRP Notice">Aviso MRP</value>
   <value column="Description" original="View MRP Notices">Ver Avisos MRP</value>
  </row>
- <row id="53041" trl="N">
-  <value column="Name" original="MRP Details">MRP Details</value>
-  <value column="Description" original="Show the detail of MRP calculation">Show the detail of MRP calculation</value>
+ <row id="53041" trl="Y">
+  <value column="Name" original="MRP Details">Detalles MRP</value>
+  <value column="Description" original="Show the detail of MRP calculation">Muestra el detalle de cálculos de MRP</value>
  </row>
  <row id="53042" trl="Y">
   <value column="Name" original="Planned Order Approval ">Aprobación Orden Planeada</value>
   <value column="Description" original="A planned manufacturing order is a manufacturing order suggested by the MRP process and contains its quantity and its release and promise dates.">Una orden de manufactura planeada es una orden de manufactura sugerida por el proceso MRP y contiene las cantidades y las fechas de entrega y promesa.</value>
  </row>
- <row id="53043" trl="N">
+ <row id="53043" trl="Y">
   <value column="Name" original="CRP">CRP</value>
-  <value column="Description" original="Capacity Requirements Planning">Capacity Requirements Planning</value>
+  <value column="Description" original="Capacity Requirements Planning">Planeación de Requerimientos de Capacidad</value>
  </row>
  <row id="53044" trl="Y">
   <value column="Name" original="CRP Info">Info CRP</value>
   <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">Muestra gráficamente el requerimiento y disponibilidad en el tiempo de cada recurso de manufactura.</value>
  </row>
- <row id="53045" trl="N">
-  <value column="Name" original="Calculate Capacity Plan">Calculate Capacity Plan</value>
-  <value column="Description" original="Calculate Capacity Plan">Calculate Capacity Plan</value>
+ <row id="53045" trl="Y">
+  <value column="Name" original="Calculate Capacity Plan">Calcular Plan de Capacidad</value>
+  <value column="Description" original="Calculate Capacity Plan">Calcular Plan de Capacidad</value>
  </row>
  <row id="53046" trl="Y">
   <value column="Name" original="Resource Load View">Vista Carga Recursos</value>
   <value column="Description" original="It shows graphically of the required and available time for each manufacturing resource.">Muestra gráficamente el requerimiento y disponibilidad en el tiempo de cada recurso de manufactura.</value>
  </row>
- <row id="53047" trl="N">
-  <value column="Name" original="Capacity Requirement Planning Setup">Capacity Requirement Planning Setup</value>
-  <value column="Description" original="The process of Capacity Plan Calculation allows us to know the available time in each manufacturing resource, as well as the required time to satisfy the Master Production Schedule.">The process of Capacity Plan Calculation allows us to know the available time in each manufacturing resource, as well as the required time to satisfy the Master Production Schedule.</value>
+ <row id="53047" trl="Y">
+  <value column="Name" original="Capacity Requirement Planning Setup">Configuración Planeación Requerimientos de Capacidad (CRP)</value>
+  <value column="Description" original="The process of Capacity Plan Calculation allows us to know the available time in each manufacturing resource, as well as the required time to satisfy the Master Production Schedule.">El procesos Planeación Requerimientos de Capacidad nos permite conocer el tiempo disponible en cada recurso de manufactura, así como el tiempo requerido para satisfacer el Plan Maestro de Producción.</value>
  </row>
- <row id="53048" trl="N">
+ <row id="53048" trl="Y">
   <value column="Name" original="DRP">DRP</value>
-  <value column="Description" original="Distribution Resource Planning">Distribution Resource Planning</value>
+  <value column="Description" original="Distribution Resource Planning">Planeación de Distribución de Recursos</value>
  </row>
- <row id="53049" trl="N">
-  <value column="Name" original="Calculate Distribution Plan">Calculate Distribution Plan</value>
-  <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. ">Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. </value>
+ <row id="53049" trl="Y">
+  <value column="Name" original="Calculate Distribution Plan">Calcular Plan Distribución</value>
+  <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. ">Planeación de Distribución de Recursos (DRP) es un método usado en administración de negocios para planeación de órdenes dentro de una cadena de suministros. </value>
  </row>
- <row id="53050" trl="N">
-  <value column="Name" original="Distribution Resource Planning Setup">Distribution Resource Planning Setup</value>
-  <value column="Description" original="is a method used in business administration for planning orders within a supply chain. DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.">is a method used in business administration for planning orders within a supply chain. DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.</value>
+ <row id="53050" trl="Y">
+  <value column="Name" original="Distribution Resource Planning Setup">Configuración Planeación Distribución de Recursos (DRP)</value>
+  <value column="Description" original="is a method used in business administration for planning orders within a supply chain. DRP enables the user to set certain inventory control parameters (like a safety stock) and calculate the time-phased inventory requirements.">DRP es usado en administración para planeación de órdenes en una cadena de suministro. DRP permite al usuario fijar ciertos parámetros de control de inventarios (ej: existencia de seguridad) y calcular los requerimientos de inventarios por fases de tiempo</value>
  </row>
- <row id="53051" trl="N">
-  <value column="Name" original="DRP Details">DRP Details</value>
-  <value column="Description" original="Show the detail of DRP calculation">Show the detail of DRP calculation</value>
+ <row id="53051" trl="Y">
+  <value column="Name" original="DRP Details">Detalles DRP</value>
+  <value column="Description" original="Show the detail of DRP calculation">Muestra el detalle de cálculo de DRP</value>
  </row>
- <row id="53052" trl="N">
-  <value column="Name" original="Production Management">Production Management</value>
-  <value column="Description" original="Production Management">Production Management</value>
+ <row id="53052" trl="Y">
+  <value column="Name" original="Production Management">Administración de Producción</value>
+  <value column="Description" original="Production Management">Administración de Producción</value>
  </row>
- <row id="53053" trl="N">
-  <value column="Name" original="Discreet Manufacturing">Discreet Manufacturing</value>
+ <row id="53053" trl="Y">
+  <value column="Name" original="Discreet Manufacturing">Manufactura Discreta</value>
   <value column="Description" original=""/>
  </row>
- <row id="53054" trl="N">
-  <value column="Name" original="Discrete Manufacturing Setup">Discrete Manufacturing Setup</value>
-  <value column="Description" original="Once the production planning process is completed, the production control process let us to check the execution activities in order to be sure we can reach the material plan.">Once the production planning process is completed, the production control process let us to check the execution activities in order to be sure we can reach the material plan.</value>
+ <row id="53054" trl="Y">
+  <value column="Name" original="Discrete Manufacturing Setup">Configuración Manufactura Discreta</value>
+  <value column="Description" original="Once the production planning process is completed, the production control process let us to check the execution activities in order to be sure we can reach the material plan.">Una vez que el proceso de planeación de producción se completa el proceso de control de producción nos permite chequear la ejecución de actividades para asegurar que alcanzamos el plan de materiales.</value>
  </row>
  <row id="53055" trl="Y">
   <value column="Name" original="Manufacturing Order">Orden de Manufactura</value>
   <value column="Description" original="Maintain Manufacturing Order">Mantenimiento de órdenes de manufactura</value>
  </row>
- <row id="53056" trl="N">
-  <value column="Name" original="Manufacturing Orders Review  ">Manufacturing Orders Review  </value>
-  <value column="Description" original="It is a report of every Manufacturing Orders filtering according with the characteristics the user is interested to select.">It is a report of every Manufacturing Orders filtering according with the characteristics the user is interested to select.</value>
+ <row id="53056" trl="Y">
+  <value column="Name" original="Manufacturing Orders Review  ">Revisión Orden Manufactura</value>
+  <value column="Description" original="It is a report of every Manufacturing Orders filtering according with the characteristics the user is interested to select.">Es un reporte de cada orden de manufactura filtrada de acuerdo con las características que el usuario selecciona.</value>
  </row>
- <row id="53057" trl="N">
-  <value column="Name" original="Component Check">Component Check</value>
-  <value column="Description" original="Show if  components are available in the warehouse to Manufacturing Order">Show if  components are available in the warehouse to Manufacturing Order</value>
+ <row id="53057" trl="Y">
+  <value column="Name" original="Component Check">Chequeo Componentes</value>
+  <value column="Description" original="Show if  components are available in the warehouse to Manufacturing Order">Muestra si los componentes están disponibles en el almacén para una Orden de Manufactura</value>
  </row>
- <row id="53058" trl="N">
-  <value column="Name" original="Print &amp; Release Order"><![CDATA[Print & Release Order]]></value>
-  <value column="Description" original="Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture.">Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture.</value>
+ <row id="53058" trl="Y">
+  <value column="Name" original="Print &amp; Release Order">Imprimir y Liberar Orden</value>
+  <value column="Description" original="Once the planned orders of manufacture generated by MRP, have been aprobed, has been reached the date of liberation and has been verified that the required components are in existence, the orders are emitted to the plant for its manufacture.">Una vez que las órdenes planeadas de manufactura generadas por el MRP han sido aprobadas, se ha alcanzado la fecha de liberación y ha sido verificado que los componentes requeridos están en existencia, las órdenes son emitidas a la planta para manufactura</value>
  </row>
  <row id="53059" trl="Y">
   <value column="Name" original="Order Receipt &amp; Issue">Recibo Orden y Emisión</value>
   <value column="Description" original="Order Receipt &amp; Issue">Recibo Orden y Emisión</value>
  </row>
- <row id="53060" trl="N">
-  <value column="Name" original="Inventory in Process">Inventory in Process</value>
-  <value column="Description" original="This report show the inventory in process">This report show the inventory in process</value>
+ <row id="53060" trl="Y">
+  <value column="Name" original="Inventory in Process">Inventario en Proceso</value>
+  <value column="Description" original="This report show the inventory in process">Este reporte muestra el inventario en proceso</value>
  </row>
- <row id="53061" trl="N">
-  <value column="Name" original="Management Maintenance">Management Maintenance</value>
-  <value column="Description" original="Management Maintenance">Management Maintenance</value>
+ <row id="53061" trl="Y">
+  <value column="Name" original="Management Maintenance">Administración de Mantenimiento</value>
+  <value column="Description" original="Management Maintenance">Administración de Mantenimiento</value>
  </row>
  <row id="53062" trl="Y">
   <value column="Name" original="Spare parts">Partes de Repuesto</value>
   <value column="Description" original="Spare parts">Partes de Repuesto</value>
  </row>
- <row id="53063" trl="N">
-  <value column="Name" original="Activity Control">Shop Floor Control</value>
-  <value column="Description" original="Activity Control">Shop Floor Control</value>
+ <row id="53063" trl="Y">
+  <value column="Name" original="Activity Control">Control de Piso</value>
+  <value column="Description" original="Activity Control">Control de Piso</value>
  </row>
  <row id="53064" trl="Y">
   <value column="Name" original="Activity Control Report">Reporte Control Actividades</value>
   <value column="Description" original="Activity Control">Control Actividades</value>
  </row>
- <row id="53065" trl="N">
-  <value column="Name" original="Shop Floor Transaction Details">Shop Floor Transaction Details</value>
-  <value column="Description" original="Show the Shop Floor Transaction Details">Show the Shop Floor Transaction Details</value>
+ <row id="53065" trl="Y">
+  <value column="Name" original="Shop Floor Transaction Details">Detalles Transacción Control Piso</value>
+  <value column="Description" original="Show the Shop Floor Transaction Details">Muestra el detalle de transacción de control de piso</value>
  </row>
- <row id="53066" trl="N">
-  <value column="Name" original="Distribution Management">Distribution Management</value>
-  <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. ">Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. </value>
+ <row id="53066" trl="Y">
+  <value column="Name" original="Distribution Management">Administración de Distribución</value>
+  <value column="Description" original="Distribution Resource Planning (DRP) is a method used in business administration for planning orders within a supply chain. ">Planeación de Distribución de Recursos (DRP) es un método usado en administración de negocios para planeación de órdenes dentro de una cadena de suministros. </value>
  </row>
- <row id="53067" trl="N">
-  <value column="Name" original="Distribution Management Setup">Distribution Management Setup</value>
-  <value column="Description" original="Setup Distribution Management">Setup Distribution Management</value>
+ <row id="53067" trl="Y">
+  <value column="Name" original="Distribution Management Setup">Configuración Administración Distribución</value>
+  <value column="Description" original="Setup Distribution Management">Configuración Administración Distribución</value>
  </row>
  <row id="53068" trl="Y">
   <value column="Name" original="Distribution Order">Orden de Distribución</value>
@@ -2098,53 +2098,53 @@
   <value column="Name" original="Generate Movement Manual">Generar Movimiento Manual</value>
   <value column="Description" original="Generate Movement to a Order Distribution">Generar Movimiento una Orden de Distribución</value>
  </row>
- <row id="53070" trl="N">
-  <value column="Name" original="Generate Movement">Generate Movement</value>
-  <value column="Description" original="Generate and print Movement from open Distribution Orders">Generate and print Movement from open Distribution Orders</value>
+ <row id="53070" trl="Y">
+  <value column="Name" original="Generate Movement">Generar Movimiento</value>
+  <value column="Description" original="Generate and print Movement from open Distribution Orders">Generar e imprimir movimientos de la orden de distribución</value>
  </row>
- <row id="53071" trl="N">
-  <value column="Name" original="Quality Management">Quality Management</value>
-  <value column="Description" original="Quality Management">Quality Management</value>
+ <row id="53071" trl="Y">
+  <value column="Name" original="Quality Management">Administración de Calidad</value>
+  <value column="Description" original="Quality Management">Administración de Calidad</value>
  </row>
  <row id="53072" trl="Y">
   <value column="Name" original="Quality Specifications">Especificaciones de Calidad</value>
   <value column="Description" original="Maintain Quality Specifications">Mantiene Especificaciones de Calidad</value>
  </row>
- <row id="53073" trl="N">
-  <value column="Name" original="Print Test Results">Print Test Results</value>
-  <value column="Description" original="Process allow print the result of Quality Order">Process allow print the result of Quality Order</value>
+ <row id="53073" trl="Y">
+  <value column="Name" original="Print Test Results">Imprimir Resultados Prueba</value>
+  <value column="Description" original="Process allow print the result of Quality Order">Permite imprimir los resultados de la Orden de Calidad</value>
  </row>
- <row id="53074" trl="N">
-  <value column="Name" original="Standard Costing Management">Standard Costing Management</value>
-  <value column="Description" original="Standard Costing Management">Standard Costing Management</value>
+ <row id="53074" trl="Y">
+  <value column="Name" original="Standard Costing Management">Administración de Costeo Estándar</value>
+  <value column="Description" original="Standard Costing Management">Administración de Costeo Estándar</value>
  </row>
- <row id="53075" trl="N">
-  <value column="Name" original="Create Doc Type to Manufacturing">Create Doc Type to Manufacturing</value>
-  <value column="Description" original="Let create the document type to manufacturing">Let create the document type to manufacturing</value>
+ <row id="53075" trl="Y">
+  <value column="Name" original="Create Doc Type to Manufacturing">Crear Tipo Doc para Manufactura</value>
+  <value column="Description" original="Let create the document type to manufacturing">Permite crear los tipos de documento para manufactura</value>
  </row>
- <row id="53076" trl="N">
-  <value column="Name" original="Create Element">Create Element</value>
-  <value column="Description" original="Let create every cost elements defined for a Organization, Accounting Schema, Warehouse, Resource, Cost Type ,Product and Product Attribute Set Instance .">Let create every cost elements defined for a Organization, Accounting Schema, Warehouse, Resource, Cost Type and Product.</value>
+ <row id="53076" trl="Y">
+  <value column="Name" original="Create Element">Crear Elemento</value>
+  <value column="Description" original="Let create every cost elements defined for a Organization, Accounting Schema, Warehouse, Resource, Cost Type ,Product and Product Attribute Set Instance .">Permite crear cada elemento de costeo definido para una Organización, Esquema Contable, Almacén Recurso, Tipo Costo y Producto.</value>
  </row>
- <row id="53077" trl="N">
-  <value column="Name" original="Product Costing">Product Costing</value>
-  <value column="Description" original="To watch the cost elements for every set of Product, Organization, Accounting Schema, Warehouse, Resource and Cost Type">To watch the cost elements for every set of Product, Organization, Accounting Schema, Warehouse, Resource and Cost Type</value>
+ <row id="53077" trl="Y">
+  <value column="Name" original="Product Costing">Costeo Producto</value>
+  <value column="Description" original="To watch the cost elements for every set of Product, Organization, Accounting Schema, Warehouse, Resource and Cost Type">Permite revisar cada elemento de costeo definido para una Organización, Esquema Contable, Almacén Recurso, Tipo Costo y Producto.</value>
  </row>
- <row id="53078" trl="N">
-  <value column="Name" original="Copy Price to Standard Cost">Copy Price to Standard Cost</value>
-  <value column="Description" original="This process allow copy a Price from Price list Version to Element Cost">This process allow copy a Price from Price list Version to Element Cost</value>
+ <row id="53078" trl="Y">
+  <value column="Name" original="Copy Price to Standard Cost">Copiar Precio a Costo Estándar</value>
+  <value column="Description" original="This process allow copy a Price from Price list Version to Element Cost">Este proceso permite copiar un precio desde una versión de lista de precios a un elemento de costeo</value>
  </row>
- <row id="53079" trl="N">
-  <value column="Name" original="Workflow Cost Roll-Up">Workflow Cost Roll-Up</value>
-  <value column="Description" original="This Process allow integrate Labor and Overhead Cost to a Manufacturing Workflow ">This Process allow integrate Labor and Overhead Cost to a Manufacturing Workflow </value>
+ <row id="53079" trl="Y">
+  <value column="Name" original="Workflow Cost Roll-Up">Resumen Costo Flujo Trabajo</value>
+  <value column="Description" original="This Process allow integrate Labor and Overhead Cost to a Manufacturing Workflow ">Este proceso integra los costos de Labor y Costos Generales a un Flujo de Trabajo de Manufactura</value>
  </row>
- <row id="53080" trl="N">
-  <value column="Name" original="Cost Workflow &amp; Process Details"><![CDATA[Cost Workflow & Process Details]]></value>
-  <value column="Description" original="This report show every cost element to a BOM or Formula ">This report show every cost element to a BOM or Formula </value>
+ <row id="53080" trl="Y">
+  <value column="Name" original="Cost Workflow &amp; Process Details"><![CDATA[Costo Flujo Trabajo & Detalles Proceso]]></value>
+  <value column="Description" original="This report show every cost element to a BOM or Formula ">Este reporte muestra cada elemento de costo para una LDM o Fórmula</value>
  </row>
- <row id="53081" trl="N">
-  <value column="Name" original="Bill of Material &amp; Formula Cost Roll-UP"><![CDATA[Bill of Material & Formula Cost Roll-UP]]></value>
-  <value column="Description" original="This Process allow integrate Bill of Material &amp; Formula Cost"><![CDATA[This Process allow integrate Bill of Material & Formula Cost]]></value>
+ <row id="53081" trl="Y">
+  <value column="Name" original="Bill of Material &amp; Formula Cost Roll-UP"><![CDATA[Resumen Costos Lista de Materiales & Fórmula]]></value>
+  <value column="Description" original="This Process allow integrate Bill of Material &amp; Formula Cost"><![CDATA[Este proceso permite integrar Costos de Lista de Materiales & Fórmula]]></value>
  </row>
  <row id="53082" trl="Y">
   <value column="Name" original="Cost Collector">Colector de Costos</value>
@@ -2178,16 +2178,16 @@
   <value column="Name" original="Prepare Migration Scripts">Preparar scripts de Migración</value>
   <value column="Description" original=""/>
  </row>
- <row id="53091" trl="N">
-  <value column="Name" original="Global Tax Management">Global Tax Management</value>
+ <row id="53091" trl="Y">
+  <value column="Name" original="Global Tax Management">Administración de Impuestos Global</value>
   <value column="Description" original=""/>
  </row>
  <row id="53092" trl="Y">
   <value column="Name" original="Tax Group">Grupo de Impuestos</value>
   <value column="Description" original="Tax Groups let you group the business partner with a reference tax.">Los grupos de impuestos permiten agrupar terceros con un impuesto de referencia.</value>
  </row>
- <row id="53093" trl="N">
-  <value column="Name" original="C_Invoce Calculate Tax">C_Invoce Calculate Tax</value>
+ <row id="53093" trl="Y">
+  <value column="Name" original="C_Invoce Calculate Tax">Calcular Impuesto Factura</value>
   <value column="Description" original=""/>
  </row>
  <row id="53094" trl="Y">
@@ -2206,13 +2206,13 @@
   <value column="Name" original="Tax Base">Impuesto Base</value>
   <value column="Description" original="Defines tax base for a tax">Define impuestos base para un impuesto</value>
  </row>
- <row id="53098" trl="N">
-  <value column="Name" original="Replication Data">Replication Data</value>
+ <row id="53098" trl="Y">
+  <value column="Name" original="Replication Data">Replicación de Datos</value>
   <value column="Description" original=""/>
  </row>
- <row id="53099" trl="N">
-  <value column="Name" original="Setup Replication">Setup Replication</value>
-  <value column="Description" original="Setup of data replication">Setup of data replication</value>
+ <row id="53099" trl="Y">
+  <value column="Name" original="Setup Replication">Configuración Replicación</value>
+  <value column="Description" original="Setup of data replication">Configuración Datos Replicación</value>
  </row>
  <row id="53100" trl="Y">
   <value column="Name" original="Export Format">Formato Exportación</value>
@@ -2302,9 +2302,9 @@
   <value column="Name" original="Setup Human Resource &amp; Payroll">Configuración de Recursos Humanos y Nómina</value>
   <value column="Description" original="Setup Human Resource &amp; Payroll">Configuración de Recursos Humanos y Nómina</value>
  </row>
- <row id="53125" trl="N">
-  <value column="Name" original="Export Format Generator">EXP_Format Generator</value>
-  <value column="Description" original="Create multiple Export Format based in a Window"/>
+ <row id="53125" trl="Y">
+  <value column="Name" original="Export Format Generator">Generador Formato Exportación</value>
+  <value column="Description" original="Create multiple Export Format based in a Window">Crea múltiples formatos de exportación basado en una ventana</value>
  </row>
  <row id="53127" trl="Y">
   <value column="Name" original="Payroll Process">Proceso Nómina</value>
@@ -2318,33 +2318,33 @@
   <value column="Name" original="Bill of Materials &amp; Formula "><![CDATA[Lista de Materiales & Fórmula]]></value>
   <value column="Description" original="Maintain Product Bill of Materials &amp; Formula "><![CDATA[Mantiene listas de materiales de producdtos & fórmula]]></value>
  </row>
- <row id="53130" trl="N">
-  <value column="Name" original="Test Export Model">Test Export Model</value>
-  <value column="Description" original="Test Export of XML files">Test Export of XML files</value>
+ <row id="53130" trl="Y">
+  <value column="Name" original="Test Export Model">Prueba Modelo Exportación</value>
+  <value column="Description" original="Test Export of XML files">Prueba la exportación de archivos XML</value>
  </row>
- <row id="53131" trl="N">
-  <value column="Name" original="Test Import Model">Test Import Model</value>
-  <value column="Description" original="Test Import of XML files">Test Import of XML files</value>
+ <row id="53131" trl="Y">
+  <value column="Name" original="Test Import Model">Prueba Model Importación</value>
+  <value column="Description" original="Test Import of XML files">Prueba importación de archivos XML</value>
  </row>
  <row id="53132" trl="Y">
   <value column="Name" original="Generate Shipments &amp; Invoices (manual)">Generar Entregas y Facturas (manual)</value>
   <value column="Description" original="Select and generate shipments &amp; Invoices">Seleccionar y generar entregas y facturas</value>
  </row>
- <row id="53133" trl="N">
-  <value column="Name" original="Customer Service">Customer Service</value>
-  <value column="Description" original="Customer Related Assets">Customer Related Assets</value>
+ <row id="53133" trl="Y">
+  <value column="Name" original="Customer Service">Servicio al Cliente</value>
+  <value column="Description" original="Customer Related Assets">Activos Relacionados con Clientes</value>
  </row>
- <row id="53134" trl="N">
-  <value column="Name" original="Fixed Assets">Fixed Assets</value>
-  <value column="Description" original="Applications to setup and maintain fixed assets">Applications to setup and maintain fixed assets</value>
+ <row id="53134" trl="Y">
+  <value column="Name" original="Fixed Assets">Activos Fijos</value>
+  <value column="Description" original="Applications to setup and maintain fixed assets">Aplicaciónpara configurar y mantener activos fijos</value>
  </row>
- <row id="53135" trl="N">
-  <value column="Name" original="Processing">Processing</value>
-  <value column="Description" original="Process Fixed Assets">Process Fixed Assets</value>
+ <row id="53135" trl="Y">
+  <value column="Name" original="Processing">Procesamiento</value>
+  <value column="Description" original="Process Fixed Assets">Procesar Activos Fijos</value>
  </row>
- <row id="53136" trl="N">
-  <value column="Name" original="Asset Revaluation">Asset Revaluation</value>
-  <value column="Description" original="Process Asset Revaluations">Process Asset Revaluations</value>
+ <row id="53136" trl="Y">
+  <value column="Name" original="Asset Revaluation">Revaluación Activos</value>
+  <value column="Description" original="Process Asset Revaluations">Procesar Revaluación Activos</value>
  </row>
  <row id="53137" trl="Y">
   <value column="Name" original="Asset Revaluation Processing">Procesamiento Revaluación Activos</value>
@@ -2354,9 +2354,9 @@
   <value column="Name" original="Asset Revaluation Index">Indice Revaluación Activo</value>
   <value column="Description" original="Set the Revaluate Assets Index or Factors">Fija el índice o factores de revaluación de activos</value>
  </row>
- <row id="53139" trl="N">
-  <value column="Name" original="Splits Transfers and Disposals">Splits Transfers and Disposals</value>
-  <value column="Description" original="Process Assets Splits Transfers and Disposals">Process Assets Splits Transfers and Disposals</value>
+ <row id="53139" trl="Y">
+  <value column="Name" original="Splits Transfers and Disposals">Divisiones, Transferencias y Desechos</value>
+  <value column="Description" original="Process Assets Splits Transfers and Disposals">Procesar Divisiones, Transferencias y Desechos de Activos</value>
  </row>
  <row id="53140" trl="Y">
   <value column="Name" original="Transfer Asset Entry">Entrada Transferencia Activo</value>
@@ -2366,13 +2366,13 @@
   <value column="Name" original="Disposed Asset Entry">Entrada Activo Desechado</value>
   <value column="Description" original="Create Disposed Asset Entry">Crear Entrada Activo Desechado</value>
  </row>
- <row id="53142" trl="N">
-  <value column="Name" original="Asset Disposal Expense Entry Rpt">Asset Disposal Expense Entry Rpt</value>
-  <value column="Description" original="Used to review Assets Disposed Entry">Used to review Assets Disposed Entry</value>
+ <row id="53142" trl="Y">
+  <value column="Name" original="Asset Disposal Expense Entry Rpt">Reporte Entrada Gastos Desecho Activos</value>
+  <value column="Description" original="Used to review Assets Disposed Entry">Usado para revisar las entradas de desecho de activos</value>
  </row>
- <row id="53143" trl="N">
-  <value column="Name" original="Asset Transfer Entry">Asset Transfer Entry</value>
-  <value column="Description" original="Used to review Assets Transfered Entry ">Used to review Assets Transfered Entry </value>
+ <row id="53143" trl="Y">
+  <value column="Name" original="Asset Transfer Entry">Entrada Transferencia Activo</value>
+  <value column="Description" original="Used to review Assets Transfered Entry ">Usado para revisar Entrada Transferencia Activo</value>
  </row>
  <row id="53144" trl="Y">
   <value column="Name" original="Asset Split">División Activo</value>
@@ -2390,17 +2390,17 @@
   <value column="Name" original="Split Asset Entry">Entrada División Activo</value>
   <value column="Description" original="Create Split Asset Entries">Crear Entrada División Activo</value>
  </row>
- <row id="53148" trl="N">
-  <value column="Name" original="Asset Split Entry">Asset Split Entry</value>
-  <value column="Description" original="Used to review Assets Split Entry ">Used to review Assets Split Entry </value>
+ <row id="53148" trl="Y">
+  <value column="Name" original="Asset Split Entry">División Entrada Activo</value>
+  <value column="Description" original="Used to review Assets Split Entry ">Usada para revisar División Entrada Activo</value>
  </row>
- <row id="53149" trl="N">
-  <value column="Name" original="Depreciation Processing">Depreciation Processing</value>
-  <value column="Description" original="Applications to Process Fixed Assets to the GL">Applications to Process Fixed Assets to the GL</value>
+ <row id="53149" trl="Y">
+  <value column="Name" original="Depreciation Processing">Procesamiento Depreciación</value>
+  <value column="Description" original="Applications to Process Fixed Assets to the GL">Aplicación para procesar activos fijos a la contabilidad</value>
  </row>
- <row id="53150" trl="N">
-  <value column="Name" original="Depreciation Expense Entry">Depreciation Expense Entry</value>
-  <value column="Description" original="Used to review Depreciation Expense Entry not yet booked">Used to review Depreciation Expense Entry not yet booked</value>
+ <row id="53150" trl="Y">
+  <value column="Name" original="Depreciation Expense Entry">Entrada Gasto Depreciación</value>
+  <value column="Description" original="Used to review Depreciation Expense Entry not yet booked">Usada para revisar Entrada Gasto Depreciación no asignada</value>
  </row>
  <row id="53151" trl="Y">
   <value column="Name" original="Build Depreciation Workfile">Construir Archivo Depreciación</value>
@@ -2410,69 +2410,69 @@
   <value column="Name" original="Post Depreciation Entry">Entrada Post Depreciación</value>
   <value column="Description" original="Create Depreciation Entry">Crear Entrada Post Depreciación</value>
  </row>
- <row id="53153" trl="N">
-  <value column="Name" original="Asset Depreciation Forecast">Asset Depreciation Forecast</value>
-  <value column="Description" original="Used to review Assets Forecast">Used to review Assets Forecast</value>
+ <row id="53153" trl="Y">
+  <value column="Name" original="Asset Depreciation Forecast">Pronóstico Depreciación Activo</value>
+  <value column="Description" original="Used to review Assets Forecast">Usado para revisar Pronósticos de Depreciación Activo</value>
  </row>
  <row id="53154" trl="Y">
   <value column="Name" original="Build Depreciation Forecast">Construir Pronóstico Depreciación</value>
   <value column="Description" original=""/>
  </row>
- <row id="53155" trl="N">
-  <value column="Name" original="Reporting">Reporting</value>
-  <value column="Description" original="Reporting for fixed assets">Reporting for fixed assets</value>
+ <row id="53155" trl="Y">
+  <value column="Name" original="Reporting">Reportando</value>
+  <value column="Description" original="Reporting for fixed assets">Reportes para activos fijos</value>
  </row>
- <row id="53156" trl="N">
-  <value column="Name" original="RV_Asset_Parent_Report">RV_Asset_Parent_Report</value>
+ <row id="53156" trl="Y">
+  <value column="Name" original="RV_Asset_Parent_Report">Reporte Padre Activo</value>
   <value column="Description" original=""/>
  </row>
- <row id="53157" trl="N">
-  <value column="Name" original="RV_Depreciation_Table">RV_Depreciation_Table</value>
+ <row id="53157" trl="Y">
+  <value column="Name" original="RV_Depreciation_Table">Tabla Depreciación</value>
   <value column="Description" original=""/>
  </row>
- <row id="53158" trl="N">
-  <value column="Name" original="Spread Report">Spread Report</value>
+ <row id="53158" trl="Y">
+  <value column="Name" original="Spread Report">Reporte Propagación</value>
   <value column="Description" original=""/>
  </row>
- <row id="53159" trl="N">
-  <value column="Name" original="RV_Asset_Depreciation_Method">RV_Asset_Depreciation_Method</value>
-  <value column="Description" original="List Depreciation Methods">List Depreciation Methods</value>
+ <row id="53159" trl="Y">
+  <value column="Name" original="RV_Asset_Depreciation_Method">Método Deprecicación Activo</value>
+  <value column="Description" original="List Depreciation Methods">Lista Métodos de Depreciación Activos</value>
  </row>
- <row id="53160" trl="N">
-  <value column="Name" original="RV_Asset_Convention_Rpt">RV_Asset_Convention_Rpt</value>
-  <value column="Description" original="Asset Convention Report">Asset Convention Report</value>
+ <row id="53160" trl="Y">
+  <value column="Name" original="RV_Asset_Convention_Rpt">Reporte Convención Activo</value>
+  <value column="Description" original="Asset Convention Report">Reporte Convención Activo</value>
  </row>
- <row id="53161" trl="N">
-  <value column="Name" original="RV_Depreciation_Calculation_Methods">RV_Depreciation_Calculation_Methods</value>
-  <value column="Description" original="List Depreciation Calculation Methods Available">List Depreciation Calculation Methods Available</value>
+ <row id="53161" trl="Y">
+  <value column="Name" original="RV_Depreciation_Calculation_Methods">Métodos Cálculo Depreciación</value>
+  <value column="Description" original="List Depreciation Calculation Methods Available">Lista los Métodos de Cálculo de Depreciación disponibles</value>
  </row>
- <row id="53162" trl="N">
-  <value column="Name" original="RV_Asset_Group_Defaults">RV_Asset_Group_Defaults</value>
-  <value column="Description" original="Lists Asset Group Settings &amp; Defaults"><![CDATA[Lists Asset Group Settings & Defaults]]></value>
+ <row id="53162" trl="Y">
+  <value column="Name" original="RV_Asset_Group_Defaults">Valores por Defecto Grupo Activos</value>
+  <value column="Description" original="Lists Asset Group Settings &amp; Defaults">Lista la configuración de grupos de activos y valores por defecto</value>
  </row>
- <row id="53163" trl="N">
-  <value column="Name" original="Setup and Maintain">Setup and Maintain</value>
-  <value column="Description" original="Setup and maintain assets">Setup and maintain assets</value>
+ <row id="53163" trl="Y">
+  <value column="Name" original="Setup and Maintain">Configuración y Mantenimiento</value>
+  <value column="Description" original="Setup and maintain assets">Configurar y Mantener activos</value>
  </row>
- <row id="53164" trl="N">
-  <value column="Name" original="Fixed Assets Setup">Fixed Assets Setup</value>
-  <value column="Description" original="Setup and Maintain Fixed Assets">Setup and Maintain Fixed Assets</value>
+ <row id="53164" trl="Y">
+  <value column="Name" original="Fixed Assets Setup">Configuración Activos Fijos</value>
+  <value column="Description" original="Setup and Maintain Fixed Assets">Configurar y Mantener activos fijos</value>
  </row>
- <row id="53165" trl="N">
-  <value column="Name" original="Inbound Charges for GL">Inbound Charges for GL</value>
-  <value column="Description" original="Process invoice charges from GL">Process invoice charges from GL</value>
+ <row id="53165" trl="Y">
+  <value column="Name" original="Inbound Charges for GL">Cargos internos para contabilidad</value>
+  <value column="Description" original="Process invoice charges from GL">Procesa cargos internos para contabilidad</value>
  </row>
  <row id="53166" trl="Y">
   <value column="Name" original="Inbound Asset Entry">Entrada Activo Interior</value>
   <value column="Description" original="Create Inbound Asset Entry">Crear Entrada Activo Interior</value>
  </row>
- <row id="53167" trl="N">
-  <value column="Name" original="Inbound Charge Entry Report">Inbound Charge Entry Report</value>
-  <value column="Description" original="Used to review Assets Inbound Entry ">Used to review Assets Inbound Entry </value>
+ <row id="53167" trl="Y">
+  <value column="Name" original="Inbound Charge Entry Report">Reporte Entrada Cargos Internos</value>
+  <value column="Description" original="Used to review Assets Inbound Entry ">Usado para revisar Entrada Cargos Internos</value>
  </row>
- <row id="53168" trl="N">
-  <value column="Name" original="Inbound Charges for AP">Inbound Charges for AP</value>
-  <value column="Description" original="Process invoice charges from AP">Process invoice charges from AP</value>
+ <row id="53168" trl="Y">
+  <value column="Name" original="Inbound Charges for AP">Cargos Internos para AP</value>
+  <value column="Description" original="Process invoice charges from AP">Procesa cargos internos para AP</value>
  </row>
  <row id="53169" trl="Y">
   <value column="Name" original="Import File Loader">Cargador de Archivos</value>
@@ -2482,9 +2482,9 @@
   <value column="Name" original="Post Imported Assets">Importa Activos</value>
   <value column="Description" original="Import Fixed Assets">Importa Activos Fijos</value>
  </row>
- <row id="53171" trl="N">
-  <value column="Name" original="Depreciation Setup">Depreciation Setup</value>
-  <value column="Description" original="Applications to setup and maintain depreciation">Applications to setup and maintain depreciation</value>
+ <row id="53171" trl="Y">
+  <value column="Name" original="Depreciation Setup">Configuración Depreciación</value>
+  <value column="Description" original="Applications to setup and maintain depreciation">aplicación para configurar y mantener depreciaciones</value>
  </row>
  <row id="53172" trl="Y">
   <value column="Name" original="Depreciation Period Spread Type">Tipo Propagación Período Depreciación</value>
@@ -2506,29 +2506,29 @@
   <value column="Name" original="Depreciation Calculation Method">Método Cálculo Depreciación</value>
   <value column="Description" original="Define Calculation Methods used in depreciation expense calculation">Define Métodos de Cálculo usados en los cálculos de gastos de depreciación</value>
  </row>
- <row id="53180" trl="N">
-  <value column="Name" original="Forecast Management">Forecast Management</value>
+ <row id="53180" trl="Y">
+  <value column="Name" original="Forecast Management">Administración de Pronóstico</value>
   <value column="Description" original=""/>
  </row>
- <row id="53181" trl="N">
-  <value column="Name" original="Forecast Report by Period">Forecast Report by Period</value>
-  <value column="Description" original="Forecast Report by Period">Forecast Report by Period</value>
+ <row id="53181" trl="Y">
+  <value column="Name" original="Forecast Report by Period">Reporte Pronóstico por Período</value>
+  <value column="Description" original="Forecast Report by Period">Reporte Pronóstico por Período</value>
  </row>
- <row id="53182" trl="N">
-  <value column="Name" original="Calculate Forecast">Calculate Forecast</value>
-  <value column="Description" original="Calculate Forecast">Calculate Forecast</value>
+ <row id="53182" trl="Y">
+  <value column="Name" original="Calculate Forecast">Calcular Pronóstico</value>
+  <value column="Description" original="Calculate Forecast">Calcular Pronóstico</value>
  </row>
- <row id="53183" trl="N">
-  <value column="Name" original="Forecast Report">Forecast Report</value>
-  <value column="Description" original="Forecast Report">Forecast Report</value>
+ <row id="53183" trl="Y">
+  <value column="Name" original="Forecast Report">Reporte Pronóstico</value>
+  <value column="Description" original="Forecast Report">Reporte Pronóstico</value>
  </row>
- <row id="53184" trl="N">
-  <value column="Name" original="Distribution Run Orders">Distribution Run Orders</value>
-  <value column="Description" original="Create Distribution Run Orders based on Distribution List or The Quantity Demand the Distribution Order and redistribute the quantity into Distribution Plan line items">Create Distribution Run Orders based on Distribution List and redistribute the quantity into Distribution Plan line items</value>
+ <row id="53184" trl="Y">
+  <value column="Name" original="Distribution Run Orders">Ordenes de Distribución de Ejecución</value>
+  <value column="Description" original="Create Distribution Run Orders based on Distribution List or The Quantity Demand the Distribution Order and redistribute the quantity into Distribution Plan line items">Crea órdenes de distribución de ejecución basadas en las listas de distribución y redistribuye la cantidad en las líneas de plan de distribución</value>
  </row>
- <row id="53185" trl="N">
-  <value column="Name" original="Distribution Order Detail">Distribution Order Detail</value>
-  <value column="Description" original="Distribution Order Detail Report">Distribution Order Detail Report</value>
+ <row id="53185" trl="Y">
+  <value column="Name" original="Distribution Order Detail">Detalle Orden Distribución</value>
+  <value column="Description" original="Distribution Order Detail Report">Reporte Detalle Orden Distribución</value>
  </row>
  <row id="53187" trl="Y">
   <value column="Name" original="Immediate Bank Transfer">Transferencia Bancaria Inmediata</value>
@@ -2554,21 +2554,21 @@
   <value column="Name" original="HouseKeeping">Recorte de Información</value>
   <value column="Description" original=""/>
  </row>
- <row id="53193" trl="N">
-  <value column="Name" original="Enable Native Sequence">Enable Native Sequence</value>
-  <value column="Description" original="Enable Native Sequence">Enable Native Sequence</value>
+ <row id="53193" trl="Y">
+  <value column="Name" original="Enable Native Sequence">Habilitar Secuencias Nativas</value>
+  <value column="Description" original="Enable Native Sequence">Habilitar Secuencias Nativas</value>
  </row>
  <row id="53196" trl="Y">
   <value column="Name" original="Web POS Terminal">Terminal PDV Web</value>
   <value column="Description" original=""/>
  </row>
- <row id="53198" trl="N">
-  <value column="Name" original="Cost BOM Multi Level Review">Cost Cost BOM Multi Level Review</value>
-  <value column="Description" original="This report show every cost element to a Multi Level BOM or Formula ">This report show every cost element to a Multi Level BOM or Formula </value>
+ <row id="53198" trl="Y">
+  <value column="Name" original="Cost BOM Multi Level Review">Revisión Costos LDM Multi Nivel</value>
+  <value column="Description" original="This report show every cost element to a Multi Level BOM or Formula ">Este reporte muestra cada elemento de costo de una LDM Multi Nivel o Fórmula</value>
  </row>
- <row id="53199" trl="N">
-  <value column="Name" original="Frozen/UnFrozen Cost">Frozen/UnFrozen Cost</value>
-  <value column="Description" original="Frozen or UnFrozen Cost">Frozen or UnFrozen Cost</value>
+ <row id="53199" trl="Y">
+  <value column="Name" original="Frozen/UnFrozen Cost">Costo Congelado/Descongelado</value>
+  <value column="Description" original="Frozen or UnFrozen Cost">Costo Congelado o Descongelado</value>
  </row>
  <row id="53202" trl="Y">
   <value column="Name" original="Initial Client Setup Process">Configuración Inicial de Cliente</value>
@@ -2598,9 +2598,9 @@
   <value column="Name" original="Recalculate Cube">Recalcular Cubo</value>
   <value column="Description" original="Recalculate summary facts based on report cube definitions.">Recalcula el cubo basado en la definición de cubos.</value>
  </row>
- <row id="53223" trl="N">
-  <value column="Name" original="Order Transactions">Order Transactions</value>
-  <value column="Description" original="Sales Order Transaction Report">Sales Order Transaction Report</value>
+ <row id="53223" trl="Y">
+  <value column="Name" original="Order Transactions">Transacciones de Orden</value>
+  <value column="Description" original="Sales Order Transaction Report">Reporte de transacciones de orden de venta</value>
  </row>
  <row id="53224" trl="Y">
   <value column="Name" original="MRP Notice (all)">Avisos MRP (Todos)</value>
@@ -2634,7 +2634,7 @@
   <value column="Name" original="My Profile">Mi Perfil</value>
   <value column="Description" original="My user information">Mi información de usuario</value>
  </row>
- <row id="53247" trl="N">
+ <row id="53247" trl="Y">
   <value column="Name" original="EDI">EDI</value>
   <value column="Description" original=""/>
  </row>

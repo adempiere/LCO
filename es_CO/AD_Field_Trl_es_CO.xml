@@ -98,8 +98,8 @@ Email de la persona responsable del sistema (Registrado en la tienda Web)</value
   <value column="Description" original="Search key for the record in the format required">Código del registro en el formato requerido.</value>
   <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">7 bit minúscula alfa numérico - máx longitud 8 - puede ser usado para los nombres del sistema operativo.</value>
  </row>
- <row id="50066" trl="N">
-  <value column="Name" original="AD_Package_Exp_ID">AD_Package_Exp_ID</value>
+ <row id="50066" trl="Y">
+  <value column="Name" original="AD_Package_Exp_ID">Paquete Exportado</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -163,8 +163,8 @@ Email de la persona responsable del sistema (Registrado en la tienda Web)</value
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="50086" trl="N">
-  <value column="Name" original="AD_Package_Exp_Detail_ID">AD_Package_Exp_Detail_ID</value>
+ <row id="50086" trl="Y">
+  <value column="Name" original="AD_Package_Exp_Detail_ID">Detalle Paquete Exportado</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
@@ -248,268 +248,250 @@ Email de la persona responsable del sistema (Registrado en la tienda Web)</value
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="53360" trl="N">
-  <value column="Name" original="Value">Value</value>
-  <value column="Description" original="Condition Value">Condition Value</value>
+ <row id="53360" trl="Y">
+  <value column="Name" original="Value">Valor</value>
+  <value column="Description" original="Condition Value">Valor Condición</value>
   <value column="Help" original=""/>
  </row>
- <row id="53375" trl="N">
-  <value column="Name" original="Resource">Resource</value>
-  <value column="Description" original="Resource">Resource</value>
-  <value column="Help" original="Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing.">Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing.</value>
+ <row id="53375" trl="Y">
+  <value column="Name" original="Resource">Recurso</value>
+  <value column="Description" original="Resource">Recurso</value>
+  <value column="Help" original="Select the manufacturing resource (previously defined) where you want to execute the operation. For the product costing, the Resource rate is taken from the cost element introduced in the window Product Costing.">Seleccione el recurso de manufactura (definido previamente) donde quiera ejecutar la operación. Para el costo de producto, la tasa recurso es tomada desde el elemento de costo introducido en la ventana Costeo Producto.</value>
  </row>
- <row id="53378" trl="N">
-  <value column="Name" original="Business Partner ">Business Partner </value>
-  <value column="Description" original="Identifies a Business Partner to Subcontrating">Identifies a Business Partner to Subcontrating</value>
-  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson</value>
+ <row id="53378" trl="Y">
+  <value column="Name" original="Business Partner ">Tercero</value>
+  <value column="Description" original="Identifies a Business Partner to Subcontrating">Identifica un Tercero para subcontratar</value>
+  <value column="Help" original="A Business Partner is anyone with whom you transact.  This can include Vendor, Customer, Employee or Salesperson">Un Tercero es alguien con el que hace transacciones. Esto puede incluir proveedores, clientes, empleados o vendedores</value>
  </row>
- <row id="53380" trl="N">
-  <value column="Name" original="Valid from">Valid from</value>
-  <value column="Description" original="Valid from including this date (first day)">Valid from including this date (first day)</value>
-  <value column="Help" original="The Valid From date indicates the first day of a date range.&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">The Valid From date indicates the first day of a date range.
-
-When you enter dates in the fields Valid From To we give the the period of time where this operation will have to be considered for the elaboration of the product.</value>
+ <row id="53380" trl="Y">
+  <value column="Name" original="Valid from">Válido Desde</value>
+  <value column="Description" original="Valid from including this date (first day)">Válido desde; incluyendo esta fecha (primer día)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range">La fecha válida desde indica el primer día de un rango de fechas</value>
  </row>
- <row id="53381" trl="N">
-  <value column="Name" original="Valid to">Valid to</value>
-  <value column="Description" original="Valid to including this date (last day)">Valid to including this date (last day)</value>
-  <value column="Help" original="The Valid To date indicates the last day of a date range&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">The Valid To date indicates the last day of a date range
-
-When you enter dates in the fields Valid From  To we give the the period of time where this operation will have to be considered for the elaboration of the product.</value>
+ <row id="53381" trl="Y">
+  <value column="Name" original="Valid to">Válido Hasta</value>
+  <value column="Description" original="Valid to including this date (last day)">Válido hasta; incluyendo esta fecha (ultimo día)</value>
+  <value column="Help" original="The Valid To date indicates the last day of a date range">La fecha válida hasta indica el último día de un rango de fechas</value>
  </row>
- <row id="53449" trl="N">
-  <value column="Name" original="Start Node">Start Node</value>
-  <value column="Description" original="Workflow Node step or process">Workflow Node step or process</value>
-  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">The Workflow Node indicates a unique step or process in a Workflow.</value>
+ <row id="53449" trl="Y">
+  <value column="Name" original="Start Node">Nodo Inicial</value>
+  <value column="Description" original="Workflow Node step or process">Paso o proceso Nodo Flujo de Trabajo</value>
+  <value column="Help" original="The Workflow Node indicates a unique step or process in a Workflow.">El Nodo de Flujo de Trabajo indica un paso o proceso único en un flujo de trabajo.</value>
  </row>
- <row id="53480" trl="N">
-  <value column="Name" original="Copy BOM Lines From">PP_Product_BOM CopyFrom</value>
-  <value column="Description" original="Copy BOM Lines from an exising BOM"/>
+ <row id="53480" trl="Y">
+  <value column="Name" original="Copy BOM Lines From">Copiar Líneas LDM Desde</value>
+  <value column="Description" original="Copy BOM Lines from an exising BOM">Copia Líneas de LDM desde una LDM existente</value>
   <value column="Help" original="Copy BOM Lines from an exising BOM. The BOM being copied to, must not have any existing BOM Lines."/>
  </row>
- <row id="53490" trl="N">
-  <value column="Name" original="Valid from">Valid from</value>
-  <value column="Description" original="Valid from including this date (first day)">Valid from including this date (first day)</value>
-  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">The Valid From date indicates the first day of a date range
-
-The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.</value>
+ <row id="53490" trl="Y">
+  <value column="Name" original="Valid from">Válido Desde</value>
+  <value column="Description" original="Valid from including this date (first day)">Válido desde; incluyendo esta fecha (primer día)</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range">La fecha válida desde indica el primer día de un rango de fechas</value>
  </row>
- <row id="53512" trl="N">
-  <value column="Name" original="Warehouse">Warehouse</value>
-  <value column="Description" original="Storage Warehouse and Service Point">Storage Warehouse and Service Point</value>
-  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.&#10;&#10;Warehouse place where you locate and control the products">The Warehouse identifies a unique Warehouse where products are stored or Services are provided.
-
-Warehouse place where you locate and control the products</value>
+ <row id="53512" trl="Y">
+  <value column="Name" original="Warehouse">Almacén</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Almacén y Punto de Servicio</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.&#10;&#10;Warehouse place where you locate and control the products">El Almacén identifica un punto único donde los productos son almacenados o los servicios se proveen.</value>
  </row>
- <row id="53513" trl="N">
-  <value column="Name" original="Resource">Resource</value>
-  <value column="Description" original="Resource">Resource</value>
-  <value column="Help" original="A manufacturing resource is a place where a product will be made.">A manufacturing resource is a place where a product will be made.</value>
+ <row id="53513" trl="Y">
+  <value column="Name" original="Resource">Recurso</value>
+  <value column="Description" original="Resource">Recurso</value>
+  <value column="Help" original="A manufacturing resource is a place where a product will be made.">Un recurso de manufactura es un lugar donde un producto se fabrica.</value>
  </row>
- <row id="53517" trl="N">
-  <value column="Name" original="BOM &amp; Formula"><![CDATA[BOM & Formula]]></value>
+ <row id="53517" trl="Y">
+  <value column="Name" original="BOM &amp; Formula"><![CDATA[LDM & Fórmula]]></value>
   <value column="Description" original=""/>
   <value column="Help" original="The name BOM/Formula that you introduce in this window will be considered the default BOM to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the default BOM &amp; Formula for the entity will be the BOM/Formula which has the same name as the product."><![CDATA[The name BOM/Formula that you introduce in this window will be considered the default BOM to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the default BOM & Formula for the entity will be the BOM/Formula which has the same name as the product.]]></value>
  </row>
- <row id="53518" trl="N">
-  <value column="Name" original="Workflow">Workflow</value>
-  <value column="Description" original="Workflow or combination of tasks">Workflow or combination of tasks</value>
-  <value column="Help" original="The Workflow field identifies a unique Workflow in the system.&#10;&#10;The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.">The Workflow field identifies a unique Workflow in the system.
+ <row id="53518" trl="Y">
+  <value column="Name" original="Workflow">Flujo de Trabajo</value>
+  <value column="Description" original="Workflow or combination of tasks">Flujo de trabajo o combinación de tareas</value>
+  <value column="Help" original="The Workflow field identifies a unique Workflow in the system.&#10;&#10;The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.">El campo flujo de trabajo identifica un flujo de trabajo único en el sistema.</value>
+ </row>
+ <row id="53523" trl="Y">
+  <value column="Name" original="Promised Delivery Time">Tiempo de Entrega Prometido</value>
+  <value column="Description" original="Promised days between order and delivery">Días prometidos entre la orden y la entrega</value>
+  <value column="Help" original="The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.">El tiempo de entrega prometido indica el número de días transcurridos entre la fecha de la orden y la fecha en que la entrega fue prometida.</value>
+ </row>
+ <row id="53533" trl="Y">
+  <value column="Name" original="Working Time">Tiempo Acumulado</value>
+  <value column="Description" original="Workflow Simulation Execution Time">Simulación de la ejecución del tiempo acumulado en el flujo de trabajo.</value>
+  <value column="Help" original="Amount of time the performer of the activity needs to perform the task in Duration Unit">Cantidad de tiempo de duración que necesita una unidad despues de ser ejecutada.</value>
+ </row>
+ <row id="53653" trl="Y">
+  <value column="Name" original="Acknowledge">Acuse Recibo</value>
+  <value column="Description" original="System Notice acknowledged">Acuse Recibo Sistema</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">La bandera Acuse Recibo indica si este aviso no necesita ser retenido.</value>
+ </row>
+ <row id="53742" trl="Y">
+  <value column="Name" original="Accumulated Qty">Cantidad Acumulada</value>
+  <value column="Description" original="Total Quantity">Cantidad Total</value>
+  <value column="Help" original="Sum of the quantities&#10;&#10;This field shows the sum of the quantities of the product that have had movements.">Suma de las cantidades
 
-The Workflow you introduce in this window will be considered the default Workflow to produce the product in this Organization-Plant-Warehouse. If you do not fill this field the defaul Workflow for the entity will be the Workflow with the same name as the product.</value>
+Este campo muestra la suma de las cantidades del producto que ha tenido movimientos.</value>
  </row>
- <row id="53523" trl="N">
-  <value column="Name" original="Promised Delivery Time">Promised Delivery Time</value>
-  <value column="Description" original="Promised days between order and delivery">Promised days between order and delivery</value>
-  <value column="Help" original="The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.&#10;&#10;You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse.">The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.
+ <row id="53744" trl="Y">
+  <value column="Name" original="Accumulated Amt">Monto Acumulado</value>
+  <value column="Description" original="Total Amount">Monto Total</value>
+  <value column="Help" original="Sum of all amounts&#10;&#10;This field shows the sum of the amounts of the product that have had movements.">Suma de todos los montos
 
-You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse.</value>
+Este campo muestra la suma de los montos del producto que ha tenido movimientos.</value>
  </row>
- <row id="53533" trl="N">
-  <value column="Name" original="Working Time">Working Time</value>
-  <value column="Description" original="Workflow Simulation Execution Time">Workflow Simulation Execution Time</value>
-  <value column="Help" original="Amount of time the performer of the activity needs to perform the task in Duration Unit&#10;&#10;In the field Working Time you enter the accumulated time (using the Promising Delivery Time) in the critical path of the BOM for this product. It is the required time to produce the product as if you would not have any component on hand.">Amount of time the performer of the activity needs to perform the task in Duration Unit
-
-In the field Working Time you enter the accumulated time (using the Promising Delivery Time) in the critical path of the BOM for this product. It is the required time to produce the product as if you would not have any component on hand.</value>
- </row>
- <row id="53653" trl="N">
-  <value column="Name" original="Acknowledge">Acknowledge</value>
-  <value column="Description" original="System Notice acknowledged">System Notice acknowledged</value>
-  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">The Acknowledged checkbox indicates if this notice does not need to be retained.</value>
- </row>
- <row id="53742" trl="N">
-  <value column="Name" original="Accumulated Qty">Accumulated Qty</value>
-  <value column="Description" original="Total Quantity">Total Quantity</value>
-  <value column="Help" original="Sum of the quantities&#10;&#10;This field shows the sum of the quantities of the product that have had movements.">Sum of the quantities
-
-This field shows the sum of the quantities of the product that have had movements.</value>
- </row>
- <row id="53744" trl="N">
-  <value column="Name" original="Accumulated Amt">Accumulated Amt</value>
-  <value column="Description" original="Total Amount">Total Amount</value>
-  <value column="Help" original="Sum of all amounts&#10;&#10;This field shows the sum of the amounts of the product that have had movements.">Sum of all amounts
-
-This field shows the sum of the amounts of the product that have had movements.</value>
- </row>
- <row id="53904" trl="N">
-  <value column="Name" original="Version No">Version No</value>
+ <row id="53904" trl="Y">
+  <value column="Name" original="Version No">No. Version</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="54035" trl="N">
+ <row id="54035" trl="Y">
   <value column="Name" original="Ordered Quantity">Cantidad Ordenada</value>
-  <value column="Description" original="Ordered Quantity">Cantidad ordenada</value>
+  <value column="Description" original="Ordered Quantity">Cantidad Ordenada</value>
   <value column="Help" original="The Ordered Quantity indicates the quantity of a product that was ordered.">La Cantidad Ordenada indica la cantidad de un producto que fue ordenada</value>
  </row>
- <row id="54038" trl="N">
-  <value column="Name" original="Instance">Instance</value>
-  <value column="Description" original="Product Attribute Set Instance">Product Attribute Set Instance</value>
-  <value column="Help" original="The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.">The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.</value>
+ <row id="54038" trl="Y">
+  <value column="Name" original="Instance">Instancia</value>
+  <value column="Description" original="Product Attribute Set Instance">Instancia de conjunto de atributos del producto</value>
+  <value column="Help" original="The values of the actual Product Attribute Instances.  The product level attributes are defined on Product level.">Valor actual de Instancia del conjunto de atributos del producto</value>
  </row>
- <row id="54039" trl="N">
-  <value column="Name" original="Instance To">Instance To</value>
-  <value column="Description" original="Target Product Attribute Set Instance">Target Product Attribute Set Instance</value>
+ <row id="54039" trl="Y">
+  <value column="Name" original="Instance To">Instancia Destino</value>
+  <value column="Description" original="Target Product Attribute Set Instance">Instancia de conjunto de atributos del producto destino</value>
   <value column="Help" original=""/>
  </row>
- <row id="54133" trl="N">
-  <value column="Name" original="Resource/Plant">Resource/Plant</value>
-  <value column="Description" original="Resource/Plant">Resource/Plant</value>
+ <row id="54133" trl="Y">
+  <value column="Name" original="Resource/Plant">Recurso/Planta</value>
+  <value column="Description" original="Resource/Plant">Recurso/Planta</value>
   <value column="Help" original=""/>
  </row>
- <row id="54139" trl="N">
-  <value column="Name" original="Date Ordered">Date Ordered</value>
-  <value column="Description" original="Date of Order">Date of Order</value>
-  <value column="Help" original="Indicates the Date an item was ordered.&#10;Date Ordered is the date when the order was generated. If the MO is created manually the default date ordered is the system date. If the MO was generated by MRP the default date ordered is the day of the MRP process.">Indicates the Date an item was ordered.
+ <row id="54139" trl="Y">
+  <value column="Name" original="Date Ordered">Fecha de la Orden</value>
+  <value column="Description" original="Date of Order">Fecha de la orden</value>
+  <value column="Help" original="Indicates the Date an item was ordered.">Indica la fecha en que un artículo fue ordenada</value>
+ </row>
+ <row id="54140" trl="Y">
+  <value column="Name" original="Date Promised">Fecha Prometida</value>
+  <value column="Description" original="Date Order was promised">Fecha de promesa de la orden.</value>
+  <value column="Help" original="The Date Promised indicates the date, if any, that an Order was promised for.">La fecha prometida indica la fecha; si hay alguna; en que la orden fue prometida al cliente.</value>
+ </row>
+ <row id="54145" trl="Y">
+  <value column="Name" original="Date Start">Fecha Inicio</value>
+  <value column="Description" original="Indicate the real date to start">Indica la fecha real de inicio</value>
+  <value column="Help" original="It is the date when the first manufacturing order movement is reported, this movement can be an inventory or labor movement.">Es la fecha cuando el primer movimiento de la orden de manufactura fue reportado, este movimiento puede ser un inventario o movimiento de labor.</value>
+ </row>
+ <row id="54146" trl="Y">
+  <value column="Name" original="Finish Date">Fecha Final</value>
+  <value column="Description" original="Finish or (planned) completion date">Fecha final (o planeada)</value>
+  <value column="Help" original="The finish date is used to indicate when the project is expected to be completed or has been completed.&#10;&#10;To Manufacturing Order is the date when the last manufacturing order movement is reported, It is the closing order date.">La fecha de finalización es usada para indicar cuando se espera que el proyecto sea completado.
 
-Date Ordered  is the date when the order was generated. If the MO is created manually the default date ordered is the system date. If the MO was generated by MRP the default date ordered is the day of the MRP process.</value>
+Para una Orden de Manufactura es la fecha cuand el último movimiento de orden de manufactura es reportado, es la fecha de cierre de la orden.</value>
  </row>
- <row id="54140" trl="N">
-  <value column="Name" original="Date Promised">Date Promised</value>
-  <value column="Description" original="Date Order was promised">Date Order was promised</value>
-  <value column="Help" original="The Date Promised indicates the date, if any, that an Order was promised for.&#10;Date Promised Is the date we commit to give the order to the warehouse. If the MO is created manually the default date promised is the system date. If the MO was generated by MRP this date is filled automatically using its algorithm calculation.">The Date Promised indicates the date, if any, that an Order was promised for.
-
-Date Promised  Is the date we commit to give the order to the warehouse. If the MO is created manually the default date promised is the system date. If the MO was generated by MRP this date is filled automatically using its algorithm calculation.</value>
+ <row id="54196" trl="Y">
+  <value column="Name" original="Company Agent">Representante Compañía</value>
+  <value column="Description" original="Company Agent">Representante Compañía</value>
+  <value column="Help" original="Company Agent to Distribution Order">Representante Compañía para la orden de distribución</value>
  </row>
- <row id="54145" trl="N">
-  <value column="Name" original="Date Start">Date Start</value>
-  <value column="Description" original="Indicate the real date to start">Indicate the real date to start</value>
-  <value column="Help" original="It is the date when the first manufacturing order movement is reported, this movement can be an inventory or labor movement.">It is the date when the first manufacturing order movement is reported, this movement can be an inventory or labor movement.</value>
+ <row id="54205" trl="Y">
+  <value column="Name" original="Transit Warehouse">Almacén Tránsito</value>
+  <value column="Description" original="Storage Warehouse and Service Point">Almacén y Punto de Servicio</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">El Almacén identifica un punto único donde los productos son almacenados o los servicios se proveen.</value>
  </row>
- <row id="54146" trl="N">
-  <value column="Name" original="Finish Date">Finish Date</value>
-  <value column="Description" original="Finish or (planned) completion date">Finish or (planned) completion date</value>
-  <value column="Help" original="The finish date is used to indicate when the project is expected to be completed or has been completed.&#10;&#10;To Manufacturing Order is the date when the last manufacturing order movement is reported, It is the closing order date.">The finish date is used to indicate when the project is expected to be completed or has been completed.
-
-To Manufacturing Order is the date when the last manufacturing order movement is reported, It is the closing order date.</value>
+ <row id="54381" trl="Y">
+  <value column="Name" original="Target Warehouse">Almacén Destino</value>
+  <value column="Description" original="Target Warehouse and Service Point">Almacén Destino y Punto de Servicio</value>
+  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">El Almacén identifica un punto único donde los productos son almacenados o los servicios se proveen.</value>
  </row>
- <row id="54196" trl="N">
-  <value column="Name" original="Company Agent">Company Agent</value>
-  <value column="Description" original="Company Agent">Company Agent</value>
-  <value column="Help" original="Company Agent to Distribution Order">Company Agent to Distribution Order</value>
- </row>
- <row id="54205" trl="N">
-  <value column="Name" original="Transit Warehouse">Transit Warehouse</value>
-  <value column="Description" original="Storage Warehouse and Service Point">Storage Warehouse and Service Point</value>
-  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">The Warehouse identifies a unique Warehouse where products are stored or Services are provided.</value>
- </row>
- <row id="54381" trl="N">
-  <value column="Name" original="Target Warehouse">Target Warehouse</value>
-  <value column="Description" original="Target Warehouse and Service Point">Target Warehouse and Service Point</value>
-  <value column="Help" original="The Warehouse identifies a unique Warehouse where products are stored or Services are provided.">The Warehouse identifies a unique Warehouse where products are stored or Services are provided.</value>
- </row>
- <row id="55187" trl="N">
-  <value column="Name" original="Create from a Window">Process Now</value>
+ <row id="55187" trl="Y">
+  <value column="Name" original="Create from a Window">Procesar Ahora</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56190" trl="N">
-  <value column="Name" original="Period 1 %">Period 1 %</value>
+ <row id="56190" trl="Y">
+  <value column="Name" original="Period 1 %">Período 1 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56191" trl="N">
-  <value column="Name" original="Period 2 %">Period 2 %</value>
+ <row id="56191" trl="Y">
+  <value column="Name" original="Period 2 %">Período 2 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56192" trl="N">
-  <value column="Name" original="Period 3 %">Period 3 %</value>
+ <row id="56192" trl="Y">
+  <value column="Name" original="Period 3 %">Período 3 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56193" trl="N">
-  <value column="Name" original="Period 4 %">Period 4 %</value>
+ <row id="56193" trl="Y">
+  <value column="Name" original="Period 4 %">Período 4 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56194" trl="N">
-  <value column="Name" original="Period 5 %">Period 5 %</value>
+ <row id="56194" trl="Y">
+  <value column="Name" original="Period 5 %">Período 5 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56195" trl="N">
-  <value column="Name" original="Period 6 %">Period 6 %</value>
+ <row id="56195" trl="Y">
+  <value column="Name" original="Period 6 %">Período 6 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56196" trl="N">
-  <value column="Name" original="Period 7 %">Period 7 %</value>
+ <row id="56196" trl="Y">
+  <value column="Name" original="Period 7 %">Período 7 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56197" trl="N">
-  <value column="Name" original="Period 8 %">Period 8 %</value>
+ <row id="56197" trl="Y">
+  <value column="Name" original="Period 8 %">Período 8 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56198" trl="N">
-  <value column="Name" original="Period 9 %">Period 9 %</value>
+ <row id="56198" trl="Y">
+  <value column="Name" original="Period 9 %">Período 9 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56199" trl="N">
-  <value column="Name" original="Period 10 %">Period 10 %</value>
+ <row id="56199" trl="Y">
+  <value column="Name" original="Period 10 %">Período 10 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56200" trl="N">
-  <value column="Name" original="Period 11 %">Period 11 %</value>
+ <row id="56200" trl="Y">
+  <value column="Name" original="Period 11 %">Período 11 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56201" trl="N">
-  <value column="Name" original="Period 12 %">Period 12 %</value>
+ <row id="56201" trl="Y">
+  <value column="Name" original="Period 12 %">Período 12 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56202" trl="N">
-  <value column="Name" original="Period 13 %">Period 13 %</value>
+ <row id="56202" trl="Y">
+  <value column="Name" original="Period 13 %">Período 13 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56203" trl="N">
-  <value column="Name" original="Period 14 %">Period 14 %</value>
+ <row id="56203" trl="Y">
+  <value column="Name" original="Period 14 %">Período 14 %</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56207" trl="N">
+ <row id="56207" trl="Y">
   <value column="Name" original="Script">Script</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="56210" trl="N">
-  <value column="Name" original="Name">Name</value>
+ <row id="56210" trl="Y">
+  <value column="Name" original="Name">Nombre</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
  </row>
- <row id="57331" trl="N">
-  <value column="Name" original="Acknowledge">Acknowledge</value>
-  <value column="Description" original="System Notice acknowledged">System Notice acknowledged</value>
-  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">The Acknowledged checkbox indicates if this notice does not need to be retained.</value>
+ <row id="57331" trl="Y">
+  <value column="Name" original="Acknowledge">Acuse de recibo</value>
+  <value column="Description" original="System Notice acknowledged">Aviso del sistema de acuse de recibo</value>
+  <value column="Help" original="The Acknowledged checkbox indicates if this notice does not need to be retained.">La casilla de vericación Acuse de recibo indica si este aviso no necesita ser conservado.</value>
  </row>
- <row id="57987" trl="N">
-  <value column="Name" original="Search Key">Search Key</value>
-  <value column="Description" original="Search key for the record in the format required">Search key for the record in the format required</value>
-  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">7 bit lower case alpha numeric - max length 8 - can be used for operating system names.</value>
+ <row id="57987" trl="Y">
+  <value column="Name" original="Search Key">Código</value>
+  <value column="Description" original="Search key for the record in the format required - must be unique">Código para el registro en el formato requerido; debe ser único</value>
+  <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">alfanumérico de 7 bits en minúsculas - máxima longitud 8 - puede ser usado para nombres de sistemas operativos.</value>
  </row>
 </adempiereTrl>
