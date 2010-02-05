@@ -299,13 +299,13 @@
   <value column="Help" original=""/>
  </row>
  <row id="50057" trl="Y">
-  <value column="Name" original="Print &amp; Release Order"><![CDATA[Imprimir y Liberar Orden]]></value>
-  <value column="Description" original="Print &amp; Release Order"><![CDATA[Imprimir y Liberar Orden]]></value>
+  <value column="Name" original="Print &amp; Release Order">Imprimir y Liberar Orden</value>
+  <value column="Description" original="Print &amp; Release Order">Imprimir y Liberar Orden</value>
   <value column="Help" original=""/>
  </row>
  <row id="50058" trl="Y">
-  <value column="Name" original="Order Receipt &amp; Issue"><![CDATA[Emitir Orden y Recibo]]></value>
-  <value column="Description" original="Order Receipt &amp; Issue"><![CDATA[Emitir Orden y Recibo]]></value>
+  <value column="Name" original="Order Receipt &amp; Issue">Emitir Orden y Recibo</value>
+  <value column="Description" original="Order Receipt &amp; Issue">Emitir Orden y Recibo</value>
   <value column="Help" original=""/>
  </row>
  <row id="50059" trl="Y">

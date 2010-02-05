@@ -1410,7 +1410,7 @@
   <value column="Name" original="Demand Detail">Detalles de la demanda</value>
  </row>
  <row id="722" trl="Y">
-  <value column="Name" original="Forecast Line">Línea de Pronostico</value>
+  <value column="Name" original="Forecast Line">Línea de Pronóstico</value>
  </row>
  <row id="723" trl="Y">
   <value column="Name" original="Demand">Demanda</value>

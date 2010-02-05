@@ -266,12 +266,12 @@ Email de la persona responsable del sistema (Registrado en la tienda Web)</value
  <row id="53380" trl="Y">
   <value column="Name" original="Valid from">Válido Desde</value>
   <value column="Description" original="Valid from including this date (first day)">Válido desde; incluyendo esta fecha (primer día)</value>
-  <value column="Help" original="The Valid From date indicates the first day of a date range">La fecha válida desde indica el primer día de un rango de fechas</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range.&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">La fecha válida desde indica el primer día de un rango de fechas</value>
  </row>
  <row id="53381" trl="Y">
   <value column="Name" original="Valid to">Válido Hasta</value>
   <value column="Description" original="Valid to including this date (last day)">Válido hasta; incluyendo esta fecha (ultimo día)</value>
-  <value column="Help" original="The Valid To date indicates the last day of a date range">La fecha válida hasta indica el último día de un rango de fechas</value>
+  <value column="Help" original="The Valid To date indicates the last day of a date range&#10;When you enter dates in the fields Valid From - To we give the the period of time where this operation will have to be considered for the elaboration of the product.">La fecha válida hasta indica el último día de un rango de fechas</value>
  </row>
  <row id="53449" trl="Y">
   <value column="Name" original="Start Node">Nodo Inicial</value>
@@ -286,7 +286,7 @@ Email de la persona responsable del sistema (Registrado en la tienda Web)</value
  <row id="53490" trl="Y">
   <value column="Name" original="Valid from">Válido Desde</value>
   <value column="Description" original="Valid from including this date (first day)">Válido desde; incluyendo esta fecha (primer día)</value>
-  <value column="Help" original="The Valid From date indicates the first day of a date range">La fecha válida desde indica el primer día de un rango de fechas</value>
+  <value column="Help" original="The Valid From date indicates the first day of a date range&#10;&#10;The Valid From and Valid To dates indicate the valid time period to use the BOM in a Manufacturing Order.">La fecha válida desde indica el primer día de un rango de fechas</value>
  </row>
  <row id="53512" trl="Y">
   <value column="Name" original="Warehouse">Almacén</value>
@@ -311,12 +311,12 @@ Email de la persona responsable del sistema (Registrado en la tienda Web)</value
  <row id="53523" trl="Y">
   <value column="Name" original="Promised Delivery Time">Tiempo de Entrega Prometido</value>
   <value column="Description" original="Promised days between order and delivery">Días prometidos entre la orden y la entrega</value>
-  <value column="Help" original="The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.">El tiempo de entrega prometido indica el número de días transcurridos entre la fecha de la orden y la fecha en que la entrega fue prometida.</value>
+  <value column="Help" original="The Promised Delivery Time indicates the number of days between the order date and the date that delivery was promised.&#10;&#10;You must enter the average number of days to receive the product in the warehouse since you approve the requisition or manufacturing order until you receive the material in the warehouse . If the product is bought you must register the calendar days required since you make the PO until you receive the material in the warehouse. If the product is manufactured in your plant you must register the number of working days since you release the MO until you receive the material in the warehouse.">El tiempo de entrega prometido indica el número de días transcurridos entre la fecha de la orden y la fecha en que la entrega fue prometida.</value>
  </row>
  <row id="53533" trl="Y">
   <value column="Name" original="Working Time">Tiempo Acumulado</value>
   <value column="Description" original="Workflow Simulation Execution Time">Simulación de la ejecución del tiempo acumulado en el flujo de trabajo.</value>
-  <value column="Help" original="Amount of time the performer of the activity needs to perform the task in Duration Unit">Cantidad de tiempo de duración que necesita una unidad despues de ser ejecutada.</value>
+  <value column="Help" original="Amount of time the performer of the activity needs to perform the task in Duration Unit&#10;&#10;In the field Working Time you enter the accumulated time (using the Promising Delivery Time) in the critical path of the BOM for this product. It is the required time to produce the product as if you would not have any component on hand.">Cantidad de tiempo de duración que necesita una unidad despues de ser ejecutada.</value>
  </row>
  <row id="53653" trl="Y">
   <value column="Name" original="Acknowledge">Acuse Recibo</value>
@@ -365,12 +365,12 @@ Este campo muestra la suma de los montos del producto que ha tenido movimientos.
  <row id="54139" trl="Y">
   <value column="Name" original="Date Ordered">Fecha de la Orden</value>
   <value column="Description" original="Date of Order">Fecha de la orden</value>
-  <value column="Help" original="Indicates the Date an item was ordered.">Indica la fecha en que un artículo fue ordenada</value>
+  <value column="Help" original="Indicates the Date an item was ordered.&#10;Date Ordered is the date when the order was generated. If the MO is created manually the default date ordered is the system date. If the MO was generated by MRP the default date ordered is the day of the MRP process.">Indica la fecha en que un artículo fue ordenada</value>
  </row>
  <row id="54140" trl="Y">
   <value column="Name" original="Date Promised">Fecha Prometida</value>
   <value column="Description" original="Date Order was promised">Fecha de promesa de la orden.</value>
-  <value column="Help" original="The Date Promised indicates the date, if any, that an Order was promised for.">La fecha prometida indica la fecha; si hay alguna; en que la orden fue prometida al cliente.</value>
+  <value column="Help" original="The Date Promised indicates the date, if any, that an Order was promised for.&#10;Date Promised Is the date we commit to give the order to the warehouse. If the MO is created manually the default date promised is the system date. If the MO was generated by MRP this date is filled automatically using its algorithm calculation.">La fecha prometida indica la fecha; si hay alguna; en que la orden fue prometida al cliente.</value>
  </row>
  <row id="54145" trl="Y">
   <value column="Name" original="Date Start">Fecha Inicio</value>
@@ -491,7 +491,7 @@ Para una Orden de Manufactura es la fecha cuand el último movimiento de orden d
  </row>
  <row id="57987" trl="Y">
   <value column="Name" original="Search Key">Código</value>
-  <value column="Description" original="Search key for the record in the format required - must be unique">Código para el registro en el formato requerido; debe ser único</value>
+  <value column="Description" original="Search key for the record in the format required">Código para el registro en el formato requerido; debe ser único</value>
   <value column="Help" original="7 bit lower case alpha numeric - max length 8 - can be used for operating system names.">alfanumérico de 7 bits en minúsculas - máxima longitud 8 - puede ser usado para nombres de sistemas operativos.</value>
  </row>
 </adempiereTrl>

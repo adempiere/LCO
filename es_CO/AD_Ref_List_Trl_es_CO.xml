@@ -319,7 +319,7 @@
   <value column="Description" original="Post transaction">Aplica la transacción</value>
  </row>
  <row id="182" trl="Y">
-  <value column="Name" original="Void">Cancelar</value>
+  <value column="Name" original="Void">Anular</value>
   <value column="Description" original="Set all quantities to zero and complete transaction">Pone a cero las cantidades y completa la transacción</value>
  </row>
  <row id="183" trl="Y">
@@ -332,7 +332,7 @@
  </row>
  <row id="185" trl="Y">
   <value column="Name" original="Reverse - Accrual">Reversar - Causación</value>
-  <value column="Description" original="Reverse by switching Dr/Cr with current date">Restaurar a través de intercambiar Débitos y Créditos en la misma fecha</value>
+  <value column="Description" original="Reverse by switching Dr/Cr with current date">Restaurar a través de intercambiar Débitos y Créditos con la fecha actual</value>
  </row>
  <row id="187" trl="Y">
   <value column="Name" original="Invalidate">Invalidar</value>
@@ -340,7 +340,7 @@
  </row>
  <row id="188" trl="Y">
   <value column="Name" original="Re-activate">Reactivar</value>
-  <value column="Description" original="Reopen Document and Reverse automaticly generated documents; You need to Complete the transaction after the change. ">Restaurar documentos/inventario y permite cambios ; usted necesita completar la transacción después del cambio</value>
+  <value column="Description" original="Reopen Document and Reverse automaticly generated documents; You need to Complete the transaction after the change. ">Reabrir el documento y reversar automáticamente los documentos generados, debe Completar la transacción después del cambio</value>
  </row>
  <row id="189" trl="Y">
   <value column="Name" original="&lt;None&gt;"><![CDATA[<Ninguno>]]></value>
