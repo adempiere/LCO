@@ -3276,8 +3276,8 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="582" trl="Y">
-  <value column="Name" original="Amount">Total</value>
-  <value column="PrintName" original="Amt">Total</value>
+  <value column="Name" original="Amount">Monto</value>
+  <value column="PrintName" original="Amt">Monto</value>
   <value column="Description" original=""/>
   <value column="Help" original=""/>
   <value column="PO_Description" original=""/>
@@ -6736,10 +6736,10 @@ El callout es una clase Java que implementa org.compiere.model.Callout y un nomb
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="1367" trl="Y">
-  <value column="Name" original="Amount">Total</value>
-  <value column="PrintName" original="Amt">Total</value>
-  <value column="Description" original="Amount in a defined currency">Total en una moneda definida</value>
-  <value column="Help" original="The Amount indicates the amount for this document line.">Indica el total para esta línea del documento</value>
+  <value column="Name" original="Amount">Monto</value>
+  <value column="PrintName" original="Amt">Monto</value>
+  <value column="Description" original="Amount in a defined currency">Monto en una moneda definida</value>
+  <value column="Help" original="The Amount indicates the amount for this document line.">Indica el monto para esta línea del documento</value>
   <value column="PO_Description" original=""/>
   <value column="PO_Help" original=""/>
   <value column="PO_Name" original=""/>
