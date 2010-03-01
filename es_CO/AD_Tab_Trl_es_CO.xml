@@ -2803,11 +2803,11 @@ Observe por favor que hay tres campos de la organización: La organización del 
  <row id="628" trl="Y">
   <value column="Name" original="Customer RMA">Autorización Devolución Cliente</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Customer Return Material Authorization">Autorización de Devolución de Material</value>
+  <value column="Description" original="Customer Return Material Authorization">Autorización de Devolución Cliente</value>
   <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">Una Autorización de Devolución de Material puede ser requerida para crear notas de crédito.</value>
  </row>
  <row id="629" trl="Y">
-  <value column="Name" original="RMA Line">Línea Autorización Devolución Client</value>
+  <value column="Name" original="RMA Line">Línea Autorización Devolución</value>
   <value column="CommitWarning" original=""/>
   <value column="Description" original="Return Material Authorization Line">Línea Autorización Devolución Client</value>
   <value column="Help" original="Detail information about the returned goods">Información del detalle sobre los productos devueltos.</value>
@@ -5309,10 +5309,10 @@ Válido Desde/Hasta es determinado por el impuesto padre.]]></value>
   <value column="Help" original=""/>
  </row>
  <row id="53280" trl="Y">
-  <value column="Name" original="Vendor RMA">Autorización Devolución Cliente</value>
+  <value column="Name" original="Vendor RMA">Autorización Devolución Proveedor</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Vendor Return Material Authorization">Autorización Devolución Cliente</value>
-  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">Una autorización de devolución se erquiere para aceptar devoluciones y para crear notas crédito</value>
+  <value column="Description" original="Vendor Return Material Authorization">Autorización Devolución Proveedor</value>
+  <value column="Help" original="A Return Material Authorization may be required to accept returns and to create Credit Memos">Una autorización de devolución se requiere para aceptar devoluciones y para crear notas crédito</value>
  </row>
  <row id="53281" trl="Y">
   <value column="Name" original="RMA Line">Línea Autorización Devolución</value>

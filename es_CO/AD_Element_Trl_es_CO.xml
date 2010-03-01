@@ -17180,8 +17180,8 @@ Si usted define una relación aquí, usted sobreescribe el tipo de documento del
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2521" trl="Y">
-  <value column="Name" original="Pick/QA Confirmation">Conformación Cant/Recolección</value>
-  <value column="PrintName" original="Pick/QA Confirm">Conformación Cant/Recolección</value>
+  <value column="Name" original="Pick/QA Confirmation">Confirmación Cant/Recolección</value>
+  <value column="PrintName" original="Pick/QA Confirm">Confirmación Cant/Recolección</value>
   <value column="Description" original="Require Pick or QA Confirmation before processing">Requiere la selección o A.C. para confirmación antes de procesar</value>
   <value column="Help" original="The processing of the Shipment (Receipt) requires Pick (QA) Confirmation. Note that shipments for automatic documents like POS/Warehouse Orders cannot have confirmations!">El proceso del envío (recibo) requiere la selección de confirmación de (A.C.).</value>
   <value column="PO_Description" original=""/>
@@ -17190,8 +17190,8 @@ Si usted define una relación aquí, usted sobreescribe el tipo de documento del
   <value column="PO_PrintName" original=""/>
  </row>
  <row id="2522" trl="Y">
-  <value column="Name" original="Ship/Receipt Confirmation">Confirmación entrega/Recibo</value>
-  <value column="PrintName" original="Ship/Receipt Confirm">Confirmación entrega/Recibo</value>
+  <value column="Name" original="Ship/Receipt Confirmation">Confirmación Entrega/Recibo</value>
+  <value column="PrintName" original="Ship/Receipt Confirm">Confirmación Entrega/Recibo</value>
   <value column="Description" original="Require Ship or Receipt Confirmation before processing">Requiere la confirmación de la entrega o del recibo antes de procesar</value>
   <value column="Help" original="The processing of the Shipment (Receipt) requires Ship (Receipt) Confirmation. Note that shipments for automatic documents like POS/Warehouse Orders cannot have confirmations!">El proceso del envío (recibo) requiere la confirmación de la entrega (recibo)</value>
   <value column="PO_Description" original=""/>
