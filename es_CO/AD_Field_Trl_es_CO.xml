@@ -39,7 +39,7 @@
  </row>
  <row id="5092" trl="Y">
   <value column="Name" original="Driving Column">Columna Conductora</value>
-  <value column="Description" original="Column which controls all tabs in the workbench">Columna que controla todas las pestañas en el banco de trabajo.</value>
+  <value column="Description" original="Column which controls all tabs in the workbench">Columna que controla todas las pestañas en la mesa de trabajo.</value>
   <value column="Help" original=""/>
  </row>
  <row id="5899" trl="Y">

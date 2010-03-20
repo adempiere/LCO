@@ -714,7 +714,7 @@
   <value column="Name" original="Desktop">Escritorio</value>
  </row>
  <row id="459" trl="Y">
-  <value column="Name" original="Desktop Workbench">Banco de Trabajo del Escritorio</value>
+  <value column="Name" original="Desktop Workbench">Escritorio Mesa de Trabajo</value>
  </row>
  <row id="460" trl="Y">
   <value column="Name" original="Desktop Trl">Escritorio **</value>
@@ -732,13 +732,13 @@
   <value column="Name" original="User defined Window">Ventana Definida por el Usuario</value>
  </row>
  <row id="468" trl="Y">
-  <value column="Name" original="Workbench">Banco de Trabajo</value>
+  <value column="Name" original="Workbench">Mesa de Trabajo</value>
  </row>
  <row id="469" trl="Y">
-  <value column="Name" original="Workbench Window">Banco de Trabajo de la Ventana</value>
+  <value column="Name" original="Workbench Window">Ventana Mesa de Trabajo</value>
  </row>
  <row id="470" trl="Y">
-  <value column="Name" original="Workbench Trl">Banco de Trabajo **</value>
+  <value column="Name" original="Workbench Trl">Mesa de Trabajo **</value>
  </row>
  <row id="471" trl="Y">
   <value column="Name" original="Cash Detail">RV_Cash_Detail</value>

@@ -510,7 +510,7 @@
  <row id="226" trl="Y">
   <value column="Name" original="Desktop">Escritorio</value>
   <value column="Description" original="Maintain Desktop">Mantener Escritorio</value>
-  <value column="Help" original="Desktop is a collection of Workbenches">Escritorio es un conjunto de bancos de trabajo.</value>
+  <value column="Help" original="Desktop is a collection of Workbenches">Escritorio es un conjunto de mesas de trabajo.</value>
  </row>
  <row id="227" trl="Y">
   <value column="Name" original="System Image">Imagen del Sistema</value>
@@ -528,9 +528,9 @@
   <value column="Help" original="The customization values defined here overwrite/replace the default system definition if defined.">Personalización</value>
  </row>
  <row id="231" trl="Y">
-  <value column="Name" original="Workbench">Banco de Trabajo</value>
-  <value column="Description" original="Maintain Workbench">Mantener Banco de Trabajo</value>
-  <value column="Help" original="Workbenches are a collection of Windows">Bancos de trabajo son un conjunto de ventanas</value>
+  <value column="Name" original="Workbench">Mesa de Trabajo</value>
+  <value column="Description" original="Maintain Workbench">Mantener Mesa de Trabajo</value>
+  <value column="Help" original="Workbenches are a collection of Windows">Mesa de trabajo es un conjunto de ventanas</value>
  </row>
  <row id="232" trl="Y">
   <value column="Name" original="Request (all)">Todas las Solicitudes</value>

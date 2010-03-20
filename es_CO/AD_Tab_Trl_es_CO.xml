@@ -1402,8 +1402,8 @@ Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que los 
  <row id="388" trl="Y">
   <value column="Name" original="Desktop">Escritorio</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Desktop is a collection of Workbenches">Escritorio es una conjunto de bancos de trabajo</value>
-  <value column="Help" original="Desktop is a collection of Workbenches">Escritorio es una colección de bancos de trabajo.</value>
+  <value column="Description" original="Desktop is a collection of Workbenches">Escritorio es una conjunto de mesas de trabajo</value>
+  <value column="Help" original="Desktop is a collection of Workbenches">Escritorio es una colección de mesas de trabajo.</value>
  </row>
  <row id="389" trl="Y">
   <value column="Name" original="Translation">Traducción</value>
@@ -1412,9 +1412,9 @@ Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que los 
   <value column="Help" original=""/>
  </row>
  <row id="390" trl="Y">
-  <value column="Name" original="Workbench">Banco de Trabajo</value>
+  <value column="Name" original="Workbench">Mesa de Trabajo</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workbench on the desktop">Banco de Trabajo en el Escritorio</value>
+  <value column="Description" original="Workbench on the desktop">Mesa de Trabajo en el Escritorio</value>
   <value column="Help" original=""/>
  </row>
  <row id="391" trl="Y">
@@ -1442,9 +1442,9 @@ Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que los 
   <value column="Help" original=""/>
  </row>
  <row id="398" trl="Y">
-  <value column="Name" original="Workbench">Banco de Trabajo</value>
+  <value column="Name" original="Workbench">Mesa de Trabajo</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workbenches are a collection of Windows">Bancos de trabajo son un conjunto de ventanas</value>
+  <value column="Description" original="Workbenches are a collection of Windows">Mesa de trabajo es un conjunto de ventanas</value>
   <value column="Help" original=""/>
  </row>
  <row id="399" trl="Y">
@@ -1456,7 +1456,7 @@ Necesita volver a ingresar y reiniciar su servidor de aplicaciones para que los 
  <row id="400" trl="Y">
   <value column="Name" original="Window">Ventana</value>
   <value column="CommitWarning" original=""/>
-  <value column="Description" original="Workbench Window">Ventana del banco de trabajo</value>
+  <value column="Description" original="Workbench Window">Ventana de la mesa de trabajo</value>
   <value column="Help" original=""/>
  </row>
  <row id="401" trl="Y">

@@ -675,8 +675,8 @@
   <value column="Description" original="Maintain Images and Icons">Mantener Imágenes</value>
  </row>
  <row id="300" trl="Y">
-  <value column="Name" original="Workbench">Banco de Trabajo</value>
-  <value column="Description" original="Maintain Workbench">Mantener Banco de Trabajo</value>
+  <value column="Name" original="Workbench">Mesa Trabajo</value>
+  <value column="Description" original="Maintain Workbench">Mantener Mesa Trabajo</value>
  </row>
  <row id="301" trl="Y">
   <value column="Name" original="Sales">Ventas</value>
