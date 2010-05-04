@@ -2203,7 +2203,7 @@
   <value column="Description" original=""/>
  </row>
  <row id="699" trl="Y">
-  <value column="Name" original="Receivables &amp; Payables"><![CDATA[CxC & CxC]]></value>
+  <value column="Name" original="Receivables &amp; Payables"><![CDATA[CxC & CxP]]></value>
   <value column="Description" original=""/>
  </row>
  <row id="700" trl="Y">
