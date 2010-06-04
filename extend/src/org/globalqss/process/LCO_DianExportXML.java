@@ -164,11 +164,19 @@ public class LCO_DianExportXML  extends SvrProcess {
 		mmDocStream = new FileOutputStream (file_name, false);
 		StreamResult streamResult_menu = new StreamResult(new OutputStreamWriter(mmDocStream,"ISO-8859-1"));
 		SAXTransformerFactory tf_menu = (SAXTransformerFactory) SAXTransformerFactory.newInstance();					
-		tf_menu.setAttribute("indent-number", new Integer(0));
+		try {
+			tf_menu.setAttribute("indent-number", new Integer(0));
+		} catch (Exception e) {
+			// swallow
+		}
 		TransformerHandler mmDoc = tf_menu.newTransformerHandler();	
 		Transformer serializer_menu = mmDoc.getTransformer();	
-		serializer_menu.setOutputProperty(OutputKeys.ENCODING,"ISO-8859-1");	
-		serializer_menu.setOutputProperty(OutputKeys.INDENT,"yes");
+		serializer_menu.setOutputProperty(OutputKeys.ENCODING,"ISO-8859-1");
+		try {
+			serializer_menu.setOutputProperty(OutputKeys.INDENT,"yes");
+		} catch (Exception e) {
+			// swallow
+		}
 		mmDoc.setResult(streamResult_menu);
 		mmDoc.startDocument();
 		AttributesImpl atts = new AttributesImpl();
