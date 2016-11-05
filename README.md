@@ -1,8 +1,8 @@
 # LCO  Localización de ADempiere para Colombia
 
-Esta localización permiet agregar funcionalidad para soportar los requisitos a nivel tributario exigidos por la DIAN
+Esta localización pemite agregar funcionalidad para soportar los requisitos a nivel tributario exigidos por la DIAN
 
-## Instalacón de la localización
+## Instalación de la localización
 
 - Descarga e instala la ultima versión de ADempiere (http://bintray.com/adempiere/Official-Repository/)
 - Cosultar el wiki con los pasos:
