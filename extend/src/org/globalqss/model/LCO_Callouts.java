@@ -113,8 +113,8 @@ public class LCO_Callouts extends CalloutEngine
 			filledName = filledName + " " + ((String) mTab.getValue("FirstName2")).trim();
 		
 		if (filledName != null)
-		//	filledName = filledName + ", "; -- Separa nombres y apellidos con coma
-			filledName = filledName + " ";
+            if  (filledName.length() != 0) 
+            	filledName = filledName + " ";
 		
 		if (mTab.getValue("LastName1") != null)
 			filledName = filledName + ((String) mTab.getValue("LastName1")).trim();
