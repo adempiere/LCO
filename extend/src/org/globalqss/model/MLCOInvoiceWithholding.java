@@ -20,6 +20,7 @@ import java.sql.ResultSet;
 import java.util.Properties;
 
 import org.compiere.model.MInvoice;
+import org.compiere.model.MDocType;
 import org.compiere.util.CLogger;
 
 /**
@@ -80,8 +81,18 @@ public class MLCOInvoiceWithholding extends X_LCO_InvoiceWithholding
 			// Fill isCalcOnPayment according to isSOTrx on type
 			X_LCO_WithholdingType wt = new X_LCO_WithholdingType (getCtx(), getLCO_WithholdingType_ID(), get_TrxName());
 			// set on payment for sales, and on invoice for purchases
-			setIsCalcOnPayment(wt.isSOTrx());
-
+			//OSG 
+			MInvoice inv = new MInvoice(getCtx(), getC_Invoice_ID(), get_TrxName());
+			MDocType doc = new MDocType(getCtx(), inv.getC_DocTypeTarget_ID(), get_TrxName());
+			
+			if (doc.get_Value("GenerateWithholding") == null || doc.get_Value("GenerateWithholding").toString() != "A") 
+			{
+				setIsCalcOnPayment(false);
+			}
+			else
+			{	
+				setIsCalcOnPayment(wt.isSOTrx());
+			}
 		}
 
 		// Fill DateTrx and DateAcct for isCalcOnInvoice according to the invoice
