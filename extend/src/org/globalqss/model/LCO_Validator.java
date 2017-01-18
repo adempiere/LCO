@@ -925,8 +925,8 @@ public class LCO_Validator implements ModelValidator
 			filledName = filledName + " " + bpartner.get_ValueAsString("FirstName2").trim();
 		
 		if (filledName != null)
-		//	filledName = filledName + ", "; -- Separate first and last names with comma
-			filledName = filledName + " ";
+            if  (filledName.length() != 0)
+            	filledName = filledName + " ";
 		
 		filledName = filledName + bpartner.get_ValueAsString("LastName1").trim();
 		if (bpartner.get_Value("LastName2") != null)
