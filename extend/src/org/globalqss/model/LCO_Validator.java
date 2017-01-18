@@ -121,6 +121,12 @@ public class LCO_Validator implements ModelValidator
 				return msg;
 		}
 
+        if (po.get_TableName().equals(MInvoice.Table_Name) && type == ModelValidator.TYPE_AFTER_DELETE) {
+	            msg = clearInvoiceWithholdingFromInvoice((MInvoice) po);
+	            if (msg != null)
+	                return msg;
+	        }
+        
 		// when invoiceline is changed clear the withholding amount on invoice
 		// in order to force a regeneration
 		if (po.get_TableName().equals(MInvoiceLine.Table_Name) &&
@@ -164,6 +170,11 @@ public class LCO_Validator implements ModelValidator
 
 		return null;
 	}	//	modelChange
+
+    private String clearInvoiceWithholdingFromInvoice(MInvoice inv) {
+	        DB.executeUpdateEx("DELETE lco_invoicewithholding WHERE C_Invoice_ID=" + inv.get_ID(), inv.get_TrxName());
+	        return null;
+	    }
 	
 	private String clearInvoiceWithholdingAmtFromInvoice(MInvoice inv) {
 		// Clear invoice withholding amount
