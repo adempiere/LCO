@@ -10,6 +10,12 @@
 				<dcolumn name="Help" class="String" value="Localizacion Colombia incluye las modificaciones necesarias en materia de impuestos para Colombia, manejo de retenciones de IVA, ICA y ReteFte, reporte de medios magnéticos para la DIAN, generación/validación del dígito de verificación del NIT.  Desarrollado por http://globalqss.com"/>
 				<dcolumn name="ModelPackage" class="String" value="org.globalqss.model"/>
 			</drow>
+			<drow name="Localizacion Colombia">
+				<dcolumn name="EntityType" class="String" value="OSG_LCO"/>
+				<dcolumn name="Description" class="String" value="Localizacion Colombia desarrollada por O.S. Group"/>
+				<dcolumn name="Help" class="String" value="Localizacion para Colombia.  Desarrollado por http://www.osgroup.co"/>
+				<dcolumn name="ModelPackage" class="String" value="org.osgroup.model"/>
+			</drow>			
 		</dtable>
 		<!-- Model Validator -->
 		<dtable name="AD_ModelValidator">
@@ -17,6 +23,10 @@
 				<dcolumn name="EntityType" class="String" value="QSS_LCO"/>
 				<dcolumn name="ModelValidationClass" class="String" value="org.globalqss.model.LCO_Validator"/>
 			</drow>
+			<drow name="Model Validator para Localizacion Colombia">
+				<dcolumn name="EntityType" class="String" value="OSG_LCO"/>
+				<dcolumn name="ModelValidationClass" class="String" value="org.osgroup.model.LCO_Validator"/>
+			</drow>			
 		</dtable>
 	</data>
 	<!-- Messages -->
@@ -319,6 +329,7 @@
 		<column ADColumnNameID="WithholdingAmt" ADProcessNameID="" ADElementNameID="Withholding Amount" ADReferenceNameID="Amount" ADReferenceNameValueID="" ADTableNameID="C_Invoice" ADValRuleNameID="" Callout="" ColumnSQL="" ColumnName="WithholdingAmt" DefaultValue="" Description="" EntityType="QSS_LCO" FieldLength="22" Help="" isAlwaysUpdateable="false" isIdentifier="false" isKey="false" isMandatory="false" isParent="false" isSelectionColumn="false" isActive="true" isTranslated="false" isUpdateable="true" Name="Withholding Amount" getIsSyncDatabase="Y" ReadOnlyLogic="" SeqNo="0" VFormat="" ValueMax="" ValueMin="" Version="0"/>
 		<process Name="Generate Withholding" ADWorkflowNameID="" ADProcessNameID="Generate Withholding" ADPrintFormatNameID="" ADReportViewNameID="" AccessLevel="3" Classname="org.globalqss.process.LCO_GenerateWithholding" Description="" EntityType="QSS_LCO" Help="" isBetaFunctionality="false" isDirectPrint="false" isReport="false" isActive="true" ProcedureName="" StatisticCount="0" StatisticSeconds="0" Value="LCO_GenerateWithholding" WorkflowValue=""/>
 		<column ADColumnNameID="GenerateWithholding" ADProcessNameID="Generate Withholding" ADElementNameID="Generate Withholding" ADReferenceNameID="Button" ADReferenceNameValueID="" ADTableNameID="C_Invoice" ADValRuleNameID="" Callout="" ColumnSQL="" ColumnName="GenerateWithholding" DefaultValue="" Description="" EntityType="QSS_LCO" FieldLength="1" Help="" isAlwaysUpdateable="false" isIdentifier="false" isKey="false" isMandatory="false" isParent="false" isSelectionColumn="false" isActive="true" isTranslated="false" isUpdateable="true" Name="Generate Withholding" getIsSyncDatabase="Y" ReadOnlyLogic="" SeqNo="0" VFormat="" ValueMax="" ValueMin="" Version="0"/>
+		<column ADColumnNameID="DocumentNote" ADProcessNameID="" ADElementNameID="Document Note" ADReferenceNameID="Text" ADReferenceNameValueID="" ADTableNameID="C_Invoice" ADValRuleNameID="" Callout="" ColumnSQL="" ColumnName="DocumentNote" DefaultValue="" Description="" EntityType="OSG_LCO" FieldLength="2000" Help="" isAlwaysUpdateable="false" isIdentifier="false" isKey="false" isMandatory="false" isParent="false" isSelectionColumn="false" isActive="true" isTranslated="false" isUpdateable="true" Name="Document Note" getIsSyncDatabase="Y" ReadOnlyLogic="" SeqNo="0" VFormat="" ValueMax="" ValueMin="" Version="0"/>
 	</table>
 	<table Name="Tax Category" ADTableNameID="C_TaxCategory" EntityType="D">
 		<column ADColumnNameID="IsWithholding" ADProcessNameID="" ADElementNameID="Is Withholding" ADReferenceNameID="Yes-No" ADReferenceNameValueID="" ADTableNameID="C_TaxCategory" ADValRuleNameID="" Callout="" ColumnSQL="" ColumnName="IsWithholding" DefaultValue="N" Description="" EntityType="QSS_LCO" FieldLength="1" Help="" isAlwaysUpdateable="false" isIdentifier="false" isKey="false" isMandatory="false" isParent="false" isSelectionColumn="false" isActive="true" isTranslated="false" isUpdateable="true" Name="Is Withholding" getIsSyncDatabase="Y" ReadOnlyLogic="" SeqNo="0" VFormat="" ValueMax="" ValueMin="" Version="0"/>
@@ -368,6 +379,8 @@
 	<window ADWindowNameID="Document Type" EntityType="D">
 		<tab Name="Document Type" EntityType="D">
 			<field ADColumnNameID="GenerateWithholding" ADTableNameID="C_DocType" ADFieldGroupNameID="" ADFieldNameID="Generate Withholding" ADTabNameID="Document Type" ADWindowNameID="Document Type" EntityType="QSS_LCO" Name="Generate Withholding" SameLine="false" isCentrallyMaintained="true" Displayed="true" isActive="true" isEncrypted="false" isFieldOnly="false" isHeading="false" isReadOnly="false" SeqNo="302" DisplayLength="1" Description="" Help="" SortNo="0" DisplayLogic="@DocBaseType@='API' | @DocBaseType@='APC' | @DocBaseType@='ARI' | @DocBaseType@='ARC'" ObscureType="" ADReferenceNameID="" ADValRuleNameID="" ADReferenceNameValueID="" InfoFactoryClass=""/>
+			<field ADColumnNameID="ValidTo" ADTableNameID="C_DocType" ADFieldGroupNameID="" ADFieldNameID="Valid to" ADTabNameID="Document Type" ADWindowNameID="Document Type" EntityType="OSG_LCO" Name="Valid to" SameLine="false" isCentrallyMaintained="true" Displayed="true" isActive="true" isEncrypted="false" isFieldOnly="false" isHeading="false" isReadOnly="false" SeqNo="71" DisplayLength="7" Description="" Help="" SortNo="0" DisplayLogic="@DocBaseType@='ARI'" ObscureType="" ADReferenceNameID="" ADValRuleNameID="" ADReferenceNameValueID="" InfoFactoryClass=""/>
+			<field ADColumnNameID="MaxValue" ADTableNameID="C_DocType" ADFieldGroupNameID="" ADFieldNameID="Max Value" ADTabNameID="Document Type" ADWindowNameID="Document Type" EntityType="OSG_LCO" Name="Max Value" SameLine="false" isCentrallyMaintained="true" Displayed="true" isActive="true" isEncrypted="false" isFieldOnly="false" isHeading="false" isReadOnly="false" SeqNo="72" DisplayLength="10" Description="" Help="" SortNo="0" DisplayLogic="@DocBaseType@='ARI'" ObscureType="" ADReferenceNameID="" ADValRuleNameID="" ADReferenceNameValueID="" InfoFactoryClass=""/>
 		</tab>
 	</window>
 	<window ADWindowNameID="Invoice (Customer)" EntityType="D">
