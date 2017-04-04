@@ -174,7 +174,7 @@ public class LCO_Validator implements ModelValidator
 
 	private String MInvoice_Before_Prepare(MInvoice invoice) {
 		//Valida si los tipos de documento con tipo de documento base Factura de CxC tienen fecha y consecutivo vigente
-		if ( invoice.getC_DocType().getDocBaseType().compareTo("ARI") == 0 ){
+		if ( invoice.getC_DocTypeTarget().getDocBaseType().compareTo("ARI") == 0 ){
 			MDocType dt = MDocType.get(invoice.getCtx(), invoice.getC_DocTypeTarget_ID());
 			
 			if ( dt.get_Value("ValidTo") != null ){
@@ -204,7 +204,7 @@ public class LCO_Validator implements ModelValidator
 
 	private String C_PaymentAllocate_AfterSaveChange(MPaymentAllocate paymentallocate){
 		//permite totalizar el monto a pagar cuando se agregan varias facturas a un pago
-		if ( MSysConfig.getValue("SUM_PAY_AMT", "N", getAD_Client_ID() ).compareTo("N") == 0 ){
+		if ( MSysConfig.getValue("SUM_PAY_AMT", "N", getAD_Client_ID() ).compareTo("N") != 0 ){
 			MPayment payment = new MPayment(paymentallocate.getCtx(), paymentallocate.getC_Payment_ID(), paymentallocate.get_TrxName()) ;
 			
 			List<MPaymentAllocate> list = new Query(paymentallocate.getCtx(), paymentallocate.Table_Name, "C_Payment_ID=?", paymentallocate.get_TrxName())
@@ -227,10 +227,6 @@ public class LCO_Validator implements ModelValidator
 
 	private String MPayment_After_ReverserCorrect(MPayment payment){
 		//Evita que se consuma un consecutivo al anular un documento tipo pago 
-		MDocType  document = MDocType.get(payment.getCtx(),payment.getC_DocType_ID());
-		MSequence sequence   = new MSequence(payment.getCtx(),document.getDefiniteSequence_ID(),payment.get_TrxName());
-		sequence.setCurrentNext(sequence.getCurrentNext() -1);
-		sequence.saveEx();
 
 		MPayment reversal = new MPayment(payment.getCtx(), payment.getReversal_ID(), payment.get_TrxName()) ;
 		if(reversal != null)
@@ -244,13 +240,24 @@ public class LCO_Validator implements ModelValidator
 		 reversal.saveEx();
 		}
 
+		MDocType  document = MDocType.get(payment.getCtx(),payment.getC_DocType_ID());
+		MSequence sequence = null;
+		if ( document.get_ValueAsBoolean("IsOverwriteSeqOnComplete") ){
+			sequence   = new MSequence(payment.getCtx(),document.getDefiniteSequence_ID(),payment.get_TrxName());
+			sequence.setCurrentNext(sequence.getCurrentNext() -1);
+			sequence.saveEx();
+		}
+		/*else{
+			sequence   = new MSequence(payment.getCtx(),document.getDocNoSequence_ID(),payment.get_TrxName());
+		}*/
+		
 	return "";
 }
 
 	
 	private String MInvoice_After_ReverserCorrect(MInvoice invoice){
 		//Evita que se consuma un consecutivo al anular un documento tipo factura 
-	    MDocType  document = MDocType.get(invoice.getCtx(),invoice.getC_DocType_ID());
+	    MDocType  document = MDocType.get(invoice.getCtx(),invoice.getC_DocTypeTarget_ID());
 
 	    MSequence defsequence   = new MSequence(invoice.getCtx(),document.getDefiniteSequence_ID(),invoice.get_TrxName());
 	    
