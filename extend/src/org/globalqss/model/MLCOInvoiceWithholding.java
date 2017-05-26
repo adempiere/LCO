@@ -87,7 +87,17 @@ public class MLCOInvoiceWithholding extends X_LCO_InvoiceWithholding
 			
 			if (doc.get_Value("GenerateWithholding") == null || doc.get_Value("GenerateWithholding").toString() != "A") 
 			{
-				setIsCalcOnPayment(false);
+				X_LCO_WithholdingRule wr = new X_LCO_WithholdingRule(getCtx(), getLCO_WithholdingRule_ID(), get_TrxName());
+				X_LCO_WithholdingCalc wc = new X_LCO_WithholdingCalc(getCtx(), wr.getLCO_WithholdingCalc_ID(), get_TrxName());
+				
+				if ( getCreatedIn().compareTo("I") == 0 ) {
+					setIsCalcOnPayment( false );
+				}
+				else 
+				{
+					setIsCalcOnPayment( true );
+				}
+				
 			}
 			else
 			{	

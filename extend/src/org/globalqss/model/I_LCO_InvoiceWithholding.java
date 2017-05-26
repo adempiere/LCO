@@ -1,6 +1,6 @@
 /******************************************************************************
- * Product: Adempiere ERP & CRM Smart Business Solution                       *
- * Copyright (C) 1999-2007 ComPiere, Inc. All Rights Reserved.                *
+ * Product: ADempiere ERP & CRM Smart Business Solution                       *
+ * Copyright (C) 2006-2016 ADempiere Foundation, All Rights Reserved.         *
  * This program is free software, you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
  * by the Free Software Foundation. This program is distributed in the hope   *
@@ -11,8 +11,7 @@
  * with this program, if not, write to the Free Software Foundation, Inc.,    *
  * 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.                     *
  * For the text or an alternative of this public license, you may reach us    *
- * ComPiere, Inc., 2620 Augustine Dr. #245, Santa Clara, CA 95054, USA        *
- * or via info@compiere.org or http://www.compiere.org/license.html           *
+ * or via info@adempiere.net or http://www.adempiere.net/license.html         *
  *****************************************************************************/
 package org.globalqss.model;
 
@@ -23,7 +22,7 @@ import org.compiere.util.KeyNamePair;
 
 /** Generated Interface for LCO_InvoiceWithholding
  *  @author Adempiere (generated) 
- *  @version Release 3.6.0LTS
+ *  @version Release 3.9.0
  */
 public interface I_LCO_InvoiceWithholding 
 {
@@ -76,7 +75,7 @@ public interface I_LCO_InvoiceWithholding
 	  */
 	public int getC_AllocationLine_ID();
 
-	public I_C_AllocationLine getC_AllocationLine() throws RuntimeException;
+	public org.compiere.model.I_C_AllocationLine getC_AllocationLine() throws RuntimeException;
 
     /** Column name C_Invoice_ID */
     public static final String COLUMNNAME_C_Invoice_ID = "C_Invoice_ID";
@@ -91,7 +90,7 @@ public interface I_LCO_InvoiceWithholding
 	  */
 	public int getC_Invoice_ID();
 
-	public I_C_Invoice getC_Invoice() throws RuntimeException;
+	public org.compiere.model.I_C_Invoice getC_Invoice() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -109,6 +108,15 @@ public interface I_LCO_InvoiceWithholding
 	  */
 	public int getCreatedBy();
 
+    /** Column name CreatedIn */
+    public static final String COLUMNNAME_CreatedIn = "CreatedIn";
+
+	/** Set Creado en	  */
+	public void setCreatedIn (String CreatedIn);
+
+	/** Get Creado en	  */
+	public String getCreatedIn();
+
     /** Column name C_Tax_ID */
     public static final String COLUMNNAME_C_Tax_ID = "C_Tax_ID";
 
@@ -122,7 +130,7 @@ public interface I_LCO_InvoiceWithholding
 	  */
 	public int getC_Tax_ID();
 
-	public I_C_Tax getC_Tax() throws RuntimeException;
+	public org.compiere.model.I_C_Tax getC_Tax() throws RuntimeException;
 
     /** Column name DateAcct */
     public static final String COLUMNNAME_DateAcct = "DateAcct";
