@@ -32,6 +32,8 @@ import org.compiere.model.PO;
 import org.compiere.model.Query;
 import org.compiere.util.CLogger;
 import org.compiere.util.Env;
+import org.globalqss.model.MLCOInvoiceWithholding;
+
 import compiere.model.MyValidator;
 
 /**
@@ -137,7 +139,15 @@ public class LCO_Validator implements ModelValidator
 				error = MPayment_After_ReverserCorrect(payment);
 			}	
 		}
-
+		
+		if (timing == TIMING_BEFORE_PREPARE ) 
+		{
+			if (po.get_TableName().equals(MPayment.Table_Name))
+			{
+				MPayment payment = (MPayment)po;
+				error = MPayment_BeforePrepare(payment);
+			}	
+		}
 		
 		return error;			
 	}	//	docValidate
@@ -204,7 +214,7 @@ public class LCO_Validator implements ModelValidator
 
 	private String C_PaymentAllocate_AfterSaveChange(MPaymentAllocate paymentallocate){
 		//permite totalizar el monto a pagar cuando se agregan varias facturas a un pago
-		if ( MSysConfig.getValue("SUM_PAY_AMT", "N", getAD_Client_ID() ).compareTo("N") != 0 ){
+		if ( MSysConfig.getValue("SUM_PAY_AMT", "S", getAD_Client_ID(), getAD_Client_ID() ).compareTo("N") != 0 ){
 			MPayment payment = new MPayment(paymentallocate.getCtx(), paymentallocate.getC_Payment_ID(), paymentallocate.get_TrxName()) ;
 			
 			List<MPaymentAllocate> list = new Query(paymentallocate.getCtx(), paymentallocate.Table_Name, "C_Payment_ID=?", paymentallocate.get_TrxName())
@@ -220,6 +230,49 @@ public class LCO_Validator implements ModelValidator
 			payment.setPayAmt(total);
 			payment.save();
 		}
+		return "";
+	}
+
+	private String MPayment_BeforePrepare(MPayment payment){
+		//permite totalizar el monto a ajustar cuando se agregan varias retenciones a un pago
+	
+		List<MLCOInvoiceWithholding> list = new Query(payment.getCtx(), MLCOInvoiceWithholding.Table_Name, "IsCalcOnPayment ='Y' AND C_Invoice_ID=?", payment.get_TrxName())
+	    .setClient_ID()
+	    .setParameters( payment.getC_Invoice_ID())
+	    .list();
+		
+		boolean isPaymentAllocate = false;
+		
+		if ( list.isEmpty() ){
+			 list = new Query(payment.getCtx(), MLCOInvoiceWithholding.Table_Name, "IsCalcOnPayment ='Y' AND C_Invoice_ID IN (SELECT C_Invoice_ID FROM C_PaymentAllocate WHERE C_Payment_ID = ?)", payment.get_TrxName())
+		    .setClient_ID()
+		    .setParameters( payment.getC_Payment_ID())
+		    .list();
+			 isPaymentAllocate = true;
+		}
+		
+		
+		BigDecimal total = Env.ZERO;
+		for (MLCOInvoiceWithholding iwline : list){
+			total = total.add( iwline.getTaxAmt());
+			if ( isPaymentAllocate ){
+				MPaymentAllocate paymentAllocate = new Query(payment.getCtx(), MPaymentAllocate.Table_Name, "C_Payment_ID =? AND C_Invoice_ID=?", payment.get_TrxName())
+			    .setClient_ID()
+			    .setParameters( payment.getC_Payment_ID(), iwline.getC_Invoice_ID() )
+			    .firstOnly();
+				paymentAllocate.setAmount( paymentAllocate.getAmount().subtract( iwline.getTaxAmt() ) );
+				paymentAllocate.setWriteOffAmt( paymentAllocate.getWriteOffAmt().add( iwline.getTaxAmt() ) );
+				paymentAllocate.save();
+				
+			}
+		
+		}
+		
+		
+		
+		payment.setPayAmt(payment.getPayAmt().subtract(total));
+		payment.setWriteOffAmt(total);
+		payment.save();
 		return "";
 	}
 
