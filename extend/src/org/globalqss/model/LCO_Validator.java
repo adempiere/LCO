@@ -646,7 +646,17 @@ public class LCO_Validator implements ModelValidator
 							foundflwriteoff = true;
 							// old balance = DB - CR
 							//BigDecimal balamt = fl.getAmtSourceDr().subtract(fl.getAmtSourceCr());
-							BigDecimal balamt = fl.getAmtSourceCr().subtract(fl.getAmtSourceDr());
+							
+							BigDecimal balamt = Env.ZERO;
+							if (fl.getAmtSourceCr() != Env.ZERO) {
+								balamt = fl.getAmtSourceCr().subtract(fl.getAmtSourceDr());
+							}
+							else{
+								balamt = fl.getAmtSourceDr();
+							}
+							
+							
+							
 							// new balance = old balance +/- tottax
 							BigDecimal newbalamt = Env.ZERO;
 							if (invoice.isSOTrx())

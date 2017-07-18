@@ -269,10 +269,11 @@ public class LCO_Validator implements ModelValidator
 		}
 		
 		
-		
-		payment.setPayAmt(payment.getPayAmt().subtract(total));
-		payment.setWriteOffAmt(total);
-		payment.save();
+		if (isPaymentAllocate){
+			payment.setPayAmt(payment.getPayAmt().subtract(total));
+			payment.setWriteOffAmt(total);
+			payment.save();
+		}
 		return "";
 	}
 
